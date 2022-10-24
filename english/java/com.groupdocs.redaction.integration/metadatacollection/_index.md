@@ -1,7 +1,7 @@
 ---
 title: MetadataCollection
 second_title: GroupDocs.Redaction for Java API Reference
-description: Represents a dictiu043enary of MetadataItem with its title as a key.
+description: Represents a dictionary of MetadataItem with its title as a key.
 type: docs
 weight: 11
 url: /java/com.groupdocs.redaction.integration/metadatacollection/
@@ -12,7 +12,7 @@ java.lang.Object, java.util.AbstractMap, java.util.HashMap
 public class MetadataCollection extends HashMap<String,MetadataItem>
 ```
 
-Represents a dicti\\u043enary of  MetadataItem  with its title as a key.
+Represents a dictionary of  MetadataItem  with its title as a key.
 ## Constructors
 
 | Constructor | Description |

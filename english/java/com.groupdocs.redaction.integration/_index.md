@@ -15,7 +15,7 @@ The package provides interfaces and classes, used to integrate documents of diff
 | Class | Description |
 | --- | --- |
 | [DocumentFormatInstance](../com.groupdocs.redaction.integration/documentformatinstance) | Represents a specific format of a document. |
-| [MetadataCollection](../com.groupdocs.redaction.integration/metadatacollection) | Represents a dicti\\u043enary of  MetadataItem  with its title as a key. |
+| [MetadataCollection](../com.groupdocs.redaction.integration/metadatacollection) | Represents a dictionary of  MetadataItem  with its title as a key. |
 | [MetadataItem](../com.groupdocs.redaction.integration/metadataitem) | Represents an item of metadata, common for all supported formats and used in metadata redactions. |
 | [RecognizedImage](../com.groupdocs.redaction.integration/recognizedimage) | Represents text, extracted from an image as a result of its recognition process. |
 | [RedactableImage](../com.groupdocs.redaction.integration/redactableimage) | Provides facade to all raster image redaction operations. |
