@@ -43,4 +43,3 @@ Adds a specified collection of MetadataItem objects to this instance.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | items | [MetadataCollection](../../com.groupdocs.redaction.integration/metadatacollection) | A collection of MetadataItem instances |
-
