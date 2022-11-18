@@ -1,0 +1,188 @@
+---
+title: Redactor
+second_title: GroupDocs.Redaction لمرجع .NET API
+description: يقوم بتهيئة مثيل جديد منRedactorgroupdocs.redaction/redactor فئة باستخدام مسار الملف.
+type: docs
+weight: 10
+url: /ar/net/groupdocs.redaction/redactor/redactor/
+---
+## Redactor(string) {#constructor_3}
+
+يقوم بتهيئة مثيل جديد من[`Redactor`](../../redactor) فئة باستخدام مسار الملف.
+
+```csharp
+public Redactor(string filePath)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| filePath | String | مسار الملف |
+
+### أمثلة
+
+يوضح المثال التالي كيفية فتح مستند للتنقيح.
+
+```csharp
+using (Redactor redactor = new Redactor(@"C:\sample.pdf"))
+{
+    // هنا يمكننا استخدام مثيل المستند لإجراء التنقيحات
+}
+```
+
+### أنظر أيضا
+
+* class [Redactor](../../redactor)
+* مساحة الاسم [GroupDocs.Redaction](../../redactor)
+* المجسم [GroupDocs.Redaction](../../../)
+
+---
+
+## Redactor(Stream) {#constructor}
+
+يقوم بتهيئة مثيل جديد من[`Redactor`](../../redactor) فئة باستخدام الدفق.
+
+```csharp
+public Redactor(Stream document)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| document | Stream | مصدر تيار الوثيقة |
+
+### أمثلة
+
+يوضح المثال التالي كيفية فتح مستند من الدفق.
+
+```csharp
+using (Stream stream = File.Open(@"C:\\sample.pdf", FileMode.Open, FileAccess.ReadWrite))
+{
+    using (Redactor redactor = new Redactor(stream))
+    {
+        // هنا يمكننا استخدام مثيل المستند لإجراء التنقيحات
+    }
+}
+```
+
+### أنظر أيضا
+
+* class [Redactor](../../redactor)
+* مساحة الاسم [GroupDocs.Redaction](../../redactor)
+* المجسم [GroupDocs.Redaction](../../../)
+
+---
+
+## Redactor(string, LoadOptions) {#constructor_4}
+
+يقوم بتهيئة مثيل جديد من[`Redactor`](../../redactor) فئة لمستند محمي بكلمة مرور باستخدام مساره.
+
+```csharp
+public Redactor(string filePath, LoadOptions loadOptions)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| filePath | String | مسار الملف. |
+| loadOptions | LoadOptions | خيارات ، بما في ذلك كلمة المرور. |
+
+### أنظر أيضا
+
+* class [LoadOptions](../../../groupdocs.redaction.options/loadoptions)
+* class [Redactor](../../redactor)
+* مساحة الاسم [GroupDocs.Redaction](../../redactor)
+* المجسم [GroupDocs.Redaction](../../../)
+
+---
+
+## Redactor(string, LoadOptions, RedactorSettings) {#constructor_5}
+
+يقوم بتهيئة مثيل جديد من[`Redactor`](../../redactor) فئة لمستند محمي بكلمة مرور باستخدام مساره وإعداداته.
+
+```csharp
+public Redactor(string filePath, LoadOptions loadOptions, RedactorSettings settings)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| filePath | String | مسار الملف. |
+| loadOptions | LoadOptions | خيارات تعتمد على الملف ، بما في ذلك كلمة المرور. |
+| settings | RedactorSettings | الإعدادات الافتراضية لعملية التنقيح. |
+
+### أنظر أيضا
+
+* class [LoadOptions](../../../groupdocs.redaction.options/loadoptions)
+* class [RedactorSettings](../../../groupdocs.redaction.options/redactorsettings)
+* class [Redactor](../../redactor)
+* مساحة الاسم [GroupDocs.Redaction](../../redactor)
+* المجسم [GroupDocs.Redaction](../../../)
+
+---
+
+## Redactor(Stream, LoadOptions) {#constructor_1}
+
+يقوم بتهيئة مثيل جديد من[`Redactor`](../../redactor) فئة لمستند محمي بكلمة مرور باستخدام الدفق.
+
+```csharp
+public Redactor(Stream document, LoadOptions loadOptions)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| document | Stream | مصدر دفق الإدخال. |
+| loadOptions | LoadOptions | خيارات ، بما في ذلك كلمة المرور. |
+
+### أمثلة
+
+يوضح المثال التالي كيفية فتح مستندات محمية بكلمة مرور باستخدام LoadOptions.
+
+```csharp
+LoadOptions loadOptions = new LoadOptions("mypassword");
+using (Redactor redactor = new Redactor(@"C:\sample.pdf", loadOptions))
+{
+    // هنا يمكننا استخدام مثيل المستند لإجراء التنقيحات
+}
+```
+
+### أنظر أيضا
+
+* class [LoadOptions](../../../groupdocs.redaction.options/loadoptions)
+* class [Redactor](../../redactor)
+* مساحة الاسم [GroupDocs.Redaction](../../redactor)
+* المجسم [GroupDocs.Redaction](../../../)
+
+---
+
+## Redactor(Stream, LoadOptions, RedactorSettings) {#constructor_2}
+
+يقوم بتهيئة مثيل جديد من[`Redactor`](../../redactor) فئة لمستند محمي بكلمة مرور باستخدام الدفق والإعدادات.
+
+```csharp
+public Redactor(Stream document, LoadOptions loadOptions, RedactorSettings settings)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| document | Stream | مصدر دفق الإدخال. |
+| loadOptions | LoadOptions | خيارات ، بما في ذلك كلمة المرور. |
+| settings | RedactorSettings | الإعدادات الافتراضية لعملية التنقيح. |
+
+### أمثلة
+
+يوضح المثال التالي كيفية فتح مستندات محمية بكلمة مرور باستخدام LoadOptions.
+
+```csharp
+LoadOptions loadOptions = new LoadOptions("mypassword");
+using (Redactor redactor = new Redactor(@"C:\sample.pdf", loadOptions))
+{
+    // هنا يمكننا استخدام مثيل المستند لإجراء التنقيحات
+}
+```
+
+### أنظر أيضا
+
+* class [LoadOptions](../../../groupdocs.redaction.options/loadoptions)
+* class [RedactorSettings](../../../groupdocs.redaction.options/redactorsettings)
+* class [Redactor](../../redactor)
+* مساحة الاسم [GroupDocs.Redaction](../../redactor)
+* المجسم [GroupDocs.Redaction](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Redaction.dll -->
