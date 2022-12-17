@@ -1,14 +1,14 @@
 ---
 title: MetadataCollection
 second_title: GroupDocs.Redaction for .NET API Reference
-description: Represents a dictiоnary of MetadataItem./metadataitem with its title as a key.
+description: Represents a dictionary of MetadataItem./metadataitem with its title as a key.
 type: docs
 weight: 200
 url: /net/groupdocs.redaction.integration/metadatacollection/
 ---
 ## MetadataCollection class
 
-Represents a dictiоnary of [`MetadataItem`](../metadataitem) with its title as a key.
+Represents a dictionary of [`MetadataItem`](../metadataitem) with its title as a key.
 
 ```csharp
 public class MetadataCollection : Dictionary<string, MetadataItem>

@@ -13,7 +13,7 @@ The Integration namespace provides interfaces and classes, used to integrate doc
 | Class | Description |
 | --- | --- |
 | [DocumentFormatInstance](./documentformatinstance) | Represents a specific format of a document. Implement this class to add your own document types. |
-| [MetadataCollection](./metadatacollection) | Represents a dictiоnary of [`MetadataItem`](../groupdocs.redaction.integration/metadataitem) with its title as a key. |
+| [MetadataCollection](./metadatacollection) | Represents a dictionary of [`MetadataItem`](../groupdocs.redaction.integration/metadataitem) with its title as a key. |
 | [MetadataItem](./metadataitem) | Represents an item of metadata, common for all supported formats and used in metadata redactions. |
 ## Interfaces
 
