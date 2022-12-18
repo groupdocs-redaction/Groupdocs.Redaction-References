@@ -3,7 +3,7 @@ title: RedactorSettings
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents redaction settings allowing to customize the redaction process.
 type: docs
-weight: 350
+weight: 360
 url: /net/groupdocs.redaction.options/redactorsettings/
 ---
 ## RedactorSettings class

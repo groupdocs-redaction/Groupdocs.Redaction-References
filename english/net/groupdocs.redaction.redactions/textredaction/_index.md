@@ -3,7 +3,7 @@ title: TextRedaction
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents a base abstract class for document text redactions.
 type: docs
-weight: 630
+weight: 640
 url: /net/groupdocs.redaction.redactions/textredaction/
 ---
 ## TextRedaction class

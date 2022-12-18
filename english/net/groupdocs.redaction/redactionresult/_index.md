@@ -3,7 +3,7 @@ title: RedactionResult
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents a result of the redaction operation.
 type: docs
-weight: 410
+weight: 420
 url: /net/groupdocs.redaction/redactionresult/
 ---
 ## RedactionResult class

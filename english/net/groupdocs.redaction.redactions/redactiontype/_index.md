@@ -3,7 +3,7 @@ title: RedactionType
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents a type of documents data affected by redaction.
 type: docs
-weight: 570
+weight: 580
 url: /net/groupdocs.redaction.redactions/redactiontype/
 ---
 ## RedactionType enumeration

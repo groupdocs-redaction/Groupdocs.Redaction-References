@@ -28,6 +28,7 @@ The Options namespace provides load and save options classes.
 
 | Enumeration | Description |
 | --- | --- |
+| [AdvancedRasterizationOptions](./advancedrasterizationoptions) | Flags enumeration to manage the advanced rasterization options to be applied. |
 | [PdfComplianceLevel](./pdfcompliancelevel) | Represents a list of supported PDF compliance levels. |
 | [PreviewOptions.PreviewFormats](./previewoptions.previewformats) | Represents supported preview formats. |
 
