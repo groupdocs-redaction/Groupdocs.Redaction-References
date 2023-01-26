@@ -3,7 +3,7 @@ title: RedactionPolicy
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents a sanitization policy containing a set of specific redactions to apply.
 type: docs
-weight: 400
+weight: 410
 url: /net/groupdocs.redaction/redactionpolicy/
 ---
 ## RedactionPolicy class

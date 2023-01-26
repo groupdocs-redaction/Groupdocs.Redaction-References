@@ -3,7 +3,7 @@ title: RedactionActionType
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents actions that can be taken to perform redaction.
 type: docs
-weight: 550
+weight: 560
 url: /net/groupdocs.redaction.redactions/redactionactiontype/
 ---
 ## RedactionActionType enumeration

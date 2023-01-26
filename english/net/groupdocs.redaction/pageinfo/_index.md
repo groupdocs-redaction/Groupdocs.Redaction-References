@@ -3,7 +3,7 @@ title: PageInfo
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents a brief page information.
 type: docs
-weight: 380
+weight: 390
 url: /net/groupdocs.redaction/pageinfo/
 ---
 ## PageInfo class

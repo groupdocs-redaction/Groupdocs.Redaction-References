@@ -3,7 +3,7 @@ title: CellFilter
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Provides an option to limit the scope of a CellColumnRedaction./cellcolumnredaction to a worksheet and a column.
 type: docs
-weight: 450
+weight: 460
 url: /net/groupdocs.redaction.redactions/cellfilter/
 ---
 ## CellFilter class
