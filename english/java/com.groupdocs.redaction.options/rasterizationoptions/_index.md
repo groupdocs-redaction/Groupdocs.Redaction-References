@@ -43,6 +43,9 @@ Provides options for converting files into PDF.
 | [isPageCountSet()](#isPageCountSet--) | Gets a value indicating whether the PageCount property was changed (set) after its initialization. |
 | [getCompliance()](#getCompliance--) | Gets the PDF Compliance level. |
 | [setCompliance(PdfComplianceLevel value)](#setCompliance-com.groupdocs.redaction.options.PdfComplianceLevel-) | Sets the PDF Compliance level. |
+| [hasAdvancedOptions()](#hasAdvancedOptions--) | Gets an indicator, which is true if advanced rasterization options are set. |
+| [addAdvancedOption(int optionType)](#addAdvancedOption-int-) | You can use this method to register an advanced rasterization option to apply. |
+| [addAdvancedOption(int optionType, System.Collections.Generic.Dictionary<String,String> parameters)](#addAdvancedOption-int-com.aspose.ms.System.Collections.Generic.Dictionary-java.lang.String-java.lang.String--) | You can use this method to register an advanced rasterization option to apply. |
 ### RasterizationOptions() {#RasterizationOptions--}
 ```
 public RasterizationOptions()
@@ -162,4 +165,41 @@ Sets the PDF Compliance level.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [PdfComplianceLevel](../../com.groupdocs.redaction.options/pdfcompliancelevel) | The PDF Compliance level. |
+
+### hasAdvancedOptions() {#hasAdvancedOptions--}
+```
+public final boolean hasAdvancedOptions()
+```
+
+
+Gets an indicator, which is true if advanced rasterization options are set.
+
+**Returns:**
+boolean - An indicator, which is true if advanced rasterization options are set.
+### addAdvancedOption(int optionType) {#addAdvancedOption-int-}
+```
+public final void addAdvancedOption(int optionType)
+```
+
+
+You can use this method to register an advanced rasterization option to apply.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| optionType | int | Provides information about the selected effect type (grayscale, border, etc.) |
+
+### addAdvancedOption(int optionType, System.Collections.Generic.Dictionary<String,String> parameters) {#addAdvancedOption-int-com.aspose.ms.System.Collections.Generic.Dictionary-java.lang.String-java.lang.String--}
+```
+public final void addAdvancedOption(int optionType, System.Collections.Generic.Dictionary<String,String> parameters)
+```
+
+
+You can use this method to register an advanced rasterization option to apply.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| optionType | int | Provides information about the selected effect type (grayscale, border, etc.) |
+| parameters | com.aspose.ms.System.Collections.Generic.Dictionary<java.lang.String,java.lang.String> | Parameters for the given effect, such as rotation angle |
 
