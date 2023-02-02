@@ -3,7 +3,7 @@ title: PdfComplianceLevel
 second_title: GroupDocs.Redaction for Java API Reference
 description: Represents a list of supported PDF compliance levels.
 type: docs
-weight: 18
+weight: 19
 url: /java/com.groupdocs.redaction.options/pdfcompliancelevel/
 ---
 **Inheritance:**

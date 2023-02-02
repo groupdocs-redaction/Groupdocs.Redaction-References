@@ -32,5 +32,6 @@ The package provides load and save options classes.
 
 | Enum | Description |
 | --- | --- |
+| [AdvancedRasterizationOptions](../com.groupdocs.redaction.options/advancedrasterizationoptions) | An enumeration to manage the advanced rasterization options to be applied. |
 | [PdfComplianceLevel](../com.groupdocs.redaction.options/pdfcompliancelevel) | Represents a list of supported PDF compliance levels. |
 | [PreviewFormats](../com.groupdocs.redaction.options/previewformats) | Represents supported preview formats. |

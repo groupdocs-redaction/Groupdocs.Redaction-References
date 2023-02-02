@@ -3,7 +3,7 @@ title: PreviewFormats
 second_title: GroupDocs.Redaction for Java API Reference
 description: Represents supported preview formats.
 type: docs
-weight: 19
+weight: 20
 url: /java/com.groupdocs.redaction.options/previewformats/
 ---
 **Inheritance:**
