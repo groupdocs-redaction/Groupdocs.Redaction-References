@@ -19,13 +19,16 @@ public class LoadOptions
 | Name | Description |
 | --- | --- |
 | [LoadOptions](loadoptions#constructor)() | Initializes a new instance of LoadOptions class. |
-| [LoadOptions](loadoptions#constructor_1)(string) | Initializes a new instance of LoadOptions class with specified password. |
+| [LoadOptions](loadoptions#constructor_1)(bool) | Initializes a new instance of LoadOptions class with specified pre-rasterization flag. |
+| [LoadOptions](loadoptions#constructor_2)(string) | Initializes a new instance of LoadOptions class with specified password. |
+| [LoadOptions](loadoptions#constructor_3)(string, bool) | Initializes a new instance of LoadOptions class with specified password. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
 | [Password](../../groupdocs.redaction.options/loadoptions/password) { get; set; } | Gets or sets a password for password-protected documents. |
+| [PreRasterize](../../groupdocs.redaction.options/loadoptions/prerasterize) { get; set; } | Gets or sets a value, indicating if the file is to be pre-rasterized. |
 
 ### Remarks
 

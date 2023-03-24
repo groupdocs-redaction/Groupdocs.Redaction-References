@@ -22,7 +22,7 @@ public LoadOptions()
 
 ---
 
-## LoadOptions(string) {#constructor_1}
+## LoadOptions(string) {#constructor_2}
 
 Initializes a new instance of LoadOptions class with specified password.
 
@@ -33,6 +33,47 @@ public LoadOptions(string password)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | password | String | Password for protected files |
+
+### See Also
+
+* class [LoadOptions](../../loadoptions)
+* namespace [GroupDocs.Redaction.Options](../../loadoptions)
+* assembly [GroupDocs.Redaction](../../../)
+
+---
+
+## LoadOptions(bool) {#constructor_1}
+
+Initializes a new instance of LoadOptions class with specified pre-rasterization flag.
+
+```csharp
+public LoadOptions(bool preRasterize)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| preRasterize | Boolean | If true, force rasteization on loading |
+
+### See Also
+
+* class [LoadOptions](../../loadoptions)
+* namespace [GroupDocs.Redaction.Options](../../loadoptions)
+* assembly [GroupDocs.Redaction](../../../)
+
+---
+
+## LoadOptions(string, bool) {#constructor_3}
+
+Initializes a new instance of LoadOptions class with specified password.
+
+```csharp
+public LoadOptions(string password, bool preRasterize)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| password | String | Password for protected files |
+| preRasterize | Boolean | If true, force rasteization on loading |
 
 ### See Also
 
