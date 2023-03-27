@@ -3,7 +3,7 @@ title: MetadataRedaction
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Repräsentiert eine abstrakte Basisklasse für das Schwärzen von Dokumentmetadaten.
 type: docs
-weight: 520
+weight: 530
 url: /de/net/groupdocs.redaction.redactions/metadataredaction/
 ---
 ## MetadataRedaction class
@@ -29,7 +29,7 @@ public abstract class MetadataRedaction : Redaction
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zum Schwärzen von Dokumentmetadaten: [Schwärzungen von Metadaten](https://docs.groupdocs.com/redaction/net/metadata-redactions/)
 

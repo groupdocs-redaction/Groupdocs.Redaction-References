@@ -3,7 +3,7 @@ title: TextRedaction
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Repräsentiert eine abstrakte Basisklasse für das Schwärzen von Dokumenttext.
 type: docs
-weight: 630
+weight: 640
 url: /de/net/groupdocs.redaction.redactions/textredaction/
 ---
 ## TextRedaction class
@@ -30,7 +30,7 @@ public abstract class TextRedaction : Redaction
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zum Anwenden von Schwärzungen: [Grundlagen der Redaktion](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Weitere Details zum Schwärzen von Dokumenttexten: [Textredaktionen](https://docs.groupdocs.com/redaction/net/text-redactions/)

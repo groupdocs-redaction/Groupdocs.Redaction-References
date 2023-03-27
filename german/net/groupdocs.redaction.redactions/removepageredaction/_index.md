@@ -3,7 +3,7 @@ title: RemovePageRedaction
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Stellt eine Schwärzung dar die eine Seite Folie Arbeitsblatt usw. aus einem Dokument entfernt.
 type: docs
-weight: 600
+weight: 610
 url: /de/net/groupdocs.redaction.redactions/removepageredaction/
 ---
 ## RemovePageRedaction class
@@ -37,7 +37,7 @@ public class RemovePageRedaction : Redaction
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zum Anwenden von Schwärzungen: [Grundlagen der Redaktion](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Weitere Details zum Entfernen von Seiten: [Seitenschwärzung entfernen](https://docs.groupdocs.com/redaction/net/remove-page-redaction/)

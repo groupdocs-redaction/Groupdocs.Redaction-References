@@ -3,7 +3,7 @@ title: ImageAreaRedaction
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Stellt eine Schwärzung dar die ein farbiges Rechteck in einem bestimmten Bereich eines Bilddokuments platziert.
 type: docs
-weight: 500
+weight: 510
 url: /de/net/groupdocs.redaction.redactions/imagearearedaction/
 ---
 ## ImageAreaRedaction class
@@ -36,7 +36,7 @@ public class ImageAreaRedaction : Redaction
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zum Anwenden von Schwärzungen: [Grundlagen der Redaktion](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Weitere Details zu Bildschwärzung: [Bildredaktionen](https://docs.groupdocs.com/redaction/net/image-redactions/)

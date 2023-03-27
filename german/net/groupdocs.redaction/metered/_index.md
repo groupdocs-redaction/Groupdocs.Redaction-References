@@ -1,14 +1,14 @@
 ---
 title: Metered
 second_title: GroupDocs.Redaction für .NET-API-Referenz
-description: Bietet Methoden die es ermöglichen ein Produkt mit einer gebührenpflichtigen Lizenz zu aktivieren und die verarbeitete MBMenge abzurufen. Erfahren Sie mehr über gebührenpflichtige Lizenzenhierhttps//purchase.groupdocs.com/faqs/licensing/metered .
+description: Bietet Methoden die es ermöglichen ein Produkt mit einer gebührenpflichtigen Lizenz zu aktivieren und die verarbeitete MBMenge abzurufen. Erfahren Sie mehr über gebührenpflichtige LizenzenHierhttps//purchase.groupdocs.com/faqs/licensing/metered .
 type: docs
 weight: 270
 url: /de/net/groupdocs.redaction/metered/
 ---
 ## Metered class
 
-Bietet Methoden, die es ermöglichen, ein Produkt mit einer gebührenpflichtigen Lizenz zu aktivieren und die verarbeitete MB-Menge abzurufen. Erfahren Sie mehr über gebührenpflichtige Lizenzen[hier](https://purchase.groupdocs.com/faqs/licensing/metered) .
+Bietet Methoden, die es ermöglichen, ein Produkt mit einer gebührenpflichtigen Lizenz zu aktivieren und die verarbeitete MB-Menge abzurufen. Erfahren Sie mehr über gebührenpflichtige Lizenzen[Hier](https://purchase.groupdocs.com/faqs/licensing/metered) .
 
 ```csharp
 public class Metered
@@ -30,7 +30,7 @@ public class Metered
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Mehr zur Lizenzierung: [Häufig gestellte Fragen zur GroupDocs-Lizenzierung](https://purchase.groupdocs.com/faqs/licensing)
 * Mehr über**GroupDocs.Redaktion** Lizenzierung: [Bewertungsbeschränkungen und Lizenzierung](https://docs.groupdocs.com/redaction/net/evaluation-limitations-and-licensing/)

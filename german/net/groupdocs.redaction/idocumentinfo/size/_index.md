@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: GroupDocs.Redaction für .NET-API-Referenz
-description: Ruft die Dokumentgröße in Bytes ab.
+description: Ruft die Dokumentgröße in Byte ab.
 type: docs
 weight: 40
 url: /de/net/groupdocs.redaction/idocumentinfo/size/
 ---
 ## IDocumentInfo.Size property
 
-Ruft die Dokumentgröße in Bytes ab.
+Ruft die Dokumentgröße in Byte ab.
 
 ```csharp
 public long Size { get; }

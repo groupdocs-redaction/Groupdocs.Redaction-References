@@ -3,7 +3,7 @@ title: PageSeekOrigin
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Stellt die Felder bereit die Bezugspunkte in einem Dokument zum Suchen darstellen.
 type: docs
-weight: 540
+weight: 550
 url: /de/net/groupdocs.redaction.redactions/pageseekorigin/
 ---
 ## PageSeekOrigin enumeration
@@ -23,7 +23,7 @@ public enum PageSeekOrigin
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zum Entfernen von Seiten: [Seitenschwärzung entfernen](https://docs.groupdocs.com/redaction/net/remove-page-redaction/)
 

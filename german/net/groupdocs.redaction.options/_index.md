@@ -28,6 +28,7 @@ DieOptions Namespace bietet Klassen zum Laden und Speichern von Optionen.
 
 | Aufzählung | Beschreibung |
 | --- | --- |
+| [AdvancedRasterizationOptions](./advancedrasterizationoptions) | Flags-Aufzählung zur Verwaltung der anzuwendenden erweiterten Rasterisierungsoptionen. |
 | [PdfComplianceLevel](./pdfcompliancelevel) | Stellt eine Liste der unterstützten PDF-Konformitätsstufen dar. |
 | [PreviewOptions.PreviewFormats](./previewoptions.previewformats) | Steht für unterstützte Vorschauformate. |
 

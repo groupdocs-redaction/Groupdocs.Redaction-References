@@ -3,7 +3,7 @@ title: RedactorChangeLog
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Stellt Ergebnisse für eine Liste von Schwärzungen dar die an die ApplyMethode von übergeben werdenRedactor./redactor Klasse.
 type: docs
-weight: 660
+weight: 670
 url: /de/net/groupdocs.redaction/redactorchangelog/
 ---
 ## RedactorChangeLog class
@@ -29,7 +29,7 @@ public class RedactorChangeLog
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zu Schwärzungsprotokollen: [Grundlagen der Redaktion](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 

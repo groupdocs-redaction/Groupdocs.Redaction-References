@@ -35,7 +35,7 @@ public class TextFragment
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zur Verwendung von OCR in GroupDocs.Redaction: [Grundlagen der OCR-Nutzung](https://docs.groupdocs.com/redaction/net/ocr-usage-basics/)
 

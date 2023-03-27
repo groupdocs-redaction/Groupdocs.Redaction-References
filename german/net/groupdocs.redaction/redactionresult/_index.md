@@ -3,7 +3,7 @@ title: RedactionResult
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Stellt ein Ergebnis des Schwärzungsvorgangs dar.
 type: docs
-weight: 410
+weight: 420
 url: /de/net/groupdocs.redaction/redactionresult/
 ---
 ## RedactionResult class
@@ -32,7 +32,7 @@ public class RedactionResult
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zu Schwärzungsergebnissen: [Grundlagen der Redaktion](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 

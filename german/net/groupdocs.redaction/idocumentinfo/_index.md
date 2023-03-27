@@ -21,11 +21,11 @@ public interface IDocumentInfo
 | [FileType](../../groupdocs.redaction/idocumentinfo/filetype) { get; } | Ruft die Beschreibung des Dateiformats ab. |
 | [PageCount](../../groupdocs.redaction/idocumentinfo/pagecount) { get; } | Ruft die Gesamtseitenzahl ab. |
 | [Pages](../../groupdocs.redaction/idocumentinfo/pages) { get; } | Ruft die Liste von ab[`PageInfo`](../pageinfo) Seiteninformationen. |
-| [Size](../../groupdocs.redaction/idocumentinfo/size) { get; } | Ruft die Dokumentgröße in Bytes ab. |
+| [Size](../../groupdocs.redaction/idocumentinfo/size) { get; } | Ruft die Dokumentgröße in Byte ab. |
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Dateiinformationen erhalten](https://docs.groupdocs.com/redaction/net/get-file-info/)
 

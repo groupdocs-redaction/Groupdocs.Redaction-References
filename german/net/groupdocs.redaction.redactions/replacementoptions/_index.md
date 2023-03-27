@@ -3,7 +3,7 @@ title: ReplacementOptions
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Repräsentiert Optionen zum Ersetzen von übereinstimmendem Text.
 type: docs
-weight: 610
+weight: 620
 url: /de/net/groupdocs.redaction.redactions/replacementoptions/
 ---
 ## ReplacementOptions class
@@ -31,7 +31,7 @@ public class ReplacementOptions
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zum Schwärzen von Dokumenttexten: [Textredaktionen](https://docs.groupdocs.com/redaction/net/text-redactions/)
 

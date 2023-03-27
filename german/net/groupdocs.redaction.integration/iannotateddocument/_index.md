@@ -23,7 +23,7 @@ public interface IAnnotatedDocument
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zum Anwenden von Schwärzungen: [Grundlagen der Redaktion](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Weitere Details zum Schwärzen von Dokumentanmerkungen: [Anmerkungsredaktionen](https://docs.groupdocs.com/redaction/net/annotation-redactions/)

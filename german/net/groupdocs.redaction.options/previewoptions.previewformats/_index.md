@@ -3,7 +3,7 @@ title: PreviewOptions.PreviewFormats
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Steht für unterstützte Vorschauformate.
 type: docs
-weight: 330
+weight: 340
 url: /de/net/groupdocs.redaction.options/previewoptions.previewformats/
 ---
 ## PreviewOptions.PreviewFormats enumeration

@@ -3,7 +3,7 @@ title: AnnotationRedaction
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Stellt eine Schwärzung dar die Anmerkungstext Kommentare usw. ersetzt der einem bestimmten regulären Ausdruck entspricht.
 type: docs
-weight: 430
+weight: 440
 url: /de/net/groupdocs.redaction.redactions/annotationredaction/
 ---
 ## AnnotationRedaction class
@@ -37,7 +37,7 @@ public class AnnotationRedaction : Redaction
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zum Anwenden von Schwärzungen: [Grundlagen der Redaktion](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Weitere Details zum Schwärzen von Dokumentanmerkungen: [Anmerkungsredaktionen](https://docs.groupdocs.com/redaction/net/annotation-redactions/)

@@ -3,7 +3,7 @@ title: RegionReplacementOptions
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Repräsentiert Farb und Bereichsparameter zum Ersetzen von Bildbereichen. SehenImageAreaRedaction./imagearearedaction .
 type: docs
-weight: 590
+weight: 600
 url: /de/net/groupdocs.redaction.redactions/regionreplacementoptions/
 ---
 ## RegionReplacementOptions class
@@ -30,7 +30,7 @@ public class RegionReplacementOptions
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zu Bildschwärzung: [Bildredaktionen](https://docs.groupdocs.com/redaction/net/image-redactions/)
 

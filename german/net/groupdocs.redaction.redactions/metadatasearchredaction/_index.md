@@ -3,7 +3,7 @@ title: MetadataSearchRedaction
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Stellt eine Metadatenschwärzung dar die Metadaten mithilfe von regulären Ausdrücken übereinstimmenden Schlüsseln und/oder Werten sucht und schwärzt.
 type: docs
-weight: 530
+weight: 540
 url: /de/net/groupdocs.redaction.redactions/metadatasearchredaction/
 ---
 ## MetadataSearchRedaction class
@@ -41,7 +41,7 @@ public class MetadataSearchRedaction : MetadataRedaction
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zum Anwenden von Schwärzungen: [Grundlagen der Redaktion](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Weitere Details zum Schwärzen von Dokumentmetadaten: [Schwärzungen von Metadaten](https://docs.groupdocs.com/redaction/net/metadata-redactions/)

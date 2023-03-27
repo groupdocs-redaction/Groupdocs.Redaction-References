@@ -3,7 +3,7 @@ title: ReleasePageStream
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Stellt eine Methode dar die einen Stream freigibt der von erstellt wurdeCreatePageStream./createpagestream delegieren.
 type: docs
-weight: 360
+weight: 370
 url: /de/net/groupdocs.redaction.options/releasepagestream/
 ---
 ## ReleasePageStream delegate

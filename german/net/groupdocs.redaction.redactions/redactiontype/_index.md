@@ -3,7 +3,7 @@ title: RedactionType
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Stellt einen Typ von Dokumentdaten dar die von der Schwärzung betroffen sind.
 type: docs
-weight: 570
+weight: 580
 url: /de/net/groupdocs.redaction.redactions/redactiontype/
 ---
 ## RedactionType enumeration
@@ -26,7 +26,7 @@ public enum RedactionType
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zur RedactionDescription-Klasse und zur IRedactionCallback-Schnittstelle: [Schwärzungsrückruf verwenden](https://docs.groupdocs.com/redaction/net/use-redaction-callback/)
 

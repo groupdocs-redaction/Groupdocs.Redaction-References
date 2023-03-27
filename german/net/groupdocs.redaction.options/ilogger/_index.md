@@ -3,7 +3,7 @@ title: ILogger
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Definiert die Schnittstelle eines Loggers der zum Protokollieren von Ereignissen und Fehlern im Schwärzungsvorgang verwendet werden kann.
 type: docs
-weight: 290
+weight: 300
 url: /de/net/groupdocs.redaction.options/ilogger/
 ---
 ## ILogger interface
@@ -24,7 +24,7 @@ public interface ILogger
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zur Implementierung der ILogger-Schnittstelle: [Verwenden Sie die erweiterte Protokollierung](https://docs.groupdocs.com/redaction/net/use-advanced-logging/)
 

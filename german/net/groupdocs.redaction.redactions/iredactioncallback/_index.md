@@ -3,7 +3,7 @@ title: IRedactionCallback
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Definiert Methoden die erforderlich sind um Informationen zu jeder Schwärzungsänderung zu erhalten und optional zu verhindern.
 type: docs
-weight: 490
+weight: 500
 url: /de/net/groupdocs.redaction.redactions/iredactioncallback/
 ---
 ## IRedactionCallback interface
@@ -22,7 +22,7 @@ public interface IRedactionCallback
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zur Implementierung der IRedactionCallback-Schnittstelle: [Schwärzungsrückruf verwenden](https://docs.groupdocs.com/redaction/net/use-redaction-callback/)
 

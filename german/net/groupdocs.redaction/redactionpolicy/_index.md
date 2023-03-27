@@ -3,7 +3,7 @@ title: RedactionPolicy
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Stellt eine Bereinigungsrichtlinie dar die eine Reihe spezifischer anzuwendender Schwärzungen enthält.
 type: docs
-weight: 400
+weight: 410
 url: /de/net/groupdocs.redaction/redactionpolicy/
 ---
 ## RedactionPolicy class
@@ -38,7 +38,7 @@ public class RedactionPolicy
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zu Richtlinien: [Verwendung von Schwärzungsrichtlinien](https://docs.groupdocs.com/redaction/net/use-redaction-policies/)
 * Weitere Details zum Anwenden von Schwärzungen: [Grundlagen der Redaktion](https://docs.groupdocs.com/redaction/net/redaction-basics/)

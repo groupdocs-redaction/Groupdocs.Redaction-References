@@ -3,7 +3,7 @@ title: RedactionStatus
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Stellt den Abschlussstatus einer Schwärzung dar.
 type: docs
-weight: 420
+weight: 430
 url: /de/net/groupdocs.redaction/redactionstatus/
 ---
 ## RedactionStatus enumeration
@@ -25,7 +25,7 @@ public enum RedactionStatus
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zum Redaktionsstatus: [Grundlagen der Redaktion](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 

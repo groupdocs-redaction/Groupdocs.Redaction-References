@@ -3,7 +3,7 @@ title: RedactionActionType
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Stellt Aktionen dar die zum Schwärzen durchgeführt werden können.
 type: docs
-weight: 550
+weight: 560
 url: /de/net/groupdocs.redaction.redactions/redactionactiontype/
 ---
 ## RedactionActionType enumeration
@@ -24,7 +24,7 @@ public enum RedactionActionType
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zur RedactionDescription-Klasse und zur IRedactionCallback-Schnittstelle: [Schwärzungsrückruf verwenden](https://docs.groupdocs.com/redaction/net/use-redaction-callback/)
 

@@ -15,7 +15,7 @@ DieRedaction Namespace bietet Klassen zum Schwärzen sensibler Informationen aus
 | [DocumentInfo](./documentinfo) | Stellt eine Information über das Dokument dar. Implementiert die IDocumentInfo-Schnittstelle. Sehen[`IDocumentInfo`](../groupdocs.redaction/idocumentinfo) für Beispiele. |
 | [FileType](./filetype) | Repräsentiert einen Dateityp. Bietet Methoden zum Abrufen einer Liste aller von GroupDocs.Redaction unterstützten Dateitypen, zum Erkennen des Dateityps anhand der Erweiterung usw. |
 | [License](./license) | Bietet Methoden zum Anwenden von Lizenzen. |
-| [Metered](./metered) | Bietet Methoden, die es ermöglichen, ein Produkt mit einer gebührenpflichtigen Lizenz zu aktivieren und die verarbeitete MB-Menge abzurufen. Erfahren Sie mehr über gebührenpflichtige Lizenzen[hier](https://purchase.groupdocs.com/faqs/licensing/metered) . |
+| [Metered](./metered) | Bietet Methoden, die es ermöglichen, ein Produkt mit einer gebührenpflichtigen Lizenz zu aktivieren und die verarbeitete MB-Menge abzurufen. Erfahren Sie mehr über gebührenpflichtige Lizenzen[Hier](https://purchase.groupdocs.com/faqs/licensing/metered) . |
 | [PageInfo](./pageinfo) | Stellt eine kurze Seiteninformation dar. |
 | [Redaction](./redaction) | Repräsentiert eine abstrakte Basisklasse für alle Schwärzungstypen. |
 | [RedactionPolicy](./redactionpolicy) | Stellt eine Bereinigungsrichtlinie dar, die eine Reihe spezifischer anzuwendender Schwärzungen enthält. |

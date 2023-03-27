@@ -3,7 +3,7 @@ title: SaveOptions
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Bietet Optionen zum Ändern eines Ausgabedateinamens und/oder zum Konvertieren des Dokuments in ein bildbasiertes PDF Rasterung.
 type: docs
-weight: 370
+weight: 380
 url: /de/net/groupdocs.redaction.options/saveoptions/
 ---
 ## SaveOptions class
@@ -26,7 +26,7 @@ public class SaveOptions
 | Name | Beschreibung |
 | --- | --- |
 | [AddSuffix](../../groupdocs.redaction.options/saveoptions/addsuffix) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der Dateiname vor dem Speichern geändert werden muss. Standardmäßig falsch. |
-| [Rasterization](../../groupdocs.redaction.options/saveoptions/rasterization) { get; } | Ruft die Rasterisierungseinstellungen ab. |
+| [Rasterization](../../groupdocs.redaction.options/saveoptions/rasterization) { get; } | Ruft die Rasterungseinstellungen ab. |
 | [RasterizeToPDF](../../groupdocs.redaction.options/saveoptions/rasterizetopdf) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob alle Seiten im Dokument in Bilder konvertiert und in eine einzelne PDF-Datei eingefügt werden müssen. |
 | [RedactedFileSuffix](../../groupdocs.redaction.options/saveoptions/redactedfilesuffix) { get; set; } | Ruft ein benutzerdefiniertes Suffix für den Namen der Ausgabedatei ab oder legt es fest. Wenn es nicht angegeben ist, die[`SaveSuffix`](./savesuffix) Konstante wird verwendet. |
 
@@ -38,7 +38,7 @@ public class SaveOptions
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Mit Standardoptionen speichern](https://docs.groupdocs.com/redaction/net/save-with-default-options/)
 * [Als gerastertes PDF speichern](https://docs.groupdocs.com/redaction/net/save-in-rasterized-pdf/)

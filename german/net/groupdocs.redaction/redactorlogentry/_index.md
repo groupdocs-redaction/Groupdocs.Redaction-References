@@ -3,7 +3,7 @@ title: RedactorLogEntry
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Repräsentiert Ergebnisse der Anwendung von Schwärzungen.
 type: docs
-weight: 670
+weight: 680
 url: /de/net/groupdocs.redaction/redactorlogentry/
 ---
 ## RedactorLogEntry class
@@ -29,7 +29,7 @@ public class RedactorLogEntry
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zu Schwärzungsprotokolleinträgen: [Grundlagen der Redaktion](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 

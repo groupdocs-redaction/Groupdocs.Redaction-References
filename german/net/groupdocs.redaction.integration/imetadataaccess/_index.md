@@ -23,7 +23,7 @@ public interface IMetadataAccess
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zum Anwenden von Schwärzungen: [Grundlagen der Redaktion](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Weitere Details zum Schwärzen von Dokumentmetadaten: [Schwärzungen von Metadaten](https://docs.groupdocs.com/redaction/net/metadata-redactions/)
