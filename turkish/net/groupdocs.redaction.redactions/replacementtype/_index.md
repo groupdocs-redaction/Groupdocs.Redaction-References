@@ -3,7 +3,7 @@ title: ReplacementType
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Eşleşen metin için bir değiştirme türünü temsil eder.
 type: docs
-weight: 620
+weight: 630
 url: /tr/net/groupdocs.redaction.redactions/replacementtype/
 ---
 ## ReplacementType enumeration

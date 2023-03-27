@@ -3,7 +3,7 @@ title: ExactPhraseRedaction
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Belge metnindeki tam tümceyi değiştiren bir metin redaksiyonunu temsil eder varsayılan olarak büyük/küçük harf duyarlı değildir.
 type: docs
-weight: 480
+weight: 490
 url: /tr/net/groupdocs.redaction.redactions/exactphraseredaction/
 ---
 ## ExactPhraseRedaction class

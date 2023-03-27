@@ -3,7 +3,7 @@ title: RedactionType
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Redaksiyondan etkilenen bir tür belge verisini temsil eder.
 type: docs
-weight: 570
+weight: 580
 url: /tr/net/groupdocs.redaction.redactions/redactiontype/
 ---
 ## RedactionType enumeration

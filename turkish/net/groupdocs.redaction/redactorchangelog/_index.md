@@ -3,7 +3,7 @@ title: RedactorChangeLog
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Apply yöntemine iletilen redaksiyon listesi sonuçlarını temsil eder.Redactor./redactor sınıf.
 type: docs
-weight: 660
+weight: 670
 url: /tr/net/groupdocs.redaction/redactorchangelog/
 ---
 ## RedactorChangeLog class

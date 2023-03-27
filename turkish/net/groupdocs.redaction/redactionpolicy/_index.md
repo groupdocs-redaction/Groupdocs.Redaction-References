@@ -3,7 +3,7 @@ title: RedactionPolicy
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Uygulanacak bir dizi özel redaksiyon içeren bir temizleme politikasını temsil eder.
 type: docs
-weight: 400
+weight: 410
 url: /tr/net/groupdocs.redaction/redactionpolicy/
 ---
 ## RedactionPolicy class
@@ -45,7 +45,7 @@ public class RedactionPolicy
 
 ### Örnekler
 
-Aşağıdaki örnek, belirli bir gelen klasörü içindeki tüm dosyalara bir redaksiyon ilkesinin nasıl uygulanacağını ve başarıyla güncellenen dosyalar ve başarısız olanlar için giden klasörlerden birine nasıl kaydedileceğini gösterir.
+Aşağıdaki örnek, bir redaksiyon ilkesinin belirli bir gelen klasörü içindeki tüm dosyalara nasıl uygulanacağını ve başarıyla güncellenen dosyalar ve başarısız olanlar için giden klasörlerden birine nasıl kaydedileceğini gösterir.
 
 Aşağıdaki örnek, tüm redaksiyon türleri için örnek yapılandırmalara sahip örnek bir XML ilke dosyası içerir.
 

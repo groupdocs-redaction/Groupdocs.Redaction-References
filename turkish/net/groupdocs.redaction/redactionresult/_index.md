@@ -3,7 +3,7 @@ title: RedactionResult
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Düzeltme işleminin bir sonucunu temsil eder.
 type: docs
-weight: 410
+weight: 420
 url: /tr/net/groupdocs.redaction/redactionresult/
 ---
 ## RedactionResult class

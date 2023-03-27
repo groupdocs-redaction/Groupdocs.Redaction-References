@@ -24,7 +24,7 @@ Redaksiyon politikası
 
 ### Örnekler
 
-Aşağıdaki örnek, belirli bir gelen klasörü içindeki tüm dosyalara bir redaksiyon ilkesinin nasıl uygulanacağını ve başarıyla güncellenen dosyalar ve başarısız olanlar için giden klasörlerden birine nasıl kaydedileceğini gösterir.
+Aşağıdaki örnek, bir redaksiyon ilkesinin belirli bir gelen klasörü içindeki tüm dosyalara nasıl uygulanacağını ve başarıyla güncellenen dosyalar ve başarısız olanlar için giden klasörlerden birine nasıl kaydedileceğini gösterir.
 
 Aşağıdaki örnek, tüm redaksiyon türleri için örnek yapılandırmalara sahip örnek bir XML ilke dosyası içerir.
 
@@ -90,7 +90,7 @@ Redaksiyon politikası
 
 ### Örnekler
 
-Aşağıdaki örnek, belirli bir gelen klasörü içindeki tüm dosyalara bir redaksiyon ilkesinin nasıl uygulanacağını ve başarıyla güncellenen dosyalar ve başarısız olanlar için giden klasörlerden birine nasıl kaydedileceğini gösterir.
+Aşağıdaki örnek, bir redaksiyon ilkesinin belirli bir gelen klasörü içindeki tüm dosyalara nasıl uygulanacağını ve başarıyla güncellenen dosyalar ve başarısız olanlar için giden klasörlerden birine nasıl kaydedileceğini gösterir.
 
 Aşağıdaki örnek, tüm redaksiyon türleri için örnek yapılandırmalara sahip örnek bir XML ilke dosyası içerir.
 

@@ -3,7 +3,7 @@ title: MetadataFilters
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Belge meta verilerinin en yaygın türlerinin bir listesini temsil eder.
 type: docs
-weight: 510
+weight: 520
 url: /tr/net/groupdocs.redaction.redactions/metadatafilters/
 ---
 ## MetadataFilters enumeration

@@ -28,6 +28,7 @@ Options ad alanı, yükleme ve kaydetme seçenekleri sunar class.
 
 | numaralandırma | Tanım |
 | --- | --- |
+| [AdvancedRasterizationOptions](./advancedrasterizationoptions) | Uygulanacak gelişmiş rasterleştirme seçeneklerini yönetmek için numaralandırmayı işaretler. |
 | [PdfComplianceLevel](./pdfcompliancelevel) | Desteklenen PDF uyumluluk düzeylerinin bir listesini temsil eder. |
 | [PreviewOptions.PreviewFormats](./previewoptions.previewformats) | Desteklenen önizleme biçimlerini temsil eder. |
 

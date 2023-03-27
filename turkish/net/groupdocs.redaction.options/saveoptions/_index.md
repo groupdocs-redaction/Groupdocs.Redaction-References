@@ -3,7 +3,7 @@ title: SaveOptions
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Çıktı dosyası adını değiştirmek ve/veya belgeyi görüntü tabanlı PDFye rasterleştirme dönüştürmek için seçenekler sunar.
 type: docs
-weight: 370
+weight: 380
 url: /tr/net/groupdocs.redaction.options/saveoptions/
 ---
 ## SaveOptions class

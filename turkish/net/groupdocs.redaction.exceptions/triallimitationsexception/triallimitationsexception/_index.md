@@ -28,7 +28,7 @@ public TrialLimitationsException(string message)
 
 ## TrialLimitationsException(string, Exception) {#constructor_1}
 
-TrialLimitationsException sınıfının yeni bir örneğini belirtilen bir hata mesajı ve bu istisnanın nedeni olan iç istisnaya bir başvuru ile başlatır.
+Belirtilen bir hata mesajı ve bu istisnanın nedeni olan iç istisnaya bir başvuru ile TrialLimitationsException sınıfının yeni bir örneğini başlatır.
 
 ```csharp
 public TrialLimitationsException(string message, Exception innerException)

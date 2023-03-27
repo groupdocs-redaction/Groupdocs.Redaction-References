@@ -3,7 +3,7 @@ title: ILogger
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Redaksiyon sürecindeki olayları ve hataları günlüğe kaydetmek için kullanılabilecek bir kaydedicinin arayüzünü tanımlar.
 type: docs
-weight: 290
+weight: 300
 url: /tr/net/groupdocs.redaction.options/ilogger/
 ---
 ## ILogger interface

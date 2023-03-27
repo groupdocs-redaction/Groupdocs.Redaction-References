@@ -3,7 +3,7 @@ title: PageSeekOrigin
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Arama için bir belgedeki referans noktalarını temsil eden alanları sağlar.
 type: docs
-weight: 540
+weight: 550
 url: /tr/net/groupdocs.redaction.redactions/pageseekorigin/
 ---
 ## PageSeekOrigin enumeration

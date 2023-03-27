@@ -19,7 +19,7 @@ public class TrialLimitationsException : GroupDocsRedactionException
 | İsim | Tanım |
 | --- | --- |
 | [TrialLimitationsException](triallimitationsexception#constructor)(string) | TrialLimitationsException sınıfının yeni bir örneğini başlatır. |
-| [TrialLimitationsException](triallimitationsexception#constructor_1)(string, Exception) | TrialLimitationsException sınıfının yeni bir örneğini belirtilen bir hata mesajı ve bu istisnanın nedeni olan iç istisnaya bir başvuru ile başlatır. |
+| [TrialLimitationsException](triallimitationsexception#constructor_1)(string, Exception) | Belirtilen bir hata mesajı ve bu istisnanın nedeni olan iç istisnaya bir başvuru ile TrialLimitationsException sınıfının yeni bir örneğini başlatır. |
 
 ### Ayrıca bakınız
 

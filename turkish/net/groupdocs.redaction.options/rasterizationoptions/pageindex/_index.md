@@ -3,7 +3,7 @@ title: PageIndex
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: PDFye dönüştürmek için ilk sayfanın dizinini 0 tabanlı alır veya ayarlar.
 type: docs
-weight: 50
+weight: 60
 url: /tr/net/groupdocs.redaction.options/rasterizationoptions/pageindex/
 ---
 ## RasterizationOptions.PageIndex property

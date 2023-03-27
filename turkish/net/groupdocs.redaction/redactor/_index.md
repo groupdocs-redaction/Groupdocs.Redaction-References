@@ -3,7 +3,7 @@ title: Redactor
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Belge düzeltme sürecini kontrol eden belgeleri açmaya düzeltmeye ve kaydetmeye izin veren bir ana sınıfı temsil eder.
 type: docs
-weight: 650
+weight: 660
 url: /tr/net/groupdocs.redaction/redactor/
 ---
 ## Redactor class
@@ -22,7 +22,7 @@ public sealed class Redactor : IDisposable, IPreviewable
 | [Redactor](redactor#constructor_3)(string) | Yeni bir örneğini başlatır[`Redactor`](../redactor) dosya yolunu kullanan sınıf. |
 | [Redactor](redactor#constructor_1)(Stream, LoadOptions) | Yeni bir örneğini başlatır[`Redactor`](../redactor) stream. kullanan parola korumalı bir belge için sınıf |
 | [Redactor](redactor#constructor_4)(string, LoadOptions) | Yeni bir örneğini başlatır[`Redactor`](../redactor) path. kullanan parola korumalı bir belge için sınıf |
-| [Redactor](redactor#constructor_2)(Stream, LoadOptions, RedactorSettings) | Yeni bir örneğini başlatır[`Redactor`](../redactor) akış ve ayarları kullanan parola korumalı bir belge için sınıf. |
+| [Redactor](redactor#constructor_2)(Stream, LoadOptions, RedactorSettings) | Yeni bir örneğini başlatır[`Redactor`](../redactor)akış ve ayarları kullanan parola korumalı bir belge için sınıf. |
 | [Redactor](redactor#constructor_5)(string, LoadOptions, RedactorSettings) | Yeni bir örneğini başlatır[`Redactor`](../redactor) yolunu ve ayarlarını kullanan parola korumalı bir belge için sınıf. |
 
 ## yöntemler
@@ -52,7 +52,7 @@ Aşağıdaki örnek, belgeye tek bir redaksiyonun uygulanmasını göstermektedi
 
 Aşağıdaki örnek, bir redaksiyon listesinin belgeye uygulanmasını göstermektedir.
 
-Aşağıdaki örnek, belirli bir gelen klasörü içindeki tüm dosyalara bir redaksiyon ilkesinin nasıl uygulanacağını ve başarıyla güncellenen dosyalar ve başarısız olanlar için giden klasörlerden birine nasıl kaydedileceğini gösterir.
+Aşağıdaki örnek, bir redaksiyon ilkesinin belirli bir gelen klasörü içindeki tüm dosyalara nasıl uygulanacağını ve başarıyla güncellenen dosyalar ve başarısız olanlar için giden klasörlerden birine nasıl kaydedileceğini gösterir.
 
 Aşağıdaki örnek, parola korumalı belgelerin LoadOptions kullanılarak nasıl açılacağını gösterir.
 

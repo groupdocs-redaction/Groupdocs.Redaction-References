@@ -3,7 +3,7 @@ title: TextRedaction
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Belge metni düzeltmeleri için temel soyut sınıfı temsil eder.
 type: docs
-weight: 630
+weight: 640
 url: /tr/net/groupdocs.redaction.redactions/textredaction/
 ---
 ## TextRedaction class

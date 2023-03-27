@@ -3,7 +3,7 @@ title: ReplacementOptions
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Eşleşen metin değiştirme seçeneklerini temsil eder.
 type: docs
-weight: 610
+weight: 620
 url: /tr/net/groupdocs.redaction.redactions/replacementoptions/
 ---
 ## ReplacementOptions class

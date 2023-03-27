@@ -3,7 +3,7 @@ title: CreatePageStream
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Sayfa önizleme verilerini yazmak için bir akış döndüren yöntemi temsil eder.
 type: docs
-weight: 280
+weight: 290
 url: /tr/net/groupdocs.redaction.options/createpagestream/
 ---
 ## CreatePageStream delegate
@@ -24,7 +24,7 @@ Sayfa önizlemesini yazmak için akış
 
 ### Örnekler
 
-Aşağıdaki örnek, kullanarak bir belge önizlemesinin nasıl alınacağını gösterir.[`PreviewOptions`](../previewoptions) ve[`CreatePageStream`](../createpagestream) temsilci.
+Aşağıdaki örnek, kullanarak bir belge önizlemesinin nasıl alınacağını gösterir.[`PreviewOptions`](../previewoptions) Ve[`CreatePageStream`](../createpagestream) temsilci.
 
 ```csharp
     CreatePageStream createDelegate = delegate (int pageNumber)

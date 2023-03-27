@@ -13,7 +13,7 @@ Integrationad alanı, farklı biçimlerdeki belgeleri GroupDocs.Redaction. ile e
 | Sınıf | Tanım |
 | --- | --- |
 | [DocumentFormatInstance](./documentformatinstance) | Belirli bir belge biçimini temsil eder. Kendi belge türlerinizi eklemek için bu sınıfı uygulayın. |
-| [MetadataCollection](./metadatacollection) | Şunun sözlüğünü temsil eder:[`MetadataItem`](../groupdocs.redaction.integration/metadataitem) anahtar olarak başlığıyla. |
+| [MetadataCollection](./metadatacollection) | Bir sözlüğü temsil eder[`MetadataItem`](../groupdocs.redaction.integration/metadataitem) anahtar olarak başlığıyla. |
 | [MetadataItem](./metadataitem) | Desteklenen tüm biçimler için ortak olan ve meta veri düzeltmelerinde kullanılan bir meta veri öğesini temsil eder. |
 ## Arayüzler
 

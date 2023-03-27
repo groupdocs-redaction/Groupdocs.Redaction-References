@@ -3,7 +3,7 @@ title: RedactionActionType
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Düzeltme gerçekleştirmek için alınabilecek eylemleri temsil eder.
 type: docs
-weight: 550
+weight: 560
 url: /tr/net/groupdocs.redaction.redactions/redactionactiontype/
 ---
 ## RedactionActionType enumeration

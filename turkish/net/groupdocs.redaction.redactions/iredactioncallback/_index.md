@@ -3,7 +3,7 @@ title: IRedactionCallback
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Her redaksiyon değişikliği hakkında bilgi almak ve isteğe bağlı olarak engellemek için gerekli yöntemleri tanımlar.
 type: docs
-weight: 490
+weight: 500
 url: /tr/net/groupdocs.redaction.redactions/iredactioncallback/
 ---
 ## IRedactionCallback interface

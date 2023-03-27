@@ -3,7 +3,7 @@ title: Redaction
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Tüm redaksiyon türleri için bir temel soyut sınıfı temsil eder.
 type: docs
-weight: 390
+weight: 400
 url: /tr/net/groupdocs.redaction/redaction/
 ---
 ## Redaction class

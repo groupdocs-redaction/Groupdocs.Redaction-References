@@ -3,7 +3,7 @@ title: RedactorLogEntry
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Düzeltme uygulama sonuçlarını temsil eder.
 type: docs
-weight: 670
+weight: 680
 url: /tr/net/groupdocs.redaction/redactorlogentry/
 ---
 ## RedactorLogEntry class

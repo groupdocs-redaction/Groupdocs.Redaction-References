@@ -3,7 +3,7 @@ title: MetadataRedaction
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Belge meta verileri düzeltmeleri için temel bir soyut sınıfı temsil eder.
 type: docs
-weight: 520
+weight: 530
 url: /tr/net/groupdocs.redaction.redactions/metadataredaction/
 ---
 ## MetadataRedaction class
