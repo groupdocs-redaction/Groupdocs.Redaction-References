@@ -3,7 +3,7 @@ title: RedactionPolicy
 second_title: GroupDocs.Redaction för .NET API-referens
 description: Representerar en saneringspolicy som innehåller en uppsättning specifika redigeringar som ska tillämpas.
 type: docs
-weight: 400
+weight: 410
 url: /sv/net/groupdocs.redaction/redactionpolicy/
 ---
 ## RedactionPolicy class

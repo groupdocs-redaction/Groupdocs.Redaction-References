@@ -3,7 +3,7 @@ title: PageSeekOrigin
 second_title: GroupDocs.Redaction för .NET API-referens
 description: Tillhandahåller de fält som representerar referenspunkter i ett dokument för sökning.
 type: docs
-weight: 540
+weight: 550
 url: /sv/net/groupdocs.redaction.redactions/pageseekorigin/
 ---
 ## PageSeekOrigin enumeration

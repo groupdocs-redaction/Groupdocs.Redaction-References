@@ -1,14 +1,14 @@
 ---
 title: MetadataCollection
 second_title: GroupDocs.Redaction för .NET API-referens
-description: Representerar en ordlista förMetadataItem./metadataitem med dess titel som nyckel.
+description: Representerar en ordbok förMetadataItem./metadataitem med dess titel som nyckel.
 type: docs
 weight: 200
 url: /sv/net/groupdocs.redaction.integration/metadatacollection/
 ---
 ## MetadataCollection class
 
-Representerar en ordlista för[`MetadataItem`](../metadataitem) med dess titel som nyckel.
+Representerar en ordbok för[`MetadataItem`](../metadataitem) med dess titel som nyckel.
 
 ```csharp
 public class MetadataCollection : Dictionary<string, MetadataItem>

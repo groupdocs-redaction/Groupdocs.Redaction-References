@@ -3,7 +3,7 @@ title: TextRedaction
 second_title: GroupDocs.Redaction för .NET API-referens
 description: Representerar en abstrakt basklass för redigering av dokumenttext.
 type: docs
-weight: 630
+weight: 640
 url: /sv/net/groupdocs.redaction.redactions/textredaction/
 ---
 ## TextRedaction class

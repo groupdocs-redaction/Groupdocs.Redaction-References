@@ -28,6 +28,7 @@ DenOptions namnutrymme tillhandahåller klasser för laddnings- och sparaalterna
 
 | Uppräkning | Beskrivning |
 | --- | --- |
+| [AdvancedRasterizationOptions](./advancedrasterizationoptions) | Flaggar uppräkning för att hantera de avancerade rastreringsalternativ som ska tillämpas. |
 | [PdfComplianceLevel](./pdfcompliancelevel) | Representerar en lista över PDF-kompatibilitetsnivåer som stöds. |
 | [PreviewOptions.PreviewFormats](./previewoptions.previewformats) | Representerar förhandsgranskningsformat som stöds. |
 

@@ -3,7 +3,7 @@ title: Redaction
 second_title: GroupDocs.Redaction för .NET API-referens
 description: Representerar en abstrakt basklass för alla redigeringstyper.
 type: docs
-weight: 390
+weight: 400
 url: /sv/net/groupdocs.redaction/redaction/
 ---
 ## Redaction class

@@ -3,7 +3,7 @@ title: EraseMetadataRedaction
 second_title: GroupDocs.Redaction för .NET API-referens
 description: Representerar en metadataredigering som raderar all metadata eller metadata som matchar specifika MetadataFilters från dokumentet.
 type: docs
-weight: 470
+weight: 480
 url: /sv/net/groupdocs.redaction.redactions/erasemetadataredaction/
 ---
 ## EraseMetadataRedaction class

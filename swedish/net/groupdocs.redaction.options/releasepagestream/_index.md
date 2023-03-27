@@ -3,7 +3,7 @@ title: ReleasePageStream
 second_title: GroupDocs.Redaction för .NET API-referens
 description: Representerar en metod som släpper ström skapad avCreatePageStream./createpagestream delegera.
 type: docs
-weight: 360
+weight: 370
 url: /sv/net/groupdocs.redaction.options/releasepagestream/
 ---
 ## ReleasePageStream delegate

@@ -3,7 +3,7 @@ title: RedactionActionType
 second_title: GroupDocs.Redaction för .NET API-referens
 description: Representerar åtgärder som kan vidtas för att utföra redigering.
 type: docs
-weight: 550
+weight: 560
 url: /sv/net/groupdocs.redaction.redactions/redactionactiontype/
 ---
 ## RedactionActionType enumeration
@@ -26,7 +26,7 @@ public enum RedactionActionType
 
 **Läs mer**
 
-* Mer information om RedactionDescription-klassen och IRedactionCallback-gränssnittet: [Använd återuppringning för redaktion](https://docs.groupdocs.com/redaction/net/use-redaction-callback/)
+* Mer information om RedactionDescription-klassen och IRedactionCallback-gränssnittet: [Använd redaktionsuppringning](https://docs.groupdocs.com/redaction/net/use-redaction-callback/)
 
 ### Se även
 

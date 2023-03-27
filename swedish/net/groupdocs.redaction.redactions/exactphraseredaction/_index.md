@@ -3,7 +3,7 @@ title: ExactPhraseRedaction
 second_title: GroupDocs.Redaction för .NET API-referens
 description: Representerar en textredigering som ersätter den exakta frasen i dokumentets text skiftlägesokänslig som standard.
 type: docs
-weight: 480
+weight: 490
 url: /sv/net/groupdocs.redaction.redactions/exactphraseredaction/
 ---
 ## ExactPhraseRedaction class

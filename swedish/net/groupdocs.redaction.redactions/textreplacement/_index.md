@@ -3,7 +3,7 @@ title: TextReplacement
 second_title: GroupDocs.Redaction för .NET API-referens
 description: Representerar en textersättningsinformation.
 type: docs
-weight: 640
+weight: 650
 url: /sv/net/groupdocs.redaction.redactions/textreplacement/
 ---
 ## TextReplacement class
@@ -38,7 +38,7 @@ public class TextReplacement
 
 **Läs mer**
 
-* Mer information om RedactionDescription-klassen och IRedactionCallback-gränssnittet: [Använd återuppringning för redaktion](https://docs.groupdocs.com/redaction/net/use-redaction-callback/)
+* Mer information om RedactionDescription-klassen och IRedactionCallback-gränssnittet: [Använd redaktionsuppringning](https://docs.groupdocs.com/redaction/net/use-redaction-callback/)
 
 ### Se även
 

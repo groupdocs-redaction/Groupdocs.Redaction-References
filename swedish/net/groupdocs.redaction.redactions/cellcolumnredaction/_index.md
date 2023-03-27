@@ -3,7 +3,7 @@ title: CellColumnRedaction
 second_title: GroupDocs.Redaction för .NET API-referens
 description: Representerar en textredigering som ersätter text i ett kalkylarksdokument CSV Excel etc..
 type: docs
-weight: 440
+weight: 450
 url: /sv/net/groupdocs.redaction.redactions/cellcolumnredaction/
 ---
 ## CellColumnRedaction class

@@ -3,7 +3,7 @@ title: RedactionDescription
 second_title: GroupDocs.Redaction för .NET API-referens
 description: Representerar information om en enda ändringsåtgärd som utfördes under redigeringsprocessen.
 type: docs
-weight: 560
+weight: 570
 url: /sv/net/groupdocs.redaction.redactions/redactiondescription/
 ---
 ## RedactionDescription class
@@ -37,7 +37,7 @@ public class RedactionDescription
 
 **Läs mer**
 
-* Mer information om RedactionDescription-klassen och IRedactionCallback-gränssnittet: [Använd återuppringning för redaktion](https://docs.groupdocs.com/redaction/net/use-redaction-callback/)
+* Mer information om RedactionDescription-klassen och IRedactionCallback-gränssnittet: [Använd redaktionsuppringning](https://docs.groupdocs.com/redaction/net/use-redaction-callback/)
 
 ### Se även
 

@@ -1,12 +1,12 @@
 ---
 title: GroupDocs.Redaction
 second_title: GroupDocs.Redaction för .NET API-referens
-description: DenRedaction namnutrymme tillhandahåller klasser för att redigera känslig information från dokument i PDF rasterbild och kontorsdokumentformat. Huvudklasserna i detta namnutrymme är
+description: DenRedaction namnutrymme tillhandahåller klasser för att redigera känslig information från dokument i PDF rasterbild och kontorsdokumentformat. Huvudklasserna i detta namnområde är
 type: docs
 weight: 10
 url: /sv/net/groupdocs.redaction/
 ---
-DenRedaction namnutrymme tillhandahåller klasser för att redigera känslig information från dokument i PDF-, rasterbild- och kontorsdokumentformat. Huvudklasserna i detta namnutrymme är:
+DenRedaction namnutrymme tillhandahåller klasser för att redigera känslig information från dokument i PDF-, rasterbild- och kontorsdokumentformat. Huvudklasserna i detta namnområde är:
 
 ## Klasser
 

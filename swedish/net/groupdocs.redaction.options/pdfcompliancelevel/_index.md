@@ -3,7 +3,7 @@ title: PdfComplianceLevel
 second_title: GroupDocs.Redaction för .NET API-referens
 description: Representerar en lista över PDFkompatibilitetsnivåer som stöds.
 type: docs
-weight: 310
+weight: 320
 url: /sv/net/groupdocs.redaction.options/pdfcompliancelevel/
 ---
 ## PdfComplianceLevel enumeration

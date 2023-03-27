@@ -10,7 +10,7 @@ is_root: true
 
 | Namnutrymme | Beskrivning |
 | --- | --- |
-| [GroupDocs.Redaction](./groupdocs.redaction) | DenRedaction namnutrymme tillhandahåller klasser för att redigera känslig information från dokument i PDF-, rasterbild- och kontorsdokumentformat. Huvudklasserna i detta namnutrymme är: |
+| [GroupDocs.Redaction](./groupdocs.redaction) | DenRedaction namnutrymme tillhandahåller klasser för att redigera känslig information från dokument i PDF-, rasterbild- och kontorsdokumentformat. Huvudklasserna i detta namnområde är: |
 | [GroupDocs.Redaction.Configuration](./groupdocs.redaction.configuration) | DenConfiguration namnutrymme tillhandahåller konfigurationsklasser för dokumentformat. |
 | [GroupDocs.Redaction.Exceptions](./groupdocs.redaction.exceptions) | DenExceptions namnområdet tillhandahåller olika undantagsklasser. |
 | [GroupDocs.Redaction.Integration](./groupdocs.redaction.integration) | DenIntegrationnamnrymden tillhandahåller gränssnitt och klasser som används för att integrera dokument i olika format med GroupDocs.Redaction. |

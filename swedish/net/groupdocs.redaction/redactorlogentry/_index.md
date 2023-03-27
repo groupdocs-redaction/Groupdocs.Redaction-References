@@ -3,7 +3,7 @@ title: RedactorLogEntry
 second_title: GroupDocs.Redaction för .NET API-referens
 description: Representerar resultatet av att tillämpa redigering.
 type: docs
-weight: 670
+weight: 680
 url: /sv/net/groupdocs.redaction/redactorlogentry/
 ---
 ## RedactorLogEntry class

@@ -3,7 +3,7 @@ title: ReplacementOptions
 second_title: GroupDocs.Redaction för .NET API-referens
 description: Representerar alternativ för matchad textersättning.
 type: docs
-weight: 610
+weight: 620
 url: /sv/net/groupdocs.redaction.redactions/replacementoptions/
 ---
 ## ReplacementOptions class
