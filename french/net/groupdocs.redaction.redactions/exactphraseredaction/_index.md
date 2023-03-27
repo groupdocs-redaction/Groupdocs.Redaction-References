@@ -3,7 +3,7 @@ title: ExactPhraseRedaction
 second_title: Référence de l'API GroupDocs.Redaction pour .NET
 description: Représente une rédaction de texte qui remplace la phrase exacte dans le texte du document insensible à la casse par défaut.
 type: docs
-weight: 480
+weight: 490
 url: /fr/net/groupdocs.redaction.redactions/exactphraseredaction/
 ---
 ## ExactPhraseRedaction class

@@ -3,7 +3,7 @@ title: RemovePageRedaction
 second_title: Référence de l'API GroupDocs.Redaction pour .NET
 description: Représente une rédaction qui supprime une page diapositive feuille de calcul etc. dun document.
 type: docs
-weight: 600
+weight: 610
 url: /fr/net/groupdocs.redaction.redactions/removepageredaction/
 ---
 ## RemovePageRedaction class

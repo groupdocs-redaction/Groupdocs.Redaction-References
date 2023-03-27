@@ -3,7 +3,7 @@ title: CreatePageStream
 second_title: Référence de l'API GroupDocs.Redaction pour .NET
 description: Représente la méthode qui renvoie un flux pour écrire les données daperçu de la page.
 type: docs
-weight: 280
+weight: 290
 url: /fr/net/groupdocs.redaction.options/createpagestream/
 ---
 ## CreatePageStream delegate

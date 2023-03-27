@@ -3,7 +3,7 @@ title: ImageAreaRedaction
 second_title: Référence de l'API GroupDocs.Redaction pour .NET
 description: Représente une rédaction qui place un rectangle coloré dans une zone donnée dun document image.
 type: docs
-weight: 500
+weight: 510
 url: /fr/net/groupdocs.redaction.redactions/imagearearedaction/
 ---
 ## ImageAreaRedaction class

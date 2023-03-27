@@ -3,7 +3,7 @@ title: IRedactionCallback
 second_title: Référence de l'API GroupDocs.Redaction pour .NET
 description: Définit les méthodes requises pour recevoir des informations sur chaque modification de masquage et éventuellement lempêcher.
 type: docs
-weight: 490
+weight: 500
 url: /fr/net/groupdocs.redaction.redactions/iredactioncallback/
 ---
 ## IRedactionCallback interface

@@ -3,7 +3,7 @@ title: RedactionActionType
 second_title: Référence de l'API GroupDocs.Redaction pour .NET
 description: Représente les actions qui peuvent être prises pour effectuer une rédaction.
 type: docs
-weight: 550
+weight: 560
 url: /fr/net/groupdocs.redaction.redactions/redactionactiontype/
 ---
 ## RedactionActionType enumeration

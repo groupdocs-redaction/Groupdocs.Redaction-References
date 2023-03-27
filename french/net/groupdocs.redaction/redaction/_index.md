@@ -3,7 +3,7 @@ title: Redaction
 second_title: Référence de l'API GroupDocs.Redaction pour .NET
 description: Représente une classe abstraite de base pour tous les types de rédaction.
 type: docs
-weight: 390
+weight: 400
 url: /fr/net/groupdocs.redaction/redaction/
 ---
 ## Redaction class

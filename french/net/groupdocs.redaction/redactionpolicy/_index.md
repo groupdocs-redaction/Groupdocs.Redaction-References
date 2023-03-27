@@ -3,7 +3,7 @@ title: RedactionPolicy
 second_title: Référence de l'API GroupDocs.Redaction pour .NET
 description: Représente une politique de nettoyage contenant un ensemble de caviardages spécifiques à appliquer.
 type: docs
-weight: 400
+weight: 410
 url: /fr/net/groupdocs.redaction/redactionpolicy/
 ---
 ## RedactionPolicy class

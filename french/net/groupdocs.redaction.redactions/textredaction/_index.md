@@ -3,7 +3,7 @@ title: TextRedaction
 second_title: Référence de l'API GroupDocs.Redaction pour .NET
 description: Représente une classe abstraite de base pour les suppressions de texte de document.
 type: docs
-weight: 630
+weight: 640
 url: /fr/net/groupdocs.redaction.redactions/textredaction/
 ---
 ## TextRedaction class

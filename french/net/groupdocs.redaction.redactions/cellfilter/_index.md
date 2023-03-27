@@ -3,7 +3,7 @@ title: CellFilter
 second_title: Référence de l'API GroupDocs.Redaction pour .NET
 description: Fournit une option pour limiter la portée dunCellColumnRedaction./cellcolumnredaction à une feuille de calcul et une colonne.
 type: docs
-weight: 450
+weight: 460
 url: /fr/net/groupdocs.redaction.redactions/cellfilter/
 ---
 ## CellFilter class
