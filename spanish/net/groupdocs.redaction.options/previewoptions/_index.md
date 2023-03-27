@@ -3,7 +3,7 @@ title: PreviewOptions
 second_title: Referencia de API de GroupDocs.Redaction para .NET
 description: Proporciona opciones para establecer requisitos y transmitir delegados para la generación de vista previa.
 type: docs
-weight: 320
+weight: 330
 url: /es/net/groupdocs.redaction.options/previewoptions/
 ---
 ## PreviewOptions class

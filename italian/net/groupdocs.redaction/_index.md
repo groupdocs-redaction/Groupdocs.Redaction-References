@@ -15,7 +15,7 @@ IlRedaction namespace fornisce classi per l'oscuramento di informazioni riservat
 | [DocumentInfo](./documentinfo) | Rappresenta un'informazione sul documento. Implementa l'interfaccia IDocumentInfo. Vedere[`IDocumentInfo`](../groupdocs.redaction/idocumentinfo) per esempi. |
 | [FileType](./filetype) | Rappresenta un tipo di file. Fornisce metodi per ottenere un elenco di tutti i tipi di file supportati da GroupDocs.Redaction, rilevare il tipo di file per estensione, ecc. |
 | [License](./license) | Fornisce i metodi per richiedere la licenza. |
-| [Metered](./metered) | Fornisce metodi che consentono di attivare il prodotto con licenza a consumo e recuperare la quantità di MB elaborati. Ulteriori informazioni sulle licenze a consumo[qui](https://purchase.groupdocs.com/faqs/licensing/metered) . |
+| [Metered](./metered) | Fornisce metodi che consentono di attivare il prodotto con licenza a consumo e recuperare la quantità di MB elaborati. Ulteriori informazioni sulle licenze a consumo[Qui](https://purchase.groupdocs.com/faqs/licensing/metered) . |
 | [PageInfo](./pageinfo) | Rappresenta una breve pagina informativa. |
 | [Redaction](./redaction) | Rappresenta una classe astratta di base per tutti i tipi di redazione. |
 | [RedactionPolicy](./redactionpolicy) | Rappresenta una politica di sanificazione, contenente un insieme di redazioni specifiche da applicare. |

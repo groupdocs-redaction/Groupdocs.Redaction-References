@@ -1,14 +1,14 @@
 ---
 title: DOTM
 second_title: GroupDocs.Redaction لمرجع .NET API
-description: Word Open XML  قالب مستند ممكن بماكرو .dotm
+description: Word Open XML  قالب مستند ممكّن بماكرو .dotm
 type: docs
 weight: 70
 url: /ar/net/groupdocs.redaction/filetype/dotm/
 ---
 ## FileType.DOTM property
 
-Word Open XML - قالب مستند ممكن بماكرو (.dotm)
+Word Open XML - قالب مستند ممكّن بماكرو (.dotm)
 
 ```csharp
 public static FileType DOTM { get; }

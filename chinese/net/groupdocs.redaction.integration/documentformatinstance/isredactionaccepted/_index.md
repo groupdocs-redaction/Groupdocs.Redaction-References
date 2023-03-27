@@ -16,11 +16,11 @@ public bool IsRedactionAccepted(RedactionDescription description)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| description | RedactionDescription | 编辑说明 |
+| description | RedactionDescription | 密文说明 |
 
 ### 返回值
 
-如果接受修订，则为 True（默认情况下）
+如果接受密文，则为真（默认情况下）
 
 ### 也可以看看
 

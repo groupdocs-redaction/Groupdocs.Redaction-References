@@ -1,14 +1,14 @@
 ---
 title: Status
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 获取所有应用的密文的最终状态
+description: 获取所有已应用密文的最终状态
 type: docs
 weight: 30
 url: /zh/net/groupdocs.redaction/redactorchangelog/status/
 ---
 ## RedactorChangeLog.Status property
 
-获取所有应用的密文的最终状态。
+获取所有已应用密文的最终状态。
 
 ```csharp
 public RedactionStatus Status { get; }

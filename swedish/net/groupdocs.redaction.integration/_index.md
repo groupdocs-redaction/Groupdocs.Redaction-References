@@ -13,7 +13,7 @@ DenIntegrationnamnrymden tillhandahåller gränssnitt och klasser som används f
 | Klass | Beskrivning |
 | --- | --- |
 | [DocumentFormatInstance](./documentformatinstance) | Representerar ett specifikt format för ett dokument. Implementera den här klassen för att lägga till dina egna dokumenttyper. |
-| [MetadataCollection](./metadatacollection) | Representerar en ordlista för[`MetadataItem`](../groupdocs.redaction.integration/metadataitem) med dess titel som nyckel. |
+| [MetadataCollection](./metadatacollection) | Representerar en ordbok för[`MetadataItem`](../groupdocs.redaction.integration/metadataitem) med dess titel som nyckel. |
 | [MetadataItem](./metadataitem) | Representerar en metadatapost, gemensam för alla format som stöds och används i metadataredigering. |
 ## Gränssnitt
 

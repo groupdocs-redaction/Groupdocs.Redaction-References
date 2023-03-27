@@ -3,7 +3,7 @@ title: ExactPhraseRedaction
 second_title: Справочник по API GroupDocs.Redaction для .NET
 description: Представляет редактирование текста заменяющее точную фразу в тексте документа по умолчанию нечувствительную к регистру.
 type: docs
-weight: 480
+weight: 490
 url: /ru/net/groupdocs.redaction.redactions/exactphraseredaction/
 ---
 ## ExactPhraseRedaction class
@@ -39,7 +39,7 @@ public class ExactPhraseRedaction : TextRedaction
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о применении правок: [Основы редактирования](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Подробнее о редактировании текста документа: [Редактирование текста](https://docs.groupdocs.com/redaction/net/text-redactions/)

@@ -1,14 +1,14 @@
 ---
 title: SupportsExtension
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 检查给定的文件扩展名是否可以作为 DocumentType 处理
+description: 检查给定的文件扩展名是否可以作为 DocumentType. 处理
 type: docs
 weight: 50
 url: /zh/net/groupdocs.redaction.configuration/documentformatconfiguration/supportsextension/
 ---
 ## DocumentFormatConfiguration.SupportsExtension method
 
-检查给定的文件扩展名是否可以作为 DocumentType 处理。
+检查给定的文件扩展名是否可以作为 DocumentType. 处理
 
 ```csharp
 public bool SupportsExtension(string fileExtension)
@@ -20,7 +20,7 @@ public bool SupportsExtension(string fileExtension)
 
 ### 返回值
 
-如果扩展名列在 ExtensionFilter 中，则为真
+如果扩展在 ExtensionFilter 中列出，则为真
 
 ### 也可以看看
 

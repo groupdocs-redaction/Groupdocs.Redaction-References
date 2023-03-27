@@ -3,7 +3,7 @@ title: AnnotationRedaction
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Belirli bir normal ifadeyle eşleşen ek açıklama metnini yorumlar vb. değiştiren bir redaksiyonu temsil eder.
 type: docs
-weight: 430
+weight: 440
 url: /tr/net/groupdocs.redaction.redactions/annotationredaction/
 ---
 ## AnnotationRedaction class

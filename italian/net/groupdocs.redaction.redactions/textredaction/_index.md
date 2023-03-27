@@ -3,7 +3,7 @@ title: TextRedaction
 second_title: Riferimento API GroupDocs.Redaction per .NET
 description: Rappresenta una classe astratta di base per le revisioni del testo del documento.
 type: docs
-weight: 630
+weight: 640
 url: /it/net/groupdocs.redaction.redactions/textredaction/
 ---
 ## TextRedaction class
@@ -30,7 +30,7 @@ public abstract class TextRedaction : Redaction
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Maggiori dettagli sull'applicazione delle redazioni: [Nozioni di base sulla redazione](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Ulteriori dettagli sulle revisioni del testo del documento: [Redazioni di testi](https://docs.groupdocs.com/redaction/net/text-redactions/)

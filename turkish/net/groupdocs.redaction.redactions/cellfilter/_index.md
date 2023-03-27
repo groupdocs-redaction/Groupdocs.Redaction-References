@@ -3,7 +3,7 @@ title: CellFilter
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Kapsamını sınırlandırmak için bir seçenek sunar.CellColumnRedaction./cellcolumnredaction bir çalışma sayfasına ve bir sütuna.
 type: docs
-weight: 450
+weight: 460
 url: /tr/net/groupdocs.redaction.redactions/cellfilter/
 ---
 ## CellFilter class

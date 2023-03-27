@@ -1,14 +1,14 @@
 ---
 title: PreviewOptions
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 提供选项来设置预览生成的要求和流代理
+description: 提供选项来设置预览生成的要求和流委托
 type: docs
-weight: 320
+weight: 330
 url: /zh/net/groupdocs.redaction.options/previewoptions/
 ---
 ## PreviewOptions class
 
-提供选项来设置预览生成的要求和流代理。
+提供选项来设置预览生成的要求和流委托。
 
 ```csharp
 public class PreviewOptions
@@ -29,14 +29,14 @@ public class PreviewOptions
 | [Height](../../groupdocs.redaction.options/previewoptions/height) { get; set; } | 获取或设置页面预览高度。 |
 | [PageNumbers](../../groupdocs.redaction.options/previewoptions/pagenumbers) { get; set; } | 获取或设置页码数组以生成预览。 |
 | [PreviewFormat](../../groupdocs.redaction.options/previewoptions/previewformat) { get; set; } | 获取或设置预览图像格式。 |
-| [ReleasePageStream](../../groupdocs.redaction.options/previewoptions/releasepagestream) { get; set; } | 获取或设置页面预览完成委托的实例。 |
+| [ReleasePageStream](../../groupdocs.redaction.options/previewoptions/releasepagestream) { get; set; } | 获取或设置页面预览完成委托实例。 |
 | [Width](../../groupdocs.redaction.options/previewoptions/width) { get; set; } | 获取或设置页面预览宽度。 |
 
 ### 例子
 
-以下示例演示如何使用获取文档预览[`PreviewOptions`](../previewoptions)和[`CreatePageStream`](./createpagestream)代表。
+以下示例演示如何使用[`PreviewOptions`](../previewoptions)和[`CreatePageStream`](./createpagestream)代表。
 
-以下示例演示如何使用获取文档预览[`PreviewOptions`](../previewoptions)和两位代表。
+以下示例演示如何使用[`PreviewOptions`](../previewoptions)和两位代表。
 
 ```csharp
     CreatePageStream createDelegate = delegate (int pageNumber)
@@ -63,7 +63,7 @@ public class PreviewOptions
     };
     ReleasePageStream releaseDelegate = delegate (int pageNumber, System.IO.Stream pageStream)
     {
-        // 用 Stream 做任何事情，包括页面预览
+        // 对 Stream 做任何事情，包括页面预览
         pageStream.Close();
     };
     var previewOptions = new PreviewOptions(createDelegate, releaseDelegate);

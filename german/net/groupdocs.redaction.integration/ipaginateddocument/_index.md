@@ -22,7 +22,7 @@ public interface IPaginatedDocument
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zum Anwenden von Schwärzungen: [Grundlagen der Redaktion](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Weitere Details zum Bearbeiten von Seiten: [Seitenschwärzung entfernen](https://docs.groupdocs.com/redaction/net/remove-page-redaction/)

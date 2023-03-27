@@ -3,7 +3,7 @@ title: RedactorSettings
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Redaksiyon ayarlarını temsil eder ve redaksiyon işleminin özelleştirilmesine olanak tanır.
 type: docs
-weight: 350
+weight: 360
 url: /tr/net/groupdocs.redaction.options/redactorsettings/
 ---
 ## RedactorSettings class

@@ -3,7 +3,7 @@ title: PageIndex
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: الحصول على أو تحديد فهرس الصفحة الأولى المستندة إلى 0 لتحويلها إلى PDF .
 type: docs
-weight: 50
+weight: 60
 url: /ar/net/groupdocs.redaction.options/rasterizationoptions/pageindex/
 ---
 ## RasterizationOptions.PageIndex property

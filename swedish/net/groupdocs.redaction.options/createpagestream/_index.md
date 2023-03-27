@@ -3,7 +3,7 @@ title: CreatePageStream
 second_title: GroupDocs.Redaction för .NET API-referens
 description: Representerar en metod som returnerar en ström för att skriva sidförhandsgranskningsdata.
 type: docs
-weight: 280
+weight: 290
 url: /sv/net/groupdocs.redaction.options/createpagestream/
 ---
 ## CreatePageStream delegate

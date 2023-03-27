@@ -3,7 +3,7 @@ title: MetadataSearchRedaction
 second_title: GroupDocs.Redaction för .NET API-referens
 description: Representerar en metadataredigering som söker och redigerar metadata med hjälp av reguljära uttryck matchande nycklar och/eller värden.
 type: docs
-weight: 530
+weight: 540
 url: /sv/net/groupdocs.redaction.redactions/metadatasearchredaction/
 ---
 ## MetadataSearchRedaction class

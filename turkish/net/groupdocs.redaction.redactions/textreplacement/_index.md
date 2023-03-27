@@ -3,7 +3,7 @@ title: TextReplacement
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Metinsel bir değiştirme bilgisini temsil eder.
 type: docs
-weight: 640
+weight: 650
 url: /tr/net/groupdocs.redaction.redactions/textreplacement/
 ---
 ## TextReplacement class

@@ -23,11 +23,11 @@ public interface IRasterizableDocument
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zum Anwenden von Schwärzungen: [Grundlagen der Redaktion](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Weitere Details zum Speichern des Dokuments als gerastertes PDF: [Als gerastertes PDF speichern](https://docs.groupdocs.com/redaction/net/save-in-rasterized-pdf/)
-* Weitere Details zu Rasterisierungsoptionen: [Wählen Sie bestimmte Seiten für gerastertes PDF aus](https://docs.groupdocs.com/redaction/net/select-specific-pages-for-rasterized-pdf/)
+* Weitere Details zu Rasterungsoptionen: [Wählen Sie bestimmte Seiten für gerastertes PDF aus](https://docs.groupdocs.com/redaction/net/select-specific-pages-for-rasterized-pdf/)
 * Weitere Details zur Implementierung benutzerdefinierter Formate: [Erstellen Sie einen benutzerdefinierten Formathandler](https://docs.groupdocs.com/redaction/net/create-custom-format-handler/)
 
 ### Siehe auch

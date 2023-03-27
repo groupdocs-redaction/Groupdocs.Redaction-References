@@ -34,7 +34,7 @@ public class TextLine
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori dettagli sull'utilizzo dell'OCR in GroupDocs.Redaction: [Nozioni di base sull'utilizzo dell'OCR](https://docs.groupdocs.com/redaction/net/ocr-usage-basics/)
 

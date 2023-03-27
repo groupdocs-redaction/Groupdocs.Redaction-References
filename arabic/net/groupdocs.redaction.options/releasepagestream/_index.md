@@ -3,7 +3,7 @@ title: ReleasePageStream
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يمثل الطريقة التي تطلق الدفق الذي تم إنشاؤه بواسطةCreatePageStream./createpagestream مندوب.
 type: docs
-weight: 360
+weight: 370
 url: /ar/net/groupdocs.redaction.options/releasepagestream/
 ---
 ## ReleasePageStream delegate

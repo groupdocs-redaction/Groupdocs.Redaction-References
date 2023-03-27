@@ -1,14 +1,14 @@
 ---
 title: PageCount
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 获取或设置要转换成PDF的页数
+description: 获取或设置转换成PDF的页数
 type: docs
-weight: 40
+weight: 50
 url: /zh/net/groupdocs.redaction.options/rasterizationoptions/pagecount/
 ---
 ## RasterizationOptions.PageCount property
 
-获取或设置要转换成PDF的页数。
+获取或设置转换成PDF的页数。
 
 ```csharp
 public int PageCount { get; set; }

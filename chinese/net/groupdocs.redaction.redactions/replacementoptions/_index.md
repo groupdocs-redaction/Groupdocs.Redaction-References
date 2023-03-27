@@ -3,7 +3,7 @@ title: ReplacementOptions
 second_title: GroupDocs.Redaction for .NET API 参考
 description: 表示匹配文本替换的选项
 type: docs
-weight: 610
+weight: 620
 url: /zh/net/groupdocs.redaction.redactions/replacementoptions/
 ---
 ## ReplacementOptions class
@@ -25,15 +25,15 @@ public class ReplacementOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ActionType](../../groupdocs.redaction.redactions/replacementoptions/actiontype) { get; } | 获取替换动作：绘制框或替换文本。 |
-| [BoxColor](../../groupdocs.redaction.redactions/replacementoptions/boxcolor) { get; set; } | 获取或设置一个颜色DrawBox选项（否则忽略）. |
+| [ActionType](../../groupdocs.redaction.redactions/replacementoptions/actiontype) { get; } | 获取替换动作：画框或替换文本。 |
+| [BoxColor](../../groupdocs.redaction.redactions/replacementoptions/boxcolor) { get; set; } | 获取或设置颜色DrawBox选项（否则忽略）. |
 | [Replacement](../../groupdocs.redaction.redactions/replacementoptions/replacement) { get; set; } | 获取或设置文本替换值。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 有关文档文本编辑的更多详细信息： [文本编辑](https://docs.groupdocs.com/redaction/net/text-redactions/)
+* 有关文档文本修订的更多详细信息： [文本编辑](https://docs.groupdocs.com/redaction/net/text-redactions/)
 
 ### 也可以看看
 

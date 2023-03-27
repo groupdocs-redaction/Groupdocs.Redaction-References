@@ -13,7 +13,7 @@ url: /ar/net/groupdocs.redaction.integration/
 | فصل | وصف |
 | --- | --- |
 | [DocumentFormatInstance](./documentformatinstance) | يمثل تنسيقًا محددًا لمستند. قم بتنفيذ هذه الفئة لإضافة أنواع المستندات الخاصة بك. |
-| [MetadataCollection](./metadatacollection) | يمثل إملاء من[`MetadataItem`](../groupdocs.redaction.integration/metadataitem) مع عنوانه كمفتاح. |
+| [MetadataCollection](./metadatacollection) | يمثل قاموس[`MetadataItem`](../groupdocs.redaction.integration/metadataitem) مع عنوانه كمفتاح. |
 | [MetadataItem](./metadataitem) | يمثل عنصرًا من البيانات الوصفية ، وهو شائع لجميع التنسيقات المدعومة والمستخدم في تنقيح البيانات الوصفية. |
 ## واجهات
 

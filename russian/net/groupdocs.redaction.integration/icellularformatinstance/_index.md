@@ -24,7 +24,7 @@ public interface ICellularFormatInstance
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о применении правок: [Основы редактирования](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Подробнее об исправлениях в таблицах: [Редакции электронных таблиц](https://docs.groupdocs.com/redaction/net/spreadsheet-redactions/)

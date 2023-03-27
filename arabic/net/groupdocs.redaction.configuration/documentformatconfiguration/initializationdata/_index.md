@@ -1,14 +1,14 @@
 ---
 title: InitializationData
 second_title: GroupDocs.Redaction لمرجع .NET API
-description: الحصول على البيانات أو تعيينها المطلوبة لـDocumentFormatInstancegroupdocs.redaction.integration/documentformatinstance التهيئة .
+description: الحصول على أو تعيين البيانات المطلوبة لـDocumentFormatInstancegroupdocs.redaction.integration/documentformatinstance التهيئة .
 type: docs
 weight: 40
 url: /ar/net/groupdocs.redaction.configuration/documentformatconfiguration/initializationdata/
 ---
 ## DocumentFormatConfiguration.InitializationData property
 
-الحصول على البيانات أو تعيينها المطلوبة لـ[`DocumentFormatInstance`](../../../groupdocs.redaction.integration/documentformatinstance) التهيئة .
+الحصول على أو تعيين البيانات المطلوبة لـ[`DocumentFormatInstance`](../../../groupdocs.redaction.integration/documentformatinstance) التهيئة .
 
 ```csharp
 public Dictionary<string, string> InitializationData { get; set; }

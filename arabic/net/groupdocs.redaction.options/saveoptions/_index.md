@@ -3,7 +3,7 @@ title: SaveOptions
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يوفر خيارات لتغيير اسم ملف الإخراج و / أو تحويل المستند إلى ملف PDF مستند إلى الصور تنقيط.
 type: docs
-weight: 370
+weight: 380
 url: /ar/net/groupdocs.redaction.options/saveoptions/
 ---
 ## SaveOptions class

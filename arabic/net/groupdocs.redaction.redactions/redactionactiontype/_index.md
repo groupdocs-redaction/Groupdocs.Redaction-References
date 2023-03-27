@@ -3,7 +3,7 @@ title: RedactionActionType
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يمثل الإجراءات التي يمكن اتخاذها لأداء التنقيح .
 type: docs
-weight: 550
+weight: 560
 url: /ar/net/groupdocs.redaction.redactions/redactionactiontype/
 ---
 ## RedactionActionType enumeration

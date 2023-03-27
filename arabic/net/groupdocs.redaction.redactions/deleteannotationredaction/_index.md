@@ -3,7 +3,7 @@ title: DeleteAnnotationRedaction
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يمثل تنقيح النص الذي يحذف التعليقات التوضيحية إذا كان النص مطابقًا للتعبير العادي المعطى اختياريًا يحذف جميع التعليقات التوضيحية .
 type: docs
-weight: 460
+weight: 470
 url: /ar/net/groupdocs.redaction.redactions/deleteannotationredaction/
 ---
 ## DeleteAnnotationRedaction class
@@ -19,8 +19,8 @@ public class DeleteAnnotationRedaction : Redaction
 | اسم | وصف |
 | --- | --- |
 | [DeleteAnnotationRedaction](deleteannotationredaction#constructor)() | تهيئة مثيل جديد لفئة DeleteAnnotationRedaction ، مع إعدادات لحذف جميع التعليقات التوضيحية (تطابق كل شيء) . |
-| [DeleteAnnotationRedaction](deleteannotationredaction#constructor_2)(Regex) | يقوم بتهيئة مثيل جديد لفئة DeleteAnnotationRedaction وحذف التعليقات التوضيحية المطابقة للتعبير المحدد. |
-| [DeleteAnnotationRedaction](deleteannotationredaction#constructor_1)(string) | يقوم بتهيئة مثيل جديد لفئة DeleteAnnotationRedaction وحذف التعليقات التوضيحية المطابقة للتعبير المحدد. |
+| [DeleteAnnotationRedaction](deleteannotationredaction#constructor_2)(Regex) | يقوم بتهيئة مثيل جديد لفئة DeleteAnnotationRedaction وحذف التعليقات التوضيحية التي تطابق التعبير المحدد. |
+| [DeleteAnnotationRedaction](deleteannotationredaction#constructor_1)(string) | يقوم بتهيئة مثيل جديد لفئة DeleteAnnotationRedaction وحذف التعليقات التوضيحية التي تطابق التعبير المحدد. |
 
 ## الخصائص
 

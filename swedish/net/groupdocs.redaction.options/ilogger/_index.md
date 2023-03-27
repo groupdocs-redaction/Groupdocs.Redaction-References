@@ -3,7 +3,7 @@ title: ILogger
 second_title: GroupDocs.Redaction för .NET API-referens
 description: Definierar gränssnittet för en logger som kan användas för att logga händelser och fel under redigering.
 type: docs
-weight: 290
+weight: 300
 url: /sv/net/groupdocs.redaction.options/ilogger/
 ---
 ## ILogger interface

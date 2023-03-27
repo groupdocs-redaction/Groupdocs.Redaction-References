@@ -3,7 +3,7 @@ title: RedactionPolicy
 second_title: Referencia de API de GroupDocs.Redaction para .NET
 description: Representa una política de desinfección que contiene un conjunto de redacciones específicas para aplicar.
 type: docs
-weight: 400
+weight: 410
 url: /es/net/groupdocs.redaction/redactionpolicy/
 ---
 ## RedactionPolicy class

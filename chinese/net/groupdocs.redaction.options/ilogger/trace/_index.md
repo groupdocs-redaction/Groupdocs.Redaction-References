@@ -1,14 +1,14 @@
 ---
 title: Trace
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 记录在编辑过程中发生的事件
+description: 记录编辑过程中发生的事件
 type: docs
 weight: 20
 url: /zh/net/groupdocs.redaction.options/ilogger/trace/
 ---
 ## ILogger.Trace method
 
-记录在编辑过程中发生的事件。
+记录编辑过程中发生的事件。
 
 ```csharp
 public void Trace(string message)

@@ -8,7 +8,7 @@ url: /zh/net/groupdocs.redaction.exceptions/passwordrequiredexception/
 ---
 ## PasswordRequiredException class
 
-加载文档需要密码时抛出的异常
+加载文档需要密码时抛出的异常。
 
 ```csharp
 public class PasswordRequiredException : GroupDocsRedactionException
@@ -19,7 +19,7 @@ public class PasswordRequiredException : GroupDocsRedactionException
 | 姓名 | 描述 |
 | --- | --- |
 | [PasswordRequiredException](passwordrequiredexception#constructor)() | 初始化 PasswordRequiredException 类的新实例。 |
-| [PasswordRequiredException](passwordrequiredexception#constructor_1)(string, Exception) | 使用指定的错误消息和对导致此异常的内部异常的引用初始化 PasswordRequiredException 类的新实例。 |
+| [PasswordRequiredException](passwordrequiredexception#constructor_1)(string, Exception) | 使用指定的错误消息和对导致此异常的内部异常的引用来初始化 PasswordRequiredException 类的新实例。 |
 
 ### 也可以看看
 

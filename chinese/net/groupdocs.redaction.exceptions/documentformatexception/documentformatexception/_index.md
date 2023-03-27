@@ -28,7 +28,7 @@ public DocumentFormatException(string message)
 
 ## DocumentFormatException(string, Exception) {#constructor_1}
 
-使用指定的错误消息和对导致此异常的内部异常的引用初始化 DocumentFormatException 类的新实例。
+使用指定的错误消息和对导致此异常的内部异常的引用来初始化 DocumentFormatException 类的新实例。
 
 ```csharp
 public DocumentFormatException(string message, Exception innerException)

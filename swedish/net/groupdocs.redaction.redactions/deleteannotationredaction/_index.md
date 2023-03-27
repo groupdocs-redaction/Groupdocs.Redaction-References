@@ -3,7 +3,7 @@ title: DeleteAnnotationRedaction
 second_title: GroupDocs.Redaction för .NET API-referens
 description: Representerar en textredigering som tar bort kommentarer om text matchar givet reguljärt uttryck valfritt tar bort alla kommentarer.
 type: docs
-weight: 460
+weight: 470
 url: /sv/net/groupdocs.redaction.redactions/deleteannotationredaction/
 ---
 ## DeleteAnnotationRedaction class
@@ -44,7 +44,7 @@ public class DeleteAnnotationRedaction : Redaction
 
 ### Exempel
 
-Följande exempel visar hur man tar bort alla kommentarer som innehåller orden "använd", "visa" eller "beskriv" från dokumentet (och lämnar andra).
+Följande exempel visar hur man tar bort alla anteckningar som innehåller orden "använd", "visa" eller "beskriv" från dokumentet (och lämnar andra).
 
 ```csharp
 using (Redactor redactor = new Redactor(@"D:\test.docx"))

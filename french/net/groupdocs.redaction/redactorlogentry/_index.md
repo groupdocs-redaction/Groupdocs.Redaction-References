@@ -3,7 +3,7 @@ title: RedactorLogEntry
 second_title: Référence de l'API GroupDocs.Redaction pour .NET
 description: Représente les résultats de lapplication de la rédaction.
 type: docs
-weight: 670
+weight: 680
 url: /fr/net/groupdocs.redaction/redactorlogentry/
 ---
 ## RedactorLogEntry class

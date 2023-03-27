@@ -3,7 +3,7 @@ title: MetadataSearchRedaction
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يمثل تنقيح البيانات الوصفية الذي يبحث عن البيانات الوصفية وينقحها باستخدام التعبيرات العادية و / أو المفاتيح المتطابقة و / أو القيم.
 type: docs
-weight: 530
+weight: 540
 url: /ar/net/groupdocs.redaction.redactions/metadatasearchredaction/
 ---
 ## MetadataSearchRedaction class

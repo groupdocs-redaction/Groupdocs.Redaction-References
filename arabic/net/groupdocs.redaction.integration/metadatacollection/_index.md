@@ -1,14 +1,14 @@
 ---
 title: MetadataCollection
 second_title: GroupDocs.Redaction لمرجع .NET API
-description: يمثل إملاء منMetadataItem./metadataitem مع عنوانه كمفتاح.
+description: يمثل قاموسMetadataItem./metadataitem مع عنوانه كمفتاح.
 type: docs
 weight: 200
 url: /ar/net/groupdocs.redaction.integration/metadatacollection/
 ---
 ## MetadataCollection class
 
-يمثل إملاء من[`MetadataItem`](../metadataitem) مع عنوانه كمفتاح.
+يمثل قاموس[`MetadataItem`](../metadataitem) مع عنوانه كمفتاح.
 
 ```csharp
 public class MetadataCollection : Dictionary<string, MetadataItem>

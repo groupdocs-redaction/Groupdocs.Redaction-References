@@ -3,7 +3,7 @@ title: MetadataRedaction
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يمثل فئة الملخص الأساسية لتنقيح بيانات تعريف المستند.
 type: docs
-weight: 520
+weight: 530
 url: /ar/net/groupdocs.redaction.redactions/metadataredaction/
 ---
 ## MetadataRedaction class

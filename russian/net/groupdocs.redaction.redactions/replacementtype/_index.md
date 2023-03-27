@@ -3,7 +3,7 @@ title: ReplacementType
 second_title: Справочник по API GroupDocs.Redaction для .NET
 description: Представляет тип замены совпавшего текста.
 type: docs
-weight: 620
+weight: 630
 url: /ru/net/groupdocs.redaction.redactions/replacementtype/
 ---
 ## ReplacementType enumeration
@@ -23,7 +23,7 @@ public enum ReplacementType
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о редактировании текста документа: [Редактирование текста](https://docs.groupdocs.com/redaction/net/text-redactions/)
 

@@ -1,14 +1,14 @@
 ---
 title: Redaction
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 获取对密文及其选项的引用
+description: 获取对修订及其选项的引用
 type: docs
 weight: 20
 url: /zh/net/groupdocs.redaction/redactorlogentry/redaction/
 ---
 ## RedactorLogEntry.Redaction property
 
-获取对密文及其选项的引用。
+获取对修订及其选项的引用。
 
 ```csharp
 public Redaction Redaction { get; }

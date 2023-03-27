@@ -120,7 +120,7 @@ public RedactorSettings(ILogger logger, IRedactionCallback callback, IOcrConnect
 | --- | --- | --- |
 | logger | ILogger | 一个类的实例，实现 ILogger 接口 |
 | callback | IRedactionCallback | 一个类的实例，实现 IRedactionCallbck 接口 |
-| ocrConnector | IOcrConnector | IOcrConnector 接口实现的一个实例。可以为空 |
+| ocrConnector | IOcrConnector | IOcrConnector 接口实现的实例。可以为空 |
 
 ### 也可以看看
 

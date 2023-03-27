@@ -3,7 +3,7 @@ title: RedactorSettings
 second_title: Referencia de API de GroupDocs.Redaction para .NET
 description: Representa la configuración de redacción lo que permite personalizar el proceso de redacción.
 type: docs
-weight: 350
+weight: 360
 url: /es/net/groupdocs.redaction.options/redactorsettings/
 ---
 ## RedactorSettings class

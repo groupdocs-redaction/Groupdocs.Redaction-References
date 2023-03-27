@@ -3,7 +3,7 @@ title: PageSeekOrigin
 second_title: Справочник по API GroupDocs.Redaction для .NET
 description: Предоставляет поля представляющие контрольные точки в документе для поиска.
 type: docs
-weight: 540
+weight: 550
 url: /ru/net/groupdocs.redaction.redactions/pageseekorigin/
 ---
 ## PageSeekOrigin enumeration
@@ -23,7 +23,7 @@ public enum PageSeekOrigin
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее об удалении страниц: [Удалить редактирование страницы](https://docs.groupdocs.com/redaction/net/remove-page-redaction/)
 

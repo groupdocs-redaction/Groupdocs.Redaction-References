@@ -3,7 +3,7 @@ title: RedactionDescription
 second_title: Riferimento API GroupDocs.Redaction per .NET
 description: Rappresenta una singola azione di modifica delle informazioni eseguita durante il processo di redazione.
 type: docs
-weight: 560
+weight: 570
 url: /it/net/groupdocs.redaction.redactions/redactiondescription/
 ---
 ## RedactionDescription class
@@ -35,7 +35,7 @@ public class RedactionDescription
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori dettagli sulla classe RedactionDescription e sull'interfaccia IRedactionCallback: [Usa il callback di redazione](https://docs.groupdocs.com/redaction/net/use-redaction-callback/)
 

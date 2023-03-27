@@ -3,7 +3,7 @@ title: CreatePageStream
 second_title: Справочник по API GroupDocs.Redaction для .NET
 description: Представляет метод который возвращает поток для записи данных предварительного просмотра страницы.
 type: docs
-weight: 280
+weight: 290
 url: /ru/net/groupdocs.redaction.options/createpagestream/
 ---
 ## CreatePageStream delegate
@@ -24,7 +24,7 @@ public delegate Stream CreatePageStream(int pageNumber);
 
 ### Примеры
 
-В следующем примере показано, как получить предварительный просмотр документа с помощью[`PreviewOptions`](../previewoptions) а также[`CreatePageStream`](../createpagestream) делегировать.
+В следующем примере показано, как получить предварительный просмотр документа с помощью[`PreviewOptions`](../previewoptions) и[`CreatePageStream`](../createpagestream) делегировать.
 
 ```csharp
     CreatePageStream createDelegate = delegate (int pageNumber)

@@ -1,14 +1,14 @@
 ---
 title: ActionType
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 获取替换动作绘制框或替换文本
+description: 获取替换动作画框或替换文本
 type: docs
 weight: 20
 url: /zh/net/groupdocs.redaction.redactions/replacementoptions/actiontype/
 ---
 ## ReplacementOptions.ActionType property
 
-获取替换动作：绘制框或替换文本。
+获取替换动作：画框或替换文本。
 
 ```csharp
 public ReplacementType ActionType { get; }

@@ -3,7 +3,7 @@ title: ReplacementType
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يمثل نوعًا من الاستبدال للنص المتطابق.
 type: docs
-weight: 620
+weight: 630
 url: /ar/net/groupdocs.redaction.redactions/replacementtype/
 ---
 ## ReplacementType enumeration

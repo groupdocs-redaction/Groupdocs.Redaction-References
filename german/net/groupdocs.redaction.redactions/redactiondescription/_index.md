@@ -3,7 +3,7 @@ title: RedactionDescription
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Stellt eine einzelne Änderungsaktionsinformation dar die während des Schwärzungsvorgangs durchgeführt wurde.
 type: docs
-weight: 560
+weight: 570
 url: /de/net/groupdocs.redaction.redactions/redactiondescription/
 ---
 ## RedactionDescription class
@@ -35,7 +35,7 @@ public class RedactionDescription
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zur RedactionDescription-Klasse und zur IRedactionCallback-Schnittstelle: [Schwärzungsrückruf verwenden](https://docs.groupdocs.com/redaction/net/use-redaction-callback/)
 

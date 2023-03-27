@@ -1,14 +1,14 @@
 ---
 title: Redactor
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 初始化一个新的实例Redactorgroupdocs.redaction/redactor使用文件路径的类.
+description: 初始化一个新实例Redactorgroupdocs.redaction/redactor使用文件路径的类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.redaction/redactor/redactor/
 ---
 ## Redactor(string) {#constructor_3}
 
-初始化一个新的实例[`Redactor`](../../redactor)使用文件路径的类.
+初始化一个新实例[`Redactor`](../../redactor)使用文件路径的类.
 
 ```csharp
 public Redactor(string filePath)
@@ -20,7 +20,7 @@ public Redactor(string filePath)
 
 ### 例子
 
-以下示例演示了如何打开文档进行编辑。
+以下示例演示如何打开文档进行编辑。
 
 ```csharp
 using (Redactor redactor = new Redactor(@"C:\sample.pdf"))
@@ -39,7 +39,7 @@ using (Redactor redactor = new Redactor(@"C:\sample.pdf"))
 
 ## Redactor(Stream) {#constructor}
 
-初始化一个新的实例[`Redactor`](../../redactor)使用流的类.
+初始化一个新实例[`Redactor`](../../redactor)使用 stream. 的类
 
 ```csharp
 public Redactor(Stream document)
@@ -73,7 +73,7 @@ using (Stream stream = File.Open(@"C:\\sample.pdf", FileMode.Open, FileAccess.Re
 
 ## Redactor(string, LoadOptions) {#constructor_4}
 
-初始化一个新的实例[`Redactor`](../../redactor)使用其路径的受密码保护文档的类.
+初始化一个新实例[`Redactor`](../../redactor)使用其路径. 的受密码保护文档的类
 
 ```csharp
 public Redactor(string filePath, LoadOptions loadOptions)
@@ -95,7 +95,7 @@ public Redactor(string filePath, LoadOptions loadOptions)
 
 ## Redactor(string, LoadOptions, RedactorSettings) {#constructor_5}
 
-初始化一个新的实例[`Redactor`](../../redactor)使用其路径和设置的受密码保护文档的类。
+初始化一个新实例[`Redactor`](../../redactor)使用其路径和设置的受密码保护文档的类。
 
 ```csharp
 public Redactor(string filePath, LoadOptions loadOptions, RedactorSettings settings)
@@ -119,7 +119,7 @@ public Redactor(string filePath, LoadOptions loadOptions, RedactorSettings setti
 
 ## Redactor(Stream, LoadOptions) {#constructor_1}
 
-初始化一个新的实例[`Redactor`](../../redactor)使用 stream. 的受密码保护文档的类
+初始化一个新实例[`Redactor`](../../redactor)使用 stream. 的密码保护文档的类
 
 ```csharp
 public Redactor(Stream document, LoadOptions loadOptions)
@@ -132,7 +132,7 @@ public Redactor(Stream document, LoadOptions loadOptions)
 
 ### 例子
 
-下面的示例演示如何使用 LoadOptions 打开受密码保护的文档。
+下面的示例演示如何使用 LoadOptions 打开受密码保护的文件。
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions("mypassword");
@@ -153,7 +153,7 @@ using (Redactor redactor = new Redactor(@"C:\sample.pdf", loadOptions))
 
 ## Redactor(Stream, LoadOptions, RedactorSettings) {#constructor_2}
 
-初始化一个新的实例[`Redactor`](../../redactor)使用流和设置的受密码保护文档的类。
+初始化一个新实例[`Redactor`](../../redactor)使用流和设置的密码保护文档的类。
 
 ```csharp
 public Redactor(Stream document, LoadOptions loadOptions, RedactorSettings settings)
@@ -167,7 +167,7 @@ public Redactor(Stream document, LoadOptions loadOptions, RedactorSettings setti
 
 ### 例子
 
-下面的示例演示如何使用 LoadOptions 打开受密码保护的文档。
+下面的示例演示如何使用 LoadOptions 打开受密码保护的文件。
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions("mypassword");

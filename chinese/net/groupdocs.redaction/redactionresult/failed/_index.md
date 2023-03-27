@@ -1,14 +1,14 @@
 ---
 title: Failed
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 使用失败状态初始化 RedactionResult 类的新实例
+description: 以失败状态初始化 RedactionResult 类的新实例
 type: docs
 weight: 10
 url: /zh/net/groupdocs.redaction/redactionresult/failed/
 ---
 ## RedactionResult.Failed method
 
-使用失败状态初始化 RedactionResult 类的新实例。
+以失败状态初始化 RedactionResult 类的新实例。
 
 ```csharp
 public static RedactionResult Failed(string description)
@@ -20,7 +20,7 @@ public static RedactionResult Failed(string description)
 
 ### 返回值
 
-编辑失败结果
+失败的编辑结果
 
 ### 也可以看看
 

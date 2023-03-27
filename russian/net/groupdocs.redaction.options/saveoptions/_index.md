@@ -3,7 +3,7 @@ title: SaveOptions
 second_title: Справочник по API GroupDocs.Redaction для .NET
 description: Предоставляет параметры для изменения имени выходного файла и/или преобразования документа в формат PDF на основе изображения растеризация.
 type: docs
-weight: 370
+weight: 380
 url: /ru/net/groupdocs.redaction.options/saveoptions/
 ---
 ## SaveOptions class
@@ -38,7 +38,7 @@ public class SaveOptions
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Сохранить с параметрами по умолчанию](https://docs.groupdocs.com/redaction/net/save-with-default-options/)
 * [Сохранить в растрированном PDF](https://docs.groupdocs.com/redaction/net/save-in-rasterized-pdf/)

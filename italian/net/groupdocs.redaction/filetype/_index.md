@@ -71,7 +71,7 @@ public sealed class FileType : IEquatable<FileType>
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Formati di documenti supportati](https://docs.groupdocs.com/redaction/net/supported-document-formats/)
 * [Ottieni i formati di file supportati](https://docs.groupdocs.com/redaction/net/get-supported-file-formats/)

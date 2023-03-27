@@ -82,7 +82,7 @@ using (Redactor redactor = new Redactor(@"D:\\test.docx"))
       new MetadataSearchRedaction(LookupStrings.CompanyName, "--company--") 
    }; 
    RedactorChangeLog result = redactor.Apply(redactionList);
-   // false, se almeno una redazione non è riuscita
+   // false, se almeno una redazione ha avuto esito negativo
    if (result.Status != RedactionStatus.Failed)
    {
       redactor.Save();

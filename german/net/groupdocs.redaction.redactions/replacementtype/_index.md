@@ -3,7 +3,7 @@ title: ReplacementType
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Repräsentiert einen Ersetzungstyp für den abgeglichenen Text.
 type: docs
-weight: 620
+weight: 630
 url: /de/net/groupdocs.redaction.redactions/replacementtype/
 ---
 ## ReplacementType enumeration
@@ -23,7 +23,7 @@ public enum ReplacementType
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zum Schwärzen von Dokumenttexten: [Textredaktionen](https://docs.groupdocs.com/redaction/net/text-redactions/)
 

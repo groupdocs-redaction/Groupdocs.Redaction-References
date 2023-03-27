@@ -1,14 +1,14 @@
 ---
 title: Skipped
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 使用已跳过状态初始化 RedactionResult 类的新实例
+description: 初始化具有 Skipped 状态的 RedactionResult 类的新实例
 type: docs
 weight: 30
 url: /zh/net/groupdocs.redaction/redactionresult/skipped/
 ---
 ## RedactionResult.Skipped method
 
-使用已跳过状态初始化 RedactionResult 类的新实例。
+初始化具有 Skipped 状态的 RedactionResult 类的新实例。
 
 ```csharp
 public static RedactionResult Skipped(string description)
@@ -20,7 +20,7 @@ public static RedactionResult Skipped(string description)
 
 ### 返回值
 
-跳过的编辑结果
+跳过编辑结果
 
 ### 也可以看看
 

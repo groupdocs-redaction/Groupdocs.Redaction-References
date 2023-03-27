@@ -3,7 +3,7 @@ title: DeleteAnnotationRedaction
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Stellt eine Textschwärzung dar die Anmerkungen löscht wenn der Text mit dem angegebenen regulären Ausdruck übereinstimmt löscht optional alle Anmerkungen.
 type: docs
-weight: 460
+weight: 470
 url: /de/net/groupdocs.redaction.redactions/deleteannotationredaction/
 ---
 ## DeleteAnnotationRedaction class
@@ -37,7 +37,7 @@ public class DeleteAnnotationRedaction : Redaction
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zum Anwenden von Schwärzungen: [Grundlagen der Redaktion](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Weitere Details zum Schwärzen von Dokumentanmerkungen: [Anmerkungsredaktionen](https://docs.groupdocs.com/redaction/net/annotation-redactions/)

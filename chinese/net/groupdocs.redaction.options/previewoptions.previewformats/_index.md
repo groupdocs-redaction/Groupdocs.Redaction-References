@@ -3,7 +3,7 @@ title: PreviewOptions.PreviewFormats
 second_title: GroupDocs.Redaction for .NET API 参考
 description: 表示支持的预览格式
 type: docs
-weight: 330
+weight: 340
 url: /zh/net/groupdocs.redaction.options/previewoptions.previewformats/
 ---
 ## PreviewOptions.PreviewFormats enumeration

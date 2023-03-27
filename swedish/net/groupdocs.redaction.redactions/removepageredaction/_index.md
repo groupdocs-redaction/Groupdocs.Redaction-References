@@ -3,7 +3,7 @@ title: RemovePageRedaction
 second_title: GroupDocs.Redaction för .NET API-referens
 description: Representerar en redigering som tar bort en sida bild kalkylblad etc. från ett dokument.
 type: docs
-weight: 600
+weight: 610
 url: /sv/net/groupdocs.redaction.redactions/removepageredaction/
 ---
 ## RemovePageRedaction class

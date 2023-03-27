@@ -1,14 +1,14 @@
 ---
 title: IPaginatedDocument
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 定义操作文档页面所需的方法需要执行DocumentFormatInstance./documentformatinstance派生类来执行页面编辑
+description: 定义操作文档页面所需的方法需要由执行DocumentFormatInstance./documentformatinstance派生类来执行页面编辑
 type: docs
 weight: 160
 url: /zh/net/groupdocs.redaction.integration/ipaginateddocument/
 ---
 ## IPaginatedDocument interface
 
-定义操作文档页面所需的方法。需要执行[`DocumentFormatInstance`](../documentformatinstance)-派生类来执行页面编辑。
+定义操作文档页面所需的方法。需要由执行[`DocumentFormatInstance`](../documentformatinstance)-派生类来执行页面编辑。
 
 ```csharp
 public interface IPaginatedDocument
@@ -22,10 +22,10 @@ public interface IPaginatedDocument
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 有关应用编辑的更多详细信息： [编辑基础知识](https://docs.groupdocs.com/redaction/net/redaction-basics/)
-* 关于操作页面的更多细节： [删除页面编辑](https://docs.groupdocs.com/redaction/net/remove-page-redaction/)
+* 有关应用密文的更多详细信息： [编辑基础知识](https://docs.groupdocs.com/redaction/net/redaction-basics/)
+* 有关操作页面的更多详细信息： [删除页面密文](https://docs.groupdocs.com/redaction/net/remove-page-redaction/)
 
 ### 也可以看看
 

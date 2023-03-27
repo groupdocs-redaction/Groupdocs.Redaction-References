@@ -3,7 +3,7 @@ title: EraseMetadataRedaction
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Stellt eine Metadatenschwärzung dar die alle Metadaten oder Metadaten die mit bestimmten Metadatenfiltern übereinstimmen aus dem Dokument löscht.
 type: docs
-weight: 470
+weight: 480
 url: /de/net/groupdocs.redaction.redactions/erasemetadataredaction/
 ---
 ## EraseMetadataRedaction class
@@ -36,7 +36,7 @@ public class EraseMetadataRedaction : MetadataRedaction
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zum Anwenden von Schwärzungen: [Grundlagen der Redaktion](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Weitere Details zum Schwärzen von Dokumentmetadaten: [Schwärzungen von Metadaten](https://docs.groupdocs.com/redaction/net/metadata-redactions/)

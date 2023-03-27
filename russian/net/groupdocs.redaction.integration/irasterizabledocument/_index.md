@@ -23,7 +23,7 @@ public interface IRasterizableDocument
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о применении правок: [Основы редактирования](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Подробнее о сохранении документа в виде растрового PDF: [Сохранить в растрированном PDF](https://docs.groupdocs.com/redaction/net/save-in-rasterized-pdf/)

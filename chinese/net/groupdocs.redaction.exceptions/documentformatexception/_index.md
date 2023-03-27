@@ -8,7 +8,7 @@ url: /zh/net/groupdocs.redaction.exceptions/documentformatexception/
 ---
 ## DocumentFormatException class
 
-文档格式无法识别或无效时抛出的异常
+文档格式无法识别或无效时抛出的异常。
 
 ```csharp
 public class DocumentFormatException : GroupDocsRedactionException
@@ -19,7 +19,7 @@ public class DocumentFormatException : GroupDocsRedactionException
 | 姓名 | 描述 |
 | --- | --- |
 | [DocumentFormatException](documentformatexception#constructor)(string) | 初始化 DocumentFormatException 类的新实例。 |
-| [DocumentFormatException](documentformatexception#constructor_1)(string, Exception) | 使用指定的错误消息和对导致此异常的内部异常的引用初始化 DocumentFormatException 类的新实例。 |
+| [DocumentFormatException](documentformatexception#constructor_1)(string, Exception) | 使用指定的错误消息和对导致此异常的内部异常的引用来初始化 DocumentFormatException 类的新实例。 |
 
 ### 也可以看看
 

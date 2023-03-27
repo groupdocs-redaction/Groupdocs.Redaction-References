@@ -1,14 +1,14 @@
 ---
 title: RedactionType
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 表示一种文档数据受编辑影响
+description: 表示一种文档数据受修订影响
 type: docs
-weight: 570
+weight: 580
 url: /zh/net/groupdocs.redaction.redactions/redactiontype/
 ---
 ## RedactionType enumeration
 
-表示一种文档数据，受编辑影响。
+表示一种文档数据，受修订影响。
 
 ```csharp
 public enum RedactionType
@@ -18,17 +18,17 @@ public enum RedactionType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Text | `0` | 文档的正文。 |
+| Text | `0` | 文档正文。 |
 | Metadata | `1` | 文档的元数据。 |
 | Annotation | `2` | 文档文本中的注释。 |
-| ImageArea | `3` | 图像内的区域。 |
+| ImageArea | `3` | 图像中的区域。 |
 | Page | `4` | 文档的页面。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于 RedactionDescription 类和 IRedactionCallback 接口的细节： [使用编辑回调](https://docs.groupdocs.com/redaction/net/use-redaction-callback/)
+* 有关 RedactionDescription 类和 IRedactionCallback 接口的更多详细信息： [使用密文回调](https://docs.groupdocs.com/redaction/net/use-redaction-callback/)
 
 ### 也可以看看
 

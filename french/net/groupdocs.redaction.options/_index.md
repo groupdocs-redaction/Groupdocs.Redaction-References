@@ -28,6 +28,7 @@ LeOptions l'espace de noms fournit des classes d'options de chargement et de sau
 
 | Énumération | La description |
 | --- | --- |
+| [AdvancedRasterizationOptions](./advancedrasterizationoptions) | Enumération des drapeaux pour gérer les options de pixellisation avancées à appliquer. |
 | [PdfComplianceLevel](./pdfcompliancelevel) | Représente une liste des niveaux de conformité PDF pris en charge. |
 | [PreviewOptions.PreviewFormats](./previewoptions.previewformats) | Représente les formats d'aperçu pris en charge. |
 

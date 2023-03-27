@@ -3,7 +3,7 @@ title: MetadataRedaction
 second_title: Référence de l'API GroupDocs.Redaction pour .NET
 description: Représente une classe abstraite de base pour les suppressions de métadonnées de document.
 type: docs
-weight: 520
+weight: 530
 url: /fr/net/groupdocs.redaction.redactions/metadataredaction/
 ---
 ## MetadataRedaction class

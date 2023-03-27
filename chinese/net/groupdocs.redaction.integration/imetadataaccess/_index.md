@@ -18,16 +18,16 @@ public interface IMetadataAccess
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ChangeMetadata](../../groupdocs.redaction.integration/imetadataaccess/changemetadata)(MetadataItem) | 将指定的元数据项从[`MetadataCollection`](../metadatacollection)或添加一个新的，如果不存在的话。 |
+| [ChangeMetadata](../../groupdocs.redaction.integration/imetadataaccess/changemetadata)(MetadataItem) | 将指定的元数据项从[`MetadataCollection`](../metadatacollection)或添加一个新的，如果不存在。 |
 | [GetMetadata](../../groupdocs.redaction.integration/imetadataaccess/getmetadata)() | 检索包含文档元数据的字典。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 有关应用编辑的更多详细信息： [编辑基础知识](https://docs.groupdocs.com/redaction/net/redaction-basics/)
+* 有关应用密文的更多详细信息： [编辑基础知识](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * 有关文档元数据编辑的更多详细信息： [元数据编辑](https://docs.groupdocs.com/redaction/net/metadata-redactions/)
-* 关于实现自定义格式的更多细节： [创建自定义格式处理程序](https://docs.groupdocs.com/redaction/net/create-custom-format-handler/)
+* 有关实现自定义格式的更多详细信息： [创建自定义格式处理程序](https://docs.groupdocs.com/redaction/net/create-custom-format-handler/)
 
 ### 也可以看看
 

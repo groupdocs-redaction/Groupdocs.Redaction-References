@@ -1,14 +1,14 @@
 ---
 title: Rasterization
 second_title: GroupDocs.Redaction für .NET-API-Referenz
-description: Ruft die Rasterisierungseinstellungen ab.
+description: Ruft die Rasterungseinstellungen ab.
 type: docs
 weight: 30
 url: /de/net/groupdocs.redaction.options/saveoptions/rasterization/
 ---
 ## SaveOptions.Rasterization property
 
-Ruft die Rasterisierungseinstellungen ab.
+Ruft die Rasterungseinstellungen ab.
 
 ```csharp
 public RasterizationOptions Rasterization { get; }

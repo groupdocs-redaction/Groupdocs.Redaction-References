@@ -1,14 +1,14 @@
 ---
 title: ActionOptions
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 获取ReplacementOptionsgroupdocs.redaction.redactions/replacementoptions实例指定文本替换的类型
+description: 获取ReplacementOptionsgroupdocs.redaction.redactions/replacementoptions实例指定文本替换类型.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.redaction.redactions/textredaction/actionoptions/
 ---
 ## TextRedaction.ActionOptions property
 
-获取[`ReplacementOptions`](../../replacementoptions)实例，指定文本替换的类型。
+获取[`ReplacementOptions`](../../replacementoptions)实例，指定文本替换类型.
 
 ```csharp
 public ReplacementOptions ActionOptions { get; }

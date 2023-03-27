@@ -3,7 +3,7 @@ title: PdfComplianceLevel
 second_title: Referencia de API de GroupDocs.Redaction para .NET
 description: Representa una lista de niveles de cumplimiento de PDF admitidos.
 type: docs
-weight: 310
+weight: 320
 url: /es/net/groupdocs.redaction.options/pdfcompliancelevel/
 ---
 ## PdfComplianceLevel enumeration

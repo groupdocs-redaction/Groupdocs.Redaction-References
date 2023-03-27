@@ -8,7 +8,7 @@ url: /zh/net/groupdocs.redaction.exceptions/incorrectpasswordexception/
 ---
 ## IncorrectPasswordException class
 
-指定密码错误时抛出的异常
+指定密码错误时抛出的异常。
 
 ```csharp
 public class IncorrectPasswordException : GroupDocsRedactionException
@@ -19,7 +19,7 @@ public class IncorrectPasswordException : GroupDocsRedactionException
 | 姓名 | 描述 |
 | --- | --- |
 | [IncorrectPasswordException](incorrectpasswordexception#constructor)() | 初始化 IncorrectPasswordException 类的新实例。 |
-| [IncorrectPasswordException](incorrectpasswordexception#constructor_1)(string, Exception) | 使用指定的错误消息和对导致此异常的内部异常的引用初始化 IncorrectPasswordException 类的新实例。 |
+| [IncorrectPasswordException](incorrectpasswordexception#constructor_1)(string, Exception) | 使用指定的错误消息和对导致此异常的内部异常的引用来初始化 IncorrectPasswordException 类的新实例。 |
 
 ### 也可以看看
 

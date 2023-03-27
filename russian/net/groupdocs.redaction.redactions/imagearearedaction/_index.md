@@ -3,7 +3,7 @@ title: ImageAreaRedaction
 second_title: Справочник по API GroupDocs.Redaction для .NET
 description: Представляет редактирование которое помещает цветной прямоугольник в заданную область документа изображения.
 type: docs
-weight: 500
+weight: 510
 url: /ru/net/groupdocs.redaction.redactions/imagearearedaction/
 ---
 ## ImageAreaRedaction class
@@ -25,7 +25,7 @@ public class ImageAreaRedaction : Redaction
 | Имя | Описание |
 | --- | --- |
 | override [Description](../../groupdocs.redaction.redactions/imagearearedaction/description) { get; } | Возвращает строку, описывающую редактирование и его параметры. |
-| [Options](../../groupdocs.redaction.redactions/imagearearedaction/options) { get; } | Получает[`RegionReplacementOptions`](../regionreplacementoptions)варианты с параметрами цвета и области. |
+| [Options](../../groupdocs.redaction.redactions/imagearearedaction/options) { get; } | Получает[`RegionReplacementOptions`](../regionreplacementoptions)варианты с параметрами цвета и площади. |
 | [TopLeft](../../groupdocs.redaction.redactions/imagearearedaction/topleft) { get; } | Получает верхнюю левую позицию области для удаления |
 
 ## Методы
@@ -36,7 +36,7 @@ public class ImageAreaRedaction : Redaction
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о применении правок: [Основы редактирования](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Подробнее о редактировании изображений: [Редактирование изображений](https://docs.groupdocs.com/redaction/net/image-redactions/)

@@ -3,7 +3,7 @@ title: RedactionStatus
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يمثل حالة اكتمال التنقيح .
 type: docs
-weight: 420
+weight: 430
 url: /ar/net/groupdocs.redaction/redactionstatus/
 ---
 ## RedactionStatus enumeration

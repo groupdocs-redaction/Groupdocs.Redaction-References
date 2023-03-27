@@ -36,7 +36,7 @@ public class DocumentFormatConfiguration
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Mehr Details über**GroupDocs.Redaktion** Konfiguration: [Erweitern Sie die Liste der unterstützten Erweiterungen](https://docs.groupdocs.com/redaction/net/extend-supported-extensions-list/)
 * Weitere Details zur Implementierung benutzerdefinierter Formate: [Erstellen Sie einen benutzerdefinierten Formathandler](https://docs.groupdocs.com/redaction/net/create-custom-format-handler/)

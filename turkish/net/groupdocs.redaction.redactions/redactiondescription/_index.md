@@ -3,7 +3,7 @@ title: RedactionDescription
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Redaksiyon işlemi sırasında gerçekleştirilen tek bir değişiklik eylem bilgisini temsil eder.
 type: docs
-weight: 560
+weight: 570
 url: /tr/net/groupdocs.redaction.redactions/redactiondescription/
 ---
 ## RedactionDescription class

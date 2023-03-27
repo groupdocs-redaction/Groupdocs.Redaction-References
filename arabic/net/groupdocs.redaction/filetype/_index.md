@@ -24,7 +24,7 @@ public sealed class FileType : IEquatable<FileType>
 | static [DOCM](../../groupdocs.redaction/filetype/docm) { get; } | مستند ممكّن بماكرو مفتوح XML لـ Word (.docm) |
 | static [DOCX](../../groupdocs.redaction/filetype/docx) { get; } | مستند Microsoft Word Open XML (.docx) |
 | static [DOT](../../groupdocs.redaction/filetype/dot) { get; } | قالب مستند Word (.dot) |
-| static [DOTM](../../groupdocs.redaction/filetype/dotm) { get; } | Word Open XML - قالب مستند ممكن بماكرو (.dotm) |
+| static [DOTM](../../groupdocs.redaction/filetype/dotm) { get; } | Word Open XML - قالب مستند ممكّن بماكرو (.dotm) |
 | static [DOTX](../../groupdocs.redaction/filetype/dotx) { get; } | Word Open XML Document Template (.dotx) |
 | static [GIF](../../groupdocs.redaction/filetype/gif) { get; } | ملف تنسيق التبادل الرسومي (.gif) |
 | static [HTM](../../groupdocs.redaction/filetype/htm) { get; } | ملف لغة توصيف النص التشعبي (.htm) |

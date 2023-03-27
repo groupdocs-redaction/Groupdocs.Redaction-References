@@ -3,7 +3,7 @@ title: MetadataFilters
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يمثل قائمة بالأنواع الأكثر شيوعًا لبيانات تعريف المستندات.
 type: docs
-weight: 510
+weight: 520
 url: /ar/net/groupdocs.redaction.redactions/metadatafilters/
 ---
 ## MetadataFilters enumeration

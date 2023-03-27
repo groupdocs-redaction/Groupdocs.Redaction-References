@@ -3,7 +3,7 @@ title: DeleteAnnotationRedaction
 second_title: Справочник по API GroupDocs.Redaction для .NET
 description: Представляет редактирование текста которое удаляет аннотации если текст соответствует заданному регулярному выражению необязательно удаляет все аннотации.
 type: docs
-weight: 460
+weight: 470
 url: /ru/net/groupdocs.redaction.redactions/deleteannotationredaction/
 ---
 ## DeleteAnnotationRedaction class
@@ -37,7 +37,7 @@ public class DeleteAnnotationRedaction : Redaction
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о применении правок: [Основы редактирования](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Подробнее о редакциях аннотаций документов: [Редактирование аннотаций](https://docs.groupdocs.com/redaction/net/annotation-redactions/)

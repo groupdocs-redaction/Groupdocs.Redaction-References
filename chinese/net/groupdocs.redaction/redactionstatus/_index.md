@@ -1,14 +1,14 @@
 ---
 title: RedactionStatus
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 表示编辑完成状态
+description: 表示密文完成状态
 type: docs
-weight: 420
+weight: 430
 url: /zh/net/groupdocs.redaction/redactionstatus/
 ---
 ## RedactionStatus enumeration
 
-表示编辑完成状态。
+表示密文完成状态。
 
 ```csharp
 public enum RedactionStatus
@@ -18,14 +18,14 @@ public enum RedactionStatus
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Applied | `0` | 已完全成功应用编辑。 |
-| PartiallyApplied | `1` | 仅对部分匹配项进行了编辑。 |
-| Skipped | `2` | 已跳过编辑（未应用）。 |
-| Failed | `3` | 编辑失败并出现异常。 |
+| Applied | `0` | 编辑已完全成功应用。 |
+| PartiallyApplied | `1` | 编辑仅应用于其匹配项的一部分。 |
+| Skipped | `2` | 跳过了编辑（未应用）。 |
+| Failed | `3` | 编辑失败，出现异常。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 有关编辑状态的更多详细信息： [编辑基础知识](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 

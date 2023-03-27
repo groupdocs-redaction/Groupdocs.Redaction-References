@@ -3,7 +3,7 @@ title: PageCount
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Ermittelt oder setzt die Anzahl der Seiten die in PDF konvertiert werden sollen.
 type: docs
-weight: 40
+weight: 50
 url: /de/net/groupdocs.redaction.options/rasterizationoptions/pagecount/
 ---
 ## RasterizationOptions.PageCount property

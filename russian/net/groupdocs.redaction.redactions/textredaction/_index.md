@@ -3,7 +3,7 @@ title: TextRedaction
 second_title: Справочник по API GroupDocs.Redaction для .NET
 description: Представляет базовый абстрактный класс для редактирования текста документа.
 type: docs
-weight: 630
+weight: 640
 url: /ru/net/groupdocs.redaction.redactions/textredaction/
 ---
 ## TextRedaction class
@@ -30,7 +30,7 @@ public abstract class TextRedaction : Redaction
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о применении правок: [Основы редактирования](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Подробнее о редактировании текста документа: [Редактирование текста](https://docs.groupdocs.com/redaction/net/text-redactions/)

@@ -1,14 +1,14 @@
 ---
 title: BoxColor
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 获取或设置一个颜色DrawBox选项否则忽略.
+description: 获取或设置颜色DrawBox选项否则忽略.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.redaction.redactions/replacementoptions/boxcolor/
 ---
 ## ReplacementOptions.BoxColor property
 
-获取或设置一个颜色DrawBox选项（否则忽略）.
+获取或设置颜色DrawBox选项（否则忽略）.
 
 ```csharp
 public Color BoxColor { get; set; }

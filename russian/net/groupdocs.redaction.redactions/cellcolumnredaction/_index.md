@@ -3,7 +3,7 @@ title: CellColumnRedaction
 second_title: Справочник по API GroupDocs.Redaction для .NET
 description: Представляет редактирование текста заменяющее текст в табличных документах CSV Excel и т. д..
 type: docs
-weight: 440
+weight: 450
 url: /ru/net/groupdocs.redaction.redactions/cellcolumnredaction/
 ---
 ## CellColumnRedaction class
@@ -38,7 +38,7 @@ public class CellColumnRedaction : TextRedaction
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о применении правок: [Основы редактирования](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Подробнее об исправлениях в таблицах: [Редакции электронных таблиц](https://docs.groupdocs.com/redaction/net/spreadsheet-redactions/)

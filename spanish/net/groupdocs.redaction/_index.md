@@ -1,12 +1,12 @@
 ---
 title: GroupDocs.Redaction
 second_title: Referencia de API de GroupDocs.Redaction para .NET
-description: ElRedaction El espacio de nombres proporciona clases para redactar información confidencial de documentos en formato PDF imagen de mapa de bits y documentos de Office. Las clases principales en este espacio de nombres son
+description: ElRedaction El espacio de nombres proporciona clases para redactar información confidencial de documentos en formato PDF imagen de mapa de bits y documentos de oficina. Las clases principales en este espacio de nombres son
 type: docs
 weight: 10
 url: /es/net/groupdocs.redaction/
 ---
-ElRedaction El espacio de nombres proporciona clases para redactar información confidencial de documentos en formato PDF, imagen de mapa de bits y documentos de Office. Las clases principales en este espacio de nombres son:
+ElRedaction El espacio de nombres proporciona clases para redactar información confidencial de documentos en formato PDF, imagen de mapa de bits y documentos de oficina. Las clases principales en este espacio de nombres son:
 
 ## Clases
 

@@ -3,7 +3,7 @@ title: RedactionResult
 second_title: GroupDocs.Redaction för .NET API-referens
 description: Representerar ett resultat av redigeringsoperationen.
 type: docs
-weight: 410
+weight: 420
 url: /sv/net/groupdocs.redaction/redactionresult/
 ---
 ## RedactionResult class

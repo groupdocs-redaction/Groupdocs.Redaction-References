@@ -1,14 +1,14 @@
 ---
 title: ExactPhraseRedaction
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 表示替换文档文本中确切短语的文本编辑默认情况下不区分大小写
+description: 表示替换文档文本中的确切短语的文本编辑默认情况下不区分大小写
 type: docs
-weight: 480
+weight: 490
 url: /zh/net/groupdocs.redaction.redactions/exactphraseredaction/
 ---
 ## ExactPhraseRedaction class
 
-表示替换文档文本中确切短语的文本编辑，默认情况下不区分大小写。
+表示替换文档文本中的确切短语的文本编辑，默认情况下不区分大小写。
 
 ```csharp
 public class ExactPhraseRedaction : TextRedaction
@@ -18,16 +18,16 @@ public class ExactPhraseRedaction : TextRedaction
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ExactPhraseRedaction](exactphraseredaction#constructor_1)(string, ReplacementOptions) | 在不区分大小写模式下初始化 ExactPhraseRedaction 类的新实例。 |
+| [ExactPhraseRedaction](exactphraseredaction#constructor_1)(string, ReplacementOptions) | 在不区分大小写的模式下初始化 ExactPhraseRedaction 类的新实例。 |
 | [ExactPhraseRedaction](exactphraseredaction#constructor)(string, bool, ReplacementOptions) | 初始化 ExactPhraseRedaction 类的新实例。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ActionOptions](../../groupdocs.redaction.redactions/textredaction/actionoptions) { get; } | 获取[`ReplacementOptions`](../replacementoptions)实例，指定文本替换的类型。 |
-| override [Description](../../groupdocs.redaction.redactions/exactphraseredaction/description) { get; } | 返回一个字符串，描述编辑及其参数。 |
-| [IsCaseSensitive](../../groupdocs.redaction.redactions/exactphraseredaction/iscasesensitive) { get; } | 获取一个值，该值指示搜索是否区分大小写。 |
+| [ActionOptions](../../groupdocs.redaction.redactions/textredaction/actionoptions) { get; } | 获取[`ReplacementOptions`](../replacementoptions)实例，指定文本替换类型. |
+| override [Description](../../groupdocs.redaction.redactions/exactphraseredaction/description) { get; } | 返回一个字符串，描述修订及其参数。 |
+| [IsCaseSensitive](../../groupdocs.redaction.redactions/exactphraseredaction/iscasesensitive) { get; } | 获取一个值，指示搜索是否区分大小写。 |
 | [OcrConnector](../../groupdocs.redaction.redactions/textredaction/ocrconnector) { get; set; } | 获取或设置[`IOcrConnector`](../../groupdocs.redaction.integration.ocr/iocrconnector)实现，需要从图形内容中提取文本。 |
 | [SearchPhrase](../../groupdocs.redaction.redactions/exactphraseredaction/searchphrase) { get; } | 获取要搜索和替换的字符串。 |
 
@@ -39,14 +39,14 @@ public class ExactPhraseRedaction : TextRedaction
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 有关应用编辑的更多详细信息： [编辑基础知识](https://docs.groupdocs.com/redaction/net/redaction-basics/)
-* 有关文档文本编辑的更多详细信息： [文本编辑](https://docs.groupdocs.com/redaction/net/text-redactions/)
+* 有关应用密文的更多详细信息： [编辑基础知识](https://docs.groupdocs.com/redaction/net/redaction-basics/)
+* 有关文档文本修订的更多详细信息： [文本编辑](https://docs.groupdocs.com/redaction/net/text-redactions/)
 
 ### 例子
 
-以下示例演示了执行区分大小写的短语搜索和替换。 以下示例演示了用纯红色矩形替换短语（不区分大小写）。
+以下示例演示了执行区分大小写的短语搜索和替换。 以下示例演示用实心红色矩形替换短语（不区分大小写）。
 
 ```csharp
 using (Redactor redactor = new Redactor(@"C:\sample.pdf"))

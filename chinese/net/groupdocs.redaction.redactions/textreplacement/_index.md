@@ -1,14 +1,14 @@
 ---
 title: TextReplacement
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 表示文字替换信息
+description: 表示一个文本替换信息
 type: docs
-weight: 640
+weight: 650
 url: /zh/net/groupdocs.redaction.redactions/textreplacement/
 ---
 ## TextReplacement class
 
-表示文字替换信息。
+表示一个文本替换信息。
 
 ```csharp
 public class TextReplacement
@@ -32,13 +32,13 @@ public class TextReplacement
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../groupdocs.redaction.redactions/textreplacement/tostring)() | 提供文本替换描述及其位置。 |
+| override [ToString](../../groupdocs.redaction.redactions/textreplacement/tostring)() | 提供文本替换说明及其位置。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于 RedactionDescription 类和 IRedactionCallback 接口的细节： [使用编辑回调](https://docs.groupdocs.com/redaction/net/use-redaction-callback/)
+* 有关 RedactionDescription 类和 IRedactionCallback 接口的更多详细信息： [使用密文回调](https://docs.groupdocs.com/redaction/net/use-redaction-callback/)
 
 ### 也可以看看
 

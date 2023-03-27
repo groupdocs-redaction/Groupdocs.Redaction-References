@@ -3,7 +3,7 @@ title: RemovePageRedaction
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Belgeden bir sayfayı slayt çalışma sayfası vb. kaldıran bir redaksiyonu temsil eder.
 type: docs
-weight: 600
+weight: 610
 url: /tr/net/groupdocs.redaction.redactions/removepageredaction/
 ---
 ## RemovePageRedaction class

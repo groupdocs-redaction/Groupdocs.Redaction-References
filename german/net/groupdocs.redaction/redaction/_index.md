@@ -3,7 +3,7 @@ title: Redaction
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Repräsentiert eine abstrakte Basisklasse für alle Schwärzungstypen.
 type: docs
-weight: 390
+weight: 400
 url: /de/net/groupdocs.redaction/redaction/
 ---
 ## Redaction class
@@ -28,7 +28,7 @@ public abstract class Redaction
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zu Schwärzungstypen: [Grundlagen der Redaktion](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Weiterführende Schwärzungsthemen: [Erweiterte Nutzung](https://docs.groupdocs.com/redaction/net/advanced-usage/)

@@ -3,7 +3,7 @@ title: MetadataSearchRedaction
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Düzenli ifadeler eşleşen anahtarlar ve/veya değerler kullanarak meta verileri arayan ve çıkaran bir meta veri redaksiyonunu temsil eder.
 type: docs
-weight: 530
+weight: 540
 url: /tr/net/groupdocs.redaction.redactions/metadatasearchredaction/
 ---
 ## MetadataSearchRedaction class

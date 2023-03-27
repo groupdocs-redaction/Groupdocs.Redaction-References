@@ -29,7 +29,7 @@ public class License
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Mehr zur Lizenzierung: [Häufig gestellte Fragen zur GroupDocs-Lizenzierung](https://purchase.groupdocs.com/faqs/licensing)
 * Mehr über**GroupDocs.Redaktion** Lizenzierung: [Bewertungsbeschränkungen und Lizenzierung](https://docs.groupdocs.com/redaction/net/evaluation-limitations-and-licensing/)

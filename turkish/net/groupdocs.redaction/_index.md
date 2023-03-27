@@ -15,7 +15,7 @@ Redaction ad alanı, PDF, raster görüntü ve ofis belgesi biçimlerindeki belg
 | [DocumentInfo](./documentinfo) | Belge hakkında bir bilgiyi temsil eder. IDocumentInfo arayüzünü uygular. Görmek[`IDocumentInfo`](../groupdocs.redaction/idocumentinfo) örnekler için. |
 | [FileType](./filetype) | Bir dosya türünü temsil eder. GroupDocs.Redaction tarafından desteklenen tüm dosya türlerinin bir listesini elde etmek, dosya türünü uzantıya göre algılamak vb. için yöntemler sağlar. |
 | [License](./license) | Lisans uygulamak için yöntemler sağlar. |
-| [Metered](./metered) | Ürünün Metered lisansıyla etkinleştirilmesine ve işlenen MB miktarının alınmasına izin veren yöntemler sağlar. Metered lisansları hakkında daha fazla bilgi edinin[burada](https://purchase.groupdocs.com/faqs/licensing/metered) . |
+| [Metered](./metered) | Ürünün Metered lisansı ile etkinleştirilmesine ve işlenen MB miktarının alınmasına izin veren yöntemler sağlar. Metered lisansları hakkında daha fazla bilgi edinin[Burada](https://purchase.groupdocs.com/faqs/licensing/metered) . |
 | [PageInfo](./pageinfo) | Kısa bir sayfa bilgisini temsil eder. |
 | [Redaction](./redaction) | Tüm redaksiyon türleri için bir temel soyut sınıfı temsil eder. |
 | [RedactionPolicy](./redactionpolicy) | Uygulanacak bir dizi özel redaksiyon içeren bir temizleme politikasını temsil eder. |

@@ -3,7 +3,7 @@ title: Redactor
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يمثل فئة رئيسية تتحكم في عملية تنقيح المستندات  مما يسمح بفتح المستندات وتنقيحها وحفظها.
 type: docs
-weight: 650
+weight: 660
 url: /ar/net/groupdocs.redaction/redactor/
 ---
 ## Redactor class
@@ -22,7 +22,7 @@ public sealed class Redactor : IDisposable, IPreviewable
 | [Redactor](redactor#constructor_3)(string) | يقوم بتهيئة مثيل جديد من[`Redactor`](../redactor) فئة باستخدام مسار الملف. |
 | [Redactor](redactor#constructor_1)(Stream, LoadOptions) | يقوم بتهيئة مثيل جديد من[`Redactor`](../redactor) فئة لمستند محمي بكلمة مرور باستخدام الدفق. |
 | [Redactor](redactor#constructor_4)(string, LoadOptions) | يقوم بتهيئة مثيل جديد من[`Redactor`](../redactor) فئة لمستند محمي بكلمة مرور باستخدام مساره. |
-| [Redactor](redactor#constructor_2)(Stream, LoadOptions, RedactorSettings) | يقوم بتهيئة مثيل جديد من[`Redactor`](../redactor) فئة لمستند محمي بكلمة مرور باستخدام الدفق والإعدادات. |
+| [Redactor](redactor#constructor_2)(Stream, LoadOptions, RedactorSettings) | يقوم بتهيئة مثيل جديد من[`Redactor`](../redactor)فئة لمستند محمي بكلمة مرور باستخدام الدفق والإعدادات. |
 | [Redactor](redactor#constructor_5)(string, LoadOptions, RedactorSettings) | يقوم بتهيئة مثيل جديد من[`Redactor`](../redactor) فئة لمستند محمي بكلمة مرور باستخدام مساره وإعداداته. |
 
 ## طُرق

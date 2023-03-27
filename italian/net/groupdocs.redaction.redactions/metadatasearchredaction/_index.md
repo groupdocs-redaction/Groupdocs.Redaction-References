@@ -3,7 +3,7 @@ title: MetadataSearchRedaction
 second_title: Riferimento API GroupDocs.Redaction per .NET
 description: Rappresenta unoscuramento dei metadati che cerca e oscura i metadati utilizzando espressioni regolari chiavi e/o valori corrispondenti.
 type: docs
-weight: 530
+weight: 540
 url: /it/net/groupdocs.redaction.redactions/metadatasearchredaction/
 ---
 ## MetadataSearchRedaction class
@@ -41,7 +41,7 @@ public class MetadataSearchRedaction : MetadataRedaction
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Maggiori dettagli sull'applicazione delle redazioni: [Nozioni di base sulla redazione](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Maggiori dettagli sulla redazione dei metadati del documento: [Redazioni di metadati](https://docs.groupdocs.com/redaction/net/metadata-redactions/)

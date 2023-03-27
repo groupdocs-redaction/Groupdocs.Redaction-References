@@ -3,7 +3,7 @@ title: RedactorSettings
 second_title: Справочник по API GroupDocs.Redaction для .NET
 description: Представляет параметры редактирования позволяющие настроить процесс редактирования.
 type: docs
-weight: 350
+weight: 360
 url: /ru/net/groupdocs.redaction.options/redactorsettings/
 ---
 ## RedactorSettings class
@@ -35,7 +35,7 @@ public class RedactorSettings
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о реализации интерфейса ILogger: [Используйте расширенное ведение журнала](https://docs.groupdocs.com/redaction/net/use-advanced-logging/)
 * Подробнее о реализации интерфейса IRedactionCallback: [Использовать обратный вызов редактирования](https://docs.groupdocs.com/redaction/net/use-redaction-callback/)

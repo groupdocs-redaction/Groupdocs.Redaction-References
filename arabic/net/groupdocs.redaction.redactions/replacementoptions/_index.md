@@ -3,7 +3,7 @@ title: ReplacementOptions
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يمثل خيارات لاستبدال النص المتطابق.
 type: docs
-weight: 610
+weight: 620
 url: /ar/net/groupdocs.redaction.redactions/replacementoptions/
 ---
 ## ReplacementOptions class

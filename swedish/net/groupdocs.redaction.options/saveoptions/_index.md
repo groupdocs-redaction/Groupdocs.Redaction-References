@@ -3,7 +3,7 @@ title: SaveOptions
 second_title: GroupDocs.Redaction för .NET API-referens
 description: Ger alternativ för att ändra ett utdatafilnamn och/eller konvertera dokumentet till bildbaserad PDF rasterisering.
 type: docs
-weight: 370
+weight: 380
 url: /sv/net/groupdocs.redaction.options/saveoptions/
 ---
 ## SaveOptions class

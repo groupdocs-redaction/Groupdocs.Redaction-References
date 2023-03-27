@@ -3,7 +3,7 @@ title: RegexRedaction
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Sağlanan normal ifadeyle eşleşen belgedeki metni arayan ve değiştiren bir metin redaksiyonunu temsil eder.
 type: docs
-weight: 580
+weight: 590
 url: /tr/net/groupdocs.redaction.redactions/regexredaction/
 ---
 ## RegexRedaction class

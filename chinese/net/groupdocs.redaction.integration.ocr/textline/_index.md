@@ -1,14 +1,14 @@
 ---
 title: TextLine
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 表示一行文本由 OCR 引擎从图像中提取
+description: 表示一行文字由OCR引擎从图片中提取
 type: docs
 weight: 250
 url: /zh/net/groupdocs.redaction.integration.ocr/textline/
 ---
 ## TextLine class
 
-表示一行文本，由 OCR 引擎从图像中提取。
+表示一行文字，由OCR引擎从图片中提取。
 
 ```csharp
 public class TextLine
@@ -34,9 +34,9 @@ public class TextLine
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 有关在 GroupDocs.Redaction 中使用 OCR 的更多详细信息： [OCR 使用基础](https://docs.groupdocs.com/redaction/net/ocr-usage-basics/)
+* 有关在 GroupDocs.Redaction 中使用 OCR 的更多详细信息： [OCR 使用基础知识](https://docs.groupdocs.com/redaction/net/ocr-usage-basics/)
 
 ### 也可以看看
 

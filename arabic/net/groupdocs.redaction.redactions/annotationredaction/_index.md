@@ -3,7 +3,7 @@ title: AnnotationRedaction
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يمثل تنقيحًا يستبدل نص التعليق التوضيحي التعليقات وما إلى ذلك الذي يطابق تعبيرًا عاديًا معينًا.
 type: docs
-weight: 430
+weight: 440
 url: /ar/net/groupdocs.redaction.redactions/annotationredaction/
 ---
 ## AnnotationRedaction class

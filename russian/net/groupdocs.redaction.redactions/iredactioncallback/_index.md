@@ -3,7 +3,7 @@ title: IRedactionCallback
 second_title: Справочник по API GroupDocs.Redaction для .NET
 description: Определяет методы необходимые для получения информации о каждом изменении редактуры и при необходимости предотвращения его.
 type: docs
-weight: 490
+weight: 500
 url: /ru/net/groupdocs.redaction.redactions/iredactioncallback/
 ---
 ## IRedactionCallback interface
@@ -22,7 +22,7 @@ public interface IRedactionCallback
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о реализации интерфейса IRedactionCallback: [Использовать обратный вызов редактирования](https://docs.groupdocs.com/redaction/net/use-redaction-callback/)
 

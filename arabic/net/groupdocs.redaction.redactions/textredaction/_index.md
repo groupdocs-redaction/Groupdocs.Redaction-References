@@ -3,7 +3,7 @@ title: TextRedaction
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يمثل فئة مجردة أساسية لتنقيح نص المستند.
 type: docs
-weight: 630
+weight: 640
 url: /ar/net/groupdocs.redaction.redactions/textredaction/
 ---
 ## TextRedaction class

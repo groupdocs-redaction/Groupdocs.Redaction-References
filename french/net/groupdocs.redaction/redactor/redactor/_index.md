@@ -153,7 +153,7 @@ using (Redactor redactor = new Redactor(@"C:\sample.pdf", loadOptions))
 
 ## Redactor(Stream, LoadOptions, RedactorSettings) {#constructor_2}
 
-Initialise une nouvelle instance de[`Redactor`](../../redactor) classe pour un document protégé par mot de passe à l'aide du flux et des paramètres.
+Initialise une nouvelle instance de[`Redactor`](../../redactor)classe pour un document protégé par mot de passe à l'aide du flux et des paramètres.
 
 ```csharp
 public Redactor(Stream document, LoadOptions loadOptions, RedactorSettings settings)

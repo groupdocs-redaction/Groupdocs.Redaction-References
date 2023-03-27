@@ -1,14 +1,14 @@
 ---
 title: Redaction
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 表示所有修订类型的基本抽象类
+description: 表示所有密文类型的基本抽象类
 type: docs
-weight: 390
+weight: 400
 url: /zh/net/groupdocs.redaction/redaction/
 ---
 ## Redaction class
 
-表示所有修订类型的基本抽象类。
+表示所有密文类型的基本抽象类。
 
 ```csharp
 public abstract class Redaction
@@ -18,7 +18,7 @@ public abstract class Redaction
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [Description](../../groupdocs.redaction/redaction/description) { get; } | 返回一个字符串，描述编辑及其参数。 |
+| virtual [Description](../../groupdocs.redaction/redaction/description) { get; } | 返回一个字符串，描述修订及其参数。 |
 
 ## 方法
 
@@ -28,10 +28,10 @@ public abstract class Redaction
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 有关密文类型的更多详细信息： [编辑基础知识](https://docs.groupdocs.com/redaction/net/redaction-basics/)
-* 更高级的修订主题： [高级用法](https://docs.groupdocs.com/redaction/net/advanced-usage/)
+* 更高级的编辑主题： [高级用法](https://docs.groupdocs.com/redaction/net/advanced-usage/)
 
 ### 也可以看看
 

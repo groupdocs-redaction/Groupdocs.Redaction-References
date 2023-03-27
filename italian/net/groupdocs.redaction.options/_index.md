@@ -28,6 +28,7 @@ IlOptions namespace fornisce classi di opzioni di caricamento e salvataggio.
 
 | Enumerazione | Descrizione |
 | --- | --- |
+| [AdvancedRasterizationOptions](./advancedrasterizationoptions) | Enumerazione dei flag per gestire le opzioni avanzate di rasterizzazione da applicare. |
 | [PdfComplianceLevel](./pdfcompliancelevel) | Rappresenta un elenco di livelli di conformità PDF supportati. |
 | [PreviewOptions.PreviewFormats](./previewoptions.previewformats) | Rappresenta i formati di anteprima supportati. |
 

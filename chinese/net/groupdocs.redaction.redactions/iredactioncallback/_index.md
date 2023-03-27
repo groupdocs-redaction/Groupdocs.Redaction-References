@@ -1,14 +1,14 @@
 ---
 title: IRedactionCallback
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 定义接收每个修订更改信息所需的方法并可选择阻止它
+description: 定义接收每个编辑更改的信息所需的方法并可选择阻止它
 type: docs
-weight: 490
+weight: 500
 url: /zh/net/groupdocs.redaction.redactions/iredactioncallback/
 ---
 ## IRedactionCallback interface
 
-定义接收每个修订更改信息所需的方法，并可选择阻止它。
+定义接收每个编辑更改的信息所需的方法，并可选择阻止它。
 
 ```csharp
 public interface IRedactionCallback
@@ -18,17 +18,17 @@ public interface IRedactionCallback
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AcceptRedaction](../../groupdocs.redaction.redactions/iredactioncallback/acceptredaction)(RedactionDescription) | 在对文档应用任何编辑之前触发此调用，并允许记录或禁止它。 |
+| [AcceptRedaction](../../groupdocs.redaction.redactions/iredactioncallback/acceptredaction)(RedactionDescription) | 此调用在对文档应用任何编辑之前触发，并允许记录或禁止它。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于实现IRedactionCallback接口的细节： [使用编辑回调](https://docs.groupdocs.com/redaction/net/use-redaction-callback/)
+* 有关实现 IRedactionCallback 接口的更多详细信息： [使用密文回调](https://docs.groupdocs.com/redaction/net/use-redaction-callback/)
 
 ### 例子
 
-下面的例子演示了如何为编辑过程实现详细的日志记录。
+以下示例演示如何为编辑过程实现详细日志记录。
 
 ```csharp
 public class RedactionDump : IRedactionCallback
@@ -45,7 +45,7 @@ public class RedactionDump : IRedactionCallback
             Console.Write("Text {0} is replaced with {1}. ", description.Replacement.OriginalText, description.Replacement.Replacement);
         }
         Console.WriteLine();
-        // 您可以在此处返回“false”以防止在编辑过程中进行特定更改
+        // 您可以在此处返回“false”以防止在编辑过程中发生特定更改
         return true;
     }
 }

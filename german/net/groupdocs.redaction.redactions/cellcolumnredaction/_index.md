@@ -3,7 +3,7 @@ title: CellColumnRedaction
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Stellt eine Textschwärzung dar die Text in Tabellenkalkulationsdokumenten CSV Excel usw. ersetzt.
 type: docs
-weight: 440
+weight: 450
 url: /de/net/groupdocs.redaction.redactions/cellcolumnredaction/
 ---
 ## CellColumnRedaction class
@@ -38,7 +38,7 @@ public class CellColumnRedaction : TextRedaction
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zum Anwenden von Schwärzungen: [Grundlagen der Redaktion](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Weitere Details zum Schwärzen von Tabellenkalkulationen: [Schwärzungen von Tabellenkalkulationen](https://docs.groupdocs.com/redaction/net/spreadsheet-redactions/)

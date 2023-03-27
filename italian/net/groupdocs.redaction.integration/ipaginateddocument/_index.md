@@ -22,7 +22,7 @@ public interface IPaginatedDocument
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Maggiori dettagli sull'applicazione delle redazioni: [Nozioni di base sulla redazione](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Ulteriori dettagli sulla manipolazione delle pagine: [Rimuovi la redazione della pagina](https://docs.groupdocs.com/redaction/net/remove-page-redaction/)

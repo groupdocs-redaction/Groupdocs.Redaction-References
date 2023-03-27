@@ -18,7 +18,7 @@ public RedactionResult ReplaceInColumn(Regex regularExpression, string replaceme
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | regularExpression | Regex | 用于搜索和替换的正则表达式 |
-| replacement | String | 文字替换 |
+| replacement | String | 文本替换 |
 | column | Int32 | 从零开始的列索引 |
 | sheet | Int32 | 从零开始的工作表索引 |
 
@@ -37,7 +37,7 @@ public RedactionResult ReplaceInColumn(Regex regularExpression, string replaceme
 
 ## ReplaceInColumn(Regex, string, int) {#replaceincolumn}
 
-将所有匹配项替换为所有工作表上指定列中的给定替换项。
+用所有工作表上指定列中的给定替换项替换所有匹配项。
 
 ```csharp
 public RedactionResult ReplaceInColumn(Regex regularExpression, string replacement, int column)
@@ -46,7 +46,7 @@ public RedactionResult ReplaceInColumn(Regex regularExpression, string replaceme
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | regularExpression | Regex | 用于搜索和替换的正则表达式 |
-| replacement | String | 文字替换 |
+| replacement | String | 文本替换 |
 | column | Int32 | 从零开始的列索引 |
 
 ### 返回值

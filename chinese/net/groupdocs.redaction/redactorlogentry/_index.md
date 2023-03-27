@@ -3,7 +3,7 @@ title: RedactorLogEntry
 second_title: GroupDocs.Redaction for .NET API 参考
 description: 表示应用密文的结果
 type: docs
-weight: 670
+weight: 680
 url: /zh/net/groupdocs.redaction/redactorlogentry/
 ---
 ## RedactorLogEntry class
@@ -18,18 +18,18 @@ public class RedactorLogEntry
 
 | 姓名 | 描述 |
 | --- | --- |
-| [RedactorLogEntry](redactorlogentry)(Redaction, RedactionResult) | 为 redaction 初始化 RedactorLogEntry 类的新实例。 |
+| [RedactorLogEntry](redactorlogentry)(Redaction, RedactionResult) | 初始化 RedactorLogEntry 类的新实例以进行编辑。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Redaction](../../groupdocs.redaction/redactorlogentry/redaction) { get; } | 获取对密文及其选项的引用。 |
-| [Result](../../groupdocs.redaction/redactorlogentry/result) { get; } | 获取结果，返回[`DocumentFormatInstance`](../../groupdocs.redaction.integration/documentformatinstance). |
+| [Redaction](../../groupdocs.redaction/redactorlogentry/redaction) { get; } | 获取对修订及其选项的引用。 |
+| [Result](../../groupdocs.redaction/redactorlogentry/result) { get; } | 获取结果，由返回[`DocumentFormatInstance`](../../groupdocs.redaction.integration/documentformatinstance). |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 有关编辑日志条目的更多详细信息： [编辑基础知识](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 

@@ -3,7 +3,7 @@ title: RegionReplacementOptions
 second_title: GroupDocs.Redaction för .NET API-referens
 description: Representerar färg och områdesparametrar för bildregionsersättning. SerImageAreaRedaction./imagearearedaction .
 type: docs
-weight: 590
+weight: 600
 url: /sv/net/groupdocs.redaction.redactions/regionreplacementoptions/
 ---
 ## RegionReplacementOptions class

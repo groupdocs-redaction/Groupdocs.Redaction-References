@@ -3,7 +3,7 @@ title: Redactor
 second_title: Справочник по API GroupDocs.Redaction для .NET
 description: Представляет основной класс управляющий процессом редактирования документа позволяющий открывать редактировать и сохранять документы.
 type: docs
-weight: 650
+weight: 660
 url: /ru/net/groupdocs.redaction/redactor/
 ---
 ## Redactor class
@@ -22,7 +22,7 @@ public sealed class Redactor : IDisposable, IPreviewable
 | [Redactor](redactor#constructor_3)(string) | Инициализирует новый экземпляр[`Redactor`](../redactor) класс, используя путь к файлу. |
 | [Redactor](redactor#constructor_1)(Stream, LoadOptions) | Инициализирует новый экземпляр[`Redactor`](../redactor) class для защищенного паролем документа с помощью stream. |
 | [Redactor](redactor#constructor_4)(string, LoadOptions) | Инициализирует новый экземпляр[`Redactor`](../redactor) класс для защищенного паролем документа, используя его путь. |
-| [Redactor](redactor#constructor_2)(Stream, LoadOptions, RedactorSettings) | Инициализирует новый экземпляр[`Redactor`](../redactor) класс для документа, защищенного паролем, с использованием потока и настроек. |
+| [Redactor](redactor#constructor_2)(Stream, LoadOptions, RedactorSettings) | Инициализирует новый экземпляр[`Redactor`](../redactor)класс для документа, защищенного паролем, с использованием потока и настроек. |
 | [Redactor](redactor#constructor_5)(string, LoadOptions, RedactorSettings) | Инициализирует новый экземпляр[`Redactor`](../redactor) class для защищенного паролем документа, используя его путь и настройки. |
 
 ## Методы
@@ -41,7 +41,7 @@ public sealed class Redactor : IDisposable, IPreviewable
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о применении правок: [Основы редактирования](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Дополнительные темы редактирования: [Расширенное использование](https://docs.groupdocs.com/redaction/net/advanced-usage/)

@@ -17,7 +17,7 @@ ElRedactions El espacio de nombres proporciona clases para diferentes tipos de r
 | [CellFilter](./cellfilter) | Proporciona una opción para limitar el alcance de un[`CellColumnRedaction`](../groupdocs.redaction.redactions/cellcolumnredaction) a una hoja de trabajo y una columna. |
 | [DeleteAnnotationRedaction](./deleteannotationredaction) | Representa una redacción de texto que elimina las anotaciones si el texto coincide con la expresión regular dada (opcionalmente, elimina todas las anotaciones). |
 | [EraseMetadataRedaction](./erasemetadataredaction) | Representa una redacción de metadatos que borra todos los metadatos o metadatos que coincidan con MetadataFilters específicos del documento. |
-| [ExactPhraseRedaction](./exactphraseredaction) | Representa una redacción de texto que reemplaza la frase exacta en el texto del documento, no distingue entre mayúsculas y minúsculas de forma predeterminada. |
+| [ExactPhraseRedaction](./exactphraseredaction) | Representa una redacción de texto que reemplaza la frase exacta en el texto del documento, no distingue entre mayúsculas y minúsculas de manera predeterminada. |
 | [ImageAreaRedaction](./imagearearedaction) | Representa una redacción que coloca un rectángulo de color en un área determinada de un documento de imagen. |
 | [MetadataRedaction](./metadataredaction) | Representa una clase abstracta básica para la redacción de metadatos de documentos. |
 | [MetadataSearchRedaction](./metadatasearchredaction) | Representa una redacción de metadatos que busca y redacta metadatos usando expresiones regulares, claves coincidentes y/o valores. |

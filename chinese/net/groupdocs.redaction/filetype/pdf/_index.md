@@ -1,14 +1,14 @@
 ---
 title: PDF
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 可移植文档格式文件 .pdf
+description: 便携式文档格式文件 .pdf
 type: docs
 weight: 220
 url: /zh/net/groupdocs.redaction/filetype/pdf/
 ---
 ## FileType.PDF property
 
-可移植文档格式文件 (.pdf)
+便携式文档格式文件 (.pdf)
 
 ```csharp
 public static FileType PDF { get; }

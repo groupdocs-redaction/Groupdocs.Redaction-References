@@ -1,0 +1,139 @@
+---
+title: Load
+second_title: .NET API 참조용 GroupDocs.Redaction
+description: 인스턴스 로드RedactionPolicygroupdocs.redaction/redactionpolicy 파일 경로에서.
+type: docs
+weight: 20
+url: /ko/net/groupdocs.redaction/redactionpolicy/load/
+---
+## Load(string) {#load_1}
+
+인스턴스 로드[`RedactionPolicy`](../../redactionpolicy) 파일 경로에서.
+
+```csharp
+public static RedactionPolicy Load(string filePath)
+```
+
+| 모수 | 유형 | 설명 |
+| --- | --- | --- |
+| filePath | String | XML 파일 경로 |
+
+### 반환 값
+
+수정 정책
+
+### 예
+
+다음 예는 지정된 인바운드 폴더 내의 모든 파일에 수정 정책을 적용하고 성공적으로 업데이트된 파일과 실패한 파일에 대해 아웃바운드 폴더 중 하나에 저장하는 방법을 보여줍니다.
+
+다음 예제에는 모든 유형의 교정에 대한 샘플 구성이 포함된 샘플 XML 정책 파일이 포함되어 있습니다.
+
+```csharp
+RedactionPolicy policy = RedactionPolicy.Load("RedactionPolicy.xml");
+foreach (var fileEntry in Directory.GetFileNames("C:\\Inbound")) 
+{
+     using (Redactor redactor = new Redactor(Path.Combine("C:\\Inbound\\", fileEntry)))
+     {
+    	     RedactorChangeLog result = redactor.Apply(policy);
+    	     String resultFolder = result.Status != RedactionStatus.Failed ? "C:\\Outbound\\Done\\" : "C:\\Outbound\\Failed\\";
+    	     using (Stream fileStream = File.Open(Path.Combine(resultFolder, fileEntry), FileMode.Open, FileAccess.ReadWrite))
+   	     {
+               redactor.Save(fileStream, new RasterizationOptions() { Enabled = false });
+   	     }        
+     }
+}   
+```
+
+```csharp
+<?xml version="1.0" encoding="utf-8"?>  
+<redactionPolicy xmlns = "http://www.groupdocs.com/redaction" >
+  <regexRedaction regularExpression="(dolor)" actionType="ReplaceString" replacement="foobar" />  
+  <exactPhraseRedaction searchPhrase = "dolor" caseSensitive="true" actionType="DrawBox" color="Red" />   
+  
+  <cellColumnRedaction regularExpression = "(foo)bar1" replacement="[red1]" columnIndex="1" worksheetIndex="2" /> 
+  <cellColumnRedaction regularExpression = "(foo)bar2" replacement="[red2]" wokrsheetName="Sample" /> 
+  
+  <eraseMetadataRedaction filter = "All" />
+  <metadataSearchRedaction filter="Title, Author" replacement="foobar" valueExpression="(metasearch)" keyExpression="" />  
+  
+ <annotationRedaction regularExpression = "(anno1)" replacement="foobar" />  
+ <deleteAnnotationRedaction regularExpression = "(anno2)" />
+
+ <imageAreaRedaction pointX="15" pointY="17" width="200" height="10" color="#AA50FC"  />  
+ <imageAreaRedaction pointX = "110" pointY="120" width="60" height="20" color="Magenta"  />  
+</redactionPolicy>
+```
+
+### 또한보십시오
+
+* class [RedactionPolicy](../../redactionpolicy)
+* 네임스페이스 [GroupDocs.Redaction](../../redactionpolicy)
+* 집회 [GroupDocs.Redaction](../../../)
+
+---
+
+## Load(Stream) {#load}
+
+인스턴스 로드[`RedactionPolicy`](../../redactionpolicy) 스트림에서.
+
+```csharp
+public static RedactionPolicy Load(Stream input)
+```
+
+| 모수 | 유형 | 설명 |
+| --- | --- | --- |
+| input | Stream | XML 구성을 포함하는 스트림 |
+
+### 반환 값
+
+수정 정책
+
+### 예
+
+다음 예는 지정된 인바운드 폴더 내의 모든 파일에 수정 정책을 적용하고 성공적으로 업데이트된 파일과 실패한 파일에 대해 아웃바운드 폴더 중 하나에 저장하는 방법을 보여줍니다.
+
+다음 예제에는 모든 유형의 교정에 대한 샘플 구성이 포함된 샘플 XML 정책 파일이 포함되어 있습니다.
+
+```csharp
+RedactionPolicy policy = RedactionPolicy.Load("RedactionPolicy.xml");
+foreach (var fileEntry in Directory.GetFileNames("C:\\Inbound")) 
+{
+     using (Redactor redactor = new Redactor(Path.Combine("C:\\Inbound\\", fileEntry)))
+     {
+    	     RedactorChangeLog result = redactor.Apply(policy);
+    	     String resultFolder = result.Status != RedactionStatus.Failed ? "C:\\Outbound\\Done\\" : "C:\\Outbound\\Failed\\";
+    	     using (Stream fileStream = File.Open(Path.Combine(resultFolder, fileEntry), FileMode.Open, FileAccess.ReadWrite))
+   	     {
+               redactor.Save(fileStream, new RasterizationOptions() { Enabled = false });
+   	     }        
+     }
+}   
+```
+
+```csharp
+<?xml version="1.0" encoding="utf-8"?>  
+<redactionPolicy xmlns = "http://www.groupdocs.com/redaction" >
+  <regexRedaction regularExpression="(dolor)" actionType="ReplaceString" replacement="foobar" />  
+  <exactPhraseRedaction searchPhrase = "dolor" caseSensitive="true" actionType="DrawBox" color="Red" />   
+  
+  <cellColumnRedaction regularExpression = "(foo)bar1" replacement="[red1]" columnIndex="1" worksheetIndex="2" /> 
+  <cellColumnRedaction regularExpression = "(foo)bar2" replacement="[red2]" wokrsheetName="Sample" /> 
+  
+  <eraseMetadataRedaction filter = "All" />
+  <metadataSearchRedaction filter="Title, Author" replacement="foobar" valueExpression="(metasearch)" keyExpression="" />  
+  
+ <annotationRedaction regularExpression = "(anno1)" replacement="foobar" />  
+ <deleteAnnotationRedaction regularExpression = "(anno2)" />
+
+ <imageAreaRedaction pointX="15" pointY="17" width="200" height="10" color="#AA50FC"  />  
+ <imageAreaRedaction pointX = "110" pointY="120" width="60" height="20" color="Magenta"  />  
+</redactionPolicy>
+```
+
+### 또한보십시오
+
+* class [RedactionPolicy](../../redactionpolicy)
+* 네임스페이스 [GroupDocs.Redaction](../../redactionpolicy)
+* 집회 [GroupDocs.Redaction](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Redaction.dll -->

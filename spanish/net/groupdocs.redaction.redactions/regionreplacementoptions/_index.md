@@ -3,7 +3,7 @@ title: RegionReplacementOptions
 second_title: Referencia de API de GroupDocs.Redaction para .NET
 description: Representa los parámetros de color y área para el reemplazo de la región de la imagen. VerImageAreaRedaction./imagearearedaction .
 type: docs
-weight: 590
+weight: 600
 url: /es/net/groupdocs.redaction.redactions/regionreplacementoptions/
 ---
 ## RegionReplacementOptions class

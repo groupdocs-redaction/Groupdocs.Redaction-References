@@ -24,12 +24,12 @@ public class License
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SetLicense](../../groupdocs.redaction/license/setlicense#setlicense)(Stream) | 从流中设置 GroupDocs.Redaction 许可证。 |
+| [SetLicense](../../groupdocs.redaction/license/setlicense#setlicense)(Stream) | 设置来自流的 GroupDocs.Redaction 许可证。 |
 | [SetLicense](../../groupdocs.redaction/license/setlicense#setlicense_1)(string) | 从文件路径设置 GroupDocs.Redaction 许可证。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 有关许可的更多信息： [GroupDocs 许可常见问题解答](https://purchase.groupdocs.com/faqs/licensing)
 * 更多关于**GroupDocs.Redaction**许可： [评估限制和许可](https://docs.groupdocs.com/redaction/net/evaluation-limitations-and-licensing/)

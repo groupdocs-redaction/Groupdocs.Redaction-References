@@ -24,7 +24,7 @@ public SaveOptions()
 
 ## SaveOptions(bool, string) {#constructor_1}
 
-使用给定参数初始化一个新实例。
+使用给定参数初始化新实例。
 
 ```csharp
 public SaveOptions(bool rasterizeToPdf, string suffix)

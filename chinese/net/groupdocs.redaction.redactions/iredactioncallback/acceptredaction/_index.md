@@ -1,14 +1,14 @@
 ---
 title: AcceptRedaction
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 在对文档应用任何编辑之前触发此调用并允许记录或禁止它
+description: 此调用在对文档应用任何编辑之前触发并允许记录或禁止它
 type: docs
 weight: 10
 url: /zh/net/groupdocs.redaction.redactions/iredactioncallback/acceptredaction/
 ---
 ## IRedactionCallback.AcceptRedaction method
 
-在对文档应用任何编辑之前触发此调用，并允许记录或禁止它。
+此调用在对文档应用任何编辑之前触发，并允许记录或禁止它。
 
 ```csharp
 public bool AcceptRedaction(RedactionDescription description)
@@ -20,7 +20,7 @@ public bool AcceptRedaction(RedactionDescription description)
 
 ### 返回值
 
-返回 true 以接受或 false 以拒绝特定匹配编辑
+返回 true 以接受或返回 false 以拒绝特定匹配编辑
 
 ### 也可以看看
 

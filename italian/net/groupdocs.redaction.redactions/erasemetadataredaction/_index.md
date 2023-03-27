@@ -3,7 +3,7 @@ title: EraseMetadataRedaction
 second_title: Riferimento API GroupDocs.Redaction per .NET
 description: Rappresenta una redazione dei metadati che cancella tutti i metadati o i metadati che corrispondono a specifici MetadataFilters dal documento.
 type: docs
-weight: 470
+weight: 480
 url: /it/net/groupdocs.redaction.redactions/erasemetadataredaction/
 ---
 ## EraseMetadataRedaction class
@@ -36,7 +36,7 @@ public class EraseMetadataRedaction : MetadataRedaction
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Maggiori dettagli sull'applicazione delle redazioni: [Nozioni di base sulla redazione](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Maggiori dettagli sulla redazione dei metadati del documento: [Redazioni di metadati](https://docs.groupdocs.com/redaction/net/metadata-redactions/)

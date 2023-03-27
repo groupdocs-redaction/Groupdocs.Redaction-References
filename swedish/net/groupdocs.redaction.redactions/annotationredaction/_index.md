@@ -3,7 +3,7 @@ title: AnnotationRedaction
 second_title: GroupDocs.Redaction för .NET API-referens
 description: Representerar en redigering som ersätter anteckningstext kommentarer etc. som matchar ett givet reguljärt uttryck.
 type: docs
-weight: 430
+weight: 440
 url: /sv/net/groupdocs.redaction.redactions/annotationredaction/
 ---
 ## AnnotationRedaction class

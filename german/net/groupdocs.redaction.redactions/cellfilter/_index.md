@@ -3,7 +3,7 @@ title: CellFilter
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Bietet eine Option zum Einschränken des Bereichs von aCellColumnRedaction./cellcolumnredaction zu einem Arbeitsblatt und einer Spalte.
 type: docs
-weight: 450
+weight: 460
 url: /de/net/groupdocs.redaction.redactions/cellfilter/
 ---
 ## CellFilter class
@@ -37,7 +37,7 @@ public class CellFilter
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zum Schwärzen von Tabellenkalkulationen: [Schwärzungen von Tabellenkalkulationen](https://docs.groupdocs.com/redaction/net/spreadsheet-redactions/)
 

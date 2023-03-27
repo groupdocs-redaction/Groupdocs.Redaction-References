@@ -3,7 +3,7 @@ title: RedactionType
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يمثل نوعًا من بيانات المستند  متأثرًا بالتنقيح.
 type: docs
-weight: 570
+weight: 580
 url: /ar/net/groupdocs.redaction.redactions/redactiontype/
 ---
 ## RedactionType enumeration

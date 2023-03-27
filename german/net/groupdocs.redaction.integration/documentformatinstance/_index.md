@@ -32,7 +32,7 @@ public abstract class DocumentFormatInstance
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zur Implementierung benutzerdefinierter Formate: [Erstellen Sie einen benutzerdefinierten Formathandler](https://docs.groupdocs.com/redaction/net/create-custom-format-handler/)
 

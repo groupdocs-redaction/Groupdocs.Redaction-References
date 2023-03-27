@@ -3,7 +3,7 @@ title: Redactor
 second_title: Referencia de API de GroupDocs.Redaction para .NET
 description: Representa una clase principal que controla el proceso de redacción de documentos lo que permite abrir redactar y guardar documentos.
 type: docs
-weight: 650
+weight: 660
 url: /es/net/groupdocs.redaction/redactor/
 ---
 ## Redactor class
@@ -22,7 +22,7 @@ public sealed class Redactor : IDisposable, IPreviewable
 | [Redactor](redactor#constructor_3)(string) | Inicializa una nueva instancia de[`Redactor`](../redactor) clase usando la ruta del archivo. |
 | [Redactor](redactor#constructor_1)(Stream, LoadOptions) | Inicializa una nueva instancia de[`Redactor`](../redactor) clase para un documento protegido por contraseña usando stream. |
 | [Redactor](redactor#constructor_4)(string, LoadOptions) | Inicializa una nueva instancia de[`Redactor`](../redactor) class para un documento protegido por contraseña utilizando su ruta. |
-| [Redactor](redactor#constructor_2)(Stream, LoadOptions, RedactorSettings) | Inicializa una nueva instancia de[`Redactor`](../redactor) class para un documento protegido por contraseña usando stream y settings. |
+| [Redactor](redactor#constructor_2)(Stream, LoadOptions, RedactorSettings) | Inicializa una nueva instancia de[`Redactor`](../redactor)class para un documento protegido por contraseña usando stream y settings. |
 | [Redactor](redactor#constructor_5)(string, LoadOptions, RedactorSettings) | Inicializa una nueva instancia de[`Redactor`](../redactor) class para un documento protegido por contraseña utilizando su ruta y configuración. |
 
 ## Métodos

@@ -3,7 +3,7 @@ title: RedactionResult
 second_title: Référence de l'API GroupDocs.Redaction pour .NET
 description: Représente un résultat de lopération de masquage.
 type: docs
-weight: 410
+weight: 420
 url: /fr/net/groupdocs.redaction/redactionresult/
 ---
 ## RedactionResult class

@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 获取或设置矩形的高度
+description: 获取或设置具有和高度的矩形
 type: docs
 weight: 30
 url: /zh/net/groupdocs.redaction.redactions/regionreplacementoptions/size/
 ---
 ## RegionReplacementOptions.Size property
 
-获取或设置矩形的高度。
+获取或设置具有和高度的矩形。
 
 ```csharp
 public Size Size { get; set; }

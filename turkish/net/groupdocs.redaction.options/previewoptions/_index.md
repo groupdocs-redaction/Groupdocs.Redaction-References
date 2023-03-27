@@ -3,7 +3,7 @@ title: PreviewOptions
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Önizleme oluşturma için gereksinimleri ayarlamak ve delegeleri akışa almak için seçenekler sağlar.
 type: docs
-weight: 320
+weight: 330
 url: /tr/net/groupdocs.redaction.options/previewoptions/
 ---
 ## PreviewOptions class
@@ -34,7 +34,7 @@ public class PreviewOptions
 
 ### Örnekler
 
-Aşağıdaki örnek, kullanarak bir belge önizlemesinin nasıl alınacağını gösterir.[`PreviewOptions`](../previewoptions) ve[`CreatePageStream`](./createpagestream) temsilci.
+Aşağıdaki örnek, kullanarak bir belge önizlemesinin nasıl alınacağını gösterir.[`PreviewOptions`](../previewoptions) Ve[`CreatePageStream`](./createpagestream) temsilci.
 
 Aşağıdaki örnek, kullanarak bir belge önizlemesinin nasıl alınacağını gösterir.[`PreviewOptions`](../previewoptions) ve her iki delege.
 

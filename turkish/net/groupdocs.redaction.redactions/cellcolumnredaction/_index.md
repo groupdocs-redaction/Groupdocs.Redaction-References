@@ -3,7 +3,7 @@ title: CellColumnRedaction
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Elektronik tablo belgelerindeki CSV Excel vb. metni değiştiren bir metin redaksiyonunu temsil eder.
 type: docs
-weight: 440
+weight: 450
 url: /tr/net/groupdocs.redaction.redactions/cellcolumnredaction/
 ---
 ## CellColumnRedaction class

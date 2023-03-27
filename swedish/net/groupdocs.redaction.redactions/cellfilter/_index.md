@@ -3,7 +3,7 @@ title: CellFilter
 second_title: GroupDocs.Redaction för .NET API-referens
 description: Ger ett alternativ för att begränsa omfattningen av enCellColumnRedaction./cellcolumnredaction till ett kalkylblad och en kolumn.
 type: docs
-weight: 450
+weight: 460
 url: /sv/net/groupdocs.redaction.redactions/cellfilter/
 ---
 ## CellFilter class

@@ -3,7 +3,7 @@ title: ImageAreaRedaction
 second_title: GroupDocs.Redaction för .NET API-referens
 description: Representerar en redigering som placerar en färgad rektangel i ett visst område av ett bilddokument.
 type: docs
-weight: 500
+weight: 510
 url: /sv/net/groupdocs.redaction.redactions/imagearearedaction/
 ---
 ## ImageAreaRedaction class

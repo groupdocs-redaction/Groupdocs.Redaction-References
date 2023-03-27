@@ -3,7 +3,7 @@ title: MetadataRedaction
 second_title: Справочник по API GroupDocs.Redaction для .NET
 description: Представляет базовый абстрактный класс для редактирования метаданных документа.
 type: docs
-weight: 520
+weight: 530
 url: /ru/net/groupdocs.redaction.redactions/metadataredaction/
 ---
 ## MetadataRedaction class
@@ -29,7 +29,7 @@ public abstract class MetadataRedaction : Redaction
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о редактировании метаданных документа: [Редакции метаданных](https://docs.groupdocs.com/redaction/net/metadata-redactions/)
 

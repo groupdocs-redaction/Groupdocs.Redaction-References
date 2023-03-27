@@ -3,7 +3,7 @@ title: Redactor
 second_title: GroupDocs.Redaction för .NET API-referens
 description: Representerar en huvudklass som styr dokumentredigeringsprocessen vilket gör det möjligt att öppna redigera och spara dokument.
 type: docs
-weight: 650
+weight: 660
 url: /sv/net/groupdocs.redaction/redactor/
 ---
 ## Redactor class
@@ -22,7 +22,7 @@ public sealed class Redactor : IDisposable, IPreviewable
 | [Redactor](redactor#constructor_3)(string) | Initierar en ny instans av[`Redactor`](../redactor) klass med filsökväg. |
 | [Redactor](redactor#constructor_1)(Stream, LoadOptions) | Initierar en ny instans av[`Redactor`](../redactor) klass för ett lösenordsskyddat dokument med stream. |
 | [Redactor](redactor#constructor_4)(string, LoadOptions) | Initierar en ny instans av[`Redactor`](../redactor) klass för ett lösenordsskyddat dokument som använder dess sökväg. |
-| [Redactor](redactor#constructor_2)(Stream, LoadOptions, RedactorSettings) | Initierar en ny instans av[`Redactor`](../redactor) klass för ett lösenordsskyddat dokument med ström och inställningar. |
+| [Redactor](redactor#constructor_2)(Stream, LoadOptions, RedactorSettings) | Initierar en ny instans av[`Redactor`](../redactor)klass för ett lösenordsskyddat dokument med ström och inställningar. |
 | [Redactor](redactor#constructor_5)(string, LoadOptions, RedactorSettings) | Initierar en ny instans av[`Redactor`](../redactor) klass för ett lösenordsskyddat dokument med dess sökväg och inställningar. |
 
 ## Metoder
@@ -112,7 +112,7 @@ foreach (var fileEntry in Directory.GetFileNames("C:\\Inbound"))
 LoadOptions loadOptions = new LoadOptions("mypassword");
 using (Redactor redactor = new Redactor(@"C:\sample.pdf", loadOptions))
 {
-    // Här kan vi använda dokumentinstans för att utföra redaktioner
+    // Här kan vi använda dokumentinstanser för att utföra redaktioner
 }
 ```
 

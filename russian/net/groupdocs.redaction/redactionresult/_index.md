@@ -3,7 +3,7 @@ title: RedactionResult
 second_title: Справочник по API GroupDocs.Redaction для .NET
 description: Представляет результат операции редактирования.
 type: docs
-weight: 410
+weight: 420
 url: /ru/net/groupdocs.redaction/redactionresult/
 ---
 ## RedactionResult class
@@ -32,7 +32,7 @@ public class RedactionResult
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о результатах редактирования: [Основы редактирования](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 

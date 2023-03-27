@@ -3,7 +3,7 @@ title: RedactionStatus
 second_title: GroupDocs.Redaction för .NET API-referens
 description: Representerar en slutförandestatus för redigering.
 type: docs
-weight: 420
+weight: 430
 url: /sv/net/groupdocs.redaction/redactionstatus/
 ---
 ## RedactionStatus enumeration

@@ -3,7 +3,7 @@ title: PreviewOptions
 second_title: GroupDocs.Redaction för .NET API-referens
 description: Ger alternativ för att ställa krav och strömma delegater för generering av förhandsvisning.
 type: docs
-weight: 320
+weight: 330
 url: /sv/net/groupdocs.redaction.options/previewoptions/
 ---
 ## PreviewOptions class

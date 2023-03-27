@@ -3,7 +3,7 @@ title: DeleteAnnotationRedaction
 second_title: Référence de l'API GroupDocs.Redaction pour .NET
 description: Représente une rédaction de texte qui supprime les annotations si le texte correspond à lexpression régulière donnée supprime éventuellement toutes les annotations.
 type: docs
-weight: 460
+weight: 470
 url: /fr/net/groupdocs.redaction.redactions/deleteannotationredaction/
 ---
 ## DeleteAnnotationRedaction class

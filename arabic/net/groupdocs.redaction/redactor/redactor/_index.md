@@ -153,7 +153,7 @@ using (Redactor redactor = new Redactor(@"C:\sample.pdf", loadOptions))
 
 ## Redactor(Stream, LoadOptions, RedactorSettings) {#constructor_2}
 
-يقوم بتهيئة مثيل جديد من[`Redactor`](../../redactor) فئة لمستند محمي بكلمة مرور باستخدام الدفق والإعدادات.
+يقوم بتهيئة مثيل جديد من[`Redactor`](../../redactor)فئة لمستند محمي بكلمة مرور باستخدام الدفق والإعدادات.
 
 ```csharp
 public Redactor(Stream document, LoadOptions loadOptions, RedactorSettings settings)

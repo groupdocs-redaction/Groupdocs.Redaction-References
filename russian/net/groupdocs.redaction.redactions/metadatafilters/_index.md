@@ -3,7 +3,7 @@ title: MetadataFilters
 second_title: Справочник по API GroupDocs.Redaction для .NET
 description: Представляет список наиболее распространенных типов метаданных документа.
 type: docs
-weight: 510
+weight: 520
 url: /ru/net/groupdocs.redaction.redactions/metadatafilters/
 ---
 ## MetadataFilters enumeration
@@ -45,7 +45,7 @@ public enum MetadataFilters
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о редактировании метаданных документа: [Редакции метаданных](https://docs.groupdocs.com/redaction/net/metadata-redactions/)
 

@@ -3,7 +3,7 @@ title: DeleteAnnotationRedaction
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Metin verilen normal ifadeyle eşleşiyorsa ek açıklamaları silen bir metin redaksiyonunu temsil eder isteğe bağlı olarak tüm ek açıklamaları siler.
 type: docs
-weight: 460
+weight: 470
 url: /tr/net/groupdocs.redaction.redactions/deleteannotationredaction/
 ---
 ## DeleteAnnotationRedaction class

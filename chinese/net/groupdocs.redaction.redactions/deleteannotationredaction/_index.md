@@ -1,14 +1,14 @@
 ---
 title: DeleteAnnotationRedaction
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 表示文本编辑如果文本与给定的正则表达式匹配则删除注释可选地删除所有注释
+description: 表示文本编辑如果文本与给定的正则表达式匹配则删除注释可选择删除所有注释
 type: docs
-weight: 460
+weight: 470
 url: /zh/net/groupdocs.redaction.redactions/deleteannotationredaction/
 ---
 ## DeleteAnnotationRedaction class
 
-表示文本编辑，如果文本与给定的正则表达式匹配，则删除注释（可选地删除所有注释）。
+表示文本编辑，如果文本与给定的正则表达式匹配，则删除注释（可选择删除所有注释）。
 
 ```csharp
 public class DeleteAnnotationRedaction : Redaction
@@ -18,7 +18,7 @@ public class DeleteAnnotationRedaction : Redaction
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DeleteAnnotationRedaction](deleteannotationredaction#constructor)() | 初始化 DeleteAnnotationRedaction 类的新实例，设置删除所有注释（匹配所有内容）。 |
+| [DeleteAnnotationRedaction](deleteannotationredaction#constructor)() | 初始化 DeleteAnnotationRedaction 类的新实例，设置为删除所有注释（匹配所有内容）。 |
 | [DeleteAnnotationRedaction](deleteannotationredaction#constructor_2)(Regex) | 初始化 DeleteAnnotationRedaction 类的新实例，删除与给定表达式匹配的注释。 |
 | [DeleteAnnotationRedaction](deleteannotationredaction#constructor_1)(string) | 初始化 DeleteAnnotationRedaction 类的新实例，删除与给定表达式匹配的注释。 |
 
@@ -26,7 +26,7 @@ public class DeleteAnnotationRedaction : Redaction
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Description](../../groupdocs.redaction.redactions/deleteannotationredaction/description) { get; } | 返回一个字符串，描述编辑及其参数。 |
+| override [Description](../../groupdocs.redaction.redactions/deleteannotationredaction/description) { get; } | 返回一个字符串，描述修订及其参数。 |
 | [Expression](../../groupdocs.redaction.redactions/deleteannotationredaction/expression) { get; } | 获取要匹配的正则表达式。 |
 
 ## 方法
@@ -37,14 +37,14 @@ public class DeleteAnnotationRedaction : Redaction
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 有关应用编辑的更多详细信息： [编辑基础知识](https://docs.groupdocs.com/redaction/net/redaction-basics/)
-* 有关文档注释编辑的更多详细信息： [注释编辑](https://docs.groupdocs.com/redaction/net/annotation-redactions/)
+* 有关应用密文的更多详细信息： [编辑基础知识](https://docs.groupdocs.com/redaction/net/redaction-basics/)
+* 有关文档注释修订的更多详细信息： [注释编辑](https://docs.groupdocs.com/redaction/net/annotation-redactions/)
 
 ### 例子
 
-以下示例演示如何从文档中删除所有包含单词“use”、“show”或“describe”的注释（并保留其他注释）。
+以下示例演示如何从文档中删除所有包含单词“use”、“show”或“describe”的注释（并留下其他）。
 
 ```csharp
 using (Redactor redactor = new Redactor(@"D:\test.docx"))

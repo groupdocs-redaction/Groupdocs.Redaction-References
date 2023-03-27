@@ -3,7 +3,7 @@ title: ReplacementType
 second_title: Riferimento API GroupDocs.Redaction per .NET
 description: Rappresenta un tipo di sostituzione per il testo corrispondente.
 type: docs
-weight: 620
+weight: 630
 url: /it/net/groupdocs.redaction.redactions/replacementtype/
 ---
 ## ReplacementType enumeration
@@ -23,7 +23,7 @@ public enum ReplacementType
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori dettagli sulle revisioni del testo del documento: [Redazioni di testi](https://docs.groupdocs.com/redaction/net/text-redactions/)
 

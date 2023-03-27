@@ -3,7 +3,7 @@ title: CreatePageStream
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يمثل الأسلوب الذي يقوم بإرجاع دفق لكتابة بيانات معاينة الصفحة.
 type: docs
-weight: 280
+weight: 290
 url: /ar/net/groupdocs.redaction.options/createpagestream/
 ---
 ## CreatePageStream delegate

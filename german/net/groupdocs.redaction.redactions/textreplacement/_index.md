@@ -3,7 +3,7 @@ title: TextReplacement
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Stellt eine Textersatzinformation dar.
 type: docs
-weight: 640
+weight: 650
 url: /de/net/groupdocs.redaction.redactions/textreplacement/
 ---
 ## TextReplacement class
@@ -36,7 +36,7 @@ public class TextReplacement
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zur RedactionDescription-Klasse und zur IRedactionCallback-Schnittstelle: [Schwärzungsrückruf verwenden](https://docs.groupdocs.com/redaction/net/use-redaction-callback/)
 

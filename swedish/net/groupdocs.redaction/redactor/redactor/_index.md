@@ -25,7 +25,7 @@ Följande exempel visar hur man öppnar ett dokument för redigering.
 ```csharp
 using (Redactor redactor = new Redactor(@"C:\sample.pdf"))
 {
-    // Här kan vi använda dokumentinstans för att utföra redaktioner
+    // Här kan vi använda dokumentinstanser för att utföra redaktioner
 }
 ```
 
@@ -58,7 +58,7 @@ using (Stream stream = File.Open(@"C:\\sample.pdf", FileMode.Open, FileAccess.Re
 {
     using (Redactor redactor = new Redactor(stream))
     {
-        // Här kan vi använda dokumentinstans för att utföra redaktioner
+        // Här kan vi använda dokumentinstanser för att utföra redaktioner
     }
 }
 ```
@@ -138,7 +138,7 @@ Följande exempel visar hur du öppnar ett lösenordsskyddat dokument med LoadOp
 LoadOptions loadOptions = new LoadOptions("mypassword");
 using (Redactor redactor = new Redactor(@"C:\sample.pdf", loadOptions))
 {
-    // Här kan vi använda dokumentinstans för att utföra redaktioner
+    // Här kan vi använda dokumentinstanser för att utföra redaktioner
 }
 ```
 
@@ -153,7 +153,7 @@ using (Redactor redactor = new Redactor(@"C:\sample.pdf", loadOptions))
 
 ## Redactor(Stream, LoadOptions, RedactorSettings) {#constructor_2}
 
-Initierar en ny instans av[`Redactor`](../../redactor) klass för ett lösenordsskyddat dokument med ström och inställningar.
+Initierar en ny instans av[`Redactor`](../../redactor)klass för ett lösenordsskyddat dokument med ström och inställningar.
 
 ```csharp
 public Redactor(Stream document, LoadOptions loadOptions, RedactorSettings settings)
@@ -173,7 +173,7 @@ Följande exempel visar hur du öppnar ett lösenordsskyddat dokument med LoadOp
 LoadOptions loadOptions = new LoadOptions("mypassword");
 using (Redactor redactor = new Redactor(@"C:\sample.pdf", loadOptions))
 {
-    // Här kan vi använda dokumentinstans för att utföra redaktioner
+    // Här kan vi använda dokumentinstanser för att utföra redaktioner
 }
 ```
 

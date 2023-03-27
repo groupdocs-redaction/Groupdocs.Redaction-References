@@ -3,7 +3,7 @@ title: ExactPhraseRedaction
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Stellt eine Textschwärzung dar die den genauen Ausdruck im Text des Dokuments ersetzt standardmäßig ohne Berücksichtigung der Groß/Kleinschreibung.
 type: docs
-weight: 480
+weight: 490
 url: /de/net/groupdocs.redaction.redactions/exactphraseredaction/
 ---
 ## ExactPhraseRedaction class
@@ -39,7 +39,7 @@ public class ExactPhraseRedaction : TextRedaction
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zum Anwenden von Schwärzungen: [Grundlagen der Redaktion](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Weitere Details zum Schwärzen von Dokumenttexten: [Textredaktionen](https://docs.groupdocs.com/redaction/net/text-redactions/)

@@ -3,7 +3,7 @@ title: EraseMetadataRedaction
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Belgeden belirli MetadataFilters ile eşleşen tüm meta verileri veya meta verileri silen bir meta veri redaksiyonunu temsil eder.
 type: docs
-weight: 470
+weight: 480
 url: /tr/net/groupdocs.redaction.redactions/erasemetadataredaction/
 ---
 ## EraseMetadataRedaction class

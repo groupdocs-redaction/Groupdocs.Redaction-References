@@ -3,7 +3,7 @@ title: MetadataSearchRedaction
 second_title: Référence de l'API GroupDocs.Redaction pour .NET
 description: Représente une suppression de métadonnées qui recherche et supprime les métadonnées à laide dexpressions régulières de clés et/ou de valeurs correspondantes.
 type: docs
-weight: 530
+weight: 540
 url: /fr/net/groupdocs.redaction.redactions/metadatasearchredaction/
 ---
 ## MetadataSearchRedaction class

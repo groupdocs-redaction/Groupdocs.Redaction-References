@@ -3,7 +3,7 @@ title: RemovePageRedaction
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يمثل تنقيحًا يزيل صفحة شريحة  ورقة عمل  إلخ من المستند.
 type: docs
-weight: 600
+weight: 610
 url: /ar/net/groupdocs.redaction.redactions/removepageredaction/
 ---
 ## RemovePageRedaction class

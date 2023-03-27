@@ -3,7 +3,7 @@ title: CellFilter
 second_title: Riferimento API GroupDocs.Redaction per .NET
 description: Fornisce unopzione per limitare lambito di aCellColumnRedaction./cellcolumnredaction a un foglio di lavoro e una colonna.
 type: docs
-weight: 450
+weight: 460
 url: /it/net/groupdocs.redaction.redactions/cellfilter/
 ---
 ## CellFilter class
@@ -37,7 +37,7 @@ public class CellFilter
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori dettagli sulle redazioni dei fogli di lavoro: [Redazioni di fogli di calcolo](https://docs.groupdocs.com/redaction/net/spreadsheet-redactions/)
 

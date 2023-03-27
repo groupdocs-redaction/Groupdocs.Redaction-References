@@ -3,7 +3,7 @@ title: RedactorSettings
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Stellt Schwärzungseinstellungen dar mit denen der Schwärzungsvorgang angepasst werden kann.
 type: docs
-weight: 350
+weight: 360
 url: /de/net/groupdocs.redaction.options/redactorsettings/
 ---
 ## RedactorSettings class
@@ -35,7 +35,7 @@ public class RedactorSettings
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zur Implementierung der ILogger-Schnittstelle: [Verwenden Sie die erweiterte Protokollierung](https://docs.groupdocs.com/redaction/net/use-advanced-logging/)
 * Weitere Details zur Implementierung der IRedactionCallback-Schnittstelle: [Schwärzungsrückruf verwenden](https://docs.groupdocs.com/redaction/net/use-redaction-callback/)

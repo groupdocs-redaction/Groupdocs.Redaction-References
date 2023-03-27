@@ -1,14 +1,14 @@
 ---
 title: RedactorLogEntry
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 为 redaction 初始化 RedactorLogEntry 类的新实例
+description: 初始化 RedactorLogEntry 类的新实例以进行编辑
 type: docs
 weight: 10
 url: /zh/net/groupdocs.redaction/redactorlogentry/redactorlogentry/
 ---
 ## RedactorLogEntry constructor
 
-为 redaction 初始化 RedactorLogEntry 类的新实例。
+初始化 RedactorLogEntry 类的新实例以进行编辑。
 
 ```csharp
 public RedactorLogEntry(Redaction redaction, RedactionResult result)

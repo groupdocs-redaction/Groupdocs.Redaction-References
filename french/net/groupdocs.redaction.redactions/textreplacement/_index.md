@@ -3,7 +3,7 @@ title: TextReplacement
 second_title: Référence de l'API GroupDocs.Redaction pour .NET
 description: Représente une information de remplacement textuel.
 type: docs
-weight: 640
+weight: 650
 url: /fr/net/groupdocs.redaction.redactions/textreplacement/
 ---
 ## TextReplacement class

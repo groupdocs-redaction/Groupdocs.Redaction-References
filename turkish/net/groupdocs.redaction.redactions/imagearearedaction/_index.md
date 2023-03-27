@@ -3,7 +3,7 @@ title: ImageAreaRedaction
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Bir görüntü belgesinin verilen alanına renkli dikdörtgen yerleştiren bir redaksiyonu temsil eder.
 type: docs
-weight: 500
+weight: 510
 url: /tr/net/groupdocs.redaction.redactions/imagearearedaction/
 ---
 ## ImageAreaRedaction class

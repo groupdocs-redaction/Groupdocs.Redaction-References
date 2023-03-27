@@ -25,7 +25,7 @@ public class DocumentInfo : IDocumentInfo
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Получить информацию о файле](https://docs.groupdocs.com/redaction/net/get-file-info/)
 

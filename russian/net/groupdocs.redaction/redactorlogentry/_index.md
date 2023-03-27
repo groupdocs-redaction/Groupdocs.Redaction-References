@@ -3,7 +3,7 @@ title: RedactorLogEntry
 second_title: Справочник по API GroupDocs.Redaction для .NET
 description: Представляет результаты применения исправления.
 type: docs
-weight: 670
+weight: 680
 url: /ru/net/groupdocs.redaction/redactorlogentry/
 ---
 ## RedactorLogEntry class
@@ -29,7 +29,7 @@ public class RedactorLogEntry
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о записях журнала редактирования: [Основы редактирования](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 

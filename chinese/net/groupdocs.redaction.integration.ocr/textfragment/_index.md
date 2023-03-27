@@ -1,14 +1,14 @@
 ---
 title: TextFragment
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 表示已识别文本单词符号等的一部分由 OCR 引擎提取
+description: 表示由 OCR 引擎提取的已识别文本单词符号等的一部分
 type: docs
 weight: 240
 url: /zh/net/groupdocs.redaction.integration.ocr/textfragment/
 ---
 ## TextFragment class
 
-表示已识别文本（单词、符号等）的一部分，由 OCR 引擎提取。
+表示由 OCR 引擎提取的已识别文本（单词、符号等）的一部分。
 
 ```csharp
 public class TextFragment
@@ -24,8 +24,8 @@ public class TextFragment
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Rectangle](../../groupdocs.redaction.integration.ocr/textfragment/rectangle) { get; } | 获取已识别文本片段的边界矩形。 |
-| [Text](../../groupdocs.redaction.integration.ocr/textfragment/text) { get; } | 获取已识别文本片段的文本内容。 |
+| [Rectangle](../../groupdocs.redaction.integration.ocr/textfragment/rectangle) { get; } | 获取识别文本片段的边界矩形。 |
+| [Text](../../groupdocs.redaction.integration.ocr/textfragment/text) { get; } | 获取识别文本片段的文本内容。 |
 
 ## 方法
 
@@ -35,9 +35,9 @@ public class TextFragment
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 有关在 GroupDocs.Redaction 中使用 OCR 的更多详细信息： [OCR 使用基础](https://docs.groupdocs.com/redaction/net/ocr-usage-basics/)
+* 有关在 GroupDocs.Redaction 中使用 OCR 的更多详细信息： [OCR 使用基础知识](https://docs.groupdocs.com/redaction/net/ocr-usage-basics/)
 
 ### 也可以看看
 

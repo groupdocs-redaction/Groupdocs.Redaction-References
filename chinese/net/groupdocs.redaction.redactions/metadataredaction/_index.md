@@ -3,7 +3,7 @@ title: MetadataRedaction
 second_title: GroupDocs.Redaction for .NET API 参考
 description: 表示文档元数据编辑的基本抽象类
 type: docs
-weight: 520
+weight: 530
 url: /zh/net/groupdocs.redaction.redactions/metadataredaction/
 ---
 ## MetadataRedaction class
@@ -18,7 +18,7 @@ public abstract class MetadataRedaction : Redaction
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [Description](../../groupdocs.redaction/redaction/description) { get; } | 返回一个字符串，描述编辑及其参数。 |
+| virtual [Description](../../groupdocs.redaction/redaction/description) { get; } | 返回一个字符串，描述修订及其参数。 |
 | [Filter](../../groupdocs.redaction.redactions/metadataredaction/filter) { get; set; } | 获取或设置过滤器，用于选择所有或特定元数据，例如作者或公司。 |
 
 ## 方法
@@ -29,7 +29,7 @@ public abstract class MetadataRedaction : Redaction
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 有关文档元数据编辑的更多详细信息： [元数据编辑](https://docs.groupdocs.com/redaction/net/metadata-redactions/)
 

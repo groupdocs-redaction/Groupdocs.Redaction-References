@@ -1,14 +1,14 @@
 ---
 title: DocumentInfo
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 表示有关文档的信息实现 IDocumentInfo 接口看IDocumentInfo./idocumentinfo例如
+description: 表示有关文档的信息实现 IDocumentInfo 接口看IDocumentInfo./idocumentinfo例如.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.redaction/documentinfo/
 ---
 ## DocumentInfo class
 
-表示有关文档的信息。实现 IDocumentInfo 接口。看[`IDocumentInfo`](../idocumentinfo)例如。
+表示有关文档的信息。实现 IDocumentInfo 接口。看[`IDocumentInfo`](../idocumentinfo)例如.
 
 ```csharp
 public class DocumentInfo : IDocumentInfo
@@ -25,7 +25,7 @@ public class DocumentInfo : IDocumentInfo
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [获取文件信息](https://docs.groupdocs.com/redaction/net/get-file-info/)
 

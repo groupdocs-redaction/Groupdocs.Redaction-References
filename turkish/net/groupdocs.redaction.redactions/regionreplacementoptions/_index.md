@@ -3,7 +3,7 @@ title: RegionReplacementOptions
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Görüntü bölgesi değişimi için renk ve alan parametrelerini temsil eder. GörmekImageAreaRedaction./imagearearedaction .
 type: docs
-weight: 590
+weight: 600
 url: /tr/net/groupdocs.redaction.redactions/regionreplacementoptions/
 ---
 ## RegionReplacementOptions class

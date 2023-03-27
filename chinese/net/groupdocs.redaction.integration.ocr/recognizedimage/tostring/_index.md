@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-已识别的文本
+识别文本
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ReplacementType
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 表示匹配文本的替换类型
+description: 表示匹配文本的一种替换
 type: docs
-weight: 620
+weight: 630
 url: /zh/net/groupdocs.redaction.redactions/replacementtype/
 ---
 ## ReplacementType enumeration
 
-表示匹配文本的替换类型。
+表示匹配文本的一种替换。
 
 ```csharp
 public enum ReplacementType
@@ -19,13 +19,13 @@ public enum ReplacementType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | ReplaceString | `0` | 用另一个字符串替换匹配的文本，例如豁免代码。 |
-| DrawBox | `1` | 绘制特定颜色的矩形（默认为黑色）而不是编辑文本。 |
+| DrawBox | `1` | 绘制一个特定颜色的矩形（默认为黑色）而不是编辑文本。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 有关文档文本编辑的更多详细信息： [文本编辑](https://docs.groupdocs.com/redaction/net/text-redactions/)
+* 有关文档文本修订的更多详细信息： [文本编辑](https://docs.groupdocs.com/redaction/net/text-redactions/)
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: PageCount
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: PDFye dönüştürülecek sayfa sayısını alır veya ayarlar.
 type: docs
-weight: 40
+weight: 50
 url: /tr/net/groupdocs.redaction.options/rasterizationoptions/pagecount/
 ---
 ## RasterizationOptions.PageCount property

@@ -3,7 +3,7 @@ title: MetadataFilters
 second_title: GroupDocs.Redaction for .NET API 参考
 description: 表示最常见的文档元数据类型列表
 type: docs
-weight: 510
+weight: 520
 url: /zh/net/groupdocs.redaction.redactions/metadatafilters/
 ---
 ## MetadataFilters enumeration
@@ -19,24 +19,24 @@ public enum MetadataFilters
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 空过滤器设置，不匹配元数据项。 |
+| None | `0` | 空过滤器设置，不匹配任何元数据项。 |
 | Author | `1` | 文档的作者。 |
 | Category | `2` | 文档的类别。 |
 | Comments | `4` | 对文档的评论。 |
-| Company | `8` | 作者所在的公司。 |
+| Company | `8` | 作者公司。 |
 | ContentStatus | `10` | 内容状态。 |
-| CreatedTime | `20` | 创建时间。 |
-| HyperlinkBase | `40` | 超链接基础。 |
-| LastPrinted | `80` | 上次打印的日期和时间。 |
-| LastSavedBy | `100` | 上次由用户保存。 |
-| LastSavedTime | `400` | 上次保存的日期和时间。 |
+| CreatedTime | `20` | 创建时间. |
+| HyperlinkBase | `40` | 超链接基础. |
+| LastPrinted | `80` | 最后打印的日期和时间。 |
+| LastSavedBy | `100` | 用户最后保存。 |
+| LastSavedTime | `400` | 最后保存的日期和时间。 |
 | NameOfApplication | `800` | 创建文档的应用程序名称。 |
 | Manager | `1000` | 作者的经理姓名。 |
 | RevisionNumber | `2000` | 修订号。 |
 | Subject | `4000` | 文档的主题。 |
-| Template | `8000` | 文档模板名称。 |
+| Template | `8000` | 文档模板名称. |
 | Title | `10000` | 文档标题. |
-| TotalEditingTime | `20000` | 总编辑时间。 |
+| TotalEditingTime | `20000` | 总编辑时间. |
 | Version | `40000` | 文档的版本。 |
 | Description | `80000` | 文档的描述。 |
 | Keywords | `100000` | 文档的关键字。 |
@@ -45,7 +45,7 @@ public enum MetadataFilters
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 有关文档元数据编辑的更多详细信息： [元数据编辑](https://docs.groupdocs.com/redaction/net/metadata-redactions/)
 

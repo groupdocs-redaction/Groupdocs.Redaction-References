@@ -1,14 +1,14 @@
 ---
 title: KeyExpression
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 获取正则表达式以匹配元数据项的名称键
+description: 获取匹配元数据项名称键的正则表达式
 type: docs
 weight: 30
 url: /zh/net/groupdocs.redaction.redactions/metadatasearchredaction/keyexpression/
 ---
 ## MetadataSearchRedaction.KeyExpression property
 
-获取正则表达式以匹配元数据项的名称（键）。
+获取匹配元数据项名称（键）的正则表达式。
 
 ```csharp
 public Regex KeyExpression { get; }

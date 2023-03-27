@@ -1,14 +1,14 @@
 ---
 title: ExactPhraseRedaction
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 在不区分大小写模式下初始化 ExactPhraseRedaction 类的新实例
+description: 在不区分大小写的模式下初始化 ExactPhraseRedaction 类的新实例
 type: docs
 weight: 10
 url: /zh/net/groupdocs.redaction.redactions/exactphraseredaction/exactphraseredaction/
 ---
 ## ExactPhraseRedaction(string, ReplacementOptions) {#constructor_1}
 
-在不区分大小写模式下初始化 ExactPhraseRedaction 类的新实例。
+在不区分大小写的模式下初始化 ExactPhraseRedaction 类的新实例。
 
 ```csharp
 public ExactPhraseRedaction(string searchPhrase, ReplacementOptions options)
@@ -17,7 +17,7 @@ public ExactPhraseRedaction(string searchPhrase, ReplacementOptions options)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | searchPhrase | String | 要搜索和替换的字符串 |
-| options | ReplacementOptions | 替换选项（文本、颜色） |
+| options | ReplacementOptions | 替换选项（文字、颜色） |
 
 ### 也可以看看
 
@@ -39,8 +39,8 @@ public ExactPhraseRedaction(string searchPhrase, bool isCaseSensitive, Replaceme
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | searchPhrase | String | 要搜索和替换的字符串 |
-| isCaseSensitive | Boolean | 如果需要区分大小写的搜索，则为真 |
-| options | ReplacementOptions | 替换选项（文本、颜色） |
+| isCaseSensitive | Boolean | 如果需要区分大小写的搜索则为真 |
+| options | ReplacementOptions | 替换选项（文字、颜色） |
 
 ### 也可以看看
 

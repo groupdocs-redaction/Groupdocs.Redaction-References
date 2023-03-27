@@ -3,7 +3,7 @@ title: Redactor
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Stellt eine Hauptklasse dar die den Dokumentenschwärzungsprozess steuert und das Öffnen Schwärzen und Speichern von Dokumenten ermöglicht.
 type: docs
-weight: 650
+weight: 660
 url: /de/net/groupdocs.redaction/redactor/
 ---
 ## Redactor class
@@ -22,7 +22,7 @@ public sealed class Redactor : IDisposable, IPreviewable
 | [Redactor](redactor#constructor_3)(string) | Initialisiert eine neue Instanz von[`Redactor`](../redactor) Klasse mit Dateipfad. |
 | [Redactor](redactor#constructor_1)(Stream, LoadOptions) | Initialisiert eine neue Instanz von[`Redactor`](../redactor) Klasse für ein passwortgeschütztes Dokument mit stream. |
 | [Redactor](redactor#constructor_4)(string, LoadOptions) | Initialisiert eine neue Instanz von[`Redactor`](../redactor) Klasse für ein passwortgeschütztes Dokument mit seinem Pfad. |
-| [Redactor](redactor#constructor_2)(Stream, LoadOptions, RedactorSettings) | Initialisiert eine neue Instanz von[`Redactor`](../redactor) Klasse für ein passwortgeschütztes Dokument mit Stream und Einstellungen. |
+| [Redactor](redactor#constructor_2)(Stream, LoadOptions, RedactorSettings) | Initialisiert eine neue Instanz von[`Redactor`](../redactor)Klasse für ein passwortgeschütztes Dokument mit Stream und Einstellungen. |
 | [Redactor](redactor#constructor_5)(string, LoadOptions, RedactorSettings) | Initialisiert eine neue Instanz von[`Redactor`](../redactor) Klasse für ein passwortgeschütztes Dokument mit seinem Pfad und seinen Einstellungen. |
 
 ## Methoden
@@ -41,7 +41,7 @@ public sealed class Redactor : IDisposable, IPreviewable
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zum Anwenden von Schwärzungen: [Grundlagen der Redaktion](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Weiterführende Schwärzungsthemen: [Erweiterte Nutzung](https://docs.groupdocs.com/redaction/net/advanced-usage/)

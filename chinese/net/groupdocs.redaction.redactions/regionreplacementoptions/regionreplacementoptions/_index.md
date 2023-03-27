@@ -29,7 +29,7 @@ public RegionReplacementOptions(Color fillColor, Size size)
 
 ## RegionReplacementOptions(Color, Font, string) {#constructor}
 
-初始化 RegionReplacementOptions 类的新实例，其大小与给定文本匹配。
+初始化大小匹配给定文本的 RegionReplacementOptions 类的新实例。
 
 ```csharp
 public RegionReplacementOptions(Color fillColor, Font font, string expectedText)
@@ -38,7 +38,7 @@ public RegionReplacementOptions(Color fillColor, Font font, string expectedText)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fillColor | Color | 填充区域的颜色 |
-| font | Font | 预期的文本字体 |
+| font | Font | 预期的文字字体 |
 | expectedText | String | 预期文本 |
 
 ### 也可以看看

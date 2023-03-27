@@ -3,7 +3,7 @@ title: AnnotationRedaction
 second_title: Riferimento API GroupDocs.Redaction per .NET
 description: Rappresenta una redazione che sostituisce il testo dellannotazione commenti ecc. corrispondente a una determinata espressione regolare.
 type: docs
-weight: 430
+weight: 440
 url: /it/net/groupdocs.redaction.redactions/annotationredaction/
 ---
 ## AnnotationRedaction class
@@ -37,7 +37,7 @@ public class AnnotationRedaction : Redaction
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Maggiori dettagli sull'applicazione delle redazioni: [Nozioni di base sulla redazione](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Maggiori dettagli sulla redazione delle annotazioni del documento: [Redazioni di annotazioni](https://docs.groupdocs.com/redaction/net/annotation-redactions/)

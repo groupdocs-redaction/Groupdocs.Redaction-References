@@ -1,14 +1,14 @@
 ---
 title: RedactedFileSuffix
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 获取或设置输出文件名的自定义后缀如果未指定则SaveSuffixgroupdocs.redaction.options/saveoptions/savesuffix将使用常量
+description: 获取或设置输出文件名的自定义后缀如果未指定则SaveSuffixgroupdocs.redaction.options/saveoptions/savesuffix常量将被使用
 type: docs
 weight: 50
 url: /zh/net/groupdocs.redaction.options/saveoptions/redactedfilesuffix/
 ---
 ## SaveOptions.RedactedFileSuffix property
 
-获取或设置输出文件名的自定义后缀。如果未指定，则[`SaveSuffix`](../savesuffix)将使用常量。
+获取或设置输出文件名的自定义后缀。如果未指定，则[`SaveSuffix`](../savesuffix)常量将被使用。
 
 ```csharp
 public string RedactedFileSuffix { get; set; }

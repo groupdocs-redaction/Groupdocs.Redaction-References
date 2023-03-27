@@ -1,14 +1,14 @@
 ---
 title: PdfComplianceLevel
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 表示支持的 PDF 合规级别列表
+description: 表示受支持的 PDF 合规级别列表
 type: docs
-weight: 310
+weight: 320
 url: /zh/net/groupdocs.redaction.options/pdfcompliancelevel/
 ---
 ## PdfComplianceLevel enumeration
 
-表示支持的 PDF 合规级别列表。
+表示受支持的 PDF 合规级别列表。
 
 ```csharp
 public enum PdfComplianceLevel
@@ -18,12 +18,12 @@ public enum PdfComplianceLevel
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Auto | `0` | 输出文件默认符合 PDF/A-1b 标准。 |
+| Auto | `0` | 输出文件将默认符合 PDF/A-1b 标准。 |
 | PdfA1a | `1` | 输出文件将符合 PDF/A-1a 标准。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 有关光栅化选项的更多详细信息： [为光栅化 PDF 选择特定页面](https://docs.groupdocs.com/redaction/net/select-specific-pages-for-rasterized-pdf/)
 

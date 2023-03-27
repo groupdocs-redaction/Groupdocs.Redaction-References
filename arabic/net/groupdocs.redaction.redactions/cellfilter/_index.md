@@ -3,7 +3,7 @@ title: CellFilter
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يوفر خيارًا للحد من نطاق ملفCellColumnRedaction./cellcolumnredaction إلى ورقة عمل وعمود.
 type: docs
-weight: 450
+weight: 460
 url: /ar/net/groupdocs.redaction.redactions/cellfilter/
 ---
 ## CellFilter class

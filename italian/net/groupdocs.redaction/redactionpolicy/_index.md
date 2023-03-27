@@ -3,7 +3,7 @@ title: RedactionPolicy
 second_title: Riferimento API GroupDocs.Redaction per .NET
 description: Rappresenta una politica di sanificazione contenente un insieme di redazioni specifiche da applicare.
 type: docs
-weight: 400
+weight: 410
 url: /it/net/groupdocs.redaction/redactionpolicy/
 ---
 ## RedactionPolicy class
@@ -38,7 +38,7 @@ public class RedactionPolicy
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori dettagli sulle norme: [Uso delle politiche redazionali](https://docs.groupdocs.com/redaction/net/use-redaction-policies/)
 * Maggiori dettagli sull'applicazione delle redazioni: [Nozioni di base sulla redazione](https://docs.groupdocs.com/redaction/net/redaction-basics/)

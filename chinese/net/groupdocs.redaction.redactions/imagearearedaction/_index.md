@@ -3,7 +3,7 @@ title: ImageAreaRedaction
 second_title: GroupDocs.Redaction for .NET API 参考
 description: 表示将彩色矩形放置在图像文档的给定区域中的编辑
 type: docs
-weight: 500
+weight: 510
 url: /zh/net/groupdocs.redaction.redactions/imagearearedaction/
 ---
 ## ImageAreaRedaction class
@@ -24,8 +24,8 @@ public class ImageAreaRedaction : Redaction
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Description](../../groupdocs.redaction.redactions/imagearearedaction/description) { get; } | 返回一个字符串，描述编辑及其参数。 |
-| [Options](../../groupdocs.redaction.redactions/imagearearedaction/options) { get; } | 获取[`RegionReplacementOptions`](../regionreplacementoptions)带有颜色和面积参数的选项。 |
+| override [Description](../../groupdocs.redaction.redactions/imagearearedaction/description) { get; } | 返回一个字符串，描述修订及其参数。 |
+| [Options](../../groupdocs.redaction.redactions/imagearearedaction/options) { get; } | 获取[`RegionReplacementOptions`](../regionreplacementoptions)带有颜色和区域参数的选项. |
 | [TopLeft](../../groupdocs.redaction.redactions/imagearearedaction/topleft) { get; } | 获取要移除的区域的左上角位置 |
 
 ## 方法
@@ -36,14 +36,14 @@ public class ImageAreaRedaction : Redaction
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 有关应用编辑的更多详细信息： [编辑基础知识](https://docs.groupdocs.com/redaction/net/redaction-basics/)
-* 有关图像编辑的更多详细信息： [图像编辑](https://docs.groupdocs.com/redaction/net/image-redactions/)
+* 有关应用密文的更多详细信息： [编辑基础知识](https://docs.groupdocs.com/redaction/net/redaction-basics/)
+* 有关图像编辑的更多详细信息： [图片编辑](https://docs.groupdocs.com/redaction/net/image-redactions/)
 
 ### 例子
 
-以下示例演示了用纯色矩形替换图像中的区域。
+以下示例演示用纯色矩形替换图像中的区域。
 
 ```csharp
     using (Redactor redactor = new Redactor("D:\\test.jpg"))

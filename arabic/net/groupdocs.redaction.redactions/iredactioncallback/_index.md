@@ -3,7 +3,7 @@ title: IRedactionCallback
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يحدد الطرق المطلوبة لتلقي معلومات عن كل تغيير تنقيح ويمنعه اختياريًا.
 type: docs
-weight: 490
+weight: 500
 url: /ar/net/groupdocs.redaction.redactions/iredactioncallback/
 ---
 ## IRedactionCallback interface

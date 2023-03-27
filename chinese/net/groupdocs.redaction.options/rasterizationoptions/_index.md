@@ -3,7 +3,7 @@ title: RasterizationOptions
 second_title: GroupDocs.Redaction for .NET API 参考
 description: 提供将文件转换为 PDF 的选项
 type: docs
-weight: 340
+weight: 350
 url: /zh/net/groupdocs.redaction.options/rasterizationoptions/
 ---
 ## RasterizationOptions class
@@ -24,16 +24,24 @@ public class RasterizationOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Compliance](../../groupdocs.redaction.options/rasterizationoptions/compliance) { get; set; } | 获取或设置 PDF 合规级别。 |
-| [Enabled](../../groupdocs.redaction.options/rasterizationoptions/enabled) { get; set; } | 获取或设置一个值，该值指示是否需要将文档中的所有页面转换为图像并放入单个 PDF 文件中。默认为 TRUE，设置为 FALSE 以避免光栅化。 |
-| [PageCount](../../groupdocs.redaction.options/rasterizationoptions/pagecount) { get; set; } | 获取或设置要转换成PDF的页数。 |
-| [PageIndex](../../groupdocs.redaction.options/rasterizationoptions/pageindex) { get; set; } | 获取或设置要转换为 PDF 的第一页的索引（从 0 开始）。 |
+| [Compliance](../../groupdocs.redaction.options/rasterizationoptions/compliance) { get; set; } | 获取或设置 PDF 合规性级别。 |
+| [Enabled](../../groupdocs.redaction.options/rasterizationoptions/enabled) { get; set; } | 获取或设置一个值，该值指示文档中的所有页面是否需要转换为图像并放入单个 PDF 文件中。默认情况下为 TRUE，设置为 FALSE 以避免光栅化。 |
+| [HasAdvancedOptions](../../groupdocs.redaction.options/rasterizationoptions/hasadvancedoptions) { get; } | 获取一个指示符，如果设置了高级光栅化选项，则该指示符为真。 |
+| [PageCount](../../groupdocs.redaction.options/rasterizationoptions/pagecount) { get; set; } | 获取或设置转换成PDF的页数。 |
+| [PageIndex](../../groupdocs.redaction.options/rasterizationoptions/pageindex) { get; set; } | 获取或设置要转换为 PDF 的第一页（从 0 开始）的索引。 |
+
+## 方法
+
+| 姓名 | 描述 |
+| --- | --- |
+| [AddAdvancedOption](../../groupdocs.redaction.options/rasterizationoptions/addadvancedoption#addadvancedoption)(AdvancedRasterizationOptions) | 您可以使用此方法注册要应用的高级光栅化选项。 |
+| [AddAdvancedOption](../../groupdocs.redaction.options/rasterizationoptions/addadvancedoption#addadvancedoption_1)(AdvancedRasterizationOptions, Dictionary&lt;string, string&gt;) | 您可以使用此方法注册要应用的高级光栅化选项。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 有关将文档另存为光栅化 PDF 的更多详细信息： [保存为栅格化 PDF](https://docs.groupdocs.com/redaction/net/save-in-rasterized-pdf/)
+* 有关将文档另存为光栅化 PDF 的更多详细信息： [保存为光栅化 PDF](https://docs.groupdocs.com/redaction/net/save-in-rasterized-pdf/)
 * 有关光栅化选项的更多详细信息： [为光栅化 PDF 选择特定页面](https://docs.groupdocs.com/redaction/net/select-specific-pages-for-rasterized-pdf/)
 
 ### 例子
@@ -54,6 +62,67 @@ public class RasterizationOptions
             redactor.Save(stream, rasterizationOptions);
         }
     }      
+```
+
+以下示例演示如何使用默认设置应用高级光栅化选项。
+
+```csharp
+    using (Redactor redactor = new Redactor(@"C:\sample.docx"))
+    {
+      // 使用默认选项保存文档（将页面转换为图像，另存为 PDF）
+      var so = new SaveOptions();
+      so.Rasterization.Enabled = true;
+      so.RedactedFileSuffix = "_scan";
+      so.Rasterization.AddAdvancedOption(AdvancedRasterizationOptions.Border);
+      so.Rasterization.AddAdvancedOption(AdvancedRasterizationOptions.Noise);
+      so.Rasterization.AddAdvancedOption(AdvancedRasterizationOptions.Grayscale);
+      so.Rasterization.AddAdvancedOption(AdvancedRasterizationOptions.Tilt);
+      redactor.Save(so);
+    }
+```
+
+以下示例演示如何使用自定义设置应用边框高级光栅化选项。
+
+```csharp
+    using (Redactor redactor = new Redactor(@"C:\sample.docx"))
+    {
+      // 保存带有自定义边框的文档
+      var so = new SaveOptions();
+      so.Rasterization.Enabled = true;
+      so.RedactedFileSuffix = "_scan";
+      so.Rasterization.AddAdvancedOption(AdvancedRasterizationOptions.Border, new Dictionary<string, string>() { { "border", "10" } });
+      redactor.Save(so);
+    }
+```
+
+以下示例演示如何使用自定义设置应用噪声高级光栅化选项。
+
+```csharp
+    using (Redactor redactor = new Redactor(@"C:\sample.docx"))
+    {
+      // 使用噪声效果的自定义数量和大小保存文档
+      var so = new SaveOptions();
+      so.Rasterization.Enabled = true;
+      so.RedactedFileSuffix = "_scan";
+      so.Rasterization.AddAdvancedOption(AdvancedRasterizationOptions.Noise, 
+          new Dictionary<string, string>() { { "maxSpots", "150" }, { "spotMaxSize", "15" } });
+      redactor.Save(so);
+    }
+```
+
+以下示例演示了如何使用自定义设置应用倾斜高级光栅化选项。
+
+```csharp
+    using (Redactor redactor = new Redactor(@"C:\sample.docx"))
+    {
+      // 保存带有自定义倾斜效果的文档
+      var so = new SaveOptions();
+      so.Rasterization.Enabled = true;
+      so.RedactedFileSuffix = "_scan";
+      so.Rasterization.AddAdvancedOption(AdvancedRasterizationOptions.Tilt, 
+          new Dictionary<string, string>() { { { "minAngle", "85" }, { "randomAngleMax", "5" } });
+      redactor.Save(so);
+    }
 ```
 
 ### 也可以看看

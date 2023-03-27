@@ -3,7 +3,7 @@ title: SaveOptions
 second_title: Riferimento API GroupDocs.Redaction per .NET
 description: Fornisce opzioni per modificare il nome di un file di output e/o convertire il documento in PDF basato su immagini rasterizzazione.
 type: docs
-weight: 370
+weight: 380
 url: /it/net/groupdocs.redaction.options/saveoptions/
 ---
 ## SaveOptions class
@@ -38,7 +38,7 @@ public class SaveOptions
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Salva con le opzioni predefinite](https://docs.groupdocs.com/redaction/net/save-with-default-options/)
 * [Salva in PDF rasterizzato](https://docs.groupdocs.com/redaction/net/save-in-rasterized-pdf/)

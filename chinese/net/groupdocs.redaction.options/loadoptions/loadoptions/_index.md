@@ -24,7 +24,7 @@ public LoadOptions()
 
 ## LoadOptions(string) {#constructor_1}
 
-使用指定的密码初始化 LoadOptions 类的新实例。
+使用指定密码初始化 LoadOptions 类的新实例。
 
 ```csharp
 public LoadOptions(string password)

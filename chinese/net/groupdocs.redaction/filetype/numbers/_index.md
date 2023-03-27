@@ -1,14 +1,14 @@
 ---
 title: NUMBERS
 second_title: GroupDocs.Redaction for .NET API 参考
-description: Apple 数字电子表格 .numbers
+description: Apple Numbers 电子表格 .numbers
 type: docs
 weight: 160
 url: /zh/net/groupdocs.redaction/filetype/numbers/
 ---
 ## FileType.NUMBERS property
 
-Apple 数字电子表格 (.numbers)
+Apple Numbers 电子表格 (.numbers)
 
 ```csharp
 public static FileType NUMBERS { get; }

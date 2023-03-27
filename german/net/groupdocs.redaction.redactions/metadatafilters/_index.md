@@ -3,7 +3,7 @@ title: MetadataFilters
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Stellt eine Liste der häufigsten Arten von Dokumentmetadaten dar.
 type: docs
-weight: 510
+weight: 520
 url: /de/net/groupdocs.redaction.redactions/metadatafilters/
 ---
 ## MetadataFilters enumeration
@@ -45,7 +45,7 @@ public enum MetadataFilters
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zum Schwärzen von Dokumentmetadaten: [Schwärzungen von Metadaten](https://docs.groupdocs.com/redaction/net/metadata-redactions/)
 

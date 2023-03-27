@@ -3,7 +3,7 @@ title: DeleteAnnotationRedaction
 second_title: Referencia de API de GroupDocs.Redaction para .NET
 description: Representa una redacción de texto que elimina las anotaciones si el texto coincide con la expresión regular dada opcionalmente elimina todas las anotaciones.
 type: docs
-weight: 460
+weight: 470
 url: /es/net/groupdocs.redaction.redactions/deleteannotationredaction/
 ---
 ## DeleteAnnotationRedaction class

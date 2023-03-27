@@ -3,7 +3,7 @@ title: Redaction
 second_title: Riferimento API GroupDocs.Redaction per .NET
 description: Rappresenta una classe astratta di base per tutti i tipi di redazione.
 type: docs
-weight: 390
+weight: 400
 url: /it/net/groupdocs.redaction/redaction/
 ---
 ## Redaction class
@@ -28,7 +28,7 @@ public abstract class Redaction
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori dettagli sui tipi di redazione: [Nozioni di base sulla redazione](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Argomenti di redazione più avanzati: [Utilizzo avanzato](https://docs.groupdocs.com/redaction/net/advanced-usage/)

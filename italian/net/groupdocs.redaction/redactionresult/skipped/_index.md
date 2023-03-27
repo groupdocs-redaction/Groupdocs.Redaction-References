@@ -16,7 +16,7 @@ public static RedactionResult Skipped(string description)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| description | String | Motivo per cui l'operazione è stata ignorata |
+| description | String | Motivo per cui l'operazione è stata saltata |
 
 ### Valore di ritorno
 

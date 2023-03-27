@@ -1,14 +1,14 @@
 ---
 title: ErrorMessage
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 获取诊断错误消息
+description: 获取用于诊断的错误消息
 type: docs
 weight: 50
 url: /zh/net/groupdocs.redaction/redactionresult/errormessage/
 ---
 ## RedactionResult.ErrorMessage property
 
-获取诊断错误消息。
+获取用于诊断的错误消息。
 
 ```csharp
 public string ErrorMessage { get; }

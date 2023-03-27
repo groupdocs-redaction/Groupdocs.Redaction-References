@@ -3,7 +3,7 @@ title: RedactorChangeLog
 second_title: GroupDocs.Redaction for .NET API 参考
 description: 表示编辑列表的结果传递给的 Apply 方法Redactor./redactor类.
 type: docs
-weight: 660
+weight: 670
 url: /zh/net/groupdocs.redaction/redactorchangelog/
 ---
 ## RedactorChangeLog class
@@ -25,11 +25,11 @@ public class RedactorChangeLog
 | 姓名 | 描述 |
 | --- | --- |
 | [RedactionLog](../../groupdocs.redaction/redactorchangelog/redactionlog) { get; } | 获取列表[`RedactorLogEntry`](../redactorlogentry)实例. |
-| [Status](../../groupdocs.redaction/redactorchangelog/status) { get; } | 获取所有应用的密文的最终状态。 |
+| [Status](../../groupdocs.redaction/redactorchangelog/status) { get; } | 获取所有已应用密文的最终状态。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 有关编辑日志的更多详细信息： [编辑基础知识](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 

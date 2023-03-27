@@ -1,14 +1,14 @@
 ---
 title: MetadataCollection
 second_title: .NET API Başvurusu için GroupDocs.Redaction
-description: Şunun sözlüğünü temsil ederMetadataItem./metadataitem anahtar olarak başlığıyla.
+description: Bir sözlüğü temsil ederMetadataItem./metadataitem anahtar olarak başlığıyla.
 type: docs
 weight: 200
 url: /tr/net/groupdocs.redaction.integration/metadatacollection/
 ---
 ## MetadataCollection class
 
-Şunun sözlüğünü temsil eder:[`MetadataItem`](../metadataitem) anahtar olarak başlığıyla.
+Bir sözlüğü temsil eder[`MetadataItem`](../metadataitem) anahtar olarak başlığıyla.
 
 ```csharp
 public class MetadataCollection : Dictionary<string, MetadataItem>

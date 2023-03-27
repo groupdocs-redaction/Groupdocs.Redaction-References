@@ -28,6 +28,7 @@ ElOptions El espacio de nombres proporciona clases de opciones de carga y guarda
 
 | Enumeración | Descripción |
 | --- | --- |
+| [AdvancedRasterizationOptions](./advancedrasterizationoptions) | Enumeración de banderas para administrar las opciones avanzadas de rasterización a aplicar. |
 | [PdfComplianceLevel](./pdfcompliancelevel) | Representa una lista de niveles de cumplimiento de PDF admitidos. |
 | [PreviewOptions.PreviewFormats](./previewoptions.previewformats) | Representa los formatos de vista previa admitidos. |
 

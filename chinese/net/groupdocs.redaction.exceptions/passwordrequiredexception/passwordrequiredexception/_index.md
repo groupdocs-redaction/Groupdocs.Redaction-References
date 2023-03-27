@@ -24,7 +24,7 @@ public PasswordRequiredException()
 
 ## PasswordRequiredException(string, Exception) {#constructor_1}
 
-使用指定的错误消息和对导致此异常的内部异常的引用初始化 PasswordRequiredException 类的新实例。
+使用指定的错误消息和对导致此异常的内部异常的引用来初始化 PasswordRequiredException 类的新实例。
 
 ```csharp
 public PasswordRequiredException(string message, Exception innerException)

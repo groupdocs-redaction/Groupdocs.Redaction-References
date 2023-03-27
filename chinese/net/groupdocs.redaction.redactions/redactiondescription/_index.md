@@ -1,14 +1,14 @@
 ---
 title: RedactionDescription
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 表示在修订过程中执行的单个更改操作信息
+description: 表示在编辑过程中执行的单个更改操作信息
 type: docs
-weight: 560
+weight: 570
 url: /zh/net/groupdocs.redaction.redactions/redactiondescription/
 ---
 ## RedactionDescription class
 
-表示在修订过程中执行的单个更改操作信息。
+表示在编辑过程中执行的单个更改操作信息。
 
 ```csharp
 public class RedactionDescription
@@ -18,7 +18,7 @@ public class RedactionDescription
 
 | 姓名 | 描述 |
 | --- | --- |
-| [RedactionDescription](redactiondescription#constructor_1)(RedactionType, RedactionActionType, string) | 初始化没有替换信息的 RedactionDescription 类的新实例。 |
+| [RedactionDescription](redactiondescription#constructor_1)(RedactionType, RedactionActionType, string) | 在没有替换信息的情况下初始化 RedactionDescription 类的新实例。 |
 | [RedactionDescription](redactiondescription#constructor)(RedactionType, RedactionActionType, RegionReplacementOptions, string) | 使用图像区域替换信息初始化 RedactionDescription 类的新实例。 |
 | [RedactionDescription](redactiondescription#constructor_2)(RedactionType, RedactionActionType, string, TextReplacement) | 使用替换信息初始化 RedactionDescription 类的新实例。 |
 
@@ -28,16 +28,16 @@ public class RedactionDescription
 | --- | --- |
 | [ActionType](../../groupdocs.redaction.redactions/redactiondescription/actiontype) { get; } | 获取编辑操作：替换、清理或删除。 |
 | [Details](../../groupdocs.redaction.redactions/redactiondescription/details) { get; set; } | 获取或设置正在编辑的项目的可选详细信息。 |
-| [ImageAreaReplacement](../../groupdocs.redaction.redactions/redactiondescription/imageareareplacement) { get; } | 获取图像区域密文的替换信息，文本密文返回空值。 |
-| [OriginalText](../../groupdocs.redaction.redactions/redactiondescription/originaltext) { get; } | 如果提供了任何表达式，则获取匹配的文本。 |
+| [ImageAreaReplacement](../../groupdocs.redaction.redactions/redactiondescription/imageareareplacement) { get; } | 获取图片区域密文的替换信息，文本密文返回null。 |
+| [OriginalText](../../groupdocs.redaction.redactions/redactiondescription/originaltext) { get; } | 获取匹配的文本，如果提供任何表达式。 |
 | [RedactionType](../../groupdocs.redaction.redactions/redactiondescription/redactiontype) { get; } | 获取文档数据的类型 - 文本、元数据或注释。 |
 | [Replacement](../../groupdocs.redaction.redactions/redactiondescription/replacement) { get; } | 获取替换信息，可以为空。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于 RedactionDescription 类和 IRedactionCallback 接口的细节： [使用编辑回调](https://docs.groupdocs.com/redaction/net/use-redaction-callback/)
+* 有关 RedactionDescription 类和 IRedactionCallback 接口的更多详细信息： [使用密文回调](https://docs.groupdocs.com/redaction/net/use-redaction-callback/)
 
 ### 也可以看看
 

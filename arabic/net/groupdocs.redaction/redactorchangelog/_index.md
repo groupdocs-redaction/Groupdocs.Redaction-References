@@ -3,7 +3,7 @@ title: RedactorChangeLog
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يمثل نتائج قائمة التنقيح التي تم تمريرها إلى طريقة التطبيق Redactor./redactor فئة .
 type: docs
-weight: 660
+weight: 670
 url: /ar/net/groupdocs.redaction/redactorchangelog/
 ---
 ## RedactorChangeLog class

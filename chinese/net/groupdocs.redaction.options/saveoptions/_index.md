@@ -3,7 +3,7 @@ title: SaveOptions
 second_title: GroupDocs.Redaction for .NET API 参考
 description: 提供用于更改输出文件名和/或将文档转换为基于图像的 PDF光栅化的选项
 type: docs
-weight: 370
+weight: 380
 url: /zh/net/groupdocs.redaction.options/saveoptions/
 ---
 ## SaveOptions class
@@ -19,16 +19,16 @@ public class SaveOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [SaveOptions](saveoptions#constructor)() | 使用默认值初始化新实例：光栅化为 PDF - false，添加后缀 - false. |
-| [SaveOptions](saveoptions#constructor_1)(bool, string) | 使用给定参数初始化一个新实例。 |
+| [SaveOptions](saveoptions#constructor_1)(bool, string) | 使用给定参数初始化新实例。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AddSuffix](../../groupdocs.redaction.options/saveoptions/addsuffix) { get; set; } | 获取或设置一个值，该值指示在保存之前是否需要更改文件名。默认为假。 |
+| [AddSuffix](../../groupdocs.redaction.options/saveoptions/addsuffix) { get; set; } | 获取或设置一个值，该值指示在保存前是否需要更改文件名。默认为假。 |
 | [Rasterization](../../groupdocs.redaction.options/saveoptions/rasterization) { get; } | 获取光栅化设置。 |
-| [RasterizeToPDF](../../groupdocs.redaction.options/saveoptions/rasterizetopdf) { get; set; } | 获取或设置一个值，该值指示是否需要将文档中的所有页面都转换为图像并放入单个 PDF 文件中。 |
-| [RedactedFileSuffix](../../groupdocs.redaction.options/saveoptions/redactedfilesuffix) { get; set; } | 获取或设置输出文件名的自定义后缀。如果未指定，则[`SaveSuffix`](./savesuffix)将使用常量。 |
+| [RasterizeToPDF](../../groupdocs.redaction.options/saveoptions/rasterizetopdf) { get; set; } | 获取或设置一个值，该值指示文档中的所有页面是否需要转换为图像并放入单个 PDF 文件中。 |
+| [RedactedFileSuffix](../../groupdocs.redaction.options/saveoptions/redactedfilesuffix) { get; set; } | 获取或设置输出文件名的自定义后缀。如果未指定，则[`SaveSuffix`](./savesuffix)常量将被使用。 |
 
 ## 字段
 
@@ -38,13 +38,13 @@ public class SaveOptions
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [使用默认选项保存](https://docs.groupdocs.com/redaction/net/save-with-default-options/)
-* [保存为栅格化 PDF](https://docs.groupdocs.com/redaction/net/save-in-rasterized-pdf/)
+* [保存为光栅化 PDF](https://docs.groupdocs.com/redaction/net/save-in-rasterized-pdf/)
 * [为光栅化 PDF 选择特定页面](https://docs.groupdocs.com/redaction/net/select-specific-pages-for-rasterized-pdf/)
 * [以原始格式保存](https://docs.groupdocs.com/redaction/net/save-in-original-format/)
-* [保存覆盖原始文件](https://docs.groupdocs.com/redaction/net/save-overwriting-original-file/)
+* [保存覆盖原文件](https://docs.groupdocs.com/redaction/net/save-overwriting-original-file/)
 * [保存到流](https://docs.groupdocs.com/redaction/net/save-to-stream/)
 
 ### 例子
@@ -66,7 +66,7 @@ public class SaveOptions
        // 将文档以原始格式保存到“*_Redacted.*”文件
        redactor.Save(new SaveOptions() { AddSuffix = true, RasterizeToPDF = false });
     
-       // 将文档保存到其文件名中的“*_AnyText.*”（例如时间戳而不是“AnyText”），无需光栅化
+       // 将文档保存到其文件名中的“*_AnyText.*”（例如时间戳而不是“AnyText”）而不进行光栅化
        redactor.Save(new SaveOptions(false, "AnyText"));
     }    
 ```

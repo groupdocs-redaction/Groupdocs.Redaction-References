@@ -3,7 +3,7 @@ title: RegexRedaction
 second_title: GroupDocs.Redaction für .NET-API-Referenz
 description: Stellt eine Textschwärzung dar die Text im Dokument sucht und ersetzt indem sie den bereitgestellten regulären Ausdruck abgleicht.
 type: docs
-weight: 580
+weight: 590
 url: /de/net/groupdocs.redaction.redactions/regexredaction/
 ---
 ## RegexRedaction class
@@ -38,7 +38,7 @@ public class RegexRedaction : TextRedaction
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zum Anwenden von Schwärzungen: [Grundlagen der Redaktion](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Weitere Details zum Schwärzen von Dokumenttexten: [Textredaktionen](https://docs.groupdocs.com/redaction/net/text-redactions/)

@@ -28,6 +28,7 @@ url: /ar/net/groupdocs.redaction.options/
 
 | تعداد | وصف |
 | --- | --- |
+| [AdvancedRasterizationOptions](./advancedrasterizationoptions) | تعداد الإشارات لإدارة خيارات التنقيط المتقدمة المطلوب تطبيقها. |
 | [PdfComplianceLevel](./pdfcompliancelevel) | يمثل قائمة بمستويات التوافق مع PDF المدعومة. |
 | [PreviewOptions.PreviewFormats](./previewoptions.previewformats) | يمثل تنسيقات المعاينة المدعومة. |
 

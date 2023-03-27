@@ -3,7 +3,7 @@ title: PreviewOptions
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يوفر خيارات لتعيين المتطلبات وتدفق المفوضين لإنشاء معاينة .
 type: docs
-weight: 320
+weight: 330
 url: /ar/net/groupdocs.redaction.options/previewoptions/
 ---
 ## PreviewOptions class

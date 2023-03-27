@@ -3,7 +3,7 @@ title: PreviewOptions.PreviewFormats
 second_title: Referencia de API de GroupDocs.Redaction para .NET
 description: Representa los formatos de vista previa admitidos.
 type: docs
-weight: 330
+weight: 340
 url: /es/net/groupdocs.redaction.options/previewoptions.previewformats/
 ---
 ## PreviewOptions.PreviewFormats enumeration

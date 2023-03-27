@@ -3,7 +3,7 @@ title: RedactionStatus
 second_title: .NET API Başvurusu için GroupDocs.Redaction
 description: Redaksiyonun tamamlanma durumunu temsil eder.
 type: docs
-weight: 420
+weight: 430
 url: /tr/net/groupdocs.redaction/redactionstatus/
 ---
 ## RedactionStatus enumeration

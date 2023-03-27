@@ -3,7 +3,7 @@ title: RedactorChangeLog
 second_title: GroupDocs.Redaction för .NET API-referens
 description: Representerar resultat för en lista med redigeringar skickade till metoden Apply förRedactor./redactor class.
 type: docs
-weight: 660
+weight: 670
 url: /sv/net/groupdocs.redaction/redactorchangelog/
 ---
 ## RedactorChangeLog class
