@@ -3,7 +3,7 @@ title: ILogger
 second_title: Referencia de API de GroupDocs.Redaction para .NET
 description: Define la interfaz de un registrador que se puede usar para registrar eventos y errores en el proceso de redacción.
 type: docs
-weight: 290
+weight: 300
 url: /es/net/groupdocs.redaction.options/ilogger/
 ---
 ## ILogger interface

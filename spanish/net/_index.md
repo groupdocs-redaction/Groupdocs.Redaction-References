@@ -10,7 +10,7 @@ is_root: true
 
 | espacio de nombres | Descripción |
 | --- | --- |
-| [GroupDocs.Redaction](./groupdocs.redaction) | ElRedaction El espacio de nombres proporciona clases para redactar información confidencial de documentos en formato PDF, imagen de mapa de bits y documentos de Office. Las clases principales en este espacio de nombres son: |
+| [GroupDocs.Redaction](./groupdocs.redaction) | ElRedaction El espacio de nombres proporciona clases para redactar información confidencial de documentos en formato PDF, imagen de mapa de bits y documentos de oficina. Las clases principales en este espacio de nombres son: |
 | [GroupDocs.Redaction.Configuration](./groupdocs.redaction.configuration) | ElConfiguration El espacio de nombres proporciona clases de configuración de formato de documento. |
 | [GroupDocs.Redaction.Exceptions](./groupdocs.redaction.exceptions) | ElExceptions El espacio de nombres proporciona diferentes clases de excepciones. |
 | [GroupDocs.Redaction.Integration](./groupdocs.redaction.integration) | ElIntegrationEl espacio de nombres proporciona interfaces y clases, que se utilizan para integrar documentos de diferentes formatos con GroupDocs.Redaction. |

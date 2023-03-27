@@ -1,14 +1,14 @@
 ---
 title: ExactPhraseRedaction
 second_title: Referencia de API de GroupDocs.Redaction para .NET
-description: Representa una redacción de texto que reemplaza la frase exacta en el texto del documento no distingue entre mayúsculas y minúsculas de forma predeterminada.
+description: Representa una redacción de texto que reemplaza la frase exacta en el texto del documento no distingue entre mayúsculas y minúsculas de manera predeterminada.
 type: docs
-weight: 480
+weight: 490
 url: /es/net/groupdocs.redaction.redactions/exactphraseredaction/
 ---
 ## ExactPhraseRedaction class
 
-Representa una redacción de texto que reemplaza la frase exacta en el texto del documento, no distingue entre mayúsculas y minúsculas de forma predeterminada.
+Representa una redacción de texto que reemplaza la frase exacta en el texto del documento, no distingue entre mayúsculas y minúsculas de manera predeterminada.
 
 ```csharp
 public class ExactPhraseRedaction : TextRedaction

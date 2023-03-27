@@ -3,7 +3,7 @@ title: RedactionStatus
 second_title: Referencia de API de GroupDocs.Redaction para .NET
 description: Representa un estado de finalización de redacción.
 type: docs
-weight: 420
+weight: 430
 url: /es/net/groupdocs.redaction/redactionstatus/
 ---
 ## RedactionStatus enumeration

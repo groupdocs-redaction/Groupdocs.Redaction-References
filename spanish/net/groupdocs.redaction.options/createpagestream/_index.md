@@ -3,7 +3,7 @@ title: CreatePageStream
 second_title: Referencia de API de GroupDocs.Redaction para .NET
 description: Representa el método que devuelve una secuencia para escribir datos de vista previa de página.
 type: docs
-weight: 280
+weight: 290
 url: /es/net/groupdocs.redaction.options/createpagestream/
 ---
 ## CreatePageStream delegate

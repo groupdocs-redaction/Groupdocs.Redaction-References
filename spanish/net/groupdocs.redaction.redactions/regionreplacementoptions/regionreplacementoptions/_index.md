@@ -16,7 +16,7 @@ public RegionReplacementOptions(Color fillColor, Size size)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| fillColor | Color | Colorea para llenar el área. |
+| fillColor | Color | Colorea para rellenar el área. |
 | size | Size | Tamaño del área rellena |
 
 ### Ver también
@@ -37,7 +37,7 @@ public RegionReplacementOptions(Color fillColor, Font font, string expectedText)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| fillColor | Color | Colorea para llenar el área. |
+| fillColor | Color | Colorea para rellenar el área. |
 | font | Font | Fuente de texto esperada |
 | expectedText | String | Texto esperado |
 

@@ -33,7 +33,7 @@ public class Metered
 **Aprende más**
 
 * Más sobre licencias: [Preguntas frecuentes sobre licencias de GroupDocs](https://purchase.groupdocs.com/faqs/licensing)
-* Más sobre**GroupDocs.Redacción** licencia: [Limitaciones de evaluación y licencias](https://docs.groupdocs.com/redaction/net/evaluation-limitations-and-licensing/)
+* Más sobre**GroupDocs.Redaction** licencia: [Limitaciones de evaluación y licencias](https://docs.groupdocs.com/redaction/net/evaluation-limitations-and-licensing/)
 
 ### Ejemplos
 

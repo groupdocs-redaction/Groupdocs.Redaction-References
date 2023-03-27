@@ -3,7 +3,7 @@ title: CellColumnRedaction
 second_title: Referencia de API de GroupDocs.Redaction para .NET
 description: Representa una redacción de texto que reemplaza texto en documentos de hoja de cálculo CSV Excel etc..
 type: docs
-weight: 440
+weight: 450
 url: /es/net/groupdocs.redaction.redactions/cellcolumnredaction/
 ---
 ## CellColumnRedaction class

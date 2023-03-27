@@ -16,7 +16,7 @@ public CellColumnRedaction(CellFilter filter, Regex regEx, ReplacementOptions op
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| filter | CellFilter | Filtro de columna y hoja de cálculo |
+| filter | CellFilter | Filtro de columna y hoja de trabajo |
 | regEx | Regex | Expresión regular para buscar y reemplazar |
 | options | ReplacementOptions | Opciones de reemplazo |
 

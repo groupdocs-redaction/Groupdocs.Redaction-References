@@ -40,7 +40,7 @@ public abstract class DocumentFormatInstance
 
 El siguiente ejemplo muestra cómo crear un código auxiliar vacío para un controlador de formato personalizado.
 
-El siguiente ejemplo demuestra cómo utilizar los datos de inicialización.
+El siguiente ejemplo muestra cómo utilizar los datos de inicialización.
 
 ```csharp
 public class DummyDocument : DocumentFormatInstance

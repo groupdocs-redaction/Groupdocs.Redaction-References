@@ -3,7 +3,7 @@ title: RedactionType
 second_title: Referencia de API de GroupDocs.Redaction para .NET
 description: Representa un tipo de dato del documento afectado por la redacción.
 type: docs
-weight: 570
+weight: 580
 url: /es/net/groupdocs.redaction.redactions/redactiontype/
 ---
 ## RedactionType enumeration

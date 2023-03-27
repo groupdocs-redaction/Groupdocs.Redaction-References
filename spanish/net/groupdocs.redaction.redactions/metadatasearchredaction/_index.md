@@ -3,7 +3,7 @@ title: MetadataSearchRedaction
 second_title: Referencia de API de GroupDocs.Redaction para .NET
 description: Representa una redacción de metadatos que busca y redacta metadatos usando expresiones regulares claves coincidentes y/o valores.
 type: docs
-weight: 530
+weight: 540
 url: /es/net/groupdocs.redaction.redactions/metadatasearchredaction/
 ---
 ## MetadataSearchRedaction class

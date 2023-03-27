@@ -21,7 +21,7 @@ public virtual void Initialize(DocumentFormatConfiguration config, RedactorSetti
 
 ### Ejemplos
 
-El siguiente ejemplo demuestra cómo utilizar los datos de inicialización.
+El siguiente ejemplo muestra cómo utilizar los datos de inicialización.
 
 ```csharp
 public class MyCustomHandler : DocumentFormatInstance

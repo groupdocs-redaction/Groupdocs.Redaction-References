@@ -3,7 +3,7 @@ title: RedactorChangeLog
 second_title: Referencia de API de GroupDocs.Redaction para .NET
 description: Representa los resultados de una lista de redacciones pasados al método Apply deRedactor./redactor clase.
 type: docs
-weight: 660
+weight: 670
 url: /es/net/groupdocs.redaction/redactorchangelog/
 ---
 ## RedactorChangeLog class

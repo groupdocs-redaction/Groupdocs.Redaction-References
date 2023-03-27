@@ -3,7 +3,7 @@ title: ReplacementOptions
 second_title: Referencia de API de GroupDocs.Redaction para .NET
 description: Representa opciones para el reemplazo de texto coincidente.
 type: docs
-weight: 610
+weight: 620
 url: /es/net/groupdocs.redaction.redactions/replacementoptions/
 ---
 ## ReplacementOptions class
