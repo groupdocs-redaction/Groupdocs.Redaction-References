@@ -3,7 +3,7 @@ title: ExactPhraseRedaction
 second_title: Riferimento API GroupDocs.Redaction per .NET
 description: Rappresenta una redazione del testo che sostituisce la frase esatta nel testo del documento senza distinzione tra maiuscole e minuscole per impostazione predefinita.
 type: docs
-weight: 480
+weight: 490
 url: /it/net/groupdocs.redaction.redactions/exactphraseredaction/
 ---
 ## ExactPhraseRedaction class
@@ -39,7 +39,7 @@ public class ExactPhraseRedaction : TextRedaction
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Maggiori dettagli sull'applicazione delle redazioni: [Nozioni di base sulla redazione](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Ulteriori dettagli sulle revisioni del testo del documento: [Redazioni di testi](https://docs.groupdocs.com/redaction/net/text-redactions/)

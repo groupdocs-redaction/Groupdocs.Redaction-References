@@ -3,7 +3,7 @@ title: Redactor
 second_title: Riferimento API GroupDocs.Redaction per .NET
 description: Rappresenta una classe principale che controlla il processo di redazione dei documenti consentendo di aprire redigere e salvare i documenti.
 type: docs
-weight: 650
+weight: 660
 url: /it/net/groupdocs.redaction/redactor/
 ---
 ## Redactor class
@@ -22,7 +22,7 @@ public sealed class Redactor : IDisposable, IPreviewable
 | [Redactor](redactor#constructor_3)(string) | Inizializza una nuova istanza di[`Redactor`](../redactor) classe utilizzando il percorso del file. |
 | [Redactor](redactor#constructor_1)(Stream, LoadOptions) | Inizializza una nuova istanza di[`Redactor`](../redactor) class per un documento protetto da password utilizzando stream. |
 | [Redactor](redactor#constructor_4)(string, LoadOptions) | Inizializza una nuova istanza di[`Redactor`](../redactor) class per un documento protetto da password utilizzando il suo percorso. |
-| [Redactor](redactor#constructor_2)(Stream, LoadOptions, RedactorSettings) | Inizializza una nuova istanza di[`Redactor`](../redactor) class per un documento protetto da password utilizzando stream e impostazioni. |
+| [Redactor](redactor#constructor_2)(Stream, LoadOptions, RedactorSettings) | Inizializza una nuova istanza di[`Redactor`](../redactor)class per un documento protetto da password utilizzando stream e impostazioni. |
 | [Redactor](redactor#constructor_5)(string, LoadOptions, RedactorSettings) | Inizializza una nuova istanza di[`Redactor`](../redactor) class per un documento protetto da password utilizzando il percorso e le impostazioni. |
 
 ## Metodi
@@ -41,7 +41,7 @@ public sealed class Redactor : IDisposable, IPreviewable
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Maggiori dettagli sull'applicazione delle redazioni: [Nozioni di base sulla redazione](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Argomenti di redazione più avanzati: [Utilizzo avanzato](https://docs.groupdocs.com/redaction/net/advanced-usage/)
@@ -84,7 +84,7 @@ using (Redactor redactor = new Redactor(@"D:\\test.docx"))
       new MetadataSearchRedaction(LookupStrings.CompanyName, "--company--") 
    }; 
    RedactorChangeLog result = redactor.Apply(redactionList);
-   // false, se almeno una redazione non è riuscita
+   // false, se almeno una redazione ha avuto esito negativo
    if (result.Status != RedactionStatus.Failed)
    {
       redactor.Save();

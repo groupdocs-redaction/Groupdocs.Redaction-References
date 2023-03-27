@@ -23,12 +23,12 @@ public interface IRasterizableDocument
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Maggiori dettagli sull'applicazione delle redazioni: [Nozioni di base sulla redazione](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Ulteriori dettagli sul salvataggio del documento come PDF rasterizzato: [Salva in PDF rasterizzato](https://docs.groupdocs.com/redaction/net/save-in-rasterized-pdf/)
 * Maggiori dettagli sulle opzioni di rasterizzazione: [Seleziona pagine specifiche per PDF rasterizzati](https://docs.groupdocs.com/redaction/net/select-specific-pages-for-rasterized-pdf/)
-* Ulteriori dettagli sull'implementazione di formati personalizzati: [Crea un gestore di formato personalizzato](https://docs.groupdocs.com/redaction/net/create-custom-format-handler/)
+* Ulteriori dettagli sull'implementazione dei formati personalizzati: [Crea un gestore di formato personalizzato](https://docs.groupdocs.com/redaction/net/create-custom-format-handler/)
 
 ### Guarda anche
 

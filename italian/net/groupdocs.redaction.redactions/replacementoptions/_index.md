@@ -3,7 +3,7 @@ title: ReplacementOptions
 second_title: Riferimento API GroupDocs.Redaction per .NET
 description: Rappresenta le opzioni per la sostituzione del testo corrispondente.
 type: docs
-weight: 610
+weight: 620
 url: /it/net/groupdocs.redaction.redactions/replacementoptions/
 ---
 ## ReplacementOptions class
@@ -31,7 +31,7 @@ public class ReplacementOptions
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori dettagli sulle revisioni del testo del documento: [Redazioni di testi](https://docs.groupdocs.com/redaction/net/text-redactions/)
 

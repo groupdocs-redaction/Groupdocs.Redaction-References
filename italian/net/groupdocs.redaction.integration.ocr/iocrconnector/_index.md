@@ -22,7 +22,7 @@ public interface IOcrConnector
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori dettagli sull'utilizzo dell'OCR in GroupDocs.Redaction: [Nozioni di base sull'utilizzo dell'OCR](https://docs.groupdocs.com/redaction/net/ocr-usage-basics/)
 * Un esempio di implementazione utilizzando Aspose.OCR for Cloud: [Utilizza Aspose.OCR per Cloud SDK](https://docs.groupdocs.com/redaction/net/use-aspose-ocr-for-cloud/)

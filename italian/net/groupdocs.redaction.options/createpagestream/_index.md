@@ -3,7 +3,7 @@ title: CreatePageStream
 second_title: Riferimento API GroupDocs.Redaction per .NET
 description: Rappresenta il metodo che restituisce un flusso per scrivere i dati di anteprima della pagina.
 type: docs
-weight: 280
+weight: 290
 url: /it/net/groupdocs.redaction.options/createpagestream/
 ---
 ## CreatePageStream delegate
@@ -24,7 +24,7 @@ Stream per scrivere l'anteprima della pagina
 
 ### Esempi
 
-L'esempio seguente mostra come ottenere un'anteprima del documento utilizzando[`PreviewOptions`](../previewoptions) e[`CreatePageStream`](../createpagestream) delegare.
+L'esempio seguente mostra come ottenere un'anteprima del documento utilizzando[`PreviewOptions`](../previewoptions) E[`CreatePageStream`](../createpagestream) delegare.
 
 ```csharp
     CreatePageStream createDelegate = delegate (int pageNumber)

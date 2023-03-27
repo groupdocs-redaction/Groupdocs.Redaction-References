@@ -3,7 +3,7 @@ title: PreviewOptions
 second_title: Riferimento API GroupDocs.Redaction per .NET
 description: Fornisce opzioni per impostare i requisiti e trasmettere i delegati per la generazione dellanteprima.
 type: docs
-weight: 320
+weight: 330
 url: /it/net/groupdocs.redaction.options/previewoptions/
 ---
 ## PreviewOptions class
@@ -34,7 +34,7 @@ public class PreviewOptions
 
 ### Esempi
 
-L'esempio seguente mostra come ottenere un'anteprima del documento utilizzando[`PreviewOptions`](../previewoptions) e[`CreatePageStream`](./createpagestream) delegare.
+L'esempio seguente mostra come ottenere un'anteprima del documento utilizzando[`PreviewOptions`](../previewoptions) E[`CreatePageStream`](./createpagestream) delegare.
 
 L'esempio seguente mostra come ottenere un'anteprima del documento utilizzando[`PreviewOptions`](../previewoptions) ed entrambi i delegati.
 

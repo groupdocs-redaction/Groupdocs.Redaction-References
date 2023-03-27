@@ -3,7 +3,7 @@ title: PdfComplianceLevel
 second_title: Riferimento API GroupDocs.Redaction per .NET
 description: Rappresenta un elenco di livelli di conformità PDF supportati.
 type: docs
-weight: 310
+weight: 320
 url: /it/net/groupdocs.redaction.options/pdfcompliancelevel/
 ---
 ## PdfComplianceLevel enumeration
@@ -23,7 +23,7 @@ public enum PdfComplianceLevel
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Maggiori dettagli sulle opzioni di rasterizzazione: [Seleziona pagine specifiche per PDF rasterizzati](https://docs.groupdocs.com/redaction/net/select-specific-pages-for-rasterized-pdf/)
 

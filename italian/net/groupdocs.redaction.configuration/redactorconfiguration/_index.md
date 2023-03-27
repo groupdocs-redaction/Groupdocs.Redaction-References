@@ -29,10 +29,10 @@ public class RedactorConfiguration
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Maggiori dettagli su**GroupDocs.Redazione** configurazione: [Amplia l'elenco delle estensioni supportate](https://docs.groupdocs.com/redaction/net/extend-supported-extensions-list/)
-* Ulteriori dettagli sull'implementazione di formati personalizzati: [Crea un gestore di formato personalizzato](https://docs.groupdocs.com/redaction/net/create-custom-format-handler/)
+* Ulteriori dettagli sull'implementazione dei formati personalizzati: [Crea un gestore di formato personalizzato](https://docs.groupdocs.com/redaction/net/create-custom-format-handler/)
 
 ### Esempi
 

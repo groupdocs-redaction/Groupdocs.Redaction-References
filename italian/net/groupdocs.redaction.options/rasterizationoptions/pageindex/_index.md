@@ -3,7 +3,7 @@ title: PageIndex
 second_title: Riferimento API GroupDocs.Redaction per .NET
 description: Ottiene o imposta lindice della prima pagina in base 0 da convertire in PDF.
 type: docs
-weight: 50
+weight: 60
 url: /it/net/groupdocs.redaction.options/rasterizationoptions/pageindex/
 ---
 ## RasterizationOptions.PageIndex property

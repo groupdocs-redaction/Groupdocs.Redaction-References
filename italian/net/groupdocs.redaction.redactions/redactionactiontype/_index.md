@@ -3,7 +3,7 @@ title: RedactionActionType
 second_title: Riferimento API GroupDocs.Redaction per .NET
 description: Rappresenta le azioni che possono essere intraprese per eseguire la redazione.
 type: docs
-weight: 550
+weight: 560
 url: /it/net/groupdocs.redaction.redactions/redactionactiontype/
 ---
 ## RedactionActionType enumeration
@@ -24,7 +24,7 @@ public enum RedactionActionType
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori dettagli sulla classe RedactionDescription e sull'interfaccia IRedactionCallback: [Usa il callback di redazione](https://docs.groupdocs.com/redaction/net/use-redaction-callback/)
 

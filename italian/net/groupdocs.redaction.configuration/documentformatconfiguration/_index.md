@@ -32,14 +32,14 @@ public class DocumentFormatConfiguration
 
 | Nome | Descrizione |
 | --- | --- |
-| [SupportsExtension](../../groupdocs.redaction.configuration/documentformatconfiguration/supportsextension)(string) | Controlla se una determinata estensione di file può essere gestita come DocumentType. |
+| [SupportsExtension](../../groupdocs.redaction.configuration/documentformatconfiguration/supportsextension)(string) | Verifica se una determinata estensione di file può essere gestita come DocumentType. |
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Maggiori dettagli su**GroupDocs.Redazione** configurazione: [Amplia l'elenco delle estensioni supportate](https://docs.groupdocs.com/redaction/net/extend-supported-extensions-list/)
-* Ulteriori dettagli sull'implementazione di formati personalizzati: [Crea un gestore di formato personalizzato](https://docs.groupdocs.com/redaction/net/create-custom-format-handler/)
+* Ulteriori dettagli sull'implementazione dei formati personalizzati: [Crea un gestore di formato personalizzato](https://docs.groupdocs.com/redaction/net/create-custom-format-handler/)
 
 ### Esempi
 

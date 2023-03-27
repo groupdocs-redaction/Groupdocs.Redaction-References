@@ -29,7 +29,7 @@ public class License
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sulla licenza: [Domande frequenti sulle licenze di GroupDocs](https://purchase.groupdocs.com/faqs/licensing)
 * Ulteriori informazioni**GroupDocs.Redazione** licenza: [Limiti di valutazione e licenza](https://docs.groupdocs.com/redaction/net/evaluation-limitations-and-licensing/)

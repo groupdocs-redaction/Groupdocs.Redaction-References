@@ -3,7 +3,7 @@ title: PageSeekOrigin
 second_title: Riferimento API GroupDocs.Redaction per .NET
 description: Fornisce i campi che rappresentano punti di riferimento in un documento per la ricerca.
 type: docs
-weight: 540
+weight: 550
 url: /it/net/groupdocs.redaction.redactions/pageseekorigin/
 ---
 ## PageSeekOrigin enumeration
@@ -23,7 +23,7 @@ public enum PageSeekOrigin
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori dettagli sulla rimozione delle pagine: [Rimuovi la redazione della pagina](https://docs.groupdocs.com/redaction/net/remove-page-redaction/)
 

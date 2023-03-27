@@ -24,11 +24,11 @@ public interface ICellularFormatInstance
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Maggiori dettagli sull'applicazione delle redazioni: [Nozioni di base sulla redazione](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Ulteriori dettagli sulle redazioni dei fogli di lavoro: [Redazioni di fogli di calcolo](https://docs.groupdocs.com/redaction/net/spreadsheet-redactions/)
-* Ulteriori dettagli sull'implementazione di formati personalizzati: [Crea un gestore di formato personalizzato](https://docs.groupdocs.com/redaction/net/create-custom-format-handler/)
+* Ulteriori dettagli sull'implementazione dei formati personalizzati: [Crea un gestore di formato personalizzato](https://docs.groupdocs.com/redaction/net/create-custom-format-handler/)
 
 ### Guarda anche
 

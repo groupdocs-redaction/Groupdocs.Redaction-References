@@ -3,7 +3,7 @@ title: CellColumnRedaction
 second_title: Riferimento API GroupDocs.Redaction per .NET
 description: Rappresenta una redazione del testo che sostituisce il testo in un foglio di calcolo CSV Excel ecc..
 type: docs
-weight: 440
+weight: 450
 url: /it/net/groupdocs.redaction.redactions/cellcolumnredaction/
 ---
 ## CellColumnRedaction class
@@ -38,7 +38,7 @@ public class CellColumnRedaction : TextRedaction
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Maggiori dettagli sull'applicazione delle redazioni: [Nozioni di base sulla redazione](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Ulteriori dettagli sulle redazioni dei fogli di lavoro: [Redazioni di fogli di calcolo](https://docs.groupdocs.com/redaction/net/spreadsheet-redactions/)

@@ -32,9 +32,9 @@ public abstract class DocumentFormatInstance
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori dettagli sull'implementazione di formati personalizzati: [Crea un gestore di formato personalizzato](https://docs.groupdocs.com/redaction/net/create-custom-format-handler/)
+* Ulteriori dettagli sull'implementazione dei formati personalizzati: [Crea un gestore di formato personalizzato](https://docs.groupdocs.com/redaction/net/create-custom-format-handler/)
 
 ### Esempi
 
@@ -52,7 +52,7 @@ public class DummyDocument : DocumentFormatInstance
 
     public override void Save(Stream output)
     {
-        // salva le modifiche al file;
+        // salva le modifiche nel file;
     }
 }
 ```
