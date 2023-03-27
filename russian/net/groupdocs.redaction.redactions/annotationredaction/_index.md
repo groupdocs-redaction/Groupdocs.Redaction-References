@@ -3,7 +3,7 @@ title: AnnotationRedaction
 second_title: Справочник по API GroupDocs.Redaction для .NET
 description: Представляет исправление заменяющее текст аннотации комментарии и т. д. соответствующий заданному регулярному выражению.
 type: docs
-weight: 430
+weight: 440
 url: /ru/net/groupdocs.redaction.redactions/annotationredaction/
 ---
 ## AnnotationRedaction class
@@ -37,7 +37,7 @@ public class AnnotationRedaction : Redaction
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о применении правок: [Основы редактирования](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Подробнее о редакциях аннотаций документов: [Редактирование аннотаций](https://docs.groupdocs.com/redaction/net/annotation-redactions/)

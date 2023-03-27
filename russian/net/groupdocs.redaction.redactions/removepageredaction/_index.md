@@ -3,7 +3,7 @@ title: RemovePageRedaction
 second_title: Справочник по API GroupDocs.Redaction для .NET
 description: Представляет редактирование которое удаляет страницу слайд рабочий лист и т. д. из документа.
 type: docs
-weight: 600
+weight: 610
 url: /ru/net/groupdocs.redaction.redactions/removepageredaction/
 ---
 ## RemovePageRedaction class
@@ -37,7 +37,7 @@ public class RemovePageRedaction : Redaction
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о применении правок: [Основы редактирования](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Подробнее об удалении страниц: [Удалить редактирование страницы](https://docs.groupdocs.com/redaction/net/remove-page-redaction/)

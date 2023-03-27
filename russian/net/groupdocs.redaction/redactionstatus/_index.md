@@ -3,7 +3,7 @@ title: RedactionStatus
 second_title: Справочник по API GroupDocs.Redaction для .NET
 description: Представляет статус завершения редактирования.
 type: docs
-weight: 420
+weight: 430
 url: /ru/net/groupdocs.redaction/redactionstatus/
 ---
 ## RedactionStatus enumeration
@@ -25,7 +25,7 @@ public enum RedactionStatus
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о статусах редактирования: [Основы редактирования](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 

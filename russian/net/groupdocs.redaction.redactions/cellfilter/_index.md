@@ -3,7 +3,7 @@ title: CellFilter
 second_title: Справочник по API GroupDocs.Redaction для .NET
 description: Предоставляет возможность ограничить областьCellColumnRedaction./cellcolumnredaction на рабочий лист и столбец.
 type: docs
-weight: 450
+weight: 460
 url: /ru/net/groupdocs.redaction.redactions/cellfilter/
 ---
 ## CellFilter class
@@ -37,7 +37,7 @@ public class CellFilter
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее об исправлениях в таблицах: [Редакции электронных таблиц](https://docs.groupdocs.com/redaction/net/spreadsheet-redactions/)
 

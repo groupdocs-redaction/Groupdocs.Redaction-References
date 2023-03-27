@@ -29,7 +29,7 @@ public class RedactorConfiguration
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о**GroupDocs.Редактирование** конфигурация: [Расширить список поддерживаемых расширений](https://docs.groupdocs.com/redaction/net/extend-supported-extensions-list/)
 * Подробнее о реализации пользовательских форматов: [Создать обработчик пользовательского формата](https://docs.groupdocs.com/redaction/net/create-custom-format-handler/)

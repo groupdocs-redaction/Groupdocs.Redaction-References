@@ -22,7 +22,7 @@ public interface IPaginatedDocument
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о применении правок: [Основы редактирования](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Подробнее об управлении страницами: [Удалить редактирование страницы](https://docs.groupdocs.com/redaction/net/remove-page-redaction/)

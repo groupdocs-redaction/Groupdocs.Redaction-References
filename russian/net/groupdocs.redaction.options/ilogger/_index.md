@@ -3,7 +3,7 @@ title: ILogger
 second_title: Справочник по API GroupDocs.Redaction для .NET
 description: Определяет интерфейс логгера который можно использовать для протоколирования событий и ошибок в процессе редактирования.
 type: docs
-weight: 290
+weight: 300
 url: /ru/net/groupdocs.redaction.options/ilogger/
 ---
 ## ILogger interface
@@ -24,7 +24,7 @@ public interface ILogger
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о реализации интерфейса ILogger: [Используйте расширенное ведение журнала](https://docs.groupdocs.com/redaction/net/use-advanced-logging/)
 

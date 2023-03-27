@@ -3,7 +3,7 @@ title: PreviewOptions
 second_title: Справочник по API GroupDocs.Redaction для .NET
 description: Предоставляет параметры для установки требований и потоковой передачи делегатов для создания предварительного просмотра.
 type: docs
-weight: 320
+weight: 330
 url: /ru/net/groupdocs.redaction.options/previewoptions/
 ---
 ## PreviewOptions class
@@ -34,7 +34,7 @@ public class PreviewOptions
 
 ### Примеры
 
-В следующем примере показано, как получить предварительный просмотр документа с помощью[`PreviewOptions`](../previewoptions) а также[`CreatePageStream`](./createpagestream) делегировать.
+В следующем примере показано, как получить предварительный просмотр документа с помощью[`PreviewOptions`](../previewoptions) и[`CreatePageStream`](./createpagestream) делегировать.
 
 В следующем примере показано, как получить предварительный просмотр документа с помощью[`PreviewOptions`](../previewoptions) и оба делегата.
 

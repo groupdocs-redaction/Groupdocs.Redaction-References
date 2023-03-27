@@ -34,7 +34,7 @@ public class TextLine
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее об использовании OCR в GroupDocs.Redaction: [Основы использования OCR](https://docs.groupdocs.com/redaction/net/ocr-usage-basics/)
 

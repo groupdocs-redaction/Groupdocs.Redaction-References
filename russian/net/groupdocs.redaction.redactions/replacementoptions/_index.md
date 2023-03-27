@@ -3,7 +3,7 @@ title: ReplacementOptions
 second_title: Справочник по API GroupDocs.Redaction для .NET
 description: Представляет варианты замены совпадающего текста.
 type: docs
-weight: 610
+weight: 620
 url: /ru/net/groupdocs.redaction.redactions/replacementoptions/
 ---
 ## ReplacementOptions class
@@ -31,7 +31,7 @@ public class ReplacementOptions
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о редактировании текста документа: [Редактирование текста](https://docs.groupdocs.com/redaction/net/text-redactions/)
 

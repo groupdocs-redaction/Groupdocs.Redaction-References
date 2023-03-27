@@ -3,7 +3,7 @@ title: Redaction
 second_title: Справочник по API GroupDocs.Redaction для .NET
 description: Представляет базовый абстрактный класс для всех типов редактирования.
 type: docs
-weight: 390
+weight: 400
 url: /ru/net/groupdocs.redaction/redaction/
 ---
 ## Redaction class
@@ -28,7 +28,7 @@ public abstract class Redaction
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о типах редактирования: [Основы редактирования](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Дополнительные темы редактирования: [Расширенное использование](https://docs.groupdocs.com/redaction/net/advanced-usage/)

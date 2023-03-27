@@ -3,7 +3,7 @@ title: RedactionPolicy
 second_title: Справочник по API GroupDocs.Redaction для .NET
 description: Представляет политику очистки содержащую набор определенных исправлений которые необходимо применить.
 type: docs
-weight: 400
+weight: 410
 url: /ru/net/groupdocs.redaction/redactionpolicy/
 ---
 ## RedactionPolicy class
@@ -38,7 +38,7 @@ public class RedactionPolicy
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о правилах: [Использование политик редактирования](https://docs.groupdocs.com/redaction/net/use-redaction-policies/)
 * Подробнее о применении правок: [Основы редактирования](https://docs.groupdocs.com/redaction/net/redaction-basics/)

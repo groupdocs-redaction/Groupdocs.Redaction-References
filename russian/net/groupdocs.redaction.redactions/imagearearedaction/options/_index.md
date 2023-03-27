@@ -1,14 +1,14 @@
 ---
 title: Options
 second_title: Справочник по API GroupDocs.Redaction для .NET
-description: ПолучаетRegionReplacementOptionsgroupdocs.redaction.redactions/regionreplacementoptionsварианты с параметрами цвета и области.
+description: ПолучаетRegionReplacementOptionsgroupdocs.redaction.redactions/regionreplacementoptionsварианты с параметрами цвета и площади.
 type: docs
 weight: 30
 url: /ru/net/groupdocs.redaction.redactions/imagearearedaction/options/
 ---
 ## ImageAreaRedaction.Options property
 
-Получает[`RegionReplacementOptions`](../../regionreplacementoptions)варианты с параметрами цвета и области.
+Получает[`RegionReplacementOptions`](../../regionreplacementoptions)варианты с параметрами цвета и площади.
 
 ```csharp
 public RegionReplacementOptions Options { get; }

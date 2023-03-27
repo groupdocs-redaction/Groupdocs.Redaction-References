@@ -3,7 +3,7 @@ title: RedactionDescription
 second_title: Справочник по API GroupDocs.Redaction для .NET
 description: Представляет информацию об одном действии изменения выполненном в процессе редактирования.
 type: docs
-weight: 560
+weight: 570
 url: /ru/net/groupdocs.redaction.redactions/redactiondescription/
 ---
 ## RedactionDescription class
@@ -35,7 +35,7 @@ public class RedactionDescription
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о классе RedactionDescription и интерфейсе IRedactionCallback: [Использовать обратный вызов редактирования](https://docs.groupdocs.com/redaction/net/use-redaction-callback/)
 

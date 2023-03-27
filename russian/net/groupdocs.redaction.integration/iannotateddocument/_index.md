@@ -23,7 +23,7 @@ public interface IAnnotatedDocument
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о применении правок: [Основы редактирования](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Подробнее о редакциях аннотаций документов: [Редактирование аннотаций](https://docs.groupdocs.com/redaction/net/annotation-redactions/)

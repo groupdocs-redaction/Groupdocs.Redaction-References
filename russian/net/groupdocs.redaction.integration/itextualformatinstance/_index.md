@@ -22,7 +22,7 @@ public interface ITextualFormatInstance
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о применении правок: [Основы редактирования](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Подробнее о редактировании текста документа: [Редактирование текста](https://docs.groupdocs.com/redaction/net/text-redactions/)

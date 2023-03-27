@@ -3,7 +3,7 @@ title: RedactorChangeLog
 second_title: Справочник по API GroupDocs.Redaction для .NET
 description: Представляет результаты для списка исправлений переданных методу ApplyRedactor./redactor класс.
 type: docs
-weight: 660
+weight: 670
 url: /ru/net/groupdocs.redaction/redactorchangelog/
 ---
 ## RedactorChangeLog class
@@ -29,7 +29,7 @@ public class RedactorChangeLog
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о журналах редактирования: [Основы редактирования](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 

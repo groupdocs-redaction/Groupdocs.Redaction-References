@@ -23,7 +23,7 @@ public interface IMetadataAccess
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о применении правок: [Основы редактирования](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Подробнее о редактировании метаданных документа: [Редакции метаданных](https://docs.groupdocs.com/redaction/net/metadata-redactions/)

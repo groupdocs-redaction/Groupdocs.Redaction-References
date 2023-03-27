@@ -3,7 +3,7 @@ title: PageIndex
 second_title: Справочник по API GroupDocs.Redaction для .NET
 description: Получает или задает индекс первой страницы на основе 0 для преобразования в PDF.
 type: docs
-weight: 50
+weight: 60
 url: /ru/net/groupdocs.redaction.options/rasterizationoptions/pageindex/
 ---
 ## RasterizationOptions.PageIndex property

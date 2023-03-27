@@ -3,7 +3,7 @@ title: ReleasePageStream
 second_title: Справочник по API GroupDocs.Redaction для .NET
 description: Представляет метод который освобождает поток созданныйCreatePageStream./createpagestream делегировать.
 type: docs
-weight: 360
+weight: 370
 url: /ru/net/groupdocs.redaction.options/releasepagestream/
 ---
 ## ReleasePageStream delegate

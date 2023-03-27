@@ -3,7 +3,7 @@ title: TextReplacement
 second_title: Справочник по API GroupDocs.Redaction для .NET
 description: Представляет текстовую информацию о замене.
 type: docs
-weight: 640
+weight: 650
 url: /ru/net/groupdocs.redaction.redactions/textreplacement/
 ---
 ## TextReplacement class
@@ -36,7 +36,7 @@ public class TextReplacement
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о классе RedactionDescription и интерфейсе IRedactionCallback: [Использовать обратный вызов редактирования](https://docs.groupdocs.com/redaction/net/use-redaction-callback/)
 

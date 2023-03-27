@@ -22,7 +22,7 @@ public interface IImageFormatInstance
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о применении правок: [Основы редактирования](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * Подробнее о редактировании изображений: [Редактирование изображений](https://docs.groupdocs.com/redaction/net/image-redactions/)
