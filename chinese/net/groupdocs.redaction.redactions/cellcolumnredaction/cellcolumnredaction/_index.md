@@ -18,7 +18,7 @@ public CellColumnRedaction(CellFilter filter, Regex regEx, ReplacementOptions op
 | --- | --- | --- |
 | filter | CellFilter | 列和工作表过滤器 |
 | regEx | Regex | 用于搜索和替换的正则表达式 |
-| options | ReplacementOptions | 更换选项 |
+| options | ReplacementOptions | 替换选项 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: RedactorSettings
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 表示编校设置允许自定义编校过程
+description: 表示编辑设置允许自定义编辑过程
 type: docs
-weight: 350
+weight: 360
 url: /zh/net/groupdocs.redaction.options/redactorsettings/
 ---
 ## RedactorSettings class
 
-表示编校设置，允许自定义编校过程。
+表示编辑设置，允许自定义编辑过程。
 
 ```csharp
 public class RedactorSettings
@@ -35,10 +35,10 @@ public class RedactorSettings
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于实现ILogger接口的细节： [使用高级日志记录](https://docs.groupdocs.com/redaction/net/use-advanced-logging/)
-* 更多关于实现IRedactionCallback接口的细节： [使用编辑回调](https://docs.groupdocs.com/redaction/net/use-redaction-callback/)
+* 有关实现 ILogger 接口的更多详细信息： [使用高级日志记录](https://docs.groupdocs.com/redaction/net/use-advanced-logging/)
+* 有关实现 IRedactionCallback 接口的更多详细信息： [使用密文回调](https://docs.groupdocs.com/redaction/net/use-redaction-callback/)
 
 ### 也可以看看
 

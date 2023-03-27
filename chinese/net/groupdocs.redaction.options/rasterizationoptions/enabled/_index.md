@@ -1,14 +1,14 @@
 ---
 title: Enabled
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 获取或设置一个值该值指示是否需要将文档中的所有页面转换为图像并放入单个 PDF 文件中默认为 TRUE设置为 FALSE 以避免光栅化
+description: 获取或设置一个值该值指示文档中的所有页面是否需要转换为图像并放入单个 PDF 文件中默认情况下为 TRUE设置为 FALSE 以避免光栅化
 type: docs
 weight: 30
 url: /zh/net/groupdocs.redaction.options/rasterizationoptions/enabled/
 ---
 ## RasterizationOptions.Enabled property
 
-获取或设置一个值，该值指示是否需要将文档中的所有页面转换为图像并放入单个 PDF 文件中。默认为 TRUE，设置为 FALSE 以避免光栅化。
+获取或设置一个值，该值指示文档中的所有页面是否需要转换为图像并放入单个 PDF 文件中。默认情况下为 TRUE，设置为 FALSE 以避免光栅化。
 
 ```csharp
 public bool Enabled { get; set; }

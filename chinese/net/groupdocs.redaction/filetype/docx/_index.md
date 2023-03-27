@@ -1,14 +1,14 @@
 ---
 title: DOCX
 second_title: GroupDocs.Redaction for .NET API 参考
-description: Microsoft Word Open XML 文档 .docx
+description: Microsoft Word 打开 XML 文档 .docx
 type: docs
 weight: 50
 url: /zh/net/groupdocs.redaction/filetype/docx/
 ---
 ## FileType.DOCX property
 
-Microsoft Word Open XML 文档 (.docx)
+Microsoft Word 打开 XML 文档 (.docx)
 
 ```csharp
 public static FileType DOCX { get; }

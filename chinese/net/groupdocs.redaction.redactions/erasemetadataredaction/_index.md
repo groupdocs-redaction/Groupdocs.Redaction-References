@@ -1,14 +1,14 @@
 ---
 title: EraseMetadataRedaction
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 表示从文档中删除所有元数据或与特定 MetadataFilters 匹配的元数据的元数据编辑
+description: 表示元数据修订从文档中删除所有元数据或与特定 MetadataFilters 匹配的元数据
 type: docs
-weight: 470
+weight: 480
 url: /zh/net/groupdocs.redaction.redactions/erasemetadataredaction/
 ---
 ## EraseMetadataRedaction class
 
-表示从文档中删除所有元数据或与特定 MetadataFilters 匹配的元数据的元数据编辑。
+表示元数据修订，从文档中删除所有元数据或与特定 MetadataFilters 匹配的元数据。
 
 ```csharp
 public class EraseMetadataRedaction : MetadataRedaction
@@ -25,7 +25,7 @@ public class EraseMetadataRedaction : MetadataRedaction
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Description](../../groupdocs.redaction.redactions/erasemetadataredaction/description) { get; } | 返回一个字符串，描述编辑及其参数。 |
+| override [Description](../../groupdocs.redaction.redactions/erasemetadataredaction/description) { get; } | 返回一个字符串，描述修订及其参数。 |
 | [Filter](../../groupdocs.redaction.redactions/metadataredaction/filter) { get; set; } | 获取或设置过滤器，用于选择所有或特定元数据，例如作者或公司。 |
 
 ## 方法
@@ -36,9 +36,9 @@ public class EraseMetadataRedaction : MetadataRedaction
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 有关应用编辑的更多详细信息： [编辑基础知识](https://docs.groupdocs.com/redaction/net/redaction-basics/)
+* 有关应用密文的更多详细信息： [编辑基础知识](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 * 有关文档元数据编辑的更多详细信息： [元数据编辑](https://docs.groupdocs.com/redaction/net/metadata-redactions/)
 
 ### 例子
@@ -48,7 +48,7 @@ public class EraseMetadataRedaction : MetadataRedaction
 ```csharp
 using (Redactor redactor = new Redactor(@"C:\sample.docx"))
 {
-   // 删除作者、经理和公司
+   // 擦除作者、经理和公司
    redactor.Apply(new EraseMetadataRedaction(MetadataFilters.Author | MetadataFilters.Manager | MetadataFilters.Company));
    // 清除所有元数据
    redactor.Apply(new EraseMetadataRedaction(MetadataFilters.All));

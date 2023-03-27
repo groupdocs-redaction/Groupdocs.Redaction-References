@@ -24,20 +24,20 @@ public class Metered
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SetMeteredKey](../../groupdocs.redaction/metered/setmeteredkey)(string, string) | 使用计量键激活产品。 |
-| static [GetConsumptionCredit](../../groupdocs.redaction/metered/getconsumptioncredit)() | 获取消费积分。 |
+| [SetMeteredKey](../../groupdocs.redaction/metered/setmeteredkey)(string, string) | 使用计量密钥激活产品。 |
+| static [GetConsumptionCredit](../../groupdocs.redaction/metered/getconsumptioncredit)() | 获取消费信用。 |
 | static [GetConsumptionQuantity](../../groupdocs.redaction/metered/getconsumptionquantity)() | 检索已处理的 MB 数量。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 有关许可的更多信息： [GroupDocs 许可常见问题解答](https://purchase.groupdocs.com/faqs/licensing)
 * 更多关于**GroupDocs.Redaction**许可： [评估限制和许可](https://docs.groupdocs.com/redaction/net/evaluation-limitations-and-licensing/)
 
 ### 例子
 
-以下示例演示如何使用计量密钥激活产品。
+以下示例演示了如何使用 Metered 密钥激活产品。
 
 ```csharp
 [C#]

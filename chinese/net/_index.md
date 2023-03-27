@@ -10,10 +10,10 @@ is_root: true
 
 | 命名空间 | 描述 |
 | --- | --- |
-| [GroupDocs.Redaction](./groupdocs.redaction) | 的Redaction命名空间提供了用于编辑 PDF、光栅图像和办公文档格式的文档中的敏感信息的类。 此命名空间中的主要类是： |
-| [GroupDocs.Redaction.Configuration](./groupdocs.redaction.configuration) | 的Configurationnamespace 提供文档格式配置类。 |
-| [GroupDocs.Redaction.Exceptions](./groupdocs.redaction.exceptions) | 的Exceptions命名空间提供不同的异常类。 |
-| [GroupDocs.Redaction.Integration](./groupdocs.redaction.integration) | 的Integrationnamespace 提供接口和类，用于将不同格式的文档与 GroupDocs.Redaction. 集成 |
+| [GroupDocs.Redaction](./groupdocs.redaction) | 的Redaction命名空间提供用于从 PDF、光栅图像和办公文档格式的文档中编辑敏感信息的类。 此命名空间中的主要类是： |
+| [GroupDocs.Redaction.Configuration](./groupdocs.redaction.configuration) | 的Configuration命名空间提供文档格式配置类. |
+| [GroupDocs.Redaction.Exceptions](./groupdocs.redaction.exceptions) | 的Exceptions命名空间提供了不同的异常类。 |
+| [GroupDocs.Redaction.Integration](./groupdocs.redaction.integration) | 的Integration命名空间提供接口和类，用于将不同格式的文档与GroupDocs.Redaction. 集成 |
 | [GroupDocs.Redaction.Integration.Ocr](./groupdocs.redaction.integration.ocr) | 的Ocr命名空间提供光学字符识别 (OCR) 支持所需的接口和类。 |
 | [GroupDocs.Redaction.Options](./groupdocs.redaction.options) | 的Options命名空间提供加载和保存选项类。 |
 | [GroupDocs.Redaction.Redactions](./groupdocs.redaction.redactions) | 的Redactions命名空间为不同类型的编辑提供类。 |

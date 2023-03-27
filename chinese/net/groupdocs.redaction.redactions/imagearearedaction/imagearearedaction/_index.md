@@ -17,7 +17,7 @@ public ImageAreaRedaction(Point topLeft, RegionReplacementOptions options)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | topLeft | Point | 左上区域坐标 |
-| options | RegionReplacementOptions | 面积大小和颜色 |
+| options | RegionReplacementOptions | 区域大小和颜色 |
 
 ### 也可以看看
 

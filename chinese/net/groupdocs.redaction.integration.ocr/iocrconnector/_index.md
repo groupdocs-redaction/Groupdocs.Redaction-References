@@ -18,14 +18,14 @@ public interface IOcrConnector
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Recognize](../../groupdocs.redaction.integration.ocr/iocrconnector/recognize)(Stream) | 对图像进行 OCR 处理，以流的形式提供。 |
+| [Recognize](../../groupdocs.redaction.integration.ocr/iocrconnector/recognize)(Stream) | 是否对作为流提供的图像进行 OCR 处理。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 有关在 GroupDocs.Redaction 中使用 OCR 的更多详细信息： [OCR 使用基础](https://docs.groupdocs.com/redaction/net/ocr-usage-basics/)
-* 使用 Aspose.OCR for Cloud 实现的示例： [为云 SDK 使用 Aspose.OCR](https://docs.groupdocs.com/redaction/net/use-aspose-ocr-for-cloud/)
+* 有关在 GroupDocs.Redaction 中使用 OCR 的更多详细信息： [OCR 使用基础知识](https://docs.groupdocs.com/redaction/net/ocr-usage-basics/)
+* 使用 Aspose.OCR for Cloud 的实现示例： [使用 Aspose.OCR for Cloud SDK](https://docs.groupdocs.com/redaction/net/use-aspose-ocr-for-cloud/)
 * 使用 Microsoft Azure 认知服务的实施示例： [使用 Microsoft Azure ComputerVision REST API](https://docs.groupdocs.com/redaction/net/use-microsoft-azure-computer-vision/)
 
 ### 也可以看看

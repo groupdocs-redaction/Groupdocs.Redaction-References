@@ -1,14 +1,14 @@
 ---
 title: RedactAnnotation
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 替换文档内所有注释中的匹配文本
+description: 替换文档中所有注释中的匹配文本
 type: docs
 weight: 20
 url: /zh/net/groupdocs.redaction.integration/iannotateddocument/redactannotation/
 ---
 ## IAnnotatedDocument.RedactAnnotation method
 
-替换文档内所有注释中的匹配文本。
+替换文档中所有注释中的匹配文本。
 
 ```csharp
 public RedactionResult RedactAnnotation(Regex regularExpression, string replacement)
@@ -17,7 +17,7 @@ public RedactionResult RedactAnnotation(Regex regularExpression, string replacem
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | regularExpression | Regex | 用于搜索和替换的正则表达式 |
-| replacement | String | 文字替换 |
+| replacement | String | 文本替换 |
 
 ### 返回值
 

@@ -32,7 +32,7 @@ public EraseMetadataRedaction(MetadataFilters filter)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| filter | MetadataFilters | 过滤要删除的元数据 |
+| filter | MetadataFilters | 筛选要擦除的元数据 |
 
 ### 也可以看看
 

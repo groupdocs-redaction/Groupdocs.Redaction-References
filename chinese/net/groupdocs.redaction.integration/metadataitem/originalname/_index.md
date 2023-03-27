@@ -1,14 +1,14 @@
 ---
 title: OriginalName
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 获取或设置元数据项的原始名称就像它出现在文档中一样
+description: 获取或设置元数据项的原始名称因为它出现在文档中
 type: docs
 weight: 70
 url: /zh/net/groupdocs.redaction.integration/metadataitem/originalname/
 ---
 ## MetadataItem.OriginalName property
 
-获取或设置元数据项的原始名称，就像它出现在文档中一样。
+获取或设置元数据项的原始名称，因为它出现在文档中。
 
 ```csharp
 public string OriginalName { get; set; }

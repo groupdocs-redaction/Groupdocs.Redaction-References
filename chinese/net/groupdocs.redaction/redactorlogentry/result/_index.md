@@ -1,14 +1,14 @@
 ---
 title: Result
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 获取结果返回DocumentFormatInstancegroupdocs.redaction.integration/documentformatinstance.
+description: 获取结果由返回DocumentFormatInstancegroupdocs.redaction.integration/documentformatinstance.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.redaction/redactorlogentry/result/
 ---
 ## RedactorLogEntry.Result property
 
-获取结果，返回[`DocumentFormatInstance`](../../../groupdocs.redaction.integration/documentformatinstance).
+获取结果，由返回[`DocumentFormatInstance`](../../../groupdocs.redaction.integration/documentformatinstance).
 
 ```csharp
 public RedactionResult Result { get; }

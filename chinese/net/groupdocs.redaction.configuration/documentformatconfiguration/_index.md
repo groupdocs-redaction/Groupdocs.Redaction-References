@@ -25,25 +25,25 @@ public class DocumentFormatConfiguration
 | 姓名 | 描述 |
 | --- | --- |
 | [DocumentType](../../groupdocs.redaction.configuration/documentformatconfiguration/documenttype) { get; set; } | 获取或设置类的类型，继承自[`DocumentFormatInstance`](../../groupdocs.redaction.integration/documentformatinstance) |
-| [ExtensionFilter](../../groupdocs.redaction.configuration/documentformatconfiguration/extensionfilter) { get; set; } | 获取或设置以逗号 (",") 分隔的文件扩展名列表（例如 ".pdf"），不区分大小写。 |
+| [ExtensionFilter](../../groupdocs.redaction.configuration/documentformatconfiguration/extensionfilter) { get; set; } | 获取或设置逗号 (",") 分隔的文件扩展名列表（例如“.pdf”），不区分大小写。 |
 | [InitializationData](../../groupdocs.redaction.configuration/documentformatconfiguration/initializationdata) { get; set; } | 获取或设置数据，需要[`DocumentFormatInstance`](../../groupdocs.redaction.integration/documentformatinstance)初始化. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SupportsExtension](../../groupdocs.redaction.configuration/documentformatconfiguration/supportsextension)(string) | 检查给定的文件扩展名是否可以作为 DocumentType 处理。 |
+| [SupportsExtension](../../groupdocs.redaction.configuration/documentformatconfiguration/supportsextension)(string) | 检查给定的文件扩展名是否可以作为 DocumentType. 处理 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多详情**GroupDocs.Redaction**配置： [扩展支持的扩展列表](https://docs.groupdocs.com/redaction/net/extend-supported-extensions-list/)
-* 关于实现自定义格式的更多细节： [创建自定义格式处理程序](https://docs.groupdocs.com/redaction/net/create-custom-format-handler/)
+* 更多细节**GroupDocs.Redaction**配置： [扩展支持的扩展列表](https://docs.groupdocs.com/redaction/net/extend-supported-extensions-list/)
+* 有关实现自定义格式的更多详细信息： [创建自定义格式处理程序](https://docs.groupdocs.com/redaction/net/create-custom-format-handler/)
 
 ### 例子
 
-以下示例演示如何为自定义格式配置设置属性。
+以下示例演示了如何为自定义格式配置设置属性。
 
 ```csharp
 var adobePhotoshopSettings = new DocumentFormatConfiguration();

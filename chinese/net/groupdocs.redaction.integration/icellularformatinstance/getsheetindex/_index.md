@@ -20,7 +20,7 @@ public int GetSheetIndex(string sheetName)
 
 ### 返回值
 
-工作表索引或 -1 如果未找到
+工作表索引或 -1（如果未找到）
 
 ### 也可以看看
 

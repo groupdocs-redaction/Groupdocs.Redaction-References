@@ -3,7 +3,7 @@ title: RegionReplacementOptions
 second_title: GroupDocs.Redaction for .NET API 参考
 description: 表示图像区域替换的颜色和区域参数看ImageAreaRedaction./imagearearedaction.
 type: docs
-weight: 590
+weight: 600
 url: /zh/net/groupdocs.redaction.redactions/regionreplacementoptions/
 ---
 ## RegionReplacementOptions class
@@ -19,24 +19,24 @@ public class RegionReplacementOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [RegionReplacementOptions](regionreplacementoptions#constructor_1)(Color, Size) | 初始化 RegionReplacementOptions 类的新实例。 |
-| [RegionReplacementOptions](regionreplacementoptions#constructor)(Color, Font, string) | 初始化 RegionReplacementOptions 类的新实例，其大小与给定文本匹配。 |
+| [RegionReplacementOptions](regionreplacementoptions#constructor)(Color, Font, string) | 初始化大小匹配给定文本的 RegionReplacementOptions 类的新实例。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [FillColor](../../groupdocs.redaction.redactions/regionreplacementoptions/fillcolor) { get; set; } | 获取或设置填充编辑区域的颜色。 |
-| [Size](../../groupdocs.redaction.redactions/regionreplacementoptions/size) { get; set; } | 获取或设置矩形的高度。 |
+| [Size](../../groupdocs.redaction.redactions/regionreplacementoptions/size) { get; set; } | 获取或设置具有和高度的矩形。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 有关图像编辑的更多详细信息： [图像编辑](https://docs.groupdocs.com/redaction/net/image-redactions/)
+* 有关图像编辑的更多详细信息： [图片编辑](https://docs.groupdocs.com/redaction/net/image-redactions/)
 
 ### 例子
 
-以下示例演示了用纯色矩形替换图像中的区域。
+以下示例演示用纯色矩形替换图像中的区域。
 
 ```csharp
     using (Redactor redactor = new Redactor("D:\\test.jpg"))

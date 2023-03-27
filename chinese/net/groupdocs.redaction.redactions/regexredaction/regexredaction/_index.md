@@ -17,7 +17,7 @@ public RegexRedaction(string pattern, ReplacementOptions options)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pattern | String | 用于搜索和替换的正则表达式 |
-| options | ReplacementOptions | 替换选项（文本、颜色） |
+| options | ReplacementOptions | 替换选项（文字、颜色） |
 
 ### 也可以看看
 
@@ -39,7 +39,7 @@ public RegexRedaction(Regex regex, ReplacementOptions options)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | regex | Regex | 用于搜索和替换的正则表达式 |
-| options | ReplacementOptions | 替换选项（文本、颜色） |
+| options | ReplacementOptions | 替换选项（文字、颜色） |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: PageIndex
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 获取或设置要转换为 PDF 的第一页的索引从 0 开始
+description: 获取或设置要转换为 PDF 的第一页从 0 开始的索引
 type: docs
-weight: 50
+weight: 60
 url: /zh/net/groupdocs.redaction.options/rasterizationoptions/pageindex/
 ---
 ## RasterizationOptions.PageIndex property
 
-获取或设置要转换为 PDF 的第一页的索引（从 0 开始）。
+获取或设置要转换为 PDF 的第一页（从 0 开始）的索引。
 
 ```csharp
 public int PageIndex { get; set; }

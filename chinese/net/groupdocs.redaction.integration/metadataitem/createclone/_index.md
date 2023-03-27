@@ -1,14 +1,14 @@
 ---
 title: CreateClone
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 创建当前实例的深层克隆
+description: 创建当前实例的深度克隆
 type: docs
 weight: 90
 url: /zh/net/groupdocs.redaction.integration/metadataitem/createclone/
 ---
 ## MetadataItem.CreateClone method
 
-创建当前实例的深层克隆。
+创建当前实例的深度克隆。
 
 ```csharp
 public virtual MetadataItem CreateClone()

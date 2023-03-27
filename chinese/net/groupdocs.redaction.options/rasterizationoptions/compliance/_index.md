@@ -1,14 +1,14 @@
 ---
 title: Compliance
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 获取或设置 PDF 合规级别
+description: 获取或设置 PDF 合规性级别
 type: docs
 weight: 20
 url: /zh/net/groupdocs.redaction.options/rasterizationoptions/compliance/
 ---
 ## RasterizationOptions.Compliance property
 
-获取或设置 PDF 合规级别。
+获取或设置 PDF 合规性级别。
 
 ```csharp
 public PdfComplianceLevel Compliance { get; set; }

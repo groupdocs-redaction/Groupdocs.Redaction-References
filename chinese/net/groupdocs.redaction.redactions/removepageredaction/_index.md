@@ -1,14 +1,14 @@
 ---
 title: RemovePageRedaction
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 表示从文档中删除页面幻灯片工作表等的编校
+description: 表示从文档中删除页面幻灯片工作表等的修订
 type: docs
-weight: 600
+weight: 610
 url: /zh/net/groupdocs.redaction.redactions/removepageredaction/
 ---
 ## RemovePageRedaction class
 
-表示从文档中删除页面（幻灯片、工作表等）的编校。
+表示从文档中删除页面（幻灯片、工作表等）的修订。
 
 ```csharp
 public class RemovePageRedaction : Redaction
@@ -25,7 +25,7 @@ public class RemovePageRedaction : Redaction
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../groupdocs.redaction.redactions/removepageredaction/count) { get; } | 获取要删除的页数。 |
-| virtual [Description](../../groupdocs.redaction/redaction/description) { get; } | 返回一个字符串，描述编辑及其参数。 |
+| virtual [Description](../../groupdocs.redaction/redaction/description) { get; } | 返回一个字符串，描述修订及其参数。 |
 | [Index](../../groupdocs.redaction.redactions/removepageredaction/index) { get; } | 获取起始位置索引（从 0 开始）。 |
 | [Origin](../../groupdocs.redaction.redactions/removepageredaction/origin) { get; } | 获取查找参考位置，文档的开头或结尾。 |
 
@@ -37,10 +37,10 @@ public class RemovePageRedaction : Redaction
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 有关应用编辑的更多详细信息： [编辑基础知识](https://docs.groupdocs.com/redaction/net/redaction-basics/)
-* 有关删除页面的更多详细信息： [删除页面编辑](https://docs.groupdocs.com/redaction/net/remove-page-redaction/)
+* 有关应用密文的更多详细信息： [编辑基础知识](https://docs.groupdocs.com/redaction/net/redaction-basics/)
+* 有关删除页面的更多详细信息： [删除页面密文](https://docs.groupdocs.com/redaction/net/remove-page-redaction/)
 
 ### 例子
 

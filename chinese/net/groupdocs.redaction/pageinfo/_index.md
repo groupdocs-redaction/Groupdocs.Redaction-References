@@ -3,7 +3,7 @@ title: PageInfo
 second_title: GroupDocs.Redaction for .NET API 参考
 description: 代表一个简短的页面信息
 type: docs
-weight: 380
+weight: 390
 url: /zh/net/groupdocs.redaction/pageinfo/
 ---
 ## PageInfo class
@@ -30,7 +30,7 @@ public class PageInfo
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [获取文件信息](https://docs.groupdocs.com/redaction/net/get-file-info/)
 

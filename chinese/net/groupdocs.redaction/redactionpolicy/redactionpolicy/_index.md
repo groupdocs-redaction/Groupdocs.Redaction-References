@@ -1,14 +1,14 @@
 ---
 title: RedactionPolicy
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 创建一个新的密文策略实例
+description: 创建编辑策略的新实例
 type: docs
 weight: 10
 url: /zh/net/groupdocs.redaction/redactionpolicy/redactionpolicy/
 ---
 ## RedactionPolicy() {#constructor}
 
-创建一个新的密文策略实例。
+创建编辑策略的新实例。
 
 ```csharp
 public RedactionPolicy()
@@ -24,7 +24,7 @@ public RedactionPolicy()
 
 ## RedactionPolicy(Redaction[]) {#constructor_1}
 
-使用特定的密文列表创建密文策略的新实例。
+使用特定的编辑列表创建编辑策略的新实例。
 
 ```csharp
 public RedactionPolicy(Redaction[] redactions)

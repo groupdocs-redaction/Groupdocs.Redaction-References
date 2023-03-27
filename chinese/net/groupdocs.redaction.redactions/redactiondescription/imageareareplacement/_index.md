@@ -1,14 +1,14 @@
 ---
 title: ImageAreaReplacement
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 获取图像区域密文的替换信息文本密文返回空值
+description: 获取图片区域密文的替换信息文本密文返回null
 type: docs
 weight: 40
 url: /zh/net/groupdocs.redaction.redactions/redactiondescription/imageareareplacement/
 ---
 ## RedactionDescription.ImageAreaReplacement property
 
-获取图像区域密文的替换信息，文本密文返回空值。
+获取图片区域密文的替换信息，文本密文返回null。
 
 ```csharp
 public RegionReplacementOptions ImageAreaReplacement { get; }

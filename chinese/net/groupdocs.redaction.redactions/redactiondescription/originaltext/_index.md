@@ -1,14 +1,14 @@
 ---
 title: OriginalText
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 如果提供了任何表达式则获取匹配的文本
+description: 获取匹配的文本如果提供任何表达式
 type: docs
 weight: 50
 url: /zh/net/groupdocs.redaction.redactions/redactiondescription/originaltext/
 ---
 ## RedactionDescription.OriginalText property
 
-如果提供了任何表达式，则获取匹配的文本。
+获取匹配的文本，如果提供任何表达式。
 
 ```csharp
 public string OriginalText { get; }

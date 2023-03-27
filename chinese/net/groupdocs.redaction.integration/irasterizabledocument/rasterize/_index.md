@@ -1,14 +1,14 @@
 ---
 title: Rasterize
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 将文档以 PDF 格式保存到流中
+description: 将文档作为 PDF 保存到流中
 type: docs
 weight: 10
 url: /zh/net/groupdocs.redaction.integration/irasterizabledocument/rasterize/
 ---
 ## Rasterize(Stream) {#rasterize}
 
-将文档以 PDF 格式保存到流中。
+将文档作为 PDF 保存到流中。
 
 ```csharp
 public void Rasterize(Stream output)
@@ -28,7 +28,7 @@ public void Rasterize(Stream output)
 
 ## Rasterize(Stream, RasterizationOptions) {#rasterize_1}
 
-将文档以 PDF 格式保存到流中，并带有页面范围和合规性选项。
+将文档作为具有页面范围和合规性选项的 PDF 保存到流中。
 
 ```csharp
 public void Rasterize(Stream output, RasterizationOptions options)

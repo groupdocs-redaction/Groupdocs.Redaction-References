@@ -3,7 +3,7 @@ title: ILogger
 second_title: GroupDocs.Redaction for .NET API 参考
 description: 定义记录器的接口可用于记录编辑过程中的事件和错误
 type: docs
-weight: 290
+weight: 300
 url: /zh/net/groupdocs.redaction.options/ilogger/
 ---
 ## ILogger interface
@@ -19,14 +19,14 @@ public interface ILogger
 | 姓名 | 描述 |
 | --- | --- |
 | [Error](../../groupdocs.redaction.options/ilogger/error)(string) | 记录在编辑过程中发生的错误。 |
-| [Trace](../../groupdocs.redaction.options/ilogger/trace)(string) | 记录在编辑过程中发生的事件。 |
+| [Trace](../../groupdocs.redaction.options/ilogger/trace)(string) | 记录编辑过程中发生的事件。 |
 | [Warning](../../groupdocs.redaction.options/ilogger/warning)(string) | 记录在编辑过程中发生的警告。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于实现ILogger接口的细节： [使用高级日志记录](https://docs.groupdocs.com/redaction/net/use-advanced-logging/)
+* 有关实现 ILogger 接口的更多详细信息： [使用高级日志记录](https://docs.groupdocs.com/redaction/net/use-advanced-logging/)
 
 ### 也可以看看
 

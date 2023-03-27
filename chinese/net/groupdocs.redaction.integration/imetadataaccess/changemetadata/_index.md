@@ -1,14 +1,14 @@
 ---
 title: ChangeMetadata
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 将指定的元数据项从MetadataCollectiongroupdocs.redaction.integration/metadatacollection或添加一个新的如果不存在的话
+description: 将指定的元数据项从MetadataCollectiongroupdocs.redaction.integration/metadatacollection或添加一个新的如果不存在
 type: docs
 weight: 10
 url: /zh/net/groupdocs.redaction.integration/imetadataaccess/changemetadata/
 ---
 ## IMetadataAccess.ChangeMetadata method
 
-将指定的元数据项从[`MetadataCollection`](../../metadatacollection)或添加一个新的，如果不存在的话。
+将指定的元数据项从[`MetadataCollection`](../../metadatacollection)或添加一个新的，如果不存在。
 
 ```csharp
 public RedactionResult ChangeMetadata(MetadataItem metadataItem)
@@ -16,7 +16,7 @@ public RedactionResult ChangeMetadata(MetadataItem metadataItem)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| metadataItem | MetadataItem | 分配有新值的元数据项 |
+| metadataItem | MetadataItem | 分配了新值的元数据项 |
 
 ### 返回值
 

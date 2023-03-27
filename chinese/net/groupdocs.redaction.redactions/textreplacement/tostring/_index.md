@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 提供文本替换描述及其位置
+description: 提供文本替换说明及其位置
 type: docs
 weight: 50
 url: /zh/net/groupdocs.redaction.redactions/textreplacement/tostring/
 ---
 ## TextReplacement.ToString method
 
-提供文本替换描述及其位置。
+提供文本替换说明及其位置。
 
 ```csharp
 public override string ToString()

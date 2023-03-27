@@ -22,7 +22,7 @@ public RedactionResult RemovePages(PageSeekOrigin origin, int index, int count)
 
 ### 返回值
 
-页面删除编辑结果
+页面删除密文结果
 
 ### 也可以看看
 

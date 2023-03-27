@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: GroupDocs.Redaction for .NET API 参考
 description: 提供将用于打开文件的选项
 type: docs
-weight: 300
+weight: 310
 url: /zh/net/groupdocs.redaction.options/loadoptions/
 ---
 ## LoadOptions class
@@ -19,7 +19,7 @@ public class LoadOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [LoadOptions](loadoptions#constructor)() | 初始化 LoadOptions 类的新实例。 |
-| [LoadOptions](loadoptions#constructor_1)(string) | 使用指定的密码初始化 LoadOptions 类的新实例。 |
+| [LoadOptions](loadoptions#constructor_1)(string) | 使用指定密码初始化 LoadOptions 类的新实例。 |
 
 ## 特性
 
@@ -29,11 +29,11 @@ public class LoadOptions
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* [加载文档](https://docs.groupdocs.com/redaction/net/loading-documents/)
+* [载入文件](https://docs.groupdocs.com/redaction/net/loading-documents/)
 * [从本地磁盘加载](https://docs.groupdocs.com/redaction/net/load-from-local-disc/)
-* [从流加载](https://docs.groupdocs.com/redaction/net/load-from-stream/)
+* [从流中加载](https://docs.groupdocs.com/redaction/net/load-from-stream/)
 * [加载受密码保护的文档](https://docs.groupdocs.com/redaction/net/load-password-protected-file/)
 
 ### 例子
@@ -44,7 +44,7 @@ public class LoadOptions
 LoadOptions loadOptions = new LoadOptions("mysecretpassword");
 using (var redactor = new Redactor("PasswordProtected.pdf", loadOptions))
 {
-    // 处理文档
+    // 使用文档
 }
 ```
 

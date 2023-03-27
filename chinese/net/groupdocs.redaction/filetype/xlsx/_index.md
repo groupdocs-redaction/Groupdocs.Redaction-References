@@ -1,14 +1,14 @@
 ---
 title: XLSX
 second_title: GroupDocs.Redaction for .NET API 参考
-description: Microsoft Excel Open XML 电子表格 .xlsx
+description: Microsoft Excel 打开 XML 电子表格 .xlsx
 type: docs
 weight: 350
 url: /zh/net/groupdocs.redaction/filetype/xlsx/
 ---
 ## FileType.XLSX property
 
-Microsoft Excel Open XML 电子表格 (.xlsx)
+Microsoft Excel 打开 XML 电子表格 (.xlsx)
 
 ```csharp
 public static FileType XLSX { get; }

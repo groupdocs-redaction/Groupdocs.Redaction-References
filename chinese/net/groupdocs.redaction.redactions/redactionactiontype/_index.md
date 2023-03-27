@@ -3,7 +3,7 @@ title: RedactionActionType
 second_title: GroupDocs.Redaction for .NET API 参考
 description: 表示可以执行编辑的操作
 type: docs
-weight: 550
+weight: 560
 url: /zh/net/groupdocs.redaction.redactions/redactionactiontype/
 ---
 ## RedactionActionType enumeration
@@ -18,15 +18,15 @@ public enum RedactionActionType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Replacement | `0` | 编辑的文本被另一个替换或被一个块覆盖。 |
-| Cleanup | `1` | 数据已删除，但文档中仍保留一个空对象。 |
-| Deletion | `2` | 从文档中删除了数据和相关结构。 |
+| Replacement | `0` | 编辑的文本被替换为另一个或被块覆盖。 |
+| Cleanup | `1` | 数据已删除，但文档中保留一个空对象。 |
+| Deletion | `2` | 数据和相关结构已从文档中删除。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于 RedactionDescription 类和 IRedactionCallback 接口的细节： [使用编辑回调](https://docs.groupdocs.com/redaction/net/use-redaction-callback/)
+* 有关 RedactionDescription 类和 IRedactionCallback 接口的更多详细信息： [使用密文回调](https://docs.groupdocs.com/redaction/net/use-redaction-callback/)
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: MetadataItem
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 表示元数据项对所有支持的格式通用并用于元数据编辑
+description: 表示元数据项对所有支持的格式通用并用于元数据修订
 type: docs
 weight: 210
 url: /zh/net/groupdocs.redaction.integration/metadataitem/
 ---
 ## MetadataItem class
 
-表示元数据项，对所有支持的格式通用并用于元数据编辑。
+表示元数据项，对所有支持的格式通用，并用于元数据修订。
 
 ```csharp
 public class MetadataItem : ISerializable
@@ -25,18 +25,18 @@ public class MetadataItem : ISerializable
 | 姓名 | 描述 |
 | --- | --- |
 | [ActualValue](../../groupdocs.redaction.integration/metadataitem/actualvalue) { get; } | 获取元数据项值的字符串表示形式。 |
-| [Category](../../groupdocs.redaction.integration/metadataitem/category) { get; set; } | 获取或设置元数据项的类别，例如嵌入资源元数据项的资源 ID。 |
-| virtual [DictionaryKey](../../groupdocs.redaction.integration/metadataitem/dictionarykey) { get; } | 获取字典键[`MetadataCollection`](../metadatacollection)，使用其 OriginalName 和其他数据。 |
-| [Filter](../../groupdocs.redaction.integration/metadataitem/filter) { get; set; } | 获取或设置一个值[`MetadataFilters`](../../groupdocs.redaction.redactions/metadatafilters)，分配给用于项目过滤的元数据项目。 |
-| [IsCustom](../../groupdocs.redaction.integration/metadataitem/iscustom) { get; set; } | 获取或设置一个值，该值指示此项目是否为自定义（由文档作者添加）。 |
-| [OriginalName](../../groupdocs.redaction.integration/metadataitem/originalname) { get; set; } | 获取或设置元数据项的原始名称，就像它出现在文档中一样。 |
+| [Category](../../groupdocs.redaction.integration/metadataitem/category) { get; set; } | 获取或设置元数据项的类别，例如嵌入式资源元数据项的资源 ID。 |
+| virtual [DictionaryKey](../../groupdocs.redaction.integration/metadataitem/dictionarykey) { get; } | 获取字典键[`MetadataCollection`](../metadatacollection) 使用其 OriginalName 和其他数据. |
+| [Filter](../../groupdocs.redaction.integration/metadataitem/filter) { get; set; } | 获取或设置一个值[`MetadataFilters`](../../groupdocs.redaction.redactions/metadatafilters) 分配给用于项目过滤的元数据项目。 |
+| [IsCustom](../../groupdocs.redaction.integration/metadataitem/iscustom) { get; set; } | 获取或设置一个值，该值指示此项是否为自定义（由文档作者添加）。 |
+| [OriginalName](../../groupdocs.redaction.integration/metadataitem/originalname) { get; set; } | 获取或设置元数据项的原始名称，因为它出现在文档中。 |
 | [Values](../../groupdocs.redaction.integration/metadataitem/values) { get; set; } | 获取或设置元数据项值。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [CreateClone](../../groupdocs.redaction.integration/metadataitem/createclone)() | 创建当前实例的深层克隆。 |
+| virtual [CreateClone](../../groupdocs.redaction.integration/metadataitem/createclone)() | 创建当前实例的深度克隆。 |
 | virtual [GetObjectData](../../groupdocs.redaction.integration/metadataitem/getobjectdata)(SerializationInfo, StreamingContext) | 返回有关可序列化属性的信息。 |
 
 ### 也可以看看

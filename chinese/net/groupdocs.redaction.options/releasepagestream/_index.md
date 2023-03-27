@@ -3,7 +3,7 @@ title: ReleasePageStream
 second_title: GroupDocs.Redaction for .NET API 参考
 description: 表示释放由创建的流的方法CreatePageStream./createpagestream代表
 type: docs
-weight: 360
+weight: 370
 url: /zh/net/groupdocs.redaction.options/releasepagestream/
 ---
 ## ReleasePageStream delegate
@@ -16,12 +16,12 @@ public delegate void ReleasePageStream(int pageNumber, Stream pageStream);
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pageNumber | Int32 | 生成的页面预览的页码 |
+| pageNumber | Int32 | 生成页面预览的页码 |
 | pageStream | Stream | 流，包含生成的页面预览 |
 
 ### 例子
 
-以下示例演示如何使用获取文档预览[`PreviewOptions`](../previewoptions)和两位代表。
+以下示例演示如何使用[`PreviewOptions`](../previewoptions)和两位代表。
 
 ```csharp
     CreatePageStream createDelegate = delegate (int pageNumber)
@@ -31,7 +31,7 @@ public delegate void ReleasePageStream(int pageNumber, Stream pageStream);
     };
     ReleasePageStream releaseDelegate = delegate (int pageNumber, System.IO.Stream pageStream)
     {
-        // 用 Stream 做任何事情，包括页面预览
+        // 对 Stream 做任何事情，包括页面预览
         pageStream.Close();
     };
     var previewOptions = new PreviewOptions(createDelegate, releaseDelegate);

@@ -16,7 +16,7 @@ public TrialLimitationsException(string message)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | String | 消息，描述违反限制 |
+| message | String | 消息，描述违反的限制 |
 
 ### 也可以看看
 
@@ -28,7 +28,7 @@ public TrialLimitationsException(string message)
 
 ## TrialLimitationsException(string, Exception) {#constructor_1}
 
-使用指定的错误消息和对导致此异常的内部异常的引用初始化 TrialLimitationsException 类的新实例。
+使用指定的错误消息和对导致此异常的内部异常的引用来初始化 TrialLimitationsException 类的新实例。
 
 ```csharp
 public TrialLimitationsException(string message, Exception innerException)

@@ -36,7 +36,7 @@ public void Save(Stream output)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| output | Stream | 目标流以保存策略 |
+| output | Stream | 保存策略的目标流 |
 
 ### 也可以看看
 

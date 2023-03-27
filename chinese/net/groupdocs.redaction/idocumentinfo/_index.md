@@ -25,7 +25,7 @@ public interface IDocumentInfo
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [获取文件信息](https://docs.groupdocs.com/redaction/net/get-file-info/)
 

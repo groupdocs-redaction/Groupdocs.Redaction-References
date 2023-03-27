@@ -1,14 +1,14 @@
 ---
 title: MetadataSearchRedaction
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 初始化 MetadataSearchRedaction 类的新实例使用值来匹配编辑项目
+description: 初始化 MetadataSearchRedaction 类的新实例使用值匹配编辑的项目
 type: docs
 weight: 10
 url: /zh/net/groupdocs.redaction.redactions/metadatasearchredaction/metadatasearchredaction/
 ---
 ## MetadataSearchRedaction(string, string) {#constructor}
 
-初始化 MetadataSearchRedaction 类的新实例，使用值来匹配编辑项目。
+初始化 MetadataSearchRedaction 类的新实例，使用值匹配编辑的项目。
 
 ```csharp
 public MetadataSearchRedaction(string valuePattern, string replacement)
@@ -17,7 +17,7 @@ public MetadataSearchRedaction(string valuePattern, string replacement)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | valuePattern | String | 用于搜索和替换的正则表达式 |
-| replacement | String | 文字替换 |
+| replacement | String | 文本替换 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public MetadataSearchRedaction(string valuePattern, string replacement)
 
 ## MetadataSearchRedaction(string, string, string) {#constructor_1}
 
-初始化 MetadataSearchRedaction 类的新实例，使用项目名称和值来匹配编辑项目。
+初始化 MetadataSearchRedaction 类的新实例，使用项目名称和值来匹配编辑的项目。
 
 ```csharp
 public MetadataSearchRedaction(string valuePattern, string replacement, string keyPattern)
@@ -38,7 +38,7 @@ public MetadataSearchRedaction(string valuePattern, string replacement, string k
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | valuePattern | String | 用于搜索和替换元数据项值的正则表达式 |
-| replacement | String | 文字替换 |
+| replacement | String | 文本替换 |
 | keyPattern | String | 用于搜索和替换元数据项名称的正则表达式 |
 
 ### 也可以看看
@@ -51,7 +51,7 @@ public MetadataSearchRedaction(string valuePattern, string replacement, string k
 
 ## MetadataSearchRedaction(Regex, string) {#constructor_2}
 
-初始化 MetadataSearchRedaction 类的新实例，使用值来匹配编辑项目。
+初始化 MetadataSearchRedaction 类的新实例，使用值匹配编辑的项目。
 
 ```csharp
 public MetadataSearchRedaction(Regex valueRegex, string replacement)
@@ -60,7 +60,7 @@ public MetadataSearchRedaction(Regex valueRegex, string replacement)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | valueRegex | Regex | 用于搜索和替换的正则表达式 |
-| replacement | String | 文字替换 |
+| replacement | String | 文本替换 |
 
 ### 也可以看看
 
@@ -72,7 +72,7 @@ public MetadataSearchRedaction(Regex valueRegex, string replacement)
 
 ## MetadataSearchRedaction(Regex, string, Regex) {#constructor_3}
 
-初始化 MetadataSearchRedaction 类的新实例，使用项目名称和值来匹配编辑项目。
+初始化 MetadataSearchRedaction 类的新实例，使用项目名称和值来匹配编辑的项目。
 
 ```csharp
 public MetadataSearchRedaction(Regex valueRegex, string replacement, Regex keyRegex)
@@ -81,7 +81,7 @@ public MetadataSearchRedaction(Regex valueRegex, string replacement, Regex keyRe
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | valueRegex | Regex | 用于搜索和替换元数据项值的正则表达式 |
-| replacement | String | 文字替换 |
+| replacement | String | 文本替换 |
 | keyRegex | Regex | 用于搜索和替换元数据项名称的正则表达式 |
 
 ### 也可以看看

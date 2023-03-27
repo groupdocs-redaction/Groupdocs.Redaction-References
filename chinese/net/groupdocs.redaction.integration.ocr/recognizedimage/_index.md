@@ -1,14 +1,14 @@
 ---
 title: RecognizedImage
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 表示文本作为识别过程的结果从图像中提取
+description: 表示文本作为其识别过程的结果从图像中提取
 type: docs
 weight: 230
 url: /zh/net/groupdocs.redaction.integration.ocr/recognizedimage/
 ---
 ## RecognizedImage class
 
-表示文本，作为识别过程的结果从图像中提取。
+表示文本，作为其识别过程的结果从图像中提取。
 
 ```csharp
 public class RecognizedImage
@@ -18,7 +18,7 @@ public class RecognizedImage
 
 | 姓名 | 描述 |
 | --- | --- |
-| [RecognizedImage](recognizedimage)(IEnumerable&lt;TextLine&gt;) | 使用一组已识别的行初始化类的新实例。 |
+| [RecognizedImage](recognizedimage)(IEnumerable&lt;TextLine&gt;) | 使用一组可识别的行初始化该类的新实例。 |
 
 ## 特性
 
@@ -35,9 +35,9 @@ public class RecognizedImage
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 有关在 GroupDocs.Redaction 中使用 OCR 的更多详细信息： [OCR 使用基础](https://docs.groupdocs.com/redaction/net/ocr-usage-basics/)
+* 有关在 GroupDocs.Redaction 中使用 OCR 的更多详细信息： [OCR 使用基础知识](https://docs.groupdocs.com/redaction/net/ocr-usage-basics/)
 
 ### 也可以看看
 

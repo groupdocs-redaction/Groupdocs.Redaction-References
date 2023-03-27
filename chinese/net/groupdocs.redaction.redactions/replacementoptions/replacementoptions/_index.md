@@ -16,7 +16,7 @@ public ReplacementOptions(string replacement)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| replacement | String | 文字替换 |
+| replacement | String | 文本替换 |
 
 ### 也可以看看
 

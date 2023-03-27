@@ -16,7 +16,7 @@ public IDocumentInfo GetDocumentInfo()
 
 ### 返回值
 
-IDocumentInfo 的一个实例
+IDocumentInfo 的实例
 
 ### 也可以看看
 

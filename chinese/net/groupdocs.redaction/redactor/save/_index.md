@@ -1,14 +1,14 @@
 ---
 title: Save
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 使用以下选项将文档保存到文件中AddSuffix  true RasterizeToPDF  true.
+description: 使用以下选项将文档保存到文件AddSuffix  true RasterizeToPDF  true.
 type: docs
 weight: 60
 url: /zh/net/groupdocs.redaction/redactor/save/
 ---
 ## Save() {#save}
 
-使用以下选项将文档保存到文件中：AddSuffix = true, RasterizeToPDF = true.
+使用以下选项将文档保存到文件：AddSuffix = true, RasterizeToPDF = true.
 
 ```csharp
 public string Save()
@@ -36,7 +36,7 @@ public string Save(SaveOptions saveOptions)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| saveOptions | SaveOptions | 添加后缀或光栅化的选项 |
+| saveOptions | SaveOptions | 添加后缀或栅格化的选项 |
 
 ### 返回值
 
@@ -61,7 +61,7 @@ public string Save(SaveOptions saveOptions)
        // 将文档以原始格式保存到“*_Redacted.*”文件
        redactor.Save(new SaveOptions() { AddSuffix = true, RasterizeToPDF = false });
     
-       // 将文档保存到其文件名中的“*_AnyText.*”（例如时间戳而不是“AnyText”），无需光栅化
+       // 将文档保存到其文件名中的“*_AnyText.*”（例如时间戳而不是“AnyText”）而不进行光栅化
        redactor.Save(new SaveOptions(false, "AnyText"));
     }    
 ```
@@ -86,7 +86,7 @@ public void Save(Stream document, RasterizationOptions rasterizationOptions)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | document | Stream | 目标流 |
-| rasterizationOptions | RasterizationOptions | 光栅化与否以及指定光栅化页面的选项 |
+| rasterizationOptions | RasterizationOptions | 是否光栅化以及指定光栅化页面的选项 |
 
 ### 例子
 

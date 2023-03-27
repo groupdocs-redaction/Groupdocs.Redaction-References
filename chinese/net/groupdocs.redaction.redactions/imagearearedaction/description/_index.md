@@ -1,14 +1,14 @@
 ---
 title: Description
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 返回一个字符串描述编辑及其参数
+description: 返回一个字符串描述修订及其参数
 type: docs
 weight: 20
 url: /zh/net/groupdocs.redaction.redactions/imagearearedaction/description/
 ---
 ## ImageAreaRedaction.Description property
 
-返回一个字符串，描述编辑及其参数。
+返回一个字符串，描述修订及其参数。
 
 ```csharp
 public override string Description { get; }
@@ -16,7 +16,7 @@ public override string Description { get; }
 
 ### 返回值
 
-文本，包含编辑名称和参数。
+文本，包含密文名称和参数。
 
 ### 也可以看看
 

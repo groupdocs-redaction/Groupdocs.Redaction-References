@@ -1,14 +1,14 @@
 ---
 title: ITextualFormatInstance
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 定义编辑任何包含文本的文档中的文本数据所需的方法
+description: 定义在任何包含文本的文档中编辑文本数据所需的方法
 type: docs
 weight: 190
 url: /zh/net/groupdocs.redaction.integration/itextualformatinstance/
 ---
 ## ITextualFormatInstance interface
 
-定义编辑任何包含文本的文档中的文本数据所需的方法。
+定义在任何包含文本的文档中编辑文本数据所需的方法。
 
 ```csharp
 public interface ITextualFormatInstance
@@ -22,11 +22,11 @@ public interface ITextualFormatInstance
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 有关应用编辑的更多详细信息： [编辑基础知识](https://docs.groupdocs.com/redaction/net/redaction-basics/)
-* 有关文档文本编辑的更多详细信息： [文本编辑](https://docs.groupdocs.com/redaction/net/text-redactions/)
-* 关于实现自定义格式的更多细节： [创建自定义格式处理程序](https://docs.groupdocs.com/redaction/net/create-custom-format-handler/)
+* 有关应用密文的更多详细信息： [编辑基础知识](https://docs.groupdocs.com/redaction/net/redaction-basics/)
+* 有关文档文本修订的更多详细信息： [文本编辑](https://docs.groupdocs.com/redaction/net/text-redactions/)
+* 有关实现自定义格式的更多详细信息： [创建自定义格式处理程序](https://docs.groupdocs.com/redaction/net/create-custom-format-handler/)
 
 ### 也可以看看
 

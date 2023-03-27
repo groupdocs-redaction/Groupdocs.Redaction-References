@@ -20,7 +20,7 @@ public virtual bool PerformBinaryCheck(Stream input)
 
 ### 返回值
 
-如果该格式实例可以加载文档，则为 true，否则为 false
+True，如果该格式实例可以加载文档，否则为 false
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: CreatePageStream
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 表示返回流以写入页面预览数据的方法
+description: 表示返回流写入页面预览数据的方法
 type: docs
-weight: 280
+weight: 290
 url: /zh/net/groupdocs.redaction.options/createpagestream/
 ---
 ## CreatePageStream delegate
 
-表示返回流以写入页面预览数据的方法。
+表示返回流写入页面预览数据的方法。
 
 ```csharp
 public delegate Stream CreatePageStream(int pageNumber);
@@ -16,7 +16,7 @@ public delegate Stream CreatePageStream(int pageNumber);
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pageNumber | Int32 | 要生成缩略图的页面的页码 |
+| pageNumber | Int32 | 生成缩略图的页面页码 |
 
 ### 返回值
 
@@ -24,7 +24,7 @@ public delegate Stream CreatePageStream(int pageNumber);
 
 ### 例子
 
-以下示例演示如何使用获取文档预览[`PreviewOptions`](../previewoptions)和[`CreatePageStream`](../createpagestream)代表。
+以下示例演示如何使用[`PreviewOptions`](../previewoptions)和[`CreatePageStream`](../createpagestream)代表。
 
 ```csharp
     CreatePageStream createDelegate = delegate (int pageNumber)

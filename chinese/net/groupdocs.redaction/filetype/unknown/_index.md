@@ -1,14 +1,14 @@
 ---
 title: Unknown
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 表示未知文件类型
+description: 代表未知文件类型
 type: docs
 weight: 310
 url: /zh/net/groupdocs.redaction/filetype/unknown/
 ---
 ## FileType.Unknown property
 
-表示未知文件类型。
+代表未知文件类型。
 
 ```csharp
 public static FileType Unknown { get; }

@@ -1,14 +1,14 @@
 ---
 title: DocumentFormatInstance
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 表示文档的特定格式实现这个类来添加你自己的文档类型
+description: 表示文档的特定格式实现此类以添加您自己的文档类型
 type: docs
 weight: 110
 url: /zh/net/groupdocs.redaction.integration/documentformatinstance/
 ---
 ## DocumentFormatInstance class
 
-表示文档的特定格式。实现这个类来添加你自己的文档类型。
+表示文档的特定格式。实现此类以添加您自己的文档类型。
 
 ```csharp
 public abstract class DocumentFormatInstance
@@ -32,13 +32,13 @@ public abstract class DocumentFormatInstance
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 关于实现自定义格式的更多细节： [创建自定义格式处理程序](https://docs.groupdocs.com/redaction/net/create-custom-format-handler/)
+* 有关实现自定义格式的更多详细信息： [创建自定义格式处理程序](https://docs.groupdocs.com/redaction/net/create-custom-format-handler/)
 
 ### 例子
 
-以下示例演示如何为自定义格式处理程序创建一个空存根。
+以下示例演示如何为自定义格式处理程序创建空存根。
 
 下面的例子演示了如何使用初始化数据。
 
@@ -47,7 +47,7 @@ public class DummyDocument : DocumentFormatInstance
 {     
     public override void Load(Stream output)
     {
-        // 加载文件内容
+        //加载文件内容
     }
 
     public override void Save(Stream output)

@@ -3,7 +3,7 @@ title: RedactionResult
 second_title: GroupDocs.Redaction for .NET API 参考
 description: 表示编辑操作的结果
 type: docs
-weight: 410
+weight: 420
 url: /zh/net/groupdocs.redaction/redactionresult/
 ---
 ## RedactionResult class
@@ -18,23 +18,23 @@ public class RedactionResult
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ErrorMessage](../../groupdocs.redaction/redactionresult/errormessage) { get; } | 获取诊断错误消息。 |
+| [ErrorMessage](../../groupdocs.redaction/redactionresult/errormessage) { get; } | 获取用于诊断的错误消息。 |
 | [Status](../../groupdocs.redaction/redactionresult/status) { get; } | 获取执行状态。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Failed](../../groupdocs.redaction/redactionresult/failed)(string) | 使用失败状态初始化 RedactionResult 类的新实例。 |
-| static [Partial](../../groupdocs.redaction/redactionresult/partial)(string) | 使用 PartiallyApplied 状态初始化 RedactionResult 类的新实例。 |
-| static [Skipped](../../groupdocs.redaction/redactionresult/skipped)(string) | 使用已跳过状态初始化 RedactionResult 类的新实例。 |
-| static [Successful](../../groupdocs.redaction/redactionresult/successful)() | 使用已应用（成功）状态初始化 RedactionResult 类的新实例。 |
+| static [Failed](../../groupdocs.redaction/redactionresult/failed)(string) | 以失败状态初始化 RedactionResult 类的新实例。 |
+| static [Partial](../../groupdocs.redaction/redactionresult/partial)(string) | 初始化具有 PartiallyApplied 状态的 RedactionResult 类的新实例。 |
+| static [Skipped](../../groupdocs.redaction/redactionresult/skipped)(string) | 初始化具有 Skipped 状态的 RedactionResult 类的新实例。 |
+| static [Successful](../../groupdocs.redaction/redactionresult/successful)() | 初始化具有已应用（成功）状态的 RedactionResult 类的新实例。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于密文结果的细节： [编辑基础知识](https://docs.groupdocs.com/redaction/net/redaction-basics/)
+* 有关编辑结果的更多详细信息： [编辑基础知识](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 
 ### 也可以看看
 

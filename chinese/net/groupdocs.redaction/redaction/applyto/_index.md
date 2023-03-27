@@ -16,7 +16,7 @@ public abstract RedactorLogEntry ApplyTo(DocumentFormatInstance formatInstance)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| formatInstance | DocumentFormatInstance | 应用编辑的文档实例 |
+| formatInstance | DocumentFormatInstance | 应用密文的文档实例 |
 
 ### 返回值
 

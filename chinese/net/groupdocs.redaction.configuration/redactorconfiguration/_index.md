@@ -1,14 +1,14 @@
 ---
 title: RedactorConfiguration
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 提供对支持格式内置和自定义用户格式列表的访问
+description: 提供对受支持格式内置和自定义用户格式列表的访问
 type: docs
 weight: 20
 url: /zh/net/groupdocs.redaction.configuration/redactorconfiguration/
 ---
 ## RedactorConfiguration class
 
-提供对支持格式、内置和自定义用户格式列表的访问。
+提供对受支持格式、内置和自定义用户格式列表的访问。
 
 ```csharp
 public class RedactorConfiguration
@@ -18,7 +18,7 @@ public class RedactorConfiguration
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AvailableFormats](../../groupdocs.redaction.configuration/redactorconfiguration/availableformats) { get; } | 获取已识别格式的列表，请参阅[`DocumentFormatConfiguration`](../documentformatconfiguration). |
+| [AvailableFormats](../../groupdocs.redaction.configuration/redactorconfiguration/availableformats) { get; } | 获取识别格式列表，参见[`DocumentFormatConfiguration`](../documentformatconfiguration). |
 
 ## 方法
 
@@ -29,10 +29,10 @@ public class RedactorConfiguration
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多详情**GroupDocs.Redaction**配置： [扩展支持的扩展列表](https://docs.groupdocs.com/redaction/net/extend-supported-extensions-list/)
-* 关于实现自定义格式的更多细节： [创建自定义格式处理程序](https://docs.groupdocs.com/redaction/net/create-custom-format-handler/)
+* 更多细节**GroupDocs.Redaction**配置： [扩展支持的扩展列表](https://docs.groupdocs.com/redaction/net/extend-supported-extensions-list/)
+* 有关实现自定义格式的更多详细信息： [创建自定义格式处理程序](https://docs.groupdocs.com/redaction/net/create-custom-format-handler/)
 
 ### 例子
 

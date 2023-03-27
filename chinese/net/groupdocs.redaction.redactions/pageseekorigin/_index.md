@@ -1,14 +1,14 @@
 ---
 title: PageSeekOrigin
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 提供代表文档中用于查找的参考点的字段
+description: 提供表示文档中参考点的字段以供查找
 type: docs
-weight: 540
+weight: 550
 url: /zh/net/groupdocs.redaction.redactions/pageseekorigin/
 ---
 ## PageSeekOrigin enumeration
 
-提供代表文档中用于查找的参考点的字段。
+提供表示文档中参考点的字段以供查找。
 
 ```csharp
 public enum PageSeekOrigin
@@ -23,9 +23,9 @@ public enum PageSeekOrigin
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 有关删除页面的更多详细信息： [删除页面编辑](https://docs.groupdocs.com/redaction/net/remove-page-redaction/)
+* 有关删除页面的更多详细信息： [删除页面密文](https://docs.groupdocs.com/redaction/net/remove-page-redaction/)
 
 ### 也可以看看
 

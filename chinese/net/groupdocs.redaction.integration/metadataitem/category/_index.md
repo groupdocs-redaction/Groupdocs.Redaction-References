@@ -1,14 +1,14 @@
 ---
 title: Category
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 获取或设置元数据项的类别例如嵌入资源元数据项的资源 ID
+description: 获取或设置元数据项的类别例如嵌入式资源元数据项的资源 ID
 type: docs
 weight: 30
 url: /zh/net/groupdocs.redaction.integration/metadataitem/category/
 ---
 ## MetadataItem.Category property
 
-获取或设置元数据项的类别，例如嵌入资源元数据项的资源 ID。
+获取或设置元数据项的类别，例如嵌入式资源元数据项的资源 ID。
 
 ```csharp
 public string Category { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: RedactionDescription
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 初始化没有替换信息的 RedactionDescription 类的新实例
+description: 在没有替换信息的情况下初始化 RedactionDescription 类的新实例
 type: docs
 weight: 10
 url: /zh/net/groupdocs.redaction.redactions/redactiondescription/redactiondescription/
 ---
 ## RedactionDescription(RedactionType, RedactionActionType, string) {#constructor_1}
 
-初始化没有替换信息的 RedactionDescription 类的新实例。
+在没有替换信息的情况下初始化 RedactionDescription 类的新实例。
 
 ```csharp
 public RedactionDescription(RedactionType redactionType, RedactionActionType actionType, 
@@ -18,7 +18,7 @@ public RedactionDescription(RedactionType redactionType, RedactionActionType act
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | redactionType | RedactionType | 被编辑的数据类型 |
-| actionType | RedactionActionType | 对这些数据执行的操作 |
+| actionType | RedactionActionType | 要对这些数据执行的操作 |
 | originalText | String | 匹配的文本、评论或注释正文 |
 
 ### 也可以看看
@@ -43,7 +43,7 @@ public RedactionDescription(RedactionType redactionType, RedactionActionType act
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | redactionType | RedactionType | 被编辑的数据类型 |
-| actionType | RedactionActionType | 对这些数据执行的操作 |
+| actionType | RedactionActionType | 要对这些数据执行的操作 |
 | originalText | String | 匹配的文本、评论或注释正文 |
 | replacement | TextReplacement | 替换文本、匹配文本及其在原始字符串中的位置 |
 
@@ -70,9 +70,9 @@ public RedactionDescription(RedactionType redactionType, RedactionActionType act
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | redactionType | RedactionType | 被编辑的数据类型 |
-| actionType | RedactionActionType | 对这些数据执行的操作 |
+| actionType | RedactionActionType | 要对这些数据执行的操作 |
 | imageAreaReplacement | RegionReplacementOptions | 图像区域替换信息 |
-| imageDetails | String | 图片文字说明，默认为 String.Empty |
+| imageDetails | String | 图片文字描述，默认为String.Empty |
 
 ### 也可以看看
 

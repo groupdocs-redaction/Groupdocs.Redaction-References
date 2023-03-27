@@ -1,14 +1,14 @@
 ---
 title: MetadataCollection
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 表示一个字典MetadataItem./metadataitem以标题为键
+description: 代表字典MetadataItem./metadataitem以其标题作为键.
 type: docs
 weight: 200
 url: /zh/net/groupdocs.redaction.integration/metadatacollection/
 ---
 ## MetadataCollection class
 
-表示一个字典[`MetadataItem`](../metadataitem)以标题为键。
+代表字典[`MetadataItem`](../metadataitem)以其标题作为键.
 
 ```csharp
 public class MetadataCollection : Dictionary<string, MetadataItem>

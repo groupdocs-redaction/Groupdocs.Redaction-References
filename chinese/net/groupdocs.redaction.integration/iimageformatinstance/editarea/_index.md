@@ -21,7 +21,7 @@ public RedactionResult EditArea(Point topLeft, RegionReplacementOptions options)
 
 ### 返回值
 
-图像区域编辑结果
+图片区域遮盖结果
 
 ### 也可以看看
 

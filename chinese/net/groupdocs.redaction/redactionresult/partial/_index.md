@@ -1,14 +1,14 @@
 ---
 title: Partial
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 使用 PartiallyApplied 状态初始化 RedactionResult 类的新实例
+description: 初始化具有 PartiallyApplied 状态的 RedactionResult 类的新实例
 type: docs
 weight: 20
 url: /zh/net/groupdocs.redaction/redactionresult/partial/
 ---
 ## RedactionResult.Partial method
 
-使用 PartiallyApplied 状态初始化 RedactionResult 类的新实例。
+初始化具有 PartiallyApplied 状态的 RedactionResult 类的新实例。
 
 ```csharp
 public static RedactionResult Partial(string description)
@@ -20,7 +20,7 @@ public static RedactionResult Partial(string description)
 
 ### 返回值
 
-部分应用的编辑结果
+部分应用的密文结果
 
 ### 也可以看看
 

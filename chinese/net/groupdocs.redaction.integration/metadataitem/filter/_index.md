@@ -1,14 +1,14 @@
 ---
 title: Filter
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 获取或设置一个值MetadataFiltersgroupdocs.redaction.redactions/metadatafilters分配给用于项目过滤的元数据项目
+description: 获取或设置一个值MetadataFiltersgroupdocs.redaction.redactions/metadatafilters 分配给用于项目过滤的元数据项目
 type: docs
 weight: 50
 url: /zh/net/groupdocs.redaction.integration/metadataitem/filter/
 ---
 ## MetadataItem.Filter property
 
-获取或设置一个值[`MetadataFilters`](../../../groupdocs.redaction.redactions/metadatafilters)，分配给用于项目过滤的元数据项目。
+获取或设置一个值[`MetadataFilters`](../../../groupdocs.redaction.redactions/metadatafilters) 分配给用于项目过滤的元数据项目。
 
 ```csharp
 public MetadataFilters Filter { get; set; }

@@ -3,7 +3,7 @@ title: AnnotationRedaction
 second_title: GroupDocs.Redaction for .NET API 参考
 description: 表示替换与给定正则表达式匹配的注释文本评论等的密文
 type: docs
-weight: 430
+weight: 440
 url: /zh/net/groupdocs.redaction.redactions/annotationredaction/
 ---
 ## AnnotationRedaction class
@@ -25,7 +25,7 @@ public class AnnotationRedaction : Redaction
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Description](../../groupdocs.redaction.redactions/annotationredaction/description) { get; } | 返回一个字符串，描述编辑及其参数。 |
+| override [Description](../../groupdocs.redaction.redactions/annotationredaction/description) { get; } | 返回一个字符串，描述修订及其参数。 |
 | [Expression](../../groupdocs.redaction.redactions/annotationredaction/expression) { get; } | 获取要匹配的正则表达式。 |
 | [Replacement](../../groupdocs.redaction.redactions/annotationredaction/replacement) { get; } | 获取匹配文本的文本替换。 |
 
@@ -37,14 +37,14 @@ public class AnnotationRedaction : Redaction
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 有关应用编辑的更多详细信息： [编辑基础知识](https://docs.groupdocs.com/redaction/net/redaction-basics/)
-* 有关文档注释编辑的更多详细信息： [注释编辑](https://docs.groupdocs.com/redaction/net/annotation-redactions/)
+* 有关应用密文的更多详细信息： [编辑基础知识](https://docs.groupdocs.com/redaction/net/redaction-basics/)
+* 有关文档注释修订的更多详细信息： [注释编辑](https://docs.groupdocs.com/redaction/net/annotation-redactions/)
 
 ### 例子
 
-以下示例演示如何在所有注释中将名称“John”替换为“[redacted]”。
+以下示例演示如何在所有注释中将姓名“John”替换为“[redacted]”。
 
 ```csharp
 using (Redactor redactor = new Redactor(@"C:\test.pdf"))

@@ -3,7 +3,7 @@ title: RedactionPolicy
 second_title: GroupDocs.Redaction for .NET API 参考
 description: 表示清理策略包含一组要应用的特定修订
 type: docs
-weight: 400
+weight: 410
 url: /zh/net/groupdocs.redaction/redactionpolicy/
 ---
 ## RedactionPolicy class
@@ -18,8 +18,8 @@ public class RedactionPolicy
 
 | 姓名 | 描述 |
 | --- | --- |
-| [RedactionPolicy](redactionpolicy#constructor)() | 创建一个新的密文策略实例。 |
-| [RedactionPolicy](redactionpolicy#constructor_1)(Redaction[]) | 使用特定的密文列表创建密文策略的新实例。 |
+| [RedactionPolicy](redactionpolicy#constructor)() | 创建编辑策略的新实例。 |
+| [RedactionPolicy](redactionpolicy#constructor_1)(Redaction[]) | 使用特定的编辑列表创建编辑策略的新实例。 |
 
 ## 特性
 
@@ -32,22 +32,22 @@ public class RedactionPolicy
 | 姓名 | 描述 |
 | --- | --- |
 | static [Load](../../groupdocs.redaction/redactionpolicy/load#load)(Stream) | 加载一个实例[`RedactionPolicy`](../redactionpolicy)来自流. |
-| static [Load](../../groupdocs.redaction/redactionpolicy/load#load_1)(string) | 加载一个实例[`RedactionPolicy`](../redactionpolicy)从文件路径. |
+| static [Load](../../groupdocs.redaction/redactionpolicy/load#load_1)(string) | 加载一个实例[`RedactionPolicy`](../redactionpolicy)来自文件路径. |
 | [Save](../../groupdocs.redaction/redactionpolicy/save#save)(Stream) | 将编辑策略保存到流中。 |
 | [Save](../../groupdocs.redaction/redactionpolicy/save#save_1)(string) | 将编辑策略保存到文件中。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 关于政策的更多细节： [使用编辑策略](https://docs.groupdocs.com/redaction/net/use-redaction-policies/)
-* 有关应用编辑的更多详细信息： [编辑基础知识](https://docs.groupdocs.com/redaction/net/redaction-basics/)
+* 有关政策的更多详细信息： [使用编辑策略](https://docs.groupdocs.com/redaction/net/use-redaction-policies/)
+* 有关应用密文的更多详细信息： [编辑基础知识](https://docs.groupdocs.com/redaction/net/redaction-basics/)
 
 ### 例子
 
 以下示例演示如何将编辑策略应用于给定入站文件夹中的所有文件，并保存到出站文件夹之一 - 用于成功更新的文件和失败的文件。
 
-以下示例包含一个示例 XML 策略文件，其中包含所有类型的编辑的示例配置。
+以下示例包含一个示例 XML 策略文件，其中包含适用于所有类型的编辑的示例配置。
 
 ```csharp
 RedactionPolicy policy = RedactionPolicy.Load("RedactionPolicy.xml");

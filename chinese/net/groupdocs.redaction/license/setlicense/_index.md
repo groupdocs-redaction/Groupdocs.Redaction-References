@@ -28,7 +28,7 @@ public void SetLicense(string licensePath)
 
 ## SetLicense(Stream) {#setlicense}
 
-从流中设置 GroupDocs.Redaction 许可证。
+设置来自流的 GroupDocs.Redaction 许可证。
 
 ```csharp
 public void SetLicense(Stream licenseStream)

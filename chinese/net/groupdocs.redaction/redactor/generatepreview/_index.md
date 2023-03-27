@@ -20,7 +20,7 @@ public void GeneratePreview(PreviewOptions previewOptions)
 
 ### 例子
 
-以下示例演示如何使用获取文档预览[`PreviewOptions`](../../../groupdocs.redaction.options/previewoptions)和两位代表。
+以下示例演示如何使用[`PreviewOptions`](../../../groupdocs.redaction.options/previewoptions)和两位代表。
 
 ```csharp
     CreatePageStream createDelegate = delegate (int pageNumber)
@@ -30,7 +30,7 @@ public void GeneratePreview(PreviewOptions previewOptions)
     };
     ReleasePageStream releaseDelegate = delegate (int pageNumber, System.IO.Stream pageStream)
     {
-        // 用 Stream 做任何事情，包括页面预览
+        // 对 Stream 做任何事情，包括页面预览
         pageStream.Close();
     };
     var previewOptions = new PreviewOptions(createDelegate, releaseDelegate);

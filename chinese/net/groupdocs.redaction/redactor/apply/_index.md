@@ -1,14 +1,14 @@
 ---
 title: Apply
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 对文档应用编辑
+description: 对文档应用密文
 type: docs
 weight: 20
 url: /zh/net/groupdocs.redaction/redactor/apply/
 ---
 ## Apply(Redaction) {#apply}
 
-对文档应用编辑。
+对文档应用密文。
 
 ```csharp
 public RedactorChangeLog Apply(Redaction redaction)
@@ -16,15 +16,15 @@ public RedactorChangeLog Apply(Redaction redaction)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| redaction | Redaction | 一个实例[`Redaction`](../../redaction)申请 |
+| redaction | Redaction | 的实例[`Redaction`](../../redaction)申请 |
 
 ### 返回值
 
-在这种情况下成功或失败以及错误消息
+本例中的成功或失败以及错误消息
 
 ### 例子
 
-以下示例演示了对文档应用单个编辑。
+以下示例演示了对文档应用单个密文。
 
 ```csharp
 using (Redactor redactor = new Redactor(@"D:\\test.docx"))
@@ -49,7 +49,7 @@ using (Redactor redactor = new Redactor(@"D:\\test.docx"))
 
 ## Apply(Redaction[]) {#apply_2}
 
-对文档应用一组密文。
+对文档应用一组修订。
 
 ```csharp
 public RedactorChangeLog Apply(Redaction[] redactions)
@@ -57,15 +57,15 @@ public RedactorChangeLog Apply(Redaction[] redactions)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| redactions | Redaction[] | 要应用的一系列修订 |
+| redactions | Redaction[] | 要应用的一系列编辑 |
 
 ### 返回值
 
-在这种情况下成功或失败以及错误消息
+本例中的成功或失败以及错误消息
 
 ### 例子
 
-以下示例演示了将密文列表应用于文档。
+以下示例演示了对文档应用密文列表。
 
 ```csharp
 using (Redactor redactor = new Redactor(@"D:\\test.docx"))
@@ -102,7 +102,7 @@ using (Redactor redactor = new Redactor(@"D:\\test.docx"))
 
 ## Apply(RedactionPolicy) {#apply_1}
 
-对文档应用密文策略。
+将编辑策略应用于文档。
 
 ```csharp
 public RedactorChangeLog Apply(RedactionPolicy policy)
@@ -114,7 +114,7 @@ public RedactorChangeLog Apply(RedactionPolicy policy)
 
 ### 返回值
 
-在这种情况下成功或失败以及错误消息
+本例中的成功或失败以及错误消息
 
 ### 例子
 

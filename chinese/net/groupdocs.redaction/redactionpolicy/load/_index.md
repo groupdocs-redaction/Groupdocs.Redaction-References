@@ -1,14 +1,14 @@
 ---
 title: Load
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 加载一个实例RedactionPolicygroupdocs.redaction/redactionpolicy从文件路径.
+description: 加载一个实例RedactionPolicygroupdocs.redaction/redactionpolicy来自文件路径.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.redaction/redactionpolicy/load/
 ---
 ## Load(string) {#load_1}
 
-加载一个实例[`RedactionPolicy`](../../redactionpolicy)从文件路径.
+加载一个实例[`RedactionPolicy`](../../redactionpolicy)来自文件路径.
 
 ```csharp
 public static RedactionPolicy Load(string filePath)
@@ -26,7 +26,7 @@ public static RedactionPolicy Load(string filePath)
 
 以下示例演示如何将编辑策略应用于给定入站文件夹中的所有文件，并保存到出站文件夹之一 - 用于成功更新的文件和失败的文件。
 
-以下示例包含一个示例 XML 策略文件，其中包含所有类型的编辑的示例配置。
+以下示例包含一个示例 XML 策略文件，其中包含适用于所有类型的编辑的示例配置。
 
 ```csharp
 RedactionPolicy policy = RedactionPolicy.Load("RedactionPolicy.xml");
@@ -92,7 +92,7 @@ public static RedactionPolicy Load(Stream input)
 
 以下示例演示如何将编辑策略应用于给定入站文件夹中的所有文件，并保存到出站文件夹之一 - 用于成功更新的文件和失败的文件。
 
-以下示例包含一个示例 XML 策略文件，其中包含所有类型的编辑的示例配置。
+以下示例包含一个示例 XML 策略文件，其中包含适用于所有类型的编辑的示例配置。
 
 ```csharp
 RedactionPolicy policy = RedactionPolicy.Load("RedactionPolicy.xml");

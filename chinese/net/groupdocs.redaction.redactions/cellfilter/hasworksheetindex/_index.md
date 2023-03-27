@@ -1,14 +1,14 @@
 ---
 title: HasWorkSheetIndex
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 获取一个值该值指示是否WorkSheetIndexgroupdocs.redaction.redactions/cellfilter/worksheetindex设置与否
+description: 获取一个值表示是否WorkSheetIndexgroupdocs.redaction.redactions/cellfilter/worksheetindex是否设置.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.redaction.redactions/cellfilter/hasworksheetindex/
 ---
 ## CellFilter.HasWorkSheetIndex property
 
-获取一个值，该值指示是否[`WorkSheetIndex`](../worksheetindex)设置与否。
+获取一个值，表示是否[`WorkSheetIndex`](../worksheetindex)是否设置.
 
 ```csharp
 public bool HasWorkSheetIndex { get; }

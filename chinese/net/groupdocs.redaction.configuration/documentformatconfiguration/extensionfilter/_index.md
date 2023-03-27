@@ -1,14 +1,14 @@
 ---
 title: ExtensionFilter
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 获取或设置以逗号  分隔的文件扩展名列表例如 .pdf不区分大小写
+description: 获取或设置逗号  分隔的文件扩展名列表例如.pdf不区分大小写
 type: docs
 weight: 30
 url: /zh/net/groupdocs.redaction.configuration/documentformatconfiguration/extensionfilter/
 ---
 ## DocumentFormatConfiguration.ExtensionFilter property
 
-获取或设置以逗号 (",") 分隔的文件扩展名列表（例如 ".pdf"），不区分大小写。
+获取或设置逗号 (",") 分隔的文件扩展名列表（例如“.pdf”），不区分大小写。
 
 ```csharp
 public string ExtensionFilter { get; set; }

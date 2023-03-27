@@ -1,14 +1,14 @@
 ---
 title: ReleasePageStream
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 获取或设置页面预览完成委托的实例
+description: 获取或设置页面预览完成委托实例
 type: docs
 weight: 60
 url: /zh/net/groupdocs.redaction.options/previewoptions/releasepagestream/
 ---
 ## PreviewOptions.ReleasePageStream property
 
-获取或设置页面预览完成委托的实例。
+获取或设置页面预览完成委托实例。
 
 ```csharp
 public ReleasePageStream ReleasePageStream { get; set; }

@@ -18,17 +18,17 @@ public interface IRasterizableDocument
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Rasterize](../../groupdocs.redaction.integration/irasterizabledocument/rasterize#rasterize)(Stream) | 将文档以 PDF 格式保存到流中。 |
-| [Rasterize](../../groupdocs.redaction.integration/irasterizabledocument/rasterize#rasterize_1)(Stream, RasterizationOptions) | 将文档以 PDF 格式保存到流中，并带有页面范围和合规性选项。 |
+| [Rasterize](../../groupdocs.redaction.integration/irasterizabledocument/rasterize#rasterize)(Stream) | 将文档作为 PDF 保存到流中。 |
+| [Rasterize](../../groupdocs.redaction.integration/irasterizabledocument/rasterize#rasterize_1)(Stream, RasterizationOptions) | 将文档作为具有页面范围和合规性选项的 PDF 保存到流中。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 有关应用编辑的更多详细信息： [编辑基础知识](https://docs.groupdocs.com/redaction/net/redaction-basics/)
-* 有关将文档另存为光栅化 PDF 的更多详细信息： [保存为栅格化 PDF](https://docs.groupdocs.com/redaction/net/save-in-rasterized-pdf/)
+* 有关应用密文的更多详细信息： [编辑基础知识](https://docs.groupdocs.com/redaction/net/redaction-basics/)
+* 有关将文档另存为光栅化 PDF 的更多详细信息： [保存为光栅化 PDF](https://docs.groupdocs.com/redaction/net/save-in-rasterized-pdf/)
 * 有关光栅化选项的更多详细信息： [为光栅化 PDF 选择特定页面](https://docs.groupdocs.com/redaction/net/select-specific-pages-for-rasterized-pdf/)
-* 关于实现自定义格式的更多细节： [创建自定义格式处理程序](https://docs.groupdocs.com/redaction/net/create-custom-format-handler/)
+* 有关实现自定义格式的更多详细信息： [创建自定义格式处理程序](https://docs.groupdocs.com/redaction/net/create-custom-format-handler/)
 
 ### 也可以看看
 

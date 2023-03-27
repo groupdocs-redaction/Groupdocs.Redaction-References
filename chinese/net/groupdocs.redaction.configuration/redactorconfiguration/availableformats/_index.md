@@ -1,14 +1,14 @@
 ---
 title: AvailableFormats
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 获取已识别格式的列表请参阅DocumentFormatConfigurationgroupdocs.redaction.configuration/documentformatconfiguration.
+description: 获取识别格式列表参见DocumentFormatConfigurationgroupdocs.redaction.configuration/documentformatconfiguration.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.redaction.configuration/redactorconfiguration/availableformats/
 ---
 ## RedactorConfiguration.AvailableFormats property
 
-获取已识别格式的列表，请参阅[`DocumentFormatConfiguration`](../../documentformatconfiguration).
+获取识别格式列表，参见[`DocumentFormatConfiguration`](../../documentformatconfiguration).
 
 ```csharp
 public List<DocumentFormatConfiguration> AvailableFormats { get; }

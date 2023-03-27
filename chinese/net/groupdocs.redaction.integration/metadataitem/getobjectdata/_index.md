@@ -17,7 +17,7 @@ public virtual void GetObjectData(SerializationInfo info, StreamingContext conte
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | info | SerializationInfo | 保存序列化对象数据的对象 |
-| context | StreamingContext | 关于源或目标的上下文信息 |
+| context | StreamingContext | 有关源或目标的上下文信息 |
 
 ### 也可以看看
 

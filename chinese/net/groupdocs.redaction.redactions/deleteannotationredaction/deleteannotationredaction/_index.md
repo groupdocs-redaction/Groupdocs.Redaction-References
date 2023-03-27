@@ -1,14 +1,14 @@
 ---
 title: DeleteAnnotationRedaction
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 初始化 DeleteAnnotationRedaction 类的新实例设置删除所有注释匹配所有内容
+description: 初始化 DeleteAnnotationRedaction 类的新实例设置为删除所有注释匹配所有内容
 type: docs
 weight: 10
 url: /zh/net/groupdocs.redaction.redactions/deleteannotationredaction/deleteannotationredaction/
 ---
 ## DeleteAnnotationRedaction() {#constructor}
 
-初始化 DeleteAnnotationRedaction 类的新实例，设置删除所有注释（匹配所有内容）。
+初始化 DeleteAnnotationRedaction 类的新实例，设置为删除所有注释（匹配所有内容）。
 
 ```csharp
 public DeleteAnnotationRedaction()

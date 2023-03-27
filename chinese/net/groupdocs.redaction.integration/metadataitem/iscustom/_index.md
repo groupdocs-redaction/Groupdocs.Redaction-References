@@ -1,14 +1,14 @@
 ---
 title: IsCustom
 second_title: GroupDocs.Redaction for .NET API 参考
-description: 获取或设置一个值该值指示此项目是否为自定义由文档作者添加
+description: 获取或设置一个值该值指示此项是否为自定义由文档作者添加
 type: docs
 weight: 60
 url: /zh/net/groupdocs.redaction.integration/metadataitem/iscustom/
 ---
 ## MetadataItem.IsCustom property
 
-获取或设置一个值，该值指示此项目是否为自定义（由文档作者添加）。
+获取或设置一个值，该值指示此项是否为自定义（由文档作者添加）。
 
 ```csharp
 public bool IsCustom { get; set; }
