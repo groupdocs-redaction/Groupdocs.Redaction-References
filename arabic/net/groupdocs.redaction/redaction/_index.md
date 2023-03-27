@@ -3,7 +3,7 @@ title: Redaction
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يمثل فئة مجردة أساسية لجميع أنواع التنقيح.
 type: docs
-weight: 390
+weight: 400
 url: /ar/net/groupdocs.redaction/redaction/
 ---
 ## Redaction class

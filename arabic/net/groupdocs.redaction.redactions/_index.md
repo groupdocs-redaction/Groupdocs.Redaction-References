@@ -16,14 +16,14 @@ url: /ar/net/groupdocs.redaction.redactions/
 | [CellColumnRedaction](./cellcolumnredaction) | يمثل تنقيح النص الذي يحل محل النص في مستندات جدول البيانات (CSV ، Excel ، إلخ.). |
 | [CellFilter](./cellfilter) | يوفر خيارًا للحد من نطاق ملف[`CellColumnRedaction`](../groupdocs.redaction.redactions/cellcolumnredaction) إلى ورقة عمل وعمود. |
 | [DeleteAnnotationRedaction](./deleteannotationredaction) | يمثل تنقيح النص الذي يحذف التعليقات التوضيحية إذا كان النص مطابقًا للتعبير العادي المعطى (اختياريًا يحذف جميع التعليقات التوضيحية) . |
-| [EraseMetadataRedaction](./erasemetadataredaction) | يمثل تنقيح البيانات الوصفية الذي يمسح جميع البيانات الوصفية أو البيانات الوصفية المطابقة لمرشحات البيانات الوصفية المحددة من المستند. |
+| [EraseMetadataRedaction](./erasemetadataredaction) | يمثل تنقيح البيانات الوصفية الذي يمحو جميع البيانات الوصفية أو البيانات الوصفية التي تطابق MetadataFilters معينة من المستند. |
 | [ExactPhraseRedaction](./exactphraseredaction) | يمثل تنقيح النص الذي يحل محل العبارة الدقيقة في نص المستند ، غير حساس لحالة الأحرف بشكل افتراضي. |
 | [ImageAreaRedaction](./imagearearedaction) | يمثل تنقيحًا يضع مستطيلًا ملونًا في منطقة معينة من مستند الصورة. |
 | [MetadataRedaction](./metadataredaction) | يمثل فئة الملخص الأساسية لتنقيح بيانات تعريف المستند. |
 | [MetadataSearchRedaction](./metadatasearchredaction) | يمثل تنقيح البيانات الوصفية الذي يبحث عن البيانات الوصفية وينقحها باستخدام التعبيرات العادية و / أو المفاتيح المتطابقة و / أو القيم. |
 | [RedactionDescription](./redactiondescription) | يمثل معلومات إجراء تغيير واحد تم إجراؤه أثناء عملية التنقيح. |
 | [RegexRedaction](./regexredaction) | يمثل تنقيح النص الذي يبحث عن النص في المستند واستبداله عن طريق مطابقة التعبير العادي المقدم. |
-| [RegionReplacementOptions](./regionreplacementoptions) | يمثل معلمات اللون والمساحة لاستبدال منطقة الصورة. نرى[`ImageAreaRedaction`](../groupdocs.redaction.redactions/imagearearedaction) . |
+| [RegionReplacementOptions](./regionreplacementoptions) | يمثل معلمات اللون والمساحة لاستبدال منطقة الصورة. يرى[`ImageAreaRedaction`](../groupdocs.redaction.redactions/imagearearedaction) . |
 | [RemovePageRedaction](./removepageredaction) | يمثل تنقيحًا يزيل صفحة (شريحة ، ورقة عمل ، إلخ) من المستند. |
 | [ReplacementOptions](./replacementoptions) | يمثل خيارات لاستبدال النص المتطابق. |
 | [TextRedaction](./textredaction) | يمثل فئة مجردة أساسية لتنقيح نص المستند. |

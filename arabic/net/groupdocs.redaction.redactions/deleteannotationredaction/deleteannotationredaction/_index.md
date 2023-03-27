@@ -24,7 +24,7 @@ public DeleteAnnotationRedaction()
 
 ## DeleteAnnotationRedaction(string) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لفئة DeleteAnnotationRedaction وحذف التعليقات التوضيحية المطابقة للتعبير المحدد.
+يقوم بتهيئة مثيل جديد لفئة DeleteAnnotationRedaction وحذف التعليقات التوضيحية التي تطابق التعبير المحدد.
 
 ```csharp
 public DeleteAnnotationRedaction(string pattern)
@@ -44,7 +44,7 @@ public DeleteAnnotationRedaction(string pattern)
 
 ## DeleteAnnotationRedaction(Regex) {#constructor_2}
 
-يقوم بتهيئة مثيل جديد لفئة DeleteAnnotationRedaction وحذف التعليقات التوضيحية المطابقة للتعبير المحدد.
+يقوم بتهيئة مثيل جديد لفئة DeleteAnnotationRedaction وحذف التعليقات التوضيحية التي تطابق التعبير المحدد.
 
 ```csharp
 public DeleteAnnotationRedaction(Regex regex)

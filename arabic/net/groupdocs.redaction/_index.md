@@ -12,7 +12,7 @@ url: /ar/net/groupdocs.redaction/
 
 | فصل | وصف |
 | --- | --- |
-| [DocumentInfo](./documentinfo) | يمثل معلومات حول المستند. تنفذ واجهة IDocumentInfo. نرى[`IDocumentInfo`](../groupdocs.redaction/idocumentinfo) للحصول على أمثلة . |
+| [DocumentInfo](./documentinfo) | يمثل معلومات حول المستند. تنفذ واجهة IDocumentInfo. يرى[`IDocumentInfo`](../groupdocs.redaction/idocumentinfo) للحصول على أمثلة . |
 | [FileType](./filetype) | يمثل نوع الملف. يوفر طرقًا للحصول على قائمة بجميع أنواع الملفات التي يدعمها GroupDocs.Redaction واكتشاف نوع الملف حسب الامتداد وما إلى ذلك. |
 | [License](./license) | يوفر طرقًا لتطبيق الترخيص . |
 | [Metered](./metered) | يوفر طرقًا تسمح بتنشيط المنتج بترخيص مقيّد واسترداد كمية الميغابايت التي تمت معالجتها . تعرف على المزيد حول التراخيص المقننة[هنا](https://purchase.groupdocs.com/faqs/licensing/metered) . |

@@ -3,7 +3,7 @@ title: ILogger
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يحدد واجهة المسجل التي يمكن استخدامها لتسجيل الأحداث والأخطاء في عملية التنقيح.
 type: docs
-weight: 290
+weight: 300
 url: /ar/net/groupdocs.redaction.options/ilogger/
 ---
 ## ILogger interface

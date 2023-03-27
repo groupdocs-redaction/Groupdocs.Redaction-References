@@ -3,7 +3,7 @@ title: RedactorSettings
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يمثل إعدادات التنقيح  مما يسمح بتخصيص عملية التنقيح.
 type: docs
-weight: 350
+weight: 360
 url: /ar/net/groupdocs.redaction.options/redactorsettings/
 ---
 ## RedactorSettings class

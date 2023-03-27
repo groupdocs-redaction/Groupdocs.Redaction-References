@@ -1,14 +1,14 @@
 ---
 title: RegionReplacementOptions
 second_title: GroupDocs.Redaction لمرجع .NET API
-description: يمثل معلمات اللون والمساحة لاستبدال منطقة الصورة. نرىImageAreaRedaction./imagearearedaction .
+description: يمثل معلمات اللون والمساحة لاستبدال منطقة الصورة. يرىImageAreaRedaction./imagearearedaction .
 type: docs
-weight: 590
+weight: 600
 url: /ar/net/groupdocs.redaction.redactions/regionreplacementoptions/
 ---
 ## RegionReplacementOptions class
 
-يمثل معلمات اللون والمساحة لاستبدال منطقة الصورة. نرى[`ImageAreaRedaction`](../imagearearedaction) .
+يمثل معلمات اللون والمساحة لاستبدال منطقة الصورة. يرى[`ImageAreaRedaction`](../imagearearedaction) .
 
 ```csharp
 public class RegionReplacementOptions

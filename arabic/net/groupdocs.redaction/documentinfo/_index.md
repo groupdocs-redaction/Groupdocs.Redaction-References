@@ -1,14 +1,14 @@
 ---
 title: DocumentInfo
 second_title: GroupDocs.Redaction لمرجع .NET API
-description: يمثل معلومات حول المستند. تنفذ واجهة IDocumentInfo. نرىIDocumentInfo./idocumentinfo للحصول على أمثلة .
+description: يمثل معلومات حول المستند. تنفذ واجهة IDocumentInfo. يرىIDocumentInfo./idocumentinfo للحصول على أمثلة .
 type: docs
 weight: 30
 url: /ar/net/groupdocs.redaction/documentinfo/
 ---
 ## DocumentInfo class
 
-يمثل معلومات حول المستند. تنفذ واجهة IDocumentInfo. نرى[`IDocumentInfo`](../idocumentinfo) للحصول على أمثلة .
+يمثل معلومات حول المستند. تنفذ واجهة IDocumentInfo. يرى[`IDocumentInfo`](../idocumentinfo) للحصول على أمثلة .
 
 ```csharp
 public class DocumentInfo : IDocumentInfo

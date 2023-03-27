@@ -3,7 +3,7 @@ title: RedactionDescription
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يمثل معلومات إجراء تغيير واحد تم إجراؤه أثناء عملية التنقيح.
 type: docs
-weight: 560
+weight: 570
 url: /ar/net/groupdocs.redaction.redactions/redactiondescription/
 ---
 ## RedactionDescription class

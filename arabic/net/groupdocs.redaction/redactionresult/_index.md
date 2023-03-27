@@ -3,7 +3,7 @@ title: RedactionResult
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يمثل نتيجة لعملية التنقيح .
 type: docs
-weight: 410
+weight: 420
 url: /ar/net/groupdocs.redaction/redactionresult/
 ---
 ## RedactionResult class

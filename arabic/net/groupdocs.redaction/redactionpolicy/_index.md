@@ -3,7 +3,7 @@ title: RedactionPolicy
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يمثل سياسة تعقيم  تحتوي على مجموعة من التنقيحات المحددة للتطبيق.
 type: docs
-weight: 400
+weight: 410
 url: /ar/net/groupdocs.redaction/redactionpolicy/
 ---
 ## RedactionPolicy class

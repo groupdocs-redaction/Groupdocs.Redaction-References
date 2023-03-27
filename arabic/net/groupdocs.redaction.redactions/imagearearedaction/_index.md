@@ -3,7 +3,7 @@ title: ImageAreaRedaction
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يمثل تنقيحًا يضع مستطيلًا ملونًا في منطقة معينة من مستند الصورة.
 type: docs
-weight: 500
+weight: 510
 url: /ar/net/groupdocs.redaction.redactions/imagearearedaction/
 ---
 ## ImageAreaRedaction class

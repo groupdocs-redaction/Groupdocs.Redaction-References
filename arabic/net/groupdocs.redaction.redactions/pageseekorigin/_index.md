@@ -3,7 +3,7 @@ title: PageSeekOrigin
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يوفر الحقول التي تمثل النقاط المرجعية في مستند للبحث.
 type: docs
-weight: 540
+weight: 550
 url: /ar/net/groupdocs.redaction.redactions/pageseekorigin/
 ---
 ## PageSeekOrigin enumeration

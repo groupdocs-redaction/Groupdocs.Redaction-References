@@ -3,7 +3,7 @@ title: RedactorLogEntry
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يمثل نتائج تطبيق التنقيح .
 type: docs
-weight: 670
+weight: 680
 url: /ar/net/groupdocs.redaction/redactorlogentry/
 ---
 ## RedactorLogEntry class

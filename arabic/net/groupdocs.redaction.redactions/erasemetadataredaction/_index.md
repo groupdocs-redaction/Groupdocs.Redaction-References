@@ -1,14 +1,14 @@
 ---
 title: EraseMetadataRedaction
 second_title: GroupDocs.Redaction لمرجع .NET API
-description: يمثل تنقيح البيانات الوصفية الذي يمسح جميع البيانات الوصفية أو البيانات الوصفية المطابقة لمرشحات البيانات الوصفية المحددة من المستند.
+description: يمثل تنقيح البيانات الوصفية الذي يمحو جميع البيانات الوصفية أو البيانات الوصفية التي تطابق MetadataFilters معينة من المستند.
 type: docs
-weight: 470
+weight: 480
 url: /ar/net/groupdocs.redaction.redactions/erasemetadataredaction/
 ---
 ## EraseMetadataRedaction class
 
-يمثل تنقيح البيانات الوصفية الذي يمسح جميع البيانات الوصفية أو البيانات الوصفية المطابقة لمرشحات البيانات الوصفية المحددة من المستند.
+يمثل تنقيح البيانات الوصفية الذي يمحو جميع البيانات الوصفية أو البيانات الوصفية التي تطابق MetadataFilters معينة من المستند.
 
 ```csharp
 public class EraseMetadataRedaction : MetadataRedaction

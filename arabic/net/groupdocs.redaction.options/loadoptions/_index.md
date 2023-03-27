@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يوفر الخيارات التي سيتم استخدامها لفتح ملف.
 type: docs
-weight: 300
+weight: 310
 url: /ar/net/groupdocs.redaction.options/loadoptions/
 ---
 ## LoadOptions class

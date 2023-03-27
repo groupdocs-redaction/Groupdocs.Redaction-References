@@ -3,7 +3,7 @@ title: RegexRedaction
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يمثل تنقيح النص الذي يبحث عن النص في المستند واستبداله عن طريق مطابقة التعبير العادي المقدم.
 type: docs
-weight: 580
+weight: 590
 url: /ar/net/groupdocs.redaction.redactions/regexredaction/
 ---
 ## RegexRedaction class

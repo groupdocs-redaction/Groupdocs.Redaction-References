@@ -26,7 +26,7 @@ public class DocumentFormatConfiguration
 | --- | --- |
 | [DocumentType](../../groupdocs.redaction.configuration/documentformatconfiguration/documenttype) { get; set; } | الحصول على أو تحديد نوع الفصل ، الموروث منه[`DocumentFormatInstance`](../../groupdocs.redaction.integration/documentformatinstance) . |
 | [ExtensionFilter](../../groupdocs.redaction.configuration/documentformatconfiguration/extensionfilter) { get; set; } | الحصول على أو تعيين فاصلة ("،") قائمة محددة بامتدادات الملفات (على سبيل المثال ".pdf") ، غير حساس لحالة الأحرف. |
-| [InitializationData](../../groupdocs.redaction.configuration/documentformatconfiguration/initializationdata) { get; set; } | الحصول على البيانات أو تعيينها المطلوبة لـ[`DocumentFormatInstance`](../../groupdocs.redaction.integration/documentformatinstance) التهيئة . |
+| [InitializationData](../../groupdocs.redaction.configuration/documentformatconfiguration/initializationdata) { get; set; } | الحصول على أو تعيين البيانات المطلوبة لـ[`DocumentFormatInstance`](../../groupdocs.redaction.integration/documentformatinstance) التهيئة . |
 
 ## طُرق
 

@@ -3,7 +3,7 @@ title: CellColumnRedaction
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يمثل تنقيح النص الذي يحل محل النص في مستندات جدول البيانات CSV  Excel  إلخ..
 type: docs
-weight: 440
+weight: 450
 url: /ar/net/groupdocs.redaction.redactions/cellcolumnredaction/
 ---
 ## CellColumnRedaction class

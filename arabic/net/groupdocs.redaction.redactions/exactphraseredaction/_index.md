@@ -3,7 +3,7 @@ title: ExactPhraseRedaction
 second_title: GroupDocs.Redaction لمرجع .NET API
 description: يمثل تنقيح النص الذي يحل محل العبارة الدقيقة في نص المستند  غير حساس لحالة الأحرف بشكل افتراضي.
 type: docs
-weight: 480
+weight: 490
 url: /ar/net/groupdocs.redaction.redactions/exactphraseredaction/
 ---
 ## ExactPhraseRedaction class
