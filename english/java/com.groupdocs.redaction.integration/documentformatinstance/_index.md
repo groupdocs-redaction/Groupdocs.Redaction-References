@@ -54,6 +54,7 @@ The following example demonstrates how to create an empty stub for a custom form
 | [createInstance(Class docType)](#createInstance-java.lang.Class-) |  |
 | [getPassword()](#getPassword--) | Gets a password for password protected documents. |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Sets a password for password protected documents. |
+| [getRequiresRasterization()](#getRequiresRasterization--) | Gets value, indicating if the format instance is read-only and cannot be saved in original format. |
 | [isAccessGranted()](#isAccessGranted--) |  |
 | [initialize(DocumentFormatConfiguration config, RedactorSettings settings)](#initialize-com.groupdocs.redaction.configuration.DocumentFormatConfiguration-com.groupdocs.redaction.options.RedactorSettings-) | Performs initialization of the instance of document format handler. |
 | [load(InputStream input)](#load-java.io.InputStream-) | Loads the document from a stream. |
@@ -105,6 +106,16 @@ Sets a password for password protected documents.
 | --- | --- | --- |
 | value | java.lang.String | A password for password protected documents. |
 
+### getRequiresRasterization() {#getRequiresRasterization--}
+```
+public boolean getRequiresRasterization()
+```
+
+
+Gets value, indicating if the format instance is read-only and cannot be saved in original format.
+
+**Returns:**
+boolean - Value, indicating if the format instance is read-only and cannot be saved in original format.
 ### isAccessGranted() {#isAccessGranted--}
 ```
 public final boolean isAccessGranted()
