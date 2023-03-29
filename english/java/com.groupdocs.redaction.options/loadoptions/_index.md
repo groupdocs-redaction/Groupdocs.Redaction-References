@@ -47,7 +47,7 @@ The following example demonstrates how to open password-protected document.
 | [LoadOptions()](#LoadOptions--) | Initializes a new instance of LoadOptions class. |
 | [LoadOptions(String password)](#LoadOptions-java.lang.String-) | Initializes a new instance of LoadOptions class with specified password. |
 | [LoadOptions(boolean preRasterize)](#LoadOptions-boolean-) | Initializes a new instance of LoadOptions class with specified pre-rasterization flag. |
-| [LoadOptions(String password, boolean preRasterize)](#LoadOptions-java.lang.String-boolean-) | Initializes a new instance of LoadOptions class with specified password. |
+| [LoadOptions(String password, boolean preRasterize)](#LoadOptions-java.lang.String-boolean-) | Initializes a new instance of LoadOptions class with specified password and pre-rasterization flag. |
 ## Methods
 
 | Method | Description |
@@ -96,7 +96,7 @@ public LoadOptions(String password, boolean preRasterize)
 ```
 
 
-Initializes a new instance of LoadOptions class with specified password.
+Initializes a new instance of LoadOptions class with specified password and pre-rasterization flag.
 
 **Parameters:**
 | Parameter | Type | Description |
