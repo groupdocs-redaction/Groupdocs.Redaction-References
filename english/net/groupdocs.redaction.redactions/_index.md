@@ -21,7 +21,10 @@ The Redactions namespace provides classes for different types of redactions.
 | [ImageAreaRedaction](./imagearearedaction) | Represents a redaction that places colored rectangle in given area of an image document. |
 | [MetadataRedaction](./metadataredaction) | Represents a base abstract class for document metadata redactions. |
 | [MetadataSearchRedaction](./metadatasearchredaction) | Represents a metadata redaction that searches and redacts metadata using regular expressions, matching keys and/or values. |
+| [PageAreaFilter](./pageareafilter) | Represents redaction filter, setting an area within a page of a document to apply redaction. |
+| [PageRangeFilter](./pagerangefilter) | Represents redaction filter, setting page range inside a document to apply redaction. |
 | [RedactionDescription](./redactiondescription) | Represents a single change action info that performed during redaction process. |
+| [RedactionFilter](./redactionfilter) | Represents redaction filter, setting scope inside a document to apply redactions. |
 | [RegexRedaction](./regexredaction) | Represents a text redaction that searches and replaces text in the document by matching provided regular expression. |
 | [RegionReplacementOptions](./regionreplacementoptions) | Represents color and area parameters for image region replacement. See [`ImageAreaRedaction`](../groupdocs.redaction.redactions/imagearearedaction). |
 | [RemovePageRedaction](./removepageredaction) | Represents a redaction that removes a page (slide, worksheet, etc.) from a document. |
