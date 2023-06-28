@@ -3,7 +3,7 @@ title: Replacement
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Gets or sets the textual replacement value.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.redaction.redactions/replacementoptions/replacement/
 ---
 ## ReplacementOptions.Replacement property
