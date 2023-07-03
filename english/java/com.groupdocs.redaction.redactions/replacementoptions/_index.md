@@ -37,6 +37,8 @@ Represents options for matched text replacement.
 | [setReplacement(String value)](#setReplacement-java.lang.String-) | Sets the textual replacement value. |
 | [getBoxColor()](#getBoxColor--) | Gets the color for a  ReplacementType.DrawBox  option (ignored otherwise). |
 | [setBoxColor(Color value)](#setBoxColor-java.awt.Color-) | Sets the color for a  ReplacementType.DrawBox  option (ignored otherwise). |
+| [getFilters()](#getFilters--) | Gets an array of filters to apply with this redaction. |
+| [setFilters(RedactionFilter[] value)](#setFilters-com.groupdocs.redaction.redactions.RedactionFilter---) | Sets an array of filters to apply with this redaction. |
 ### ReplacementOptions(String replacement) {#ReplacementOptions-java.lang.String-}
 ```
 public ReplacementOptions(String replacement)
@@ -118,4 +120,27 @@ Sets the color for a  ReplacementType.DrawBox  option (ignored otherwise).
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.awt.Color | The color for a  ReplacementType.DrawBox  option (ignored otherwise). |
+
+### getFilters() {#getFilters--}
+```
+public final RedactionFilter[] getFilters()
+```
+
+
+Gets an array of filters to apply with this redaction.
+
+**Returns:**
+com.groupdocs.redaction.redactions.RedactionFilter[] - An array of filters to apply with this redaction.
+### setFilters(RedactionFilter[] value) {#setFilters-com.groupdocs.redaction.redactions.RedactionFilter---}
+```
+public final void setFilters(RedactionFilter[] value)
+```
+
+
+Sets an array of filters to apply with this redaction.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [RedactionFilter\[\]](../../com.groupdocs.redaction.redactions/redactionfilter) | An array of filters to apply with this redaction. |
 
