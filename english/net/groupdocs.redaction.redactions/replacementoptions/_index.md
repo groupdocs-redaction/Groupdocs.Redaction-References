@@ -27,7 +27,7 @@ public class ReplacementOptions
 | --- | --- |
 | [ActionType](../../groupdocs.redaction.redactions/replacementoptions/actiontype) { get; } | Gets the replacement action: draw box or replace text. |
 | [BoxColor](../../groupdocs.redaction.redactions/replacementoptions/boxcolor) { get; set; } | Gets or sets the color for a DrawBox option (ignored otherwise). |
-| [Filters](../../groupdocs.redaction.redactions/replacementoptions/filters) { get; set; } | Gets or sets an array of filters to apply with this redaction |
+| [Filters](../../groupdocs.redaction.redactions/replacementoptions/filters) { get; set; } | Gets or sets an array of filters to apply with this redaction. |
 | [Replacement](../../groupdocs.redaction.redactions/replacementoptions/replacement) { get; set; } | Gets or sets the textual replacement value. |
 
 ### Remarks

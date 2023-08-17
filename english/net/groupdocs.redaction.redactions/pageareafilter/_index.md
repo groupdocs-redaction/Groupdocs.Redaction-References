@@ -24,7 +24,7 @@ public class PageAreaFilter : RedactionFilter
 
 | Name | Description |
 | --- | --- |
-| [Rectangle](../../groupdocs.redaction.redactions/pageareafilter/rectangle) { get; } | Gets the rectangle (top-left position and size of the area) on a page |
+| [Rectangle](../../groupdocs.redaction.redactions/pageareafilter/rectangle) { get; } | Gets the rectangle (top-left position and size of the area) on a page. |
 
 ### See Also
 
