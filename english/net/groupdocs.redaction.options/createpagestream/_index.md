@@ -3,7 +3,7 @@ title: CreatePageStream
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents method that returns a stream to write page preview data.
 type: docs
-weight: 290
+weight: 300
 url: /net/groupdocs.redaction.options/createpagestream/
 ---
 ## CreatePageStream delegate

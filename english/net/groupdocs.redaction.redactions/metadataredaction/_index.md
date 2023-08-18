@@ -3,7 +3,7 @@ title: MetadataRedaction
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents a base abstract class for document metadata redactions.
 type: docs
-weight: 530
+weight: 540
 url: /net/groupdocs.redaction.redactions/metadataredaction/
 ---
 ## MetadataRedaction class

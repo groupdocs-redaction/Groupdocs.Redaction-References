@@ -3,7 +3,7 @@ title: EraseMetadataRedaction
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents a metadata redaction that erases all metadata or metadata matching specific MetadataFilters from the document.
 type: docs
-weight: 480
+weight: 490
 url: /net/groupdocs.redaction.redactions/erasemetadataredaction/
 ---
 ## EraseMetadataRedaction class

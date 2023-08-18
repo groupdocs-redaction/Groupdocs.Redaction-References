@@ -22,6 +22,7 @@ The Redactions namespace provides classes for different types of redactions.
 | [MetadataRedaction](./metadataredaction) | Represents a base abstract class for document metadata redactions. |
 | [MetadataSearchRedaction](./metadatasearchredaction) | Represents a metadata redaction that searches and redacts metadata using regular expressions, matching keys and/or values. |
 | [PageAreaFilter](./pageareafilter) | Represents redaction filter, setting an area within a page of a document to apply redaction. |
+| [PageAreaRedaction](./pagearearedaction) | Represents a complex textual redaction that affects text, images and annotations in an area of the page. |
 | [PageRangeFilter](./pagerangefilter) | Represents redaction filter, setting page range inside a document to apply redaction. |
 | [RedactionDescription](./redactiondescription) | Represents a single change action info that performed during redaction process. |
 | [RedactionFilter](./redactionfilter) | Represents redaction filter, setting scope inside a document to apply redactions. |

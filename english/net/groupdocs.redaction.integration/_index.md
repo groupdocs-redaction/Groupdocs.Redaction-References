@@ -21,6 +21,7 @@ The Integration namespace provides interfaces and classes, used to integrate doc
 | --- | --- |
 | [IAnnotatedDocument](./iannotateddocument) | Defines methods that are required for access to annotations, such as comments. Needs to be implemented by [`DocumentFormatInstance`](../groupdocs.redaction.integration/documentformatinstance)-derived class to perform annotation redactions. |
 | [ICellularFormatInstance](./icellularformatinstance) | Defines methods that are required for access to spreadsheet formats, having one or many worksheets. |
+| [IFixedFormatDocument](./ifixedformatdocument) | Defines methods that are required for access formats of fixed structure, such as PDF or presentations. |
 | [IImageFormatInstance](./iimageformatinstance) | Defines methods that are required for raster image format redactions. |
 | [IMetadataAccess](./imetadataaccess) | Defines methods that are required for access to metadata of a document, if format supports it. |
 | [IPaginatedDocument](./ipaginateddocument) | Defines methods that are required to manipulate a document's pages. Needs to be implemented by [`DocumentFormatInstance`](../groupdocs.redaction.integration/documentformatinstance)-derived class to perform page redactions. |

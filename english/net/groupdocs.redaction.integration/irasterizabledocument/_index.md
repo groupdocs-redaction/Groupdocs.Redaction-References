@@ -3,7 +3,7 @@ title: IRasterizableDocument
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Defines methods that are required for saving document in any binary form. Builtin types save a document as a PDF with images of its pages.
 type: docs
-weight: 180
+weight: 190
 url: /net/groupdocs.redaction.integration/irasterizabledocument/
 ---
 ## IRasterizableDocument interface

@@ -3,7 +3,7 @@ title: PageSeekOrigin
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Provides the fields that represent reference points in a document for seeking.
 type: docs
-weight: 570
+weight: 590
 url: /net/groupdocs.redaction.redactions/pageseekorigin/
 ---
 ## PageSeekOrigin enumeration

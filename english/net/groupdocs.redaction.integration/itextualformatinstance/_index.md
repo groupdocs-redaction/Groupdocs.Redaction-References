@@ -3,7 +3,7 @@ title: ITextualFormatInstance
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Defines methods that are required for redacting textual data in any document containing text.
 type: docs
-weight: 190
+weight: 200
 url: /net/groupdocs.redaction.integration/itextualformatinstance/
 ---
 ## ITextualFormatInstance interface

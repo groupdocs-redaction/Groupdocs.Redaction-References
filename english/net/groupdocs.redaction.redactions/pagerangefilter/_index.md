@@ -3,7 +3,7 @@ title: PageRangeFilter
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents redaction filter setting page range inside a document to apply redaction.
 type: docs
-weight: 560
+weight: 580
 url: /net/groupdocs.redaction.redactions/pagerangefilter/
 ---
 ## PageRangeFilter class
@@ -27,6 +27,13 @@ public class PageRangeFilter : RedactionFilter
 | [Count](../../groupdocs.redaction.redactions/pagerangefilter/count) { get; } | Gets the count of pages to remove. |
 | [Index](../../groupdocs.redaction.redactions/pagerangefilter/index) { get; } | Gets start position index (0-based). |
 | [Origin](../../groupdocs.redaction.redactions/pagerangefilter/origin) { get; } | Gets seek reference position, the beginning or the end of a document. |
+
+### Remarks
+
+**Learn more**
+
+* More details about applying redactions: [Redaction basics](https://docs.groupdocs.com/redaction/net/redaction-basics/)
+* More details about redaction filters: [Use PDF redaction filters](https://docs.groupdocs.com/redaction/net/use-pdf-redaction-filters/)
 
 ### See Also
 

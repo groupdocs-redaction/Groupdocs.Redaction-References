@@ -3,7 +3,7 @@ title: RasterizationOptions
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Provides options for converting files into PDF.
 type: docs
-weight: 350
+weight: 360
 url: /net/groupdocs.redaction.options/rasterizationoptions/
 ---
 ## RasterizationOptions class

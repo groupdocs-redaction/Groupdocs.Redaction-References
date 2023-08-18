@@ -3,7 +3,7 @@ title: IMetadataAccess
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Defines methods that are required for access to metadata of a document if format supports it.
 type: docs
-weight: 150
+weight: 160
 url: /net/groupdocs.redaction.integration/imetadataaccess/
 ---
 ## IMetadataAccess interface

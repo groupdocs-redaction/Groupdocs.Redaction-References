@@ -3,7 +3,7 @@ title: AnnotationRedaction
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents a redaction that replaces annotation text comments etc. matching a given regular expression.
 type: docs
-weight: 440
+weight: 450
 url: /net/groupdocs.redaction.redactions/annotationredaction/
 ---
 ## AnnotationRedaction class

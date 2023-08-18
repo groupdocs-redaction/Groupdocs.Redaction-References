@@ -3,7 +3,7 @@ title: IPaginatedDocument
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Defines methods that are required to manipulate a documents pages. Needs to be implemented by DocumentFormatInstance./documentformatinstancederived class to perform page redactions.
 type: docs
-weight: 160
+weight: 170
 url: /net/groupdocs.redaction.integration/ipaginateddocument/
 ---
 ## IPaginatedDocument interface

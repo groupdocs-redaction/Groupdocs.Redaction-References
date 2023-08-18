@@ -3,7 +3,7 @@ title: RegexRedaction
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents a text redaction that searches and replaces text in the document by matching provided regular expression.
 type: docs
-weight: 620
+weight: 640
 url: /net/groupdocs.redaction.redactions/regexredaction/
 ---
 ## RegexRedaction class

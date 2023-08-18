@@ -3,7 +3,7 @@ title: RecognizedImage
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents text extracted from an image as a result of its recognition process.
 type: docs
-weight: 230
+weight: 240
 url: /net/groupdocs.redaction.integration.ocr/recognizedimage/
 ---
 ## RecognizedImage class

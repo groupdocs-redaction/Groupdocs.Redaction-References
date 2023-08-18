@@ -3,7 +3,7 @@ title: ApplyTo
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Applies the redaction to a given format instance.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.redaction.redactions/exactphraseredaction/applyto/
 ---
 ## ExactPhraseRedaction.ApplyTo method
