@@ -3,7 +3,7 @@ title: MetadataSearchRedaction
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents a metadata redaction that searches and redacts metadata using regular expressions matching keys and/or values.
 type: docs
-weight: 540
+weight: 550
 url: /net/groupdocs.redaction.redactions/metadatasearchredaction/
 ---
 ## MetadataSearchRedaction class

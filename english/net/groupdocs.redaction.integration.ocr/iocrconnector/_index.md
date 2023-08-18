@@ -3,7 +3,7 @@ title: IOcrConnector
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Defines methods that are required to apply textual redactions to image documents and embedded images.
 type: docs
-weight: 220
+weight: 230
 url: /net/groupdocs.redaction.integration.ocr/iocrconnector/
 ---
 ## IOcrConnector interface

@@ -3,7 +3,7 @@ title: IRedactionCallback
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Defines methods that are required for receiving information on each redaction change and optionally prevent it.
 type: docs
-weight: 500
+weight: 510
 url: /net/groupdocs.redaction.redactions/iredactioncallback/
 ---
 ## IRedactionCallback interface

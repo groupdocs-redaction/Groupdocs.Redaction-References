@@ -3,7 +3,7 @@ title: PageAreaFilter
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents redaction filter setting an area within a page of a document to apply redaction.
 type: docs
-weight: 550
+weight: 560
 url: /net/groupdocs.redaction.redactions/pageareafilter/
 ---
 ## PageAreaFilter class
@@ -25,6 +25,13 @@ public class PageAreaFilter : RedactionFilter
 | Name | Description |
 | --- | --- |
 | [Rectangle](../../groupdocs.redaction.redactions/pageareafilter/rectangle) { get; } | Gets the rectangle (top-left position and size of the area) on a page. |
+
+### Remarks
+
+**Learn more**
+
+* More details about applying redactions: [Redaction basics](https://docs.groupdocs.com/redaction/net/redaction-basics/)
+* More details about redaction filters: [Use PDF redaction filters](https://docs.groupdocs.com/redaction/net/use-pdf-redaction-filters/)
 
 ### See Also
 

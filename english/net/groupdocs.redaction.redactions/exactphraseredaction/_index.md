@@ -3,7 +3,7 @@ title: ExactPhraseRedaction
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents a text redaction that replaces exact phrase in the documents text case insensitive by default.
 type: docs
-weight: 490
+weight: 500
 url: /net/groupdocs.redaction.redactions/exactphraseredaction/
 ---
 ## ExactPhraseRedaction class
@@ -28,6 +28,7 @@ public class ExactPhraseRedaction : TextRedaction
 | [ActionOptions](../../groupdocs.redaction.redactions/textredaction/actionoptions) { get; } | Gets the [`ReplacementOptions`](../replacementoptions) instance, specifying type of text replacement. |
 | override [Description](../../groupdocs.redaction.redactions/exactphraseredaction/description) { get; } | Returns a string, describing the redaction and its parameters. |
 | [IsCaseSensitive](../../groupdocs.redaction.redactions/exactphraseredaction/iscasesensitive) { get; } | Gets a value indicating whether the search is case-sensitive or not. |
+| [IsRightToLeft](../../groupdocs.redaction.redactions/exactphraseredaction/isrighttoleft) { get; set; } | Gets or sets a value indicating if this text is right-to-Left or not, false by default. |
 | [OcrConnector](../../groupdocs.redaction.redactions/textredaction/ocrconnector) { get; set; } | Gets or sets the [`IOcrConnector`](../../groupdocs.redaction.integration.ocr/iocrconnector) implementation, required to extract text from graphic content. |
 | [SearchPhrase](../../groupdocs.redaction.redactions/exactphraseredaction/searchphrase) { get; } | Gets the string to search and replace. |
 

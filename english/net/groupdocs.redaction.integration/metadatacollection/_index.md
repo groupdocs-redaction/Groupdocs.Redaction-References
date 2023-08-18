@@ -3,7 +3,7 @@ title: MetadataCollection
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents a dictionary of MetadataItem./metadataitem with its title as a key.
 type: docs
-weight: 200
+weight: 210
 url: /net/groupdocs.redaction.integration/metadatacollection/
 ---
 ## MetadataCollection class

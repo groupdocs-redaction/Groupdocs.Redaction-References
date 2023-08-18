@@ -3,7 +3,7 @@ title: RedactionFilter
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents redaction filter setting scope inside a document to apply redactions.
 type: docs
-weight: 600
+weight: 620
 url: /net/groupdocs.redaction.redactions/redactionfilter/
 ---
 ## RedactionFilter class
@@ -13,6 +13,13 @@ Represents redaction filter, setting scope inside a document to apply redactions
 ```csharp
 public abstract class RedactionFilter
 ```
+
+### Remarks
+
+**Learn more**
+
+* More details about applying redactions: [Redaction basics](https://docs.groupdocs.com/redaction/net/redaction-basics/)
+* More details about redaction filters: [Use PDF redaction filters](https://docs.groupdocs.com/redaction/net/use-pdf-redaction-filters/)
 
 ### See Also
 

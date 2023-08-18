@@ -3,7 +3,7 @@ title: ReplacementOptions
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents options for matched text replacement.
 type: docs
-weight: 650
+weight: 670
 url: /net/groupdocs.redaction.redactions/replacementoptions/
 ---
 ## ReplacementOptions class
@@ -35,6 +35,7 @@ public class ReplacementOptions
 **Learn more**
 
 * More details about document text redactions: [Text redactions](https://docs.groupdocs.com/redaction/net/text-redactions/)
+* More details about redaction filters: [Use PDF redaction filters](https://docs.groupdocs.com/redaction/net/use-pdf-redaction-filters/)
 
 ### See Also
 

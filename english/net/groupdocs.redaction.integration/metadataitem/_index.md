@@ -3,7 +3,7 @@ title: MetadataItem
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents an item of metadata common for all supported formats and used in metadata redactions.
 type: docs
-weight: 210
+weight: 220
 url: /net/groupdocs.redaction.integration/metadataitem/
 ---
 ## MetadataItem class

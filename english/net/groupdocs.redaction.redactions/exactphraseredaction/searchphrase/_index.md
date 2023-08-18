@@ -3,7 +3,7 @@ title: SearchPhrase
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Gets the string to search and replace.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.redaction.redactions/exactphraseredaction/searchphrase/
 ---
 ## ExactPhraseRedaction.SearchPhrase property

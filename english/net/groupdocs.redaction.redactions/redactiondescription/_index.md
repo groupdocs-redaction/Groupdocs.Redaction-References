@@ -3,7 +3,7 @@ title: RedactionDescription
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents a single change action info that performed during redaction process.
 type: docs
-weight: 590
+weight: 610
 url: /net/groupdocs.redaction.redactions/redactiondescription/
 ---
 ## RedactionDescription class
