@@ -3,7 +3,7 @@ title: RedactionType
 second_title: GroupDocs.Redaction for Java API Reference
 description: Represents a type of documents data affected by redaction.
 type: docs
-weight: 30
+weight: 34
 url: /java/com.groupdocs.redaction.redactions/redactiontype/
 ---
 **Inheritance:**

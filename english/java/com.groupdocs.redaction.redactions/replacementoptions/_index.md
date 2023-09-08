@@ -3,7 +3,7 @@ title: ReplacementOptions
 second_title: GroupDocs.Redaction for Java API Reference
 description: Represents options for matched text replacement.
 type: docs
-weight: 24
+weight: 28
 url: /java/com.groupdocs.redaction.redactions/replacementoptions/
 ---
 **Inheritance:**

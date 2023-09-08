@@ -3,7 +3,7 @@ title: IPaginatedDocument
 second_title: GroupDocs.Redaction for Java API Reference
 description: Defines methods that are required to manipulate a documents pages.
 type: docs
-weight: 24
+weight: 25
 url: /java/com.groupdocs.redaction.integration/ipaginateddocument/
 ---```
 public interface IPaginatedDocument
