@@ -62,6 +62,8 @@ The following example demonstrates replacing phrase (case insensitive) with soli
 | --- | --- |
 | [getSearchPhrase()](#getSearchPhrase--) | Gets the string to search and replace. |
 | [isCaseSensitive()](#isCaseSensitive--) | Gets a value indicating whether the search is case-sensitive or not. |
+| [isRightToLeft()](#isRightToLeft--) | Gets a value indicating if this text is right-to-Left or not, false by default. |
+| [setRightToLeft(boolean value)](#setRightToLeft-boolean-) | Sets a value indicating if this text is right-to-Left or not, false by default. |
 | [getDescription()](#getDescription--) | Returns a string, describing the redaction and its parameters. |
 | [applyTo(DocumentFormatInstance formatInstance)](#applyTo-com.groupdocs.redaction.integration.DocumentFormatInstance-) | Applies the redaction to a given format instance. |
 ### ExactPhraseRedaction(String searchPhrase, ReplacementOptions options) {#ExactPhraseRedaction-java.lang.String-com.groupdocs.redaction.redactions.ReplacementOptions-}
@@ -113,6 +115,29 @@ Gets a value indicating whether the search is case-sensitive or not.
 
 **Returns:**
 boolean - A value indicating whether the search is case-sensitive or not.
+### isRightToLeft() {#isRightToLeft--}
+```
+public final boolean isRightToLeft()
+```
+
+
+Gets a value indicating if this text is right-to-Left or not, false by default.
+
+**Returns:**
+boolean - A value indicating if this text is right-to-Left or not, false by default.
+### setRightToLeft(boolean value) {#setRightToLeft-boolean-}
+```
+public final void setRightToLeft(boolean value)
+```
+
+
+Sets a value indicating if this text is right-to-Left or not, false by default.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | A value indicating if this text is right-to-Left or not, false by default. |
+
 ### getDescription() {#getDescription--}
 ```
 public String getDescription()
