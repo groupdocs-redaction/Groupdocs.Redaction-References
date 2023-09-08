@@ -3,7 +3,7 @@ title: IImageContainer
 second_title: GroupDocs.Redaction for Java API Reference
 description: Defines methods that are required to access an array of images e.g.
 type: docs
-weight: 19
+weight: 20
 url: /java/com.groupdocs.redaction.integration/iimagecontainer/
 ---```
 public interface IImageContainer

@@ -3,7 +3,7 @@ title: RegexRedaction
 second_title: GroupDocs.Redaction for Java API Reference
 description: Represents a text redaction that searches and replaces text in the document by matching provided regular expression.
 type: docs
-weight: 21
+weight: 25
 url: /java/com.groupdocs.redaction.redactions/regexredaction/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: IMetadataAccess
 second_title: GroupDocs.Redaction for Java API Reference
 description: Defines methods that are required for access to metadata of a document if format supports it.
 type: docs
-weight: 21
+weight: 22
 url: /java/com.groupdocs.redaction.integration/imetadataaccess/
 ---```
 public interface IMetadataAccess

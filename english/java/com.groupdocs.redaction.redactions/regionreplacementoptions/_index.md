@@ -3,7 +3,7 @@ title: RegionReplacementOptions
 second_title: GroupDocs.Redaction for Java API Reference
 description: Represents color and area parameters for image region replacement.
 type: docs
-weight: 22
+weight: 26
 url: /java/com.groupdocs.redaction.redactions/regionreplacementoptions/
 ---
 **Inheritance:**

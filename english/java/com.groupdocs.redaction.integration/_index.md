@@ -28,6 +28,7 @@ The package provides interfaces and classes, used to integrate documents of diff
 | --- | --- |
 | [IAnnotatedDocument](../com.groupdocs.redaction.integration/iannotateddocument) | Defines methods that are required for access to annotations, such as comments. |
 | [ICellularFormatInstance](../com.groupdocs.redaction.integration/icellularformatinstance) | Defines methods that are required for access to spreadsheet formats, having one or many worksheets. |
+| [IFixedFormatDocument](../com.groupdocs.redaction.integration/ifixedformatdocument) | Defines methods that are required for access formats of fixed structure, such as PDF or presentations. |
 | [IImageContainer](../com.groupdocs.redaction.integration/iimagecontainer) | Defines methods that are required to access an array of images (e.g. |
 | [IImageFormatInstance](../com.groupdocs.redaction.integration/iimageformatinstance) | Defines methods that are required for raster image format redactions. |
 | [IMetadataAccess](../com.groupdocs.redaction.integration/imetadataaccess) | Defines methods that are required for access to metadata of a document, if format supports it. |

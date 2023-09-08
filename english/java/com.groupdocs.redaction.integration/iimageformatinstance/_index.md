@@ -3,7 +3,7 @@ title: IImageFormatInstance
 second_title: GroupDocs.Redaction for Java API Reference
 description: Defines methods that are required for raster image format redactions.
 type: docs
-weight: 20
+weight: 21
 url: /java/com.groupdocs.redaction.integration/iimageformatinstance/
 ---```
 public interface IImageFormatInstance

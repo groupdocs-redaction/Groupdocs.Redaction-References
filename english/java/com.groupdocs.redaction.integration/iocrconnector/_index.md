@@ -3,7 +3,7 @@ title: IOcrConnector
 second_title: GroupDocs.Redaction for Java API Reference
 description: Defines methods that are required to apply textual redactions to image documents and embedded images.
 type: docs
-weight: 23
+weight: 24
 url: /java/com.groupdocs.redaction.integration/iocrconnector/
 ---```
 public interface IOcrConnector

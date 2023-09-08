@@ -24,7 +24,11 @@ The package provides classes for different types of redactions.
 | [MetadataFilters](../com.groupdocs.redaction.redactions/metadatafilters) | Represents a list of the most common types of document metadata. |
 | [MetadataRedaction](../com.groupdocs.redaction.redactions/metadataredaction) | Represents a base abstract class for document metadata redactions. |
 | [MetadataSearchRedaction](../com.groupdocs.redaction.redactions/metadatasearchredaction) | Represents a metadata redaction that searches and redacts metadata using regular expressions, matching keys and/or values. |
+| [PageAreaFilter](../com.groupdocs.redaction.redactions/pageareafilter) | Represents redaction filter, setting an area within a page of a document to apply redaction. |
+| [PageAreaRedaction](../com.groupdocs.redaction.redactions/pagearearedaction) | Represents a complex textual redaction that affects text, images and annotations in an area of the page. |
+| [PageRangeFilter](../com.groupdocs.redaction.redactions/pagerangefilter) | Represents redaction filter, setting page range inside a document to apply redaction. |
 | [RedactionDescription](../com.groupdocs.redaction.redactions/redactiondescription) | Represents a single change action info that performed during redaction process. |
+| [RedactionFilter](../com.groupdocs.redaction.redactions/redactionfilter) | Represents redaction filter, setting scope inside a document to apply redactions. |
 | [RegexRedaction](../com.groupdocs.redaction.redactions/regexredaction) | Represents a text redaction that searches and replaces text in the document by matching provided regular expression. |
 | [RegionReplacementOptions](../com.groupdocs.redaction.redactions/regionreplacementoptions) | Represents color and area parameters for image region replacement. |
 | [RemovePageRedaction](../com.groupdocs.redaction.redactions/removepageredaction) | Represents a redaction that removes a page (slide, worksheet, etc.) from a document. |

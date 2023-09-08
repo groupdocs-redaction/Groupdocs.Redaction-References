@@ -3,7 +3,7 @@ title: IRasterizableDocument
 second_title: GroupDocs.Redaction for Java API Reference
 description: Defines methods that are required for saving document in any binary form.
 type: docs
-weight: 26
+weight: 27
 url: /java/com.groupdocs.redaction.integration/irasterizabledocument/
 ---```
 public interface IRasterizableDocument
