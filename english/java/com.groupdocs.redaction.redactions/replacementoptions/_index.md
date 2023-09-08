@@ -19,9 +19,11 @@ Represents options for matched text replacement.
 **Learn more**
 
  *  More details about document text redactions: [Text redactions][]
+ *  More details about redaction filters: [Use PDF redaction filters][]
 
 
 [Text redactions]: https://docs.groupdocs.com/redaction/java/text-redactions/
+[Use PDF redaction filters]: https://docs.groupdocs.com/redaction/java/use-pdf-redaction-filters/
 ## Constructors
 
 | Constructor | Description |
