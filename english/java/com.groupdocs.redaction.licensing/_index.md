@@ -1,11 +1,14 @@
 ---
 title: com.groupdocs.redaction.licensing
 second_title: GroupDocs.Redaction for Java API Reference
-description: 
+description: The package provides classes to set license or use Metered billing.
 type: docs
 weight: 14
 url: /java/com.groupdocs.redaction.licensing/
 ---
+
+The package provides classes to set license or use Metered billing.
+
 
 ## Classes
 
