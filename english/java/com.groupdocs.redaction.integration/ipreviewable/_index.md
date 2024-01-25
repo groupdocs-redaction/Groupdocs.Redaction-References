@@ -3,7 +3,7 @@ title: IPreviewable
 second_title: GroupDocs.Redaction for Java API Reference
 description: Defines methods to create preview of the document.
 type: docs
-weight: 26
+weight: 25
 url: /java/com.groupdocs.redaction.integration/ipreviewable/
 ---```
 public interface IPreviewable

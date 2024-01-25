@@ -3,7 +3,7 @@ title: RedactionActionType
 second_title: GroupDocs.Redaction for Java API Reference
 description: Represents actions that can be taken to perform redaction.
 type: docs
-weight: 33
+weight: 34
 url: /java/com.groupdocs.redaction.redactions/redactionactiontype/
 ---
 **Inheritance:**

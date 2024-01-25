@@ -3,13 +3,13 @@ title: RedactionType
 second_title: GroupDocs.Redaction for Java API Reference
 description: Represents a type of documents data affected by redaction.
 type: docs
-weight: 34
+weight: 25
 url: /java/com.groupdocs.redaction.redactions/redactiontype/
 ---
 **Inheritance:**
-java.lang.Object, java.lang.Enum
+java.lang.Object
 ```
-public enum RedactionType extends Enum<RedactionType>
+public final class RedactionType
 ```
 
 Represents a type of document's data, affected by redaction.
@@ -26,11 +26,10 @@ Represents a type of document's data, affected by redaction.
 
 | Method | Description |
 | --- | --- |
-| [values()](#values--) |  |
-| [valueOf(String name)](#valueOf-java.lang.String-) |  |
+| [values()](#values--) | List of RedactionType values. |
 ### Text {#Text}
 ```
-public static final RedactionType Text
+public static final int Text
 ```
 
 
@@ -38,7 +37,7 @@ The document's body text.
 
 ### Metadata {#Metadata}
 ```
-public static final RedactionType Metadata
+public static final int Metadata
 ```
 
 
@@ -46,7 +45,7 @@ The document's metadata.
 
 ### Annotation {#Annotation}
 ```
-public static final RedactionType Annotation
+public static final int Annotation
 ```
 
 
@@ -54,7 +53,7 @@ The annotations within document's text.
 
 ### ImageArea {#ImageArea}
 ```
-public static final RedactionType ImageArea
+public static final int ImageArea
 ```
 
 
@@ -62,7 +61,7 @@ The area within an image.
 
 ### Page {#Page}
 ```
-public static final RedactionType Page
+public static final int Page
 ```
 
 
@@ -70,26 +69,11 @@ The page of a document.
 
 ### values() {#values--}
 ```
-public static RedactionType[] values()
+public static List<String> values()
 ```
 
 
-
+List of RedactionType values.
 
 **Returns:**
-com.groupdocs.redaction.redactions.RedactionType[]
-### valueOf(String name) {#valueOf-java.lang.String-}
-```
-public static RedactionType valueOf(String name)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String |  |
-
-**Returns:**
-[RedactionType](../../com.groupdocs.redaction.redactions/redactiontype)
+java.util.List<java.lang.String>

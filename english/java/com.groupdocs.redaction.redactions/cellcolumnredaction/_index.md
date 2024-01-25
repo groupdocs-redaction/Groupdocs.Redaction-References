@@ -30,7 +30,7 @@ The following example demonstrates removing user emails from a second column on 
     CellFilter filter = new CellFilter();
     filter.setColumnIndex(1); // zero-based 2nd column
     filter.setWorkSheetName("Customers");
-    
+
     Pattern expression = Pattern.compile("^\\w+([-+.']\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*$");
     RedactorChangeLog changeLog = redactor.apply(new CellColumnRedaction(filter, expression, new ReplacementOptions("[customer email]")));
     if (result.Status != RedactionStatus.Failed)

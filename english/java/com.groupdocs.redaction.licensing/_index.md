@@ -14,11 +14,5 @@ The package provides classes to set license or use Metered billing.
 
 | Class | Description |
 | --- | --- |
-| [AsposeCells](../com.groupdocs.redaction.licensing/asposecells) |  |
-| [AsposeHtml](../com.groupdocs.redaction.licensing/asposehtml) |  |
-| [AsposeImaging](../com.groupdocs.redaction.licensing/asposeimaging) |  |
-| [AsposePdf](../com.groupdocs.redaction.licensing/asposepdf) |  |
-| [AsposeSlides](../com.groupdocs.redaction.licensing/asposeslides) |  |
-| [AsposeWords](../com.groupdocs.redaction.licensing/asposewords) |  |
-| [License](../com.groupdocs.redaction.licensing/license) | Provides methods for applying license. |
-| [Metered](../com.groupdocs.redaction.licensing/metered) | Provides methods which allow to activate product with Metered license and retrieve amount of MBs processed. |
+| [License](../com.groupdocs.redaction.licensing/license) | Provides methods to license the component. |
+| [Metered](../com.groupdocs.redaction.licensing/metered) | Provides methods for applying  [Metered][]  license.[Metered]: https://purchase.groupdocs.com/faqs/licensing/metered |

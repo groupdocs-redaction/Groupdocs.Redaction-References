@@ -3,7 +3,7 @@ title: IRedactionCallback
 second_title: GroupDocs.Redaction for Java API Reference
 description: Defines methods that are required for receiving information on each redaction change and optionally prevent it.
 type: docs
-weight: 31
+weight: 32
 url: /java/com.groupdocs.redaction.redactions/iredactioncallback/
 ---```
 public interface IRedactionCallback

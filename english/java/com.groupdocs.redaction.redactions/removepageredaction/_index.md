@@ -3,7 +3,7 @@ title: RemovePageRedaction
 second_title: GroupDocs.Redaction for Java API Reference
 description: Represents a redaction that removes a page slide worksheet etc. from a document.
 type: docs
-weight: 27
+weight: 28
 url: /java/com.groupdocs.redaction.redactions/removepageredaction/
 ---
 **Inheritance:**

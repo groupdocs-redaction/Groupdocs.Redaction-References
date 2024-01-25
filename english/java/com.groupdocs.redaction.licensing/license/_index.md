@@ -1,9 +1,9 @@
 ---
 title: License
 second_title: GroupDocs.Redaction for Java API Reference
-description: Provides methods for applying license.
+description: Provides methods to license the component.
 type: docs
-weight: 16
+weight: 10
 url: /java/com.groupdocs.redaction.licensing/license/
 ---
 **Inheritance:**
@@ -12,46 +12,28 @@ java.lang.Object
 public class License
 ```
 
-Provides methods for applying license.
-
---------------------
-
-**Learn more**
-
- *  More about licensing: [GroupDocs Licensing FAQ][]
- *  More about **GroupDocs.Redaction** licensing: [Evaluation Limitations and Licensing][]
-
-The following example demonstrates how to set the license for GroupDocs.Redaction.
-
-```
-
-  com.groupdocs.redaction.License license = new com.groupdocs.redaction.License();
- // as an alternative you can use a stream:
- license.setLicense(licensePath);
- 
-```
+Provides methods to license the component. Learn more about licensing  [here][] .
 
 
-[GroupDocs Licensing FAQ]: https://purchase.groupdocs.com/faqs/licensing
-[Evaluation Limitations and Licensing]: https://docs.groupdocs.com/redaction/java/evaluation-limitations-and-licensing/
+[here]: https://purchase.groupdocs.com/faqs/licensing
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [License()](#License--) | Initialize an instance of License class. |
+| [License()](#License--) | Instantiate the License |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [setLicense(String licensePath)](#setLicense-java.lang.String-) | Sets the GroupDocs.Redaction license from a file path. |
-| [setLicense(InputStream licenseStream)](#setLicense-java.io.InputStream-) | Sets the GroupDocs.Redaction license from a stream. |
+| [setLicense(String licensePath)](#setLicense-java.lang.String-) | Licenses the component. |
+| [setLicense(InputStream licenseStream)](#setLicense-java.io.InputStream-) | Licenses the component. |
 ### License() {#License--}
 ```
 public License()
 ```
 
 
-Initialize an instance of License class.
+Instantiate the License
 
 ### setLicense(String licensePath) {#setLicense-java.lang.String-}
 ```
@@ -59,12 +41,23 @@ public final void setLicense(String licensePath)
 ```
 
 
-Sets the GroupDocs.Redaction license from a file path.
+Licenses the component.
+
+--------------------
+
+> ```
+> The following example demonstrates how to set a license
+>  passing a path to the license file.
+>  
+>  string licensePath = "GroupDocs.Signature.lic";
+>  GroupDocs.Signature.License lic = new GroupDocs.Signature.License();
+>  lic.SetLicense(licensePath);
+> ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| licensePath | java.lang.String | License file path. |
+| licensePath | java.lang.String | The license path. |
 
 ### setLicense(InputStream licenseStream) {#setLicense-java.io.InputStream-}
 ```
@@ -72,10 +65,23 @@ public final void setLicense(InputStream licenseStream)
 ```
 
 
-Sets the GroupDocs.Redaction license from a stream.
+Licenses the component.
+
+--------------------
+
+> ```
+> The following example demonstrates how to set a license
+>  passing Stream of the license file.
+>  
+>  using (FileStream licenseStream = new FileStream("GroupDocs.Signature.lic", FileMode.Open))
+>  {
+>      GroupDocs.Signature.License lic = new GroupDocs.Signature.License();
+>      lic.SetLicense(licenseStream);
+>  }
+> ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| licenseStream | java.io.InputStream | License stream. |
+| licenseStream | java.io.InputStream | The license stream. |
 

@@ -3,7 +3,7 @@ title: ReplacementOptions
 second_title: GroupDocs.Redaction for Java API Reference
 description: Represents options for matched text replacement.
 type: docs
-weight: 28
+weight: 29
 url: /java/com.groupdocs.redaction.redactions/replacementoptions/
 ---
 **Inheritance:**
@@ -41,6 +41,7 @@ Represents options for matched text replacement.
 | [setBoxColor(Color value)](#setBoxColor-java.awt.Color-) | Sets the color for a  ReplacementType.DrawBox  option (ignored otherwise). |
 | [getFilters()](#getFilters--) | Gets an array of filters to apply with this redaction. |
 | [setFilters(RedactionFilter[] value)](#setFilters-com.groupdocs.redaction.redactions.RedactionFilter---) | Sets an array of filters to apply with this redaction. |
+| [fromFilters(RedactionFilter[] filters)](#fromFilters-com.groupdocs.redaction.redactions.RedactionFilter---) |  |
 ### ReplacementOptions(String replacement) {#ReplacementOptions-java.lang.String-}
 ```
 public ReplacementOptions(String replacement)
@@ -146,3 +147,18 @@ Sets an array of filters to apply with this redaction.
 | --- | --- | --- |
 | value | [RedactionFilter\[\]](../../com.groupdocs.redaction.redactions/redactionfilter) | An array of filters to apply with this redaction. |
 
+### fromFilters(RedactionFilter[] filters) {#fromFilters-com.groupdocs.redaction.redactions.RedactionFilter---}
+```
+public static ReplacementOptions fromFilters(RedactionFilter[] filters)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filters | [RedactionFilter\[\]](../../com.groupdocs.redaction.redactions/redactionfilter) |  |
+
+**Returns:**
+[ReplacementOptions](../../com.groupdocs.redaction.redactions/replacementoptions)

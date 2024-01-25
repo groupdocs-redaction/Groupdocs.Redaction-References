@@ -1,42 +1,46 @@
 ---
 title: Metered
 second_title: GroupDocs.Redaction for Java API Reference
-description: Provides methods which allow to activate product with Metered license and retrieve amount of MBs processed.
+description: Provides methods for applying Metered license.
 type: docs
-weight: 17
+weight: 11
 url: /java/com.groupdocs.redaction.licensing/metered/
 ---
 **Inheritance:**
-java.lang.Object, com.groupdocs.redaction.licensing.MeteredCore
+java.lang.Object
 ```
-public class Metered extends MeteredCore
+public class Metered
 ```
 
-Provides methods which allow to activate product with Metered license and retrieve amount of MBs processed. Learn more about Metered licenses [here][].
+Provides methods for applying  [Metered][]  license.
+
+--------------------
+
+**Learn more**
+
+ *  More about Metered licensing: [Metered Licensing FAQ][Metered]
+ *  More about GroupDocs.Signature licensing: [Evaluation Limitations and Licensing][]
 
 
-[here]: https://purchase.groupdocs.com/faqs/licensing/metered
+[Metered]: https://purchase.groupdocs.com/faqs/licensing/metered
+[Evaluation Limitations and Licensing]: https://docs.groupdocs.com/display/signaturejava/Evaluation+Limitations+and+Licensing+of+GroupDocs.Signature
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [Metered()](#Metered--) | Initializes a new instance of Metered class. |
+| [Metered()](#Metered--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [setMeteredKey(String publicKey, String privateKey)](#setMeteredKey-java.lang.String-java.lang.String-) | Activates the product with Metered keys. |
-| [getConsumptionQuantity()](#getConsumptionQuantity--) | Retrieves the amount of MBs processed. |
-| [getConsumptionCredit()](#getConsumptionCredit--) | Gets the consumption credit. |
-| [reportUsageInBytes(long bytesLength)](#reportUsageInBytes-long-) |  |
-| [reportCreditsUsage(long usedCredits)](#reportCreditsUsage-long-) |  |
+| [setMeteredKey(String publicKey, String privateKey)](#setMeteredKey-java.lang.String-java.lang.String-) | Activates product with Metered keys. |
+| [getConsumptionQuantity()](#getConsumptionQuantity--) | Retrieves amount of MBs processed. |
+| [getConsumptionCredit()](#getConsumptionCredit--) | Retrieves count of credits consumed. |
 ### Metered() {#Metered--}
 ```
 public Metered()
 ```
 
-
-Initializes a new instance of Metered class.
 
 ### setMeteredKey(String publicKey, String privateKey) {#setMeteredKey-java.lang.String-java.lang.String-}
 ```
@@ -44,7 +48,18 @@ public final void setMeteredKey(String publicKey, String privateKey)
 ```
 
 
-Activates the product with Metered keys.
+Activates product with Metered keys.
+
+--------------------
+
+> ```
+> Following example demonstrates how to activate product with Metered keys.
+>  
+>  string publicKey = "Public Key";
+>  string privateKey = "Private Key";
+>  Metered metered = new Metered();
+>  metered.SetMeteredKey(publicKey, privateKey);
+> ```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -58,43 +73,43 @@ public static double getConsumptionQuantity()
 ```
 
 
-Retrieves the amount of MBs processed.
+Retrieves amount of MBs processed.
+
+--------------------
+
+> ```
+> Following example demonstrates how to retrieve amount of MBs processed.
+>   
+>   string publicKey = "Public Key";
+>   string privateKey = "Private Key";
+> 
+>   Metered metered = new Metered();
+>   metered.SetMeteredKey(publicKey, privateKey);
+>   decimal mbProcessed = Metered.GetConsumptionQuantity();
+> ```
 
 **Returns:**
-double - consumption quantity
+double
 ### getConsumptionCredit() {#getConsumptionCredit--}
 ```
 public static double getConsumptionCredit()
 ```
 
 
-Gets the consumption credit.
+Retrieves count of credits consumed.
+
+--------------------
+
+> ```
+> Following example demonstrates how to retrieve count of credits consumed.
+>   
+>   string publicKey = "Public Key";
+>   string privateKey = "Private Key";
+> 
+>   Metered metered = new Metered();
+>   metered.SetMeteredKey(publicKey, privateKey);
+>   decimal creditsConsumed = Metered.GetConsumptionCredit();
+> ```
 
 **Returns:**
-double - consumption quantity
-### reportUsageInBytes(long bytesLength) {#reportUsageInBytes-long-}
-```
-public static void reportUsageInBytes(long bytesLength)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| bytesLength | long |  |
-
-### reportCreditsUsage(long usedCredits) {#reportCreditsUsage-long-}
-```
-public static void reportCreditsUsage(long usedCredits)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| usedCredits | long |  |
-
+double

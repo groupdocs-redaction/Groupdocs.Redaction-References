@@ -29,6 +29,7 @@ The package provides classes for different types of redactions.
 | [PageRangeFilter](../com.groupdocs.redaction.redactions/pagerangefilter) | Represents redaction filter, setting page range inside a document to apply redaction. |
 | [RedactionDescription](../com.groupdocs.redaction.redactions/redactiondescription) | Represents a single change action info that performed during redaction process. |
 | [RedactionFilter](../com.groupdocs.redaction.redactions/redactionfilter) | Represents redaction filter, setting scope inside a document to apply redactions. |
+| [RedactionType](../com.groupdocs.redaction.redactions/redactiontype) | Represents a type of document's data, affected by redaction. |
 | [RegexRedaction](../com.groupdocs.redaction.redactions/regexredaction) | Represents a text redaction that searches and replaces text in the document by matching provided regular expression. |
 | [RegionReplacementOptions](../com.groupdocs.redaction.redactions/regionreplacementoptions) | Represents color and area parameters for image region replacement. |
 | [RemovePageRedaction](../com.groupdocs.redaction.redactions/removepageredaction) | Represents a redaction that removes a page (slide, worksheet, etc.) from a document. |
@@ -48,5 +49,4 @@ The package provides classes for different types of redactions.
 | --- | --- |
 | [PageSeekOrigin](../com.groupdocs.redaction.redactions/pageseekorigin) | Provides the fields that represent reference points in a document for seeking. |
 | [RedactionActionType](../com.groupdocs.redaction.redactions/redactionactiontype) | Represents actions that can be taken to perform redaction. |
-| [RedactionType](../com.groupdocs.redaction.redactions/redactiontype) | Represents a type of document's data, affected by redaction. |
 | [ReplacementType](../com.groupdocs.redaction.redactions/replacementtype) | Represents a type of replacement for the matched text. |

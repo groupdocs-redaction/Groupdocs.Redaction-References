@@ -3,7 +3,7 @@ title: IMultipleAreaRedactable
 second_title: GroupDocs.Redaction for Java API Reference
 description: Defines methods that are required to redact multiple image areas at once with the same color.
 type: docs
-weight: 23
+weight: 22
 url: /java/com.groupdocs.redaction.integration/imultiplearearedactable/
 ---```
 public interface IMultipleAreaRedactable

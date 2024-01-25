@@ -26,9 +26,9 @@ Represents a single change action info that performed during redaction process.
 
 | Constructor | Description |
 | --- | --- |
-| [RedactionDescription(RedactionType redactionType, RedactionActionType actionType, String originalText)](#RedactionDescription-com.groupdocs.redaction.redactions.RedactionType-com.groupdocs.redaction.redactions.RedactionActionType-java.lang.String-) | Initializes a new instance of RedactionDescription class without replacement information. |
-| [RedactionDescription(RedactionType redactionType, RedactionActionType actionType, String originalText, TextReplacement replacement)](#RedactionDescription-com.groupdocs.redaction.redactions.RedactionType-com.groupdocs.redaction.redactions.RedactionActionType-java.lang.String-com.groupdocs.redaction.redactions.TextReplacement-) | Initializes a new instance of RedactionDescription class with replacement information. |
-| [RedactionDescription(RedactionType redactionType, RedactionActionType actionType, RegionReplacementOptions imageAreaReplacement, String imageDetails)](#RedactionDescription-com.groupdocs.redaction.redactions.RedactionType-com.groupdocs.redaction.redactions.RedactionActionType-com.groupdocs.redaction.redactions.RegionReplacementOptions-java.lang.String-) | Initializes a new instance of RedactionDescription class with image area replacement information. |
+| [RedactionDescription(int redactionType, RedactionActionType actionType, String originalText)](#RedactionDescription-int-com.groupdocs.redaction.redactions.RedactionActionType-java.lang.String-) | Initializes a new instance of RedactionDescription class without replacement information. |
+| [RedactionDescription(int redactionType, RedactionActionType actionType, String originalText, TextReplacement replacement)](#RedactionDescription-int-com.groupdocs.redaction.redactions.RedactionActionType-java.lang.String-com.groupdocs.redaction.redactions.TextReplacement-) | Initializes a new instance of RedactionDescription class with replacement information. |
+| [RedactionDescription(int redactionType, RedactionActionType actionType, RegionReplacementOptions imageAreaReplacement, String imageDetails)](#RedactionDescription-int-com.groupdocs.redaction.redactions.RedactionActionType-com.groupdocs.redaction.redactions.RegionReplacementOptions-java.lang.String-) | Initializes a new instance of RedactionDescription class with image area replacement information. |
 ## Methods
 
 | Method | Description |
@@ -40,9 +40,9 @@ Represents a single change action info that performed during redaction process.
 | [getImageAreaReplacement()](#getImageAreaReplacement--) | Gets the replacement information for image area redactions, returns null for textual redactions. |
 | [getDetails()](#getDetails--) | Gets an optional details information for the item being redacted. |
 | [setDetails(String value)](#setDetails-java.lang.String-) | Sets an optional details information for the item being redacted. |
-### RedactionDescription(RedactionType redactionType, RedactionActionType actionType, String originalText) {#RedactionDescription-com.groupdocs.redaction.redactions.RedactionType-com.groupdocs.redaction.redactions.RedactionActionType-java.lang.String-}
+### RedactionDescription(int redactionType, RedactionActionType actionType, String originalText) {#RedactionDescription-int-com.groupdocs.redaction.redactions.RedactionActionType-java.lang.String-}
 ```
-public RedactionDescription(RedactionType redactionType, RedactionActionType actionType, String originalText)
+public RedactionDescription(int redactionType, RedactionActionType actionType, String originalText)
 ```
 
 
@@ -51,13 +51,13 @@ Initializes a new instance of RedactionDescription class without replacement inf
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| redactionType | [RedactionType](../../com.groupdocs.redaction.redactions/redactiontype) | Type of data being redacted |
+| redactionType | int | Type of data being redacted |
 | actionType | [RedactionActionType](../../com.groupdocs.redaction.redactions/redactionactiontype) | Action to be performed on these data |
 | originalText | java.lang.String | Matched text, comment or annotation body |
 
-### RedactionDescription(RedactionType redactionType, RedactionActionType actionType, String originalText, TextReplacement replacement) {#RedactionDescription-com.groupdocs.redaction.redactions.RedactionType-com.groupdocs.redaction.redactions.RedactionActionType-java.lang.String-com.groupdocs.redaction.redactions.TextReplacement-}
+### RedactionDescription(int redactionType, RedactionActionType actionType, String originalText, TextReplacement replacement) {#RedactionDescription-int-com.groupdocs.redaction.redactions.RedactionActionType-java.lang.String-com.groupdocs.redaction.redactions.TextReplacement-}
 ```
-public RedactionDescription(RedactionType redactionType, RedactionActionType actionType, String originalText, TextReplacement replacement)
+public RedactionDescription(int redactionType, RedactionActionType actionType, String originalText, TextReplacement replacement)
 ```
 
 
@@ -66,14 +66,14 @@ Initializes a new instance of RedactionDescription class with replacement inform
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| redactionType | [RedactionType](../../com.groupdocs.redaction.redactions/redactiontype) | Type of data being redacted |
+| redactionType | int | Type of data being redacted |
 | actionType | [RedactionActionType](../../com.groupdocs.redaction.redactions/redactionactiontype) | Action to be performed on these data |
 | originalText | java.lang.String | Matched text, comment or annotation body |
 | replacement | [TextReplacement](../../com.groupdocs.redaction.redactions/textreplacement) | Replacement text, matched text and its position within original string |
 
-### RedactionDescription(RedactionType redactionType, RedactionActionType actionType, RegionReplacementOptions imageAreaReplacement, String imageDetails) {#RedactionDescription-com.groupdocs.redaction.redactions.RedactionType-com.groupdocs.redaction.redactions.RedactionActionType-com.groupdocs.redaction.redactions.RegionReplacementOptions-java.lang.String-}
+### RedactionDescription(int redactionType, RedactionActionType actionType, RegionReplacementOptions imageAreaReplacement, String imageDetails) {#RedactionDescription-int-com.groupdocs.redaction.redactions.RedactionActionType-com.groupdocs.redaction.redactions.RegionReplacementOptions-java.lang.String-}
 ```
-public RedactionDescription(RedactionType redactionType, RedactionActionType actionType, RegionReplacementOptions imageAreaReplacement, String imageDetails)
+public RedactionDescription(int redactionType, RedactionActionType actionType, RegionReplacementOptions imageAreaReplacement, String imageDetails)
 ```
 
 
@@ -82,21 +82,21 @@ Initializes a new instance of RedactionDescription class with image area replace
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| redactionType | [RedactionType](../../com.groupdocs.redaction.redactions/redactiontype) | Type of data being redacted |
+| redactionType | int | Type of data being redacted |
 | actionType | [RedactionActionType](../../com.groupdocs.redaction.redactions/redactionactiontype) | Action to be performed on these data |
 | imageAreaReplacement | [RegionReplacementOptions](../../com.groupdocs.redaction.redactions/regionreplacementoptions) | Image area replacement information |
 | imageDetails | java.lang.String | Image textual description, by default it is String.Empty |
 
 ### getRedactionType() {#getRedactionType--}
 ```
-public final RedactionType getRedactionType()
+public final int getRedactionType()
 ```
 
 
 Gets the type of document's data - text, metadata or annotations.
 
 **Returns:**
-[RedactionType](../../com.groupdocs.redaction.redactions/redactiontype) - The type of document's data - text, metadata or annotations.
+int - The type of document's data - text, metadata or annotations.
 ### getActionType() {#getActionType--}
 ```
 public final RedactionActionType getActionType()

@@ -25,7 +25,7 @@ The following example demonstrates how to create an empty stub for a custom form
 ```
 
   public class DummyDocument extends DocumentFormatInstance
- {     
+ {
      {@literal @}Override
      public void load(InputStream output) throws java.lang.Exception
      {

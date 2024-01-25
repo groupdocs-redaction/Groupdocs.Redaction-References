@@ -43,12 +43,12 @@ The following example demonstrates how to set properties for a custom format con
 
 | Method | Description |
 | --- | --- |
-| [getExtensionFilter()](#getExtensionFilter--) | Gets a comma (",") delimited list of file extensions (for example ".pdf"), case insensitive. |
-| [setExtensionFilter(String value)](#setExtensionFilter-java.lang.String-) | Sets a comma (",") delimited list of file extensions (for example ".pdf"), case insensitive. |
-| [getDocumentType()](#getDocumentType--) | Gets the type of a class, inheriting from  DocumentFormatInstance . |
-| [setDocumentType(Class value)](#setDocumentType-java.lang.Class-) | Sets the type of a class, inheriting from  DocumentFormatInstance . |
-| [getInitializationData()](#getInitializationData--) | Gets data, required for  DocumentFormatInstance  initialization. |
-| [setInitializationData(System.Collections.Generic.Dictionary<String,String> value)](#setInitializationData-com.aspose.ms.System.Collections.Generic.Dictionary-java.lang.String-java.lang.String--) | Sets data, required for  DocumentFormatInstance  initialization. |
+| [getExtensionFilter()](#getExtensionFilter--) | Gets or sets a comma (",") delimited list of file extensions (for example ".pdf"), case insensitive. |
+| [setExtensionFilter(String value)](#setExtensionFilter-java.lang.String-) | Gets or sets a comma (",") delimited list of file extensions (for example ".pdf"), case insensitive. |
+| [getDocumentType()](#getDocumentType--) | Gets or sets the type of a class, inheriting from [DocumentFormatInstance](../../com.groupdocs.redaction.integration/documentformatinstance). |
+| [setDocumentType(Class value)](#setDocumentType-java.lang.Class-) | Gets or sets the type of a class, inheriting from [DocumentFormatInstance](../../com.groupdocs.redaction.integration/documentformatinstance). |
+| [getInitializationData()](#getInitializationData--) | Gets or sets data, required for [DocumentFormatInstance](../../com.groupdocs.redaction.integration/documentformatinstance) initialization. |
+| [setInitializationData(System.Collections.Generic.Dictionary<String,String> value)](#setInitializationData-com.aspose.ms.System.Collections.Generic.Dictionary-java.lang.String-java.lang.String--) | Gets or sets data, required for [DocumentFormatInstance](../../com.groupdocs.redaction.integration/documentformatinstance) initialization. |
 | [supportsExtension(String fileExtension)](#supportsExtension-java.lang.String-) | Checks if a given file extension can be handled as DocumentType. |
 ### DocumentFormatConfiguration() {#DocumentFormatConfiguration--}
 ```
@@ -64,22 +64,22 @@ public final String getExtensionFilter()
 ```
 
 
-Gets a comma (",") delimited list of file extensions (for example ".pdf"), case insensitive.
+Gets or sets a comma (",") delimited list of file extensions (for example ".pdf"), case insensitive.
 
 **Returns:**
-java.lang.String - A comma (",") delimited list of file extensions (for example ".pdf"), case insensitive.
+java.lang.String
 ### setExtensionFilter(String value) {#setExtensionFilter-java.lang.String-}
 ```
 public final void setExtensionFilter(String value)
 ```
 
 
-Sets a comma (",") delimited list of file extensions (for example ".pdf"), case insensitive.
+Gets or sets a comma (",") delimited list of file extensions (for example ".pdf"), case insensitive.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | A comma (",") delimited list of file extensions (for example ".pdf"), case insensitive. |
+| value | java.lang.String |  |
 
 ### getDocumentType() {#getDocumentType--}
 ```
@@ -87,22 +87,22 @@ public final Class getDocumentType()
 ```
 
 
-Gets the type of a class, inheriting from  DocumentFormatInstance .
+Gets or sets the type of a class, inheriting from [DocumentFormatInstance](../../com.groupdocs.redaction.integration/documentformatinstance).
 
 **Returns:**
-java.lang.Class - The type of a class, inheriting from  DocumentFormatInstance .
+java.lang.Class
 ### setDocumentType(Class value) {#setDocumentType-java.lang.Class-}
 ```
 public final void setDocumentType(Class value)
 ```
 
 
-Sets the type of a class, inheriting from  DocumentFormatInstance .
+Gets or sets the type of a class, inheriting from [DocumentFormatInstance](../../com.groupdocs.redaction.integration/documentformatinstance).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.Class | The type of a class, inheriting from  DocumentFormatInstance . |
+| value | java.lang.Class |  |
 
 ### getInitializationData() {#getInitializationData--}
 ```
@@ -110,22 +110,22 @@ public final System.Collections.Generic.Dictionary<String,String> getInitializat
 ```
 
 
-Gets data, required for  DocumentFormatInstance  initialization.
+Gets or sets data, required for [DocumentFormatInstance](../../com.groupdocs.redaction.integration/documentformatinstance) initialization.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.Dictionary<java.lang.String,java.lang.String> - Data, required for  DocumentFormatInstance  initialization.
+com.aspose.ms.System.Collections.Generic.Dictionary<java.lang.String,java.lang.String>
 ### setInitializationData(System.Collections.Generic.Dictionary<String,String> value) {#setInitializationData-com.aspose.ms.System.Collections.Generic.Dictionary-java.lang.String-java.lang.String--}
 ```
 public final void setInitializationData(System.Collections.Generic.Dictionary<String,String> value)
 ```
 
 
-Sets data, required for  DocumentFormatInstance  initialization.
+Gets or sets data, required for [DocumentFormatInstance](../../com.groupdocs.redaction.integration/documentformatinstance) initialization.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | com.aspose.ms.System.Collections.Generic.Dictionary<java.lang.String,java.lang.String> | Data, required for  DocumentFormatInstance  initialization. |
+| value | com.aspose.ms.System.Collections.Generic.Dictionary<java.lang.String,java.lang.String> |  |
 
 ### supportsExtension(String fileExtension) {#supportsExtension-java.lang.String-}
 ```
