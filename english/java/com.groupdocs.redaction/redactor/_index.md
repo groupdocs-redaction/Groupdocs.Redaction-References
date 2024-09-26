@@ -47,6 +47,7 @@ Represents a main class that controls document redaction process, allowing to op
 | [apply(RedactionPolicy policy)](#apply-com.groupdocs.redaction.RedactionPolicy-) | Applies a redaction policy to the document. |
 | [save()](#save--) | Saves the document to a file with the following options: AddSuffix = true, RasterizeToPDF = true. |
 | [save(SaveOptions saveOptions)](#save-com.groupdocs.redaction.options.SaveOptions-) | Saves the document to a file. |
+| [save(OutputStream document)](#save-java.io.OutputStream-) | Saves the document to a stream. |
 | [save(OutputStream document, RasterizationOptions rasterizationOptions)](#save-java.io.OutputStream-com.groupdocs.redaction.options.RasterizationOptions-) | Saves the document to a stream, including custom location. |
 | [generatePreview(PreviewOptions previewOptions)](#generatePreview-com.groupdocs.redaction.options.PreviewOptions-) | Generates preview images of specific pages in a given image format. |
 | [getDocumentInfo()](#getDocumentInfo--) | Gets the general information about the document - size, page count, etc. |
@@ -237,6 +238,19 @@ Saves the document to a file.
 
 **Returns:**
 java.lang.String - Path to redacted document
+### save(OutputStream document) {#save-java.io.OutputStream-}
+```
+public final void save(OutputStream document)
+```
+
+
+Saves the document to a stream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| document | java.io.OutputStream | Target stream |
+
 ### save(OutputStream document, RasterizationOptions rasterizationOptions) {#save-java.io.OutputStream-com.groupdocs.redaction.options.RasterizationOptions-}
 ```
 public final void save(OutputStream document, RasterizationOptions rasterizationOptions)
