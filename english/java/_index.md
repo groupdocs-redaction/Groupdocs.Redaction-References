@@ -5,7 +5,7 @@ weight: 11
 url: /java/
 description: GroupDocs.Redaction for Java API References contain examples, code snippets, and API documentation. It provides packages, classes, interfaces, and other API details.
 is_root: true
-version: 24.1
+version: 24.9
 ---
 
 ## Packages
