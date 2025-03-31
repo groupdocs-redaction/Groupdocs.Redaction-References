@@ -3,7 +3,7 @@ title: MetadataFilters
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents a list of the most common types of document metadata.
 type: docs
-weight: 530
+weight: 560
 url: /net/groupdocs.redaction.redactions/metadatafilters/
 ---
 ## MetadataFilters enumeration

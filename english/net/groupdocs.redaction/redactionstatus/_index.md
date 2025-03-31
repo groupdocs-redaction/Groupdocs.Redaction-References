@@ -19,7 +19,7 @@ public enum RedactionStatus
 | Name | Value | Description |
 | --- | --- | --- |
 | Applied | `0` | Redaction was fully and successfully applied. |
-| PartiallyApplied | `1` | Redaction was aplied only to a part of its matches. |
+| PartiallyApplied | `1` | Redaction was applied only to a part of its matches. |
 | Skipped | `2` | Redaction was skipped (not applied). |
 | Failed | `3` | Redaction failed with exception. |
 

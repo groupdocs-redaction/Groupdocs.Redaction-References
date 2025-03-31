@@ -15,6 +15,8 @@ The Redactions namespace provides classes for different types of redactions.
 | [AnnotationRedaction](./annotationredaction) | Represents a redaction that replaces annotation text (comments, etc.) matching a given regular expression. |
 | [CellColumnRedaction](./cellcolumnredaction) | Represents a text redaction that replaces text in a spreadsheet documents (CSV, Excel, etc.). |
 | [CellFilter](./cellfilter) | Provides an option to limit the scope of a [`CellColumnRedaction`](../groupdocs.redaction.redactions/cellcolumnredaction) to a worksheet and a column. |
+| [CustomRedactionContext](./customredactioncontext) | Provides context for custom redaction processing. |
+| [CustomRedactionResult](./customredactionresult) | Represents the result of a custom redaction operation. |
 | [DeleteAnnotationRedaction](./deleteannotationredaction) | Represents a text redaction that deletes annotations if text is matching given regular expression (optionally deletes all annotations). |
 | [EraseMetadataRedaction](./erasemetadataredaction) | Represents a metadata redaction that erases all metadata or metadata matching specific MetadataFilters from the document. |
 | [ExactPhraseRedaction](./exactphraseredaction) | Represents a text redaction that replaces exact phrase in the document's text, case insensitive by default. |
@@ -36,6 +38,7 @@ The Redactions namespace provides classes for different types of redactions.
 
 | Interface | Description |
 | --- | --- |
+| [ICustomRedactionHandler](./icustomredactionhandler) | Provides an interface for implementing custom redaction logic. |
 | [IRedactionCallback](./iredactioncallback) | Defines methods that are required for receiving information on each redaction change and optionally prevent it. |
 ## Enumeration
 

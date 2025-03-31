@@ -30,7 +30,7 @@ public class TextLine
 
 | Name | Description |
 | --- | --- |
-| override [ToString](../../groupdocs.redaction.integration.ocr/textline/tostring)() | Returns textual content of the recognised line of text. |
+| override [ToString](../../groupdocs.redaction.integration.ocr/textline/tostring)() | Returns textual content of the recognized line of text. |
 
 ### Remarks
 

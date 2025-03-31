@@ -3,7 +3,7 @@ title: PageAreaRedaction
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents a complex textual redaction that affects text images and annotations in an area of the page.
 type: docs
-weight: 570
+weight: 600
 url: /net/groupdocs.redaction.redactions/pagearearedaction/
 ---
 ## PageAreaRedaction class
