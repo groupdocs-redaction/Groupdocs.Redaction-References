@@ -3,7 +3,7 @@ title: Redactor
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents a main class that controls document redaction process allowing to open redact and save documents.
 type: docs
-weight: 710
+weight: 740
 url: /net/groupdocs.redaction/redactor/
 ---
 ## Redactor class

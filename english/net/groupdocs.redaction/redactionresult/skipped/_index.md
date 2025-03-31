@@ -20,7 +20,7 @@ public static RedactionResult Skipped(string description)
 
 ### Return Value
 
-Sskipped redaction result
+Skipped redaction result
 
 ### See Also
 

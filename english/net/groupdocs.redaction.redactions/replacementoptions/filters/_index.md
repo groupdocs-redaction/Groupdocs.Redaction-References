@@ -3,7 +3,7 @@ title: Filters
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Gets or sets an array of filters to apply with this redaction.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.redaction.redactions/replacementoptions/filters/
 ---
 ## ReplacementOptions.Filters property

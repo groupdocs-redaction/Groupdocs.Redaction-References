@@ -52,7 +52,7 @@ public LoadOptions(bool preRasterize)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| preRasterize | Boolean | If true, force rasteization on loading |
+| preRasterize | Boolean | If true, force rasterization on loading |
 
 ### See Also
 
@@ -73,7 +73,7 @@ public LoadOptions(string password, bool preRasterize)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | password | String | Password for protected files |
-| preRasterize | Boolean | If true, force rasteization on loading |
+| preRasterize | Boolean | If true, force rasterization on loading |
 
 ### See Also
 

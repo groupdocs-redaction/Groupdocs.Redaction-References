@@ -1,14 +1,14 @@
 ---
 title: TextFragment
 second_title: GroupDocs.Redaction for .NET API Reference
-description: Initializes a new instance of the recognised text fragment.
+description: Initializes a new instance of the recognized text fragment.
 type: docs
 weight: 10
 url: /net/groupdocs.redaction.integration.ocr/textfragment/textfragment/
 ---
 ## TextFragment constructor
 
-Initializes a new instance of the recognised text fragment.
+Initializes a new instance of the recognized text fragment.
 
 ```csharp
 public TextFragment(string text, Rectangle rectangle)
@@ -16,8 +16,8 @@ public TextFragment(string text, Rectangle rectangle)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | String | textual content of the recognised text fragment |
-| rectangle | Rectangle | bounding rectangle of the recognised text fragment |
+| text | String | textual content of the recognized text fragment |
+| rectangle | Rectangle | bounding rectangle of the recognized text fragment |
 
 ### See Also
 

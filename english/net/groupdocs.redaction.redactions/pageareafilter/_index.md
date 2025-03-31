@@ -3,7 +3,7 @@ title: PageAreaFilter
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents redaction filter setting an area within a page of a document to apply redaction.
 type: docs
-weight: 560
+weight: 590
 url: /net/groupdocs.redaction.redactions/pageareafilter/
 ---
 ## PageAreaFilter class

@@ -18,20 +18,20 @@ public class TextFragment
 
 | Name | Description |
 | --- | --- |
-| [TextFragment](textfragment)(string, Rectangle) | Initializes a new instance of the recognised text fragment. |
+| [TextFragment](textfragment)(string, Rectangle) | Initializes a new instance of the recognized text fragment. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Rectangle](../../groupdocs.redaction.integration.ocr/textfragment/rectangle) { get; } | Gets a bounding rectangle of the recognised text fragment. |
-| [Text](../../groupdocs.redaction.integration.ocr/textfragment/text) { get; } | Gets a textual content of the recognised text fragment. |
+| [Rectangle](../../groupdocs.redaction.integration.ocr/textfragment/rectangle) { get; } | Gets a bounding rectangle of the recognized text fragment. |
+| [Text](../../groupdocs.redaction.integration.ocr/textfragment/text) { get; } | Gets a textual content of the recognized text fragment. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](../../groupdocs.redaction.integration.ocr/textfragment/tostring)() | Returns textual content of the recognised text fragment. |
+| override [ToString](../../groupdocs.redaction.integration.ocr/textfragment/tostring)() | Returns textual content of the recognized text fragment. |
 
 ### Remarks
 

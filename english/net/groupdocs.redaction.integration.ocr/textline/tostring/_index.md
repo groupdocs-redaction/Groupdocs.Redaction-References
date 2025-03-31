@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: GroupDocs.Redaction for .NET API Reference
-description: Returns textual content of the recognised line of text.
+description: Returns textual content of the recognized line of text.
 type: docs
 weight: 30
 url: /net/groupdocs.redaction.integration.ocr/textline/tostring/
 ---
 ## TextLine.ToString method
 
-Returns textual content of the recognised line of text.
+Returns textual content of the recognized line of text.
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### Return Value
 
-textual content of the recognised line of text
+textual content of the recognized line of text
 
 ### See Also
 

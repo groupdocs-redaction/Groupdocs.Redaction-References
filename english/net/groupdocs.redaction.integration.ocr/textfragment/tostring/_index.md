@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: GroupDocs.Redaction for .NET API Reference
-description: Returns textual content of the recognised text fragment.
+description: Returns textual content of the recognized text fragment.
 type: docs
 weight: 40
 url: /net/groupdocs.redaction.integration.ocr/textfragment/tostring/
 ---
 ## TextFragment.ToString method
 
-Returns textual content of the recognised text fragment.
+Returns textual content of the recognized text fragment.
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### Return Value
 
-textual content of the recognised text fragment
+textual content of the recognized text fragment
 
 ### See Also
 
