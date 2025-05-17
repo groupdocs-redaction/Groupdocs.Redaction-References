@@ -13,7 +13,7 @@ url: /
 
 ![GroupDocs.Redaction for .NET Product Logo](gdocs_net.png)
 
-On Premise .NET API to hide or remove the content and metadata from your personal documents.
+Self-hosted .NET API for securely redacting or eliminating content and metadata from your confidential documents.
 
 {{% /alert %}} 
 
@@ -28,10 +28,25 @@ These are links to some useful resources:
 
 ![GroupDocs.Redaction for Java Product Logo](gdocs_java.png)
 
-On Premise Java APIs to remove or hide text from content and metadata of supported file formats.
+On-premises Java API for redacting or concealing text from both the content and metadata of supported document formats.
 
 {{% /alert %}}
 
 These are links to some useful resources:
 
 - [GroupDocs.Redaction for Java API Reference](/redaction/java/)
+
+
+## GroupDocs.Redaction for Python via .NET
+
+{{% alert color="primary" %}}
+
+![GroupDocs.Redaction for Python via .NET Product Logo](gdocs_python.png)
+
+Python via .NET API for redacting or concealing text from both the content and metadata of supported document formats.
+
+{{% /alert %}}
+
+These are links to some useful resources:
+
+- [GroupDocs.Redaction for Java API Reference](/redaction/python-net/)
