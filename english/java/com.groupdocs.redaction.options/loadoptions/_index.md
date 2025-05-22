@@ -48,12 +48,15 @@ The following example demonstrates how to open password-protected document.
 | [LoadOptions(String password)](#LoadOptions-java.lang.String-) | Initializes a new instance of LoadOptions class with specified password. |
 | [LoadOptions(boolean preRasterize)](#LoadOptions-boolean-) | Initializes a new instance of LoadOptions class with specified pre-rasterization flag. |
 | [LoadOptions(String password, boolean preRasterize)](#LoadOptions-java.lang.String-boolean-) | Initializes a new instance of LoadOptions class with specified password. |
+| [LoadOptions(String password, boolean preRasterize, DocumentFormatConfiguration documentFormatConfiguration)](#LoadOptions-java.lang.String-boolean-com.groupdocs.redaction.configuration.DocumentFormatConfiguration-) | Initializes a new instance of LoadOptions class with specified password. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getPassword()](#getPassword--) | Gets a password for password-protected documents. |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Sets a password for password-protected documents. |
+| [getDocumentFormatConfiguration()](#getDocumentFormatConfiguration--) | Gets a document format configuration. |
+| [setDocumentFormatConfiguration(DocumentFormatConfiguration value)](#setDocumentFormatConfiguration-com.groupdocs.redaction.configuration.DocumentFormatConfiguration-) | Sets a document format configuration. |
 | [getPreRasterize()](#getPreRasterize--) | Gets a value, indicating if the file is to be pre-rasterized. |
 | [setPreRasterize(boolean value)](#setPreRasterize-boolean-) | Sets a value, indicating if the file is to be pre-rasterized. |
 ### LoadOptions() {#LoadOptions--}
@@ -104,6 +107,21 @@ Initializes a new instance of LoadOptions class with specified password.
 | password | java.lang.String | Password for protected files |
 | preRasterize | boolean | If true, force rasteization on loading |
 
+### LoadOptions(String password, boolean preRasterize, DocumentFormatConfiguration documentFormatConfiguration) {#LoadOptions-java.lang.String-boolean-com.groupdocs.redaction.configuration.DocumentFormatConfiguration-}
+```
+public LoadOptions(String password, boolean preRasterize, DocumentFormatConfiguration documentFormatConfiguration)
+```
+
+
+Initializes a new instance of LoadOptions class with specified password.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| password | java.lang.String | Password for protected files |
+| preRasterize | boolean | If true, force rasteization on loading |
+| documentFormatConfiguration | [DocumentFormatConfiguration](../../com.groupdocs.redaction.configuration/documentformatconfiguration) | document format configuration |
+
 ### getPassword() {#getPassword--}
 ```
 public final String getPassword()
@@ -126,6 +144,29 @@ Sets a password for password-protected documents.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | A password for password-protected documents. |
+
+### getDocumentFormatConfiguration() {#getDocumentFormatConfiguration--}
+```
+public final DocumentFormatConfiguration getDocumentFormatConfiguration()
+```
+
+
+Gets a document format configuration.
+
+**Returns:**
+[DocumentFormatConfiguration](../../com.groupdocs.redaction.configuration/documentformatconfiguration) - A document format configuration.
+### setDocumentFormatConfiguration(DocumentFormatConfiguration value) {#setDocumentFormatConfiguration-com.groupdocs.redaction.configuration.DocumentFormatConfiguration-}
+```
+public final void setDocumentFormatConfiguration(DocumentFormatConfiguration value)
+```
+
+
+Sets a document format configuration.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [DocumentFormatConfiguration](../../com.groupdocs.redaction.configuration/documentformatconfiguration) | A document format configuration. |
 
 ### getPreRasterize() {#getPreRasterize--}
 ```
