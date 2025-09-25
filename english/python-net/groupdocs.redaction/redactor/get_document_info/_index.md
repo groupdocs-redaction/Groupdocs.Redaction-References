@@ -3,12 +3,12 @@ title: get_document_info method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction/redactor/get_document_info/
-is_root: false
 weight: 40
+url: /groupdocs.redaction/redactor/get_document_info/
+is_root: false
 ---
 
-## get_document_info {#}
+## get_document_info(self) {#}
 
 Gets the general information about the document - size, page count, etc.
 
@@ -20,6 +20,7 @@ An instance of IDocumentInfo
 
 
 ```python
+
 def get_document_info(self):
     ...
 ```

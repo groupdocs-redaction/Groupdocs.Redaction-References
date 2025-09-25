@@ -3,9 +3,9 @@ title: RecognizedImage class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.integration.ocr/recognizedimage/
-is_root: false
 weight: 20
+url: /groupdocs.redaction.integration.ocr/recognizedimage/
+is_root: false
 ---
 
 ## RecognizedImage class
@@ -19,7 +19,7 @@ The RecognizedImage type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.integration.ocr/recognizedimage/__init__/#list) | Constructs a new instance of RecognizedImage |
+| [`__init__(self, lines)`](/redaction/python-net/groupdocs.redaction.integration.ocr/recognizedimage/__init__/#list) | Constructs a new instance of RecognizedImage |
 
 
 ### Properties

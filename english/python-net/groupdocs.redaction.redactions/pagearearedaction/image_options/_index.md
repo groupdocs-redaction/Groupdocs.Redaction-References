@@ -3,9 +3,9 @@ title: image_options property
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/pagearearedaction/image_options/
-is_root: false
 weight: 60
+url: /groupdocs.redaction.redactions/pagearearedaction/image_options/
+is_root: false
 ---
 
 ## image_options property

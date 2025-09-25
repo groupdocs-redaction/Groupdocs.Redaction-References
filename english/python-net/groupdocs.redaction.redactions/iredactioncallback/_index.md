@@ -3,9 +3,9 @@ title: IRedactionCallback class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/iredactioncallback/
-is_root: false
 weight: 100
+url: /groupdocs.redaction.redactions/iredactioncallback/
+is_root: false
 ---
 
 ## IRedactionCallback class
@@ -19,7 +19,7 @@ The IRedactionCallback type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [accept_redaction](/redaction/python-net/groupdocs.redaction.redactions/iredactioncallback/accept_redaction/#groupdocs.redaction.redactions.RedactionDescription) | This call is triggered right before applying any redaction to the document and allows to log or forbid it. |
+| [`accept_redaction(self, description)`](/redaction/python-net/groupdocs.redaction.redactions/iredactioncallback/accept_redaction/#groupdocs.redaction.redactions.redactiondescription) | This call is triggered right before applying any redaction to the document and allows to log or forbid it. |
 
 
 

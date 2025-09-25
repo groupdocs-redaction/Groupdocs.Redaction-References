@@ -3,9 +3,9 @@ title: action_options property
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/textredaction/action_options/
-is_root: false
 weight: 40
+url: /groupdocs.redaction.redactions/textredaction/action_options/
+is_root: false
 ---
 
 ## action_options property

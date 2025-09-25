@@ -3,9 +3,9 @@ title: CellColumnRedaction class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/cellcolumnredaction/
-is_root: false
 weight: 20
+url: /groupdocs.redaction.redactions/cellcolumnredaction/
+is_root: false
 ---
 
 ## CellColumnRedaction class
@@ -34,7 +34,7 @@ The CellColumnRedaction type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [apply_to](/redaction/python-net/groupdocs.redaction.redactions/cellcolumnredaction/apply_to/#groupdocs.redaction.integration.DocumentFormatInstance) | Applies the redaction to a given format instance. |
+| [`apply_to(self, format_instance)`](/redaction/python-net/groupdocs.redaction.redactions/cellcolumnredaction/apply_to/#groupdocs.redaction.integration.documentformatinstance) | Applies the redaction to a given format instance. |
 
 
 

@@ -3,9 +3,9 @@ title: IRasterizableDocument class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.integration/irasterizabledocument/
-is_root: false
 weight: 90
+url: /groupdocs.redaction.integration/irasterizabledocument/
+is_root: false
 ---
 
 ## IRasterizableDocument class
@@ -19,8 +19,8 @@ The IRasterizableDocument type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [rasterize](/redaction/python-net/groupdocs.redaction.integration/irasterizabledocument/rasterize/#io.RawIOBase) | Saves the document to a stream as a PDF. |
-| [rasterize](/redaction/python-net/groupdocs.redaction.integration/irasterizabledocument/rasterize/#io.RawIOBase-groupdocs.redaction.options.RasterizationOptions) | Saves the document to a stream as a PDF with page range and compliance options. |
+| [`rasterize(self, output)`](/redaction/python-net/groupdocs.redaction.integration/irasterizabledocument/rasterize/#io.rawiobase) | Saves the document to a stream as a PDF. |
+| [`rasterize(self, output, options)`](/redaction/python-net/groupdocs.redaction.integration/irasterizabledocument/rasterize/#io.rawiobase-groupdocs.redaction.options.rasterizationoptions) | Saves the document to a stream as a PDF with page range and compliance options. |
 
 
 

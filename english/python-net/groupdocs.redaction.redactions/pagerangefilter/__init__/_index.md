@@ -3,18 +3,19 @@ title: PageRangeFilter constructor
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/pagerangefilter/__init__/
-is_root: false
 weight: 10
+url: /groupdocs.redaction.redactions/pagerangefilter/__init__/
+is_root: false
 ---
 
-## __init__ {#groupdocs.redaction.redactions.PageSeekOrigin-int-int}
+## \_\_init\_\_(self, origin, index, count) {#groupdocs.redaction.redactions.PageSeekOrigin-int-int}
 
 Initializes a new instance of RemovePageRedaction class.
 
 
 
 ```python
+
 def __init__(self, origin, index, count):
     ...
 ```

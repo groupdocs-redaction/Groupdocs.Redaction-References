@@ -3,18 +3,19 @@ title: CustomRedactionResult constructor
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/customredactionresult/__init__/
-is_root: false
 weight: 10
+url: /groupdocs.redaction.redactions/customredactionresult/__init__/
+is_root: false
 ---
 
-## __init__ {#}
+## \_\_init\_\_(self) {#}
 
 Constructs a new instance of CustomRedactionResult
 
 
 
 ```python
+
 def __init__(self):
     ...
 ```

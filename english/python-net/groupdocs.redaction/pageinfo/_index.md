@@ -3,9 +3,9 @@ title: PageInfo class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction/pageinfo/
-is_root: false
 weight: 60
+url: /groupdocs.redaction/pageinfo/
+is_root: false
 ---
 
 ## PageInfo class
@@ -19,7 +19,7 @@ The PageInfo type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction/pageinfo/__init__/#) | Constructs a new instance of PageInfo |
+| [`__init__(self)`](/redaction/python-net/groupdocs.redaction/pageinfo/__init__/#) | Constructs a new instance of PageInfo |
 
 
 ### Properties

@@ -3,9 +3,9 @@ title: RedactorLogEntry class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction/redactorlogentry/
-is_root: false
 weight: 120
+url: /groupdocs.redaction/redactorlogentry/
+is_root: false
 ---
 
 ## RedactorLogEntry class
@@ -19,7 +19,7 @@ The RedactorLogEntry type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction/redactorlogentry/__init__/#groupdocs.redaction.Redaction-groupdocs.redaction.RedactionResult) | Initializes a new instance of RedactorLogEntry class for redaction. |
+| [`__init__(self, redaction, result)`](/redaction/python-net/groupdocs.redaction/redactorlogentry/__init__/#groupdocs.redaction.redaction-groupdocs.redaction.redactionresult) | Initializes a new instance of RedactorLogEntry class for redaction. |
 
 
 ### Properties

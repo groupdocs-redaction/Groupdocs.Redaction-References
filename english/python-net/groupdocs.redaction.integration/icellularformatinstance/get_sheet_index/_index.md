@@ -3,12 +3,12 @@ title: get_sheet_index method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.integration/icellularformatinstance/get_sheet_index/
-is_root: false
 weight: 20
+url: /groupdocs.redaction.integration/icellularformatinstance/get_sheet_index/
+is_root: false
 ---
 
-## get_sheet_index {#str}
+## get_sheet_index(self, sheet_name) {#str}
 
 Gets the worksheet index by worksheet name, if possible.
 
@@ -20,6 +20,7 @@ Worksheet index or -1 if not found
 
 
 ```python
+
 def get_sheet_index(self, sheet_name):
     ...
 ```

@@ -3,12 +3,12 @@ title: recognize method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.integration.ocr/iocrconnector/recognize/
-is_root: false
 weight: 20
+url: /groupdocs.redaction.integration.ocr/iocrconnector/recognize/
+is_root: false
 ---
 
-## recognize {#io.RawIOBase}
+## recognize(self, image_stream) {#io.RawIOBase}
 
 Does the OCR processing of an image, provided as a stream.
 
@@ -20,6 +20,7 @@ Structured recognized text, containing lines, words and their bounding rectangle
 
 
 ```python
+
 def recognize(self, image_stream):
     ...
 ```

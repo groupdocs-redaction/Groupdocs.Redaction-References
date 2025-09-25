@@ -3,9 +3,9 @@ title: column_index property
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/cellfilter/column_index/
-is_root: false
 weight: 40
+url: /groupdocs.redaction.redactions/cellfilter/column_index/
+is_root: false
 ---
 
 ## column_index property

@@ -3,9 +3,9 @@ title: LoadOptions class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.options/loadoptions/
-is_root: false
 weight: 20
+url: /groupdocs.redaction.options/loadoptions/
+is_root: false
 ---
 
 ## LoadOptions class
@@ -19,10 +19,10 @@ The LoadOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.options/loadoptions/__init__/#) | Initializes a new instance of LoadOptions class. |
-| [__init__](/redaction/python-net/groupdocs.redaction.options/loadoptions/__init__/#str) | Initializes a new instance of LoadOptions class with specified password. |
-| [__init__](/redaction/python-net/groupdocs.redaction.options/loadoptions/__init__/#bool) | Initializes a new instance of LoadOptions class with specified pre-rasterization flag. |
-| [__init__](/redaction/python-net/groupdocs.redaction.options/loadoptions/__init__/#str-bool) | Initializes a new instance of LoadOptions class with specified password. |
+| [`__init__(self)`](/redaction/python-net/groupdocs.redaction.options/loadoptions/__init__/#) | Initializes a new instance of LoadOptions class. |
+| [`__init__(self, password)`](/redaction/python-net/groupdocs.redaction.options/loadoptions/__init__/#str) | Initializes a new instance of LoadOptions class with specified password. |
+| [`__init__(self, pre_rasterize)`](/redaction/python-net/groupdocs.redaction.options/loadoptions/__init__/#bool) | Initializes a new instance of LoadOptions class with specified pre-rasterization flag. |
+| [`__init__(self, password, pre_rasterize)`](/redaction/python-net/groupdocs.redaction.options/loadoptions/__init__/#str-bool) | Initializes a new instance of LoadOptions class with specified password. |
 
 
 ### Properties

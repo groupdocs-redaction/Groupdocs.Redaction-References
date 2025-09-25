@@ -3,9 +3,9 @@ title: pre_rasterize property
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.options/loadoptions/pre_rasterize/
-is_root: false
 weight: 40
+url: /groupdocs.redaction.options/loadoptions/pre_rasterize/
+is_root: false
 ---
 
 ## pre_rasterize property

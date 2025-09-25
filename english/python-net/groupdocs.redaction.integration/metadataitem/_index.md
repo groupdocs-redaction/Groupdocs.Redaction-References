@@ -3,9 +3,9 @@ title: MetadataItem class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.integration/metadataitem/
-is_root: false
 weight: 120
+url: /groupdocs.redaction.integration/metadataitem/
+is_root: false
 ---
 
 ## MetadataItem class
@@ -19,7 +19,7 @@ The MetadataItem type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.integration/metadataitem/__init__/#) | Initializes a new instance. |
+| [`__init__(self)`](/redaction/python-net/groupdocs.redaction.integration/metadataitem/__init__/#) | Initializes a new instance. |
 
 
 ### Properties
@@ -37,7 +37,7 @@ The MetadataItem type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [create_clone](/redaction/python-net/groupdocs.redaction.integration/metadataitem/create_clone/#) | Creates a deep clone of current instance. |
+| [`create_clone(self)`](/redaction/python-net/groupdocs.redaction.integration/metadataitem/create_clone/#) | Creates a deep clone of current instance. |
 
 
 

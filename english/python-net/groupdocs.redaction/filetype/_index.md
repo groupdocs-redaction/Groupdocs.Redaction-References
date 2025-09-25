@@ -3,9 +3,9 @@ title: FileType class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction/filetype/
-is_root: false
 weight: 20
+url: /groupdocs.redaction/filetype/
+is_root: false
 ---
 
 ## FileType class
@@ -61,9 +61,9 @@ The FileType type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [from_extension](/redaction/python-net/groupdocs.redaction/filetype/from_extension/#str) | Maps file extension to file type. |
-| [get_supported_file_types](/redaction/python-net/groupdocs.redaction/filetype/get_supported_file_types/#) | Retrieves supported file types |
-| [equals](/redaction/python-net/groupdocs.redaction/filetype/equals/#groupdocs.redaction.FileType) | Determines whether the current [`FileType`](/redaction/python-net/groupdocs.redaction/filetype) is the same as specified [`FileType`](/redaction/python-net/groupdocs.redaction/filetype) object. |
+| [`from_extension(, extension)`](/redaction/python-net/groupdocs.redaction/filetype/from_extension/#str) | Maps file extension to file type. |
+| [`get_supported_file_types()`](/redaction/python-net/groupdocs.redaction/filetype/get_supported_file_types/#) | Retrieves supported file types |
+| [`equals(self, other)`](/redaction/python-net/groupdocs.redaction/filetype/equals/#groupdocs.redaction.filetype) | Determines whether the current [`FileType`](/redaction/python-net/groupdocs.redaction/filetype) is the same as specified [`FileType`](/redaction/python-net/groupdocs.redaction/filetype) object. |
 
 
 

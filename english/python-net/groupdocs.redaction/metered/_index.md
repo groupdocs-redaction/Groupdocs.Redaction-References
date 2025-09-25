@@ -3,9 +3,9 @@ title: Metered class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction/metered/
-is_root: false
 weight: 50
+url: /groupdocs.redaction/metered/
+is_root: false
 ---
 
 ## Metered class
@@ -20,15 +20,15 @@ The Metered type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction/metered/__init__/#) | Initializes a new instance of Metered class. |
+| [`__init__(self)`](/redaction/python-net/groupdocs.redaction/metered/__init__/#) | Initializes a new instance of Metered class. |
 
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [set_metered_key](/redaction/python-net/groupdocs.redaction/metered/set_metered_key/#str-str) | Activates the product with Metered keys. |
-| [get_consumption_quantity](/redaction/python-net/groupdocs.redaction/metered/get_consumption_quantity/#) | Retrieves the amount of MBs processed. |
-| [get_consumption_credit](/redaction/python-net/groupdocs.redaction/metered/get_consumption_credit/#) | Gets the consumption credit. |
+| [`set_metered_key(self, public_key, private_key)`](/redaction/python-net/groupdocs.redaction/metered/set_metered_key/#str-str) | Activates the product with Metered keys. |
+| [`get_consumption_quantity()`](/redaction/python-net/groupdocs.redaction/metered/get_consumption_quantity/#) | Retrieves the amount of MBs processed. |
+| [`get_consumption_credit()`](/redaction/python-net/groupdocs.redaction/metered/get_consumption_credit/#) | Gets the consumption credit. |
 
 
 

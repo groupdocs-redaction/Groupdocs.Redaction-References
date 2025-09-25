@@ -3,9 +3,9 @@ title: RedactionStatus enumeration
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction/redactionstatus/
-is_root: false
 weight: 130
+url: /groupdocs.redaction/redactionstatus/
+is_root: false
 ---
 
 ## RedactionStatus enumeration

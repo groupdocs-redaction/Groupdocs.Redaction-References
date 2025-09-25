@@ -3,9 +3,9 @@ title: PageAreaFilter class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/pageareafilter/
-is_root: false
 weight: 140
+url: /groupdocs.redaction.redactions/pageareafilter/
+is_root: false
 ---
 
 ## PageAreaFilter class
@@ -24,7 +24,7 @@ The PageAreaFilter type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.redactions/pageareafilter/__init__/#aspose.pydrawing.Point-aspose.pydrawing.Size) | Initializes a new instance of PageAreaFilter class for redacting specific area. |
+| [`__init__(self, top_left, size)`](/redaction/python-net/groupdocs.redaction.redactions/pageareafilter/__init__/#aspose.pydrawing.point-aspose.pydrawing.size) | Initializes a new instance of PageAreaFilter class for redacting specific area. |
 
 
 ### Properties

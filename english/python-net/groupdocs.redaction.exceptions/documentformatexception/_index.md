@@ -3,9 +3,9 @@ title: DocumentFormatException class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.exceptions/documentformatexception/
-is_root: false
 weight: 10
+url: /groupdocs.redaction.exceptions/documentformatexception/
+is_root: false
 ---
 
 ## DocumentFormatException class
@@ -24,7 +24,7 @@ The DocumentFormatException type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.exceptions/documentformatexception/__init__/#str) | Initializes a new instance of DocumentFormatException class. |
+| [`__init__(self, message)`](/redaction/python-net/groupdocs.redaction.exceptions/documentformatexception/__init__/#str) | Initializes a new instance of DocumentFormatException class. |
 
 
 

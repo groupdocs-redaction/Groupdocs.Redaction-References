@@ -3,9 +3,9 @@ title: original_name property
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.integration/metadataitem/original_name/
-is_root: false
 weight: 90
+url: /groupdocs.redaction.integration/metadataitem/original_name/
+is_root: false
 ---
 
 ## original_name property

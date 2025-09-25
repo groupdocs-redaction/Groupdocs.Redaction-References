@@ -3,9 +3,9 @@ title: MetadataCollection class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.integration/metadatacollection/
-is_root: false
 weight: 110
+url: /groupdocs.redaction.integration/metadatacollection/
+is_root: false
 ---
 
 ## MetadataCollection class
@@ -19,13 +19,13 @@ The MetadataCollection type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.integration/metadatacollection/__init__/#) | Initializes a new instance of MetadataCollection class. |
+| [`__init__(self)`](/redaction/python-net/groupdocs.redaction.integration/metadatacollection/__init__/#) | Initializes a new instance of MetadataCollection class. |
 
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [add_range](/redaction/python-net/groupdocs.redaction.integration/metadatacollection/add_range/#groupdocs.redaction.integration.MetadataCollection) | Adds a specified collection of MetadataItem objects to this instance. |
+| [`add_range(self, items)`](/redaction/python-net/groupdocs.redaction.integration/metadatacollection/add_range/#groupdocs.redaction.integration.metadatacollection) | Adds a specified collection of MetadataItem objects to this instance. |
 
 
 

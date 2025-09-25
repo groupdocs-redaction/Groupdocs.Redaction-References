@@ -3,9 +3,9 @@ title: redaction_log property
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction/redactorchangelog/redaction_log/
-is_root: false
 weight: 30
+url: /groupdocs.redaction/redactorchangelog/redaction_log/
+is_root: false
 ---
 
 ## redaction_log property

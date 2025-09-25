@@ -3,9 +3,9 @@ title: EraseMetadataRedaction class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/erasemetadataredaction/
-is_root: false
 weight: 70
+url: /groupdocs.redaction.redactions/erasemetadataredaction/
+is_root: false
 ---
 
 ## EraseMetadataRedaction class
@@ -25,8 +25,8 @@ The EraseMetadataRedaction type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.redactions/erasemetadataredaction/__init__/#) | Initializes a new instance of EraseMetadataRedaction class, erasing all metadata. |
-| [__init__](/redaction/python-net/groupdocs.redaction.redactions/erasemetadataredaction/__init__/#groupdocs.redaction.redactions.MetadataFilters) | Initializes a new instance of EraseMetadataRedaction class, erasing metadata, matching specific combination of [`MetadataFilters`](/redaction/python-net/groupdocs.redaction.redactions/metadatafilters). |
+| [`__init__(self)`](/redaction/python-net/groupdocs.redaction.redactions/erasemetadataredaction/__init__/#) | Initializes a new instance of EraseMetadataRedaction class, erasing all metadata. |
+| [`__init__(self, filter)`](/redaction/python-net/groupdocs.redaction.redactions/erasemetadataredaction/__init__/#groupdocs.redaction.redactions.metadatafilters) | Initializes a new instance of EraseMetadataRedaction class, erasing metadata, matching specific combination of [`MetadataFilters`](/redaction/python-net/groupdocs.redaction.redactions/metadatafilters). |
 
 
 ### Properties
@@ -39,7 +39,7 @@ The EraseMetadataRedaction type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [apply_to](/redaction/python-net/groupdocs.redaction.redactions/erasemetadataredaction/apply_to/#groupdocs.redaction.integration.DocumentFormatInstance) | Applies the redaction to a given format instance. |
+| [`apply_to(self, format_instance)`](/redaction/python-net/groupdocs.redaction.redactions/erasemetadataredaction/apply_to/#groupdocs.redaction.integration.documentformatinstance) | Applies the redaction to a given format instance. |
 
 
 

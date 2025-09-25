@@ -3,9 +3,9 @@ title: TextReplacement class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/textreplacement/
-is_root: false
 weight: 240
+url: /groupdocs.redaction.redactions/textreplacement/
+is_root: false
 ---
 
 ## TextReplacement class
@@ -19,7 +19,7 @@ The TextReplacement type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.redactions/textreplacement/__init__/#int-str-str) | Initializes a new instance of TextReplacement class. |
+| [`__init__(self, index, original, replacement)`](/redaction/python-net/groupdocs.redaction.redactions/textreplacement/__init__/#int-str-str) | Initializes a new instance of TextReplacement class. |
 
 
 ### Properties

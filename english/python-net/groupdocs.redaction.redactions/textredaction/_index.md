@@ -3,9 +3,9 @@ title: TextRedaction class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/textredaction/
-is_root: false
 weight: 230
+url: /groupdocs.redaction.redactions/textredaction/
+is_root: false
 ---
 
 ## TextRedaction class
@@ -32,7 +32,7 @@ The TextRedaction type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [apply_to](/redaction/python-net/groupdocs.redaction.redactions/textredaction/apply_to/#groupdocs.redaction.integration.DocumentFormatInstance) | Applies the redaction to a given format instance. |
+| [`apply_to(self, format_instance)`](/redaction/python-net/groupdocs.redaction.redactions/textredaction/apply_to/#groupdocs.redaction.integration.documentformatinstance) | Applies the redaction to a given format instance. |
 
 
 

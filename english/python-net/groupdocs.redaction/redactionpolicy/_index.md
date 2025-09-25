@@ -3,9 +3,9 @@ title: RedactionPolicy class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction/redactionpolicy/
-is_root: false
 weight: 80
+url: /groupdocs.redaction/redactionpolicy/
+is_root: false
 ---
 
 ## RedactionPolicy class
@@ -19,8 +19,8 @@ The RedactionPolicy type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction/redactionpolicy/__init__/#) | Creates a new instance of Redaction policy. |
-| [__init__](/redaction/python-net/groupdocs.redaction/redactionpolicy/__init__/#list) | Creates a new instance of Redaction policy with a specific list of redactions. |
+| [`__init__(self)`](/redaction/python-net/groupdocs.redaction/redactionpolicy/__init__/#) | Creates a new instance of Redaction policy. |
+| [`__init__(self, redactions)`](/redaction/python-net/groupdocs.redaction/redactionpolicy/__init__/#list) | Creates a new instance of Redaction policy with a specific list of redactions. |
 
 
 ### Properties
@@ -32,10 +32,10 @@ The RedactionPolicy type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [load](/redaction/python-net/groupdocs.redaction/redactionpolicy/load/#str) | Loads an instance of [`RedactionPolicy`](/redaction/python-net/groupdocs.redaction/redactionpolicy) from a file path. |
-| [load](/redaction/python-net/groupdocs.redaction/redactionpolicy/load/#io.RawIOBase) | Loads an instance of [`RedactionPolicy`](/redaction/python-net/groupdocs.redaction/redactionpolicy) from a stream. |
-| [save](/redaction/python-net/groupdocs.redaction/redactionpolicy/save/#str) | Saves the redaction policy to a file. |
-| [save](/redaction/python-net/groupdocs.redaction/redactionpolicy/save/#io.RawIOBase) | Saves the redaction policy to a stream. |
+| [`load(, file_path)`](/redaction/python-net/groupdocs.redaction/redactionpolicy/load/#str) | Loads an instance of [`RedactionPolicy`](/redaction/python-net/groupdocs.redaction/redactionpolicy) from a file path. |
+| [`load(, input)`](/redaction/python-net/groupdocs.redaction/redactionpolicy/load/#io.rawiobase) | Loads an instance of [`RedactionPolicy`](/redaction/python-net/groupdocs.redaction/redactionpolicy) from a stream. |
+| [`save(self, file_path)`](/redaction/python-net/groupdocs.redaction/redactionpolicy/save/#str) | Saves the redaction policy to a file. |
+| [`save(self, output)`](/redaction/python-net/groupdocs.redaction/redactionpolicy/save/#io.rawiobase) | Saves the redaction policy to a stream. |
 
 
 

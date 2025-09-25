@@ -3,18 +3,19 @@ title: add_range method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.integration/metadatacollection/add_range/
-is_root: false
 weight: 20
+url: /groupdocs.redaction.integration/metadatacollection/add_range/
+is_root: false
 ---
 
-## add_range {#groupdocs.redaction.integration.MetadataCollection}
+## add_range(self, items) {#groupdocs.redaction.integration.MetadataCollection}
 
 Adds a specified collection of MetadataItem objects to this instance.
 
 
 
 ```python
+
 def add_range(self, items):
     ...
 ```

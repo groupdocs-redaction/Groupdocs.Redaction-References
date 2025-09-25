@@ -3,9 +3,9 @@ title: DeleteAnnotationRedaction class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/deleteannotationredaction/
-is_root: false
 weight: 60
+url: /groupdocs.redaction.redactions/deleteannotationredaction/
+is_root: false
 ---
 
 ## DeleteAnnotationRedaction class
@@ -24,8 +24,8 @@ The DeleteAnnotationRedaction type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.redactions/deleteannotationredaction/__init__/#) | Initializes a new instance of DeleteAnnotationRedaction class, with settings to delete all annotations (matching everything). |
-| [__init__](/redaction/python-net/groupdocs.redaction.redactions/deleteannotationredaction/__init__/#str) | Initializes a new instance of DeleteAnnotationRedaction class, deleting annotations matching given expression. |
+| [`__init__(self)`](/redaction/python-net/groupdocs.redaction.redactions/deleteannotationredaction/__init__/#) | Initializes a new instance of DeleteAnnotationRedaction class, with settings to delete all annotations (matching everything). |
+| [`__init__(self, pattern)`](/redaction/python-net/groupdocs.redaction.redactions/deleteannotationredaction/__init__/#str) | Initializes a new instance of DeleteAnnotationRedaction class, deleting annotations matching given expression. |
 
 
 ### Properties
@@ -37,7 +37,7 @@ The DeleteAnnotationRedaction type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [apply_to](/redaction/python-net/groupdocs.redaction.redactions/deleteannotationredaction/apply_to/#groupdocs.redaction.integration.DocumentFormatInstance) | Applies the redaction to a given format instance. |
+| [`apply_to(self, format_instance)`](/redaction/python-net/groupdocs.redaction.redactions/deleteannotationredaction/apply_to/#groupdocs.redaction.integration.documentformatinstance) | Applies the redaction to a given format instance. |
 
 
 

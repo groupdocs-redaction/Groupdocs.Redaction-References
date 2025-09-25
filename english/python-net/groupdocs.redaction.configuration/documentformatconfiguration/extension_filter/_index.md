@@ -3,9 +3,9 @@ title: extension_filter property
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.configuration/documentformatconfiguration/extension_filter/
-is_root: false
 weight: 50
+url: /groupdocs.redaction.configuration/documentformatconfiguration/extension_filter/
+is_root: false
 ---
 
 ## extension_filter property

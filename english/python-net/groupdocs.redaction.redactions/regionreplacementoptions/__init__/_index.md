@@ -3,18 +3,19 @@ title: RegionReplacementOptions constructor
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/regionreplacementoptions/__init__/
-is_root: false
 weight: 10
+url: /groupdocs.redaction.redactions/regionreplacementoptions/__init__/
+is_root: false
 ---
 
-## __init__ {#aspose.pydrawing.Color-aspose.pydrawing.Size}
+## \_\_init\_\_(self, fill_color, size) {#aspose.pydrawing.Color-aspose.pydrawing.Size}
 
 Initializes a new instance of RegionReplacementOptions class.
 
 
 
 ```python
+
 def __init__(self, fill_color, size):
     ...
 ```
@@ -26,13 +27,14 @@ def __init__(self, fill_color, size):
 | size | aspose.pydrawing.Size | Filled area size |
 
 
-## __init__ {#aspose.pydrawing.Color-aspose.pydrawing.Font-str}
+## \_\_init\_\_(self, fill_color, font, expected_text) {#aspose.pydrawing.Color-aspose.pydrawing.Font-str}
 
 Initializes a new instance of RegionReplacementOptions class which size matches given text.
 
 
 
 ```python
+
 def __init__(self, fill_color, font, expected_text):
     ...
 ```

@@ -3,9 +3,9 @@ title: file_format property
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction/filetype/file_format/
-is_root: false
 weight: 150
+url: /groupdocs.redaction/filetype/file_format/
+is_root: false
 ---
 
 ## file_format property

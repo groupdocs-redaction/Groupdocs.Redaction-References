@@ -3,9 +3,9 @@ title: category property
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.integration/metadataitem/category/
-is_root: false
 weight: 50
+url: /groupdocs.redaction.integration/metadataitem/category/
+is_root: false
 ---
 
 ## category property

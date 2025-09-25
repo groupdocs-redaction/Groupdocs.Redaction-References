@@ -3,18 +3,19 @@ title: set_license method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction/license/set_license/
-is_root: false
 weight: 20
+url: /groupdocs.redaction/license/set_license/
+is_root: false
 ---
 
-## set_license {#str}
+## set_license(self, license_path) {#str}
 
 Sets the GroupDocs.Redaction license from a file path.
 
 
 
 ```python
+
 def set_license(self, license_path):
     ...
 ```
@@ -25,13 +26,14 @@ def set_license(self, license_path):
 | license_path | str | License file path. |
 
 
-## set_license {#io.RawIOBase}
+## set_license(self, license_stream) {#io.RawIOBase}
 
 Sets the GroupDocs.Redaction license from a stream.
 
 
 
 ```python
+
 def set_license(self, license_stream):
     ...
 ```

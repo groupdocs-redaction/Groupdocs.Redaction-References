@@ -3,12 +3,12 @@ title: equals method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction/filetype/equals/
-is_root: false
 weight: 20
+url: /groupdocs.redaction/filetype/equals/
+is_root: false
 ---
 
-## equals {#groupdocs.redaction.FileType}
+## equals(self, other) {#groupdocs.redaction.FileType}
 
 Determines whether the current [`FileType`](/redaction/python-net/groupdocs.redaction/filetype) is the same as specified [`FileType`](/redaction/python-net/groupdocs.redaction/filetype) object.
 
@@ -16,10 +16,11 @@ Determines whether the current [`FileType`](/redaction/python-net/groupdocs.reda
 ### Returns 
 
 
-if both [`FileType`](/redaction/python-net/groupdocs.redaction/filetype) objects are the same; otherwise,
+`true` if both [`FileType`](/redaction/python-net/groupdocs.redaction/filetype) objects are the same; otherwise, `false`
 
 
 ```python
+
 def equals(self, other):
     ...
 ```

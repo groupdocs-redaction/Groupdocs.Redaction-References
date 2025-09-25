@@ -3,9 +3,9 @@ title: License class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction/license/
-is_root: false
 weight: 40
+url: /groupdocs.redaction/license/
+is_root: false
 ---
 
 ## License class
@@ -19,14 +19,14 @@ The License type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction/license/__init__/#) | Initialize an instance of License class. |
+| [`__init__(self)`](/redaction/python-net/groupdocs.redaction/license/__init__/#) | Initialize an instance of License class. |
 
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [set_license](/redaction/python-net/groupdocs.redaction/license/set_license/#str) | Sets the GroupDocs.Redaction license from a file path. |
-| [set_license](/redaction/python-net/groupdocs.redaction/license/set_license/#io.RawIOBase) | Sets the GroupDocs.Redaction license from a stream. |
+| [`set_license(self, license_path)`](/redaction/python-net/groupdocs.redaction/license/set_license/#str) | Sets the GroupDocs.Redaction license from a file path. |
+| [`set_license(self, license_stream)`](/redaction/python-net/groupdocs.redaction/license/set_license/#io.rawiobase) | Sets the GroupDocs.Redaction license from a stream. |
 
 
 

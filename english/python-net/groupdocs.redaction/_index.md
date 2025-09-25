@@ -3,9 +3,9 @@ title: groupdocs.redaction
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction/
-is_root: false
 weight: 10
+url: /groupdocs.redaction/
+is_root: false
 ---
 
 The GroupDocs namespace provides classes for redacting sensitive information from documents in PDF, raster image and office document formats.

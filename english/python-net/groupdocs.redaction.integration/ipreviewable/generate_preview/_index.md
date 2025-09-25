@@ -3,18 +3,19 @@ title: generate_preview method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.integration/ipreviewable/generate_preview/
-is_root: false
 weight: 20
+url: /groupdocs.redaction.integration/ipreviewable/generate_preview/
+is_root: false
 ---
 
-## generate_preview {#groupdocs.redaction.options.PreviewOptions}
+## generate_preview(self, preview_options) {#groupdocs.redaction.options.PreviewOptions}
 
 Generates preview images of specific pages in a given image format.
 
 
 
 ```python
+
 def generate_preview(self, preview_options):
     ...
 ```

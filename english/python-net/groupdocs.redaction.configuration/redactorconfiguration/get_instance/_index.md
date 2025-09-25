@@ -3,12 +3,12 @@ title: get_instance method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.configuration/redactorconfiguration/get_instance/
-is_root: false
 weight: 30
+url: /groupdocs.redaction.configuration/redactorconfiguration/get_instance/
+is_root: false
 ---
 
-## get_instance {#}
+## get_instance() {#}
 
 Provides a singleton instance with default configuration of built-in formats.
 
@@ -20,7 +20,9 @@ Configuration instance
 
 
 ```python
-def get_instance(self):
+
+@staticmethod
+def get_instance():
     ...
 ```
 

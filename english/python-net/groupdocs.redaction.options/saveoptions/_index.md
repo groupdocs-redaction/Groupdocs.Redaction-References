@@ -3,9 +3,9 @@ title: SaveOptions class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.options/saveoptions/
-is_root: false
 weight: 60
+url: /groupdocs.redaction.options/saveoptions/
+is_root: false
 ---
 
 ## SaveOptions class
@@ -19,8 +19,8 @@ The SaveOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.options/saveoptions/__init__/#) | Initializes a new instance with defaults: rasterize to PDF - false, add suffix - false. |
-| [__init__](/redaction/python-net/groupdocs.redaction.options/saveoptions/__init__/#bool-str) | Initializes a new instance with given parameters. |
+| [`__init__(self)`](/redaction/python-net/groupdocs.redaction.options/saveoptions/__init__/#) | Initializes a new instance with defaults: rasterize to PDF - false, add suffix - false. |
+| [`__init__(self, rasterize_to_pdf, suffix)`](/redaction/python-net/groupdocs.redaction.options/saveoptions/__init__/#bool-str) | Initializes a new instance with given parameters. |
 
 
 ### Properties

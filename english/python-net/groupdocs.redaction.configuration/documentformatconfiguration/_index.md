@@ -3,9 +3,9 @@ title: DocumentFormatConfiguration class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.configuration/documentformatconfiguration/
-is_root: false
 weight: 10
+url: /groupdocs.redaction.configuration/documentformatconfiguration/
+is_root: false
 ---
 
 ## DocumentFormatConfiguration class
@@ -19,7 +19,7 @@ The DocumentFormatConfiguration type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.configuration/documentformatconfiguration/__init__/#) | Initializes a new instance of DocumentFormatConfiguration class. |
+| [`__init__(self)`](/redaction/python-net/groupdocs.redaction.configuration/documentformatconfiguration/__init__/#) | Initializes a new instance of DocumentFormatConfiguration class. |
 
 
 ### Properties
@@ -32,7 +32,7 @@ The DocumentFormatConfiguration type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [supports_extension](/redaction/python-net/groupdocs.redaction.configuration/documentformatconfiguration/supports_extension/#str) | Checks if a given file extension can be handled as DocumentType. |
+| [`supports_extension(self, file_extension)`](/redaction/python-net/groupdocs.redaction.configuration/documentformatconfiguration/supports_extension/#str) | Checks if a given file extension can be handled as DocumentType. |
 
 
 

@@ -3,9 +3,9 @@ title: available_formats property
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.configuration/redactorconfiguration/available_formats/
-is_root: false
 weight: 50
+url: /groupdocs.redaction.configuration/redactorconfiguration/available_formats/
+is_root: false
 ---
 
 ## available_formats property

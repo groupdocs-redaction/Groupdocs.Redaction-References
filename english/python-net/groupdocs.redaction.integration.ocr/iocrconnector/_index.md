@@ -3,9 +3,9 @@ title: IOcrConnector class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.integration.ocr/iocrconnector/
-is_root: false
 weight: 10
+url: /groupdocs.redaction.integration.ocr/iocrconnector/
+is_root: false
 ---
 
 ## IOcrConnector class
@@ -19,7 +19,7 @@ The IOcrConnector type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [recognize](/redaction/python-net/groupdocs.redaction.integration.ocr/iocrconnector/recognize/#io.RawIOBase) | Does the OCR processing of an image, provided as a stream. |
+| [`recognize(self, image_stream)`](/redaction/python-net/groupdocs.redaction.integration.ocr/iocrconnector/recognize/#io.rawiobase) | Does the OCR processing of an image, provided as a stream. |
 
 
 

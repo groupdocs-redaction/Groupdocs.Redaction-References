@@ -3,18 +3,19 @@ title: MetadataCollection constructor
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.integration/metadatacollection/__init__/
-is_root: false
 weight: 10
+url: /groupdocs.redaction.integration/metadatacollection/__init__/
+is_root: false
 ---
 
-## __init__ {#}
+## \_\_init\_\_(self) {#}
 
 Initializes a new instance of MetadataCollection class.
 
 
 
 ```python
+
 def __init__(self):
     ...
 ```

@@ -3,18 +3,19 @@ title: warning method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.options/ilogger/warning/
-is_root: false
 weight: 40
+url: /groupdocs.redaction.options/ilogger/warning/
+is_root: false
 ---
 
-## warning {#str}
+## warning(self, message) {#str}
 
 Logs a warning that occurred during redaction process.
 
 
 
 ```python
+
 def warning(self, message):
     ...
 ```

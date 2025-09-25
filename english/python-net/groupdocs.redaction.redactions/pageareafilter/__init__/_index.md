@@ -3,18 +3,19 @@ title: PageAreaFilter constructor
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/pageareafilter/__init__/
-is_root: false
 weight: 10
+url: /groupdocs.redaction.redactions/pageareafilter/__init__/
+is_root: false
 ---
 
-## __init__ {#aspose.pydrawing.Point-aspose.pydrawing.Size}
+## \_\_init\_\_(self, top_left, size) {#aspose.pydrawing.Point-aspose.pydrawing.Size}
 
 Initializes a new instance of PageAreaFilter class for redacting specific area.
 
 
 
 ```python
+
 def __init__(self, top_left, size):
     ...
 ```

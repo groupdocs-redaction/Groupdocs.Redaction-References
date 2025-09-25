@@ -3,12 +3,12 @@ title: save method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction/redactor/save/
-is_root: false
 weight: 50
+url: /groupdocs.redaction/redactor/save/
+is_root: false
 ---
 
-## save {#}
+## save(self) {#}
 
 Saves the document to a file with the following options: AddSuffix = true, RasterizeToPDF = true.
 
@@ -20,6 +20,7 @@ Path to redacted document
 
 
 ```python
+
 def save(self):
     ...
 ```
@@ -27,7 +28,7 @@ def save(self):
 
 
 
-## save {#groupdocs.redaction.options.SaveOptions}
+## save(self, save_options) {#groupdocs.redaction.options.SaveOptions}
 
 Saves the document to a file.
 
@@ -39,6 +40,7 @@ Path to redacted document
 
 
 ```python
+
 def save(self, save_options):
     ...
 ```
@@ -54,13 +56,14 @@ def save(self, save_options):
 The following example demonstrates how to save a document using SaveOptions.
 
 
-## save {#io.RawIOBase-groupdocs.redaction.options.RasterizationOptions}
+## save(self, document, rasterization_options) {#io.RawIOBase-groupdocs.redaction.options.RasterizationOptions}
 
 Saves the document to a stream, including custom location.
 
 
 
 ```python
+
 def save(self, document, rasterization_options):
     ...
 ```

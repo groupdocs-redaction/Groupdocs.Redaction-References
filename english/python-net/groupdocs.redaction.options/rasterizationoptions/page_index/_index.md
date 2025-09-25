@@ -3,9 +3,9 @@ title: page_index property
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.options/rasterizationoptions/page_index/
-is_root: false
 weight: 80
+url: /groupdocs.redaction.options/rasterizationoptions/page_index/
+is_root: false
 ---
 
 ## page_index property

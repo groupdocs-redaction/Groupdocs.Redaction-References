@@ -3,9 +3,9 @@ title: page_numbers property
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.options/previewoptions/page_numbers/
-is_root: false
 weight: 40
+url: /groupdocs.redaction.options/previewoptions/page_numbers/
+is_root: false
 ---
 
 ## page_numbers property

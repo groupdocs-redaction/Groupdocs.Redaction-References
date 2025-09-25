@@ -3,9 +3,9 @@ title: RegexRedaction class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/regexredaction/
-is_root: false
 weight: 190
+url: /groupdocs.redaction.redactions/regexredaction/
+is_root: false
 ---
 
 ## RegexRedaction class
@@ -25,7 +25,7 @@ The RegexRedaction type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.redactions/regexredaction/__init__/#str-groupdocs.redaction.redactions.ReplacementOptions) | Initializes a new instance of RegexRedaction class. |
+| [`__init__(self, pattern, options)`](/redaction/python-net/groupdocs.redaction.redactions/regexredaction/__init__/#str-groupdocs.redaction.redactions.replacementoptions) | Initializes a new instance of RegexRedaction class. |
 
 
 ### Properties
@@ -39,7 +39,7 @@ The RegexRedaction type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [apply_to](/redaction/python-net/groupdocs.redaction.redactions/regexredaction/apply_to/#groupdocs.redaction.integration.DocumentFormatInstance) | Applies the redaction to a given format instance. |
+| [`apply_to(self, format_instance)`](/redaction/python-net/groupdocs.redaction.redactions/regexredaction/apply_to/#groupdocs.redaction.integration.documentformatinstance) | Applies the redaction to a given format instance. |
 
 
 

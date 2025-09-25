@@ -3,9 +3,9 @@ title: ImageAreaRedaction class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/imagearearedaction/
-is_root: false
 weight: 110
+url: /groupdocs.redaction.redactions/imagearearedaction/
+is_root: false
 ---
 
 ## ImageAreaRedaction class
@@ -24,7 +24,7 @@ The ImageAreaRedaction type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.redactions/imagearearedaction/__init__/#aspose.pydrawing.Point-groupdocs.redaction.redactions.RegionReplacementOptions) | Initializes a new instance of ImageAreaRedaction class for redacting specific area size. |
+| [`__init__(self, top_left, options)`](/redaction/python-net/groupdocs.redaction.redactions/imagearearedaction/__init__/#aspose.pydrawing.point-groupdocs.redaction.redactions.regionreplacementoptions) | Initializes a new instance of ImageAreaRedaction class for redacting specific area size. |
 
 
 ### Properties
@@ -38,7 +38,7 @@ The ImageAreaRedaction type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [apply_to](/redaction/python-net/groupdocs.redaction.redactions/imagearearedaction/apply_to/#groupdocs.redaction.integration.DocumentFormatInstance) | Applies the redaction to a given format instance. |
+| [`apply_to(self, format_instance)`](/redaction/python-net/groupdocs.redaction.redactions/imagearearedaction/apply_to/#groupdocs.redaction.integration.documentformatinstance) | Applies the redaction to a given format instance. |
 
 
 

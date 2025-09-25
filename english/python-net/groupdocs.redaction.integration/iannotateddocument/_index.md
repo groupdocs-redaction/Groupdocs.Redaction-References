@@ -3,9 +3,9 @@ title: IAnnotatedDocument class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.integration/iannotateddocument/
-is_root: false
 weight: 20
+url: /groupdocs.redaction.integration/iannotateddocument/
+is_root: false
 ---
 
 ## IAnnotatedDocument class

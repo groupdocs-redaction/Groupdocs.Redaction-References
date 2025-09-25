@@ -3,9 +3,9 @@ title: MetadataSearchRedaction class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/metadatasearchredaction/
-is_root: false
 weight: 130
+url: /groupdocs.redaction.redactions/metadatasearchredaction/
+is_root: false
 ---
 
 ## MetadataSearchRedaction class
@@ -25,8 +25,8 @@ The MetadataSearchRedaction type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.redactions/metadatasearchredaction/__init__/#str-str) | Initializes a new instance of MetadataSearchRedaction class, using value to match redacted items. |
-| [__init__](/redaction/python-net/groupdocs.redaction.redactions/metadatasearchredaction/__init__/#str-str-str) | Initializes a new instance of MetadataSearchRedaction class, using item name and value to match redacted items. |
+| [`__init__(self, value_pattern, replacement)`](/redaction/python-net/groupdocs.redaction.redactions/metadatasearchredaction/__init__/#str-str) | Initializes a new instance of MetadataSearchRedaction class, using value to match redacted items. |
+| [`__init__(self, value_pattern, replacement, key_pattern)`](/redaction/python-net/groupdocs.redaction.redactions/metadatasearchredaction/__init__/#str-str-str) | Initializes a new instance of MetadataSearchRedaction class, using item name and value to match redacted items. |
 
 
 ### Properties
@@ -40,7 +40,7 @@ The MetadataSearchRedaction type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [apply_to](/redaction/python-net/groupdocs.redaction.redactions/metadatasearchredaction/apply_to/#groupdocs.redaction.integration.DocumentFormatInstance) | Applies the redaction to a given format instance. |
+| [`apply_to(self, format_instance)`](/redaction/python-net/groupdocs.redaction.redactions/metadatasearchredaction/apply_to/#groupdocs.redaction.integration.documentformatinstance) | Applies the redaction to a given format instance. |
 
 
 

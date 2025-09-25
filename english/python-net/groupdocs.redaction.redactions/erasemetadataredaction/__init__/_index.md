@@ -3,18 +3,19 @@ title: EraseMetadataRedaction constructor
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/erasemetadataredaction/__init__/
-is_root: false
 weight: 10
+url: /groupdocs.redaction.redactions/erasemetadataredaction/__init__/
+is_root: false
 ---
 
-## __init__ {#}
+## \_\_init\_\_(self) {#}
 
 Initializes a new instance of EraseMetadataRedaction class, erasing all metadata.
 
 
 
 ```python
+
 def __init__(self):
     ...
 ```
@@ -22,13 +23,14 @@ def __init__(self):
 
 
 
-## __init__ {#groupdocs.redaction.redactions.MetadataFilters}
+## \_\_init\_\_(self, filter) {#groupdocs.redaction.redactions.MetadataFilters}
 
 Initializes a new instance of EraseMetadataRedaction class, erasing metadata, matching specific combination of [`MetadataFilters`](/redaction/python-net/groupdocs.redaction.redactions/metadatafilters).
 
 
 
 ```python
+
 def __init__(self, filter):
     ...
 ```

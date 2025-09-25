@@ -3,9 +3,9 @@ title: width property
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction/pageinfo/width/
-is_root: false
 weight: 50
+url: /groupdocs.redaction/pageinfo/width/
+is_root: false
 ---
 
 ## width property

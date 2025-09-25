@@ -3,9 +3,9 @@ title: TextFragment class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.integration.ocr/textfragment/
-is_root: false
 weight: 30
+url: /groupdocs.redaction.integration.ocr/textfragment/
+is_root: false
 ---
 
 ## TextFragment class
@@ -19,7 +19,7 @@ The TextFragment type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.integration.ocr/textfragment/__init__/#str-aspose.pydrawing.Rectangle) | Initializes a new instance of the recognized text fragment. |
+| [`__init__(self, text, rectangle)`](/redaction/python-net/groupdocs.redaction.integration.ocr/textfragment/__init__/#str-aspose.pydrawing.rectangle) | Initializes a new instance of the recognized text fragment. |
 
 
 ### Properties

@@ -3,9 +3,9 @@ title: apply property
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/customredactionresult/apply/
-is_root: false
 weight: 30
+url: /groupdocs.redaction.redactions/customredactionresult/apply/
+is_root: false
 ---
 
 ## apply property

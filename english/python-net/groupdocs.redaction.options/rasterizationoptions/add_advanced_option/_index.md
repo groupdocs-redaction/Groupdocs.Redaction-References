@@ -3,18 +3,19 @@ title: add_advanced_option method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.options/rasterizationoptions/add_advanced_option/
-is_root: false
 weight: 20
+url: /groupdocs.redaction.options/rasterizationoptions/add_advanced_option/
+is_root: false
 ---
 
-## add_advanced_option {#groupdocs.redaction.options.AdvancedRasterizationOptions}
+## add_advanced_option(self, option_type) {#groupdocs.redaction.options.AdvancedRasterizationOptions}
 
 You can use this method to register an advanced rasterization option to apply.
 
 
 
 ```python
+
 def add_advanced_option(self, option_type):
     ...
 ```

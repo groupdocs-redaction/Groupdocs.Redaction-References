@@ -3,12 +3,12 @@ title: from_extension method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction/filetype/from_extension/
-is_root: false
 weight: 30
+url: /groupdocs.redaction/filetype/from_extension/
+is_root: false
 ---
 
-## from_extension {#str}
+## from_extension(, extension) {#str}
 
 Maps file extension to file type.
 
@@ -20,7 +20,9 @@ When file type is supported returns it, otherwise returns default [`FileType.unk
 
 
 ```python
-def from_extension(self, extension):
+
+@staticmethod
+def from_extension(extension):
     ...
 ```
 

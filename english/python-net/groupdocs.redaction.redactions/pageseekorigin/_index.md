@@ -3,9 +3,9 @@ title: PageSeekOrigin enumeration
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/pageseekorigin/
-is_root: false
 weight: 260
+url: /groupdocs.redaction.redactions/pageseekorigin/
+is_root: false
 ---
 
 ## PageSeekOrigin enumeration

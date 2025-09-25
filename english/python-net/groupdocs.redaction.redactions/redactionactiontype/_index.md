@@ -3,9 +3,9 @@ title: RedactionActionType enumeration
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/redactionactiontype/
-is_root: false
 weight: 270
+url: /groupdocs.redaction.redactions/redactionactiontype/
+is_root: false
 ---
 
 ## RedactionActionType enumeration

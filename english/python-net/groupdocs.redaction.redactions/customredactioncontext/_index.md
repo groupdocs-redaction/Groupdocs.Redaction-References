@@ -3,9 +3,9 @@ title: CustomRedactionContext class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/customredactioncontext/
-is_root: false
 weight: 40
+url: /groupdocs.redaction.redactions/customredactioncontext/
+is_root: false
 ---
 
 ## CustomRedactionContext class
@@ -19,7 +19,7 @@ The CustomRedactionContext type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.redactions/customredactioncontext/__init__/#) | Constructs a new instance of CustomRedactionContext |
+| [`__init__(self)`](/redaction/python-net/groupdocs.redaction.redactions/customredactioncontext/__init__/#) | Constructs a new instance of CustomRedactionContext |
 
 
 ### Properties

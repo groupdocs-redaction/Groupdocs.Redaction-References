@@ -3,9 +3,9 @@ title: filter property
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.integration/metadataitem/filter/
-is_root: false
 weight: 70
+url: /groupdocs.redaction.integration/metadataitem/filter/
+is_root: false
 ---
 
 ## filter property

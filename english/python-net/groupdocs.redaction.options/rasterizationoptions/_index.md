@@ -3,9 +3,9 @@ title: RasterizationOptions class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.options/rasterizationoptions/
-is_root: false
 weight: 40
+url: /groupdocs.redaction.options/rasterizationoptions/
+is_root: false
 ---
 
 ## RasterizationOptions class
@@ -19,7 +19,7 @@ The RasterizationOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.options/rasterizationoptions/__init__/#) | Initializes a new instance. |
+| [`__init__(self)`](/redaction/python-net/groupdocs.redaction.options/rasterizationoptions/__init__/#) | Initializes a new instance. |
 
 
 ### Properties
@@ -35,7 +35,7 @@ The RasterizationOptions type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [add_advanced_option](/redaction/python-net/groupdocs.redaction.options/rasterizationoptions/add_advanced_option/#groupdocs.redaction.options.AdvancedRasterizationOptions) | You can use this method to register an advanced rasterization option to apply. |
+| [`add_advanced_option(self, option_type)`](/redaction/python-net/groupdocs.redaction.options/rasterizationoptions/add_advanced_option/#groupdocs.redaction.options.advancedrasterizationoptions) | You can use this method to register an advanced rasterization option to apply. |
 
 
 

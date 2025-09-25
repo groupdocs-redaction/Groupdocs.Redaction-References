@@ -3,9 +3,9 @@ title: RedactorSettings class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.options/redactorsettings/
-is_root: false
 weight: 50
+url: /groupdocs.redaction.options/redactorsettings/
+is_root: false
 ---
 
 ## RedactorSettings class
@@ -19,12 +19,12 @@ The RedactorSettings type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.options/redactorsettings/__init__/#) | Initializes a new instance of the RedactorSettings class. |
-| [__init__](/redaction/python-net/groupdocs.redaction.options/redactorsettings/__init__/#groupdocs.redaction.options.ILogger) | Initializes a new instance of the RedactorSettings class with a given ILogger instance. |
-| [__init__](/redaction/python-net/groupdocs.redaction.options/redactorsettings/__init__/#groupdocs.redaction.redactions.IRedactionCallback) | Initializes a new instance of the RedactorSettings class with a given IRedactionCallback instance. |
-| [__init__](/redaction/python-net/groupdocs.redaction.options/redactorsettings/__init__/#groupdocs.redaction.integration.ocr.IOcrConnector) | Initializes a new instance of the RedactorSettings class with a given IOcrConnector instance. |
-| [__init__](/redaction/python-net/groupdocs.redaction.options/redactorsettings/__init__/#groupdocs.redaction.options.ILogger-groupdocs.redaction.redactions.IRedactionCallback) | Initializes a new instance of the RedactorSettings class with given ILogger and IRedactionCallback instances. |
-| [__init__](/redaction/python-net/groupdocs.redaction.options/redactorsettings/__init__/#groupdocs.redaction.options.ILogger-groupdocs.redaction.redactions.IRedactionCallback-groupdocs.redaction.integration.ocr.IOcrConnector) | Initializes a new instance of the RedactorSettings class with given ILogger, IRedactionCallback and IOcrConnector instances. |
+| [`__init__(self)`](/redaction/python-net/groupdocs.redaction.options/redactorsettings/__init__/#) | Initializes a new instance of the RedactorSettings class. |
+| [`__init__(self, logger)`](/redaction/python-net/groupdocs.redaction.options/redactorsettings/__init__/#groupdocs.redaction.options.ilogger) | Initializes a new instance of the RedactorSettings class with a given ILogger instance. |
+| [`__init__(self, callback)`](/redaction/python-net/groupdocs.redaction.options/redactorsettings/__init__/#groupdocs.redaction.redactions.iredactioncallback) | Initializes a new instance of the RedactorSettings class with a given IRedactionCallback instance. |
+| [`__init__(self, ocr_connector)`](/redaction/python-net/groupdocs.redaction.options/redactorsettings/__init__/#groupdocs.redaction.integration.ocr.iocrconnector) | Initializes a new instance of the RedactorSettings class with a given IOcrConnector instance. |
+| [`__init__(self, logger, callback)`](/redaction/python-net/groupdocs.redaction.options/redactorsettings/__init__/#groupdocs.redaction.options.ilogger-groupdocs.redaction.redactions.iredactioncallback) | Initializes a new instance of the RedactorSettings class with given ILogger and IRedactionCallback instances. |
+| [`__init__(self, logger, callback, ocr_connector)`](/redaction/python-net/groupdocs.redaction.options/redactorsettings/__init__/#groupdocs.redaction.options.ilogger-groupdocs.redaction.redactions.iredactioncallback-groupdocs.redaction.integration.ocr.iocrconnector) | Initializes a new instance of the RedactorSettings class with given ILogger, IRedactionCallback and IOcrConnector instances. |
 
 
 ### Properties

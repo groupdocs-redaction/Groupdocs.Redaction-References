@@ -3,18 +3,19 @@ title: ReplacementOptions constructor
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/replacementoptions/__init__/
-is_root: false
 weight: 10
+url: /groupdocs.redaction.redactions/replacementoptions/__init__/
+is_root: false
 ---
 
-## __init__ {#str}
+## \_\_init\_\_(self, replacement) {#str}
 
 Initializes a new instance of ReplacementOptions class with replacement text as an option.
 
 
 
 ```python
+
 def __init__(self, replacement):
     ...
 ```
@@ -25,13 +26,14 @@ def __init__(self, replacement):
 | replacement | str | Textual replacement |
 
 
-## __init__ {#aspose.pydrawing.Color}
+## \_\_init\_\_(self, color) {#aspose.pydrawing.Color}
 
 Initializes a new instance of ReplacementOptions class with colored rectangle as an option.
 
 
 
 ```python
+
 def __init__(self, color):
     ...
 ```

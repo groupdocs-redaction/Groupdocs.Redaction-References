@@ -3,18 +3,19 @@ title: SaveOptions constructor
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.options/saveoptions/__init__/
-is_root: false
 weight: 10
+url: /groupdocs.redaction.options/saveoptions/__init__/
+is_root: false
 ---
 
-## __init__ {#}
+## \_\_init\_\_(self) {#}
 
 Initializes a new instance with defaults: rasterize to PDF - false, add suffix - false.
 
 
 
 ```python
+
 def __init__(self):
     ...
 ```
@@ -22,13 +23,14 @@ def __init__(self):
 
 
 
-## __init__ {#bool-str}
+## \_\_init\_\_(self, rasterize_to_pdf, suffix) {#bool-str}
 
 Initializes a new instance with given parameters.
 
 
 
 ```python
+
 def __init__(self, rasterize_to_pdf, suffix):
     ...
 ```

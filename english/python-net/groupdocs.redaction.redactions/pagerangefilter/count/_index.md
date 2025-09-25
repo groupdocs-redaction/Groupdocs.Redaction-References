@@ -3,9 +3,9 @@ title: count property
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/pagerangefilter/count/
-is_root: false
 weight: 30
+url: /groupdocs.redaction.redactions/pagerangefilter/count/
+is_root: false
 ---
 
 ## count property

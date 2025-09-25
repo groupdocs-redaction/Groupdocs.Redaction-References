@@ -3,12 +3,12 @@ title: apply method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction/redactor/apply/
-is_root: false
 weight: 20
+url: /groupdocs.redaction/redactor/apply/
+is_root: false
 ---
 
-## apply {#groupdocs.redaction.Redaction}
+## apply(self, redaction) {#groupdocs.redaction.Redaction}
 
 Applies a redaction to the document.
 
@@ -20,6 +20,7 @@ Success or failure and error message in this case
 
 
 ```python
+
 def apply(self, redaction):
     ...
 ```
@@ -35,7 +36,7 @@ def apply(self, redaction):
 The following example demonstrates applying a single redaction to the document.
 
 
-## apply {#list}
+## apply(self, redactions) {#list}
 
 Applies a set of redactions to the document.
 
@@ -47,6 +48,7 @@ Success or failure and error message in this case
 
 
 ```python
+
 def apply(self, redactions):
     ...
 ```
@@ -62,7 +64,7 @@ def apply(self, redactions):
 The following example demonstrates applying a list of redactions to the document.
 
 
-## apply {#groupdocs.redaction.RedactionPolicy}
+## apply(self, policy) {#groupdocs.redaction.RedactionPolicy}
 
 Applies a redaction policy to the document.
 
@@ -74,6 +76,7 @@ Success or failure and error message in this case
 
 
 ```python
+
 def apply(self, policy):
     ...
 ```

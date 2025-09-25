@@ -3,9 +3,9 @@ title: groupdocs.redaction.redactions
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/
-is_root: false
 weight: 10
+url: /groupdocs.redaction.redactions/
+is_root: false
 ---
 
 The GroupDocs.Redaction namespace provides classes for different types of redactions.

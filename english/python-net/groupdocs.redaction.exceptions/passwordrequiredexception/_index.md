@@ -3,9 +3,9 @@ title: PasswordRequiredException class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.exceptions/passwordrequiredexception/
-is_root: false
 weight: 40
+url: /groupdocs.redaction.exceptions/passwordrequiredexception/
+is_root: false
 ---
 
 ## PasswordRequiredException class
@@ -24,7 +24,7 @@ The PasswordRequiredException type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.exceptions/passwordrequiredexception/__init__/#) | Initializes a new instance of PasswordRequiredException class. |
+| [`__init__(self)`](/redaction/python-net/groupdocs.redaction.exceptions/passwordrequiredexception/__init__/#) | Initializes a new instance of PasswordRequiredException class. |
 
 
 

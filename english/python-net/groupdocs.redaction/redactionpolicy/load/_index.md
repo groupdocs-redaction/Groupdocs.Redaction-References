@@ -3,12 +3,12 @@ title: load method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction/redactionpolicy/load/
-is_root: false
 weight: 20
+url: /groupdocs.redaction/redactionpolicy/load/
+is_root: false
 ---
 
-## load {#str}
+## load(, file_path) {#str}
 
 Loads an instance of [`RedactionPolicy`](/redaction/python-net/groupdocs.redaction/redactionpolicy) from a file path.
 
@@ -20,7 +20,9 @@ Redaction policy
 
 
 ```python
-def load(self, file_path):
+
+@staticmethod
+def load(file_path):
     ...
 ```
 
@@ -38,7 +40,7 @@ The following example demonstrates how to apply a redaction policy to all files 
 The following example contains a sample XML policy file with sample configurations for all types of redactions.
 
 
-## load {#io.RawIOBase}
+## load(, input) {#io.RawIOBase}
 
 Loads an instance of [`RedactionPolicy`](/redaction/python-net/groupdocs.redaction/redactionpolicy) from a stream.
 
@@ -50,7 +52,9 @@ Redaction policy
 
 
 ```python
-def load(self, input):
+
+@staticmethod
+def load(input):
     ...
 ```
 

@@ -3,9 +3,9 @@ title: IImageFormatInstance class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.integration/iimageformatinstance/
-is_root: false
 weight: 50
+url: /groupdocs.redaction.integration/iimageformatinstance/
+is_root: false
 ---
 
 ## IImageFormatInstance class
@@ -19,7 +19,7 @@ The IImageFormatInstance type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [edit_area](/redaction/python-net/groupdocs.redaction.integration/iimageformatinstance/edit_area/#aspose.pydrawing.Point-groupdocs.redaction.redactions.RegionReplacementOptions) | Replaces the area at given point with a rectangle of specific color and size. |
+| [`edit_area(self, top_left, options)`](/redaction/python-net/groupdocs.redaction.integration/iimageformatinstance/edit_area/#aspose.pydrawing.point-groupdocs.redaction.redactions.regionreplacementoptions) | Replaces the area at given point with a rectangle of specific color and size. |
 
 
 

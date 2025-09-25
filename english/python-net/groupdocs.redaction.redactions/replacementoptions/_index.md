@@ -3,9 +3,9 @@ title: ReplacementOptions class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/replacementoptions/
-is_root: false
 weight: 220
+url: /groupdocs.redaction.redactions/replacementoptions/
+is_root: false
 ---
 
 ## ReplacementOptions class
@@ -19,8 +19,8 @@ The ReplacementOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.redactions/replacementoptions/__init__/#str) | Initializes a new instance of ReplacementOptions class with replacement text as an option. |
-| [__init__](/redaction/python-net/groupdocs.redaction.redactions/replacementoptions/__init__/#aspose.pydrawing.Color) | Initializes a new instance of ReplacementOptions class with colored rectangle as an option. |
+| [`__init__(self, replacement)`](/redaction/python-net/groupdocs.redaction.redactions/replacementoptions/__init__/#str) | Initializes a new instance of ReplacementOptions class with replacement text as an option. |
+| [`__init__(self, color)`](/redaction/python-net/groupdocs.redaction.redactions/replacementoptions/__init__/#aspose.pydrawing.color) | Initializes a new instance of ReplacementOptions class with colored rectangle as an option. |
 
 
 ### Properties

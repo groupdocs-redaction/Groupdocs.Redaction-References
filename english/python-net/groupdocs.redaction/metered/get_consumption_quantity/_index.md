@@ -3,12 +3,12 @@ title: get_consumption_quantity method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction/metered/get_consumption_quantity/
-is_root: false
 weight: 30
+url: /groupdocs.redaction/metered/get_consumption_quantity/
+is_root: false
 ---
 
-## get_consumption_quantity {#}
+## get_consumption_quantity() {#}
 
 Retrieves the amount of MBs processed.
 
@@ -20,7 +20,9 @@ consumption quantity
 
 
 ```python
-def get_consumption_quantity(self):
+
+@staticmethod
+def get_consumption_quantity():
     ...
 ```
 

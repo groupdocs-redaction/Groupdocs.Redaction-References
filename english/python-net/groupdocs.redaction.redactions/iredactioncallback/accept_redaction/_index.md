@@ -3,12 +3,12 @@ title: accept_redaction method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/iredactioncallback/accept_redaction/
-is_root: false
 weight: 20
+url: /groupdocs.redaction.redactions/iredactioncallback/accept_redaction/
+is_root: false
 ---
 
-## accept_redaction {#groupdocs.redaction.redactions.RedactionDescription}
+## accept_redaction(self, description) {#groupdocs.redaction.redactions.RedactionDescription}
 
 This call is triggered right before applying any redaction to the document and allows to log or forbid it.
 
@@ -20,6 +20,7 @@ Return true to accept or false to decline particular match redaction
 
 
 ```python
+
 def accept_redaction(self, description):
     ...
 ```

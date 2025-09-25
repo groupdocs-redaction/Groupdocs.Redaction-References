@@ -3,18 +3,19 @@ title: GroupDocsRedactionException constructor
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.exceptions/groupdocsredactionexception/__init__/
-is_root: false
 weight: 10
+url: /groupdocs.redaction.exceptions/groupdocsredactionexception/__init__/
+is_root: false
 ---
 
-## __init__ {#str}
+## \_\_init\_\_(self, message) {#str}
 
 Initializes a new instance of GroupDocsRedactionException class.
 
 
 
 ```python
+
 def __init__(self, message):
     ...
 ```

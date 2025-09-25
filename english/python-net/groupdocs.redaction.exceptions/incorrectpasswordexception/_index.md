@@ -3,9 +3,9 @@ title: IncorrectPasswordException class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.exceptions/incorrectpasswordexception/
-is_root: false
 weight: 30
+url: /groupdocs.redaction.exceptions/incorrectpasswordexception/
+is_root: false
 ---
 
 ## IncorrectPasswordException class
@@ -24,7 +24,7 @@ The IncorrectPasswordException type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.exceptions/incorrectpasswordexception/__init__/#) | Initializes a new instance of IncorrectPasswordException class. |
+| [`__init__(self)`](/redaction/python-net/groupdocs.redaction.exceptions/incorrectpasswordexception/__init__/#) | Initializes a new instance of IncorrectPasswordException class. |
 
 
 

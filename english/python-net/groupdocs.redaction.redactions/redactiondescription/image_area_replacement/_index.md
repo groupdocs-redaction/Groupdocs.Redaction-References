@@ -3,9 +3,9 @@ title: image_area_replacement property
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/redactiondescription/image_area_replacement/
-is_root: false
 weight: 50
+url: /groupdocs.redaction.redactions/redactiondescription/image_area_replacement/
+is_root: false
 ---
 
 ## image_area_replacement property

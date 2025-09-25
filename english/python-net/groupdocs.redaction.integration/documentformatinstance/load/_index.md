@@ -3,18 +3,19 @@ title: load method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.integration/documentformatinstance/load/
-is_root: false
 weight: 40
+url: /groupdocs.redaction.integration/documentformatinstance/load/
+is_root: false
 ---
 
-## load {#io.RawIOBase}
+## load(self, input) {#io.RawIOBase}
 
 Loads the document from a stream.
 
 
 
 ```python
+
 def load(self, input):
     ...
 ```

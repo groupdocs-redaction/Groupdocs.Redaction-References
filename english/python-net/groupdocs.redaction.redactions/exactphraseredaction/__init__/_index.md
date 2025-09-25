@@ -3,18 +3,19 @@ title: ExactPhraseRedaction constructor
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/exactphraseredaction/__init__/
-is_root: false
 weight: 10
+url: /groupdocs.redaction.redactions/exactphraseredaction/__init__/
+is_root: false
 ---
 
-## __init__ {#str-groupdocs.redaction.redactions.ReplacementOptions}
+## \_\_init\_\_(self, search_phrase, options) {#str-groupdocs.redaction.redactions.ReplacementOptions}
 
 Initializes a new instance of ExactPhraseRedaction class in case insensitive mode.
 
 
 
 ```python
+
 def __init__(self, search_phrase, options):
     ...
 ```
@@ -26,13 +27,14 @@ def __init__(self, search_phrase, options):
 | options | [`ReplacementOptions`](/redaction/python-net/groupdocs.redaction.redactions/replacementoptions) | Replacement options (textual, color) |
 
 
-## __init__ {#str-bool-groupdocs.redaction.redactions.ReplacementOptions}
+## \_\_init\_\_(self, search_phrase, is_case_sensitive, options) {#str-bool-groupdocs.redaction.redactions.ReplacementOptions}
 
 Initializes a new instance of ExactPhraseRedaction class.
 
 
 
 ```python
+
 def __init__(self, search_phrase, is_case_sensitive, options):
     ...
 ```

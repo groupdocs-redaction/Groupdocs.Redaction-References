@@ -3,12 +3,12 @@ title: redact method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/icustomredactionhandler/redact/
-is_root: false
 weight: 20
+url: /groupdocs.redaction.redactions/icustomredactionhandler/redact/
+is_root: false
 ---
 
-## redact {#groupdocs.redaction.redactions.CustomRedactionContext}
+## redact(self, context) {#groupdocs.redaction.redactions.CustomRedactionContext}
 
 Applies custom redaction to specific document content.
 Currently, this is supported only for PDF [`PageAreaRedaction`](/redaction/python-net/groupdocs.redaction.redactions/pagearearedaction).
@@ -23,6 +23,7 @@ A [`CustomRedactionResult`](/redaction/python-net/groupdocs.redaction.redactions
 
 
 ```python
+
 def redact(self, context):
     ...
 ```

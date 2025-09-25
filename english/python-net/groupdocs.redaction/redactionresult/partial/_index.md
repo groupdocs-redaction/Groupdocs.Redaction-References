@@ -3,12 +3,12 @@ title: partial method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction/redactionresult/partial/
-is_root: false
 weight: 30
+url: /groupdocs.redaction/redactionresult/partial/
+is_root: false
 ---
 
-## partial {#str}
+## partial(, description) {#str}
 
 Initializes a new instance of RedactionResult class with PartiallyApplied status.
 
@@ -20,7 +20,9 @@ Partially applied redaction result
 
 
 ```python
-def partial(self, description):
+
+@staticmethod
+def partial(description):
     ...
 ```
 

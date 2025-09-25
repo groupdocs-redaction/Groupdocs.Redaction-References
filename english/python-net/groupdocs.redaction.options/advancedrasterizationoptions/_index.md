@@ -3,9 +3,9 @@ title: AdvancedRasterizationOptions enumeration
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.options/advancedrasterizationoptions/
-is_root: false
 weight: 70
+url: /groupdocs.redaction.options/advancedrasterizationoptions/
+is_root: false
 ---
 
 ## AdvancedRasterizationOptions enumeration

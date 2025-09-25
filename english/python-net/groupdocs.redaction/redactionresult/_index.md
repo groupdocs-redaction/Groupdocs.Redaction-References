@@ -3,9 +3,9 @@ title: RedactionResult class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction/redactionresult/
-is_root: false
 weight: 90
+url: /groupdocs.redaction/redactionresult/
+is_root: false
 ---
 
 ## RedactionResult class
@@ -26,10 +26,10 @@ The RedactionResult type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [skipped](/redaction/python-net/groupdocs.redaction/redactionresult/skipped/#str) | Initializes a new instance of RedactionResult class with Skipped status. |
-| [partial](/redaction/python-net/groupdocs.redaction/redactionresult/partial/#str) | Initializes a new instance of RedactionResult class with PartiallyApplied status. |
-| [failed](/redaction/python-net/groupdocs.redaction/redactionresult/failed/#str) | Initializes a new instance of RedactionResult class with Failed status. |
-| [successful](/redaction/python-net/groupdocs.redaction/redactionresult/successful/#) | Initializes a new instance of RedactionResult class with Applied (successful) status. |
+| [`skipped(, description)`](/redaction/python-net/groupdocs.redaction/redactionresult/skipped/#str) | Initializes a new instance of RedactionResult class with Skipped status. |
+| [`partial(, description)`](/redaction/python-net/groupdocs.redaction/redactionresult/partial/#str) | Initializes a new instance of RedactionResult class with PartiallyApplied status. |
+| [`failed(, description)`](/redaction/python-net/groupdocs.redaction/redactionresult/failed/#str) | Initializes a new instance of RedactionResult class with Failed status. |
+| [`successful()`](/redaction/python-net/groupdocs.redaction/redactionresult/successful/#) | Initializes a new instance of RedactionResult class with Applied (successful) status. |
 
 
 

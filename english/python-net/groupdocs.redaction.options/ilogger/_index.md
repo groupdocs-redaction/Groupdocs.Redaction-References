@@ -3,9 +3,9 @@ title: ILogger class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.options/ilogger/
-is_root: false
 weight: 10
+url: /groupdocs.redaction.options/ilogger/
+is_root: false
 ---
 
 ## ILogger class
@@ -19,9 +19,9 @@ The ILogger type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [error](/redaction/python-net/groupdocs.redaction.options/ilogger/error/#str) | Logs an error that occurred during redaction process. |
-| [trace](/redaction/python-net/groupdocs.redaction.options/ilogger/trace/#str) | Logs an event that occurred during redaction process. |
-| [warning](/redaction/python-net/groupdocs.redaction.options/ilogger/warning/#str) | Logs a warning that occurred during redaction process. |
+| [`error(self, message)`](/redaction/python-net/groupdocs.redaction.options/ilogger/error/#str) | Logs an error that occurred during redaction process. |
+| [`trace(self, message)`](/redaction/python-net/groupdocs.redaction.options/ilogger/trace/#str) | Logs an event that occurred during redaction process. |
+| [`warning(self, message)`](/redaction/python-net/groupdocs.redaction.options/ilogger/warning/#str) | Logs a warning that occurred during redaction process. |
 
 
 

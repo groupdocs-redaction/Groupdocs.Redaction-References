@@ -3,9 +3,9 @@ title: AnnotationRedaction class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/annotationredaction/
-is_root: false
 weight: 10
+url: /groupdocs.redaction.redactions/annotationredaction/
+is_root: false
 ---
 
 ## AnnotationRedaction class
@@ -24,7 +24,7 @@ The AnnotationRedaction type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.redactions/annotationredaction/__init__/#str-str) | Initializes a new instance of AnnotationRedaction class. |
+| [`__init__(self, pattern, replacement)`](/redaction/python-net/groupdocs.redaction.redactions/annotationredaction/__init__/#str-str) | Initializes a new instance of AnnotationRedaction class. |
 
 
 ### Properties
@@ -37,7 +37,7 @@ The AnnotationRedaction type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [apply_to](/redaction/python-net/groupdocs.redaction.redactions/annotationredaction/apply_to/#groupdocs.redaction.integration.DocumentFormatInstance) | Applies the redaction to a given format instance. |
+| [`apply_to(self, format_instance)`](/redaction/python-net/groupdocs.redaction.redactions/annotationredaction/apply_to/#groupdocs.redaction.integration.documentformatinstance) | Applies the redaction to a given format instance. |
 
 
 

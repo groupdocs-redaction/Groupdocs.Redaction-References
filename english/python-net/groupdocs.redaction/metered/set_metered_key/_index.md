@@ -3,18 +3,19 @@ title: set_metered_key method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction/metered/set_metered_key/
-is_root: false
 weight: 40
+url: /groupdocs.redaction/metered/set_metered_key/
+is_root: false
 ---
 
-## set_metered_key {#str-str}
+## set_metered_key(self, public_key, private_key) {#str-str}
 
 Activates the product with Metered keys.
 
 
 
 ```python
+
 def set_metered_key(self, public_key, private_key):
     ...
 ```

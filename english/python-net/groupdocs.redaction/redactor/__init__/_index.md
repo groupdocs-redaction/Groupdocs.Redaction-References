@@ -3,18 +3,19 @@ title: Redactor constructor
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction/redactor/__init__/
-is_root: false
 weight: 10
+url: /groupdocs.redaction/redactor/__init__/
+is_root: false
 ---
 
-## __init__ {#str}
+## \_\_init\_\_(self, file_path) {#str}
 
 Initializes a new instance of [`Redactor`](/redaction/python-net/groupdocs.redaction/redactor) class using file path.
 
 
 
 ```python
+
 def __init__(self, file_path):
     ...
 ```
@@ -30,13 +31,14 @@ def __init__(self, file_path):
 The following example demonstrates how to open a document for redaction.
 
 
-## __init__ {#io.RawIOBase}
+## \_\_init\_\_(self, document) {#io.RawIOBase}
 
 Initializes a new instance of [`Redactor`](/redaction/python-net/groupdocs.redaction/redactor) class using stream.
 
 
 
 ```python
+
 def __init__(self, document):
     ...
 ```
@@ -52,13 +54,14 @@ def __init__(self, document):
 The following example demonstrates how to open a document from stream.
 
 
-## __init__ {#str-groupdocs.redaction.options.LoadOptions}
+## \_\_init\_\_(self, file_path, load_options) {#str-groupdocs.redaction.options.LoadOptions}
 
 Initializes a new instance of [`Redactor`](/redaction/python-net/groupdocs.redaction/redactor) class for a password-protected document using its path.
 
 
 
 ```python
+
 def __init__(self, file_path, load_options):
     ...
 ```
@@ -70,13 +73,14 @@ def __init__(self, file_path, load_options):
 | load_options | groupdocs.redaction.options.LoadOptions | Options, including password. |
 
 
-## __init__ {#io.RawIOBase-groupdocs.redaction.options.LoadOptions}
+## \_\_init\_\_(self, document, load_options) {#io.RawIOBase-groupdocs.redaction.options.LoadOptions}
 
 Initializes a new instance of [`Redactor`](/redaction/python-net/groupdocs.redaction/redactor) class for a password-protected document using stream.
 
 
 
 ```python
+
 def __init__(self, document, load_options):
     ...
 ```
@@ -93,13 +97,14 @@ def __init__(self, document, load_options):
 The following example demonstrates how to open a password-protected documents using LoadOptions.
 
 
-## __init__ {#str-groupdocs.redaction.options.LoadOptions-groupdocs.redaction.options.RedactorSettings}
+## \_\_init\_\_(self, file_path, load_options, settings) {#str-groupdocs.redaction.options.LoadOptions-groupdocs.redaction.options.RedactorSettings}
 
 Initializes a new instance of [`Redactor`](/redaction/python-net/groupdocs.redaction/redactor) class for a password-protected document using its path and settings.
 
 
 
 ```python
+
 def __init__(self, file_path, load_options, settings):
     ...
 ```
@@ -112,13 +117,14 @@ def __init__(self, file_path, load_options, settings):
 | settings | groupdocs.redaction.options.RedactorSettings | Default settings for redaction process. |
 
 
-## __init__ {#io.RawIOBase-groupdocs.redaction.options.LoadOptions-groupdocs.redaction.options.RedactorSettings}
+## \_\_init\_\_(self, document, load_options, settings) {#io.RawIOBase-groupdocs.redaction.options.LoadOptions-groupdocs.redaction.options.RedactorSettings}
 
 Initializes a new instance of [`Redactor`](/redaction/python-net/groupdocs.redaction/redactor) class for a password-protected document using stream and settings.
 
 
 
 ```python
+
 def __init__(self, document, load_options, settings):
     ...
 ```

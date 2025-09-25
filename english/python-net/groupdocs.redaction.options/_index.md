@@ -3,9 +3,9 @@ title: groupdocs.redaction.options
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.options/
-is_root: false
 weight: 10
+url: /groupdocs.redaction.options/
+is_root: false
 ---
 
 The GroupDocs.Redaction namespace provides load and save options classes.

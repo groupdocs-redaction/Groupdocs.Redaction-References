@@ -3,9 +3,9 @@ title: text property
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/customredactionresult/text/
-is_root: false
 weight: 40
+url: /groupdocs.redaction.redactions/customredactionresult/text/
+is_root: false
 ---
 
 ## text property

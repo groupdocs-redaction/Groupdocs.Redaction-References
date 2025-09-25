@@ -3,9 +3,9 @@ title: rasterize_to_pdf property
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.options/saveoptions/rasterize_to_pdf/
-is_root: false
 weight: 60
+url: /groupdocs.redaction.options/saveoptions/rasterize_to_pdf/
+is_root: false
 ---
 
 ## rasterize_to_pdf property

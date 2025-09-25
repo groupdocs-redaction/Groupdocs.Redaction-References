@@ -3,15 +3,21 @@ title: odp property
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction/filetype/odp/
-is_root: false
 weight: 240
+url: /groupdocs.redaction/filetype/odp/
+is_root: false
 ---
 
 ## odp property
 
 
 OpenDocument Presentation (.odp)
+### Definition:
+```python
+@property
+def odp(self):
+    ...
+```
 
 ### See Also
 * module [`groupdocs.redaction`](../../)

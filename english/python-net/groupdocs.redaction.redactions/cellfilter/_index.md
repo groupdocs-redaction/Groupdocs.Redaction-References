@@ -3,9 +3,9 @@ title: CellFilter class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/cellfilter/
-is_root: false
 weight: 30
+url: /groupdocs.redaction.redactions/cellfilter/
+is_root: false
 ---
 
 ## CellFilter class
@@ -19,7 +19,7 @@ The CellFilter type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.redactions/cellfilter/__init__/#) | Initializes a new instance. |
+| [`__init__(self)`](/redaction/python-net/groupdocs.redaction.redactions/cellfilter/__init__/#) | Initializes a new instance. |
 
 
 ### Properties

@@ -3,12 +3,12 @@ title: remove_pages method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.integration/ipaginateddocument/remove_pages/
-is_root: false
 weight: 20
+url: /groupdocs.redaction.integration/ipaginateddocument/remove_pages/
+is_root: false
 ---
 
-## remove_pages {#groupdocs.redaction.redactions.PageSeekOrigin-int-int}
+## remove_pages(self, origin, index, count) {#groupdocs.redaction.redactions.PageSeekOrigin-int-int}
 
 Removes one or multiple pages depending on its start position, offset and count.
 
@@ -20,6 +20,7 @@ Pages removal redaction result
 
 
 ```python
+
 def remove_pages(self, origin, index, count):
     ...
 ```

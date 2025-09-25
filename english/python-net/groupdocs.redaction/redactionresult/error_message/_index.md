@@ -3,9 +3,9 @@ title: error_message property
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction/redactionresult/error_message/
-is_root: false
 weight: 70
+url: /groupdocs.redaction/redactionresult/error_message/
+is_root: false
 ---
 
 ## error_message property

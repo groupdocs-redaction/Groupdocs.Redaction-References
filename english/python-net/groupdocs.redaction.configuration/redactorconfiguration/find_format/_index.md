@@ -3,12 +3,12 @@ title: find_format method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.configuration/redactorconfiguration/find_format/
-is_root: false
 weight: 20
+url: /groupdocs.redaction.configuration/redactorconfiguration/find_format/
+is_root: false
 ---
 
-## find_format {#str}
+## find_format(self, file_extension) {#str}
 
 Finds format configurations for a given file extension.
 
@@ -20,6 +20,7 @@ If found, instance of [`DocumentFormatConfiguration`](/redaction/python-net/grou
 
 
 ```python
+
 def find_format(self, file_extension):
     ...
 ```

@@ -3,9 +3,9 @@ title: TrialLimitationsException class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.exceptions/triallimitationsexception/
-is_root: false
 weight: 50
+url: /groupdocs.redaction.exceptions/triallimitationsexception/
+is_root: false
 ---
 
 ## TrialLimitationsException class
@@ -24,7 +24,7 @@ The TrialLimitationsException type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.exceptions/triallimitationsexception/__init__/#str) | Initializes a new instance of TrialLimitationsException class. |
+| [`__init__(self, message)`](/redaction/python-net/groupdocs.redaction.exceptions/triallimitationsexception/__init__/#str) | Initializes a new instance of TrialLimitationsException class. |
 
 
 

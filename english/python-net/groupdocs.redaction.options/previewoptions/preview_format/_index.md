@@ -3,9 +3,9 @@ title: preview_format property
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.options/previewoptions/preview_format/
-is_root: false
 weight: 50
+url: /groupdocs.redaction.options/previewoptions/preview_format/
+is_root: false
 ---
 
 ## preview_format property

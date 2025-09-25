@@ -3,18 +3,19 @@ title: error method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.options/ilogger/error/
-is_root: false
 weight: 20
+url: /groupdocs.redaction.options/ilogger/error/
+is_root: false
 ---
 
-## error {#str}
+## error(self, message) {#str}
 
 Logs an error that occurred during redaction process.
 
 
 
 ```python
+
 def error(self, message):
     ...
 ```

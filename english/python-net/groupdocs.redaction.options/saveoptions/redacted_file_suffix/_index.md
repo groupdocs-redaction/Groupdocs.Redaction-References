@@ -3,9 +3,9 @@ title: redacted_file_suffix property
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.options/saveoptions/redacted_file_suffix/
-is_root: false
 weight: 70
+url: /groupdocs.redaction.options/saveoptions/redacted_file_suffix/
+is_root: false
 ---
 
 ## redacted_file_suffix property

@@ -3,18 +3,19 @@ title: RedactionDescription constructor
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/redactiondescription/__init__/
-is_root: false
 weight: 10
+url: /groupdocs.redaction.redactions/redactiondescription/__init__/
+is_root: false
 ---
 
-## __init__ {#groupdocs.redaction.redactions.RedactionType-groupdocs.redaction.redactions.RedactionActionType-str}
+## \_\_init\_\_(self, redaction_type, action_type, original_text) {#groupdocs.redaction.redactions.RedactionType-groupdocs.redaction.redactions.RedactionActionType-str}
 
 Initializes a new instance of RedactionDescription class without replacement information.
 
 
 
 ```python
+
 def __init__(self, redaction_type, action_type, original_text):
     ...
 ```
@@ -27,13 +28,14 @@ def __init__(self, redaction_type, action_type, original_text):
 | original_text | str | Matched text, comment or annotation body |
 
 
-## __init__ {#groupdocs.redaction.redactions.RedactionType-groupdocs.redaction.redactions.RedactionActionType-str-groupdocs.redaction.redactions.TextReplacement}
+## \_\_init\_\_(self, redaction_type, action_type, original_text, replacement) {#groupdocs.redaction.redactions.RedactionType-groupdocs.redaction.redactions.RedactionActionType-str-groupdocs.redaction.redactions.TextReplacement}
 
 Initializes a new instance of RedactionDescription class with replacement information.
 
 
 
 ```python
+
 def __init__(self, redaction_type, action_type, original_text, replacement):
     ...
 ```
@@ -47,13 +49,14 @@ def __init__(self, redaction_type, action_type, original_text, replacement):
 | replacement | [`TextReplacement`](/redaction/python-net/groupdocs.redaction.redactions/textreplacement) | Replacement text, matched text and its position within original string |
 
 
-## __init__ {#groupdocs.redaction.redactions.RedactionType-groupdocs.redaction.redactions.RedactionActionType-groupdocs.redaction.redactions.RegionReplacementOptions-str}
+## \_\_init\_\_(self, redaction_type, action_type, image_area_replacement, image_details) {#groupdocs.redaction.redactions.RedactionType-groupdocs.redaction.redactions.RedactionActionType-groupdocs.redaction.redactions.RegionReplacementOptions-str}
 
 Initializes a new instance of RedactionDescription class with image area replacement information.
 
 
 
 ```python
+
 def __init__(self, redaction_type, action_type, image_area_replacement, image_details):
     ...
 ```

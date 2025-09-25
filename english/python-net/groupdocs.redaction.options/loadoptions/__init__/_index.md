@@ -3,18 +3,19 @@ title: LoadOptions constructor
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.options/loadoptions/__init__/
-is_root: false
 weight: 10
+url: /groupdocs.redaction.options/loadoptions/__init__/
+is_root: false
 ---
 
-## __init__ {#}
+## \_\_init\_\_(self) {#}
 
 Initializes a new instance of LoadOptions class.
 
 
 
 ```python
+
 def __init__(self):
     ...
 ```
@@ -22,13 +23,14 @@ def __init__(self):
 
 
 
-## __init__ {#str}
+## \_\_init\_\_(self, password) {#str}
 
 Initializes a new instance of LoadOptions class with specified password.
 
 
 
 ```python
+
 def __init__(self, password):
     ...
 ```
@@ -39,13 +41,14 @@ def __init__(self, password):
 | password | str | Password for protected files |
 
 
-## __init__ {#bool}
+## \_\_init\_\_(self, pre_rasterize) {#bool}
 
 Initializes a new instance of LoadOptions class with specified pre-rasterization flag.
 
 
 
 ```python
+
 def __init__(self, pre_rasterize):
     ...
 ```
@@ -56,13 +59,14 @@ def __init__(self, pre_rasterize):
 | pre_rasterize | bool | If true, force rasterization on loading |
 
 
-## __init__ {#str-bool}
+## \_\_init\_\_(self, password, pre_rasterize) {#str-bool}
 
 Initializes a new instance of LoadOptions class with specified password.
 
 
 
 ```python
+
 def __init__(self, password, pre_rasterize):
     ...
 ```

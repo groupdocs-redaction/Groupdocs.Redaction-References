@@ -3,9 +3,9 @@ title: RemovePageRedaction class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/removepageredaction/
-is_root: false
 weight: 210
+url: /groupdocs.redaction.redactions/removepageredaction/
+is_root: false
 ---
 
 ## RemovePageRedaction class
@@ -24,7 +24,7 @@ The RemovePageRedaction type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction/__init__/#groupdocs.redaction.redactions.PageSeekOrigin-int-int) | Initializes a new instance of RemovePageRedaction class. |
+| [`__init__(self, origin, index, count)`](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction/__init__/#groupdocs.redaction.redactions.pageseekorigin-int-int) | Initializes a new instance of RemovePageRedaction class. |
 
 
 ### Properties
@@ -39,7 +39,7 @@ The RemovePageRedaction type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [apply_to](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction/apply_to/#groupdocs.redaction.integration.DocumentFormatInstance) | Applies the redaction to a given format instance. |
+| [`apply_to(self, format_instance)`](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction/apply_to/#groupdocs.redaction.integration.documentformatinstance) | Applies the redaction to a given format instance. |
 
 
 

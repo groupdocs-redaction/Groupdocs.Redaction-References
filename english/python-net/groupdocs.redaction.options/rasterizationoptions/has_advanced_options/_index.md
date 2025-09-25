@@ -3,9 +3,9 @@ title: has_advanced_options property
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.options/rasterizationoptions/has_advanced_options/
-is_root: false
 weight: 60
+url: /groupdocs.redaction.options/rasterizationoptions/has_advanced_options/
+is_root: false
 ---
 
 ## has_advanced_options property

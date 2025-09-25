@@ -3,9 +3,9 @@ title: IMetadataAccess class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.integration/imetadataaccess/
-is_root: false
 weight: 60
+url: /groupdocs.redaction.integration/imetadataaccess/
+is_root: false
 ---
 
 ## IMetadataAccess class
@@ -19,8 +19,8 @@ The IMetadataAccess type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [get_metadata](/redaction/python-net/groupdocs.redaction.integration/imetadataaccess/get_metadata/#) | Retrieves a dictionary with document's metadata. |
-| [change_metadata](/redaction/python-net/groupdocs.redaction.integration/imetadataaccess/change_metadata/#groupdocs.redaction.integration.MetadataItem) | Changes the specified item of metadata from [`MetadataCollection`](/redaction/python-net/groupdocs.redaction.integration/metadatacollection) or adds a new one, if not present. |
+| [`get_metadata(self)`](/redaction/python-net/groupdocs.redaction.integration/imetadataaccess/get_metadata/#) | Retrieves a dictionary with document's metadata. |
+| [`change_metadata(self, metadata_item)`](/redaction/python-net/groupdocs.redaction.integration/imetadataaccess/change_metadata/#groupdocs.redaction.integration.metadataitem) | Changes the specified item of metadata from [`MetadataCollection`](/redaction/python-net/groupdocs.redaction.integration/metadatacollection) or adds a new one, if not present. |
 
 
 

@@ -3,18 +3,19 @@ title: MetadataSearchRedaction constructor
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/metadatasearchredaction/__init__/
-is_root: false
 weight: 10
+url: /groupdocs.redaction.redactions/metadatasearchredaction/__init__/
+is_root: false
 ---
 
-## __init__ {#str-str}
+## \_\_init\_\_(self, value_pattern, replacement) {#str-str}
 
 Initializes a new instance of MetadataSearchRedaction class, using value to match redacted items.
 
 
 
 ```python
+
 def __init__(self, value_pattern, replacement):
     ...
 ```
@@ -26,13 +27,14 @@ def __init__(self, value_pattern, replacement):
 | replacement | str | Textual replacement |
 
 
-## __init__ {#str-str-str}
+## \_\_init\_\_(self, value_pattern, replacement, key_pattern) {#str-str-str}
 
 Initializes a new instance of MetadataSearchRedaction class, using item name and value to match redacted items.
 
 
 
 ```python
+
 def __init__(self, value_pattern, replacement, key_pattern):
     ...
 ```

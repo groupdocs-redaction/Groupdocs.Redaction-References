@@ -3,9 +3,9 @@ title: RedactorConfiguration class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.configuration/redactorconfiguration/
-is_root: false
 weight: 20
+url: /groupdocs.redaction.configuration/redactorconfiguration/
+is_root: false
 ---
 
 ## RedactorConfiguration class
@@ -25,8 +25,8 @@ The RedactorConfiguration type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [find_format](/redaction/python-net/groupdocs.redaction.configuration/redactorconfiguration/find_format/#str) | Finds format configurations for a given file extension. |
-| [get_instance](/redaction/python-net/groupdocs.redaction.configuration/redactorconfiguration/get_instance/#) | Provides a singleton instance with default configuration of built-in formats. |
+| [`find_format(self, file_extension)`](/redaction/python-net/groupdocs.redaction.configuration/redactorconfiguration/find_format/#str) | Finds format configurations for a given file extension. |
+| [`get_instance()`](/redaction/python-net/groupdocs.redaction.configuration/redactorconfiguration/get_instance/#) | Provides a singleton instance with default configuration of built-in formats. |
 
 
 

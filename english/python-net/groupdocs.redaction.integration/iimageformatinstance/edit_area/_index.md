@@ -3,12 +3,12 @@ title: edit_area method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.integration/iimageformatinstance/edit_area/
-is_root: false
 weight: 20
+url: /groupdocs.redaction.integration/iimageformatinstance/edit_area/
+is_root: false
 ---
 
-## edit_area {#aspose.pydrawing.Point-groupdocs.redaction.redactions.RegionReplacementOptions}
+## edit_area(self, top_left, options) {#aspose.pydrawing.Point-groupdocs.redaction.redactions.RegionReplacementOptions}
 
 Replaces the area at given point with a rectangle of specific color and size.
 
@@ -20,6 +20,7 @@ Image area redaction result
 
 
 ```python
+
 def edit_area(self, top_left, options):
     ...
 ```

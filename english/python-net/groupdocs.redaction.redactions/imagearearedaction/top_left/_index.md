@@ -3,9 +3,9 @@ title: top_left property
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/imagearearedaction/top_left/
-is_root: false
 weight: 60
+url: /groupdocs.redaction.redactions/imagearearedaction/top_left/
+is_root: false
 ---
 
 ## top_left property

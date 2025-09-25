@@ -3,9 +3,9 @@ title: ocr_connector property
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.options/redactorsettings/ocr_connector/
-is_root: false
 weight: 40
+url: /groupdocs.redaction.options/redactorsettings/ocr_connector/
+is_root: false
 ---
 
 ## ocr_connector property

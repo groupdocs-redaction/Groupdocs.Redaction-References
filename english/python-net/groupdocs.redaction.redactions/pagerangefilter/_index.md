@@ -3,9 +3,9 @@ title: PageRangeFilter class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/pagerangefilter/
-is_root: false
 weight: 160
+url: /groupdocs.redaction.redactions/pagerangefilter/
+is_root: false
 ---
 
 ## PageRangeFilter class
@@ -24,7 +24,7 @@ The PageRangeFilter type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.redactions/pagerangefilter/__init__/#groupdocs.redaction.redactions.PageSeekOrigin-int-int) | Initializes a new instance of RemovePageRedaction class. |
+| [`__init__(self, origin, index, count)`](/redaction/python-net/groupdocs.redaction.redactions/pagerangefilter/__init__/#groupdocs.redaction.redactions.pageseekorigin-int-int) | Initializes a new instance of RemovePageRedaction class. |
 
 
 ### Properties

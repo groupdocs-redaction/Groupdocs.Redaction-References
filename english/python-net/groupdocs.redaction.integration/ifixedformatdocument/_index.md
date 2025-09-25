@@ -3,9 +3,9 @@ title: IFixedFormatDocument class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.integration/ifixedformatdocument/
-is_root: false
 weight: 40
+url: /groupdocs.redaction.integration/ifixedformatdocument/
+is_root: false
 ---
 
 ## IFixedFormatDocument class
@@ -19,7 +19,7 @@ The IFixedFormatDocument type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [load_images](/redaction/python-net/groupdocs.redaction.integration/ifixedformatdocument/load_images/#list) | Loads an array of raster image instances, contained within the document, matching [`RedactionFilter`](/redaction/python-net/groupdocs.redaction.redactions/redactionfilter) set. |
+| [`load_images(self, filters)`](/redaction/python-net/groupdocs.redaction.integration/ifixedformatdocument/load_images/#list) | Loads an array of raster image instances, contained within the document, matching [`RedactionFilter`](/redaction/python-net/groupdocs.redaction.redactions/redactionfilter) set. |
 
 
 

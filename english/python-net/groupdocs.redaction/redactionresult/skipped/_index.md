@@ -3,12 +3,12 @@ title: skipped method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction/redactionresult/skipped/
-is_root: false
 weight: 40
+url: /groupdocs.redaction/redactionresult/skipped/
+is_root: false
 ---
 
-## skipped {#str}
+## skipped(, description) {#str}
 
 Initializes a new instance of RedactionResult class with Skipped status.
 
@@ -20,7 +20,9 @@ Skipped redaction result
 
 
 ```python
-def skipped(self, description):
+
+@staticmethod
+def skipped(description):
     ...
 ```
 

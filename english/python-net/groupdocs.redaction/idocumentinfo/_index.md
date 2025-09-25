@@ -3,9 +3,9 @@ title: IDocumentInfo class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction/idocumentinfo/
-is_root: false
 weight: 30
+url: /groupdocs.redaction/idocumentinfo/
+is_root: false
 ---
 
 ## IDocumentInfo class

@@ -3,10 +3,9 @@ title: GroupDocs.Redaction for Python via .NET
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/
+weight: 10
+url: /
 is_root: true
-version: 25.5
-weight: 40
 ---
 
 ### Modules

@@ -3,9 +3,9 @@ title: MetadataFilters enumeration
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.redactions/metadatafilters/
-is_root: false
 weight: 250
+url: /groupdocs.redaction.redactions/metadatafilters/
+is_root: false
 ---
 
 ## MetadataFilters enumeration

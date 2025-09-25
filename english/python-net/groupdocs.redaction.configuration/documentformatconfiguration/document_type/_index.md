@@ -3,9 +3,9 @@ title: document_type property
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.redaction.configuration/documentformatconfiguration/document_type/
-is_root: false
 weight: 40
+url: /groupdocs.redaction.configuration/documentformatconfiguration/document_type/
+is_root: false
 ---
 
 ## document_type property
