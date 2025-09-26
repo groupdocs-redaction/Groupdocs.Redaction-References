@@ -49,4 +49,4 @@ Python via .NET API for redacting or concealing text from both the content and m
 
 These are links to some useful resources:
 
-- [GroupDocs.Redaction for Java API Reference](/redaction/python-net/)
+- [GroupDocs.Redaction for Python via .NET API Reference](/redaction/python-net/)
