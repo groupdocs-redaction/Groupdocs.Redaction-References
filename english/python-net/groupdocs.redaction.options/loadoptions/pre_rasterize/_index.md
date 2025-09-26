@@ -4,7 +4,7 @@ second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 weight: 40
-url: /groupdocs.redaction.options/loadoptions/pre_rasterize/
+url: /python-net/groupdocs.redaction.options/loadoptions/pre_rasterize/
 is_root: false
 ---
 

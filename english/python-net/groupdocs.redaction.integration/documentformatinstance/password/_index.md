@@ -4,7 +4,7 @@ second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 weight: 80
-url: /groupdocs.redaction.integration/documentformatinstance/password/
+url: /python-net/groupdocs.redaction.integration/documentformatinstance/password/
 is_root: false
 ---
 

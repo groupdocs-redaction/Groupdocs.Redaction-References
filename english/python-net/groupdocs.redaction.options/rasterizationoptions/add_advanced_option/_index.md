@@ -4,7 +4,7 @@ second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 weight: 20
-url: /groupdocs.redaction.options/rasterizationoptions/add_advanced_option/
+url: /python-net/groupdocs.redaction.options/rasterizationoptions/add_advanced_option/
 is_root: false
 ---
 

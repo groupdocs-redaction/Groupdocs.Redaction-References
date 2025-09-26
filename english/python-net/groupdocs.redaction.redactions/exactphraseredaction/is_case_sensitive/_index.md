@@ -4,7 +4,7 @@ second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 weight: 60
-url: /groupdocs.redaction.redactions/exactphraseredaction/is_case_sensitive/
+url: /python-net/groupdocs.redaction.redactions/exactphraseredaction/is_case_sensitive/
 is_root: false
 ---
 

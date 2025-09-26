@@ -4,7 +4,7 @@ second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 weight: 90
-url: /groupdocs.redaction.integration/irasterizabledocument/
+url: /python-net/groupdocs.redaction.integration/irasterizabledocument/
 is_root: false
 ---
 

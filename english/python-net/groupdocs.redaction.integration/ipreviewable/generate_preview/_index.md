@@ -4,7 +4,7 @@ second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 weight: 20
-url: /groupdocs.redaction.integration/ipreviewable/generate_preview/
+url: /python-net/groupdocs.redaction.integration/ipreviewable/generate_preview/
 is_root: false
 ---
 

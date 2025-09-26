@@ -4,7 +4,7 @@ second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 weight: 80
-url: /groupdocs.redaction.options/pdfcompliancelevel/
+url: /python-net/groupdocs.redaction.options/pdfcompliancelevel/
 is_root: false
 ---
 

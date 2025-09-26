@@ -4,7 +4,7 @@ second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 weight: 20
-url: /groupdocs.redaction/license/set_license/
+url: /python-net/groupdocs.redaction/license/set_license/
 is_root: false
 ---
 

@@ -4,7 +4,7 @@ second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 weight: 70
-url: /groupdocs.redaction.redactions/cellfilter/work_sheet_name/
+url: /python-net/groupdocs.redaction.redactions/cellfilter/work_sheet_name/
 is_root: false
 ---
 

@@ -4,7 +4,7 @@ second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 weight: 30
-url: /groupdocs.redaction.redactions/cellfilter/no_index/
+url: /python-net/groupdocs.redaction.redactions/cellfilter/no_index/
 is_root: false
 ---
 

@@ -4,7 +4,7 @@ second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 weight: 70
-url: /groupdocs.redaction.integration/ipaginateddocument/
+url: /python-net/groupdocs.redaction.integration/ipaginateddocument/
 is_root: false
 ---
 

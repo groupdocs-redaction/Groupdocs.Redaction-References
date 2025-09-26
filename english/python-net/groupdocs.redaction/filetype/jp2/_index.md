@@ -4,7 +4,7 @@ second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 weight: 190
-url: /groupdocs.redaction/filetype/jp2/
+url: /python-net/groupdocs.redaction/filetype/jp2/
 is_root: false
 ---
 

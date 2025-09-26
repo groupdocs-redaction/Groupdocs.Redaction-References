@@ -4,7 +4,7 @@ second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 weight: 90
-url: /groupdocs.redaction.redactions/exactphraseredaction/search_phrase/
+url: /python-net/groupdocs.redaction.redactions/exactphraseredaction/search_phrase/
 is_root: false
 ---
 

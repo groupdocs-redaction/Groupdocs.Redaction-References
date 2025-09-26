@@ -4,7 +4,7 @@ second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 weight: 40
-url: /groupdocs.redaction.redactions/pagerangefilter/index/
+url: /python-net/groupdocs.redaction.redactions/pagerangefilter/index/
 is_root: false
 ---
 

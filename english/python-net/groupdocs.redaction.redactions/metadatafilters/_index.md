@@ -4,7 +4,7 @@ second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 weight: 250
-url: /groupdocs.redaction.redactions/metadatafilters/
+url: /python-net/groupdocs.redaction.redactions/metadatafilters/
 is_root: false
 ---
 

@@ -4,7 +4,7 @@ second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 weight: 160
-url: /groupdocs.redaction/filetype/gif/
+url: /python-net/groupdocs.redaction/filetype/gif/
 is_root: false
 ---
 

@@ -4,7 +4,7 @@ second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 weight: 60
-url: /groupdocs.redaction.redactions/textredaction/ocr_connector/
+url: /python-net/groupdocs.redaction.redactions/textredaction/ocr_connector/
 is_root: false
 ---
 

@@ -4,7 +4,7 @@ second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 weight: 20
-url: /groupdocs.redaction.integration/metadatacollection/add_range/
+url: /python-net/groupdocs.redaction.integration/metadatacollection/add_range/
 is_root: false
 ---
 

@@ -4,7 +4,7 @@ second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 weight: 100
-url: /groupdocs.redaction.integration/itextualformatinstance/
+url: /python-net/groupdocs.redaction.integration/itextualformatinstance/
 is_root: false
 ---
 

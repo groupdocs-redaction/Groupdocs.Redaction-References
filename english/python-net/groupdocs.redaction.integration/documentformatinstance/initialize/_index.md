@@ -4,7 +4,7 @@ second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 weight: 20
-url: /groupdocs.redaction.integration/documentformatinstance/initialize/
+url: /python-net/groupdocs.redaction.integration/documentformatinstance/initialize/
 is_root: false
 ---
 

@@ -4,7 +4,7 @@ second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 weight: 60
-url: /groupdocs.redaction.options/saveoptions/rasterize_to_pdf/
+url: /python-net/groupdocs.redaction.options/saveoptions/rasterize_to_pdf/
 is_root: false
 ---
 

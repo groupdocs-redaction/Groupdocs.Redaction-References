@@ -4,7 +4,7 @@ second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 weight: 100
-url: /groupdocs.redaction.integration/metadataitem/values/
+url: /python-net/groupdocs.redaction.integration/metadataitem/values/
 is_root: false
 ---
 

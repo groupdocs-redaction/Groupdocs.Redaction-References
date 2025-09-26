@@ -4,7 +4,7 @@ second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 weight: 120
-url: /groupdocs.redaction/filetype/dotm/
+url: /python-net/groupdocs.redaction/filetype/dotm/
 is_root: false
 ---
 

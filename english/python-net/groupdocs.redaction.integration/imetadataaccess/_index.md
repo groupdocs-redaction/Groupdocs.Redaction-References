@@ -4,7 +4,7 @@ second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 weight: 60
-url: /groupdocs.redaction.integration/imetadataaccess/
+url: /python-net/groupdocs.redaction.integration/imetadataaccess/
 is_root: false
 ---
 

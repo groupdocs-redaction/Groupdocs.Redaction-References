@@ -4,7 +4,7 @@ second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 weight: 70
-url: /groupdocs.redaction.redactions/exactphraseredaction/is_right_to_left/
+url: /python-net/groupdocs.redaction.redactions/exactphraseredaction/is_right_to_left/
 is_root: false
 ---
 

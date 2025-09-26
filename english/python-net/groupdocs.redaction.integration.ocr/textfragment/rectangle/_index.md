@@ -4,7 +4,7 @@ second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 weight: 30
-url: /groupdocs.redaction.integration.ocr/textfragment/rectangle/
+url: /python-net/groupdocs.redaction.integration.ocr/textfragment/rectangle/
 is_root: false
 ---
 

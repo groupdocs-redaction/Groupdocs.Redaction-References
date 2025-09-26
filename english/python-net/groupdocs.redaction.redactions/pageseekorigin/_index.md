@@ -4,7 +4,7 @@ second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 weight: 260
-url: /groupdocs.redaction.redactions/pageseekorigin/
+url: /python-net/groupdocs.redaction.redactions/pageseekorigin/
 is_root: false
 ---
 
