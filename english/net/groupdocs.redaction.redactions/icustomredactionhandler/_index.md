@@ -3,7 +3,7 @@ title: ICustomRedactionHandler
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Provides an interface for implementing custom redaction logic.
 type: docs
-weight: 530
+weight: 540
 url: /net/groupdocs.redaction.redactions/icustomredactionhandler/
 ---
 ## ICustomRedactionHandler interface

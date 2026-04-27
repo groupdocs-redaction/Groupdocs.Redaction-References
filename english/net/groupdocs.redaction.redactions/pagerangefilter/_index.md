@@ -3,7 +3,7 @@ title: PageRangeFilter
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents redaction filter setting page range inside a document to apply redaction.
 type: docs
-weight: 610
+weight: 620
 url: /net/groupdocs.redaction.redactions/pagerangefilter/
 ---
 ## PageRangeFilter class

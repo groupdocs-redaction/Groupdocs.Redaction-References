@@ -3,7 +3,7 @@ title: GroupDocs.Redaction.Configuration
 second_title: GroupDocs.Redaction for .NET API Reference
 description: The Configuration namespace provides document format configuration classes.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.redaction.configuration/
 ---
 The Configuration namespace provides document format configuration classes.

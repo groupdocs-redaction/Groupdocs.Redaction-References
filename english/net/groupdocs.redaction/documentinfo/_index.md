@@ -3,7 +3,7 @@ title: DocumentInfo
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents an information about document. Implements IDocumentInfo interface. See IDocumentInfo./idocumentinfo for examples.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.redaction/documentinfo/
 ---
 ## DocumentInfo class

@@ -3,7 +3,7 @@ title: DocumentFormatException
 second_title: GroupDocs.Redaction for .NET API Reference
 description: The exception that is thrown when document format is not recognized or is invalid.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.redaction.exceptions/documentformatexception/
 ---
 ## DocumentFormatException class

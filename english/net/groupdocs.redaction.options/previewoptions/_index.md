@@ -3,7 +3,7 @@ title: PreviewOptions
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Provides options to sets requirements and stream delegates for preview generation.
 type: docs
-weight: 340
+weight: 350
 url: /net/groupdocs.redaction.options/previewoptions/
 ---
 ## PreviewOptions class

@@ -3,7 +3,7 @@ title: DocumentFormatConfiguration
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents a type reference for DocumentFormatInstance../groupdocs.redaction.integration/documentformatinstancederived class and supported file extensions list for faster format detection.
 type: docs
-weight: 10
+weight: 20
 url: /net/groupdocs.redaction.configuration/documentformatconfiguration/
 ---
 ## DocumentFormatConfiguration class

@@ -3,7 +3,7 @@ title: GroupDocs.Redaction.Integration.Ocr
 second_title: GroupDocs.Redaction for .NET API Reference
 description: The Ocr namespace provides interfaces and classes required for Optical Character Recognition OCR support.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.redaction.integration.ocr/
 ---
 The Ocr namespace provides interfaces and classes, required for Optical Character Recognition (OCR) support.

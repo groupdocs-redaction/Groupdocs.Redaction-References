@@ -3,7 +3,7 @@ title: TextLine
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents a line of text extracted by OCR engine from an image.
 type: docs
-weight: 260
+weight: 270
 url: /net/groupdocs.redaction.integration.ocr/textline/
 ---
 ## TextLine class

@@ -3,7 +3,7 @@ title: License
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Provides methods for applying license.
 type: docs
-weight: 270
+weight: 280
 url: /net/groupdocs.redaction/license/
 ---
 ## License class

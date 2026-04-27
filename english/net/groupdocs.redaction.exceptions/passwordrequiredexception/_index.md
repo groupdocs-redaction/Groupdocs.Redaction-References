@@ -3,7 +3,7 @@ title: PasswordRequiredException
 second_title: GroupDocs.Redaction for .NET API Reference
 description: The exception that is thrown when password is required to load the document.
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.redaction.exceptions/passwordrequiredexception/
 ---
 ## PasswordRequiredException class

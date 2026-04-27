@@ -3,7 +3,7 @@ title: GroupDocs.Redaction.Exceptions
 second_title: GroupDocs.Redaction for .NET API Reference
 description: The Exceptions namespace provides different exceptions classes.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.redaction.exceptions/
 ---
 The Exceptions namespace provides different exceptions classes.

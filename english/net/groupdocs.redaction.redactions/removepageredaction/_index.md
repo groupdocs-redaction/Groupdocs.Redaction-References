@@ -3,7 +3,7 @@ title: RemovePageRedaction
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents a redaction that removes a page slide worksheet etc. from a document.
 type: docs
-weight: 690
+weight: 700
 url: /net/groupdocs.redaction.redactions/removepageredaction/
 ---
 ## RemovePageRedaction class

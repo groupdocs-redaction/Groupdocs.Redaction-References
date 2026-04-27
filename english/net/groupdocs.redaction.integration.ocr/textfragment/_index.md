@@ -3,7 +3,7 @@ title: TextFragment
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents a part of recognized text word symbol etc extracted by OCR engine.
 type: docs
-weight: 250
+weight: 260
 url: /net/groupdocs.redaction.integration.ocr/textfragment/
 ---
 ## TextFragment class

@@ -3,7 +3,7 @@ title: AdvancedRasterizationOptions
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Flags enumeration to manage the advanced rasterization options to be applied.
 type: docs
-weight: 290
+weight: 300
 url: /net/groupdocs.redaction.options/advancedrasterizationoptions/
 ---
 ## AdvancedRasterizationOptions enumeration

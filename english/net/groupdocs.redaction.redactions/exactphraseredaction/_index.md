@@ -3,7 +3,7 @@ title: ExactPhraseRedaction
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents a text redaction that replaces exact phrase in the documents text case insensitive by default.
 type: docs
-weight: 520
+weight: 530
 url: /net/groupdocs.redaction.redactions/exactphraseredaction/
 ---
 ## ExactPhraseRedaction class

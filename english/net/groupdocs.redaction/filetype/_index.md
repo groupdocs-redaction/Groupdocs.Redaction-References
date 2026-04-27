@@ -3,7 +3,7 @@ title: FileType
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents a file type. Provides methods to obtain a list of all file types supported by GroupDocs.Redaction detect file type by extension etc.
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.redaction/filetype/
 ---
 ## FileType class

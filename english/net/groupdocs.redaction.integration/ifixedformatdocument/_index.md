@@ -3,7 +3,7 @@ title: IFixedFormatDocument
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Defines methods that are required for access formats of fixed structure such as PDF or presentations.
 type: docs
-weight: 140
+weight: 150
 url: /net/groupdocs.redaction.integration/ifixedformatdocument/
 ---
 ## IFixedFormatDocument interface

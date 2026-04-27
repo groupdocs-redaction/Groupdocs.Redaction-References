@@ -3,7 +3,7 @@ title: ILogger
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Defines interface of a logger that can be used for logging events and errors in process of redaction.
 type: docs
-weight: 310
+weight: 320
 url: /net/groupdocs.redaction.options/ilogger/
 ---
 ## ILogger interface

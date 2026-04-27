@@ -3,7 +3,7 @@ title: GroupDocs.Redaction
 second_title: GroupDocs.Redaction for .NET API Reference
 description: The Redaction namespace provides classes for redacting sensitive information from documents in PDF raster image and office document formats. The main classes in this namespace are
 type: docs
-weight: 10
+weight: 20
 url: /net/groupdocs.redaction/
 ---
 The Redaction namespace provides classes for redacting sensitive information from documents in PDF, raster image and office document formats. The main classes in this namespace are:

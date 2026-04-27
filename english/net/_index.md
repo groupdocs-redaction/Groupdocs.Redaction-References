@@ -11,6 +11,7 @@ version:
 
 | Namespace | Description |
 | --- | --- |
+| [GroupDocs.Foundation.Internal.Utils.Common](./groupdocs.foundation.internal.utils.common) |  |
 | [GroupDocs.Redaction](./groupdocs.redaction) | The Redaction namespace provides classes for redacting sensitive information from documents in PDF, raster image and office document formats. The main classes in this namespace are: |
 | [GroupDocs.Redaction.Configuration](./groupdocs.redaction.configuration) | The Configuration namespace provides document format configuration classes. |
 | [GroupDocs.Redaction.Exceptions](./groupdocs.redaction.exceptions) | The Exceptions namespace provides different exceptions classes. |

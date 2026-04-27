@@ -3,7 +3,7 @@ title: IDocumentInfo
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Defines methods that are required for getting basic document information.
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.redaction/idocumentinfo/
 ---
 ## IDocumentInfo interface

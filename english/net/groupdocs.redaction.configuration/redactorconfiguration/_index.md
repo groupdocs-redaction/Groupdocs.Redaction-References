@@ -3,7 +3,7 @@ title: RedactorConfiguration
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Provides access to a list of supported formats builtin and custom user formats.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.redaction.configuration/redactorconfiguration/
 ---
 ## RedactorConfiguration class

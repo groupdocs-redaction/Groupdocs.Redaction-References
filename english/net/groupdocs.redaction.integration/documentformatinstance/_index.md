@@ -3,7 +3,7 @@ title: DocumentFormatInstance
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents a specific format of a document. Implement this class to add your own document types.
 type: docs
-weight: 110
+weight: 120
 url: /net/groupdocs.redaction.integration/documentformatinstance/
 ---
 ## DocumentFormatInstance class

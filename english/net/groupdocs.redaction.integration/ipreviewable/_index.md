@@ -3,7 +3,7 @@ title: IPreviewable
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Defines methods to create preview of the document.
 type: docs
-weight: 180
+weight: 190
 url: /net/groupdocs.redaction.integration/ipreviewable/
 ---
 ## IPreviewable interface
