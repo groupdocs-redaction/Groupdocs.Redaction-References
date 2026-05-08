@@ -3,7 +3,7 @@ title: GroupDocsRedactionException
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents base exception for all GroupDocs.Redaction exceptions.
 type: docs
-weight: 60
+weight: 50
 url: /net/groupdocs.redaction.exceptions/groupdocsredactionexception/
 ---
 ## GroupDocsRedactionException class

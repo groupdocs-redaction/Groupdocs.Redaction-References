@@ -3,7 +3,7 @@ title: TrialLimitationsException
 second_title: GroupDocs.Redaction for .NET API Reference
 description: The exception that is thrown when user violates trial mode limitations.
 type: docs
-weight: 90
+weight: 80
 url: /net/groupdocs.redaction.exceptions/triallimitationsexception/
 ---
 ## TrialLimitationsException class

@@ -3,7 +3,7 @@ title: GroupDocs.Redaction.Integration
 second_title: GroupDocs.Redaction for .NET API Reference
 description: The Integration namespace provides interfaces and classes used to integrate documents of different formats with GroupDocs.Redaction.
 type: docs
-weight: 50
+weight: 40
 url: /net/groupdocs.redaction.integration/
 ---
 The Integration namespace provides interfaces and classes, used to integrate documents of different formats with GroupDocs.Redaction.

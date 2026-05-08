@@ -3,7 +3,7 @@ title: IAnnotatedDocument
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Defines methods that are required for access to annotations such as comments. Needs to be implemented by DocumentFormatInstance./documentformatinstancederived class to perform annotation redactions.
 type: docs
-weight: 130
+weight: 120
 url: /net/groupdocs.redaction.integration/iannotateddocument/
 ---
 ## IAnnotatedDocument interface

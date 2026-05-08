@@ -3,7 +3,7 @@ title: IImageFormatInstance
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Defines methods that are required for raster image format redactions.
 type: docs
-weight: 160
+weight: 150
 url: /net/groupdocs.redaction.integration/iimageformatinstance/
 ---
 ## IImageFormatInstance interface

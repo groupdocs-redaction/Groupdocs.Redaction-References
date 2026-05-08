@@ -3,7 +3,7 @@ title: CustomRedactionContext
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Provides context for custom redaction processing.
 type: docs
-weight: 490
+weight: 480
 url: /net/groupdocs.redaction.redactions/customredactioncontext/
 ---
 ## CustomRedactionContext class

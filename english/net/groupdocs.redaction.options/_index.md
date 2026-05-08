@@ -3,7 +3,7 @@ title: GroupDocs.Redaction.Options
 second_title: GroupDocs.Redaction for .NET API Reference
 description: The Options namespace provides load and save options classes.
 type: docs
-weight: 70
+weight: 60
 url: /net/groupdocs.redaction.options/
 ---
 The Options namespace provides load and save options classes.

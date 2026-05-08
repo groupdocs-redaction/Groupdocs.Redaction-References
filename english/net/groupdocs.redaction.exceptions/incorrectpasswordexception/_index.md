@@ -3,7 +3,7 @@ title: IncorrectPasswordException
 second_title: GroupDocs.Redaction for .NET API Reference
 description: The exception that is thrown when specified password is incorrect.
 type: docs
-weight: 70
+weight: 60
 url: /net/groupdocs.redaction.exceptions/incorrectpasswordexception/
 ---
 ## IncorrectPasswordException class
