@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextFragment class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
@@ -8,34 +8,28 @@ is_root: false
 weight: 30
 ---
 
+
 ## TextFragment class
-
-Represents a part of recognized text (word, symbol, etc), extracted by OCR engine.
-
-
 
 The TextFragment type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.integration.ocr/textfragment/__init__/#str-aspose.pydrawing.Rectangle) | Initializes a new instance of the recognized text fragment. |
+| [__init__](/redaction/python-net/groupdocs.redaction.integration.ocr/textfragment/__init__/) |  |
 
+### Methods
+| Method | Description |
+| :- | :- |
+| [_init_string_rectangle](/redaction/python-net/groupdocs.redaction.integration.ocr/textfragment/_init_string_rectangle/#text-rectangle) |  |
+| [_to_string_noargs](/redaction/python-net/groupdocs.redaction.integration.ocr/textfragment/_to_string_noargs/) |  |
+| [to_string](/redaction/python-net/groupdocs.redaction.integration.ocr/textfragment/to_string/) |  |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [text](/redaction/python-net/groupdocs.redaction.integration.ocr/textfragment/text) | Gets a textual content of the recognized text fragment. |
-| [rectangle](/redaction/python-net/groupdocs.redaction.integration.ocr/textfragment/rectangle) | Gets a bounding rectangle of the recognized text fragment. |
-
-
-
-### Remarks 
-
-
-**Learn more** |
-|
- |
+| [rectangle](/redaction/python-net/groupdocs.redaction.integration.ocr/textfragment/rectangle/) |  |
+| [text](/redaction/python-net/groupdocs.redaction.integration.ocr/textfragment/text/) |  |
 
 ### See Also
-* module [`groupdocs.redaction.integration.ocr`](..)
+* module [`groupdocs.redaction.integration.ocr`](/redaction/python-net/groupdocs.redaction.integration.ocr/)

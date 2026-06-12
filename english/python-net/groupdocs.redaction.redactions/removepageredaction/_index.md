@@ -1,62 +1,38 @@
-﻿---
+---
 title: RemovePageRedaction class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.redaction.redactions/removepageredaction/
 is_root: false
-weight: 210
+weight: 250
 ---
 
+
 ## RemovePageRedaction class
-
-Represents a redaction that removes a page (slide, worksheet, etc.) from a document.
-
-
-
-**Inheritance:** [`RemovePageRedaction`](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction) → 
-[`Redaction`](/redaction/python-net/groupdocs.redaction/redaction)
-
-
 
 The RemovePageRedaction type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction/__init__/#groupdocs.redaction.redactions.PageSeekOrigin-int-int) | Initializes a new instance of RemovePageRedaction class. |
-
-
-### Properties
-| Property | Description |
-| :- | :- |
-| [description](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction/description) | Returns a string, describing the redaction and its parameters. |
-| [origin](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction/origin) | Gets seek reference position, the beginning or the end of a document. |
-| [index](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction/index) | Gets start position index (0-based). |
-| [count](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction/count) | Gets the count of pages to remove. |
-
+| [__init__](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction/__init__/) |  |
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [apply_to](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction/apply_to/#groupdocs.redaction.integration.DocumentFormatInstance) | Applies the redaction to a given format instance. |
+| [_apply_to_document_format_instance](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction/_apply_to_document_format_instance/#format_instance) |  |
+| [_init_page_seek_origin_int32_int32](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction/_init_page_seek_origin_int32_int32/#origin-index-count) |  |
+| [apply_to](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction/apply_to/) |  |
+| [apply_to_document_format_instance](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction/apply_to_document_format_instance/) |  |
 
-
-
-### Remarks 
-
-
-**Learn more** |
-|
- |
- |
-
-### Example 
-
-
-The following example demonstrates how to remove the last page of the document.
+### Properties
+| Property | Description |
+| :- | :- |
+| [count](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction/count/) |  |
+| [index](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction/index/) |  |
+| [origin](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction/origin/) |  |
+| [description](/redaction/python-net/groupdocs.redaction/redaction/description/) |  (inherited from [`Redaction`](/redaction/python-net/groupdocs.redaction/redaction/)) |
 
 ### See Also
-* module [`groupdocs.redaction.redactions`](..)
-* class [`Redaction`](/redaction/python-net/groupdocs.redaction/redaction)
-* class [`RemovePageRedaction`](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction)
+* module [`groupdocs.redaction.redactions`](/redaction/python-net/groupdocs.redaction.redactions/)

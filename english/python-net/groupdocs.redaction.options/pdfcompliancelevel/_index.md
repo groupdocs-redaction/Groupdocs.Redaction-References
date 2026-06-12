@@ -1,35 +1,23 @@
-﻿---
-title: PdfComplianceLevel enumeration
+---
+title: PdfComplianceLevel class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.redaction.options/pdfcompliancelevel/
 is_root: false
-weight: 80
+weight: 50
 ---
 
-## PdfComplianceLevel enumeration
 
-Represents a list of supported PDF compliance levels.
-
-
+## PdfComplianceLevel class
 
 The PdfComplianceLevel type exposes the following members:
 
 ### Fields
 | Field | Description |
 | :- | :- |
-| AUTO | The output file will comply with the PDF/A-1b standard by default. |
-| PDF_A1A | The output file will comply with the PDF/A-1a standard. |
-
-
-
-### Remarks 
-
-
-**Learn more** |
-|
- |
+| [AUTO](/redaction/python-net/groupdocs.redaction.options/pdfcompliancelevel/auto/) |  |
+| [PDF_A1A](/redaction/python-net/groupdocs.redaction.options/pdfcompliancelevel/pdf_a1a/) |  |
 
 ### See Also
-* module [`groupdocs.redaction.options`](..)
+* module [`groupdocs.redaction.options`](/redaction/python-net/groupdocs.redaction.options/)

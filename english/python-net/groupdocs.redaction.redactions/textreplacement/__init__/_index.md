@@ -1,5 +1,5 @@
-﻿---
-title: TextReplacement constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
@@ -8,26 +8,13 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#int-str-str}
 
-Initializes a new instance of TextReplacement class.
-
-
+## __init__
 
 ```python
-def __init__(self, index, original, replacement):
+def __init__(self):
     ...
 ```
 
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| index | int | Index of a matched text within source string |
-| original | str | Original matched string |
-| replacement | str | String, replacing OriginalText in source string |
-
-
-
 ### See Also
-* module [`groupdocs.redaction.redactions`](../../)
-* class [`TextReplacement`](/redaction/python-net/groupdocs.redaction.redactions/textreplacement)
+* class [`TextReplacement`](/redaction/python-net/groupdocs.redaction.redactions/textreplacement/)

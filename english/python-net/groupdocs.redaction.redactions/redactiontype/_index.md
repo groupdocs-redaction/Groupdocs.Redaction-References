@@ -1,38 +1,26 @@
-﻿---
-title: RedactionType enumeration
+---
+title: RedactionType class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.redaction.redactions/redactiontype/
 is_root: false
-weight: 280
+weight: 220
 ---
 
-## RedactionType enumeration
 
-Represents a type of document's data, affected by redaction.
-
-
+## RedactionType class
 
 The RedactionType type exposes the following members:
 
 ### Fields
 | Field | Description |
 | :- | :- |
-| TEXT | The document's body text. |
-| METADATA | The document's metadata. |
-| ANNOTATION | The annotations within document's text. |
-| IMAGE_AREA | The area within an image. |
-| PAGE | The page of a document. |
-
-
-
-### Remarks 
-
-
-**Learn more** |
-|
- |
+| [TEXT](/redaction/python-net/groupdocs.redaction.redactions/redactiontype/text/) |  |
+| [METADATA](/redaction/python-net/groupdocs.redaction.redactions/redactiontype/metadata/) |  |
+| [ANNOTATION](/redaction/python-net/groupdocs.redaction.redactions/redactiontype/annotation/) |  |
+| [IMAGE_AREA](/redaction/python-net/groupdocs.redaction.redactions/redactiontype/image_area/) |  |
+| [PAGE](/redaction/python-net/groupdocs.redaction.redactions/redactiontype/page/) |  |
 
 ### See Also
-* module [`groupdocs.redaction.redactions`](..)
+* module [`groupdocs.redaction.redactions`](/redaction/python-net/groupdocs.redaction.redactions/)
