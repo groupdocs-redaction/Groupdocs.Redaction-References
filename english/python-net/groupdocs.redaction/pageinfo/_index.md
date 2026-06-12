@@ -1,48 +1,34 @@
-﻿---
+---
 title: PageInfo class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-weight: 60
 url: /python-net/groupdocs.redaction/pageinfo/
 is_root: false
+weight: 90
 ---
 
+
 ## PageInfo class
-
-Represents a brief page information.
-
-
 
 The PageInfo type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [`__init__(self)`](/redaction/python-net/groupdocs.redaction/pageinfo/__init__/#) | Constructs a new instance of PageInfo |
+| [__init__](/redaction/python-net/groupdocs.redaction/pageinfo/__init__/) |  |
 
+### Methods
+| Method | Description |
+| :- | :- |
+| [_init_noargs](/redaction/python-net/groupdocs.redaction/pageinfo/_init_noargs/) |  |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [width](/redaction/python-net/groupdocs.redaction/pageinfo/width) | Gets or sets the page width. |
-| [height](/redaction/python-net/groupdocs.redaction/pageinfo/height) | Gets or sets the page height. |
-| [page_number](/redaction/python-net/groupdocs.redaction/pageinfo/page_number) | Gets or sets the page number. |
-
-
-
-### Remarks 
-
-
-**Learn more** |
-|
- |
-
-### Example 
-
-
-The following example demonstrates how to retrieve the general document information using [`IDocumentInfo`](/redaction/python-net/groupdocs.redaction/idocumentinfo).
+| [height](/redaction/python-net/groupdocs.redaction/pageinfo/height/) |  |
+| [page_number](/redaction/python-net/groupdocs.redaction/pageinfo/page_number/) |  |
+| [width](/redaction/python-net/groupdocs.redaction/pageinfo/width/) |  |
 
 ### See Also
-* module [`groupdocs.redaction`](..)
-* class [`IDocumentInfo`](/redaction/python-net/groupdocs.redaction/idocumentinfo)
+* module [`groupdocs.redaction`](/redaction/python-net/groupdocs.redaction/)

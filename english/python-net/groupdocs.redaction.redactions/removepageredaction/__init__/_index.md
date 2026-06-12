@@ -1,34 +1,20 @@
-﻿---
-title: RemovePageRedaction constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-weight: 10
 url: /python-net/groupdocs.redaction.redactions/removepageredaction/__init__/
 is_root: false
+weight: 10
 ---
 
-## \_\_init\_\_(self, origin, index, count) {#groupdocs.redaction.redactions.PageSeekOrigin-int-int}
 
-Initializes a new instance of RemovePageRedaction class.
-
-
+## __init__
 
 ```python
-
-def __init__(self, origin, index, count):
+def __init__(self):
     ...
 ```
 
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| origin | [`PageSeekOrigin`](/redaction/python-net/groupdocs.redaction.redactions/pageseekorigin) | Seek reference position, the beginning or the end of a document |
-| index | int | Start position index (0-based) |
-| count | int | Count of pages to remove |
-
-
-
 ### See Also
-* module [`groupdocs.redaction.redactions`](../../)
-* class [`RemovePageRedaction`](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction)
+* class [`RemovePageRedaction`](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction/)

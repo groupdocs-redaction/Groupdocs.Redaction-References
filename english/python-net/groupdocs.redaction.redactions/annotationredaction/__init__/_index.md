@@ -1,33 +1,20 @@
-﻿---
-title: AnnotationRedaction constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-weight: 10
 url: /python-net/groupdocs.redaction.redactions/annotationredaction/__init__/
 is_root: false
+weight: 10
 ---
 
-## \_\_init\_\_(self, pattern, replacement) {#str-str}
 
-Initializes a new instance of AnnotationRedaction class.
-
-
+## __init__
 
 ```python
-
-def __init__(self, pattern, replacement):
+def __init__(self):
     ...
 ```
 
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| pattern | str | Regular expression to match |
-| replacement | str | Textual replacement for matched text |
-
-
-
 ### See Also
-* module [`groupdocs.redaction.redactions`](../../)
-* class [`AnnotationRedaction`](/redaction/python-net/groupdocs.redaction.redactions/annotationredaction)
+* class [`AnnotationRedaction`](/redaction/python-net/groupdocs.redaction.redactions/annotationredaction/)

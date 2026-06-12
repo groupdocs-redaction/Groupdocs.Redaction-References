@@ -1,33 +1,20 @@
-﻿---
-title: TextFragment constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-weight: 10
 url: /python-net/groupdocs.redaction.integration.ocr/textfragment/__init__/
 is_root: false
+weight: 10
 ---
 
-## \_\_init\_\_(self, text, rectangle) {#str-aspose.pydrawing.Rectangle}
 
-Initializes a new instance of the recognized text fragment.
-
-
+## __init__
 
 ```python
-
-def __init__(self, text, rectangle):
+def __init__(self):
     ...
 ```
 
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| text | str | textual content of the recognized text fragment |
-| rectangle | aspose.pydrawing.Rectangle | bounding rectangle of the recognized text fragment |
-
-
-
 ### See Also
-* module [`groupdocs.redaction.integration.ocr`](../../)
-* class [`TextFragment`](/redaction/python-net/groupdocs.redaction.integration.ocr/textfragment)
+* class [`TextFragment`](/redaction/python-net/groupdocs.redaction.integration.ocr/textfragment/)

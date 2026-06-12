@@ -1,33 +1,20 @@
-﻿---
-title: RegexRedaction constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-weight: 10
 url: /python-net/groupdocs.redaction.redactions/regexredaction/__init__/
 is_root: false
+weight: 10
 ---
 
-## \_\_init\_\_(self, pattern, options) {#str-groupdocs.redaction.redactions.ReplacementOptions}
 
-Initializes a new instance of RegexRedaction class.
-
-
+## __init__
 
 ```python
-
-def __init__(self, pattern, options):
+def __init__(self):
     ...
 ```
 
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| pattern | str | Regular expression to search and replace |
-| options | [`ReplacementOptions`](/redaction/python-net/groupdocs.redaction.redactions/replacementoptions) | Replacement options (textual, color) |
-
-
-
 ### See Also
-* module [`groupdocs.redaction.redactions`](../../)
-* class [`RegexRedaction`](/redaction/python-net/groupdocs.redaction.redactions/regexredaction)
+* class [`RegexRedaction`](/redaction/python-net/groupdocs.redaction.redactions/regexredaction/)

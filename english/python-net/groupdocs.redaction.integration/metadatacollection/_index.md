@@ -1,34 +1,30 @@
-﻿---
+---
 title: MetadataCollection class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-weight: 110
 url: /python-net/groupdocs.redaction.integration/metadatacollection/
 is_root: false
+weight: 110
 ---
 
+
 ## MetadataCollection class
-
-Represents a dictionary of [`MetadataItem`](/redaction/python-net/groupdocs.redaction.integration/metadataitem) with its title as a key.
-
-
 
 The MetadataCollection type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [`__init__(self)`](/redaction/python-net/groupdocs.redaction.integration/metadatacollection/__init__/#) | Initializes a new instance of MetadataCollection class. |
-
+| [__init__](/redaction/python-net/groupdocs.redaction.integration/metadatacollection/__init__/) |  |
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [`add_range(self, items)`](/redaction/python-net/groupdocs.redaction.integration/metadatacollection/add_range/#groupdocs.redaction.integration.metadatacollection) | Adds a specified collection of MetadataItem objects to this instance. |
-
-
+| [_add_range_metadata_collection](/redaction/python-net/groupdocs.redaction.integration/metadatacollection/_add_range_metadata_collection/#items) |  |
+| [_init_noargs](/redaction/python-net/groupdocs.redaction.integration/metadatacollection/_init_noargs/) |  |
+| [add_range](/redaction/python-net/groupdocs.redaction.integration/metadatacollection/add_range/) |  |
+| [add_range_metadata_collection](/redaction/python-net/groupdocs.redaction.integration/metadatacollection/add_range_metadata_collection/) |  |
 
 ### See Also
-* module [`groupdocs.redaction.integration`](..)
-* class [`MetadataItem`](/redaction/python-net/groupdocs.redaction.integration/metadataitem)
+* module [`groupdocs.redaction.integration`](/redaction/python-net/groupdocs.redaction.integration/)

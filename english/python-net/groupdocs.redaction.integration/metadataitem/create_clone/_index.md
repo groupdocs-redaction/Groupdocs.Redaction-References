@@ -1,34 +1,20 @@
-﻿---
+---
 title: create_clone method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-weight: 20
 url: /python-net/groupdocs.redaction.integration/metadataitem/create_clone/
 is_root: false
+weight: 1040
 ---
 
-## create_clone(self) {#}
 
-Creates a deep clone of current instance.
-
-
-### Returns 
-
-
-Object clone
-
+## create_clone
 
 ```python
-
 def create_clone(self):
     ...
 ```
 
-
-
-
-
 ### See Also
-* module [`groupdocs.redaction.integration`](../../)
-* class [`MetadataItem`](/redaction/python-net/groupdocs.redaction.integration/metadataitem)
+* class [`MetadataItem`](/redaction/python-net/groupdocs.redaction.integration/metadataitem/)

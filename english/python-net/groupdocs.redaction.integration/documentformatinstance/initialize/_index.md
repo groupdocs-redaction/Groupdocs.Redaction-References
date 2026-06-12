@@ -1,38 +1,20 @@
-﻿---
+---
 title: initialize method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-weight: 20
 url: /python-net/groupdocs.redaction.integration/documentformatinstance/initialize/
 is_root: false
+weight: 1060
 ---
 
-## initialize(self, config, settings) {#groupdocs.redaction.configuration.DocumentFormatConfiguration-groupdocs.redaction.options.RedactorSettings}
 
-Performs initialization of the instance of document format handler.
-
-
+## initialize
 
 ```python
-
-def initialize(self, config, settings):
+def initialize(self):
     ...
 ```
 
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| config | groupdocs.redaction.configuration.DocumentFormatConfiguration | Format configuration |
-| settings | groupdocs.redaction.options.RedactorSettings | Default settings for redaction process. |
-
-### Example 
-
-
-The following example demonstrates how to use the initialization data.
-
-
-
 ### See Also
-* module [`groupdocs.redaction.integration`](../../)
-* class [`DocumentFormatInstance`](/redaction/python-net/groupdocs.redaction.integration/documentformatinstance)
+* class [`DocumentFormatInstance`](/redaction/python-net/groupdocs.redaction.integration/documentformatinstance/)

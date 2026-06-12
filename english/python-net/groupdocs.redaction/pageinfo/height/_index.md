@@ -1,17 +1,16 @@
-﻿---
+---
 title: height property
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-weight: 30
 url: /python-net/groupdocs.redaction/pageinfo/height/
 is_root: false
+weight: 2010
 ---
+
 
 ## height property
 
-
-Gets or sets the page height.
 ### Definition:
 ```python
 @property
@@ -23,5 +22,4 @@ def height(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.redaction`](../../)
-* class [`PageInfo`](/redaction/python-net/groupdocs.redaction/pageinfo)
+* class [`PageInfo`](/redaction/python-net/groupdocs.redaction/pageinfo/)

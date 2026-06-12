@@ -1,49 +1,31 @@
-﻿---
+---
 title: Metered class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-weight: 50
 url: /python-net/groupdocs.redaction/metered/
 is_root: false
+weight: 80
 ---
+
 
 ## Metered class
 
-Provides methods which allow to activate product with Metered license and retrieve amount of MBs processed.
-Learn more about Metered licenses [here](https://purchase.groupdocs.com/faqs/licensing/metered).
+Manages metered (pay-per-use) licensing.
 
-
+Metered licenses bill on actual consumption (typically pages or
+documents processed). Set the public/private key pair once at
+application startup; the wrapper reports usage back to the GroupDocs
+license server in the background.
 
 The Metered type exposes the following members:
-
-### Constructors
-| Constructor | Description |
-| :- | :- |
-| [`__init__(self)`](/redaction/python-net/groupdocs.redaction/metered/__init__/#) | Initializes a new instance of Metered class. |
-
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [`set_metered_key(self, public_key, private_key)`](/redaction/python-net/groupdocs.redaction/metered/set_metered_key/#str-str) | Activates the product with Metered keys. |
-| [`get_consumption_quantity()`](/redaction/python-net/groupdocs.redaction/metered/get_consumption_quantity/#) | Retrieves the amount of MBs processed. |
-| [`get_consumption_credit()`](/redaction/python-net/groupdocs.redaction/metered/get_consumption_credit/#) | Gets the consumption credit. |
-
-
-
-### Remarks 
-
-
-**Learn more** |
-|
- |
- |
-
-### Example 
-
-
-The following example demonstrates how to activate the product with Metered keys.
+| [get_consumption_credit](/redaction/python-net/groupdocs.redaction/metered/get_consumption_credit/) | Return the remaining metered credit for the current key. |
+| [get_consumption_quantity](/redaction/python-net/groupdocs.redaction/metered/get_consumption_quantity/) | Return the total metered quantity consumed so far. |
+| [set_metered_key](/redaction/python-net/groupdocs.redaction/metered/set_metered_key/#public_key-private_key) | Activate metered billing with the given public/private key pair. |
 
 ### See Also
-* module [`groupdocs.redaction`](..)
+* module [`groupdocs.redaction`](/redaction/python-net/groupdocs.redaction/)

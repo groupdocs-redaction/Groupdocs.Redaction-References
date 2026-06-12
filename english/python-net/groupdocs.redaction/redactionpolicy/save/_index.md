@@ -1,50 +1,20 @@
-﻿---
+---
 title: save method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-weight: 30
 url: /python-net/groupdocs.redaction/redactionpolicy/save/
 is_root: false
+weight: 1120
 ---
 
-## save(self, file_path) {#str}
 
-Saves the redaction policy to a file.
-
-
+## save
 
 ```python
-
-def save(self, file_path):
+def save(self):
     ...
 ```
-
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| file_path | str | Path to file. |
-
-
-## save(self, output) {#io.RawIOBase}
-
-Saves the redaction policy to a stream.
-
-
-
-```python
-
-def save(self, output):
-    ...
-```
-
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| output | io.RawIOBase | Target stream to save the policy |
-
-
 
 ### See Also
-* module [`groupdocs.redaction`](../../)
-* class [`RedactionPolicy`](/redaction/python-net/groupdocs.redaction/redactionpolicy)
+* class [`RedactionPolicy`](/redaction/python-net/groupdocs.redaction/redactionpolicy/)

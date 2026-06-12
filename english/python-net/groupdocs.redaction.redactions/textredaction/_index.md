@@ -1,52 +1,31 @@
-﻿---
+---
 title: TextRedaction class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-weight: 230
 url: /python-net/groupdocs.redaction.redactions/textredaction/
 is_root: false
+weight: 280
 ---
+
 
 ## TextRedaction class
 
-Represents a base abstract class for document text redactions.
-
-
-
-**Inheritance:** [`TextRedaction`](/redaction/python-net/groupdocs.redaction.redactions/textredaction) → 
-[`Redaction`](/redaction/python-net/groupdocs.redaction/redaction)
-
-
-
 The TextRedaction type exposes the following members:
-
-### Properties
-| Property | Description |
-| :- | :- |
-| [description](/redaction/python-net/groupdocs.redaction.redactions/textredaction/description) | Returns a string, describing the redaction and its parameters. |
-| [action_options](/redaction/python-net/groupdocs.redaction.redactions/textredaction/action_options) | Gets the [`ReplacementOptions`](/redaction/python-net/groupdocs.redaction.redactions/replacementoptions) instance, specifying type of text replacement. |
-| [ocr_connector](/redaction/python-net/groupdocs.redaction.redactions/textredaction/ocr_connector) | Gets or sets the [`IOcrConnector`](/redaction/python-net/groupdocs.redaction.integration.ocr/iocrconnector) implementation, required to extract text from graphic content. |
-
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [`apply_to(self, format_instance)`](/redaction/python-net/groupdocs.redaction.redactions/textredaction/apply_to/#groupdocs.redaction.integration.documentformatinstance) | Applies the redaction to a given format instance. |
+| [_apply_to_document_format_instance](/redaction/python-net/groupdocs.redaction/redaction/_apply_to_document_format_instance/) |  (inherited from [`Redaction`](/redaction/python-net/groupdocs.redaction/redaction/)) |
+| [apply_to](/redaction/python-net/groupdocs.redaction/redaction/apply_to/) |  (inherited from [`Redaction`](/redaction/python-net/groupdocs.redaction/redaction/)) |
+| [apply_to_document_format_instance](/redaction/python-net/groupdocs.redaction/redaction/apply_to_document_format_instance/) |  (inherited from [`Redaction`](/redaction/python-net/groupdocs.redaction/redaction/)) |
 
-
-
-### Remarks 
-
-
-**Learn more** |
-|
- |
- |
+### Properties
+| Property | Description |
+| :- | :- |
+| [action_options](/redaction/python-net/groupdocs.redaction.redactions/textredaction/action_options/) |  |
+| [ocr_connector](/redaction/python-net/groupdocs.redaction.redactions/textredaction/ocr_connector/) |  |
+| [description](/redaction/python-net/groupdocs.redaction/redaction/description/) |  (inherited from [`Redaction`](/redaction/python-net/groupdocs.redaction/redaction/)) |
 
 ### See Also
-* module [`groupdocs.redaction.redactions`](..)
-* class [`IOcrConnector`](/redaction/python-net/groupdocs.redaction.integration.ocr/iocrconnector)
-* class [`Redaction`](/redaction/python-net/groupdocs.redaction/redaction)
-* class [`ReplacementOptions`](/redaction/python-net/groupdocs.redaction.redactions/replacementoptions)
-* class [`TextRedaction`](/redaction/python-net/groupdocs.redaction.redactions/textredaction)
+* module [`groupdocs.redaction.redactions`](/redaction/python-net/groupdocs.redaction.redactions/)

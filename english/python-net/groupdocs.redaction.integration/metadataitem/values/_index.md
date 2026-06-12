@@ -1,17 +1,16 @@
-﻿---
+---
 title: values property
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-weight: 100
 url: /python-net/groupdocs.redaction.integration/metadataitem/values/
 is_root: false
+weight: 2070
 ---
+
 
 ## values property
 
-
-Gets or sets the metadata item value.
 ### Definition:
 ```python
 @property
@@ -23,5 +22,4 @@ def values(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.redaction.integration`](../../)
-* class [`MetadataItem`](/redaction/python-net/groupdocs.redaction.integration/metadataitem)
+* class [`MetadataItem`](/redaction/python-net/groupdocs.redaction.integration/metadataitem/)

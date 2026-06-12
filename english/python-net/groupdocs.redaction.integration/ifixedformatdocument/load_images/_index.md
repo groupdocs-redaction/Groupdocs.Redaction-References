@@ -1,38 +1,20 @@
-﻿---
+---
 title: load_images method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-weight: 20
 url: /python-net/groupdocs.redaction.integration/ifixedformatdocument/load_images/
 is_root: false
+weight: 1030
 ---
 
-## load_images(self, filters) {#list}
 
-Loads an array of raster image instances, contained within the document, matching [`RedactionFilter`](/redaction/python-net/groupdocs.redaction.redactions/redactionfilter) set.
-
-
-### Returns 
-
-
-An array of raster image instances
-
+## load_images
 
 ```python
-
-def load_images(self, filters):
+def load_images(self):
     ...
 ```
 
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| filters | list | An array of RedactionFilter instances to apply |
-
-
-
 ### See Also
-* module [`groupdocs.redaction.integration`](../../)
-* class [`IFixedFormatDocument`](/redaction/python-net/groupdocs.redaction.integration/ifixedformatdocument)
-* class [`RedactionFilter`](/redaction/python-net/groupdocs.redaction.redactions/redactionfilter)
+* class [`IFixedFormatDocument`](/redaction/python-net/groupdocs.redaction.integration/ifixedformatdocument/)

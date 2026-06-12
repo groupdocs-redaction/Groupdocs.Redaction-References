@@ -1,64 +1,37 @@
-﻿---
+---
 title: EraseMetadataRedaction class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-weight: 70
 url: /python-net/groupdocs.redaction.redactions/erasemetadataredaction/
 is_root: false
+weight: 70
 ---
 
+
 ## EraseMetadataRedaction class
-
-Represents a metadata redaction that erases all metadata or metadata matching specific MetadataFilters from the document.
-
-
-
-**Inheritance:** [`EraseMetadataRedaction`](/redaction/python-net/groupdocs.redaction.redactions/erasemetadataredaction) → 
-[`MetadataRedaction`](/redaction/python-net/groupdocs.redaction.redactions/metadataredaction) → 
-[`Redaction`](/redaction/python-net/groupdocs.redaction/redaction)
-
-
 
 The EraseMetadataRedaction type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [`__init__(self)`](/redaction/python-net/groupdocs.redaction.redactions/erasemetadataredaction/__init__/#) | Initializes a new instance of EraseMetadataRedaction class, erasing all metadata. |
-| [`__init__(self, filter)`](/redaction/python-net/groupdocs.redaction.redactions/erasemetadataredaction/__init__/#groupdocs.redaction.redactions.metadatafilters) | Initializes a new instance of EraseMetadataRedaction class, erasing metadata, matching specific combination of [`MetadataFilters`](/redaction/python-net/groupdocs.redaction.redactions/metadatafilters). |
-
-
-### Properties
-| Property | Description |
-| :- | :- |
-| [description](/redaction/python-net/groupdocs.redaction.redactions/erasemetadataredaction/description) | Returns a string, describing the redaction and its parameters. |
-| [filter](/redaction/python-net/groupdocs.redaction.redactions/erasemetadataredaction/filter) | Gets or sets the filter, which is used to select all or specific metadata, for example Author or Company. |
-
+| [__init__](/redaction/python-net/groupdocs.redaction.redactions/erasemetadataredaction/__init__/) |  |
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [`apply_to(self, format_instance)`](/redaction/python-net/groupdocs.redaction.redactions/erasemetadataredaction/apply_to/#groupdocs.redaction.integration.documentformatinstance) | Applies the redaction to a given format instance. |
+| [_init_metadata_filters](/redaction/python-net/groupdocs.redaction.redactions/erasemetadataredaction/_init_metadata_filters/#filter) |  |
+| [_init_noargs](/redaction/python-net/groupdocs.redaction.redactions/erasemetadataredaction/_init_noargs/) |  |
+| [_apply_to_document_format_instance](/redaction/python-net/groupdocs.redaction.redactions/metadataredaction/_apply_to_document_format_instance/) |  (inherited from [`MetadataRedaction`](/redaction/python-net/groupdocs.redaction.redactions/metadataredaction/)) |
+| [apply_to](/redaction/python-net/groupdocs.redaction.redactions/metadataredaction/apply_to/) |  (inherited from [`MetadataRedaction`](/redaction/python-net/groupdocs.redaction.redactions/metadataredaction/)) |
+| [apply_to_document_format_instance](/redaction/python-net/groupdocs.redaction.redactions/metadataredaction/apply_to_document_format_instance/) |  (inherited from [`MetadataRedaction`](/redaction/python-net/groupdocs.redaction.redactions/metadataredaction/)) |
 
-
-
-### Remarks 
-
-
-**Learn more** |
-|
- |
- |
-
-### Example 
-
-
-The following example demonstrates how to erase (set equal to empty values) all or specific metadata.
+### Properties
+| Property | Description |
+| :- | :- |
+| [description](/redaction/python-net/groupdocs.redaction.redactions/erasemetadataredaction/description/) |  |
+| [filter](/redaction/python-net/groupdocs.redaction.redactions/metadataredaction/filter/) |  (inherited from [`MetadataRedaction`](/redaction/python-net/groupdocs.redaction.redactions/metadataredaction/)) |
 
 ### See Also
-* module [`groupdocs.redaction.redactions`](..)
-* class [`EraseMetadataRedaction`](/redaction/python-net/groupdocs.redaction.redactions/erasemetadataredaction)
-* class [`MetadataFilters`](/redaction/python-net/groupdocs.redaction.redactions/metadatafilters)
-* class [`MetadataRedaction`](/redaction/python-net/groupdocs.redaction.redactions/metadataredaction)
-* class [`Redaction`](/redaction/python-net/groupdocs.redaction/redaction)
+* module [`groupdocs.redaction.redactions`](/redaction/python-net/groupdocs.redaction.redactions/)

@@ -1,17 +1,16 @@
-﻿---
+---
 title: action_options property
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-weight: 40
 url: /python-net/groupdocs.redaction.redactions/textredaction/action_options/
 is_root: false
+weight: 2010
 ---
+
 
 ## action_options property
 
-
-Gets the [`ReplacementOptions`](/redaction/python-net/groupdocs.redaction.redactions/replacementoptions) instance, specifying type of text replacement.
 ### Definition:
 ```python
 @property
@@ -20,6 +19,4 @@ def action_options(self):
 ```
 
 ### See Also
-* module [`groupdocs.redaction.redactions`](../../)
-* class [`ReplacementOptions`](/redaction/python-net/groupdocs.redaction.redactions/replacementoptions)
-* class [`TextRedaction`](/redaction/python-net/groupdocs.redaction.redactions/textredaction)
+* class [`TextRedaction`](/redaction/python-net/groupdocs.redaction.redactions/textredaction/)

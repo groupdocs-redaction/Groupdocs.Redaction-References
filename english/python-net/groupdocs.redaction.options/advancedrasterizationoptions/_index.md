@@ -1,36 +1,26 @@
-﻿---
-title: AdvancedRasterizationOptions enumeration
+---
+title: AdvancedRasterizationOptions class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-weight: 70
 url: /python-net/groupdocs.redaction.options/advancedrasterizationoptions/
 is_root: false
+weight: 10
 ---
 
-## AdvancedRasterizationOptions enumeration
 
-Flags enumeration to manage the advanced rasterization options to be applied.
-
-
+## AdvancedRasterizationOptions class
 
 The AdvancedRasterizationOptions type exposes the following members:
 
 ### Fields
 | Field | Description |
 | :- | :- |
-| NONE | No advanced options to apply. |
-| TILT | Tilt to incline the rasterized image to a random angle. |
-| NOISE | Add random spots to rasterized page images. |
-| BORDER | Add border line to imitate page scan effect. |
-| GRAYSCALE | Make page images grayscale to imitate grayscale scan. |
-
-
-
-### Example 
-
-
-The following example demonstrates how to apply the advanced rasterization options with default settings.
+| [NONE](/redaction/python-net/groupdocs.redaction.options/advancedrasterizationoptions/none/) |  |
+| [TILT](/redaction/python-net/groupdocs.redaction.options/advancedrasterizationoptions/tilt/) |  |
+| [NOISE](/redaction/python-net/groupdocs.redaction.options/advancedrasterizationoptions/noise/) |  |
+| [BORDER](/redaction/python-net/groupdocs.redaction.options/advancedrasterizationoptions/border/) |  |
+| [GRAYSCALE](/redaction/python-net/groupdocs.redaction.options/advancedrasterizationoptions/grayscale/) |  |
 
 ### See Also
-* module [`groupdocs.redaction.options`](..)
+* module [`groupdocs.redaction.options`](/redaction/python-net/groupdocs.redaction.options/)

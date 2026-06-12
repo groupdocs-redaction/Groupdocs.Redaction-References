@@ -1,36 +1,24 @@
-﻿---
-title: RedactionActionType enumeration
+---
+title: RedactionActionType class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-weight: 270
 url: /python-net/groupdocs.redaction.redactions/redactionactiontype/
 is_root: false
+weight: 190
 ---
 
-## RedactionActionType enumeration
 
-Represents actions that can be taken to perform redaction.
-
-
+## RedactionActionType class
 
 The RedactionActionType type exposes the following members:
 
 ### Fields
 | Field | Description |
 | :- | :- |
-| REPLACEMENT | Redacted text was replaced with another or covered with a block. |
-| CLEANUP | Data were removed, but an empty object remains in the document. |
-| DELETION | Data and related structures were removed from the document. |
-
-
-
-### Remarks 
-
-
-**Learn more** |
-|
- |
+| [REPLACEMENT](/redaction/python-net/groupdocs.redaction.redactions/redactionactiontype/replacement/) |  |
+| [CLEANUP](/redaction/python-net/groupdocs.redaction.redactions/redactionactiontype/cleanup/) |  |
+| [DELETION](/redaction/python-net/groupdocs.redaction.redactions/redactionactiontype/deletion/) |  |
 
 ### See Also
-* module [`groupdocs.redaction.redactions`](..)
+* module [`groupdocs.redaction.redactions`](/redaction/python-net/groupdocs.redaction.redactions/)

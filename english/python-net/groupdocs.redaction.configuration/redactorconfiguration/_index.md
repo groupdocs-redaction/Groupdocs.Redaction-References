@@ -1,48 +1,31 @@
-﻿---
+---
 title: RedactorConfiguration class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-weight: 20
 url: /python-net/groupdocs.redaction.configuration/redactorconfiguration/
 is_root: false
+weight: 20
 ---
+
 
 ## RedactorConfiguration class
 
-Provides access to a list of supported formats, built-in and custom user formats.
-
-
-
 The RedactorConfiguration type exposes the following members:
-
-### Properties
-| Property | Description |
-| :- | :- |
-| [available_formats](/redaction/python-net/groupdocs.redaction.configuration/redactorconfiguration/available_formats) | Gets a list of recognized formats, see [`DocumentFormatConfiguration`](/redaction/python-net/groupdocs.redaction.configuration/documentformatconfiguration). |
-
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [`find_format(self, file_extension)`](/redaction/python-net/groupdocs.redaction.configuration/redactorconfiguration/find_format/#str) | Finds format configurations for a given file extension. |
-| [`get_instance()`](/redaction/python-net/groupdocs.redaction.configuration/redactorconfiguration/get_instance/#) | Provides a singleton instance with default configuration of built-in formats. |
+| [_find_format_string](/redaction/python-net/groupdocs.redaction.configuration/redactorconfiguration/_find_format_string/#file_extension) |  |
+| [find_format](/redaction/python-net/groupdocs.redaction.configuration/redactorconfiguration/find_format/) |  |
+| [find_format_file](/redaction/python-net/groupdocs.redaction.configuration/redactorconfiguration/find_format_file/) |  |
+| [find_format_string](/redaction/python-net/groupdocs.redaction.configuration/redactorconfiguration/find_format_string/) |  |
+| [get_instance](/redaction/python-net/groupdocs.redaction.configuration/redactorconfiguration/get_instance/) |  |
 
-
-
-### Remarks 
-
-
-**Learn more** |
-|
- |
- |
-
-### Example 
-
-
-The following example demonstrates how to add a custom user format handler.
+### Properties
+| Property | Description |
+| :- | :- |
+| [available_formats](/redaction/python-net/groupdocs.redaction.configuration/redactorconfiguration/available_formats/) |  |
 
 ### See Also
-* module [`groupdocs.redaction.configuration`](..)
-* class [`DocumentFormatConfiguration`](/redaction/python-net/groupdocs.redaction.configuration/documentformatconfiguration)
+* module [`groupdocs.redaction.configuration`](/redaction/python-net/groupdocs.redaction.configuration/)

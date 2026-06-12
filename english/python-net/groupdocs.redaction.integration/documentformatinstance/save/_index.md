@@ -1,32 +1,20 @@
-﻿---
+---
 title: save method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-weight: 60
 url: /python-net/groupdocs.redaction.integration/documentformatinstance/save/
 is_root: false
+weight: 1160
 ---
 
-## save(self, output) {#io.RawIOBase}
 
-Saves the document to a stream.
-
-
+## save
 
 ```python
-
-def save(self, output):
+def save(self):
     ...
 ```
 
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| output | io.RawIOBase | Target stream to save the document |
-
-
-
 ### See Also
-* module [`groupdocs.redaction.integration`](../../)
-* class [`DocumentFormatInstance`](/redaction/python-net/groupdocs.redaction.integration/documentformatinstance)
+* class [`DocumentFormatInstance`](/redaction/python-net/groupdocs.redaction.integration/documentformatinstance/)

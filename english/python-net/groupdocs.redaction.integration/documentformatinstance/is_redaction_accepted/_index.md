@@ -1,38 +1,20 @@
-﻿---
+---
 title: is_redaction_accepted method
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
-weight: 30
 url: /python-net/groupdocs.redaction.integration/documentformatinstance/is_redaction_accepted/
 is_root: false
+weight: 1080
 ---
 
-## is_redaction_accepted(self, description) {#groupdocs.redaction.redactions.RedactionDescription}
 
-Checks for [`IRedactionCallback`](/redaction/python-net/groupdocs.redaction.redactions/iredactioncallback) implementation and invokes it, if specified.
-
-
-### Returns 
-
-
-True (by default) if redaction is accepted
-
+## is_redaction_accepted
 
 ```python
-
-def is_redaction_accepted(self, description):
+def is_redaction_accepted(self):
     ...
 ```
 
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| description | groupdocs.redaction.redactions.RedactionDescription | Redaction description |
-
-
-
 ### See Also
-* module [`groupdocs.redaction.integration`](../../)
-* class [`DocumentFormatInstance`](/redaction/python-net/groupdocs.redaction.integration/documentformatinstance)
-* class [`IRedactionCallback`](/redaction/python-net/groupdocs.redaction.redactions/iredactioncallback)
+* class [`DocumentFormatInstance`](/redaction/python-net/groupdocs.redaction.integration/documentformatinstance/)
