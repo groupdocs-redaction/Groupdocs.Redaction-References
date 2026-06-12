@@ -1,47 +1,28 @@
-﻿---
+---
 title: License class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.redaction/license/
 is_root: false
-weight: 40
+weight: 70
 ---
+
 
 ## License class
 
-Provides methods for applying license.
+Manages GroupDocs.Redaction licensing.
 
-
+Licensed builds unlock the full feature set of the wrapper at
+runtime. Unlicensed builds run in evaluation mode with the same API
+surface but with limits on output size and watermarked content.
 
 The License type exposes the following members:
-
-### Constructors
-| Constructor | Description |
-| :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction/license/__init__/#) | Initialize an instance of License class. |
-
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [set_license](/redaction/python-net/groupdocs.redaction/license/set_license/#str) | Sets the GroupDocs.Redaction license from a file path. |
-| [set_license](/redaction/python-net/groupdocs.redaction/license/set_license/#io.RawIOBase) | Sets the GroupDocs.Redaction license from a stream. |
-
-
-
-### Remarks 
-
-
-**Learn more** |
-|
- |
- |
-
-### Example 
-
-
-The following example demonstrates how to set the license for GroupDocs.Redaction.
+| [set_license](/redaction/python-net/groupdocs.redaction/license/set_license/#license_source) | Apply a license to the current process. |
 
 ### See Also
-* module [`groupdocs.redaction`](..)
+* module [`groupdocs.redaction`](/redaction/python-net/groupdocs.redaction/)

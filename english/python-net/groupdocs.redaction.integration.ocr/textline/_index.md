@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextLine class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
@@ -8,33 +8,27 @@ is_root: false
 weight: 40
 ---
 
+
 ## TextLine class
-
-Represents a line of text, extracted by OCR engine from an image.
-
-
 
 The TextLine type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.integration.ocr/textline/__init__/#list) | Constructs a new instance of TextLine |
+| [__init__](/redaction/python-net/groupdocs.redaction.integration.ocr/textline/__init__/) |  |
 
+### Methods
+| Method | Description |
+| :- | :- |
+| [_init_ienumerable_1_d_00d](/redaction/python-net/groupdocs.redaction.integration.ocr/textline/_init_ienumerable_1_d_00d/#fragments) |  |
+| [_to_string_noargs](/redaction/python-net/groupdocs.redaction.integration.ocr/textline/_to_string_noargs/) |  |
+| [to_string](/redaction/python-net/groupdocs.redaction.integration.ocr/textline/to_string/) |  |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [fragments](/redaction/python-net/groupdocs.redaction.integration.ocr/textline/fragments) | Gets an array of text fragments, such as symbols and words, recognized in the line. |
-
-
-
-### Remarks 
-
-
-**Learn more** |
-|
- |
+| [fragments](/redaction/python-net/groupdocs.redaction.integration.ocr/textline/fragments/) |  |
 
 ### See Also
-* module [`groupdocs.redaction.integration.ocr`](..)
+* module [`groupdocs.redaction.integration.ocr`](/redaction/python-net/groupdocs.redaction.integration.ocr/)

@@ -1,5 +1,5 @@
-﻿---
-title: DeleteAnnotationRedaction constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
@@ -8,38 +8,13 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#}
 
-Initializes a new instance of DeleteAnnotationRedaction class, with settings to delete all annotations (matching everything).
-
-
+## __init__
 
 ```python
 def __init__(self):
     ...
 ```
 
-
-
-
-## __init__ {#str}
-
-Initializes a new instance of DeleteAnnotationRedaction class, deleting annotations matching given expression.
-
-
-
-```python
-def __init__(self, pattern):
-    ...
-```
-
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| pattern | str | Regular expression |
-
-
-
 ### See Also
-* module [`groupdocs.redaction.redactions`](../../)
-* class [`DeleteAnnotationRedaction`](/redaction/python-net/groupdocs.redaction.redactions/deleteannotationredaction)
+* class [`DeleteAnnotationRedaction`](/redaction/python-net/groupdocs.redaction.redactions/deleteannotationredaction/)

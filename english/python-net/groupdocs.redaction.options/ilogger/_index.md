@@ -1,36 +1,33 @@
-﻿---
+---
 title: ILogger class
 second_title: GroupDocs.Redaction for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.redaction.options/ilogger/
 is_root: false
-weight: 10
+weight: 30
 ---
 
+
 ## ILogger class
-
-Defines interface of a logger that can be used for logging events and errors in process of redaction.
-
-
 
 The ILogger type exposes the following members:
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [error](/redaction/python-net/groupdocs.redaction.options/ilogger/error/#str) | Logs an error that occurred during redaction process. |
-| [trace](/redaction/python-net/groupdocs.redaction.options/ilogger/trace/#str) | Logs an event that occurred during redaction process. |
-| [warning](/redaction/python-net/groupdocs.redaction.options/ilogger/warning/#str) | Logs a warning that occurred during redaction process. |
-
-
-
-### Remarks 
-
-
-**Learn more** |
-|
- |
+| [_error_string](/redaction/python-net/groupdocs.redaction.options/ilogger/_error_string/#message) |  |
+| [_trace_string](/redaction/python-net/groupdocs.redaction.options/ilogger/_trace_string/#message) |  |
+| [_warning_string](/redaction/python-net/groupdocs.redaction.options/ilogger/_warning_string/#message) |  |
+| [error](/redaction/python-net/groupdocs.redaction.options/ilogger/error/) |  |
+| [error_file](/redaction/python-net/groupdocs.redaction.options/ilogger/error_file/) |  |
+| [error_string](/redaction/python-net/groupdocs.redaction.options/ilogger/error_string/) |  |
+| [trace](/redaction/python-net/groupdocs.redaction.options/ilogger/trace/) |  |
+| [trace_file](/redaction/python-net/groupdocs.redaction.options/ilogger/trace_file/) |  |
+| [trace_string](/redaction/python-net/groupdocs.redaction.options/ilogger/trace_string/) |  |
+| [warning](/redaction/python-net/groupdocs.redaction.options/ilogger/warning/) |  |
+| [warning_file](/redaction/python-net/groupdocs.redaction.options/ilogger/warning_file/) |  |
+| [warning_string](/redaction/python-net/groupdocs.redaction.options/ilogger/warning_string/) |  |
 
 ### See Also
-* module [`groupdocs.redaction.options`](..)
+* module [`groupdocs.redaction.options`](/redaction/python-net/groupdocs.redaction.options/)
