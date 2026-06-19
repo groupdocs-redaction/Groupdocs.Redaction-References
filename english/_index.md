@@ -12,16 +12,20 @@ lead: "Remove sensitive text, metadata, and annotations from documents."
 
 platforms:
   - name: ".NET"
+    version: "26.5.0"
+    versionUrl: "https://www.nuget.org/packages/groupdocs.redaction/26.5.0"
     key: net
     ref: "/net/"
     install: "dotnet add package GroupDocs.Redaction"
   - name: "Java"
-    version: "25.5"
+    version: "25.12"
+    versionUrl: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-redaction/25.12/"
     key: java
     ref: "/java/"
     install: "com.groupdocs:groupdocs-redaction"
   - name: "Python via .NET"
     version: "26.6.0"
+    versionUrl: "https://pypi.org/project/groupdocs-redaction-net/26.6.0/"
     key: python
     ref: "/python-net/"
     install: "pip install groupdocs-redaction-net"
