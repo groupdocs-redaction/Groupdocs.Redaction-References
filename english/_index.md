@@ -31,6 +31,8 @@ platforms:
     install: "pip install groupdocs-redaction-net"
 
 formats: ["PDF", "Word", "Excel", "PowerPoint", "Images"]
+formatsCount: "30+"
+formatsNote: "…and 20+ more document and image formats."
 
 capabilities:
   - "Redact text by phrase or regex"
