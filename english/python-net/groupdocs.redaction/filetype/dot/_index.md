@@ -1,24 +1,17 @@
-﻿---
-title: dot property
+---
+title: DOT field
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "Word Document Template (.dot)"
 type: docs
-weight: 110
 url: /python-net/groupdocs.redaction/filetype/dot/
 is_root: false
+weight: 3290
 ---
 
-## dot property
 
+## DOT field
 
 Word Document Template (.dot)
-### Definition:
-```python
-@property
-def dot(self):
-    ...
-```
 
 ### See Also
-* module [`groupdocs.redaction`](../../)
-* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype)
+* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/)

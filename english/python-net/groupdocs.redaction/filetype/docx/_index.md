@@ -1,24 +1,17 @@
-﻿---
-title: docx property
+---
+title: DOCX field
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "Microsoft Word Open XML Document (.docx)"
 type: docs
-weight: 100
 url: /python-net/groupdocs.redaction/filetype/docx/
 is_root: false
+weight: 3270
 ---
 
-## docx property
 
+## DOCX field
 
 Microsoft Word Open XML Document (.docx)
-### Definition:
-```python
-@property
-def docx(self):
-    ...
-```
 
 ### See Also
-* module [`groupdocs.redaction`](../../)
-* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype)
+* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/)

@@ -1,7 +1,7 @@
 ---
 title: release_page_stream property
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "The page preview completion delegate."
 type: docs
 url: /python-net/groupdocs.redaction.options/previewoptions/release_page_stream/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2050
 
 
 ## release_page_stream property
+
+The page preview completion delegate.
 
 ### Definition:
 ```python

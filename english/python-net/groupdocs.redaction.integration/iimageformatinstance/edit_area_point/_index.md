@@ -1,11 +1,11 @@
 ---
 title: edit_area_point method
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "IImageFormatInstance.edit_area_point method — GroupDocs.Redaction for Python via .NET."
 type: docs
 url: /python-net/groupdocs.redaction.integration/iimageformatinstance/edit_area_point/
 is_root: false
-weight: 1030
+weight: 1020
 ---
 
 

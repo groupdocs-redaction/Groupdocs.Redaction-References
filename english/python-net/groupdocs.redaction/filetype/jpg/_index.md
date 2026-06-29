@@ -1,24 +1,17 @@
-﻿---
-title: jpg property
+---
+title: JPG field
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "JPEG Image (.jpg)"
 type: docs
-weight: 210
 url: /python-net/groupdocs.redaction/filetype/jpg/
 is_root: false
+weight: 3040
 ---
 
-## jpg property
 
+## JPG field
 
 JPEG Image (.jpg)
-### Definition:
-```python
-@property
-def jpg(self):
-    ...
-```
 
 ### See Also
-* module [`groupdocs.redaction`](../../)
-* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype)
+* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/)

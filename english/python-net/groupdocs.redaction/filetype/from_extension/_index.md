@@ -1,15 +1,17 @@
 ---
 title: from_extension method
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "Maps file extension to file type."
 type: docs
 url: /python-net/groupdocs.redaction/filetype/from_extension/
 is_root: false
-weight: 1080
+weight: 1040
 ---
 
 
 ## from_extension {#extension}
+
+Maps file extension to file type.
 
 ```python
 def from_extension(cls, extension):
@@ -18,9 +20,13 @@ def from_extension(cls, extension):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| extension | `str` |  |
+| extension | `str` | File extension (including the period "."). |
 
-**Returns:** FileType
+**Returns:** FileType: When file type is supported returns it, otherwise returns default `FileType.unknown` file type.
+
+| Raises | Description |
+| :- | :- |
+| `ValueError` | When `extension` is null or empty string. |
 
 ### See Also
 * class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/)

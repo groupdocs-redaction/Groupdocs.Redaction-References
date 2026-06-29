@@ -1,7 +1,7 @@
 ---
 title: page_numbers property
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "The page numbers to generate preview."
 type: docs
 url: /python-net/groupdocs.redaction.options/previewoptions/page_numbers/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2030
 
 
 ## page_numbers property
+
+The page numbers to generate preview.
 
 ### Definition:
 ```python

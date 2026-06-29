@@ -1,24 +1,17 @@
-﻿---
-title: dotx property
+---
+title: DOTX field
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "Word Open XML Document Template (.dotx)"
 type: docs
-weight: 130
 url: /python-net/groupdocs.redaction/filetype/dotx/
 is_root: false
+weight: 3300
 ---
 
-## dotx property
 
+## DOTX field
 
 Word Open XML Document Template (.dotx)
-### Definition:
-```python
-@property
-def dotx(self):
-    ...
-```
 
 ### See Also
-* module [`groupdocs.redaction`](../../)
-* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype)
+* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/)

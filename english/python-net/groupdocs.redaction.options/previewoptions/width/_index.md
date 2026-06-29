@@ -1,7 +1,7 @@
 ---
 title: width property
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "The page preview width."
 type: docs
 url: /python-net/groupdocs.redaction.options/previewoptions/width/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2060
 
 
 ## width property
+
+The page preview width.
 
 ### Definition:
 ```python

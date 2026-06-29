@@ -1,24 +1,17 @@
-﻿---
-title: ppt property
+---
+title: PPT field
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "PowerPoint Presentation (.ppt)"
 type: docs
-weight: 310
 url: /python-net/groupdocs.redaction/filetype/ppt/
 is_root: false
+weight: 3130
 ---
 
-## ppt property
 
+## PPT field
 
 PowerPoint Presentation (.ppt)
-### Definition:
-```python
-@property
-def ppt(self):
-    ...
-```
 
 ### See Also
-* module [`groupdocs.redaction`](../../)
-* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype)
+* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/)

@@ -1,24 +1,17 @@
-﻿---
-title: numbers property
+---
+title: NUMBERS field
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "Apple Numbers Spreadsheet (.numbers)"
 type: docs
-weight: 230
 url: /python-net/groupdocs.redaction/filetype/numbers/
 is_root: false
+weight: 3240
 ---
 
-## numbers property
 
+## NUMBERS field
 
 Apple Numbers Spreadsheet (.numbers)
-### Definition:
-```python
-@property
-def numbers(self):
-    ...
-```
 
 ### See Also
-* module [`groupdocs.redaction`](../../)
-* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype)
+* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/)

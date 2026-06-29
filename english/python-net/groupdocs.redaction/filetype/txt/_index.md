@@ -1,24 +1,17 @@
-﻿---
-title: txt property
+---
+title: TXT field
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "Plain Text File (.txt)"
 type: docs
-weight: 370
 url: /python-net/groupdocs.redaction/filetype/txt/
 is_root: false
+weight: 3330
 ---
 
-## txt property
 
+## TXT field
 
 Plain Text File (.txt)
-### Definition:
-```python
-@property
-def txt(self):
-    ...
-```
 
 ### See Also
-* module [`groupdocs.redaction`](../../)
-* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype)
+* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/)

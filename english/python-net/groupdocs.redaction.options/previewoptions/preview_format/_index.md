@@ -1,7 +1,7 @@
 ---
 title: preview_format property
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "The preview image format."
 type: docs
 url: /python-net/groupdocs.redaction.options/previewoptions/preview_format/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2040
 
 
 ## preview_format property
+
+The preview image format.
 
 ### Definition:
 ```python

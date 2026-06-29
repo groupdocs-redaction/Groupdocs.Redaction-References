@@ -1,7 +1,7 @@
 ---
 title: replacement property
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "The textual replacement value."
 type: docs
 url: /python-net/groupdocs.redaction.redactions/metadatasearchredaction/replacement/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2030
 
 
 ## replacement property
+
+The textual replacement value.
 
 ### Definition:
 ```python

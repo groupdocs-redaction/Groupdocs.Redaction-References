@@ -1,7 +1,7 @@
 ---
 title: DELETION field
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "Data and related structures were removed from the document."
 type: docs
 url: /python-net/groupdocs.redaction.redactions/redactionactiontype/deletion/
 is_root: false
@@ -10,6 +10,8 @@ weight: 3030
 
 
 ## DELETION field
+
+Data and related structures were removed from the document.
 
 ### Value
 `2`

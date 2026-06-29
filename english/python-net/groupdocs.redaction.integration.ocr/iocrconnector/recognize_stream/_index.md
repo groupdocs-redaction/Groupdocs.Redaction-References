@@ -1,11 +1,11 @@
 ---
 title: recognize_stream method
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "IOcrConnector.recognize_stream method — GroupDocs.Redaction for Python via .NET."
 type: docs
 url: /python-net/groupdocs.redaction.integration.ocr/iocrconnector/recognize_stream/
 is_root: false
-weight: 1030
+weight: 1020
 ---
 
 

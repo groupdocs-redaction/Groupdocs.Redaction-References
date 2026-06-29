@@ -1,7 +1,7 @@
 ---
 title: GroupDocs.Redaction for Python via .NET
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "API reference for GroupDocs.Redaction for Python via .NET — namespaces, classes, methods, properties, and runnable examples."
 type: docs
 url: /python-net/
 is_root: true
@@ -19,3 +19,6 @@ version: 26.6.0
 | [`groupdocs.redaction.integration.ocr`](/redaction/python-net/groupdocs.redaction.integration.ocr/) | Types under `groupdocs.redaction.integration.ocr`. |
 | [`groupdocs.redaction.options`](/redaction/python-net/groupdocs.redaction.options/) | Option classes for configuring conversions and operations. |
 | [`groupdocs.redaction.redactions`](/redaction/python-net/groupdocs.redaction.redactions/) | Types under `groupdocs.redaction.redactions`. |
+
+### Developer Guide
+* [Task guides with runnable examples](/redaction/python-net/guides/)

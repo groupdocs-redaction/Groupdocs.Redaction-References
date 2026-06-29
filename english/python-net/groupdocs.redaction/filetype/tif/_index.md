@@ -1,24 +1,17 @@
-﻿---
-title: tif property
+---
+title: TIF field
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "Tagged Image File (.tif)"
 type: docs
-weight: 340
 url: /python-net/groupdocs.redaction/filetype/tif/
 is_root: false
+weight: 3020
 ---
 
-## tif property
 
+## TIF field
 
 Tagged Image File (.tif)
-### Definition:
-```python
-@property
-def tif(self):
-    ...
-```
 
 ### See Also
-* module [`groupdocs.redaction`](../../)
-* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype)
+* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/)

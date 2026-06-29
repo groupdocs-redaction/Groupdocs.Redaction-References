@@ -1,7 +1,7 @@
 ---
 title: filters property
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "The array of filters to apply with this redaction."
 type: docs
 url: /python-net/groupdocs.redaction.redactions/replacementoptions/filters/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2040
 
 
 ## filters property
+
+The array of filters to apply with this redaction.
 
 ### Definition:
 ```python
