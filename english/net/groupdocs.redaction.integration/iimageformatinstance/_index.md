@@ -18,7 +18,7 @@ public interface IImageFormatInstance
 
 | Name | Description |
 | --- | --- |
-| [EditArea](../../groupdocs.redaction.integration/iimageformatinstance/editarea)(Point, RegionReplacementOptions) | Replaces the area at given point with a rectangle of specific color and size. |
+| [EditArea](../../groupdocs.redaction.integration/iimageformatinstance/editarea#editarea)(Point, RegionReplacementOptions) | Replaces the area at given point with a rectangle of specific color and size. |
 
 ### Remarks
 

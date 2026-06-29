@@ -3,7 +3,7 @@ title: XLSX
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Microsoft Excel Open XML Spreadsheet .xlsx
 type: docs
-weight: 350
+weight: 460
 url: /net/groupdocs.redaction/filetype/xlsx/
 ---
 ## FileType.XLSX property

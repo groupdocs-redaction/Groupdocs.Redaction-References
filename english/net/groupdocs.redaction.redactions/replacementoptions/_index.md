@@ -3,7 +3,7 @@ title: ReplacementOptions
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents options for matched text replacement.
 type: docs
-weight: 700
+weight: 760
 url: /net/groupdocs.redaction.redactions/replacementoptions/
 ---
 ## ReplacementOptions class
@@ -19,14 +19,14 @@ public class ReplacementOptions
 | Name | Description |
 | --- | --- |
 | [ReplacementOptions](replacementoptions#constructor)(Color) | Initializes a new instance of ReplacementOptions class with colored rectangle as an option. |
-| [ReplacementOptions](replacementoptions#constructor_1)(string) | Initializes a new instance of ReplacementOptions class with replacement text as an option. |
+| [ReplacementOptions](replacementoptions#constructor_2)(string) | Initializes a new instance of ReplacementOptions class with replacement text as an option. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
 | [ActionType](../../groupdocs.redaction.redactions/replacementoptions/actiontype) { get; } | Gets the replacement action: draw box or replace text. |
-| [BoxColor](../../groupdocs.redaction.redactions/replacementoptions/boxcolor) { get; set; } | Gets or sets the color for a DrawBox option (ignored otherwise). |
+| [BoxFillColor](../../groupdocs.redaction.redactions/replacementoptions/boxfillcolor) { get; set; } | Gets or sets the color for a DrawBox option (ignored otherwise). |
 | [CustomRedaction](../../groupdocs.redaction.redactions/replacementoptions/customredaction) { get; set; } | Gets or sets a custom redaction [`ICustomRedactionHandler`](../icustomredactionhandler) handler that allows users to define their own redaction logic. |
 | [Filters](../../groupdocs.redaction.redactions/replacementoptions/filters) { get; set; } | Gets or sets an array of filters to apply with this redaction. |
 | [Replacement](../../groupdocs.redaction.redactions/replacementoptions/replacement) { get; set; } | Gets or sets the textual replacement value. |

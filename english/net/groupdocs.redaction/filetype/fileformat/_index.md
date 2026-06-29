@@ -3,7 +3,7 @@ title: FileFormat
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Gets file type name for example Microsoft Word Document.
 type: docs
-weight: 380
+weight: 520
 url: /net/groupdocs.redaction/filetype/fileformat/
 ---
 ## FileType.FileFormat property

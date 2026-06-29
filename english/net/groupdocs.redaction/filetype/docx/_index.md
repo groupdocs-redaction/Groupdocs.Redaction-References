@@ -3,7 +3,7 @@ title: DOCX
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Microsoft Word Open XML Document .docx
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.redaction/filetype/docx/
 ---
 ## FileType.DOCX property

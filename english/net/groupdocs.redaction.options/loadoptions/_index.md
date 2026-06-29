@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Provides options that will be used to open a file.
 type: docs
-weight: 320
+weight: 380
 url: /net/groupdocs.redaction.options/loadoptions/
 ---
 ## LoadOptions class
@@ -20,13 +20,15 @@ public class LoadOptions
 | --- | --- |
 | [LoadOptions](loadoptions#constructor)() | Initializes a new instance of LoadOptions class. |
 | [LoadOptions](loadoptions#constructor_1)(bool) | Initializes a new instance of LoadOptions class with specified pre-rasterization flag. |
-| [LoadOptions](loadoptions#constructor_2)(string) | Initializes a new instance of LoadOptions class with specified password. |
-| [LoadOptions](loadoptions#constructor_3)(string, bool) | Initializes a new instance of LoadOptions class with specified password. |
+| [LoadOptions](loadoptions#constructor_2)(FileType) | Initializes a new instance of LoadOptions class with the specified file type. |
+| [LoadOptions](loadoptions#constructor_3)(string) | Initializes a new instance of LoadOptions class with specified password. |
+| [LoadOptions](loadoptions#constructor_4)(string, bool) | Initializes a new instance of LoadOptions class with specified password. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
+| [FileType](../../groupdocs.redaction.options/loadoptions/filetype) { get; set; } | Gets or sets the type of the file to open. |
 | [Password](../../groupdocs.redaction.options/loadoptions/password) { get; set; } | Gets or sets a password for password-protected documents. |
 | [PreRasterize](../../groupdocs.redaction.options/loadoptions/prerasterize) { get; set; } | Gets or sets a value, indicating if the file is to be pre-rasterized. |
 

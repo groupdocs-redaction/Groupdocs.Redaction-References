@@ -3,7 +3,7 @@ title: PNG
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Portable Network Graphic .png
 type: docs
-weight: 230
+weight: 260
 url: /net/groupdocs.redaction/filetype/png/
 ---
 ## FileType.PNG property

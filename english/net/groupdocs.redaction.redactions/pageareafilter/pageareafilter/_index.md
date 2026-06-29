@@ -17,10 +17,12 @@ public PageAreaFilter(Point topLeft, Size size)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | topLeft | Point | Top-left area coordinates |
-| size | Size | Area size and color |
+| size | Size | Area size |
 
 ### See Also
 
+* struct [Point](../../../groupdocs.redaction.options.drawing/point)
+* struct [Size](../../../groupdocs.redaction.options.drawing/size)
 * class [PageAreaFilter](../../pageareafilter)
 * namespace [GroupDocs.Redaction.Redactions](../../../groupdocs.redaction.redactions)
 * assembly [GroupDocs.Redaction](../../../)

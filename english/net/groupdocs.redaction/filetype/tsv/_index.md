@@ -3,7 +3,7 @@ title: TSV
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Tab Separated Values File .tsv
 type: docs
-weight: 290
+weight: 390
 url: /net/groupdocs.redaction/filetype/tsv/
 ---
 ## FileType.TSV property

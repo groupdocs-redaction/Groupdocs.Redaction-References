@@ -3,7 +3,7 @@ title: XLSM
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Excel Open XML MacroEnabled Spreadsheet .xlsm
 type: docs
-weight: 340
+weight: 450
 url: /net/groupdocs.redaction/filetype/xlsm/
 ---
 ## FileType.XLSM property

@@ -3,7 +3,7 @@ title: ODS
 second_title: GroupDocs.Redaction for .NET API Reference
 description: OpenDocument Spreadsheet .ods
 type: docs
-weight: 180
+weight: 200
 url: /net/groupdocs.redaction/filetype/ods/
 ---
 ## FileType.ODS property

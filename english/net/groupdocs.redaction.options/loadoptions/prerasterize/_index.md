@@ -3,7 +3,7 @@ title: PreRasterize
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Gets or sets a value indicating if the file is to be prerasterized.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.redaction.options/loadoptions/prerasterize/
 ---
 ## LoadOptions.PreRasterize property

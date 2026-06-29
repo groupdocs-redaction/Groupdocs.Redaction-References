@@ -3,7 +3,7 @@ title: OTT
 second_title: GroupDocs.Redaction for .NET API Reference
 description: OpenDocument Document Template .ott
 type: docs
-weight: 210
+weight: 240
 url: /net/groupdocs.redaction/filetype/ott/
 ---
 ## FileType.OTT property

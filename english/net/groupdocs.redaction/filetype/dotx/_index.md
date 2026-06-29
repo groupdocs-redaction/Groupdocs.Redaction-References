@@ -3,7 +3,7 @@ title: DOTX
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Word Open XML Document Template .dotx
 type: docs
-weight: 80
+weight: 90
 url: /net/groupdocs.redaction/filetype/dotx/
 ---
 ## FileType.DOTX property

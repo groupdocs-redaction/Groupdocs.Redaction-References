@@ -3,7 +3,7 @@ title: ImageAreaRedaction
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents a redaction that places colored rectangle in given area of an image document.
 type: docs
-weight: 550
+weight: 610
 url: /net/groupdocs.redaction.redactions/imagearearedaction/
 ---
 ## ImageAreaRedaction class
@@ -18,7 +18,7 @@ public class ImageAreaRedaction : Redaction
 
 | Name | Description |
 | --- | --- |
-| [ImageAreaRedaction](imagearearedaction)(Point, RegionReplacementOptions) | Initializes a new instance of ImageAreaRedaction class for redacting specific area size. |
+| [ImageAreaRedaction](imagearearedaction#constructor)(Point, RegionReplacementOptions) | Initializes a new instance of ImageAreaRedaction class for redacting specific area size. |
 
 ## Properties
 
@@ -26,7 +26,7 @@ public class ImageAreaRedaction : Redaction
 | --- | --- |
 | override [Description](../../groupdocs.redaction.redactions/imagearearedaction/description) { get; } | Returns a string, describing the redaction and its parameters. |
 | [Options](../../groupdocs.redaction.redactions/imagearearedaction/options) { get; } | Gets the [`RegionReplacementOptions`](../regionreplacementoptions) options with color and area parameters. |
-| [TopLeft](../../groupdocs.redaction.redactions/imagearearedaction/topleft) { get; } | Gets the top-left position of the area to remove |
+| [TopLeftPosition](../../groupdocs.redaction.redactions/imagearearedaction/topleftposition) { get; } | Gets the top-left position of the area to remove. |
 
 ## Methods
 

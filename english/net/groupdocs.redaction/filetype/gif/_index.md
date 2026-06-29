@@ -3,7 +3,7 @@ title: GIF
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Graphical Interchange Format File .gif
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.redaction/filetype/gif/
 ---
 ## FileType.GIF property

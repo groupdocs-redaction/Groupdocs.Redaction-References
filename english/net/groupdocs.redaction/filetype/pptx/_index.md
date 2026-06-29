@@ -3,7 +3,7 @@ title: PPTX
 second_title: GroupDocs.Redaction for .NET API Reference
 description: PowerPoint Open XML Presentation .pptx
 type: docs
-weight: 250
+weight: 340
 url: /net/groupdocs.redaction/filetype/pptx/
 ---
 ## FileType.PPTX property

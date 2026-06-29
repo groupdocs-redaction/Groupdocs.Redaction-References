@@ -21,6 +21,7 @@ public ImageAreaRedaction(Point topLeft, RegionReplacementOptions options)
 
 ### See Also
 
+* struct [Point](../../../groupdocs.redaction.options.drawing/point)
 * class [RegionReplacementOptions](../../regionreplacementoptions)
 * class [ImageAreaRedaction](../../imagearearedaction)
 * namespace [GroupDocs.Redaction.Redactions](../../../groupdocs.redaction.redactions)

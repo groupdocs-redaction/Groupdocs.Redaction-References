@@ -3,7 +3,7 @@ title: DOTM
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Word Open XML MacroEnabled Document Template .dotm
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.redaction/filetype/dotm/
 ---
 ## FileType.DOTM property

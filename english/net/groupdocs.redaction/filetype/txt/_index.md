@@ -3,7 +3,7 @@ title: TXT
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Plain Text File .txt
 type: docs
-weight: 300
+weight: 400
 url: /net/groupdocs.redaction/filetype/txt/
 ---
 ## FileType.TXT property

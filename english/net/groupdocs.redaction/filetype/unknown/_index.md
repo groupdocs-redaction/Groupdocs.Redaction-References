@@ -3,7 +3,7 @@ title: Unknown
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents unknown file type.
 type: docs
-weight: 310
+weight: 410
 url: /net/groupdocs.redaction/filetype/unknown/
 ---
 ## FileType.Unknown property

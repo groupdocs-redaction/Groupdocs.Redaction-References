@@ -3,7 +3,7 @@ title: Extension
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Gets filename suffix including the period . for instance .doc.
 type: docs
-weight: 370
+weight: 510
 url: /net/groupdocs.redaction/filetype/extension/
 ---
 ## FileType.Extension property

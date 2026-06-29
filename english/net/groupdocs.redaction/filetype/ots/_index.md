@@ -3,7 +3,7 @@ title: OTS
 second_title: GroupDocs.Redaction for .NET API Reference
 description: OpenDocument Spreadsheet Template .ots
 type: docs
-weight: 200
+weight: 230
 url: /net/groupdocs.redaction/filetype/ots/
 ---
 ## FileType.OTS property

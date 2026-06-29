@@ -3,7 +3,7 @@ title: Equals
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Determines whether the current FileTypegroupdocs.redaction/filetype is the same as specified FileTypegroupdocs.redaction/filetype object.
 type: docs
-weight: 390
+weight: 530
 url: /net/groupdocs.redaction/filetype/equals/
 ---
 ## Equals(FileType) {#equals}
