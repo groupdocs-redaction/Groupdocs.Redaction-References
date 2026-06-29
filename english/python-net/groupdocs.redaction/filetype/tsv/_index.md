@@ -1,24 +1,17 @@
-﻿---
-title: tsv property
+---
+title: TSV field
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "Tab Separated Values File (.tsv)"
 type: docs
-weight: 360
 url: /python-net/groupdocs.redaction/filetype/tsv/
 is_root: false
+weight: 3210
 ---
 
-## tsv property
 
+## TSV field
 
 Tab Separated Values File (.tsv)
-### Definition:
-```python
-@property
-def tsv(self):
-    ...
-```
 
 ### See Also
-* module [`groupdocs.redaction`](../../)
-* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype)
+* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/)

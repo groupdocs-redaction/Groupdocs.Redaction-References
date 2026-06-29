@@ -1,24 +1,17 @@
-﻿---
-title: ods property
+---
+title: ODS field
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "OpenDocument Spreadsheet (.ods)"
 type: docs
-weight: 250
 url: /python-net/groupdocs.redaction/filetype/ods/
 is_root: false
+weight: 3220
 ---
 
-## ods property
 
+## ODS field
 
 OpenDocument Spreadsheet (.ods)
-### Definition:
-```python
-@property
-def ods(self):
-    ...
-```
 
 ### See Also
-* module [`groupdocs.redaction`](../../)
-* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype)
+* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/)

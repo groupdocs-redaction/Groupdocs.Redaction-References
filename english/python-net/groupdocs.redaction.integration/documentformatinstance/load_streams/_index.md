@@ -1,11 +1,11 @@
 ---
 title: load_streams method
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "DocumentFormatInstance.load_streams method — GroupDocs.Redaction for Python via .NET."
 type: docs
 url: /python-net/groupdocs.redaction.integration/documentformatinstance/load_streams/
 is_root: false
-weight: 1120
+weight: 1070
 ---
 
 

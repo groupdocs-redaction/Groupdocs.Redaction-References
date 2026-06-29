@@ -1,7 +1,7 @@
 ---
 title: key_expression property
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "The regular expression to match the name (key) of a metadata item."
 type: docs
 url: /python-net/groupdocs.redaction.redactions/metadatasearchredaction/key_expression/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2020
 
 
 ## key_expression property
+
+The regular expression to match the name (key) of a metadata item.
 
 ### Definition:
 ```python

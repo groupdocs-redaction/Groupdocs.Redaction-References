@@ -1,7 +1,7 @@
 ---
 title: CATEGORY field
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "Category of the document."
 type: docs
 url: /python-net/groupdocs.redaction.redactions/metadatafilters/category/
 is_root: false
@@ -10,6 +10,8 @@ weight: 3030
 
 
 ## CATEGORY field
+
+Category of the document.
 
 ### Value
 `2`

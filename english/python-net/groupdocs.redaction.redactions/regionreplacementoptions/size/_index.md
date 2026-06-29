@@ -1,7 +1,7 @@
 ---
 title: size property
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "The rectangle width and height."
 type: docs
 url: /python-net/groupdocs.redaction.redactions/regionreplacementoptions/size/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2020
 
 
 ## size property
+
+The rectangle width and height.
 
 ### Definition:
 ```python

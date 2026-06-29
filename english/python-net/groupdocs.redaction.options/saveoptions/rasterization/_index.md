@@ -1,7 +1,7 @@
 ---
 title: rasterization property
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "The rasterization settings."
 type: docs
 url: /python-net/groupdocs.redaction.options/saveoptions/rasterization/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2020
 
 
 ## rasterization property
+
+The rasterization settings.
 
 ### Definition:
 ```python

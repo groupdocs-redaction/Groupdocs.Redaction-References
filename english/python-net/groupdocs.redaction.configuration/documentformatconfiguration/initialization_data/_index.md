@@ -1,7 +1,7 @@
 ---
 title: initialization_data property
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "The data required for DocumentFormatInstance initialization."
 type: docs
 url: /python-net/groupdocs.redaction.configuration/documentformatconfiguration/initialization_data/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2030
 
 
 ## initialization_data property
+
+The data required for [`DocumentFormatInstance`](/redaction/python-net/groupdocs.redaction.integration/documentformatinstance/) initialization.
 
 ### Definition:
 ```python

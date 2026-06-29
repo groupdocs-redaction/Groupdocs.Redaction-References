@@ -1,24 +1,17 @@
-﻿---
-title: xlsm property
+---
+title: XLSM field
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "Excel Open XML Macro-Enabled Spreadsheet (.xlsm)"
 type: docs
-weight: 410
 url: /python-net/groupdocs.redaction/filetype/xlsm/
 is_root: false
+weight: 3180
 ---
 
-## xlsm property
 
+## XLSM field
 
 Excel Open XML Macro-Enabled Spreadsheet (.xlsm)
-### Definition:
-```python
-@property
-def xlsm(self):
-    ...
-```
 
 ### See Also
-* module [`groupdocs.redaction`](../../)
-* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype)
+* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/)

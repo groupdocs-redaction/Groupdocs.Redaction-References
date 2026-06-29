@@ -1,7 +1,7 @@
 ---
 title: PreviewFormats class
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "PreviewFormats enum — GroupDocs.Redaction for Python via .NET API reference."
 type: docs
 url: /python-net/groupdocs.redaction.options/previewformats/
 is_root: false

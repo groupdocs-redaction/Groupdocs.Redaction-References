@@ -1,7 +1,7 @@
 ---
 title: is_right_to_left property
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "The text direction flag indicating whether the text is right‑to‑left."
 type: docs
 url: /python-net/groupdocs.redaction.redactions/exactphraseredaction/is_right_to_left/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2030
 
 
 ## is_right_to_left property
+
+The text direction flag indicating whether the text is right‑to‑left. Defaults to False.
 
 ### Definition:
 ```python

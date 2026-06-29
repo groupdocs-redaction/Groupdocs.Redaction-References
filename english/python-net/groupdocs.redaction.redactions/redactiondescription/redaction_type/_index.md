@@ -1,7 +1,7 @@
 ---
 title: redaction_type property
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "The type of document's data – text, metadata, or annotations."
 type: docs
 url: /python-net/groupdocs.redaction.redactions/redactiondescription/redaction_type/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2050
 
 
 ## redaction_type property
+
+The type of document's data – text, metadata, or annotations.
 
 ### Definition:
 ```python

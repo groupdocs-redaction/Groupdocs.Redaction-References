@@ -1,24 +1,17 @@
-﻿---
-title: gif property
+---
+title: GIF field
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "Graphical Interchange Format File (.gif)"
 type: docs
-weight: 160
 url: /python-net/groupdocs.redaction/filetype/gif/
 is_root: false
+weight: 3070
 ---
 
-## gif property
 
+## GIF field
 
 Graphical Interchange Format File (.gif)
-### Definition:
-```python
-@property
-def gif(self):
-    ...
-```
 
 ### See Also
-* module [`groupdocs.redaction`](../../)
-* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype)
+* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/)

@@ -1,7 +1,7 @@
 ---
 title: CustomRedactionContext class
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "Provides context for custom redaction processing."
 type: docs
 url: /python-net/groupdocs.redaction.redactions/customredactioncontext/
 is_root: false
@@ -11,6 +11,8 @@ weight: 40
 
 ## CustomRedactionContext class
 
+Provides context for custom redaction processing.
+
 The CustomRedactionContext type exposes the following members:
 
 ### Constructors
@@ -18,16 +20,11 @@ The CustomRedactionContext type exposes the following members:
 | :- | :- |
 | [__init__](/redaction/python-net/groupdocs.redaction.redactions/customredactioncontext/__init__/) |  |
 
-### Methods
-| Method | Description |
-| :- | :- |
-| [_init_noargs](/redaction/python-net/groupdocs.redaction.redactions/customredactioncontext/_init_noargs/) |  |
-
 ### Properties
 | Property | Description |
 | :- | :- |
-| [page_number](/redaction/python-net/groupdocs.redaction.redactions/customredactioncontext/page_number/) |  |
-| [text](/redaction/python-net/groupdocs.redaction.redactions/customredactioncontext/text/) |  |
+| [page_number](/redaction/python-net/groupdocs.redaction.redactions/customredactioncontext/page_number/) | The page number of the document where the text appears. |
+| [text](/redaction/python-net/groupdocs.redaction.redactions/customredactioncontext/text/) | The original text to be redacted. |
 
 ### See Also
 * module [`groupdocs.redaction.redactions`](/redaction/python-net/groupdocs.redaction.redactions/)

@@ -1,24 +1,17 @@
-﻿---
-title: dotm property
+---
+title: DOTM field
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "Word Open XML Macro-Enabled Document Template (.dotm)"
 type: docs
-weight: 120
 url: /python-net/groupdocs.redaction/filetype/dotm/
 is_root: false
+weight: 3310
 ---
 
-## dotm property
 
+## DOTM field
 
 Word Open XML Macro-Enabled Document Template (.dotm)
-### Definition:
-```python
-@property
-def dotm(self):
-    ...
-```
 
 ### See Also
-* module [`groupdocs.redaction`](../../)
-* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype)
+* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/)

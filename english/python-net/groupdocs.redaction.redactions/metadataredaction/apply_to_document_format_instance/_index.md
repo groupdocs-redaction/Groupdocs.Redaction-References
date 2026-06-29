@@ -1,11 +1,11 @@
 ---
 title: apply_to_document_format_instance method
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "MetadataRedaction.apply_to_document_format_instance method — GroupDocs.Redaction for Python via .NET."
 type: docs
 url: /python-net/groupdocs.redaction.redactions/metadataredaction/apply_to_document_format_instance/
 is_root: false
-weight: 1030
+weight: 1020
 ---
 
 

@@ -1,24 +1,17 @@
-﻿---
-title: tiff property
+---
+title: TIFF field
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "Tagged Image File Format (.tiff)"
 type: docs
-weight: 350
 url: /python-net/groupdocs.redaction/filetype/tiff/
 is_root: false
+weight: 3030
 ---
 
-## tiff property
 
+## TIFF field
 
 Tagged Image File Format (.tiff)
-### Definition:
-```python
-@property
-def tiff(self):
-    ...
-```
 
 ### See Also
-* module [`groupdocs.redaction`](../../)
-* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype)
+* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/)

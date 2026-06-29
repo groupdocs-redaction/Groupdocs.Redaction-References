@@ -1,7 +1,7 @@
 ---
 title: PNG field
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "PreviewFormats.PNG — GroupDocs.Redaction for Python via .NET."
 type: docs
 url: /python-net/groupdocs.redaction.options/previewformats/png/
 is_root: false

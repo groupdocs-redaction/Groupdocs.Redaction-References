@@ -1,24 +1,17 @@
-﻿---
-title: doc property
+---
+title: DOC field
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "Microsoft Word Document (.doc)"
 type: docs
-weight: 80
 url: /python-net/groupdocs.redaction/filetype/doc/
 is_root: false
+weight: 3260
 ---
 
-## doc property
 
+## DOC field
 
 Microsoft Word Document (.doc)
-### Definition:
-```python
-@property
-def doc(self):
-    ...
-```
 
 ### See Also
-* module [`groupdocs.redaction`](../../)
-* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype)
+* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/)

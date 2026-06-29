@@ -1,11 +1,11 @@
 ---
 title: generate_preview_preview_options method
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "IPreviewable.generate_preview_preview_options method — GroupDocs.Redaction for Python via .NET."
 type: docs
 url: /python-net/groupdocs.redaction.integration/ipreviewable/generate_preview_preview_options/
 is_root: false
-weight: 1040
+weight: 1020
 ---
 
 

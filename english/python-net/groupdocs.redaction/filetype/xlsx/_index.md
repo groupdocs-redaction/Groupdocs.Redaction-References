@@ -1,24 +1,17 @@
-﻿---
-title: xlsx property
+---
+title: XLSX field
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "Microsoft Excel Open XML Spreadsheet (.xlsx)"
 type: docs
-weight: 420
 url: /python-net/groupdocs.redaction/filetype/xlsx/
 is_root: false
+weight: 3170
 ---
 
-## xlsx property
 
+## XLSX field
 
 Microsoft Excel Open XML Spreadsheet (.xlsx)
-### Definition:
-```python
-@property
-def xlsx(self):
-    ...
-```
 
 ### See Also
-* module [`groupdocs.redaction`](../../)
-* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype)
+* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/)

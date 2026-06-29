@@ -1,24 +1,17 @@
-﻿---
-title: png property
+---
+title: PNG field
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "Portable Network Graphic (.png)"
 type: docs
-weight: 300
 url: /python-net/groupdocs.redaction/filetype/png/
 is_root: false
+weight: 3060
 ---
 
-## png property
 
+## PNG field
 
 Portable Network Graphic (.png)
-### Definition:
-```python
-@property
-def png(self):
-    ...
-```
 
 ### See Also
-* module [`groupdocs.redaction`](../../)
-* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype)
+* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/)

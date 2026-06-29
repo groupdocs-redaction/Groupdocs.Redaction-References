@@ -1,7 +1,7 @@
 ---
 title: create_page_stream property
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "The page stream creation delegate."
 type: docs
 url: /python-net/groupdocs.redaction.options/previewoptions/create_page_stream/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2010
 
 
 ## create_page_stream property
+
+The page stream creation delegate.
 
 ### Definition:
 ```python

@@ -1,24 +1,17 @@
-﻿---
-title: pdf property
+---
+title: PDF field
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "Portable Document Format File (.pdf)"
 type: docs
-weight: 290
 url: /python-net/groupdocs.redaction/filetype/pdf/
 is_root: false
+weight: 3120
 ---
 
-## pdf property
 
+## PDF field
 
 Portable Document Format File (.pdf)
-### Definition:
-```python
-@property
-def pdf(self):
-    ...
-```
 
 ### See Also
-* module [`groupdocs.redaction`](../../)
-* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype)
+* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/)

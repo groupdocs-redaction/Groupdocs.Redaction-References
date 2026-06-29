@@ -1,7 +1,7 @@
 ---
 title: BMP field
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "PreviewFormats.BMP — GroupDocs.Redaction for Python via .NET."
 type: docs
 url: /python-net/groupdocs.redaction.options/previewformats/bmp/
 is_root: false

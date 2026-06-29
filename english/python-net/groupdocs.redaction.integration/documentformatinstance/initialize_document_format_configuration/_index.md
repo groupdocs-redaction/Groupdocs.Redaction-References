@@ -1,11 +1,11 @@
 ---
 title: initialize_document_format_configuration method
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "DocumentFormatInstance.initialize_document_format_configuration method — GroupDocs.Redaction for Python via .NET."
 type: docs
 url: /python-net/groupdocs.redaction.integration/documentformatinstance/initialize_document_format_configuration/
 is_root: false
-weight: 1070
+weight: 1020
 ---
 
 

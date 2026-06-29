@@ -1,7 +1,7 @@
 ---
 title: NONE field
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "No advanced options to apply."
 type: docs
 url: /python-net/groupdocs.redaction.options/advancedrasterizationoptions/none/
 is_root: false
@@ -10,6 +10,8 @@ weight: 3010
 
 
 ## NONE field
+
+No advanced options to apply.
 
 ### Value
 `0`

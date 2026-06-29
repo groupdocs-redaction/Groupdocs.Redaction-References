@@ -1,24 +1,17 @@
-﻿---
-title: xls property
+---
+title: XLS field
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "Excel Spreadsheet (.xls)"
 type: docs
-weight: 390
 url: /python-net/groupdocs.redaction/filetype/xls/
 is_root: false
+weight: 3160
 ---
 
-## xls property
 
+## XLS field
 
 Excel Spreadsheet (.xls)
-### Definition:
-```python
-@property
-def xls(self):
-    ...
-```
 
 ### See Also
-* module [`groupdocs.redaction`](../../)
-* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype)
+* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/)

@@ -1,7 +1,7 @@
 ---
 title: License class
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "Manages GroupDocs.Redaction licensing."
 type: docs
 url: /python-net/groupdocs.redaction/license/
 is_root: false

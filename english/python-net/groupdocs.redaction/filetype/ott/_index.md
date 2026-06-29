@@ -1,24 +1,17 @@
-﻿---
-title: ott property
+---
+title: OTT field
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "OpenDocument Document Template (.ott)"
 type: docs
-weight: 280
 url: /python-net/groupdocs.redaction/filetype/ott/
 is_root: false
+weight: 3350
 ---
 
-## ott property
 
+## OTT field
 
 OpenDocument Document Template (.ott)
-### Definition:
-```python
-@property
-def ott(self):
-    ...
-```
 
 ### See Also
-* module [`groupdocs.redaction`](../../)
-* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype)
+* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/)

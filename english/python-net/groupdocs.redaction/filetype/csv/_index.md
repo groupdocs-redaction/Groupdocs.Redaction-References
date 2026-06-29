@@ -1,24 +1,17 @@
-﻿---
-title: csv property
+---
+title: CSV field
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "Comma Separated Values File (.csv)"
 type: docs
-weight: 70
 url: /python-net/groupdocs.redaction/filetype/csv/
 is_root: false
+weight: 3200
 ---
 
-## csv property
 
+## CSV field
 
 Comma Separated Values File (.csv)
-### Definition:
-```python
-@property
-def csv(self):
-    ...
-```
 
 ### See Also
-* module [`groupdocs.redaction`](../../)
-* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype)
+* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/)

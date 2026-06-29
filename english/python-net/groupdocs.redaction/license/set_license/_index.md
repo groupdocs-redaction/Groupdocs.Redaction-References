@@ -1,7 +1,7 @@
 ---
 title: set_license method
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "Apply a license to the current process."
 type: docs
 url: /python-net/groupdocs.redaction/license/set_license/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: SUBJECT field
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "Subject of the document."
 type: docs
 url: /python-net/groupdocs.redaction.redactions/metadatafilters/subject/
 is_root: false
@@ -10,6 +10,8 @@ weight: 3150
 
 
 ## SUBJECT field
+
+Subject of the document.
 
 ### Value
 `16384`

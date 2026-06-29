@@ -1,24 +1,17 @@
-﻿---
-title: pptx property
+---
+title: PPTX field
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "PowerPoint Open XML Presentation (.pptx)"
 type: docs
-weight: 320
 url: /python-net/groupdocs.redaction/filetype/pptx/
 is_root: false
+weight: 3140
 ---
 
-## pptx property
 
+## PPTX field
 
 PowerPoint Open XML Presentation (.pptx)
-### Definition:
-```python
-@property
-def pptx(self):
-    ...
-```
 
 ### See Also
-* module [`groupdocs.redaction`](../../)
-* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype)
+* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/)

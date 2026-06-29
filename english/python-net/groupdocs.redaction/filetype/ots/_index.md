@@ -1,24 +1,17 @@
-﻿---
-title: ots property
+---
+title: OTS field
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "OpenDocument Spreadsheet Template (.ots)"
 type: docs
-weight: 270
 url: /python-net/groupdocs.redaction/filetype/ots/
 is_root: false
+weight: 3230
 ---
 
-## ots property
 
+## OTS field
 
 OpenDocument Spreadsheet Template (.ots)
-### Definition:
-```python
-@property
-def ots(self):
-    ...
-```
 
 ### See Also
-* module [`groupdocs.redaction`](../../)
-* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype)
+* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/)

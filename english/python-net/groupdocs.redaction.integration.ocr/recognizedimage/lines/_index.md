@@ -1,7 +1,7 @@
 ---
 title: lines property
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: 
+description: "The lines of text, with their fragments, recognized within the document."
 type: docs
 url: /python-net/groupdocs.redaction.integration.ocr/recognizedimage/lines/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2010
 
 
 ## lines property
+
+The lines of text, with their fragments, recognized within the document.
 
 ### Definition:
 ```python
