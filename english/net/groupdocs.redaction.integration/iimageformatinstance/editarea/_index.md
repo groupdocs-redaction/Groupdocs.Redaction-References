@@ -26,6 +26,7 @@ Image area redaction result
 ### See Also
 
 * class [RedactionResult](../../../groupdocs.redaction/redactionresult)
+* struct [Point](../../../groupdocs.redaction.options.drawing/point)
 * class [RegionReplacementOptions](../../../groupdocs.redaction.redactions/regionreplacementoptions)
 * interface [IImageFormatInstance](../../iimageformatinstance)
 * namespace [GroupDocs.Redaction.Integration](../../../groupdocs.redaction.integration)

@@ -3,7 +3,7 @@ title: Password
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Gets or sets a password for passwordprotected documents.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.redaction.options/loadoptions/password/
 ---
 ## LoadOptions.Password property

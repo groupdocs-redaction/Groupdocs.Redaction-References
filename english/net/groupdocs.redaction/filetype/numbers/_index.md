@@ -3,7 +3,7 @@ title: NUMBERS
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Apple Numbers Spreadsheet .numbers
 type: docs
-weight: 160
+weight: 180
 url: /net/groupdocs.redaction/filetype/numbers/
 ---
 ## FileType.NUMBERS property

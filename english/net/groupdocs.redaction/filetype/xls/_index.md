@@ -3,7 +3,7 @@ title: XLS
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Excel Spreadsheet .xls
 type: docs
-weight: 320
+weight: 430
 url: /net/groupdocs.redaction/filetype/xls/
 ---
 ## FileType.XLS property

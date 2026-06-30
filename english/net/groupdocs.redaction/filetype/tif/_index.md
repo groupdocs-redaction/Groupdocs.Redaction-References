@@ -3,7 +3,7 @@ title: TIF
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Tagged Image File .tif
 type: docs
-weight: 270
+weight: 370
 url: /net/groupdocs.redaction/filetype/tif/
 ---
 ## FileType.TIF property

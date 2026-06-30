@@ -3,7 +3,7 @@ title: op_Equality
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Determines whether two FileTypegroupdocs.redaction/filetype objects are the same.
 type: docs
-weight: 430
+weight: 570
 url: /net/groupdocs.redaction/filetype/op_equality/
 ---
 ## FileType Equality operator

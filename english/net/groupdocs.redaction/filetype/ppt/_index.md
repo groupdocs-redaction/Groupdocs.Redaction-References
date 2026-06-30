@@ -3,7 +3,7 @@ title: PPT
 second_title: GroupDocs.Redaction for .NET API Reference
 description: PowerPoint Presentation .ppt
 type: docs
-weight: 240
+weight: 320
 url: /net/groupdocs.redaction/filetype/ppt/
 ---
 ## FileType.PPT property

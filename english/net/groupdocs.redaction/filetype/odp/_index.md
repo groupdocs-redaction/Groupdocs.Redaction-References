@@ -3,7 +3,7 @@ title: ODP
 second_title: GroupDocs.Redaction for .NET API Reference
 description: OpenDocument Presentation .odp
 type: docs
-weight: 170
+weight: 190
 url: /net/groupdocs.redaction/filetype/odp/
 ---
 ## FileType.ODP property

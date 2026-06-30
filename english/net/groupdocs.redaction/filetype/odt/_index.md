@@ -3,7 +3,7 @@ title: ODT
 second_title: GroupDocs.Redaction for .NET API Reference
 description: OpenDocument Text Document .odt
 type: docs
-weight: 190
+weight: 210
 url: /net/groupdocs.redaction/filetype/odt/
 ---
 ## FileType.ODT property

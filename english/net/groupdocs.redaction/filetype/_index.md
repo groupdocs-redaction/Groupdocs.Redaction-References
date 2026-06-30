@@ -20,6 +20,7 @@ public sealed class FileType : IEquatable<FileType>
 | --- | --- |
 | static [BMP](../../groupdocs.redaction/filetype/bmp) { get; } | Bitmap Image File (.bmp) |
 | static [CSV](../../groupdocs.redaction/filetype/csv) { get; } | Comma Separated Values File (.csv) |
+| static [DJVU](../../groupdocs.redaction/filetype/djvu) { get; } | DjVu Image (.djvu) |
 | static [DOC](../../groupdocs.redaction/filetype/doc) { get; } | Microsoft Word Document (.doc) |
 | static [DOCM](../../groupdocs.redaction/filetype/docm) { get; } | Word Open XML Macro-Enabled Document (.docm) |
 | static [DOCX](../../groupdocs.redaction/filetype/docx) { get; } | Microsoft Word Open XML Document (.docx) |
@@ -32,27 +33,40 @@ public sealed class FileType : IEquatable<FileType>
 | static [JP2](../../groupdocs.redaction/filetype/jp2) { get; } | JPEG 2000 Core Image File (.jp2) |
 | static [JPEG](../../groupdocs.redaction/filetype/jpeg) { get; } | JPEG Image (.jpeg) |
 | static [JPG](../../groupdocs.redaction/filetype/jpg) { get; } | JPEG Image (.jpg) |
+| static [LOG](../../groupdocs.redaction/filetype/log) { get; } | Log File (.log) |
 | static [MD](../../groupdocs.redaction/filetype/md) { get; } | Markdown Documentation File (.md) |
 | static [NUMBERS](../../groupdocs.redaction/filetype/numbers) { get; } | Apple Numbers Spreadsheet (.numbers) |
 | static [ODP](../../groupdocs.redaction/filetype/odp) { get; } | OpenDocument Presentation (.odp) |
 | static [ODS](../../groupdocs.redaction/filetype/ods) { get; } | OpenDocument Spreadsheet (.ods) |
 | static [ODT](../../groupdocs.redaction/filetype/odt) { get; } | OpenDocument Text Document (.odt) |
+| static [OTP](../../groupdocs.redaction/filetype/otp) { get; } | OpenDocument Presentation Template (.otp) |
 | static [OTS](../../groupdocs.redaction/filetype/ots) { get; } | OpenDocument Spreadsheet Template (.ots) |
 | static [OTT](../../groupdocs.redaction/filetype/ott) { get; } | OpenDocument Document Template (.ott) |
 | static [PDF](../../groupdocs.redaction/filetype/pdf) { get; } | Portable Document Format File (.pdf) |
 | static [PNG](../../groupdocs.redaction/filetype/png) { get; } | Portable Network Graphic (.png) |
+| static [POTM](../../groupdocs.redaction/filetype/potm) { get; } | PowerPoint Open XML Macro-Enabled Presentation Template (.potm) |
+| static [POTX](../../groupdocs.redaction/filetype/potx) { get; } | PowerPoint Open XML Presentation Template (.potx) |
+| static [PPS](../../groupdocs.redaction/filetype/pps) { get; } | PowerPoint Slide Show (.pps) |
+| static [PPSM](../../groupdocs.redaction/filetype/ppsm) { get; } | PowerPoint Open XML Macro-Enabled Slide (.ppsm) |
+| static [PPSX](../../groupdocs.redaction/filetype/ppsx) { get; } | PowerPoint Open XML Slide Show (.ppsx) |
 | static [PPT](../../groupdocs.redaction/filetype/ppt) { get; } | PowerPoint Presentation (.ppt) |
+| static [PPTM](../../groupdocs.redaction/filetype/pptm) { get; } | PowerPoint Open XML Macro-Enabled Presentation |
 | static [PPTX](../../groupdocs.redaction/filetype/pptx) { get; } | PowerPoint Open XML Presentation (.pptx) |
 | static [RTF](../../groupdocs.redaction/filetype/rtf) { get; } | Rich Text Format File (.rtf) |
+| static [TAB](../../groupdocs.redaction/filetype/tab) { get; } | Tab Separated Values File (.tab) |
 | static [TIF](../../groupdocs.redaction/filetype/tif) { get; } | Tagged Image File (.tif) |
 | static [TIFF](../../groupdocs.redaction/filetype/tiff) { get; } | Tagged Image File Format (.tiff) |
 | static [TSV](../../groupdocs.redaction/filetype/tsv) { get; } | Tab Separated Values File (.tsv) |
 | static [TXT](../../groupdocs.redaction/filetype/txt) { get; } | Plain Text File (.txt) |
 | static [Unknown](../../groupdocs.redaction/filetype/unknown) { get; } | Represents unknown file type. |
+| static [WEBP](../../groupdocs.redaction/filetype/webp) { get; } | WebP Image (.webp) |
 | static [XLS](../../groupdocs.redaction/filetype/xls) { get; } | Excel Spreadsheet (.xls) |
 | static [XLSB](../../groupdocs.redaction/filetype/xlsb) { get; } | Excel Binary Spreadsheet (.xlsb) |
 | static [XLSM](../../groupdocs.redaction/filetype/xlsm) { get; } | Excel Open XML Macro-Enabled Spreadsheet (.xlsm) |
 | static [XLSX](../../groupdocs.redaction/filetype/xlsx) { get; } | Microsoft Excel Open XML Spreadsheet (.xlsx) |
+| static [XLT](../../groupdocs.redaction/filetype/xlt) { get; } | Excel Template (.xlt) |
+| static [XLTM](../../groupdocs.redaction/filetype/xltm) { get; } | Excel Open XML Macro-Enabled Spreadsheet Template (.xltm) |
+| static [XLTX](../../groupdocs.redaction/filetype/xltx) { get; } | Excel Open XML Spreadsheet Template (.xltx) |
 | [Extension](../../groupdocs.redaction/filetype/extension) { get; } | Gets filename suffix (including the period "."), for instance ".doc". |
 | [FileFormat](../../groupdocs.redaction/filetype/fileformat) { get; } | Gets file type name, for example "Microsoft Word Document". |
 

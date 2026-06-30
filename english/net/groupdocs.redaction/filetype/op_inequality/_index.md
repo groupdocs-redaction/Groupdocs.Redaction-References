@@ -3,7 +3,7 @@ title: op_Inequality
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Determines whether two FileTypegroupdocs.redaction/filetype objects are not the same.
 type: docs
-weight: 440
+weight: 580
 url: /net/groupdocs.redaction/filetype/op_inequality/
 ---
 ## FileType Inequality operator

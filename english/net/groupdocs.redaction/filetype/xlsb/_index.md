@@ -3,7 +3,7 @@ title: XLSB
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Excel Binary Spreadsheet .xlsb
 type: docs
-weight: 330
+weight: 440
 url: /net/groupdocs.redaction/filetype/xlsb/
 ---
 ## FileType.XLSB property

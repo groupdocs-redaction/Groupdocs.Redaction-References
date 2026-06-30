@@ -3,7 +3,7 @@ title: TIFF
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Tagged Image File Format .tiff
 type: docs
-weight: 280
+weight: 380
 url: /net/groupdocs.redaction/filetype/tiff/
 ---
 ## FileType.TIFF property

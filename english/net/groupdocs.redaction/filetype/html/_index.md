@@ -3,7 +3,7 @@ title: HTML
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Hypertext Markup Language File .html
 type: docs
-weight: 110
+weight: 120
 url: /net/groupdocs.redaction/filetype/html/
 ---
 ## FileType.HTML property

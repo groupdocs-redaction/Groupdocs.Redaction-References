@@ -3,7 +3,7 @@ title: DOCM
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Word Open XML MacroEnabled Document .docm
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.redaction/filetype/docm/
 ---
 ## FileType.DOCM property

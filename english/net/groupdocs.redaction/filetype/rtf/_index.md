@@ -3,7 +3,7 @@ title: RTF
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Rich Text Format File .rtf
 type: docs
-weight: 260
+weight: 350
 url: /net/groupdocs.redaction/filetype/rtf/
 ---
 ## FileType.RTF property

@@ -3,7 +3,7 @@ title: DOT
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Word Document Template .dot
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.redaction/filetype/dot/
 ---
 ## FileType.DOT property

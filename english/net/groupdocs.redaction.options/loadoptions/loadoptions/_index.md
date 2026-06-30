@@ -22,7 +22,34 @@ public LoadOptions()
 
 ---
 
-## LoadOptions(string) {#constructor_2}
+## LoadOptions(FileType) {#constructor_2}
+
+Initializes a new instance of LoadOptions class with the specified file type.
+
+```csharp
+public LoadOptions(FileType fileType)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileType | FileType | The type of the file to open. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | Thrown when *fileType* is null. |
+
+### See Also
+
+* class [FileType](../../../groupdocs.redaction/filetype)
+* class [LoadOptions](../../loadoptions)
+* namespace [GroupDocs.Redaction.Options](../../../groupdocs.redaction.options)
+* assembly [GroupDocs.Redaction](../../../)
+
+---
+
+## LoadOptions(string) {#constructor_3}
 
 Initializes a new instance of LoadOptions class with specified password.
 
@@ -62,7 +89,7 @@ public LoadOptions(bool preRasterize)
 
 ---
 
-## LoadOptions(string, bool) {#constructor_3}
+## LoadOptions(string, bool) {#constructor_4}
 
 Initializes a new instance of LoadOptions class with specified password.
 

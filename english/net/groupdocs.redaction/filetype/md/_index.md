@@ -3,7 +3,7 @@ title: MD
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Markdown Documentation File .md
 type: docs
-weight: 150
+weight: 170
 url: /net/groupdocs.redaction/filetype/md/
 ---
 ## FileType.MD property

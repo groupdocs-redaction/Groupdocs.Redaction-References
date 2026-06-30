@@ -3,7 +3,7 @@ title: PDF
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Portable Document Format File .pdf
 type: docs
-weight: 220
+weight: 250
 url: /net/groupdocs.redaction/filetype/pdf/
 ---
 ## FileType.PDF property

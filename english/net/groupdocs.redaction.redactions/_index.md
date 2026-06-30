@@ -3,7 +3,7 @@ title: GroupDocs.Redaction.Redactions
 second_title: GroupDocs.Redaction for .NET API Reference
 description: The Redactions namespace provides classes for different types of redactions.
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.redaction.redactions/
 ---
 The Redactions namespace provides classes for different types of redactions.

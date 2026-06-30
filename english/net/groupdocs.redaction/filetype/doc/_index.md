@@ -3,7 +3,7 @@ title: DOC
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Microsoft Word Document .doc
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.redaction/filetype/doc/
 ---
 ## FileType.DOC property

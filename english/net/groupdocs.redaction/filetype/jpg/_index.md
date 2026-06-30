@@ -3,7 +3,7 @@ title: JPG
 second_title: GroupDocs.Redaction for .NET API Reference
 description: JPEG Image .jpg
 type: docs
-weight: 140
+weight: 150
 url: /net/groupdocs.redaction/filetype/jpg/
 ---
 ## FileType.JPG property

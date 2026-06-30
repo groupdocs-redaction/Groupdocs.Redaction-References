@@ -3,7 +3,7 @@ title: HTM
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Hypertext Markup Language File .htm
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.redaction/filetype/htm/
 ---
 ## FileType.HTM property

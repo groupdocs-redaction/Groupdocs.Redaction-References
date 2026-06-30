@@ -3,7 +3,7 @@ title: JP2
 second_title: GroupDocs.Redaction for .NET API Reference
 description: JPEG 2000 Core Image File .jp2
 type: docs
-weight: 120
+weight: 130
 url: /net/groupdocs.redaction/filetype/jp2/
 ---
 ## FileType.JP2 property

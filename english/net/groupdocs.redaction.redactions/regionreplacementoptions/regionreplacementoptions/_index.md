@@ -21,6 +21,8 @@ public RegionReplacementOptions(Color fillColor, Size size)
 
 ### See Also
 
+* struct [Color](../../../groupdocs.redaction.options.drawing/color)
+* struct [Size](../../../groupdocs.redaction.options.drawing/size)
 * class [RegionReplacementOptions](../../regionreplacementoptions)
 * namespace [GroupDocs.Redaction.Redactions](../../../groupdocs.redaction.redactions)
 * assembly [GroupDocs.Redaction](../../../)
@@ -43,6 +45,8 @@ public RegionReplacementOptions(Color fillColor, Font font, string expectedText)
 
 ### See Also
 
+* struct [Color](../../../groupdocs.redaction.options.drawing/color)
+* class [Font](../../../groupdocs.redaction.options.drawing/font)
 * class [RegionReplacementOptions](../../regionreplacementoptions)
 * namespace [GroupDocs.Redaction.Redactions](../../../groupdocs.redaction.redactions)
 * assembly [GroupDocs.Redaction](../../../)

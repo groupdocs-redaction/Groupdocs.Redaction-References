@@ -3,7 +3,7 @@ title: FromExtension
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Maps file extension to file type.
 type: docs
-weight: 360
+weight: 500
 url: /net/groupdocs.redaction/filetype/fromextension/
 ---
 ## FileType.FromExtension method

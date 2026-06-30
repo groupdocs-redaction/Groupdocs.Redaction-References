@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/groupdocs.redaction.redactions/replacementoptions/replacementoptions/
 ---
-## ReplacementOptions(string) {#constructor_1}
+## ReplacementOptions(string) {#constructor_2}
 
 Initializes a new instance of ReplacementOptions class with replacement text as an option.
 
@@ -40,6 +40,7 @@ public ReplacementOptions(Color color)
 
 ### See Also
 
+* struct [Color](../../../groupdocs.redaction.options.drawing/color)
 * class [ReplacementOptions](../../replacementoptions)
 * namespace [GroupDocs.Redaction.Redactions](../../../groupdocs.redaction.redactions)
 * assembly [GroupDocs.Redaction](../../../)

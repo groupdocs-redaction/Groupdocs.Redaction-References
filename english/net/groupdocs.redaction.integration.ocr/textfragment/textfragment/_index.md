@@ -21,6 +21,7 @@ public TextFragment(string text, Rectangle rectangle)
 
 ### See Also
 
+* struct [Rectangle](../../../groupdocs.redaction.options.drawing/rectangle)
 * class [TextFragment](../../textfragment)
 * namespace [GroupDocs.Redaction.Integration.Ocr](../../../groupdocs.redaction.integration.ocr)
 * assembly [GroupDocs.Redaction](../../../)

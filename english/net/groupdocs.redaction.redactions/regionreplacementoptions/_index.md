@@ -3,7 +3,7 @@ title: RegionReplacementOptions
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents color and area parameters for image region replacement. See ImageAreaRedaction./imagearearedaction.
 type: docs
-weight: 680
+weight: 740
 url: /net/groupdocs.redaction.redactions/regionreplacementoptions/
 ---
 ## RegionReplacementOptions class
@@ -25,8 +25,8 @@ public class RegionReplacementOptions
 
 | Name | Description |
 | --- | --- |
-| [FillColor](../../groupdocs.redaction.redactions/regionreplacementoptions/fillcolor) { get; set; } | Gets or sets the color to fill the redacted area. |
-| [Size](../../groupdocs.redaction.redactions/regionreplacementoptions/size) { get; set; } | Gets or sets the rectangle with and height. |
+| [AreaFillColor](../../groupdocs.redaction.redactions/regionreplacementoptions/areafillcolor) { get; set; } | Gets or sets the color to fill the redacted area. |
+| [AreaSize](../../groupdocs.redaction.redactions/regionreplacementoptions/areasize) { get; set; } | Gets or sets the rectangle width and height. |
 
 ### Remarks
 
