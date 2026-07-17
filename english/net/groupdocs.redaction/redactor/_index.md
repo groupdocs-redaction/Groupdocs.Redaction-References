@@ -3,7 +3,7 @@ title: Redactor
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents a main class that controls document redaction process allowing to open redact and save documents.
 type: docs
-weight: 800
+weight: 820
 url: /net/groupdocs.redaction/redactor/
 ---
 ## Redactor class
@@ -37,7 +37,7 @@ public sealed class Redactor : IDisposable, IPreviewable
 | [GetDocumentInfo](../../groupdocs.redaction/redactor/getdocumentinfo)() | Gets the general information about the document - size, page count, etc. |
 | [Save](../../groupdocs.redaction/redactor/save#save)() | Saves the document to a file with the following options: AddSuffix = true, RasterizeToPDF = true. |
 | [Save](../../groupdocs.redaction/redactor/save#save_1)(SaveOptions) | Saves the document to a file. |
-| [Save](../../groupdocs.redaction/redactor/save#save_2)(Stream, RasterizationOptions) | Saves the document to a stream, including custom location. |
+| [Save](../../groupdocs.redaction/redactor/save#save_3)(Stream, SaveOptions) | Saves the document to the specified stream. |
 
 ### Remarks
 

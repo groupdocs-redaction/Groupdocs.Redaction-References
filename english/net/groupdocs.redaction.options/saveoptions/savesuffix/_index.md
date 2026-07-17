@@ -3,7 +3,7 @@ title: SaveSuffix
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents default suffix value which is Redacted.
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.redaction.options/saveoptions/savesuffix/
 ---
 ## SaveOptions.SaveSuffix field

@@ -29,6 +29,7 @@ public class SaveOptions
 | [Rasterization](../../groupdocs.redaction.options/saveoptions/rasterization) { get; } | Gets the rasterization settings. |
 | [RasterizeToPDF](../../groupdocs.redaction.options/saveoptions/rasterizetopdf) { get; set; } | Gets or sets a value indicating whether all pages in the document need to be converted to images and put in a single PDF file. |
 | [RedactedFileSuffix](../../groupdocs.redaction.options/saveoptions/redactedfilesuffix) { get; set; } | Gets or sets a custom suffix for output file name. If it is not specified, the [`SaveSuffix`](./savesuffix) constant will be used. |
+| [WordprocessingSaveOptions](../../groupdocs.redaction.options/saveoptions/wordprocessingsaveoptions) { get; } | Gets the save options specific to word processing documents. |
 
 ## Fields
 
