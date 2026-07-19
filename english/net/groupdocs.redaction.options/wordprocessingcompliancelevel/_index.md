@@ -18,7 +18,7 @@ public enum WordProcessingComplianceLevel
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Ecma | `0` | Specifies the ECMA-376 compliance level. |
+| Ecma | `0` | Specifies the ECMA-376 1st Edition, 2006 compliance level. |
 | Transitional | `1` | Specifies the ISO/IEC 29500:2008 Transitional compliance level. |
 | Strict | `2` | Specifies the ISO/IEC 29500:2008 Strict compliance level. |
 
