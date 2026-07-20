@@ -75,42 +75,22 @@ The following example demonstrates how to save a document using SaveOptions.
 
 ---
 
-## Save(Stream, RasterizationOptions) {#save_2}
+## Save(Stream, SaveOptions) {#save_3}
 
-Saves the document to a stream, including custom location.
+Saves the document to the specified stream.
 
 ```csharp
-public void Save(Stream document, RasterizationOptions rasterizationOptions)
+public void Save(Stream document, SaveOptions saveOptions)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | Stream | Target stream |
-| rasterizationOptions | RasterizationOptions | Options to rasterize or not and to specify pages for rasterization |
-
-### Examples
-
-The following example demonstrates how to set options for the rasterization process.
-
-```csharp
-    using (var redactor = new Redactor("SomePresentation.pptx"))
-    {
-        // redact sensitive data on the first slide 
-    
-        var rasterizationOptions = new RasterizationOptions();
-        rasterizationOptions.PageIndex = 0;
-        rasterizationOptions.PageCount = 1;
-        rasterizationOptions.Compliance = PdfComplianceLevel.PdfA1a;
-        using (var stream = File.Open(Path.Combine(@"C:\Temp", "PresentationFirstSlide.pdf")))
-        {
-            redactor.Save(stream, rasterizationOptions);
-        }
-    }      
-```
+| document | Stream | The target stream. |
+| saveOptions | SaveOptions | The save options that control rasterization, the output file name suffix, and document-specific save settings. |
 
 ### See Also
 
-* class [RasterizationOptions](../../../groupdocs.redaction.options/rasterizationoptions)
+* class [SaveOptions](../../../groupdocs.redaction.options/saveoptions)
 * class [Redactor](../../redactor)
 * namespace [GroupDocs.Redaction](../../../groupdocs.redaction)
 * assembly [GroupDocs.Redaction](../../../)

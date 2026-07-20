@@ -3,7 +3,7 @@ title: Redaction
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Represents a base abstract class for all redaction types.
 type: docs
-weight: 470
+weight: 490
 url: /net/groupdocs.redaction/redaction/
 ---
 ## Redaction class
