@@ -14,53 +14,75 @@ public abstract class TextRedaction extends Redaction
 
 Represents a base abstract class for document text redactions.
 
---------------------
+*** ** * ** ***
+
 
 **Learn more**
 
- *  More details about applying redactions: [Redaction basics][]
- *  More details about document text redactions: [Text redactions][]
+* More details about applying redactions: [Redaction basics](../https://docs.groupdocs.com/redaction/java/redaction-basics/)
+* More details about document text redactions: [Text redactions](../https://docs.groupdocs.com/redaction/java/text-redactions/)
+
+<br />
 
 
-[Redaction basics]: https://docs.groupdocs.com/redaction/java/redaction-basics/
-[Text redactions]: https://docs.groupdocs.com/redaction/java/text-redactions/
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getActionOptions()](#getActionOptions--) | Gets the  ReplacementOptions  instance, specifying type of text replacement. |
-| [getOcrConnector()](#getOcrConnector--) | Gets the  IOcrConnector  implementation, required to extract text from graphic content. |
-| [setOcrConnector(IOcrConnector value)](#setOcrConnector-com.groupdocs.redaction.integration.IOcrConnector-) | Sets the  IOcrConnector  implementation, required to extract text from graphic content. |
+| [getActionOptions()](#getActionOptions--) | Gets the 
+ReplacementOptions
+ instance, specifying type of text replacement.
+ |
+| [getOcrConnector()](#getOcrConnector--) | Gets the 
+IOcrConnector
+ implementation, required to extract text from graphic content.
+ |
+| [setOcrConnector(IOcrConnector value)](#setOcrConnector-com.groupdocs.redaction.integration.IOcrConnector-) | Sets the 
+IOcrConnector
+ implementation, required to extract text from graphic content.
+ |
 ### getActionOptions() {#getActionOptions--}
 ```
 public final ReplacementOptions getActionOptions()
 ```
 
 
-Gets the  ReplacementOptions  instance, specifying type of text replacement.
+Gets the 
+ReplacementOptions
+ instance, specifying type of text replacement.
+
 
 **Returns:**
 [ReplacementOptions](../../com.groupdocs.redaction.redactions/replacementoptions) - The  ReplacementOptions  instance, specifying type of text replacement.
+
 ### getOcrConnector() {#getOcrConnector--}
 ```
 public final IOcrConnector getOcrConnector()
 ```
 
 
-Gets the  IOcrConnector  implementation, required to extract text from graphic content.
+Gets the 
+IOcrConnector
+ implementation, required to extract text from graphic content.
+
 
 **Returns:**
 [IOcrConnector](../../com.groupdocs.redaction.integration/iocrconnector) - The  IOcrConnector  implementation, required to extract text from graphic content.
+
 ### setOcrConnector(IOcrConnector value) {#setOcrConnector-com.groupdocs.redaction.integration.IOcrConnector-}
 ```
 public final void setOcrConnector(IOcrConnector value)
 ```
 
 
-Sets the  IOcrConnector  implementation, required to extract text from graphic content.
+Sets the 
+IOcrConnector
+ implementation, required to extract text from graphic content.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IOcrConnector](../../com.groupdocs.redaction.integration/iocrconnector) | The  IOcrConnector  implementation, required to extract text from graphic content. |
+| value | [IOcrConnector](../../com.groupdocs.redaction.integration/iocrconnector) | The  IOcrConnector  implementation, required to extract text from graphic content.
+ |
 

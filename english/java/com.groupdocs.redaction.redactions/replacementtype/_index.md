@@ -13,12 +13,15 @@ public enum ReplacementType extends Enum<ReplacementType>
 ```
 
 Represents a type of replacement for the matched text.
+
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [ReplaceString](#ReplaceString) | Replaces matched text with another string, e.g. |
-| [DrawBox](#DrawBox) | Draws a rectangle of specific color (Black by default) instead of redacted text. |
+| [ReplaceString](#ReplaceString) | Replaces matched text with another string, e.g.
+ |
+| [DrawBox](#DrawBox) | Draws a rectangle of specific color (Black by default) instead of redacted text.
+ |
 ## Methods
 
 | Method | Description |
@@ -33,6 +36,7 @@ public static final ReplacementType ReplaceString
 
 Replaces matched text with another string, e.g. exemption code.
 
+
 ### DrawBox {#DrawBox}
 ```
 public static final ReplacementType DrawBox
@@ -40,6 +44,7 @@ public static final ReplacementType DrawBox
 
 
 Draws a rectangle of specific color (Black by default) instead of redacted text.
+
 
 ### values() {#values--}
 ```

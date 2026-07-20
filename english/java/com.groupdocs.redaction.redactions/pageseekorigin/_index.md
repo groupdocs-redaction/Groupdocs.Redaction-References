@@ -14,20 +14,24 @@ public enum PageSeekOrigin extends Enum<PageSeekOrigin>
 
 Provides the fields that represent reference points in a document for seeking.
 
---------------------
+*** ** * ** ***
+
 
 **Learn more**
 
- *  More details about removing pages: [Remove page redaction][]
+* More details about removing pages: [Remove page redaction](../https://docs.groupdocs.com/redaction/java/remove-page-redaction/)
+
+<br />
 
 
-[Remove page redaction]: https://docs.groupdocs.com/redaction/java/remove-page-redaction/
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Begin](#Begin) | Specifies the beginning of a document. |
-| [End](#End) | Specifies the end of a document. |
+| [Begin](#Begin) | Specifies the beginning of a document.
+ |
+| [End](#End) | Specifies the end of a document.
+ |
 ## Methods
 
 | Method | Description |
@@ -42,6 +46,7 @@ public static final PageSeekOrigin Begin
 
 Specifies the beginning of a document.
 
+
 ### End {#End}
 ```
 public static final PageSeekOrigin End
@@ -49,6 +54,7 @@ public static final PageSeekOrigin End
 
 
 Specifies the end of a document.
+
 
 ### values() {#values--}
 ```

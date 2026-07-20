@@ -13,14 +13,19 @@ public enum AdvancedRasterizationOptions extends Enum<AdvancedRasterizationOptio
 ```
 
 An enumeration to manage the advanced rasterization options to be applied.
+
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Tilt](#Tilt) | Tilt to incline the rasterized image to a random angle. |
-| [Noise](#Noise) | Add random spots to rasterized page images. |
-| [Border](#Border) | Add border line to imitate page scan effect. |
-| [Grayscale](#Grayscale) | Make page images grayscale to imitate grayscale scan. |
+| [Tilt](#Tilt) | Tilt to incline the rasterized image to a random angle.
+ |
+| [Noise](#Noise) | Add random spots to rasterized page images.
+ |
+| [Border](#Border) | Add border line to imitate page scan effect.
+ |
+| [Grayscale](#Grayscale) | Make page images grayscale to imitate grayscale scan.
+ |
 ## Methods
 
 | Method | Description |
@@ -35,6 +40,7 @@ public static final AdvancedRasterizationOptions Tilt
 
 Tilt to incline the rasterized image to a random angle.
 
+
 ### Noise {#Noise}
 ```
 public static final AdvancedRasterizationOptions Noise
@@ -42,6 +48,7 @@ public static final AdvancedRasterizationOptions Noise
 
 
 Add random spots to rasterized page images.
+
 
 ### Border {#Border}
 ```
@@ -51,6 +58,7 @@ public static final AdvancedRasterizationOptions Border
 
 Add border line to imitate page scan effect.
 
+
 ### Grayscale {#Grayscale}
 ```
 public static final AdvancedRasterizationOptions Grayscale
@@ -58,6 +66,7 @@ public static final AdvancedRasterizationOptions Grayscale
 
 
 Make page images grayscale to imitate grayscale scan.
+
 
 ### values() {#values--}
 ```

@@ -10,9 +10,10 @@ url: /java/com.groupdocs.redaction.licensing/
 The package provides classes to set license or use Metered billing.
 
 
+
 ## Classes
 
 | Class | Description |
 | --- | --- |
 | [License](../com.groupdocs.redaction.licensing/license) | Provides methods to license the component. |
-| [Metered](../com.groupdocs.redaction.licensing/metered) | Provides methods for applying  [Metered][]  license.[Metered]: https://purchase.groupdocs.com/faqs/licensing/metered |
+| [Metered](../com.groupdocs.redaction.licensing/metered) | Provides methods for applying [Metered](https://purchase.groupdocs.com/faqs/licensing/metered) license. |

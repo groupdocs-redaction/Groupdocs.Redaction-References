@@ -10,13 +10,14 @@ url: /java/com.groupdocs.redaction.redactions/
 The package provides classes for different types of redactions.
 
 
+
 ## Classes
 
 | Class | Description |
 | --- | --- |
 | [AnnotationRedaction](../com.groupdocs.redaction.redactions/annotationredaction) | Represents a redaction that replaces annotation text (comments, etc.) matching a given regular expression. |
 | [CellColumnRedaction](../com.groupdocs.redaction.redactions/cellcolumnredaction) | Represents a text redaction that replaces text in a spreadsheet documents (CSV, Excel, etc.). |
-| [CellFilter](../com.groupdocs.redaction.redactions/cellfilter) | Provides an option to limit the scope of a  CellColumnRedaction  to a worksheet and a column. |
+| [CellFilter](../com.groupdocs.redaction.redactions/cellfilter) | Provides an option to limit the scope of a CellColumnRedaction to a worksheet and a column. |
 | [DeleteAnnotationRedaction](../com.groupdocs.redaction.redactions/deleteannotationredaction) | Represents a text redaction that deletes annotations if text is matching given regular expression (optionally deletes all annotations). |
 | [EraseMetadataRedaction](../com.groupdocs.redaction.redactions/erasemetadataredaction) | Represents a metadata redaction that erases all metadata or metadata matching specific MetadataFilters from the document. |
 | [ExactPhraseRedaction](../com.groupdocs.redaction.redactions/exactphraseredaction) | Represents a text redaction that replaces exact phrase in the document's text, case insensitive by default. |

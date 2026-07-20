@@ -13,11 +13,13 @@ public class DocumentFormatException extends GroupDocsRedactionException
 ```
 
 The exception that is thrown when document format is not recognized or is invalid.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [DocumentFormatException(String message)](#DocumentFormatException-java.lang.String-) | Initializes a new instance of DocumentFormatException class. |
+| [DocumentFormatException(String message)](#DocumentFormatException-java.lang.String-) | Initializes a new instance of DocumentFormatException class.
+ |
 ### DocumentFormatException(String message) {#DocumentFormatException-java.lang.String-}
 ```
 public DocumentFormatException(String message)
@@ -26,8 +28,10 @@ public DocumentFormatException(String message)
 
 Initializes a new instance of DocumentFormatException class.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | Message, describing exception context |
+| message | java.lang.String | Message, describing exception context
+ |
 

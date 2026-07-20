@@ -14,16 +14,17 @@ public abstract class RedactionFilter
 
 Represents redaction filter, setting scope inside a document to apply redactions.
 
---------------------
+*** ** * ** ***
+
 
 **Learn more**
 
- *  More details about applying redactions: [Redaction basics][]
- *  More details about redaction filters: [Use PDF redaction filters][]
+* More details about applying redactions: [Redaction basics](../https://docs.groupdocs.com/redaction/java/redaction-basics/)
+* More details about redaction filters: [Use PDF redaction filters](../https://docs.groupdocs.com/redaction/java/use-pdf-redaction-filters/)
+
+<br />
 
 
-[Redaction basics]: https://docs.groupdocs.com/redaction/java/redaction-basics/
-[Use PDF redaction filters]: https://docs.groupdocs.com/redaction/java/use-pdf-redaction-filters/
 ## Constructors
 
 | Constructor | Description |

@@ -13,11 +13,13 @@ public class PasswordRequiredException extends GroupDocsRedactionException
 ```
 
 The exception that is thrown when password is required to load the document.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [PasswordRequiredException()](#PasswordRequiredException--) | Initializes a new instance of PasswordRequiredException class. |
+| [PasswordRequiredException()](#PasswordRequiredException--) | Initializes a new instance of PasswordRequiredException class.
+ |
 ### PasswordRequiredException() {#PasswordRequiredException--}
 ```
 public PasswordRequiredException()
@@ -25,4 +27,5 @@ public PasswordRequiredException()
 
 
 Initializes a new instance of PasswordRequiredException class.
+
 

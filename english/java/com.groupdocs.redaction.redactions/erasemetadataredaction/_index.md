@@ -14,16 +14,19 @@ public class EraseMetadataRedaction extends MetadataRedaction
 
 Represents a metadata redaction that erases all metadata or metadata matching specific MetadataFilters from the document.
 
---------------------
+*** ** * ** ***
+
 
 **Learn more**
 
- *  More details about applying redactions: [Redaction basics][]
- *  More details about document metadata redactions: [Metadata redactions][]
+* More details about applying redactions: [Redaction basics](../https://docs.groupdocs.com/redaction/java/redaction-basics/)
+* More details about document metadata redactions: [Metadata redactions](../https://docs.groupdocs.com/redaction/java/metadata-redactions/)
+
+<br />
 
 The following example demonstrates how to erase (set equal to empty values) all or specific metadata.
 
-```
+````
 
   try (Redactor redactor = new Redactor("C:\\sample.docx"))
  {
@@ -34,22 +37,26 @@ The following example demonstrates how to erase (set equal to empty values) all 
     redactor.save();
  }
  
-```
+``` 
+````
 
 
-[Redaction basics]: https://docs.groupdocs.com/redaction/java/redaction-basics/
-[Metadata redactions]: https://docs.groupdocs.com/redaction/java/metadata-redactions/
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [EraseMetadataRedaction()](#EraseMetadataRedaction--) | Initializes a new instance of EraseMetadataRedaction class, erasing all metadata. |
-| [EraseMetadataRedaction(int filter)](#EraseMetadataRedaction-int-) | Initializes a new instance of EraseMetadataRedaction class, erasing metadata, matching specific combination of  MetadataFilters . |
+| [EraseMetadataRedaction()](#EraseMetadataRedaction--) | Initializes a new instance of EraseMetadataRedaction class, erasing all metadata.
+ |
+| [EraseMetadataRedaction(int filter)](#EraseMetadataRedaction-int-) | Initializes a new instance of EraseMetadataRedaction class, erasing metadata, matching specific combination of 
+MetadataFilters
+.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getDescription()](#getDescription--) | Returns a string, describing the redaction and its parameters. |
+| [getDescription()](#getDescription--) | Returns a string, describing the redaction and its parameters.
+ |
 ### EraseMetadataRedaction() {#EraseMetadataRedaction--}
 ```
 public EraseMetadataRedaction()
@@ -58,18 +65,23 @@ public EraseMetadataRedaction()
 
 Initializes a new instance of EraseMetadataRedaction class, erasing all metadata.
 
+
 ### EraseMetadataRedaction(int filter) {#EraseMetadataRedaction-int-}
 ```
 public EraseMetadataRedaction(int filter)
 ```
 
 
-Initializes a new instance of EraseMetadataRedaction class, erasing metadata, matching specific combination of  MetadataFilters .
+Initializes a new instance of EraseMetadataRedaction class, erasing metadata, matching specific combination of 
+MetadataFilters
+.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filter | int | Filter for metadata to erase |
+| filter | int | Filter for metadata to erase
+ |
 
 ### getDescription() {#getDescription--}
 ```
@@ -79,5 +91,7 @@ public String getDescription()
 
 Returns a string, describing the redaction and its parameters.
 
+
 **Returns:**
 java.lang.String - Text, containing redaction name and parameters.
+

@@ -13,12 +13,15 @@ public enum PdfComplianceLevel extends Enum<PdfComplianceLevel>
 ```
 
 Represents a list of supported PDF compliance levels.
+
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Auto](#Auto) | The output file will comply with the PDF/A-1b standard by default. |
-| [PdfA1a](#PdfA1a) | The output file will comply with the PDF/A-1a standard. |
+| [Auto](#Auto) | The output file will comply with the PDF/A-1b standard by default.
+ |
+| [PdfA1a](#PdfA1a) | The output file will comply with the PDF/A-1a standard.
+ |
 ## Methods
 
 | Method | Description |
@@ -33,6 +36,7 @@ public static final PdfComplianceLevel Auto
 
 The output file will comply with the PDF/A-1b standard by default.
 
+
 ### PdfA1a {#PdfA1a}
 ```
 public static final PdfComplianceLevel PdfA1a
@@ -40,6 +44,7 @@ public static final PdfComplianceLevel PdfA1a
 
 
 The output file will comply with the PDF/A-1a standard.
+
 
 ### values() {#values--}
 ```

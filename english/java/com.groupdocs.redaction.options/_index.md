@@ -10,6 +10,7 @@ url: /java/com.groupdocs.redaction.options/
 The package provides load and save options classes.
 
 
+
 ## Classes
 
 | Class | Description |
@@ -26,7 +27,7 @@ The package provides load and save options classes.
 | --- | --- |
 | [ICreatePageStream](../com.groupdocs.redaction.options/icreatepagestream) | Provides method that returns a stream to write page preview data. |
 | [ILogger](../com.groupdocs.redaction.options/ilogger) | Defines interface of a logger that can be used for logging events and errors in process of redaction. |
-| [IReleasePageStream](../com.groupdocs.redaction.options/ireleasepagestream) | Represents a method which releases stream created by  CreatePageStream  delegate. |
+| [IReleasePageStream](../com.groupdocs.redaction.options/ireleasepagestream) | Represents a method which releases stream created by CreatePageStream delegate. |
 
 ## Enumerations
 

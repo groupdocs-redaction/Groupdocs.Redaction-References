@@ -13,11 +13,13 @@ public class IncorrectPasswordException extends GroupDocsRedactionException
 ```
 
 The exception that is thrown when specified password is incorrect.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [IncorrectPasswordException()](#IncorrectPasswordException--) | Initializes a new instance of IncorrectPasswordException class. |
+| [IncorrectPasswordException()](#IncorrectPasswordException--) | Initializes a new instance of IncorrectPasswordException class.
+ |
 ### IncorrectPasswordException() {#IncorrectPasswordException--}
 ```
 public IncorrectPasswordException()
@@ -25,4 +27,5 @@ public IncorrectPasswordException()
 
 
 Initializes a new instance of IncorrectPasswordException class.
+
 
