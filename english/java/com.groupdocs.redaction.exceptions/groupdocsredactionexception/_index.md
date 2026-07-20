@@ -13,11 +13,13 @@ public class GroupDocsRedactionException extends Exception
 ```
 
 Represents base exception for all GroupDocs.Redaction exceptions.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [GroupDocsRedactionException(String message)](#GroupDocsRedactionException-java.lang.String-) | Initializes a new instance of GroupDocsRedactionException class. |
+| [GroupDocsRedactionException(String message)](#GroupDocsRedactionException-java.lang.String-) | Initializes a new instance of GroupDocsRedactionException class.
+ |
 ### GroupDocsRedactionException(String message) {#GroupDocsRedactionException-java.lang.String-}
 ```
 public GroupDocsRedactionException(String message)
@@ -26,8 +28,10 @@ public GroupDocsRedactionException(String message)
 
 Initializes a new instance of GroupDocsRedactionException class.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | Message, describing exception context |
+| message | java.lang.String | Message, describing exception context
+ |
 

@@ -13,14 +13,19 @@ public enum RedactionStatus extends Enum<RedactionStatus>
 ```
 
 Represents a redaction completion status.
+
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Applied](#Applied) | Redaction was fully and successfully applied. |
-| [PartiallyApplied](#PartiallyApplied) | Redaction was aplied only to a part of its matches. |
-| [Skipped](#Skipped) | Redaction was skipped (not applied). |
-| [Failed](#Failed) | Redaction failed with exception. |
+| [Applied](#Applied) | Redaction was fully and successfully applied.
+ |
+| [PartiallyApplied](#PartiallyApplied) | Redaction was aplied only to a part of its matches.
+ |
+| [Skipped](#Skipped) | Redaction was skipped (not applied).
+ |
+| [Failed](#Failed) | Redaction failed with exception.
+ |
 ## Methods
 
 | Method | Description |
@@ -35,6 +40,7 @@ public static final RedactionStatus Applied
 
 Redaction was fully and successfully applied.
 
+
 ### PartiallyApplied {#PartiallyApplied}
 ```
 public static final RedactionStatus PartiallyApplied
@@ -42,6 +48,7 @@ public static final RedactionStatus PartiallyApplied
 
 
 Redaction was aplied only to a part of its matches.
+
 
 ### Skipped {#Skipped}
 ```
@@ -51,6 +58,7 @@ public static final RedactionStatus Skipped
 
 Redaction was skipped (not applied).
 
+
 ### Failed {#Failed}
 ```
 public static final RedactionStatus Failed
@@ -58,6 +66,7 @@ public static final RedactionStatus Failed
 
 
 Redaction failed with exception.
+
 
 ### values() {#values--}
 ```

@@ -14,16 +14,19 @@ public class RedactorConfiguration
 
 Provides access to a list of supported formats, built-in and custom user formats.
 
---------------------
+*** ** * ** ***
+
 
 **Learn more**
 
- *  More details about **GroupDocs.Redaction** configuration: [Extend supported extensions list][]
- *  More details about implementing custom formats: [Create custom format handler][]
+* More details about **GroupDocs.Redaction** configuration: [Extend supported extensions list](../https://docs.groupdocs.com/redaction/java/extend-supported-extensions-list/)
+* More details about implementing custom formats: [Create custom format handler](../https://docs.groupdocs.com/redaction/java/create-custom-format-handler/)
+
+<br />
 
 The following example demonstrates how to add a custom user format handler.
 
-```
+````
 
   DocumentFormatConfiguration adobePhotoshopSettings = new DocumentFormatConfiguration();
  adobePhotoshopSettings.setExtensionFilter(".psd");
@@ -31,11 +34,10 @@ The following example demonstrates how to add a custom user format handler.
  RedactorConfiguration configuration = RedactorConfiguration.getInstance();
  configuration.getAvailableFormats().add(adobePhotoshopSettings);
  
-```
+``` 
+````
 
 
-[Extend supported extensions list]: https://docs.groupdocs.com/redaction/java/extend-supported-extensions-list/
-[Create custom format handler]: https://docs.groupdocs.com/redaction/java/create-custom-format-handler/
 ## Constructors
 
 | Constructor | Description |
@@ -45,8 +47,12 @@ The following example demonstrates how to add a custom user format handler.
 
 | Method | Description |
 | --- | --- |
-| [getAvailableFormats()](#getAvailableFormats--) | Gets a list of recognized formats, see  DocumentFormatConfiguration . |
-| [findFormat(String fileExtension)](#findFormat-java.lang.String-) | Finds format configurations for a given file extension. |
+| [getAvailableFormats()](#getAvailableFormats--) | Gets a list of recognized formats, see 
+DocumentFormatConfiguration
+.
+ |
+| [findFormat(String fileExtension)](#findFormat-java.lang.String-) | Finds format configurations for a given file extension.
+ |
 ### RedactorConfiguration() {#RedactorConfiguration--}
 ```
 public RedactorConfiguration()
@@ -59,10 +65,14 @@ public final List<DocumentFormatConfiguration> getAvailableFormats()
 ```
 
 
-Gets a list of recognized formats, see  DocumentFormatConfiguration .
+Gets a list of recognized formats, see 
+DocumentFormatConfiguration
+.
+
 
 **Returns:**
 java.util.List<com.groupdocs.redaction.configuration.DocumentFormatConfiguration> - A list of recognized formats, see  DocumentFormatConfiguration .
+
 ### findFormat(String fileExtension) {#findFormat-java.lang.String-}
 ```
 public final DocumentFormatConfiguration findFormat(String fileExtension)
@@ -71,10 +81,13 @@ public final DocumentFormatConfiguration findFormat(String fileExtension)
 
 Finds format configurations for a given file extension.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileExtension | java.lang.String | File extension, format is ".ext" |
+| fileExtension | java.lang.String | File extension, format is ".ext"
+ |
 
 **Returns:**
 [DocumentFormatConfiguration](../../com.groupdocs.redaction.configuration/documentformatconfiguration) - If found, instance of  DocumentFormatConfiguration , null otherwise
+

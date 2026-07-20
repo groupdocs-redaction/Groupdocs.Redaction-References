@@ -14,27 +14,31 @@ public class PageAreaFilter extends RedactionFilter
 
 Represents redaction filter, setting an area within a page of a document to apply redaction.
 
---------------------
+*** ** * ** ***
+
 
 **Learn more**
 
- *  More details about applying redactions: [Redaction basics][]
- *  More details about redaction filters: [Use PDF redaction filters][]
+* More details about applying redactions: [Redaction basics](../https://docs.groupdocs.com/redaction/java/redaction-basics/)
+* More details about redaction filters: [Use PDF redaction filters](../https://docs.groupdocs.com/redaction/java/use-pdf-redaction-filters/)
+
+<br />
 
 
-[Redaction basics]: https://docs.groupdocs.com/redaction/java/redaction-basics/
-[Use PDF redaction filters]: https://docs.groupdocs.com/redaction/java/use-pdf-redaction-filters/
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [PageAreaFilter(Point topLeft, Dimension size)](#PageAreaFilter-java.awt.Point-java.awt.Dimension-) | Initializes a new instance of PageAreaFilter class for redacting specific area. |
+| [PageAreaFilter(Point topLeft, Dimension size)](#PageAreaFilter-java.awt.Point-java.awt.Dimension-) | Initializes a new instance of PageAreaFilter class for redacting specific area.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getRectangle()](#getRectangle--) | Gets the rectangle (top-left position and size of the area) on a page. |
-| [isInTheArea(Rectangle rectangle)](#isInTheArea-java.awt.Rectangle-) | Checks if this filter area has intersection with given rectangle. |
+| [getRectangle()](#getRectangle--) | Gets the rectangle (top-left position and size of the area) on a page.
+ |
+| [isInTheArea(Rectangle rectangle)](#isInTheArea-java.awt.Rectangle-) | Checks if this filter area has intersection with given rectangle.
+ |
 ### PageAreaFilter(Point topLeft, Dimension size) {#PageAreaFilter-java.awt.Point-java.awt.Dimension-}
 ```
 public PageAreaFilter(Point topLeft, Dimension size)
@@ -43,11 +47,14 @@ public PageAreaFilter(Point topLeft, Dimension size)
 
 Initializes a new instance of PageAreaFilter class for redacting specific area.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| topLeft | java.awt.Point | Top-left area coordinates |
-| size | java.awt.Dimension | Area size and color |
+| topLeft | java.awt.Point | Top-left area coordinates
+ |
+| size | java.awt.Dimension | Area size and color
+ |
 
 ### getRectangle() {#getRectangle--}
 ```
@@ -57,8 +64,10 @@ public final Rectangle getRectangle()
 
 Gets the rectangle (top-left position and size of the area) on a page.
 
+
 **Returns:**
 java.awt.Rectangle - The rectangle (top-left position and size of the area) on a page.
+
 ### isInTheArea(Rectangle rectangle) {#isInTheArea-java.awt.Rectangle-}
 ```
 public final boolean isInTheArea(Rectangle rectangle)
@@ -67,10 +76,13 @@ public final boolean isInTheArea(Rectangle rectangle)
 
 Checks if this filter area has intersection with given rectangle.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rectangle | java.awt.Rectangle | Rectangle to check |
+| rectangle | java.awt.Rectangle | Rectangle to check
+ |
 
 **Returns:**
 boolean - true, if this filter area has intersection
+

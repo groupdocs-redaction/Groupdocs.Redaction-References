@@ -13,13 +13,17 @@ public enum RedactionActionType extends Enum<RedactionActionType>
 ```
 
 Represents actions that can be taken to perform redaction.
+
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Replacement](#Replacement) | Redacted text was replaced with another or covered with a block. |
-| [Cleanup](#Cleanup) | Data were removed, but an empty object remains in the document. |
-| [Deletion](#Deletion) | Data and related structures were removed from the document. |
+| [Replacement](#Replacement) | Redacted text was replaced with another or covered with a block.
+ |
+| [Cleanup](#Cleanup) | Data were removed, but an empty object remains in the document.
+ |
+| [Deletion](#Deletion) | Data and related structures were removed from the document.
+ |
 ## Methods
 
 | Method | Description |
@@ -34,6 +38,7 @@ public static final RedactionActionType Replacement
 
 Redacted text was replaced with another or covered with a block.
 
+
 ### Cleanup {#Cleanup}
 ```
 public static final RedactionActionType Cleanup
@@ -42,6 +47,7 @@ public static final RedactionActionType Cleanup
 
 Data were removed, but an empty object remains in the document.
 
+
 ### Deletion {#Deletion}
 ```
 public static final RedactionActionType Deletion
@@ -49,6 +55,7 @@ public static final RedactionActionType Deletion
 
 
 Data and related structures were removed from the document.
+
 
 ### values() {#values--}
 ```

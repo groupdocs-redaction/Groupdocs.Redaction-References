@@ -11,10 +11,16 @@ The package provides classes for redacting sensitive information from documents 
 
 The main classes in this package are:
 
- *  [Redactor](../../com.groupdocs.redaction/redactor) is the entry point for redaction process.
- *  [Redaction](../../com.groupdocs.redaction/redaction) is abstract base class for all types of document redactions.
- *  [RedactionPolicy](../../com.groupdocs.redaction/redactionpolicy) is pre-configured in XML set of redaction rules.
- *  [RedactorChangeLog](../../com.groupdocs.redaction/redactorchangelog) provides information about redaction process results.
+<br />
+
+* [Redactor](../../com.groupdocs.redaction/redactor) is the entry point for redaction process.
+* [Redaction](../../com.groupdocs.redaction/redaction) is abstract base class for all types of document redactions.
+* [RedactionPolicy](../../com.groupdocs.redaction/redactionpolicy) is pre-configured in XML set of redaction rules.
+* [RedactorChangeLog](../../com.groupdocs.redaction/redactorchangelog) provides information about redaction process results.
+
+<br />
+
+
 
 
 ## Classes
@@ -28,7 +34,7 @@ The main classes in this package are:
 | [RedactionPolicy](../com.groupdocs.redaction/redactionpolicy) | Represents a sanitization policy, containing a set of specific redactions to apply. |
 | [RedactionResult](../com.groupdocs.redaction/redactionresult) | Represents a result of the redaction operation. |
 | [Redactor](../com.groupdocs.redaction/redactor) | Represents a main class that controls document redaction process, allowing to open, redact and save documents. |
-| [RedactorChangeLog](../com.groupdocs.redaction/redactorchangelog) | Represents results for a list of redactions, passed to Apply() method of  Redactor  class. |
+| [RedactorChangeLog](../com.groupdocs.redaction/redactorchangelog) | Represents results for a list of redactions, passed to Apply() method of Redactor class. |
 | [RedactorLogEntry](../com.groupdocs.redaction/redactorlogentry) | Represents results of applying redaction. |
 
 ## Interfaces
