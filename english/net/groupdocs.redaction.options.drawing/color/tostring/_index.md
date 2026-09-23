@@ -3,7 +3,7 @@ title: ToString
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Returns channel values in a readable form.
 type: docs
-weight: 160
+weight: 1540
 url: /net/groupdocs.redaction.options.drawing/color/tostring/
 ---
 ## Color.ToString method

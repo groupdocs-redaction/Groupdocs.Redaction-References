@@ -3,7 +3,7 @@ title: GetHashCode
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Returns a hash code derived from position and size.
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.redaction.options.drawing/rectangle/gethashcode/
 ---
 ## Rectangle.GetHashCode method

@@ -3,7 +3,7 @@ title: FromArgb
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Builds a color from a packed 32bit value in ARGB order.
 type: docs
-weight: 80
+weight: 1430
 url: /net/groupdocs.redaction.options.drawing/color/fromargb/
 ---
 ## FromArgb(int) {#fromargb}

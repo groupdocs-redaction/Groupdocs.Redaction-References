@@ -1,14 +1,14 @@
 ---
 title: Chocolate
 second_title: GroupDocs.Redaction for .NET API Reference
-description: A preset opaque brown tone used in sample redaction scenarios.
+description: Gets the Chocolate color.
 type: docs
-weight: 30
+weight: 160
 url: /net/groupdocs.redaction.options.drawing/color/chocolate/
 ---
 ## Color.Chocolate property
 
-A preset opaque brown tone used in sample redaction scenarios.
+Gets the Chocolate color.
 
 ```csharp
 public static Color Chocolate { get; }

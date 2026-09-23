@@ -3,7 +3,7 @@ title: GetHashCode
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Returns a hash code based on the packed ARGB value.
 type: docs
-weight: 140
+weight: 1520
 url: /net/groupdocs.redaction.options.drawing/color/gethashcode/
 ---
 ## Color.GetHashCode method

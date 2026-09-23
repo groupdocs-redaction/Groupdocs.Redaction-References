@@ -1,14 +1,14 @@
 ---
 title: Yellow
 second_title: GroupDocs.Redaction for .NET API Reference
-description: A preset opaque yellow.
+description: Gets the Yellow color.
 type: docs
-weight: 70
+weight: 1410
 url: /net/groupdocs.redaction.options.drawing/color/yellow/
 ---
 ## Color.Yellow property
 
-A preset opaque yellow.
+Gets the Yellow color.
 
 ```csharp
 public static Color Yellow { get; }

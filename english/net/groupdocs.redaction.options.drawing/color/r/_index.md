@@ -3,7 +3,7 @@ title: R
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Red channel intensity.
 type: docs
-weight: 120
+weight: 1500
 url: /net/groupdocs.redaction.options.drawing/color/r/
 ---
 ## Color.R property

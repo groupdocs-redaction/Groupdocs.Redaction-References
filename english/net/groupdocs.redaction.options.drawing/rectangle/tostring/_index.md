@@ -3,7 +3,7 @@ title: ToString
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Returns the bounds in a readable form.
 type: docs
-weight: 110
+weight: 120
 url: /net/groupdocs.redaction.options.drawing/rectangle/tostring/
 ---
 ## Rectangle.ToString method

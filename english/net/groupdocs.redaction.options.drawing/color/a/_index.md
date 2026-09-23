@@ -3,7 +3,7 @@ title: A
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Opacity of the color. 0 is fully transparent 255 is fully opaque.
 type: docs
-weight: 90
+weight: 1450
 url: /net/groupdocs.redaction.options.drawing/color/a/
 ---
 ## Color.A property

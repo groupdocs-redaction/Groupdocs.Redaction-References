@@ -3,7 +3,7 @@ title: Location
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Topleft corner of the rectangle.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.redaction.options.drawing/rectangle/location/
 ---
 ## Rectangle.Location property

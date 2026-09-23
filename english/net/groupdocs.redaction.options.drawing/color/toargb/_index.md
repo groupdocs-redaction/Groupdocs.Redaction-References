@@ -3,7 +3,7 @@ title: ToArgb
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Returns the color as a packed 32bit ARGB value.
 type: docs
-weight: 150
+weight: 1530
 url: /net/groupdocs.redaction.options.drawing/color/toargb/
 ---
 ## Color.ToArgb method

@@ -3,7 +3,7 @@ title: Size
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Width and height of the rectangle.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.redaction.options.drawing/rectangle/size/
 ---
 ## Rectangle.Size property

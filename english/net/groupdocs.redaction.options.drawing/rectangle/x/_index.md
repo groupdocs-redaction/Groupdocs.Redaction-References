@@ -3,7 +3,7 @@ title: X
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Horizontal position of the topleft corner in pixels.
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.redaction.options.drawing/rectangle/x/
 ---
 ## Rectangle.X property
@@ -11,7 +11,7 @@ url: /net/groupdocs.redaction.options.drawing/rectangle/x/
 Horizontal position of the top-left corner, in pixels.
 
 ```csharp
-public int X { get; }
+public int X { get; set; }
 ```
 
 ### See Also

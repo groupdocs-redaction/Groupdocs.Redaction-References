@@ -53,7 +53,7 @@ The following example demonstrates replacing text using the regular expression.
       // replace with text
       redactor.Apply(new RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", new ReplacementOptions("[removed]")));
       // replace with blue solid rectangle
-      redactor.Apply(new RegexRedaction(@"^\d+[,\.]{1}\d+$", new ReplacementOptions(System.Drawing.Color.Blue)));
+      redactor.Apply(new RegexRedaction(@"^\d+[,\.]{1}\d+$", new ReplacementOptions(GroupDocs.Redaction.Options.Drawing.Color.Blue)));
       redactor.Save();
     }
 ```
