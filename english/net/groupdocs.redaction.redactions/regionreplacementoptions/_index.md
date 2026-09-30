@@ -25,8 +25,8 @@ public class RegionReplacementOptions
 
 | Name | Description |
 | --- | --- |
-| [AreaFillColor](../../groupdocs.redaction.redactions/regionreplacementoptions/areafillcolor) { get; set; } | Gets or sets the color to fill the redacted area. |
-| [AreaSize](../../groupdocs.redaction.redactions/regionreplacementoptions/areasize) { get; set; } | Gets or sets the rectangle width and height. |
+| [FillColor](../../groupdocs.redaction.redactions/regionreplacementoptions/fillcolor) { get; set; } | Gets or sets the color to fill the redacted area. |
+| [Size](../../groupdocs.redaction.redactions/regionreplacementoptions/size) { get; set; } | Gets or sets the rectangle with and height. |
 
 ### Remarks
 
@@ -41,10 +41,10 @@ The following example demonstrates replacing an area within the image with a sol
 ```csharp
     using (Redactor redactor = new Redactor("D:\\test.jpg"))
     {
-       System.Drawing.Point samplePoint = new System.Drawing.Point(516, 311);
-       System.Drawing.Size sampleSize = new System.Drawing.Size(170, 35);
+       GroupDocs.Redaction.Options.Drawing.Point samplePoint = new GroupDocs.Redaction.Options.Drawing.Point(516, 311);
+       GroupDocs.Redaction.Options.Drawing.Size sampleSize = new GroupDocs.Redaction.Options.Drawing.Size(170, 35);
        RedactorChangeLog result = redactor.Apply(new ImageAreaRedaction(samplePoint,
-                     new RegionReplacementOptions(System.Drawing.Color.Blue, sampleSize)));
+                     new RegionReplacementOptions(GroupDocs.Redaction.Options.Drawing.Color.Blue, sampleSize)));
        if (result.Status != RedactionStatus.Failed)
        {
           redactor.Save();

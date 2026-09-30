@@ -1,14 +1,14 @@
 ---
 title: Cyan
 second_title: GroupDocs.Redaction for .NET API Reference
-description: A preset opaque cyan.
+description: Gets the Cyan color.
 type: docs
-weight: 40
+weight: 210
 url: /net/groupdocs.redaction.options.drawing/color/cyan/
 ---
 ## Color.Cyan property
 
-A preset opaque cyan.
+Gets the Cyan color.
 
 ```csharp
 public static Color Cyan { get; }

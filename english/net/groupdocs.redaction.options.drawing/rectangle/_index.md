@@ -26,12 +26,13 @@ public struct Rectangle : IEquatable<Rectangle>
 | Name | Description |
 | --- | --- |
 | static [Empty](../../groupdocs.redaction.options.drawing/rectangle/empty) { get; } | A rectangle with zero width and height at the origin. |
-| [Height](../../groupdocs.redaction.options.drawing/rectangle/height) { get; } | Height of the area, in pixels. |
+| [Height](../../groupdocs.redaction.options.drawing/rectangle/height) { get; set; } | Height of the area, in pixels. |
+| [IsEmpty](../../groupdocs.redaction.options.drawing/rectangle/isempty) { get; } | Gets a value indicating whether the rectangle is empty. |
 | [Location](../../groupdocs.redaction.options.drawing/rectangle/location) { get; } | Top-left corner of the rectangle. |
 | [Size](../../groupdocs.redaction.options.drawing/rectangle/size) { get; } | Width and height of the rectangle. |
-| [Width](../../groupdocs.redaction.options.drawing/rectangle/width) { get; } | Width of the area, in pixels. |
-| [X](../../groupdocs.redaction.options.drawing/rectangle/x) { get; } | Horizontal position of the top-left corner, in pixels. |
-| [Y](../../groupdocs.redaction.options.drawing/rectangle/y) { get; } | Vertical position of the top-left corner, in pixels. |
+| [Width](../../groupdocs.redaction.options.drawing/rectangle/width) { get; set; } | Width of the area, in pixels. |
+| [X](../../groupdocs.redaction.options.drawing/rectangle/x) { get; set; } | Horizontal position of the top-left corner, in pixels. |
+| [Y](../../groupdocs.redaction.options.drawing/rectangle/y) { get; set; } | Vertical position of the top-left corner, in pixels. |
 
 ## Methods
 

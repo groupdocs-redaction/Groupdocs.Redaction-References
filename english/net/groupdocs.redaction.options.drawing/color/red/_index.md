@@ -1,14 +1,14 @@
 ---
 title: Red
 second_title: GroupDocs.Redaction for .NET API Reference
-description: A preset opaque red often used for highlightstyle redactions.
+description: Gets the Red color.
 type: docs
-weight: 50
+weight: 1150
 url: /net/groupdocs.redaction.options.drawing/color/red/
 ---
 ## Color.Red property
 
-A preset opaque red, often used for highlight-style redactions.
+Gets the Red color.
 
 ```csharp
 public static Color Red { get; }

@@ -1,14 +1,14 @@
 ---
 title: Blue
 second_title: GroupDocs.Redaction for .NET API Reference
-description: A preset opaque blue.
+description: Gets the Blue color.
 type: docs
-weight: 20
+weight: 100
 url: /net/groupdocs.redaction.options.drawing/color/blue/
 ---
 ## Color.Blue property
 
-A preset opaque blue.
+Gets the Blue color.
 
 ```csharp
 public static Color Blue { get; }

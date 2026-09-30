@@ -1,14 +1,14 @@
 ---
 title: Transparent
 second_title: GroupDocs.Redaction for .NET API Reference
-description: A fully transparent color.
+description: Gets the Transparent color.
 type: docs
-weight: 60
+weight: 1350
 url: /net/groupdocs.redaction.options.drawing/color/transparent/
 ---
 ## Color.Transparent property
 
-A fully transparent color.
+Gets the Transparent color.
 
 ```csharp
 public static Color Transparent { get; }

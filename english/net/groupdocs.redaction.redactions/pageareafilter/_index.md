@@ -18,13 +18,13 @@ public class PageAreaFilter : RedactionFilter
 
 | Name | Description |
 | --- | --- |
-| [PageAreaFilter](pageareafilter#constructor)(Point, Size) | Initializes a new instance of PageAreaFilter class for redacting specific area. |
+| [PageAreaFilter](pageareafilter)(Point, Size) | Initializes a new instance of PageAreaFilter class for redacting specific area. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [AreaRectangle](../../groupdocs.redaction.redactions/pageareafilter/arearectangle) { get; } | Gets the rectangle (top-left position and size of the area) on a page. |
+| [Rectangle](../../groupdocs.redaction.redactions/pageareafilter/rectangle) { get; } | Gets the rectangle (top-left position and size of the area) on a page. |
 
 ### Remarks
 

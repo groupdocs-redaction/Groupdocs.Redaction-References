@@ -1,14 +1,14 @@
 ---
 title: Black
 second_title: GroupDocs.Redaction for .NET API Reference
-description: A preset opaque black commonly used for blackout redactions.
+description: Gets the Black color.
 type: docs
-weight: 10
+weight: 80
 url: /net/groupdocs.redaction.options.drawing/color/black/
 ---
 ## Color.Black property
 
-A preset opaque black, commonly used for blackout redactions.
+Gets the Black color.
 
 ```csharp
 public static Color Black { get; }

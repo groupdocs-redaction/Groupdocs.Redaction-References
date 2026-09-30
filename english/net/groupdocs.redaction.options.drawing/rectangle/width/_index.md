@@ -3,7 +3,7 @@ title: Width
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Width of the area in pixels.
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.redaction.options.drawing/rectangle/width/
 ---
 ## Rectangle.Width property
@@ -11,7 +11,7 @@ url: /net/groupdocs.redaction.options.drawing/rectangle/width/
 Width of the area, in pixels.
 
 ```csharp
-public int Width { get; }
+public int Width { get; set; }
 ```
 
 ### See Also

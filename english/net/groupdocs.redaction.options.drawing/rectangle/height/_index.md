@@ -11,7 +11,7 @@ url: /net/groupdocs.redaction.options.drawing/rectangle/height/
 Height of the area, in pixels.
 
 ```csharp
-public int Height { get; }
+public int Height { get; set; }
 ```
 
 ### See Also

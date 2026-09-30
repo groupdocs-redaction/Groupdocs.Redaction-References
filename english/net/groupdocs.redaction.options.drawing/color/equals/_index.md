@@ -3,7 +3,7 @@ title: Equals
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Compares channel values with another redaction color.
 type: docs
-weight: 130
+weight: 1510
 url: /net/groupdocs.redaction.options.drawing/color/equals/
 ---
 ## Equals(Color) {#equals}

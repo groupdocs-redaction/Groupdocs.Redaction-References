@@ -64,7 +64,7 @@ The following example demonstrates replacing phrase (case insensitive) with soli
 using (Redactor redactor = new Redactor(@"C:\sample.pdf"))
 {
   // By default, isCaseSensitive = false;
-  doc.Apply(new ExactPhraseRedaction("John Doe", new ReplacementOptions(System.Drawing.Color.Red)));
+  doc.Apply(new ExactPhraseRedaction("John Doe", new ReplacementOptions(GroupDocs.Redaction.Options.Drawing.Color.Red)));
   doc.Save();
 }
 ```

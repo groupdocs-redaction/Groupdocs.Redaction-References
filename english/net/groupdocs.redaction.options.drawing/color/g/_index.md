@@ -3,7 +3,7 @@ title: G
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Green channel intensity.
 type: docs
-weight: 110
+weight: 1470
 url: /net/groupdocs.redaction.options.drawing/color/g/
 ---
 ## Color.G property

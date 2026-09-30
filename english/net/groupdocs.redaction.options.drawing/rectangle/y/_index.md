@@ -3,7 +3,7 @@ title: Y
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Vertical position of the topleft corner in pixels.
 type: docs
-weight: 80
+weight: 90
 url: /net/groupdocs.redaction.options.drawing/rectangle/y/
 ---
 ## Rectangle.Y property
@@ -11,7 +11,7 @@ url: /net/groupdocs.redaction.options.drawing/rectangle/y/
 Vertical position of the top-left corner, in pixels.
 
 ```csharp
-public int Y { get; }
+public int Y { get; set; }
 ```
 
 ### See Also

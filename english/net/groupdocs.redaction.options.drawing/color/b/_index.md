@@ -3,7 +3,7 @@ title: B
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Blue channel intensity.
 type: docs
-weight: 100
+weight: 1460
 url: /net/groupdocs.redaction.options.drawing/color/b/
 ---
 ## Color.B property

@@ -66,23 +66,23 @@ The following example demonstrates applying a list of redactions to the document
 ```csharp
 using (Redactor redactor = new Redactor(@"D:\\test.docx"))
 {
-   var redactionList = new Redaction[] 
-   {
-      new ExactPhraseRedaction(LookupStrings.ClientName, new ReplacementOptions("[client]")),
-      new ExactPhraseRedaction(LookupStrings.ClientAddress, new ReplacementOptions(System.Drawing.Color.Red)),
-      new RegexRedaction(LookupStrings.SSNRegexPattern, new ReplacementOptions("[ssn]")),
-      new RegexRedaction(LookupStrings.BankCardRegexPattern, new ReplacementOptions(System.Drawing.Color.Blue)),
-      // ... other redactions
-      new DeleteAnnotationRedaction("(?im:(use|show|describe))"),
-      new EraseMetadataRedaction(MetadataFilter.Author),
-      new MetadataSearchRedaction(LookupStrings.CompanyName, "--company--") 
-   }; 
-   RedactorChangeLog result = redactor.Apply(redactionList);
-   // false, if at least one redaction failed
-   if (result.Status != RedactionStatus.Failed)
-   {
-      redactor.Save();
-   };
+var redactionList = new Redaction[]
+{
+new ExactPhraseRedaction(LookupStrings.ClientName, new ReplacementOptions("[client]")),
+new ExactPhraseRedaction(LookupStrings.ClientAddress, new ReplacementOptions(GroupDocs.Redaction.Options.Drawing.Color.Red)),
+new RegexRedaction(LookupStrings.SSNRegexPattern, new ReplacementOptions("[ssn]")),
+new RegexRedaction(LookupStrings.BankCardRegexPattern, new ReplacementOptions(GroupDocs.Redaction.Options.Drawing.Color.Blue)),
+// ... other redactions
+new DeleteAnnotationRedaction("(?im:(use|show|describe))"),
+new EraseMetadataRedaction(MetadataFilter.Author),
+new MetadataSearchRedaction(LookupStrings.CompanyName, "--company--")
+};
+RedactorChangeLog result = redactor.Apply(redactionList);
+// false, if at least one redaction failed
+if (result.Status != RedactionStatus.Failed)
+{
+redactor.Save();
+};
 }
 ```
 

@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/groupdocs.redaction.redactions/replacementoptions/replacementoptions/
 ---
-## ReplacementOptions(string) {#constructor_2}
+## ReplacementOptions(string) {#constructor_1}
 
 Initializes a new instance of ReplacementOptions class with replacement text as an option.
 
