@@ -3,7 +3,7 @@ title: MetadataRedaction
 second_title: GroupDocs.Redaction for Java API Reference
 description: Represents a base abstract class for document metadata redactions.
 type: docs
-weight: 18
+weight: 20
 url: /java/com.groupdocs.redaction.redactions/metadataredaction/
 ---
 **Inheritance:**

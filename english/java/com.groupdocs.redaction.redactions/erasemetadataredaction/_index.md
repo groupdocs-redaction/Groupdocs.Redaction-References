@@ -3,7 +3,7 @@ title: EraseMetadataRedaction
 second_title: GroupDocs.Redaction for Java API Reference
 description: Represents a metadata redaction that erases all metadata or metadata matching specific MetadataFilters from the document.
 type: docs
-weight: 14
+weight: 16
 url: /java/com.groupdocs.redaction.redactions/erasemetadataredaction/
 ---
 **Inheritance:**

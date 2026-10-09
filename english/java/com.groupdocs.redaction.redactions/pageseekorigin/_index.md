@@ -3,7 +3,7 @@ title: PageSeekOrigin
 second_title: GroupDocs.Redaction for Java API Reference
 description: Provides the fields that represent reference points in a document for seeking.
 type: docs
-weight: 33
+weight: 36
 url: /java/com.groupdocs.redaction.redactions/pageseekorigin/
 ---
 **Inheritance:**

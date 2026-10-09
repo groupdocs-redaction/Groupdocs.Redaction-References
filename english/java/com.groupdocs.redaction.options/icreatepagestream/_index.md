@@ -3,7 +3,7 @@ title: ICreatePageStream
 second_title: GroupDocs.Redaction for Java API Reference
 description: Provides method that returns a stream to write page preview data.
 type: docs
-weight: 15
+weight: 16
 url: /java/com.groupdocs.redaction.options/icreatepagestream/
 ---```
 public interface ICreatePageStream

@@ -3,7 +3,7 @@ title: DeleteAnnotationRedaction
 second_title: GroupDocs.Redaction for Java API Reference
 description: Represents a text redaction that deletes annotations if text is matching given regular expression optionally deletes all annotations.
 type: docs
-weight: 13
+weight: 15
 url: /java/com.groupdocs.redaction.redactions/deleteannotationredaction/
 ---
 **Inheritance:**

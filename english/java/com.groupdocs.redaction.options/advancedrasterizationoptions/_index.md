@@ -3,7 +3,7 @@ title: AdvancedRasterizationOptions
 second_title: GroupDocs.Redaction for Java API Reference
 description: An enumeration to manage the advanced rasterization options to be applied.
 type: docs
-weight: 18
+weight: 19
 url: /java/com.groupdocs.redaction.options/advancedrasterizationoptions/
 ---
 **Inheritance:**

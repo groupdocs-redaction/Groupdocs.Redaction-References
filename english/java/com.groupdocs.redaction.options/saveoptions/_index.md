@@ -61,6 +61,8 @@ Provides options for changing an output file name and/or converting the document
  |
 | [getRasterization()](#getRasterization--) | Gets the rasterization settings.
  |
+| [getWordprocessingSaveOptions()](#getWordprocessingSaveOptions--) | Word processing save options.
+ |
 ### SaveOptions() {#SaveOptions--}
 ```
 public SaveOptions()
@@ -193,3 +195,14 @@ Gets the rasterization settings.
 **Returns:**
 [RasterizationOptions](../../com.groupdocs.redaction.options/rasterizationoptions) - The rasterization settings.
 
+### getWordprocessingSaveOptions() {#getWordprocessingSaveOptions--}
+```
+public final WordprocessingSaveOptions getWordprocessingSaveOptions()
+```
+
+
+Word processing save options.
+
+
+**Returns:**
+[WordprocessingSaveOptions](../../com.groupdocs.redaction.options/wordprocessingsaveoptions)

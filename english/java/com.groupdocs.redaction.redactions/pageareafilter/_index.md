@@ -3,7 +3,7 @@ title: PageAreaFilter
 second_title: GroupDocs.Redaction for Java API Reference
 description: Represents redaction filter setting an area within a page of a document to apply redaction.
 type: docs
-weight: 20
+weight: 22
 url: /java/com.groupdocs.redaction.redactions/pageareafilter/
 ---
 **Inheritance:**

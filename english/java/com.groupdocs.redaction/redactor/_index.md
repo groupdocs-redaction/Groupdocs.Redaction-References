@@ -74,6 +74,8 @@ Redactor
  |
 | [save(OutputStream document)](#save-java.io.OutputStream-) | Saves the document to a stream.
  |
+| [save(OutputStream document, SaveOptions saveOptions)](#save-java.io.OutputStream-com.groupdocs.redaction.options.SaveOptions-) | Saves the document to a stream.
+ |
 | [save(OutputStream document, RasterizationOptions rasterizationOptions)](#save-java.io.OutputStream-com.groupdocs.redaction.options.RasterizationOptions-) | Saves the document to a stream, including custom location.
  |
 | [generatePreview(PreviewOptions previewOptions)](#generatePreview-com.groupdocs.redaction.options.PreviewOptions-) | Generates preview images of specific pages in a given image format.
@@ -331,6 +333,23 @@ Saves the document to a stream.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | document | java.io.OutputStream | Target stream
+ |
+
+### save(OutputStream document, SaveOptions saveOptions) {#save-java.io.OutputStream-com.groupdocs.redaction.options.SaveOptions-}
+```
+public final void save(OutputStream document, SaveOptions saveOptions)
+```
+
+
+Saves the document to a stream.
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| document | java.io.OutputStream | Target stream
+ |
+| saveOptions | [SaveOptions](../../com.groupdocs.redaction.options/saveoptions) | Save options
  |
 
 ### save(OutputStream document, RasterizationOptions rasterizationOptions) {#save-java.io.OutputStream-com.groupdocs.redaction.options.RasterizationOptions-}

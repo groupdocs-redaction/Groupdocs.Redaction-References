@@ -3,7 +3,7 @@ title: MetadataSearchRedaction
 second_title: GroupDocs.Redaction for Java API Reference
 description: Represents a metadata redaction that searches and redacts metadata using regular expressions matching keys and/or values.
 type: docs
-weight: 19
+weight: 21
 url: /java/com.groupdocs.redaction.redactions/metadatasearchredaction/
 ---
 **Inheritance:**

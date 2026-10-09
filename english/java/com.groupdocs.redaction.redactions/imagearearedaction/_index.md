@@ -3,7 +3,7 @@ title: ImageAreaRedaction
 second_title: GroupDocs.Redaction for Java API Reference
 description: Represents a redaction that places colored rectangle in given area of an image document.
 type: docs
-weight: 16
+weight: 18
 url: /java/com.groupdocs.redaction.redactions/imagearearedaction/
 ---
 **Inheritance:**
