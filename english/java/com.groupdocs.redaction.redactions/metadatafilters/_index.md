@@ -3,7 +3,7 @@ title: MetadataFilters
 second_title: GroupDocs.Redaction for Java API Reference
 description: Represents a list of the most common types of document metadata.
 type: docs
-weight: 17
+weight: 19
 url: /java/com.groupdocs.redaction.redactions/metadatafilters/
 ---
 **Inheritance:**

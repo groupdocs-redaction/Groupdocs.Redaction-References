@@ -78,9 +78,17 @@ Represents a file type. Provides methods to obtain a list of all file types supp
  |
 | [getXLSB()](#getXLSB--) | Excel Binary Spreadsheet (.xlsb)
  |
+| [getXLTX()](#getXLTX--) | Excel Open XML Spreadsheet Template (.xltx)
+ |
+| [getXLTM()](#getXLTM--) | Excel Open XML Macro-Enabled Spreadsheet Template (.xltm)
+ |
+| [getXLT()](#getXLT--) | Excel Template (.xlt)
+ |
 | [getCSV()](#getCSV--) | Comma Separated Values File (.csv)
  |
 | [getTSV()](#getTSV--) | Tab Separated Values File (.tsv)
+ |
+| [getTAB()](#getTAB--) | Tab Separated Values File (.tab)
  |
 | [getODS()](#getODS--) | OpenDocument Spreadsheet (.ods)
  |
@@ -404,6 +412,39 @@ Excel Binary Spreadsheet (.xlsb)
 
 **Returns:**
 [FileType](../../com.groupdocs.redaction/filetype)
+### getXLTX() {#getXLTX--}
+```
+public static FileType getXLTX()
+```
+
+
+Excel Open XML Spreadsheet Template (.xltx)
+
+
+**Returns:**
+[FileType](../../com.groupdocs.redaction/filetype)
+### getXLTM() {#getXLTM--}
+```
+public static FileType getXLTM()
+```
+
+
+Excel Open XML Macro-Enabled Spreadsheet Template (.xltm)
+
+
+**Returns:**
+[FileType](../../com.groupdocs.redaction/filetype)
+### getXLT() {#getXLT--}
+```
+public static FileType getXLT()
+```
+
+
+Excel Template (.xlt)
+
+
+**Returns:**
+[FileType](../../com.groupdocs.redaction/filetype)
 ### getCSV() {#getCSV--}
 ```
 public static FileType getCSV()
@@ -422,6 +463,17 @@ public static FileType getTSV()
 
 
 Tab Separated Values File (.tsv)
+
+
+**Returns:**
+[FileType](../../com.groupdocs.redaction/filetype)
+### getTAB() {#getTAB--}
+```
+public static FileType getTAB()
+```
+
+
+Tab Separated Values File (.tab)
 
 
 **Returns:**

@@ -20,6 +20,7 @@ The package provides load and save options classes.
 | [RasterizationOptions](../com.groupdocs.redaction.options/rasterizationoptions) | Provides options for converting files into PDF. |
 | [RedactorSettings](../com.groupdocs.redaction.options/redactorsettings) | Represents redaction settings, allowing to customize the redaction process. |
 | [SaveOptions](../com.groupdocs.redaction.options/saveoptions) | Provides options for changing an output file name and/or converting the document to image-based PDF (rasterization). |
+| [WordprocessingSaveOptions](../com.groupdocs.redaction.options/wordprocessingsaveoptions) | Word processing save options. |
 
 ## Interfaces
 
@@ -36,3 +37,4 @@ The package provides load and save options classes.
 | [AdvancedRasterizationOptions](../com.groupdocs.redaction.options/advancedrasterizationoptions) | An enumeration to manage the advanced rasterization options to be applied. |
 | [PdfComplianceLevel](../com.groupdocs.redaction.options/pdfcompliancelevel) | Represents a list of supported PDF compliance levels. |
 | [PreviewFormats](../com.groupdocs.redaction.options/previewformats) | Represents supported preview formats. |
+| [WordProcessingComplianceLevel](../com.groupdocs.redaction.options/wordprocessingcompliancelevel) | OOXML compliance levels for word processing documents. |

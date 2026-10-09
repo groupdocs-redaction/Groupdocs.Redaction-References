@@ -3,7 +3,7 @@ title: PageRangeFilter
 second_title: GroupDocs.Redaction for Java API Reference
 description: Represents redaction filter setting page range inside a document to apply redaction.
 type: docs
-weight: 22
+weight: 24
 url: /java/com.groupdocs.redaction.redactions/pagerangefilter/
 ---
 **Inheritance:**

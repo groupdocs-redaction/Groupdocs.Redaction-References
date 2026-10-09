@@ -3,7 +3,7 @@ title: PageAreaRedaction
 second_title: GroupDocs.Redaction for Java API Reference
 description: Represents a complex textual redaction that affects text images and annotations in an area of the page.
 type: docs
-weight: 21
+weight: 23
 url: /java/com.groupdocs.redaction.redactions/pagearearedaction/
 ---
 **Inheritance:**

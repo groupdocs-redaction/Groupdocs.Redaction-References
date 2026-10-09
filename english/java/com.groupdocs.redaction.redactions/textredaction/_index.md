@@ -3,7 +3,7 @@ title: TextRedaction
 second_title: GroupDocs.Redaction for Java API Reference
 description: Represents a base abstract class for document text redactions.
 type: docs
-weight: 30
+weight: 32
 url: /java/com.groupdocs.redaction.redactions/textredaction/
 ---
 **Inheritance:**

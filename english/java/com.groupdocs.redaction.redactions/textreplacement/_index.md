@@ -3,7 +3,7 @@ title: TextReplacement
 second_title: GroupDocs.Redaction for Java API Reference
 description: Represents a textual replacement information.
 type: docs
-weight: 31
+weight: 33
 url: /java/com.groupdocs.redaction.redactions/textreplacement/
 ---
 **Inheritance:**

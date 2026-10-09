@@ -3,7 +3,7 @@ title: ExactPhraseRedaction
 second_title: GroupDocs.Redaction for Java API Reference
 description: Represents a text redaction that replaces exact phrase in the documents text case insensitive by default.
 type: docs
-weight: 15
+weight: 17
 url: /java/com.groupdocs.redaction.redactions/exactphraseredaction/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: ILogger
 second_title: GroupDocs.Redaction for Java API Reference
 description: Defines interface of a logger that can be used for logging events and errors in process of redaction.
 type: docs
-weight: 16
+weight: 17
 url: /java/com.groupdocs.redaction.options/ilogger/
 ---```
 public interface ILogger

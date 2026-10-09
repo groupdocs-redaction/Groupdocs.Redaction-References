@@ -59,6 +59,9 @@ The following example demonstrates how to create an empty stub for a custom form
  |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Sets a password for password protected documents.
  |
+| [getRequestedWordsSaveOptions()](#getRequestedWordsSaveOptions--) | Save options for the next Words save (compliance etc.).
+ |
+| [setRequestedWordsSaveOptions(WordprocessingSaveOptions value)](#setRequestedWordsSaveOptions-com.groupdocs.redaction.options.WordprocessingSaveOptions-) |  |
 | [getRequiresRasterization()](#getRequiresRasterization--) | Gets value, indicating if the format instance is read-only and cannot be saved in original format.
  |
 | [isAccessGranted()](#isAccessGranted--) |  |
@@ -123,6 +126,30 @@ Sets a password for password protected documents.
 | --- | --- | --- |
 | value | java.lang.String | A password for password protected documents.
  |
+
+### getRequestedWordsSaveOptions() {#getRequestedWordsSaveOptions--}
+```
+public final WordprocessingSaveOptions getRequestedWordsSaveOptions()
+```
+
+
+Save options for the next Words save (compliance etc.).
+
+
+**Returns:**
+[WordprocessingSaveOptions](../../com.groupdocs.redaction.options/wordprocessingsaveoptions)
+### setRequestedWordsSaveOptions(WordprocessingSaveOptions value) {#setRequestedWordsSaveOptions-com.groupdocs.redaction.options.WordprocessingSaveOptions-}
+```
+public final void setRequestedWordsSaveOptions(WordprocessingSaveOptions value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [WordprocessingSaveOptions](../../com.groupdocs.redaction.options/wordprocessingsaveoptions) |  |
 
 ### getRequiresRasterization() {#getRequiresRasterization--}
 ```

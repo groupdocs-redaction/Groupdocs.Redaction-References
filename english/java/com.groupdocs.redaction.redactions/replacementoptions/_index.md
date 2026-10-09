@@ -3,7 +3,7 @@ title: ReplacementOptions
 second_title: GroupDocs.Redaction for Java API Reference
 description: Represents options for matched text replacement.
 type: docs
-weight: 29
+weight: 31
 url: /java/com.groupdocs.redaction.redactions/replacementoptions/
 ---
 **Inheritance:**
@@ -54,6 +54,10 @@ ReplacementType.DrawBox
 | [getFilters()](#getFilters--) | Gets an array of filters to apply with this redaction.
  |
 | [setFilters(RedactionFilter[] value)](#setFilters-com.groupdocs.redaction.redactions.RedactionFilter---) | Sets an array of filters to apply with this redaction.
+ |
+| [getCustomRedaction()](#getCustomRedaction--) | Gets a custom redaction handler.
+ |
+| [setCustomRedaction(ICustomRedactionHandler value)](#setCustomRedaction-com.groupdocs.redaction.redactions.ICustomRedactionHandler-) | Sets a custom redaction handler.
  |
 | [fromFilters(RedactionFilter[] filters)](#fromFilters-com.groupdocs.redaction.redactions.RedactionFilter---) |  |
 ### ReplacementOptions(String replacement) {#ReplacementOptions-java.lang.String-}
@@ -181,6 +185,33 @@ Sets an array of filters to apply with this redaction.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [RedactionFilter\[\]](../../com.groupdocs.redaction.redactions/redactionfilter) | An array of filters to apply with this redaction.
+ |
+
+### getCustomRedaction() {#getCustomRedaction--}
+```
+public final ICustomRedactionHandler getCustomRedaction()
+```
+
+
+Gets a custom redaction handler. Supported for PDF [PageAreaRedaction](../../com.groupdocs.redaction.redactions/pagearearedaction) only.
+
+
+**Returns:**
+[ICustomRedactionHandler](../../com.groupdocs.redaction.redactions/icustomredactionhandler) - An instance of [ICustomRedactionHandler](../../com.groupdocs.redaction.redactions/icustomredactionhandler), or  null  if not set.
+
+### setCustomRedaction(ICustomRedactionHandler value) {#setCustomRedaction-com.groupdocs.redaction.redactions.ICustomRedactionHandler-}
+```
+public final void setCustomRedaction(ICustomRedactionHandler value)
+```
+
+
+Sets a custom redaction handler. Supported for PDF [PageAreaRedaction](../../com.groupdocs.redaction.redactions/pagearearedaction) only.
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [ICustomRedactionHandler](../../com.groupdocs.redaction.redactions/icustomredactionhandler) | An instance of [ICustomRedactionHandler](../../com.groupdocs.redaction.redactions/icustomredactionhandler).
  |
 
 ### fromFilters(RedactionFilter[] filters) {#fromFilters-com.groupdocs.redaction.redactions.RedactionFilter---}

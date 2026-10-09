@@ -3,7 +3,7 @@ title: RedactionFilter
 second_title: GroupDocs.Redaction for Java API Reference
 description: Represents redaction filter setting scope inside a document to apply redactions.
 type: docs
-weight: 24
+weight: 26
 url: /java/com.groupdocs.redaction.redactions/redactionfilter/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: ReplacementType
 second_title: GroupDocs.Redaction for Java API Reference
 description: Represents a type of replacement for the matched text.
 type: docs
-weight: 35
+weight: 38
 url: /java/com.groupdocs.redaction.redactions/replacementtype/
 ---
 **Inheritance:**
