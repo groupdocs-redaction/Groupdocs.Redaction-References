@@ -1,0 +1,23 @@
+---
+title: "Donkerzeegroen"
+second_title: "GroupDocs.Redaction voor .NET API-referentie"
+description: "Haalt de DarkSeaGreen-kleur op."
+type: docs
+weight: 340
+url: /nl/net/groupdocs.redaction.options.drawing/color/darkseagreen/
+---
+## Color.DarkSeaGreen property
+
+Haalt de DarkSeaGreen-kleur op.
+
+```csharp
+public static Color DarkSeaGreen { get; }
+```
+
+### Zie ook
+
+* struct [Color](../../color)
+* namespace [GroupDocs.Redaction.Options.Drawing](../../../groupdocs.redaction.options.drawing)
+* assembly [GroupDocs.Redaction](../../../)
+
+<!-- NIET BEWERKEN: gegenereerd door xmldocmd voor GroupDocs.Redaction.dll -->
