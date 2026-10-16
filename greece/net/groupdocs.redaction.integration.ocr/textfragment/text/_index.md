@@ -1,0 +1,23 @@
+---
+title: "Κείμενο"
+second_title: "GroupDocs.Redaction για .NET API Reference"
+description: "Λαμβάνει το κειμενικό περιεχόμενο του αναγνωρισμένου τμήματος κειμένου."
+type: docs
+weight: 30
+url: /el/net/groupdocs.redaction.integration.ocr/textfragment/text/
+---
+## TextFragment.Text property
+
+Λαμβάνει το κειμενικό περιεχόμενο του αναγνωρισμένου τμήματος κειμένου.
+
+```csharp
+public string Text { get; }
+```
+
+### Δείτε επίσης
+
+* class [TextFragment](../../textfragment)
+* namespace [GroupDocs.Redaction.Integration.Ocr](../../../groupdocs.redaction.integration.ocr)
+* assembly [GroupDocs.Redaction](../../../)
+
+<!-- ΜΗΝ ΕΠΕΞΕΡΓΑΣΕΤΕ: δημιουργήθηκε από το xmldocmd για το GroupDocs.Redaction.dll -->
