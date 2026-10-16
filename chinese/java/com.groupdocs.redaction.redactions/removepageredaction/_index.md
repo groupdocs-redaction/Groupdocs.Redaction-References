@@ -1,0 +1,131 @@
+---
+title: "RemovePageRedaction"
+second_title: "GroupDocs.Redaction for Java API 参考"
+description: "表示一种从文档中删除页面、幻灯片、工作表等的编辑。"
+type: docs
+weight: 30
+url: /zh/java/com.groupdocs.redaction.redactions/removepageredaction/
+---
+**Inheritance:**
+java.lang.Object, [com.groupdocs.redaction.Redaction](../../com.groupdocs.redaction/redaction)
+```
+public class RemovePageRedaction extends Redaction
+```
+
+表示从文档中删除页面（幻灯片、工作表等）的编辑。
+
+*** ** * ** ***
+
+
+**Learn more**
+
+* More details about applying redactions: [Redaction basics](../https://docs.groupdocs.com/redaction/java/redaction-basics/)
+* More details about removing pages: [Remove page redaction](../https://docs.groupdocs.com/redaction/java/remove-page-redaction/)
+
+<br />
+
+以下示例演示如何删除文档的最后一页。
+
+````
+
+  try (Redactor redactor = new Redactor("C:\\test.pdf"))
+ {
+    redactor.apply(new RemovePageRedaction(PageSeekOrigin.END, 0, 1));
+    redactor.save()
+ }
+ 
+``` 
+````
+
+
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [RemovePageRedaction(PageSeekOrigin origin, int index, int count)](#RemovePageRedaction-com.groupdocs.redaction.redactions.PageSeekOrigin-int-int-) | Initializes a new instance of RemovePageRedaction class.
+ |
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [getOrigin()](#getOrigin--) | Gets seek reference position, the beginning or the end of a document.
+ |
+| [getIndex()](#getIndex--) | Gets start position index (0-based).
+ |
+| [getCount()](#getCount--) | Gets the count of pages to remove.
+ |
+| [applyTo(DocumentFormatInstance formatInstance)](#applyTo-com.groupdocs.redaction.integration.DocumentFormatInstance-) | Applies the redaction to a given format instance.
+ |
+### RemovePageRedaction(PageSeekOrigin origin, int index, int count) {#RemovePageRedaction-com.groupdocs.redaction.redactions.PageSeekOrigin-int-int-}
+```
+public RemovePageRedaction(PageSeekOrigin origin, int index, int count)
+```
+
+
+Initializes a new instance of RemovePageRedaction class.
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| origin | [PageSeekOrigin](../../com.groupdocs.redaction.redactions/pageseekorigin) | Seek reference position, the beginning or the end of a document
+ |
+| index | int | Start position index (0-based)
+ |
+| count | int | Count of pages to remove
+ |
+
+### getOrigin() {#getOrigin--}
+```
+public final PageSeekOrigin getOrigin()
+```
+
+
+Gets seek reference position, the beginning or the end of a document.
+
+
+**Returns:**
+[PageSeekOrigin](../../com.groupdocs.redaction.redactions/pageseekorigin) - Seek reference position, the beginning or the end of a document.
+
+### getIndex() {#getIndex--}
+```
+public final int getIndex()
+```
+
+
+Gets start position index (0-based).
+
+
+**Returns:**
+int - Start position index (0-based).
+
+### getCount() {#getCount--}
+```
+public final int getCount()
+```
+
+
+Gets the count of pages to remove.
+
+
+**Returns:**
+int - The count of pages to remove.
+
+### applyTo(DocumentFormatInstance formatInstance) {#applyTo-com.groupdocs.redaction.integration.DocumentFormatInstance-}
+```
+public RedactorLogEntry applyTo(DocumentFormatInstance formatInstance)
+```
+
+
+Applies the redaction to a given format instance.
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formatInstance | [DocumentFormatInstance](../../com.groupdocs.redaction.integration/documentformatinstance) | An instance of a document to apply redaction
+ |
+
+**Returns:**
+[RedactorLogEntry](../../com.groupdocs.redaction/redactorlogentry) - Status of the redaction: success/failure and error message if any
+
