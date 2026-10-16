@@ -1,0 +1,139 @@
+---
+title: "Load"
+second_title: "GroupDocs.Redaction（.NET 用）API リファレンス"
+description: "ファイルパスから RedactionPolicygroupdocs.redaction/redactionpolicy のインスタンスをロードします。"
+type: docs
+weight: 20
+url: /ja/net/groupdocs.redaction/redactionpolicy/load/
+---
+## Load(string) {#load_1}
+
+ファイルパスから [`RedactionPolicy`](../../redactionpolicy) のインスタンスをロードします。
+
+```csharp
+public static RedactionPolicy Load(string filePath)
+```
+
+| パラメータ | 型 | 説明 |
+| --- | --- | --- |
+| filePath | String | XML ファイルへのパス |
+
+### 戻り値
+
+レダクション ポリシー
+
+### 例
+
+次の例は、指定された受信フォルダー内のすべてのファイルにリダクション ポリシーを適用し、正常に更新されたファイルと失敗したファイル用に、送信フォルダーのいずれかに保存する方法を示しています。
+
+```csharp
+RedactionPolicy policy = RedactionPolicy.Load("RedactionPolicy.xml");
+foreach (var fileEntry in Directory.GetFileNames("C:\\Inbound")) 
+{
+     using (Redactor redactor = new Redactor(Path.Combine("C:\\Inbound\\", fileEntry)))
+     {
+    	     RedactorChangeLog result = redactor.Apply(policy);
+    	     String resultFolder = result.Status != RedactionStatus.Failed ? "C:\\Outbound\\Done\\" : "C:\\Outbound\\Failed\\";
+    	     using (Stream fileStream = File.Open(Path.Combine(resultFolder, fileEntry), FileMode.Open, FileAccess.ReadWrite))
+   	     {
+               redactor.Save(fileStream, new RasterizationOptions() { Enabled = false });
+   	     }        
+     }
+}   
+```
+
+次の例は、すべてのタイプのリダクション用のサンプル構成が含まれたサンプル XML ポリシーファイルを含んでいます。
+
+```csharp
+<?xml version="1.0" encoding="utf-8"?>  
+<redactionPolicy xmlns = "http://www.groupdocs.com/redaction" >
+  <regexRedaction regularExpression="(dolor)" actionType="ReplaceString" replacement="foobar" />  
+  <exactPhraseRedaction searchPhrase = "dolor" caseSensitive="true" actionType="DrawBox" color="Red" />   
+  
+  <cellColumnRedaction regularExpression = "(foo)bar1" replacement="[red1]" columnIndex="1" worksheetIndex="2" /> 
+  <cellColumnRedaction regularExpression = "(foo)bar2" replacement="[red2]" wokrsheetName="Sample" /> 
+  
+  <eraseMetadataRedaction filter = "All" />
+  <metadataSearchRedaction filter="Title, Author" replacement="foobar" valueExpression="(metasearch)" keyExpression="" />  
+  
+ <annotationRedaction regularExpression = "(anno1)" replacement="foobar" />  
+ <deleteAnnotationRedaction regularExpression = "(anno2)" />
+
+ <imageAreaRedaction pointX="15" pointY="17" width="200" height="10" color="#AA50FC"  />  
+ <imageAreaRedaction pointX = "110" pointY="120" width="60" height="20" color="Magenta"  />  
+</redactionPolicy>
+```
+
+### 参照
+
+* class [RedactionPolicy](../../redactionpolicy)
+* namespace [GroupDocs.Redaction](../../../groupdocs.redaction)
+* assembly [GroupDocs.Redaction](../../../)
+
+---
+
+## Load(Stream) {#load}
+
+ストリームから [`RedactionPolicy`](../../redactionpolicy) のインスタンスをロードします。
+
+```csharp
+public static RedactionPolicy Load(Stream input)
+```
+
+| パラメータ | 型 | 説明 |
+| --- | --- | --- |
+| input | ストリーム | XML 設定を含むストリーム |
+
+### 戻り値
+
+レダクション ポリシー
+
+### 例
+
+次の例は、指定された受信フォルダー内のすべてのファイルにリダクション ポリシーを適用し、正常に更新されたファイルと失敗したファイル用に、送信フォルダーのいずれかに保存する方法を示しています。
+
+```csharp
+RedactionPolicy policy = RedactionPolicy.Load("RedactionPolicy.xml");
+foreach (var fileEntry in Directory.GetFileNames("C:\\Inbound")) 
+{
+     using (Redactor redactor = new Redactor(Path.Combine("C:\\Inbound\\", fileEntry)))
+     {
+    	     RedactorChangeLog result = redactor.Apply(policy);
+    	     String resultFolder = result.Status != RedactionStatus.Failed ? "C:\\Outbound\\Done\\" : "C:\\Outbound\\Failed\\";
+    	     using (Stream fileStream = File.Open(Path.Combine(resultFolder, fileEntry), FileMode.Open, FileAccess.ReadWrite))
+   	     {
+               redactor.Save(fileStream, new RasterizationOptions() { Enabled = false });
+   	     }        
+     }
+}   
+```
+
+次の例は、すべてのタイプのリダクション用のサンプル構成が含まれたサンプル XML ポリシーファイルを含んでいます。
+
+```csharp
+<?xml version="1.0" encoding="utf-8"?>  
+<redactionPolicy xmlns = "http://www.groupdocs.com/redaction" >
+  <regexRedaction regularExpression="(dolor)" actionType="ReplaceString" replacement="foobar" />  
+  <exactPhraseRedaction searchPhrase = "dolor" caseSensitive="true" actionType="DrawBox" color="Red" />   
+  
+  <cellColumnRedaction regularExpression = "(foo)bar1" replacement="[red1]" columnIndex="1" worksheetIndex="2" /> 
+  <cellColumnRedaction regularExpression = "(foo)bar2" replacement="[red2]" wokrsheetName="Sample" /> 
+  
+  <eraseMetadataRedaction filter = "All" />
+  <metadataSearchRedaction filter="Title, Author" replacement="foobar" valueExpression="(metasearch)" keyExpression="" />  
+  
+ <annotationRedaction regularExpression = "(anno1)" replacement="foobar" />  
+ <deleteAnnotationRedaction regularExpression = "(anno2)" />
+
+ <imageAreaRedaction pointX="15" pointY="17" width="200" height="10" color="#AA50FC"  />  
+ <imageAreaRedaction pointX = "110" pointY="120" width="60" height="20" color="Magenta"  />  
+</redactionPolicy>
+```
+
+### 参照
+
+* class [RedactionPolicy](../../redactionpolicy)
+* namespace [GroupDocs.Redaction](../../../groupdocs.redaction)
+* assembly [GroupDocs.Redaction](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Redaction.dll -->
