@@ -1,0 +1,23 @@
+---
+title: "Σκούρο Ματζέντα"
+second_title: "GroupDocs.Redaction για .NET API Reference"
+description: "Λαμβάνει το χρώμα DarkMagenta."
+type: docs
+weight: 280
+url: /el/net/groupdocs.redaction.options.drawing/color/darkmagenta/
+---
+## Color.DarkMagenta property
+
+Λαμβάνει το χρώμα DarkMagenta.
+
+```csharp
+public static Color DarkMagenta { get; }
+```
+
+### Δείτε επίσης
+
+* struct [Color](../../color)
+* namespace [GroupDocs.Redaction.Options.Drawing](../../../groupdocs.redaction.options.drawing)
+* assembly [GroupDocs.Redaction](../../../)
+
+<!-- ΜΗΝ ΕΠΕΞΕΡΓΑΣΕΤΕ: δημιουργήθηκε από το xmldocmd για το GroupDocs.Redaction.dll -->
