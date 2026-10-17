@@ -1,0 +1,17 @@
+---
+title: "TIFF 필드"
+second_title: "GroupDocs.Redaction for Python via .NET API 참조"
+description: "태그된 이미지 파일 형식 (.tiff)"
+type: docs
+url: /ko/python-net/groupdocs.redaction/filetype/tiff/
+is_root: false
+weight: 3030
+---
+
+
+## TIFF field
+
+태그된 이미지 파일 형식 (.tiff)
+
+### 또 보기
+* class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/)
