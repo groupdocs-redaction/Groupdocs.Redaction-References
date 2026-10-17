@@ -1,0 +1,20 @@
+---
+title: "get_object_data_serialization_info मेथड"
+second_title: "GroupDocs.Redaction for Python via .NET API संदर्भ"
+description: "MetadataItem.get_object_data_serialization_info मेथड — GroupDocs.Redaction for Python via .NET."
+type: docs
+url: /hi/python-net/groupdocs.redaction.integration/metadataitem/get_object_data_serialization_info/
+is_root: false
+weight: 1030
+---
+
+
+## get_object_data_serialization_info
+
+```python
+def get_object_data_serialization_info(self):
+    ...
+```
+
+### संबंधित देखें
+* class [`MetadataItem`](/redaction/python-net/groupdocs.redaction.integration/metadataitem/)
