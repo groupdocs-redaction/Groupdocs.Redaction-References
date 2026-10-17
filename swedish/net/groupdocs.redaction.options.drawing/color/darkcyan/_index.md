@@ -1,0 +1,23 @@
+---
+title: "Mörkcyan"
+second_title: "GroupDocs.Redaction för .NET API-referens"
+description: "Hämtar färgen DarkCyan."
+type: docs
+weight: 230
+url: /sv/net/groupdocs.redaction.options.drawing/color/darkcyan/
+---
+## Color.DarkCyan property
+
+Hämtar färgen DarkCyan.
+
+```csharp
+public static Color DarkCyan { get; }
+```
+
+### Se även
+
+* struct [Color](../../color)
+* namespace [GroupDocs.Redaction.Options.Drawing](../../../groupdocs.redaction.options.drawing)
+* assembly [GroupDocs.Redaction](../../../)
+
+<!-- GÅ INTE ATT REDIGERA: genererad av xmldocmd för GroupDocs.Redaction.dll -->
