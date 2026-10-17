@@ -1,0 +1,41 @@
+---
+title: "get_document_info मेथड"
+second_title: "GroupDocs.Redaction for Python via .NET API संदर्भ"
+description: "दस्तावेज़ के बारे में सामान्य जानकारी प्राप्त करता है, जैसे आकार और पृष्ठ गिनती।"
+type: docs
+url: /hi/python-net/groupdocs.redaction/redactor/get_document_info/
+is_root: false
+weight: 1070
+---
+
+
+## get_document_info
+
+दस्तावेज़ के बारे में सामान्य जानकारी प्राप्त करता है, जैसे आकार और पृष्ठ गिनती।
+
+```python
+def get_document_info(self):
+    ...
+```
+
+**Returns:** IDocumentInfo: General document information.
+
+| उठाता है | विवरण |
+| :- | :- |
+| `PasswordRequiredException` | जब दस्तावेज़ पासवर्ड से सुरक्षित हो तो उठाया जाता है। |
+| `IncorrectPasswordException` | जब अमान्य पासवर्ड दिया जाता है तो उठाया जाता है। |
+
+### उदाहरण
+
+```python
+from groupdocs.redaction import Redactor
+
+with Redactor("./sample.docx") as redactor:
+    info = redactor.get_document_info()
+    print(f"File type: {info.file_type}")
+    print(f"Number of pages: {info.page_count}")
+    print(f"Document size: {info.size} bytes")
+```
+
+### संबंधित देखें
+* class [`Redactor`](/redaction/python-net/groupdocs.redaction/redactor/)

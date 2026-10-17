@@ -1,0 +1,20 @@
+---
+title: "apply_redaction_policy मेथड"
+second_title: "GroupDocs.Redaction for Python via .NET API संदर्भ"
+description: "Redactor.apply_redaction_policy मेथड — GroupDocs.Redaction for Python via .NET."
+type: docs
+url: /hi/python-net/groupdocs.redaction/redactor/apply_redaction_policy/
+is_root: false
+weight: 1030
+---
+
+
+## apply_redaction_policy
+
+```python
+def apply_redaction_policy(self):
+    ...
+```
+
+### संबंधित देखें
+* class [`Redactor`](/redaction/python-net/groupdocs.redaction/redactor/)
