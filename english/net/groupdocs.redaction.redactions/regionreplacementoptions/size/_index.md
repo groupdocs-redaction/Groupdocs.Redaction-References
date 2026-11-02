@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: GroupDocs.Redaction for .NET API Reference
-description: Gets or sets the rectangle with and height.
+description: Gets or sets the rectangle width and height.
 type: docs
 weight: 30
 url: /net/groupdocs.redaction.redactions/regionreplacementoptions/size/
 ---
 ## RegionReplacementOptions.Size property
 
-Gets or sets the rectangle with and height.
+Gets or sets the rectangle width and height.
 
 ```csharp
 public Size Size { get; set; }

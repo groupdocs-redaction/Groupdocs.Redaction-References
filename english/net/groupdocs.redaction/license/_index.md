@@ -20,6 +20,12 @@ public class License
 | --- | --- |
 | [License](license)() | Initialize an instance of License class. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [IsLicensed](../../groupdocs.redaction/license/islicensed) { get; } | Returns true if a valid license has been applied; otherwise, returns false if the component is running in evaluation mode. |
+
 ## Methods
 
 | Name | Description |

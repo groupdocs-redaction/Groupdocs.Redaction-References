@@ -26,7 +26,7 @@ public class RegionReplacementOptions
 | Name | Description |
 | --- | --- |
 | [FillColor](../../groupdocs.redaction.redactions/regionreplacementoptions/fillcolor) { get; set; } | Gets or sets the color to fill the redacted area. |
-| [Size](../../groupdocs.redaction.redactions/regionreplacementoptions/size) { get; set; } | Gets or sets the rectangle with and height. |
+| [Size](../../groupdocs.redaction.redactions/regionreplacementoptions/size) { get; set; } | Gets or sets the rectangle width and height. |
 
 ### Remarks
 

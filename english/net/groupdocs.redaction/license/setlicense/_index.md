@@ -3,7 +3,7 @@ title: SetLicense
 second_title: GroupDocs.Redaction for .NET API Reference
 description: Sets the GroupDocs.Redaction license from a file path.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.redaction/license/setlicense/
 ---
 ## SetLicense(string) {#setlicense_1}
