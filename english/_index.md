@@ -1,7 +1,7 @@
 ---
 title: "GroupDocs.Redaction"
 linktitle: "GroupDocs.Redaction"
-description: "GroupDocs.Redaction API reference for .NET, Java, Node.js, and Python — Remove sensitive text, metadata, and annotations from documents."
+description: "GroupDocs.Redaction API reference for .NET, Java, and Python — Remove sensitive text, metadata, and annotations from 40+ document and image formats."
 keywords: "GroupDocs.Redaction, redaction API, API reference, .NET, Java, Python, document processing"
 additionalTitle: "GroupDocs API References"
 type: docs
@@ -12,14 +12,14 @@ lead: "Remove sensitive text, metadata, and annotations from documents."
 
 platforms:
   - name: ".NET"
-    version: "26.5.0"
-    versionUrl: "https://www.nuget.org/packages/groupdocs.redaction/26.5.0"
+    version: "26.10.0"
+    versionUrl: "https://www.nuget.org/packages/groupdocs.redaction/26.10.0"
     key: net
     ref: "/net/"
     install: "dotnet add package GroupDocs.Redaction"
   - name: "Java"
-    version: "25.12.0"
-    versionUrl: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-redaction/25.12/"
+    version: "26.10"
+    versionUrl: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-redaction/26.10/"
     key: java
     ref: "/java/"
     install: "com.groupdocs:groupdocs-redaction"
@@ -29,20 +29,21 @@ platforms:
     key: nodejs
     ref: "/nodejs-java/"
   - name: "Python via .NET"
-    version: "26.6.0"
-    versionUrl: "https://pypi.org/project/groupdocs-redaction-net/26.6.0/"
+    version: "26.11.0"
+    versionUrl: "https://pypi.org/project/groupdocs-redaction-net/26.11.0/"
     key: python
     ref: "/python-net/"
     install: "pip install groupdocs-redaction-net"
 
-formats: ["PDF", "Word", "Excel", "PowerPoint", "Images"]
-formatsCount: "30+"
-formatsNote: "…and 20+ more document and image formats."
+formats: ["PDF", "Word", "Excel", "PowerPoint", "OpenDocument", "Images"]
+formatsCount: "40+"
+formatsNote: "...and more document, image and text formats."
 
 capabilities:
   - "Redact text by phrase or regex"
   - "Remove metadata & annotations"
   - "Image-area redaction"
+  - "Text in images through OCR"
   - "Rasterize output"
   - "Batch redaction"
   - "Across PDF, Office & images"
