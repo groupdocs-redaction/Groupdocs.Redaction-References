@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /java/com.groupdocs.redaction.configuration/documentformatconfiguration/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

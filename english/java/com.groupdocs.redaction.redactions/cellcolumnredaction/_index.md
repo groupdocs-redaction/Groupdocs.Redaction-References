@@ -6,6 +6,7 @@ type: docs
 weight: 11
 url: /java/com.groupdocs.redaction.redactions/cellcolumnredaction/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.redaction.Redaction](../../com.groupdocs.redaction/redaction), [com.groupdocs.redaction.redactions.TextRedaction](../../com.groupdocs.redaction.redactions/textredaction)
 ```

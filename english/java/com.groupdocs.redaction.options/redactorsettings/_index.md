@@ -6,6 +6,7 @@ type: docs
 weight: 13
 url: /java/com.groupdocs.redaction.options/redactorsettings/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```
@@ -35,11 +36,11 @@ Represents redaction settings, allowing to customize the redaction process.
  |
 | [RedactorSettings(IRedactionCallback callback)](#RedactorSettings-com.groupdocs.redaction.redactions.IRedactionCallback-) | Initializes a new instance of the RedactorSettings class with a given IRedactionCallback instance.
  |
-| [RedactorSettings(IOcrConnector ocrConnector)](#RedactorSettings-com.groupdocs.redaction.integration.IOcrConnector-) | Initializes a new instance of the RedactorSettings class with a given IOcrConnector instance.
+| [RedactorSettings(IOcrConnector ocrConnector)](#RedactorSettings-com.groupdocs.redaction.integration.ocr.IOcrConnector-) | Initializes a new instance of the RedactorSettings class with a given IOcrConnector instance.
  |
 | [RedactorSettings(ILogger logger, IRedactionCallback callback)](#RedactorSettings-com.groupdocs.redaction.options.ILogger-com.groupdocs.redaction.redactions.IRedactionCallback-) | Initializes a new instance of the RedactorSettings class with given ILogger and IRedactionCallback instances.
  |
-| [RedactorSettings(ILogger logger, IRedactionCallback callback, IOcrConnector ocrConnector)](#RedactorSettings-com.groupdocs.redaction.options.ILogger-com.groupdocs.redaction.redactions.IRedactionCallback-com.groupdocs.redaction.integration.IOcrConnector-) | Initializes a new instance of the RedactorSettings class with given ILogger, IRedactionCallback and IOcrConnector instances.
+| [RedactorSettings(ILogger logger, IRedactionCallback callback, IOcrConnector ocrConnector)](#RedactorSettings-com.groupdocs.redaction.options.ILogger-com.groupdocs.redaction.redactions.IRedactionCallback-com.groupdocs.redaction.integration.ocr.IOcrConnector-) | Initializes a new instance of the RedactorSettings class with given ILogger, IRedactionCallback and IOcrConnector instances.
  |
 ## Methods
 
@@ -65,7 +66,7 @@ IRedactionCallback
 IOcrConnector
  interface.
  |
-| [setOcrConnector(IOcrConnector value)](#setOcrConnector-com.groupdocs.redaction.integration.IOcrConnector-) | Sets an instance of a class, implementing 
+| [setOcrConnector(IOcrConnector value)](#setOcrConnector-com.groupdocs.redaction.integration.ocr.IOcrConnector-) | Sets an instance of a class, implementing 
 IOcrConnector
  interface.
  |
@@ -108,7 +109,7 @@ Initializes a new instance of the RedactorSettings class with a given IRedaction
 | callback | [IRedactionCallback](../../com.groupdocs.redaction.redactions/iredactioncallback) | An instance of a class, implementing IRedactionCallbck interface
  |
 
-### RedactorSettings(IOcrConnector ocrConnector) {#RedactorSettings-com.groupdocs.redaction.integration.IOcrConnector-}
+### RedactorSettings(IOcrConnector ocrConnector) {#RedactorSettings-com.groupdocs.redaction.integration.ocr.IOcrConnector-}
 ```
 public RedactorSettings(IOcrConnector ocrConnector)
 ```
@@ -120,7 +121,7 @@ Initializes a new instance of the RedactorSettings class with a given IOcrConnec
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ocrConnector | [IOcrConnector](../../com.groupdocs.redaction.integration/iocrconnector) | A valid implementation of IOcrConnector interface
+| ocrConnector | [IOcrConnector](../../com.groupdocs.redaction.integration.ocr/iocrconnector) | A valid implementation of IOcrConnector interface
  |
 
 ### RedactorSettings(ILogger logger, IRedactionCallback callback) {#RedactorSettings-com.groupdocs.redaction.options.ILogger-com.groupdocs.redaction.redactions.IRedactionCallback-}
@@ -140,7 +141,7 @@ Initializes a new instance of the RedactorSettings class with given ILogger and 
 | callback | [IRedactionCallback](../../com.groupdocs.redaction.redactions/iredactioncallback) | An instance of a class, implementing IRedactionCallbck interface
  |
 
-### RedactorSettings(ILogger logger, IRedactionCallback callback, IOcrConnector ocrConnector) {#RedactorSettings-com.groupdocs.redaction.options.ILogger-com.groupdocs.redaction.redactions.IRedactionCallback-com.groupdocs.redaction.integration.IOcrConnector-}
+### RedactorSettings(ILogger logger, IRedactionCallback callback, IOcrConnector ocrConnector) {#RedactorSettings-com.groupdocs.redaction.options.ILogger-com.groupdocs.redaction.redactions.IRedactionCallback-com.groupdocs.redaction.integration.ocr.IOcrConnector-}
 ```
 public RedactorSettings(ILogger logger, IRedactionCallback callback, IOcrConnector ocrConnector)
 ```
@@ -156,7 +157,7 @@ Initializes a new instance of the RedactorSettings class with given ILogger, IRe
  |
 | callback | [IRedactionCallback](../../com.groupdocs.redaction.redactions/iredactioncallback) | An instance of a class, implementing IRedactionCallbck interface
  |
-| ocrConnector | [IOcrConnector](../../com.groupdocs.redaction.integration/iocrconnector) | An instance of IOcrConnector interface implementation. Can be null
+| ocrConnector | [IOcrConnector](../../com.groupdocs.redaction.integration.ocr/iocrconnector) | An instance of IOcrConnector interface implementation. Can be null
  |
 
 ### getLogger() {#getLogger--}
@@ -233,9 +234,9 @@ IOcrConnector
 
 
 **Returns:**
-[IOcrConnector](../../com.groupdocs.redaction.integration/iocrconnector) - An instance of a class, implementing  IOcrConnector  interface.
+[IOcrConnector](../../com.groupdocs.redaction.integration.ocr/iocrconnector) - An instance of a class, implementing  IOcrConnector  interface.
 
-### setOcrConnector(IOcrConnector value) {#setOcrConnector-com.groupdocs.redaction.integration.IOcrConnector-}
+### setOcrConnector(IOcrConnector value) {#setOcrConnector-com.groupdocs.redaction.integration.ocr.IOcrConnector-}
 ```
 public final void setOcrConnector(IOcrConnector value)
 ```
@@ -249,6 +250,6 @@ IOcrConnector
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IOcrConnector](../../com.groupdocs.redaction.integration/iocrconnector) | An instance of a class, implementing  IOcrConnector  interface.
+| value | [IOcrConnector](../../com.groupdocs.redaction.integration.ocr/iocrconnector) | An instance of a class, implementing  IOcrConnector  interface.
  |
 

@@ -3,9 +3,10 @@ title: ITextualFormatInstance
 second_title: GroupDocs.Redaction for Java API Reference
 description: Defines methods that are required for redacting textual data in any document containing text.
 type: docs
-weight: 27
+weight: 23
 url: /java/com.groupdocs.redaction.integration/itextualformatinstance/
----```
+---
+```
 public interface ITextualFormatInstance
 ```
 

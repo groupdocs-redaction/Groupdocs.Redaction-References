@@ -6,6 +6,7 @@ type: docs
 weight: 11
 url: /java/com.groupdocs.redaction.integration/metadatacollection/
 ---
+
 **Inheritance:**
 java.lang.Object, java.util.AbstractMap, java.util.HashMap
 ```

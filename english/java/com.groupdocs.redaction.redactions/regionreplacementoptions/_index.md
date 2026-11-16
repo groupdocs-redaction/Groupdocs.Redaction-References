@@ -6,6 +6,7 @@ type: docs
 weight: 29
 url: /java/com.groupdocs.redaction.redactions/regionreplacementoptions/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```
@@ -42,9 +43,9 @@ ImageAreaRedaction
  |
 | [setFillColor(Color value)](#setFillColor-java.awt.Color-) | Sets the color to fill the redacted area.
  |
-| [getSize()](#getSize--) | Gets the rectangle with and height.
+| [getSize()](#getSize--) | Gets the rectangle width and height.
  |
-| [setSize(Dimension value)](#setSize-java.awt.Dimension-) | Sets the rectangle with and height.
+| [setSize(Dimension value)](#setSize-java.awt.Dimension-) | Sets the rectangle width and height.
  |
 ### RegionReplacementOptions(Color fillColor, Dimension size) {#RegionReplacementOptions-java.awt.Color-java.awt.Dimension-}
 ```
@@ -115,11 +116,11 @@ public final Dimension getSize()
 ```
 
 
-Gets the rectangle with and height.
+Gets the rectangle width and height.
 
 
 **Returns:**
-java.awt.Dimension - The rectangle with and height.
+java.awt.Dimension - The rectangle width and height.
 
 ### setSize(Dimension value) {#setSize-java.awt.Dimension-}
 ```
@@ -127,12 +128,12 @@ public final void setSize(Dimension value)
 ```
 
 
-Sets the rectangle with and height.
+Sets the rectangle width and height.
 
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.awt.Dimension | The rectangle with and height.
+| value | java.awt.Dimension | The rectangle width and height.
  |
 

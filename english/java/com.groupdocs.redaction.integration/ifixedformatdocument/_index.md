@@ -3,9 +3,10 @@ title: IFixedFormatDocument
 second_title: GroupDocs.Redaction for Java API Reference
 description: Defines methods that are required for access formats of fixed structure such as PDF or presentations.
 type: docs
-weight: 19
+weight: 16
 url: /java/com.groupdocs.redaction.integration/ifixedformatdocument/
----```
+---
+```
 public interface IFixedFormatDocument
 ```
 

@@ -7,6 +7,7 @@ weight: 10
 url: /java/com.groupdocs.redaction/
 ---
 
+
 The package provides classes for redacting sensitive information from documents in PDF, raster image and office document formats.
 
 The main classes in this package are:

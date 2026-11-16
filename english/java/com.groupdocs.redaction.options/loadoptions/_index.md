@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /java/com.groupdocs.redaction.options/loadoptions/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

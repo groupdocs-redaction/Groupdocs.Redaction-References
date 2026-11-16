@@ -6,6 +6,7 @@ type: docs
 weight: 21
 url: /java/com.groupdocs.redaction.options/previewformats/
 ---
+
 **Inheritance:**
 java.lang.Object, java.lang.Enum
 ```

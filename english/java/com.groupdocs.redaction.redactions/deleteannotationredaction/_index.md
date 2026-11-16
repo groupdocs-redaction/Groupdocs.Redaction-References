@@ -6,6 +6,7 @@ type: docs
 weight: 15
 url: /java/com.groupdocs.redaction.redactions/deleteannotationredaction/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.redaction.Redaction](../../com.groupdocs.redaction/redaction)
 ```

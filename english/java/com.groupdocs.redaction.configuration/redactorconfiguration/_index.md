@@ -6,6 +6,7 @@ type: docs
 weight: 11
 url: /java/com.groupdocs.redaction.configuration/redactorconfiguration/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```
@@ -31,18 +32,13 @@ The following example demonstrates how to add a custom user format handler.
   DocumentFormatConfiguration adobePhotoshopSettings = new DocumentFormatConfiguration();
  adobePhotoshopSettings.setExtensionFilter(".psd");
  adobePhotoshopSettings.setDocumentType(MyAdobePhotoshopFormatInstance.class);
- RedactorConfiguration configuration = RedactorConfiguration.getInstance();
+ RedactorConfiguration configuration = DocumentFormatInstance.getDefaultConfiguration();
  configuration.getAvailableFormats().add(adobePhotoshopSettings);
  
 ``` 
 ````
 
 
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [RedactorConfiguration()](#RedactorConfiguration--) |  |
 ## Methods
 
 | Method | Description |
@@ -53,12 +49,6 @@ DocumentFormatConfiguration
  |
 | [findFormat(String fileExtension)](#findFormat-java.lang.String-) | Finds format configurations for a given file extension.
  |
-### RedactorConfiguration() {#RedactorConfiguration--}
-```
-public RedactorConfiguration()
-```
-
-
 ### getAvailableFormats() {#getAvailableFormats--}
 ```
 public final List<DocumentFormatConfiguration> getAvailableFormats()

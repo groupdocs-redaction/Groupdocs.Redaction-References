@@ -6,6 +6,7 @@ type: docs
 weight: 12
 url: /java/com.groupdocs.redaction.redactions/cellfilter/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

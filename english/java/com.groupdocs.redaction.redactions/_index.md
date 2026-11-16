@@ -3,9 +3,10 @@ title: com.groupdocs.redaction.redactions
 second_title: GroupDocs.Redaction for Java API Reference
 description: The package provides classes for different types of redactions.
 type: docs
-weight: 16
+weight: 17
 url: /java/com.groupdocs.redaction.redactions/
 ---
+
 
 The package provides classes for different types of redactions.
 

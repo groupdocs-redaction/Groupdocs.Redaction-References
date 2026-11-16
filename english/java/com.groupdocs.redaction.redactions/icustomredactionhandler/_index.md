@@ -5,7 +5,8 @@ description: Defines a custom redaction callback.
 type: docs
 weight: 34
 url: /java/com.groupdocs.redaction.redactions/icustomredactionhandler/
----```
+---
+```
 public interface ICustomRedactionHandler
 ```
 

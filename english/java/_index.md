@@ -1,11 +1,11 @@
 ---
 title: GroupDocs.Redaction for Java
 type: docs
-weight: 11
+weight: 20
 url: /java/
 description: GroupDocs.Redaction for Java API References contain examples, code snippets, and API documentation. It provides packages, classes, interfaces, and other API details.
 is_root: true
-version: 26.10
+version: "26.11"
 ---
 
 ## Packages
@@ -18,6 +18,8 @@ version: 26.10
 | [com.groupdocs.redaction.exceptions](./com.groupdocs.redaction.exceptions) | The package provides different exceptions classes.
  |
 | [com.groupdocs.redaction.integration](./com.groupdocs.redaction.integration) | The package provides interfaces and classes, used to integrate documents of different formats with GroupDocs.Redactions.
+ |
+| [com.groupdocs.redaction.integration.ocr](./com.groupdocs.redaction.integration.ocr) | The package provides interfaces and classes required for Optical Character Recognition (OCR) support.
  |
 | [com.groupdocs.redaction.licensing](./com.groupdocs.redaction.licensing) | The package provides classes to set license or use Metered billing.
  |

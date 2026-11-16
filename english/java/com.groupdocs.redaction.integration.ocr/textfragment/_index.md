@@ -3,9 +3,10 @@ title: TextFragment
 second_title: GroupDocs.Redaction for Java API Reference
 description: Represents a part of recognized text word symbol etc extracted by OCR engine.
 type: docs
-weight: 15
-url: /java/com.groupdocs.redaction.integration/textfragment/
+weight: 11
+url: /java/com.groupdocs.redaction.integration.ocr/textfragment/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

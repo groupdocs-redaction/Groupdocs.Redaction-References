@@ -6,6 +6,7 @@ type: docs
 weight: 19
 url: /java/com.groupdocs.redaction.redactions/metadatafilters/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

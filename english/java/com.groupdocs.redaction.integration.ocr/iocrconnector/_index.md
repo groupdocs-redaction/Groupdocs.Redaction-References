@@ -3,9 +3,10 @@ title: IOcrConnector
 second_title: GroupDocs.Redaction for Java API Reference
 description: Defines methods that are required to apply textual redactions to image documents and embedded images.
 type: docs
-weight: 23
-url: /java/com.groupdocs.redaction.integration/iocrconnector/
----```
+weight: 13
+url: /java/com.groupdocs.redaction.integration.ocr/iocrconnector/
+---
+```
 public interface IOcrConnector
 ```
 
@@ -45,5 +46,5 @@ Does the OCR processing of an image, provided as a stream.
  |
 
 **Returns:**
-[RecognizedImage](../../com.groupdocs.redaction.integration/recognizedimage) - Structured recognized text, containing lines, words and their bounding rectangles
+[RecognizedImage](../../com.groupdocs.redaction.integration.ocr/recognizedimage) - Structured recognized text, containing lines, words and their bounding rectangles
 

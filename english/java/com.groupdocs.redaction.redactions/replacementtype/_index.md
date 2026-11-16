@@ -6,6 +6,7 @@ type: docs
 weight: 38
 url: /java/com.groupdocs.redaction.redactions/replacementtype/
 ---
+
 **Inheritance:**
 java.lang.Object, java.lang.Enum
 ```
