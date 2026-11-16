@@ -7,6 +7,7 @@ weight: 11
 url: /java/com.groupdocs.redaction.configuration/
 ---
 
+
 The package provides document format configuration classes.
 
 

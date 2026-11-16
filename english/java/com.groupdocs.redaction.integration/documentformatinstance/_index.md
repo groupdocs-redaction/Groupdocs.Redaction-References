@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /java/com.groupdocs.redaction.integration/documentformatinstance/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```
@@ -54,17 +55,10 @@ The following example demonstrates how to create an empty stub for a custom form
 
 | Method | Description |
 | --- | --- |
-| [createInstance(Class docType)](#createInstance-java.lang.Class-) |  |
 | [getPassword()](#getPassword--) | Gets a password for password protected documents.
  |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Sets a password for password protected documents.
  |
-| [getRequestedWordsSaveOptions()](#getRequestedWordsSaveOptions--) | Save options for the next Words save (compliance etc.).
- |
-| [setRequestedWordsSaveOptions(WordprocessingSaveOptions value)](#setRequestedWordsSaveOptions-com.groupdocs.redaction.options.WordprocessingSaveOptions-) |  |
-| [getRequiresRasterization()](#getRequiresRasterization--) | Gets value, indicating if the format instance is read-only and cannot be saved in original format.
- |
-| [isAccessGranted()](#isAccessGranted--) |  |
 | [initialize(DocumentFormatConfiguration config, RedactorSettings settings)](#initialize-com.groupdocs.redaction.configuration.DocumentFormatConfiguration-com.groupdocs.redaction.options.RedactorSettings-) | Performs initialization of the instance of document format handler.
  |
 | [load(InputStream input)](#load-java.io.InputStream-) | Loads the document from a stream.
@@ -85,21 +79,6 @@ public DocumentFormatInstance()
 ```
 
 
-### createInstance(Class docType) {#createInstance-java.lang.Class-}
-```
-public static DocumentFormatInstance createInstance(Class docType)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| docType | java.lang.Class |  |
-
-**Returns:**
-[DocumentFormatInstance](../../com.groupdocs.redaction.integration/documentformatinstance)
 ### getPassword() {#getPassword--}
 ```
 public final String getPassword()
@@ -127,52 +106,6 @@ Sets a password for password protected documents.
 | value | java.lang.String | A password for password protected documents.
  |
 
-### getRequestedWordsSaveOptions() {#getRequestedWordsSaveOptions--}
-```
-public final WordprocessingSaveOptions getRequestedWordsSaveOptions()
-```
-
-
-Save options for the next Words save (compliance etc.).
-
-
-**Returns:**
-[WordprocessingSaveOptions](../../com.groupdocs.redaction.options/wordprocessingsaveoptions)
-### setRequestedWordsSaveOptions(WordprocessingSaveOptions value) {#setRequestedWordsSaveOptions-com.groupdocs.redaction.options.WordprocessingSaveOptions-}
-```
-public final void setRequestedWordsSaveOptions(WordprocessingSaveOptions value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [WordprocessingSaveOptions](../../com.groupdocs.redaction.options/wordprocessingsaveoptions) |  |
-
-### getRequiresRasterization() {#getRequiresRasterization--}
-```
-public boolean getRequiresRasterization()
-```
-
-
-Gets value, indicating if the format instance is read-only and cannot be saved in original format.
-
-
-**Returns:**
-boolean - Value, indicating if the format instance is read-only and cannot be saved in original format.
-
-### isAccessGranted() {#isAccessGranted--}
-```
-public final boolean isAccessGranted()
-```
-
-
-
-
-**Returns:**
-boolean
 ### initialize(DocumentFormatConfiguration config, RedactorSettings settings) {#initialize-com.groupdocs.redaction.configuration.DocumentFormatConfiguration-com.groupdocs.redaction.options.RedactorSettings-}
 ```
 public void initialize(DocumentFormatConfiguration config, RedactorSettings settings)

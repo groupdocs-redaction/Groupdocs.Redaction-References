@@ -6,6 +6,7 @@ type: docs
 weight: 18
 url: /java/com.groupdocs.redaction.redactions/imagearearedaction/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.redaction.Redaction](../../com.groupdocs.redaction/redaction)
 ```

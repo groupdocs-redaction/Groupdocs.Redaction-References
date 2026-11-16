@@ -5,7 +5,8 @@ description: Defines methods that are required for getting basic document inform
 type: docs
 weight: 19
 url: /java/com.groupdocs.redaction/idocumentinfo/
----```
+---
+```
 public interface IDocumentInfo
 ```
 

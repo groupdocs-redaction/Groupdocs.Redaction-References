@@ -6,6 +6,7 @@ type: docs
 weight: 36
 url: /java/com.groupdocs.redaction.redactions/pageseekorigin/
 ---
+
 **Inheritance:**
 java.lang.Object, java.lang.Enum
 ```

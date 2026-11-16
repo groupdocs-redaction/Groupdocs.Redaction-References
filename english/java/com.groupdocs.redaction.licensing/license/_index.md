@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /java/com.groupdocs.redaction.licensing/license/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```
@@ -26,6 +27,8 @@ Provides methods to license the component. Learn more about licensing
 
 | Method | Description |
 | --- | --- |
+| [isLicensed()](#isLicensed--) | Checks whether a file or Metered license is active.
+ |
 | [setLicense(String licensePath)](#setLicense-java.lang.String-) | Licenses the component.
  |
 | [setLicense(InputStream licenseStream)](#setLicense-java.io.InputStream-) | Licenses the component.
@@ -39,6 +42,17 @@ public License()
 Instantiate the License
 
 
+### isLicensed() {#isLicensed--}
+```
+public final boolean isLicensed()
+```
+
+
+Checks whether a file or Metered license is active.
+
+
+**Returns:**
+boolean
 ### setLicense(String licensePath) {#setLicense-java.lang.String-}
 ```
 public final void setLicense(String licensePath)

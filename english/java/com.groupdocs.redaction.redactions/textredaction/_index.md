@@ -6,6 +6,7 @@ type: docs
 weight: 32
 url: /java/com.groupdocs.redaction.redactions/textredaction/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.redaction.Redaction](../../com.groupdocs.redaction/redaction)
 ```
@@ -37,7 +38,7 @@ ReplacementOptions
 IOcrConnector
  implementation, required to extract text from graphic content.
  |
-| [setOcrConnector(IOcrConnector value)](#setOcrConnector-com.groupdocs.redaction.integration.IOcrConnector-) | Sets the 
+| [setOcrConnector(IOcrConnector value)](#setOcrConnector-com.groupdocs.redaction.integration.ocr.IOcrConnector-) | Sets the 
 IOcrConnector
  implementation, required to extract text from graphic content.
  |
@@ -67,9 +68,9 @@ IOcrConnector
 
 
 **Returns:**
-[IOcrConnector](../../com.groupdocs.redaction.integration/iocrconnector) - The  IOcrConnector  implementation, required to extract text from graphic content.
+[IOcrConnector](../../com.groupdocs.redaction.integration.ocr/iocrconnector) - The  IOcrConnector  implementation, required to extract text from graphic content.
 
-### setOcrConnector(IOcrConnector value) {#setOcrConnector-com.groupdocs.redaction.integration.IOcrConnector-}
+### setOcrConnector(IOcrConnector value) {#setOcrConnector-com.groupdocs.redaction.integration.ocr.IOcrConnector-}
 ```
 public final void setOcrConnector(IOcrConnector value)
 ```
@@ -83,6 +84,6 @@ IOcrConnector
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IOcrConnector](../../com.groupdocs.redaction.integration/iocrconnector) | The  IOcrConnector  implementation, required to extract text from graphic content.
+| value | [IOcrConnector](../../com.groupdocs.redaction.integration.ocr/iocrconnector) | The  IOcrConnector  implementation, required to extract text from graphic content.
  |
 

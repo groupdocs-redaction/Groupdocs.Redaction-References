@@ -6,6 +6,7 @@ type: docs
 weight: 22
 url: /java/com.groupdocs.redaction.options/wordprocessingcompliancelevel/
 ---
+
 **Inheritance:**
 java.lang.Object, java.lang.Enum
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 28
 url: /java/com.groupdocs.redaction.redactions/regexredaction/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.redaction.Redaction](../../com.groupdocs.redaction/redaction), [com.groupdocs.redaction.redactions.TextRedaction](../../com.groupdocs.redaction.redactions/textredaction)
 ```

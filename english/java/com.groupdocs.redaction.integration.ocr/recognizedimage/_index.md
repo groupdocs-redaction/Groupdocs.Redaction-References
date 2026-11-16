@@ -3,9 +3,10 @@ title: RecognizedImage
 second_title: GroupDocs.Redaction for Java API Reference
 description: Represents text extracted from an image as a result of its recognition process.
 type: docs
-weight: 13
-url: /java/com.groupdocs.redaction.integration/recognizedimage/
+weight: 10
+url: /java/com.groupdocs.redaction.integration.ocr/recognizedimage/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```
@@ -28,7 +29,7 @@ Represents text, extracted from an image as a result of its recognition process.
 
 | Constructor | Description |
 | --- | --- |
-| [RecognizedImage(TextLine[] lines)](#RecognizedImage-com.groupdocs.redaction.integration.TextLine---) | Initializes a new instance of the class, using a set of recognized lines.
+| [RecognizedImage(TextLine[] lines)](#RecognizedImage-com.groupdocs.redaction.integration.ocr.TextLine---) | Initializes a new instance of the class, using a set of recognized lines.
  |
 ## Methods
 
@@ -40,7 +41,7 @@ Represents text, extracted from an image as a result of its recognition process.
  |
 | [toString()](#toString--) | Gets textual equivalent of the structured text.
  |
-### RecognizedImage(TextLine[] lines) {#RecognizedImage-com.groupdocs.redaction.integration.TextLine---}
+### RecognizedImage(TextLine[] lines) {#RecognizedImage-com.groupdocs.redaction.integration.ocr.TextLine---}
 ```
 public RecognizedImage(TextLine[] lines)
 ```
@@ -52,7 +53,7 @@ Initializes a new instance of the class, using a set of recognized lines.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lines | [TextLine\[\]](../../com.groupdocs.redaction.integration/textline) | an IEnumerable (e.g. a list or an array) of recognized lines
+| lines | [TextLine\[\]](../../com.groupdocs.redaction.integration.ocr/textline) | an IEnumerable (e.g. a list or an array) of recognized lines
  |
 
 ### getText() {#getText--}
@@ -77,7 +78,7 @@ Gets lines of text, with their fragments, recognized within the document.
 
 
 **Returns:**
-com.groupdocs.redaction.integration.TextLine[] - Lines of text, with their fragments, recognized within the document.
+com.groupdocs.redaction.integration.ocr.TextLine[] - Lines of text, with their fragments, recognized within the document.
 
 ### toString() {#toString--}
 ```

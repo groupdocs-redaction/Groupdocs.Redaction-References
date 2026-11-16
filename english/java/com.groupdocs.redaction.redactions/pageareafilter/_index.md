@@ -6,6 +6,7 @@ type: docs
 weight: 22
 url: /java/com.groupdocs.redaction.redactions/pageareafilter/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.redaction.redactions.RedactionFilter](../../com.groupdocs.redaction.redactions/redactionfilter)
 ```
@@ -37,8 +38,6 @@ Represents redaction filter, setting an area within a page of a document to appl
 | --- | --- |
 | [getRectangle()](#getRectangle--) | Gets the rectangle (top-left position and size of the area) on a page.
  |
-| [isInTheArea(Rectangle rectangle)](#isInTheArea-java.awt.Rectangle-) | Checks if this filter area has intersection with given rectangle.
- |
 ### PageAreaFilter(Point topLeft, Dimension size) {#PageAreaFilter-java.awt.Point-java.awt.Dimension-}
 ```
 public PageAreaFilter(Point topLeft, Dimension size)
@@ -67,22 +66,4 @@ Gets the rectangle (top-left position and size of the area) on a page.
 
 **Returns:**
 java.awt.Rectangle - The rectangle (top-left position and size of the area) on a page.
-
-### isInTheArea(Rectangle rectangle) {#isInTheArea-java.awt.Rectangle-}
-```
-public final boolean isInTheArea(Rectangle rectangle)
-```
-
-
-Checks if this filter area has intersection with given rectangle.
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| rectangle | java.awt.Rectangle | Rectangle to check
- |
-
-**Returns:**
-boolean - true, if this filter area has intersection
 

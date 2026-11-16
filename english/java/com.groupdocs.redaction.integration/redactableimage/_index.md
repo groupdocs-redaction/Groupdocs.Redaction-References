@@ -3,9 +3,10 @@ title: RedactableImage
 second_title: GroupDocs.Redaction for Java API Reference
 description: Provides facade to all raster image redaction operations.
 type: docs
-weight: 14
+weight: 13
 url: /java/com.groupdocs.redaction.integration/redactableimage/
 ---
+
 **Inheritance:**
 java.lang.Object
 

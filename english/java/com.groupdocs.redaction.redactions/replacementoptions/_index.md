@@ -6,6 +6,7 @@ type: docs
 weight: 31
 url: /java/com.groupdocs.redaction.redactions/replacementoptions/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```
@@ -59,7 +60,6 @@ ReplacementType.DrawBox
  |
 | [setCustomRedaction(ICustomRedactionHandler value)](#setCustomRedaction-com.groupdocs.redaction.redactions.ICustomRedactionHandler-) | Sets a custom redaction handler.
  |
-| [fromFilters(RedactionFilter[] filters)](#fromFilters-com.groupdocs.redaction.redactions.RedactionFilter---) |  |
 ### ReplacementOptions(String replacement) {#ReplacementOptions-java.lang.String-}
 ```
 public ReplacementOptions(String replacement)
@@ -214,18 +214,3 @@ Sets a custom redaction handler. Supported for PDF [PageAreaRedaction](../../com
 | value | [ICustomRedactionHandler](../../com.groupdocs.redaction.redactions/icustomredactionhandler) | An instance of [ICustomRedactionHandler](../../com.groupdocs.redaction.redactions/icustomredactionhandler).
  |
 
-### fromFilters(RedactionFilter[] filters) {#fromFilters-com.groupdocs.redaction.redactions.RedactionFilter---}
-```
-public static ReplacementOptions fromFilters(RedactionFilter[] filters)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| filters | [RedactionFilter\[\]](../../com.groupdocs.redaction.redactions/redactionfilter) |  |
-
-**Returns:**
-[ReplacementOptions](../../com.groupdocs.redaction.redactions/replacementoptions)

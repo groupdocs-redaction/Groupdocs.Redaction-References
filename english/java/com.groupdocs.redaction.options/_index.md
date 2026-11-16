@@ -3,9 +3,10 @@ title: com.groupdocs.redaction.options
 second_title: GroupDocs.Redaction for Java API Reference
 description: The package provides load and save options classes.
 type: docs
-weight: 15
+weight: 16
 url: /java/com.groupdocs.redaction.options/
 ---
+
 
 The package provides load and save options classes.
 

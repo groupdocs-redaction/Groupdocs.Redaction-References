@@ -3,9 +3,10 @@ title: TextLine
 second_title: GroupDocs.Redaction for Java API Reference
 description: Represents a line of text extracted by OCR engine from an image.
 type: docs
-weight: 16
-url: /java/com.groupdocs.redaction.integration/textline/
+weight: 12
+url: /java/com.groupdocs.redaction.integration.ocr/textline/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```
@@ -28,7 +29,7 @@ Represents a line of text, extracted by OCR engine from an image.
 
 | Constructor | Description |
 | --- | --- |
-| [TextLine(TextFragment[] fragments)](#TextLine-com.groupdocs.redaction.integration.TextFragment---) | Initializes a new instance of a line of text, extracted by OCR engine from an image.
+| [TextLine(TextFragment[] fragments)](#TextLine-com.groupdocs.redaction.integration.ocr.TextFragment---) | Initializes a new instance of a line of text, extracted by OCR engine from an image.
  |
 ## Methods
 
@@ -38,7 +39,7 @@ Represents a line of text, extracted by OCR engine from an image.
  |
 | [toString()](#toString--) | Returns textual content of the recognised line of text.
  |
-### TextLine(TextFragment[] fragments) {#TextLine-com.groupdocs.redaction.integration.TextFragment---}
+### TextLine(TextFragment[] fragments) {#TextLine-com.groupdocs.redaction.integration.ocr.TextFragment---}
 ```
 public TextLine(TextFragment[] fragments)
 ```
@@ -50,7 +51,7 @@ Initializes a new instance of a line of text, extracted by OCR engine from an im
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fragments | [TextFragment\[\]](../../com.groupdocs.redaction.integration/textfragment) | initial set of text fragments
+| fragments | [TextFragment\[\]](../../com.groupdocs.redaction.integration.ocr/textfragment) | initial set of text fragments
  |
 
 ### getFragments() {#getFragments--}
@@ -63,7 +64,7 @@ Gets an array of text fragments, such as symbols and words, recognized in the li
 
 
 **Returns:**
-com.groupdocs.redaction.integration.TextFragment[] - An array of text fragments, such as symbols and words, recognized in the line.
+com.groupdocs.redaction.integration.ocr.TextFragment[] - An array of text fragments, such as symbols and words, recognized in the line.
 
 ### toString() {#toString--}
 ```

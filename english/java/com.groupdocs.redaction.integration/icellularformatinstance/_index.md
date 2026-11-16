@@ -3,9 +3,10 @@ title: ICellularFormatInstance
 second_title: GroupDocs.Redaction for Java API Reference
 description: Defines methods that are required for access to spreadsheet formats having one or many worksheets.
 type: docs
-weight: 18
+weight: 15
 url: /java/com.groupdocs.redaction.integration/icellularformatinstance/
----```
+---
+```
 public interface ICellularFormatInstance
 ```
 

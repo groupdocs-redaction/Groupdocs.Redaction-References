@@ -6,6 +6,7 @@ type: docs
 weight: 14
 url: /java/com.groupdocs.redaction.options/saveoptions/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

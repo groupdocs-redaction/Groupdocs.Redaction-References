@@ -6,6 +6,7 @@ type: docs
 weight: 33
 url: /java/com.groupdocs.redaction.redactions/textreplacement/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

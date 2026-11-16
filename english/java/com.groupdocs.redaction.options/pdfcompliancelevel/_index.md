@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /java/com.groupdocs.redaction.options/pdfcompliancelevel/
 ---
+
 **Inheritance:**
 java.lang.Object, java.lang.Enum
 ```

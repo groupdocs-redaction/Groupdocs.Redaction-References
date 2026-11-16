@@ -5,7 +5,8 @@ description: Defines methods that are required for receiving information on each
 type: docs
 weight: 35
 url: /java/com.groupdocs.redaction.redactions/iredactioncallback/
----```
+---
+```
 public interface IRedactionCallback
 ```
 

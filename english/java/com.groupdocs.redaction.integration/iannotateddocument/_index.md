@@ -3,9 +3,10 @@ title: IAnnotatedDocument
 second_title: GroupDocs.Redaction for Java API Reference
 description: Defines methods that are required for access to annotations such as comments.
 type: docs
-weight: 17
+weight: 14
 url: /java/com.groupdocs.redaction.integration/iannotateddocument/
----```
+---
+```
 public interface IAnnotatedDocument
 ```
 

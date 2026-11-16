@@ -6,6 +6,7 @@ type: docs
 weight: 24
 url: /java/com.groupdocs.redaction.redactions/pagerangefilter/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.redaction.redactions.RedactionFilter](../../com.groupdocs.redaction.redactions/redactionfilter)
 ```

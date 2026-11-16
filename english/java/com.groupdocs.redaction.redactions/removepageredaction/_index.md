@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /java/com.groupdocs.redaction.redactions/removepageredaction/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.redaction.Redaction](../../com.groupdocs.redaction/redaction)
 ```

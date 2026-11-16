@@ -6,6 +6,7 @@ type: docs
 weight: 16
 url: /java/com.groupdocs.redaction.redactions/erasemetadataredaction/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.redaction.Redaction](../../com.groupdocs.redaction/redaction), [com.groupdocs.redaction.redactions.MetadataRedaction](../../com.groupdocs.redaction.redactions/metadataredaction)
 ```

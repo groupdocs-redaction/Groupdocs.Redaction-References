@@ -6,6 +6,7 @@ type: docs
 weight: 21
 url: /java/com.groupdocs.redaction.redactions/metadatasearchredaction/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.redaction.Redaction](../../com.groupdocs.redaction/redaction), [com.groupdocs.redaction.redactions.MetadataRedaction](../../com.groupdocs.redaction.redactions/metadataredaction)
 ```

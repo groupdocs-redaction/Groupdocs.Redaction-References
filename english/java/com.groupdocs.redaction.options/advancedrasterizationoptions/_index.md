@@ -6,6 +6,7 @@ type: docs
 weight: 19
 url: /java/com.groupdocs.redaction.options/advancedrasterizationoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, java.lang.Enum
 ```

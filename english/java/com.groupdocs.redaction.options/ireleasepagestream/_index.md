@@ -5,7 +5,8 @@ description: Represents a method which releases stream created by CreatePageStre
 type: docs
 weight: 18
 url: /java/com.groupdocs.redaction.options/ireleasepagestream/
----```
+---
+```
 public interface IReleasePageStream
 ```
 

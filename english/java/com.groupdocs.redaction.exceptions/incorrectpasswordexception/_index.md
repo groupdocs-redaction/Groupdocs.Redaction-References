@@ -6,6 +6,7 @@ type: docs
 weight: 12
 url: /java/com.groupdocs.redaction.exceptions/incorrectpasswordexception/
 ---
+
 **Inheritance:**
 java.lang.Object, java.lang.Throwable, java.lang.Exception, [com.groupdocs.redaction.exceptions.GroupDocsRedactionException](../../com.groupdocs.redaction.exceptions/groupdocsredactionexception)
 ```

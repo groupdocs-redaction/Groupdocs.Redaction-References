@@ -6,6 +6,7 @@ type: docs
 weight: 14
 url: /java/com.groupdocs.redaction.redactions/customredactionresult/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

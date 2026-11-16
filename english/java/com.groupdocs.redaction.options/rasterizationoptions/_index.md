@@ -6,6 +6,7 @@ type: docs
 weight: 12
 url: /java/com.groupdocs.redaction.options/rasterizationoptions/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```
@@ -43,13 +44,9 @@ Provides options for converting files into PDF.
  |
 | [setPageIndex(int value)](#setPageIndex-int-) | Sets the index of the first page (0-based) to convert into PDF.
  |
-| [isStartPageIndexSet()](#isStartPageIndexSet--) | Gets a value indicating whether the PageIndex property was changed (set) after its initialization.
- |
 | [getPageCount()](#getPageCount--) | Gets the number of pages to be converted into PDF.
  |
 | [setPageCount(int value)](#setPageCount-int-) | Sets the number of pages to be converted into PDF.
- |
-| [isPageCountSet()](#isPageCountSet--) | Gets a value indicating whether the PageCount property was changed (set) after its initialization.
  |
 | [getCompliance()](#getCompliance--) | Gets the PDF Compliance level.
  |
@@ -124,18 +121,6 @@ Sets the index of the first page (0-based) to convert into PDF.
 | value | int | The index of the first page (0-based) to convert into PDF.
  |
 
-### isStartPageIndexSet() {#isStartPageIndexSet--}
-```
-public final boolean isStartPageIndexSet()
-```
-
-
-Gets a value indicating whether the PageIndex property was changed (set) after its initialization.
-
-
-**Returns:**
-boolean - A value indicating whether the PageIndex property was changed (set) after its initialization.
-
 ### getPageCount() {#getPageCount--}
 ```
 public final int getPageCount()
@@ -162,18 +147,6 @@ Sets the number of pages to be converted into PDF.
 | --- | --- | --- |
 | value | int | The number of pages to be converted into PDF.
  |
-
-### isPageCountSet() {#isPageCountSet--}
-```
-public final boolean isPageCountSet()
-```
-
-
-Gets a value indicating whether the PageCount property was changed (set) after its initialization.
-
-
-**Returns:**
-boolean - A value indicating whether the PageCount property was changed (set) after its initialization.
 
 ### getCompliance() {#getCompliance--}
 ```
