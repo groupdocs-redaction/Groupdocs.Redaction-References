@@ -23,6 +23,11 @@ platforms:
     key: java
     ref: "/java/"
     install: "com.groupdocs:groupdocs-redaction"
+  - name: "Node.js"
+    version: "26.11.0"
+    versionUrl: "https://www.npmjs.com/package/@groupdocs/groupdocs.redaction/v/26.11.0"
+    key: nodejs
+    ref: "/nodejs-java/"
   - name: "Python via .NET"
     version: "26.6.0"
     versionUrl: "https://pypi.org/project/groupdocs-redaction-net/26.6.0/"
