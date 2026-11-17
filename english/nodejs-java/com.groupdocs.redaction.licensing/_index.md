@@ -1,0 +1,20 @@
+---
+title: com.groupdocs.redaction.licensing
+second_title: GroupDocs.Redaction for Node.js via Java API Reference
+description: The package provides classes to set license or use Metered billing.
+type: docs
+weight: 15
+url: /nodejs-java/com.groupdocs.redaction.licensing/
+---
+
+
+The package provides classes to set license or use Metered billing.
+
+
+
+## Classes
+
+| Class | Description |
+| --- | --- |
+| [License](../com.groupdocs.redaction.licensing/license) | Provides methods to license the component. |
+| [Metered](../com.groupdocs.redaction.licensing/metered) | Provides methods for applying [Metered](https://purchase.groupdocs.com/faqs/licensing/metered) license. |
