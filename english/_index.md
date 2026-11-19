@@ -18,8 +18,8 @@ platforms:
     ref: "/net/"
     install: "dotnet add package GroupDocs.Redaction"
   - name: "Java"
-    version: "26.10"
-    versionUrl: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-redaction/26.10/"
+    version: "26.11"
+    versionUrl: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-redaction/26.11/"
     key: java
     ref: "/java/"
     install: "com.groupdocs:groupdocs-redaction"
