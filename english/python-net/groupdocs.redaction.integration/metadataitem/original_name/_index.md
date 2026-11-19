@@ -1,7 +1,7 @@
 ---
 title: original_name property
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: "The original name of the metadata item as it appears in the document."
+description: "The original name of the metadata item, as it appears in the document."
 type: docs
 url: /python-net/groupdocs.redaction.integration/metadataitem/original_name/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2060
 
 ## original_name property
 
-The original name of the metadata item as it appears in the document.
+The original name of the metadata item, as it appears in the document.
 
 ### Definition:
 ```python

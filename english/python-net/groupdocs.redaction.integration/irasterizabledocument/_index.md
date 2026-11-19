@@ -15,10 +15,9 @@ Defines methods required for saving a document in any binary form. Built-in type
 
 Learn more
 
-- More details about applying redactions: https://docs.groupdocs.com/redaction/net/redaction-basics/
-- More details about saving document as a rasterized PDF: https://docs.groupdocs.com/redaction/net/save-in-rasterized-pdf/
-- More details about rasterization options: https://docs.groupdocs.com/redaction/net/select-specific-pages-for-rasterized-pdf/
-- More details about implementing custom formats: https://docs.groupdocs.com/redaction/net/create-custom-format-handler/
+- More details about applying redactions: https://docs.groupdocs.com/redaction/python-net/redaction-basics/
+- More details about saving document as a rasterized PDF: https://docs.groupdocs.com/redaction/python-net/save-in-rasterized-pdf/
+- More details about rasterization options: https://docs.groupdocs.com/redaction/python-net/select-specific-pages-for-rasterized-pdf/
 
 The IRasterizableDocument type exposes the following members:
 
@@ -27,8 +26,6 @@ The IRasterizableDocument type exposes the following members:
 | :- | :- |
 | [rasterize](/redaction/python-net/groupdocs.redaction.integration/irasterizabledocument/rasterize/#output) | Saves the document to a stream as a PDF. |
 | [rasterize](/redaction/python-net/groupdocs.redaction.integration/irasterizabledocument/rasterize/#output-options) | Saves the document to a stream as a PDF with page range and compliance options. |
-| [rasterize_stream](/redaction/python-net/groupdocs.redaction.integration/irasterizabledocument/rasterize_stream/) |  |
-| [rasterize_streams](/redaction/python-net/groupdocs.redaction.integration/irasterizabledocument/rasterize_streams/) |  |
 
 ### See Also
 * module [`groupdocs.redaction.integration`](/redaction/python-net/groupdocs.redaction.integration/)

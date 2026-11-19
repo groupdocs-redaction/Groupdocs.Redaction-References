@@ -1,0 +1,17 @@
+---
+title: DEEP_PINK field
+second_title: GroupDocs.Redaction for Python via .NET API References
+description: "Gets the DeepPink color."
+type: docs
+url: /python-net/groupdocs.redaction.options.drawing/color/deep_pink/
+is_root: false
+weight: 3390
+---
+
+
+## DEEP_PINK field
+
+Gets the DeepPink color.
+
+### See Also
+* class [`Color`](/redaction/python-net/groupdocs.redaction.options.drawing/color/)

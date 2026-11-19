@@ -5,7 +5,7 @@ description: "Comma Separated Values File (.csv)"
 type: docs
 url: /python-net/groupdocs.redaction/filetype/csv/
 is_root: false
-weight: 3200
+weight: 3320
 ---
 
 

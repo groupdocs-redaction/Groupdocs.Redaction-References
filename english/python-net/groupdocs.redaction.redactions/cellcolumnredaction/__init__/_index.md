@@ -29,16 +29,22 @@ def __init__(self, filter, reg_ex, options):
 ```python
 from groupdocs.redaction import Redactor
 from groupdocs.redaction.redactions import CellColumnRedaction, ReplacementOptions
-from groupdocs.pydrawing import Color
+from groupdocs.redaction.redactions import CellFilter
+
+# Define a filter for column 2 in the first worksheet
+cell_filter = CellFilter()
+cell_filter.column_index = 2
+cell_filter.work_sheet_name = "Sheet1"
+
+# Create a redaction that replaces matches of the regex with a placeholder
+redaction = CellColumnRedaction(
+    cell_filter,
+    r"\bsecret\b",
+    ReplacementOptions("[REDACTED]")
+)
 
 with Redactor("spreadsheet.xlsx") as redactor:
-    redactor.apply(
-        CellColumnRedaction(
-            CellFilter(worksheet="Sheet1", column=2),
-            r"\bsecret\b",
-            ReplacementOptions(Color.BLACK)
-        )
-    )
+    redactor.apply(redaction)
     redactor.save()
 ```
 

@@ -20,7 +20,16 @@ def __init__(self, fragments):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| fragments | `Iterable[TextFragment]` | initial set of text fragments |
+| fragments | `Iterable[TextFragment]` | initial set of text fragments. |
+
+### Example
+
+```python
+from groupdocs.redaction.integration.ocr import TextLine, TextFragment
+from groupdocs.redaction.options.drawing import Rectangle
+
+line = TextLine([TextFragment("Emily Johnson", Rectangle(40, 40, 230, 40))])
+```
 
 ### See Also
 * class [`TextLine`](/redaction/python-net/groupdocs.redaction.integration.ocr/textline/)

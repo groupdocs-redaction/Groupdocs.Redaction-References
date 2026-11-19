@@ -20,22 +20,25 @@ def __init__(self, top_left, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| top_left | `System.Drawing.Point` | Top-left area coordinates. |
+| top_left | `Point` | Top-left area coordinates. |
 | options | `RegionReplacementOptions` | Area size and color. |
 
 ### Example
 
 ```python
 from groupdocs.redaction.redactions import ImageAreaRedaction, RegionReplacementOptions
-from groupdocs.pydrawing import Point, Size, Color
+from groupdocs.redaction.options.drawing import Point, Size, Color
 
-# Define the top-left corner of the area to redact
-top_left = Point(385, 485)
-# Define the size and color of the redaction region
-region_options = RegionReplacementOptions(Color.from_argb(255, 220, 20, 60), Size(1793, 2069))
+# Define the top-left corner and size of the area to redact
+point = Point(385, 485)
+size = Size(1793, 2069)
 
-# Create the redaction object
-redaction = ImageAreaRedaction(top_left, region_options)
+# Define the redaction box color
+color = Color.from_argb(255, 220, 20, 60)
+
+# Create replacement options and the redaction instance
+repl_opt = RegionReplacementOptions(color, size)
+img_red = ImageAreaRedaction(point, repl_opt)
 ```
 
 ### See Also

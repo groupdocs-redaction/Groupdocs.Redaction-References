@@ -25,12 +25,15 @@ def add_advanced_option(self, option_type):
 ### Example
 
 ```python
+from groupdocs.redaction import Redactor
 from groupdocs.redaction.options import SaveOptions, AdvancedRasterizationOptions
 
-so = SaveOptions()
-so.rasterization.enabled = True
-so.rasterization.add_advanced_option(AdvancedRasterizationOptions.NOISE)
-so.rasterization.add_advanced_option(AdvancedRasterizationOptions.GRAYSCALE)
+with Redactor("./sample.docx") as redactor:
+    so = SaveOptions()
+    so.rasterization.enabled = True
+    so.redacted_file_suffix = "_scan"
+    so.rasterization.add_advanced_option(AdvancedRasterizationOptions.GRAYSCALE)
+    result_path = redactor.save(so)
 ```
 
 ## add_advanced_option {#option_type-parameters}
@@ -47,23 +50,13 @@ def add_advanced_option(self, option_type, parameters):
 | option_type | `AdvancedRasterizationOptions` | Provides information about the selected effect type (grayscale, border, etc.). |
 | parameters | `dict[str, str]` | Parameters for the given effect, such as rotation angle. |
 
-### Example
+### Aliases
 
-```python
-from groupdocs.redaction.options import RasterizationOptions, AdvancedRasterizationOptions
+These names call `add_advanced_option` too, limited to the overloads listed.
 
-ro = RasterizationOptions()
-ro.enabled = True
-# Apply built‑in effects
-ro.add_advanced_option(AdvancedRasterizationOptions.NOISE)
-ro.add_advanced_option(AdvancedRasterizationOptions.GRAYSCALE)
-
-# Apply an effect with custom settings, e.g., a border of 10 units
-ro.add_advanced_option(
-    AdvancedRasterizationOptions.BORDER,
-    {"border": "10"}
-)
-```
+| Alias | Accepts |
+| :- | :- |
+| `add_advanced_option_advanced_rasterization_options` | `add_advanced_option_advanced_rasterization_options(option_type)`<br>`add_advanced_option_advanced_rasterization_options(option_type, parameters)` |
 
 ### See Also
 * class [`RasterizationOptions`](/redaction/python-net/groupdocs.redaction.options/rasterizationoptions/)

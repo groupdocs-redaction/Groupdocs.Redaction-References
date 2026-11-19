@@ -5,7 +5,7 @@ description: "Microsoft Excel Open XML Spreadsheet (.xlsx)"
 type: docs
 url: /python-net/groupdocs.redaction/filetype/xlsx/
 is_root: false
-weight: 3170
+weight: 3260
 ---
 
 

@@ -13,10 +13,7 @@ weight: 20
 
 Provides access to a list of supported formats, built-in and custom user formats.
 
-Learn more:
-
-- More details about GroupDocs.Redaction configuration: https://docs.groupdocs.com/redaction/net/extend-supported-extensions-list/
-- More details about implementing custom formats: https://docs.groupdocs.com/redaction/net/create-custom-format-handler/
+- More details about GroupDocs.Redaction configuration: https://docs.groupdocs.com/redaction/python-net/extend-supported-extensions-list/
 
 The RedactorConfiguration type exposes the following members:
 
@@ -24,9 +21,7 @@ The RedactorConfiguration type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [find_format](/redaction/python-net/groupdocs.redaction.configuration/redactorconfiguration/find_format/#file_extension) | Finds format configurations for a given file extension. |
-| [find_format_file](/redaction/python-net/groupdocs.redaction.configuration/redactorconfiguration/find_format_file/) |  |
-| [find_format_string](/redaction/python-net/groupdocs.redaction.configuration/redactorconfiguration/find_format_string/) |  |
-| [get_instance](/redaction/python-net/groupdocs.redaction.configuration/redactorconfiguration/get_instance/) | Returns a singleton instance with the default configuration of built-in formats. |
+| [get_instance](/redaction/python-net/groupdocs.redaction.configuration/redactorconfiguration/get_instance/) | Provides a singleton instance with the default configuration of built-in formats. |
 
 ### Properties
 | Property | Description |
@@ -36,17 +31,17 @@ The RedactorConfiguration type exposes the following members:
 ### Example
 
 ```python
-# Add a custom user format handler
-adobe_photoshop_settings = DocumentFormatConfiguration()
-adobe_photoshop_settings.extension_filter = ".psd"
-adobe_photoshop_settings.document_type = MyAdobePhotoshopFormatInstance
+from groupdocs.redaction.configuration import RedactorConfiguration
 
+# Open .dump files with the plain-text format handler
 config = RedactorConfiguration.get_instance()
-config.available_formats.add(adobe_photoshop_settings)
+text_format = config.find_format(".txt")  # a DocumentFormatConfiguration
+text_format.extension_filter = text_format.extension_filter + ",.dump"
 ```
 
 ```python
-# Retrieve a built-in or custom user format handler
+from groupdocs.redaction.configuration import RedactorConfiguration
+
 config = RedactorConfiguration.get_instance()
 format_settings = config.find_format(".psd")
 ```

@@ -25,15 +25,14 @@ def __init__(self, replacement):
 ### Example
 
 ```python
-from groupdocs.redaction.redactions import ReplacementOptions
+    from groupdocs.redaction.redactions import ReplacementOptions
 
-# Replace matched text with "[REDACTED]"
-options = ReplacementOptions("[REDACTED]")
-```
+    options = ReplacementOptions("[X]")
+    ```
 
 ## __init__ {#color}
 
-Initializes a new instance of ReplacementOptions class with colored rectangle as an option.
+Initializes a new instance of ReplacementOptions class with a colored rectangle as an option.
 
 ```python
 def __init__(self, color):
@@ -42,7 +41,7 @@ def __init__(self, color):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| color | `System.Drawing.Color` | Rectangle color. |
+| color | `Color` | Rectangle color. |
 
 ### See Also
 * class [`ReplacementOptions`](/redaction/python-net/groupdocs.redaction.redactions/replacementoptions/)

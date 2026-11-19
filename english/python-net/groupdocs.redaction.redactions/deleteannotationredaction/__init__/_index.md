@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: "Initializes a new instance of DeleteAnnotationRedaction class, with settings to delete all annotations (matching everything)."
+description: "Initializes a new DeleteAnnotationRedaction instance that deletes all annotations (matches everything)."
 type: docs
 url: /python-net/groupdocs.redaction.redactions/deleteannotationredaction/__init__/
 is_root: false
@@ -11,25 +11,16 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of DeleteAnnotationRedaction class, with settings to delete all annotations (matching everything).
+Initializes a new DeleteAnnotationRedaction instance that deletes all annotations (matches everything).
 
 ```python
 def __init__(self):
     ...
 ```
 
-### Example
-
-```python
-from groupdocs.redaction.redactions import DeleteAnnotationRedaction
-
-# Delete all annotations
-del_red = DeleteAnnotationRedaction()
-```
-
 ## __init__ {#pattern}
 
-Initializes a new instance of DeleteAnnotationRedaction class, deleting annotations matching given expression.
+Initializes a new instance of DeleteAnnotationRedaction class, deleting annotations matching the given regular expression.
 
 ```python
 def __init__(self, pattern):
@@ -43,11 +34,13 @@ def __init__(self, pattern):
 ### Example
 
 ```python
-from groupdocs.redaction.redactions import DeleteAnnotationRedaction
+    from groupdocs.redaction import Redactor
+    from groupdocs.redaction.redactions import DeleteAnnotationRedaction
 
-# Delete annotations containing the word "internal" (case‑insensitive)
-del_red = DeleteAnnotationRedaction(r"(?i)internal")
-```
+    with Redactor("document.pdf") as redactor:
+        redactor.apply(DeleteAnnotationRedaction("(?i)internal"))
+        redactor.save()
+    ```
 
 ## __init__ {#regex}
 
@@ -67,7 +60,7 @@ def __init__(self, regex):
 ```python
 from groupdocs.redaction.redactions import DeleteAnnotationRedaction
 
-# Delete annotations whose content matches the regex (case‑insensitive)
+# Delete annotations whose text matches the case‑insensitive pattern "internal"
 del_red = DeleteAnnotationRedaction("(?i)internal")
 ```
 

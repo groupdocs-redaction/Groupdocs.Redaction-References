@@ -5,7 +5,7 @@ description: "Markdown Documentation File (.md)"
 type: docs
 url: /python-net/groupdocs.redaction/filetype/md/
 is_root: false
-weight: 3250
+weight: 3380
 ---
 
 

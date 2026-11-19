@@ -5,7 +5,7 @@ description: "Replaces the matching text in all annotations within the document 
 type: docs
 url: /python-net/groupdocs.redaction.integration/ifixedformatdocument/redact_annotation/
 is_root: false
-weight: 1030
+weight: 1020
 ---
 
 
@@ -20,10 +20,18 @@ def redact_annotation(self, regular_expression, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| regular_expression | `System.Text.RegularExpressions.Regex` | Regular expression to search and replace. |
-| options | `ReplacementOptions` | Replacement options. |
+| regular_expression | `System.Text.RegularExpressions.Regex` | Regular expression to search and replace |
+| options | `ReplacementOptions` | Replacement options |
 
-**Returns:** Replacement result.
+**Returns:** Replacement result
+
+### Aliases
+
+These names call `redact_annotation` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `redact_annotation_regex` | `redact_annotation_regex(regular_expression, options)` |
 
 ### See Also
 * class [`IFixedFormatDocument`](/redaction/python-net/groupdocs.redaction.integration/ifixedformatdocument/)

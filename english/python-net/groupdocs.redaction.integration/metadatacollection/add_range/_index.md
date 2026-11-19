@@ -20,7 +20,15 @@ def add_range(self, items):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| items | `MetadataCollection` | A collection of MetadataItem instances. |
+| items | `MetadataCollection` | A collection of `MetadataItem` instances. |
+
+### Aliases
+
+These names call `add_range` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `add_range_metadata_collection` | `add_range_metadata_collection(items)` |
 
 ### See Also
 * class [`MetadataCollection`](/redaction/python-net/groupdocs.redaction.integration/metadatacollection/)

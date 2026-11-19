@@ -18,7 +18,7 @@ def to_string(self):
     ...
 ```
 
-**Returns:** str: textual content of the recognized text fragment
+**Returns:** str: textual content of the recognized text fragment.
 
 ### See Also
 * class [`TextFragment`](/redaction/python-net/groupdocs.redaction.integration.ocr/textfragment/)

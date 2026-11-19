@@ -5,7 +5,7 @@ description: "The array of filters to apply with this redaction."
 type: docs
 url: /python-net/groupdocs.redaction.redactions/replacementoptions/filters/
 is_root: false
-weight: 2040
+weight: 2050
 ---
 
 

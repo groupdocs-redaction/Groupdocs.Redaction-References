@@ -6,7 +6,7 @@ description: "This article shows that how to get the list of all supported file 
 type: docs
 url: /python-net/guides/get-supported-file-formats/
 is_root: false
-weight: 130
+weight: 220
 ---
 
 
@@ -17,6 +17,8 @@ GroupDocs.Redaction allows to get the list of all supported file formats by thes
 
 The following example demonstrates how to get supported file formats list.
 
+{{< tabs "code-example-list-supported-formats" >}}
+{{< tab "list_supported_formats.py" >}}
 ```python
 from groupdocs.redaction import FileType
 
@@ -31,11 +33,12 @@ def list_supported_formats():
 if __name__ == "__main__":
     list_supported_formats()
 ```
-
-  
+{{< /tab >}}
+{{< tab "list-supported-formats.txt" >}}  
 ```text
 Bitmap Image File (.bmp)
 Comma Separated Values File (.csv)
+DjVu Image (.djvu)
 Microsoft Word Document (.doc)
 Word Open XML Macro-Enabled Document (.docm)
 Microsoft Word Open XML Document (.docx)
@@ -43,7 +46,8 @@ Word Document Template (.dot)
 Word Open XML Macro-Enabled Document Template (.dotm)
 Word Open XML Document Template (.dotx)
 Graphical Interchange Format File (.gif)
-Hypertext Markup Language File (.htm)
 [TRUNCATED]
 ```
 [Download full output](https://docs.groupdocs.com/redaction/python-net/_output_files/developer-guide/basic-usage/get-supported-file-formats/list_supported_formats/list-supported-formats.txt)
+{{< /tab >}}
+{{< /tabs >}}

@@ -5,7 +5,7 @@ description: "Replaces all matches with a given replacement in the specified col
 type: docs
 url: /python-net/groupdocs.redaction.integration/icellularformatinstance/replace_in_column/
 is_root: false
-weight: 1040
+weight: 1020
 ---
 
 
@@ -38,11 +38,21 @@ def replace_in_column(self, regular_expression, replacement, column):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| regular_expression | `System.Text.RegularExpressions.Regex` | Regular expression to search and replace. |
-| replacement | `str` | Textual replacement. |
-| column | `int` | Zero-based column index. |
+| regular_expression | `System.Text.RegularExpressions.Regex` | Regular expression to search and replace |
+| replacement | `str` | Textual replacement |
+| column | `int` | Zero-based column index |
 
-**Returns:** Replacement result.
+**Returns:** Replacement result
+
+### Aliases
+
+These names call `replace_in_column` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `replace_in_column_regex` | `replace_in_column_regex(regular_expression, replacement, column, sheet)`<br>`replace_in_column_regex(regular_expression, replacement, column)` |
+| `replace_in_column_file` | `replace_in_column_file(regular_expression, replacement, column, sheet)`<br>`replace_in_column_file(regular_expression, replacement, column)` |
+| `replace_in_column_string` | `replace_in_column_string(regular_expression, replacement, column, sheet)`<br>`replace_in_column_string(regular_expression, replacement, column)` |
 
 ### See Also
 * class [`ICellularFormatInstance`](/redaction/python-net/groupdocs.redaction.integration/icellularformatinstance/)

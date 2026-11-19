@@ -23,6 +23,7 @@ The PageSeekOrigin type exposes the following members:
 Task guides that use `PageSeekOrigin`:
 
 * [Remove page redactions](/redaction/python-net/guides/remove-page-redactions/)
+* [Use PageAreaRedaction](/redaction/python-net/guides/use-page-area-redaction/)
 
 ### See Also
 * module [`groupdocs.redaction.redactions`](/redaction/python-net/groupdocs.redaction.redactions/)

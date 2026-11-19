@@ -5,7 +5,7 @@ description: "Retrieves supported file types."
 type: docs
 url: /python-net/groupdocs.redaction/filetype/get_supported_file_types/
 is_root: false
-weight: 1060
+weight: 1040
 ---
 
 
@@ -23,19 +23,19 @@ def get_supported_file_types(cls):
 ### Example
 
 ```python
-from groupdocs.redaction import FileType
+    from groupdocs.redaction import FileType
 
-def list_supported_formats():
-    # Retrieve the collection of supported file types
-    supported_file_types = FileType.get_supported_file_types()
+    def list_supported_formats():
+        # Retrieve the collection of supported file types
+        supported_file_types = FileType.get_supported_file_types()
 
-    # Enumerate the file types sorted by extension
-    for file_type in sorted(supported_file_types, key=lambda x: x.extension):
-        print(file_type)
+        # Enumerate the file types sorted by extension
+        for ft in sorted(supported_file_types, key=lambda x: x.extension):
+            print(ft)
 
-if __name__ == "__main__":
-    list_supported_formats()
-```
+    if __name__ == "__main__":
+        list_supported_formats()
+    ```
 
 ### See Also
 * class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/)

@@ -5,7 +5,7 @@ description: "OpenDocument Presentation (.odp)"
 type: docs
 url: /python-net/groupdocs.redaction/filetype/odp/
 is_root: false
-weight: 3150
+weight: 3170
 ---
 
 

@@ -5,7 +5,7 @@ description: "Saves the redaction policy to a file."
 type: docs
 url: /python-net/groupdocs.redaction/redactionpolicy/save/
 is_root: false
-weight: 1060
+weight: 1020
 ---
 
 
@@ -25,9 +25,11 @@ def save(self, file_path):
 ### Example
 
 ```python
+    from groupdocs.redaction import RedactionPolicy
+    from groupdocs.redaction.redactions import ExactPhraseRedaction, ReplacementOptions
+
     policy = RedactionPolicy([
         ExactPhraseRedaction("ACME", ReplacementOptions("[CO]")),
-        RegexRedaction(r"\d{2,}", ReplacementOptions("[NUM]")),
     ])
     policy.save("./sample_policy.xml")
     ```
@@ -45,7 +47,33 @@ def save(self, output):
 | :- | :- | :- |
 | output | `io.RawIOBase` | Target stream to save the policy. |
 
-**Returns:** None.
+### Example
+
+```python
+import io
+from groupdocs.redaction import RedactionPolicy
+from groupdocs.redaction.redactions import ExactPhraseRedaction, ReplacementOptions
+
+policy = RedactionPolicy([
+    ExactPhraseRedaction("ACME", ReplacementOptions("[CO]")),
+    ExactPhraseRedaction("confidential", ReplacementOptions("[REDACTED]")),
+])
+
+with io.BytesIO() as stream:
+    policy.save(stream)
+    # The stream now contains the XML representation of the policy
+```
+
+### Aliases
+
+These names call `save` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `save_file` | `save_file(file_path)` |
+| `save_string` | `save_string(file_path)` |
+| `save_stream` | `save_stream(output)` |
+| `save_streams` | `save_streams(output)` |
 
 ### See Also
 * class [`RedactionPolicy`](/redaction/python-net/groupdocs.redaction/redactionpolicy/)

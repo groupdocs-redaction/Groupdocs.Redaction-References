@@ -1,7 +1,7 @@
 ---
 title: file_format property
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: "The file format name, for example \"Microsoft Word Document\"."
+description: "The file type name, e.g., \"Microsoft Word Document\"."
 type: docs
 url: /python-net/groupdocs.redaction/filetype/file_format/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2020
 
 ## file_format property
 
-The file format name, for example "Microsoft Word Document".
+The file type name, e.g., "Microsoft Word Document".
 
 ### Definition:
 ```python

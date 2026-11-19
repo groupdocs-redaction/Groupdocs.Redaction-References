@@ -5,7 +5,7 @@ description: "OpenDocument Document Template (.ott)"
 type: docs
 url: /python-net/groupdocs.redaction/filetype/ott/
 is_root: false
-weight: 3350
+weight: 3490
 ---
 
 

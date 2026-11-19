@@ -23,5 +23,13 @@ def get_object_data(self, info, context):
 | info | `System.Runtime.Serialization.SerializationInfo` | The object that holds the serialized object data. |
 | context | `System.Runtime.Serialization.StreamingContext` | The contextual information about the source or destination. |
 
+### Aliases
+
+These names call `get_object_data` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `get_object_data_serialization_info` | `get_object_data_serialization_info(info, context)` |
+
 ### See Also
 * class [`MetadataItem`](/redaction/python-net/groupdocs.redaction.integration/metadataitem/)

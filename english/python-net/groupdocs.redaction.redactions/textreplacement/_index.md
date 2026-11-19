@@ -15,7 +15,7 @@ Represents a textual replacement information.
 
 Learn more
 
-- More details about RedactionDescription class and IRedactionCallback interface: Use redaction callback (https://docs.groupdocs.com/redaction/net/use-redaction-callback/)
+- More details about RedactionDescription class and IRedactionCallback interface: https://docs.groupdocs.com/redaction/python-net/use-redaction-callback/
 
 The TextReplacement type exposes the following members:
 

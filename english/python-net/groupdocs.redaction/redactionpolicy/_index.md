@@ -5,7 +5,7 @@ description: "Represents a sanitization policy, containing a set of specific red
 type: docs
 url: /python-net/groupdocs.redaction/redactionpolicy/
 is_root: false
-weight: 120
+weight: 90
 ---
 
 
@@ -13,9 +13,8 @@ weight: 120
 
 Represents a sanitization policy, containing a set of specific redactions to apply.
 
-**Learn more**
-- More details about policies: https://docs.groupdocs.com/redaction/net/use-redaction-policies/
-- More details about applying redactions: https://docs.groupdocs.com/redaction/net/redaction-basics/
+- More details about policies: https://docs.groupdocs.com/redaction/python-net/use-redaction-policies/
+- More details about applying redactions: https://docs.groupdocs.com/redaction/python-net/redaction-basics/
 
 The RedactionPolicy type exposes the following members:
 
@@ -28,18 +27,10 @@ The RedactionPolicy type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [load](/redaction/python-net/groupdocs.redaction/redactionpolicy/load/#file_path) | Loads a RedactionPolicy from an XML file. |
+| [load](/redaction/python-net/groupdocs.redaction/redactionpolicy/load/#file_path) | Loads a [`RedactionPolicy`](/redaction/python-net/groupdocs.redaction/redactionpolicy/) from an XML file. |
 | [load](/redaction/python-net/groupdocs.redaction/redactionpolicy/load/#input) | Loads a RedactionPolicy instance from a stream containing XML configuration. |
-| [load_file](/redaction/python-net/groupdocs.redaction/redactionpolicy/load_file/) |  |
-| [load_stream](/redaction/python-net/groupdocs.redaction/redactionpolicy/load_stream/) |  |
-| [load_streams](/redaction/python-net/groupdocs.redaction/redactionpolicy/load_streams/) |  |
-| [load_string](/redaction/python-net/groupdocs.redaction/redactionpolicy/load_string/) |  |
 | [save](/redaction/python-net/groupdocs.redaction/redactionpolicy/save/#file_path) | Saves the redaction policy to a file. |
 | [save](/redaction/python-net/groupdocs.redaction/redactionpolicy/save/#output) | Saves the redaction policy to a stream. |
-| [save_file](/redaction/python-net/groupdocs.redaction/redactionpolicy/save_file/) |  |
-| [save_stream](/redaction/python-net/groupdocs.redaction/redactionpolicy/save_stream/) |  |
-| [save_streams](/redaction/python-net/groupdocs.redaction/redactionpolicy/save_streams/) |  |
-| [save_string](/redaction/python-net/groupdocs.redaction/redactionpolicy/save_string/) |  |
 
 ### Properties
 | Property | Description |
@@ -52,7 +43,7 @@ The RedactionPolicy type exposes the following members:
 from groupdocs.redaction import Redactor, RedactionPolicy
 from groupdocs.redaction.redactions import ExactPhraseRedaction, RegexRedaction, ReplacementOptions
 
-# Build a reusable policy in memory
+# Build a reusable policy with specific redaction rules
 policy = RedactionPolicy([
     ExactPhraseRedaction("ACME", ReplacementOptions("[CO]")),
     RegexRedaction(r"\d{2,}", ReplacementOptions("[NUM]")),

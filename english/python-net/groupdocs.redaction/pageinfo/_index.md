@@ -5,7 +5,7 @@ description: "Represents a brief page information."
 type: docs
 url: /python-net/groupdocs.redaction/pageinfo/
 is_root: false
-weight: 90
+weight: 70
 ---
 
 
@@ -14,7 +14,7 @@ weight: 90
 Represents a brief page information.
 
 Learn more:
-- https://docs.groupdocs.com/redaction/net/get-file-info/
+- https://docs.groupdocs.com/redaction/python-net/get-file-info/
 
 The PageInfo type exposes the following members:
 
@@ -26,9 +26,9 @@ The PageInfo type exposes the following members:
 ### Properties
 | Property | Description |
 | :- | :- |
-| [height](/redaction/python-net/groupdocs.redaction/pageinfo/height/) | The page height. |
+| [height](/redaction/python-net/groupdocs.redaction/pageinfo/height/) | The height of the page. |
 | [page_number](/redaction/python-net/groupdocs.redaction/pageinfo/page_number/) | The page number. |
-| [width](/redaction/python-net/groupdocs.redaction/pageinfo/width/) | The page width. |
+| [width](/redaction/python-net/groupdocs.redaction/pageinfo/width/) | The width of the page. |
 
 ### Example
 

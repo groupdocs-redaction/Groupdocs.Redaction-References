@@ -5,7 +5,7 @@ description: "Represents base exception for all GroupDocs.Redaction exceptions."
 type: docs
 url: /python-net/groupdocs.redaction/groupdocsredactionexception/
 is_root: false
-weight: 40
+weight: 30
 ---
 
 

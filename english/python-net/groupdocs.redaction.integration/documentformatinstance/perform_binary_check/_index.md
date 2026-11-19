@@ -5,7 +5,7 @@ description: "Checks if the given stream contains a document supported by this f
 type: docs
 url: /python-net/groupdocs.redaction.integration/documentformatinstance/perform_binary_check/
 is_root: false
-weight: 1080
+weight: 1040
 ---
 
 
@@ -23,6 +23,15 @@ def perform_binary_check(self, input):
 | input | `io.RawIOBase` | Document content stream. |
 
 **Returns:** bool: True if the document can be loaded by this format instance, False otherwise.
+
+### Aliases
+
+These names call `perform_binary_check` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `perform_binary_check_stream` | `perform_binary_check_stream(input)` |
+| `perform_binary_check_streams` | `perform_binary_check_streams(input)` |
 
 ### See Also
 * class [`DocumentFormatInstance`](/redaction/python-net/groupdocs.redaction.integration/documentformatinstance/)

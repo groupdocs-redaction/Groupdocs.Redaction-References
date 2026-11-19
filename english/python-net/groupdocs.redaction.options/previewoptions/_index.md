@@ -13,20 +13,20 @@ weight: 70
 
 Provides options to set requirements and stream delegates for preview generation.
 
-The class allows specifying the preview format, image dimensions, page numbers, and delegates that create and optionally release streams for each generated page.
+Use this class with [`Redactor.generate_preview`](/redaction/python-net/groupdocs.redaction/redactor/generate_preview/) to render document pages to image streams.
 
 The PreviewOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.options/previewoptions/__init__/#create_page_stream) | Initializes a new PreviewOptions instance. The output stream will be closed after use. |
+| [__init__](/redaction/python-net/groupdocs.redaction.options/previewoptions/__init__/#create_page_stream) | Initializes a new PreviewOptions instance, causing the output stream to be closed. |
 | [__init__](/redaction/python-net/groupdocs.redaction.options/previewoptions/__init__/#create_page_stream-release_page_stream) | Initializes a new PreviewOptions instance, causing the output stream to be returned to the client for further use. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [create_page_stream](/redaction/python-net/groupdocs.redaction.options/previewoptions/create_page_stream/) | The page stream creation delegate. |
+| [create_page_stream](/redaction/python-net/groupdocs.redaction.options/previewoptions/create_page_stream/) | The page stream creation delegate used to obtain a writable `io.RawIOBase` stream for each rendered page. |
 | [height](/redaction/python-net/groupdocs.redaction.options/previewoptions/height/) | The page preview height. |
 | [page_numbers](/redaction/python-net/groupdocs.redaction.options/previewoptions/page_numbers/) | The page numbers to generate preview. |
 | [preview_format](/redaction/python-net/groupdocs.redaction.options/previewoptions/preview_format/) | The preview image format. |
@@ -36,22 +36,27 @@ The PreviewOptions type exposes the following members:
 ### Example
 
 ```python
-from groupdocs.redaction import Redactor, PreviewOptions
+from groupdocs.redaction import Redactor
+from groupdocs.redaction.options import PreviewOptions
 
-def create_page_stream(page_number: int):
-    # Create a file for the preview image of the given page
-    path = f"C:/Temp/page_{page_number}.png"
-    return open(path, "wb")  # returns a writable binary stream
+def get_document_page_preview():
+    def create_page_stream(page_number):
+        return open(f"preview_page_{page_number}.png", "wb")
 
-preview_options = PreviewOptions(create_page_stream)
-preview_options.preview_format = PreviewOptions.PreviewFormats.PNG
-preview_options.height = 640
-preview_options.width = 480
-preview_options.page_numbers = [1]
-
-with Redactor("C:/Temp/SourceFile.pdf") as redactor:
-    redactor.generate_preview(preview_options)
+    with Redactor("./multipage_sample.docx") as redactor:
+        options = PreviewOptions(create_page_stream)
+        options.width = 480
+        options.height = 640
+        options.page_numbers = [1]
+        options.preview_format = PreviewOptions.PreviewFormats.PNG
+        redactor.generate_preview(options)
+        print("The preview of page 1 is saved to preview_page_1.png")
 ```
+
+### Guides
+Task guides that use `PreviewOptions`:
+
+* [Get document page preview](/redaction/python-net/guides/get-document-page-preview/)
 
 ### See Also
 * module [`groupdocs.redaction.options`](/redaction/python-net/groupdocs.redaction.options/)

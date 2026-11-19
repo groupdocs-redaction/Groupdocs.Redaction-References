@@ -5,7 +5,7 @@ description: "The rectangle width and height."
 type: docs
 url: /python-net/groupdocs.redaction.redactions/regionreplacementoptions/size/
 is_root: false
-weight: 2020
+weight: 2040
 ---
 
 

@@ -5,7 +5,7 @@ description: "Represents information about a document."
 type: docs
 url: /python-net/groupdocs.redaction/documentinfo/
 is_root: false
-weight: 20
+weight: 10
 ---
 
 
@@ -13,9 +13,11 @@ weight: 20
 
 Represents information about a document.
 
+See [`IDocumentInfo`](/redaction/python-net/groupdocs.redaction/idocumentinfo/) for examples.
+
 Learn more:
 
-- Get file info: https://docs.groupdocs.com/redaction/net/get-file-info/
+- https://docs.groupdocs.com/redaction/python-net/get-file-info/
 
 The DocumentInfo type exposes the following members:
 

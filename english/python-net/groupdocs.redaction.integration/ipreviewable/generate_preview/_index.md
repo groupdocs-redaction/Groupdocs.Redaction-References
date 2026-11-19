@@ -25,17 +25,29 @@ def generate_preview(self, preview_options):
 ### Example
 
 ```python
-from groupdocs.redaction import Redactor, PreviewOptions, PreviewFormats
+from groupdocs.redaction import Redactor
+from groupdocs.redaction.options import PreviewOptions
 
-with Redactor("document.pdf") as redactor:
-    options = PreviewOptions(
-        format=PreviewFormats.PNG,
-        start_page=1,
-        end_page=5,
-        create_page_stream=lambda page: open(f"page_{page}.png", "wb")
-    )
+def create_page_stream(page_number):
+    return open(f"preview_page_{page_number}.png", "wb")
+
+with Redactor("./multipage_sample.docx") as redactor:
+    options = PreviewOptions(create_page_stream)
+    options.width = 480
+    options.height = 640
+    options.page_numbers = [1]
+    options.preview_format = PreviewOptions.PreviewFormats.PNG
     redactor.generate_preview(options)
+    print("Preview saved to preview_page_1.png")
 ```
+
+### Aliases
+
+These names call `generate_preview` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `generate_preview_preview_options` | `generate_preview_preview_options(preview_options)` |
 
 ### See Also
 * class [`IPreviewable`](/redaction/python-net/groupdocs.redaction.integration/ipreviewable/)

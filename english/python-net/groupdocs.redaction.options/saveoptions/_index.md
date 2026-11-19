@@ -13,29 +13,30 @@ weight: 110
 
 Provides options for changing an output file name and/or converting the document to image‑based PDF (rasterization).
 
-Learn more:
-- [Save with default options](https://docs.groupdocs.com/redaction/net/save-with-default-options/)
-- [Save in rasterized PDF](https://docs.groupdocs.com/redaction/net/save-in-rasterized-pdf/)
-- [Select specific pages for rasterized PDF](https://docs.groupdocs.com/redaction/net/select-specific-pages-for-rasterized-pdf/)
-- [Save in original format](https://docs.groupdocs.com/redaction/net/save-in-original-format/)
-- [Save overwriting original file](https://docs.groupdocs.com/redaction/net/save-overwriting-original-file/)
-- [Save to stream](https://docs.groupdocs.com/redaction/net/save-to-stream/)
+Learn more
+- [Save with default options](https://docs.groupdocs.com/redaction/python-net/save-with-default-options/)
+- [Save in rasterized PDF](https://docs.groupdocs.com/redaction/python-net/save-in-rasterized-pdf/)
+- [Select specific pages for rasterized PDF](https://docs.groupdocs.com/redaction/python-net/select-specific-pages-for-rasterized-pdf/)
+- [Save in original format](https://docs.groupdocs.com/redaction/python-net/save-in-original-format/)
+- [Save overwriting original file](https://docs.groupdocs.com/redaction/python-net/save-overwriting-original-file/)
+- [Save to stream](https://docs.groupdocs.com/redaction/python-net/save-to-stream/)
 
 The SaveOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.options/saveoptions/__init__/) | Initializes a new instance with default settings: rasterize_to_pdf is False and add_suffix is False. |
-| [__init__](/redaction/python-net/groupdocs.redaction.options/saveoptions/__init__/#rasterize_to_pdf-suffix) | Initializes a new instance with given parameters. |
+| [__init__](/redaction/python-net/groupdocs.redaction.options/saveoptions/__init__/) | Initializes a new instance with default settings: rasterize to PDF is False and add suffix is False. |
+| [__init__](/redaction/python-net/groupdocs.redaction.options/saveoptions/__init__/#rasterize_to_pdf-suffix) | Initializes a new SaveOptions instance with given parameters. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [add_suffix](/redaction/python-net/groupdocs.redaction.options/saveoptions/add_suffix/) | The add_suffix property indicates whether the file name should be changed before saving. Defaults to False. |
+| [add_suffix](/redaction/python-net/groupdocs.redaction.options/saveoptions/add_suffix/) | The file name will be changed before saving when set to True. False by default. |
 | [rasterization](/redaction/python-net/groupdocs.redaction.options/saveoptions/rasterization/) | The rasterization settings. |
-| [rasterize_to_pdf](/redaction/python-net/groupdocs.redaction.options/saveoptions/rasterize_to_pdf/) | The flag indicating whether all pages in the document are converted to images and combined into a single PDF file. |
-| [redacted_file_suffix](/redaction/python-net/groupdocs.redaction.options/saveoptions/redacted_file_suffix/) | The custom suffix for the output file name. If not specified, the [`SaveOptions.SaveSuffix`](/redaction/python-net/groupdocs.redaction.options/saveoptions/save_suffix/) constant is used. |
+| [rasterize_to_pdf](/redaction/python-net/groupdocs.redaction.options/saveoptions/rasterize_to_pdf/) | The rasterize_to_pdf property indicates whether all pages in the document are converted to images and placed in a single PDF file. |
+| [redacted_file_suffix](/redaction/python-net/groupdocs.redaction.options/saveoptions/redacted_file_suffix/) | The custom suffix for the output file name. If not specified, the [`SaveOptions.save_suffix`](/redaction/python-net/groupdocs.redaction.options/saveoptions/save_suffix/) constant is used. |
+| [wordprocessing_save_options](/redaction/python-net/groupdocs.redaction.options/saveoptions/wordprocessing_save_options/) | The save options specific to word processing documents. |
 
 ### Fields
 | Field | Description |
@@ -49,27 +50,21 @@ from groupdocs.redaction import Redactor
 from groupdocs.redaction.options import SaveOptions
 from groupdocs.redaction.redactions import ExactPhraseRedaction, ReplacementOptions
 
-def save_with_default_options():
-    repl_opt = ReplacementOptions("[personal]")
-    ex_red = ExactPhraseRedaction("John Doe", repl_opt)
-
-    with Redactor("./sample.docx") as redactor:
-        redactor.apply(ex_red)
-
-        # Save the document with default options (rasterize to PDF and add suffix)
-        save_options = SaveOptions()
-        save_options.add_suffix = True
-        save_options.rasterize_to_pdf = True
-        save_options.redacted_file_suffix = "redacted"
-
-        result_path = redactor.save(save_options)
-        print(f"Document redacted successfully. Check output in {result_path}.")
+with Redactor("./sample.docx") as redactor:
+    redactor.apply(ExactPhraseRedaction("Emily Johnson", ReplacementOptions("[personal]")))
+    options = SaveOptions()
+    options.add_suffix = True
+    options.rasterize_to_pdf = True
+    options.redacted_file_suffix = "redacted"
+    result_path = redactor.save(options)
+    print(f"Document saved to {result_path}")
 ```
 
 ### Guides
 Task guides that use `SaveOptions`:
 
 * [Hello, World!](/redaction/python-net/guides/hello-world/)
+* [Quick Start Guide](/redaction/python-net/guides/quick-start-guide/)
 * [Redaction basics](/redaction/python-net/guides/redaction-basics/)
 * [Text redaction](/redaction/python-net/guides/text-redactions/)
 * [Image redactions](/redaction/python-net/guides/image-redactions/)
@@ -78,6 +73,10 @@ Task guides that use `SaveOptions`:
 * [Spreadsheet redactions](/redaction/python-net/guides/spreadsheet-redactions/)
 * [Remove page redactions](/redaction/python-net/guides/remove-page-redactions/)
 * [Use redaction policies](/redaction/python-net/guides/use-redaction-policies/)
+* [OCR usage basics](/redaction/python-net/guides/ocr-usage-basics/)
+* [Use Tesseract OCR](/redaction/python-net/guides/use-tesseract-ocr/)
+* [Load with file type](/redaction/python-net/guides/load-with-file-type/)
+* [Save Word with OOXML compliance](/redaction/python-net/guides/save-word-with-ooxml-compliance/)
 
 ### See Also
 * module [`groupdocs.redaction.options`](/redaction/python-net/groupdocs.redaction.options/)

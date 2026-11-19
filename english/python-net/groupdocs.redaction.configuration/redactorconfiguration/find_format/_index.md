@@ -22,7 +22,7 @@ def find_format(self, file_extension):
 | :- | :- | :- |
 | file_extension | `str` | File extension, format is ".ext". |
 
-**Returns:** DocumentFormatConfiguration or None: If found, instance of DocumentFormatConfiguration, None otherwise.
+**Returns:** DocumentFormatConfiguration or None: If found, instance of `DocumentFormatConfiguration`, otherwise `None`.
 
 ### Example
 
@@ -32,12 +32,22 @@ from groupdocs.redaction.configuration import RedactorConfiguration
 # Obtain the singleton configuration instance
 config = RedactorConfiguration.get_instance()
 
-# Retrieve the format settings for a given extension
+# Retrieve settings for the ".txt" extension
 settings = config.find_format(".txt")
 if settings:
-    # Extend the list of handled extensions, e.g., add .dump
+    # Example: extend the list of handled extensions
     settings.extension_filter = settings.extension_filter + ",.dump"
+    print("Updated extensions:", settings.extension_filter)
 ```
+
+### Aliases
+
+These names call `find_format` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `find_format_file` | `find_format_file(file_extension)` |
+| `find_format_string` | `find_format_string(file_extension)` |
 
 ### See Also
 * class [`RedactorConfiguration`](/redaction/python-net/groupdocs.redaction.configuration/redactorconfiguration/)

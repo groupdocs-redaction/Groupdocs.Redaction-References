@@ -13,8 +13,8 @@ weight: 80
 
 Provides options for converting files into PDF.
 
-- More details about saving document as a rasterized PDF: https://docs.groupdocs.com/redaction/net/save-in-rasterized-pdf/
-- More details about rasterization options: https://docs.groupdocs.com/redaction/net/select-specific-pages-for-rasterized-pdf/
+- More details about saving document as a rasterized PDF: https://docs.groupdocs.com/redaction/python-net/save-in-rasterized-pdf/
+- More details about rasterization options: https://docs.groupdocs.com/redaction/python-net/select-specific-pages-for-rasterized-pdf/
 
 The RasterizationOptions type exposes the following members:
 
@@ -28,7 +28,6 @@ The RasterizationOptions type exposes the following members:
 | :- | :- |
 | [add_advanced_option](/redaction/python-net/groupdocs.redaction.options/rasterizationoptions/add_advanced_option/#option_type) | Registers an advanced rasterization option to apply. |
 | [add_advanced_option](/redaction/python-net/groupdocs.redaction.options/rasterizationoptions/add_advanced_option/#option_type-parameters) | Registers an advanced rasterization option to apply. |
-| [add_advanced_option_advanced_rasterization_options](/redaction/python-net/groupdocs.redaction.options/rasterizationoptions/add_advanced_option_advanced_rasterization_options/) |  |
 
 ### Properties
 | Property | Description |
@@ -37,20 +36,20 @@ The RasterizationOptions type exposes the following members:
 | [enabled](/redaction/python-net/groupdocs.redaction.options/rasterizationoptions/enabled/) | The enabled flag indicates whether all pages in the document are converted to images and placed in a single PDF file. True by default; set to False to avoid rasterization. |
 | [has_advanced_options](/redaction/python-net/groupdocs.redaction.options/rasterizationoptions/has_advanced_options/) | The indicator is True if advanced rasterization options are set. |
 | [page_count](/redaction/python-net/groupdocs.redaction.options/rasterizationoptions/page_count/) | The number of pages to be converted into PDF. |
-| [page_index](/redaction/python-net/groupdocs.redaction.options/rasterizationoptions/page_index/) | The index of the first page (0-based) to convert into PDF. |
+| [page_index](/redaction/python-net/groupdocs.redaction.options/rasterizationoptions/page_index/) | The zero‑based index of the first page to convert into PDF. |
 
 ### Example
 
 ```python
 from groupdocs.redaction import Redactor
-from groupdocs.redaction.options import RasterizationOptions, PdfComplianceLevel
+from groupdocs.redaction.options import RasterizationOptions
 
-with Redactor("SomePresentation.pptx") as redactor:
+# Load a document and save it as a rasterized PDF
+with Redactor("./sample.docx") as redactor:
     ro = RasterizationOptions()
-    ro.page_index = 0          # first slide
-    ro.page_count = 1
-    ro.compliance = PdfComplianceLevel.PdfA1a
-    redactor.save("PresentationFirstSlide.pdf", ro)
+    ro.enabled = True  # convert pages to images and embed in PDF
+    with open("./output.pdf", "wb") as out_stream:
+        redactor.save(out_stream, ro)
 ```
 
 ### See Also

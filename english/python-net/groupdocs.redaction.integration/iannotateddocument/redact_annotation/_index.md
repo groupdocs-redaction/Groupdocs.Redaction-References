@@ -5,7 +5,7 @@ description: "Replaces the matching text in all annotations within the document.
 type: docs
 url: /python-net/groupdocs.redaction.integration/iannotateddocument/redact_annotation/
 is_root: false
-weight: 1030
+weight: 1020
 ---
 
 
@@ -24,6 +24,16 @@ def redact_annotation(self, regular_expression, replacement):
 | replacement | `str` | Textual replacement. |
 
 **Returns:** Replacement result.
+
+### Aliases
+
+These names call `redact_annotation` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `redact_annotation_regex` | `redact_annotation_regex(regular_expression, replacement)` |
+| `redact_annotation_file` | `redact_annotation_file(regular_expression, replacement)` |
+| `redact_annotation_string` | `redact_annotation_string(regular_expression, replacement)` |
 
 ### See Also
 * class [`IAnnotatedDocument`](/redaction/python-net/groupdocs.redaction.integration/iannotateddocument/)

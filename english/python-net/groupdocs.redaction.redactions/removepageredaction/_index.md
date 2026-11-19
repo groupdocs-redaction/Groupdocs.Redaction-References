@@ -13,30 +13,28 @@ weight: 250
 
 Represents a redaction that removes a page (slide, worksheet, etc.) from a document.
 
-Learn more
-- More details about applying redactions: https://docs.groupdocs.com/redaction/net/redaction-basics/
-- More details about removing pages: https://docs.groupdocs.com/redaction/net/remove-page-redaction/
+Learn more:
+- More details about applying redactions: https://docs.groupdocs.com/redaction/python-net/redaction-basics/
 
 The RemovePageRedaction type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction/__init__/#origin-index-count) | Initializes a new RemovePageRedaction. |
+| [__init__](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction/__init__/#origin-index-count) | Initializes a new instance of RemovePageRedaction. |
 
 ### Methods
 | Method | Description |
 | :- | :- |
 | [apply_to](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction/apply_to/#format_instance) | Applies the redaction to a given format instance. |
-| [apply_to_document_format_instance](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction/apply_to_document_format_instance/) |  |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [count](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction/count/) | The count of pages to remove. |
+| [count](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction/count/) | The number of pages to remove. |
 | [index](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction/index/) | The start position index (0-based). |
 | [origin](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction/origin/) | The seek reference position, either the beginning or the end of a document. |
-| [description](/redaction/python-net/groupdocs.redaction/redaction/description/) | The description of the redaction, containing its name and parameters. (inherited from [`Redaction`](/redaction/python-net/groupdocs.redaction/redaction/)) |
+| [description](/redaction/python-net/groupdocs.redaction/redaction/description/) | The description of the redaction, describing the redaction and its parameters. (inherited from [`Redaction`](/redaction/python-net/groupdocs.redaction/redaction/)) |
 
 ### Example
 
@@ -45,18 +43,19 @@ from groupdocs.redaction import Redactor
 from groupdocs.redaction.options import SaveOptions
 from groupdocs.redaction.redactions import RemovePageRedaction, PageSeekOrigin
 
-def remove_last_page():
-    # Remove 1 page counting from the end of the document
-    rem_opt = RemovePageRedaction(PageSeekOrigin.END, 0, 1)
+# Remove the last page of a document
+rem_opt = RemovePageRedaction(PageSeekOrigin.END, 0, 1)
 
-    with Redactor("./test.pdf") as redactor:
-        # Apply the redaction
-        result = redactor.apply(rem_opt)
+with Redactor("./test.pdf") as redactor:
+    # Apply the redaction
+    result = redactor.apply(rem_opt)
 
-        # Save the redacted document
-        so = SaveOptions()
-        so.add_suffix = True
-        redactor.save(so)
+    # Save the redacted document next to the source file
+    so = SaveOptions()
+    so.add_suffix = True
+    so.rasterize_to_pdf = False
+    so.redacted_file_suffix = "redacted"
+    redactor.save(so)
 ```
 
 ### Guides

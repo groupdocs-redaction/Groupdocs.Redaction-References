@@ -5,7 +5,7 @@ description: "CreatePageStream.invoke method — GroupDocs.Redaction for Python 
 type: docs
 url: /python-net/groupdocs.redaction.options/createpagestream/invoke/
 is_root: false
-weight: 1050
+weight: 1030
 ---
 
 
@@ -19,6 +19,14 @@ def invoke(self, page_number):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | page_number | `int` |  |
+
+### Aliases
+
+These names call `invoke` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `invoke_int32` | `invoke_int32(page_number)` |
 
 ### See Also
 * class [`CreatePageStream`](/redaction/python-net/groupdocs.redaction.options/createpagestream/)

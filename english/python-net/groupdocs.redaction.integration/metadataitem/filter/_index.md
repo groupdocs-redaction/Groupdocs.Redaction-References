@@ -1,7 +1,7 @@
 ---
 title: filter property
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: "The filter assigned to this metadata item, represented by a MetadataFilters value, used for item filtration."
+description: "The metadata filter assigned to this metadata item, using MetadataFilters."
 type: docs
 url: /python-net/groupdocs.redaction.integration/metadataitem/filter/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2040
 
 ## filter property
 
-The filter assigned to this metadata item, represented by a `MetadataFilters` value, used for item filtration.
+The metadata filter assigned to this metadata item, using `MetadataFilters`.
 
 ### Definition:
 ```python

@@ -5,7 +5,7 @@ description: "OpenDocument Spreadsheet (.ods)"
 type: docs
 url: /python-net/groupdocs.redaction/filetype/ods/
 is_root: false
-weight: 3220
+weight: 3350
 ---
 
 

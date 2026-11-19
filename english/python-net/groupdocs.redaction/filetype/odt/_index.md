@@ -5,7 +5,7 @@ description: "OpenDocument Text Document (.odt)"
 type: docs
 url: /python-net/groupdocs.redaction/filetype/odt/
 is_root: false
-weight: 3340
+weight: 3480
 ---
 
 

@@ -18,6 +18,7 @@ Task-oriented guides with runnable Python examples.
 | :- | :- |
 | [Install GroupDocs.Redaction for Python via .NET](/redaction/python-net/guides/installation/) | |
 | [Hello, World!](/redaction/python-net/guides/hello-world/) | |
+| [Quick Start Guide](/redaction/python-net/guides/quick-start-guide/) | |
 | [Features Overview](/redaction/python-net/guides/features-overview/) | |
 | [Redaction basics](/redaction/python-net/guides/redaction-basics/) | |
 | [Text redaction](/redaction/python-net/guides/text-redactions/) | |
@@ -26,6 +27,14 @@ Task-oriented guides with runnable Python examples.
 | [Annotation redactions](/redaction/python-net/guides/annotation-redactions/) | |
 | [Spreadsheet redactions](/redaction/python-net/guides/spreadsheet-redactions/) | |
 | [Remove page redactions](/redaction/python-net/guides/remove-page-redactions/) | |
+| [Get document page preview](/redaction/python-net/guides/get-document-page-preview/) | |
 | [Use redaction policies](/redaction/python-net/guides/use-redaction-policies/) | |
+| [Use redaction callback](/redaction/python-net/guides/use-redaction-callback/) | |
+| [Use PageAreaRedaction](/redaction/python-net/guides/use-page-area-redaction/) | |
+| [OCR usage basics](/redaction/python-net/guides/ocr-usage-basics/) | |
+| [Use Tesseract OCR](/redaction/python-net/guides/use-tesseract-ocr/) | |
+| [Load with file type](/redaction/python-net/guides/load-with-file-type/) | |
+| [Use advanced logging](/redaction/python-net/guides/use-advanced-logging/) | |
+| [Save Word with OOXML compliance](/redaction/python-net/guides/save-word-with-ooxml-compliance/) | |
 | [Get file info](/redaction/python-net/guides/get-file-info/) | |
 | [Get supported file formats](/redaction/python-net/guides/get-supported-file-formats/) | |

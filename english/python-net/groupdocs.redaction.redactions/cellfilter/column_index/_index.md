@@ -1,7 +1,7 @@
 ---
 title: column_index property
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: "The zero-based column index."
+description: "The column index (zero-based)."
 type: docs
 url: /python-net/groupdocs.redaction.redactions/cellfilter/column_index/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2010
 
 ## column_index property
 
-The zero-based column index.
+The column index (zero-based).
 
 ### Definition:
 ```python

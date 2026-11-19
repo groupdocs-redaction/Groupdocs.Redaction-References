@@ -5,7 +5,7 @@ description: "Hypertext Markup Language File (.htm)"
 type: docs
 url: /python-net/groupdocs.redaction/filetype/htm/
 is_root: false
-weight: 3100
+weight: 3120
 ---
 
 

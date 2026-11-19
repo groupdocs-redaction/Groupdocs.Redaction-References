@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: "Initializes a new instance of RegexRedaction."
+description: "Initializes a new RegexRedaction."
 type: docs
 url: /python-net/groupdocs.redaction.redactions/regexredaction/__init__/
 is_root: false
@@ -11,7 +11,7 @@ weight: 10
 
 ## __init__ {#pattern-options}
 
-Initializes a new instance of RegexRedaction.
+Initializes a new RegexRedaction.
 
 ```python
 def __init__(self, pattern, options):
@@ -26,14 +26,16 @@ def __init__(self, pattern, options):
 ### Example
 
 ```python
+from groupdocs.redaction import Redactor
 from groupdocs.redaction.redactions import RegexRedaction, ReplacementOptions
 
-redaction = RegexRedaction(r"\d{2,}", ReplacementOptions("[NUM]"))
+with Redactor("document.docx") as redactor:
+    redactor.apply(RegexRedaction(r"\d{2,}", ReplacementOptions("[NUM]")))
 ```
 
 ## __init__ {#regex-options}
 
-Initializes a new RegexRedaction instance.
+Initializes a new RegexRedaction.
 
 ```python
 def __init__(self, regex, options):
@@ -50,6 +52,7 @@ def __init__(self, regex, options):
 ```python
 from groupdocs.redaction.redactions import RegexRedaction, ReplacementOptions
 
+# Replace sequences of two or more digits with placeholder text
 redaction = RegexRedaction(r"\d{2,}", ReplacementOptions("[NUM]"))
 ```
 

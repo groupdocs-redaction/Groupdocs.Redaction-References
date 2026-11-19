@@ -6,7 +6,7 @@ type: docs
 url: /python-net/
 is_root: true
 weight: 40
-version: 26.6.0
+version: 26.11.0
 ---
 
 
@@ -15,9 +15,11 @@ version: 26.6.0
 | :- | :- |
 | [`groupdocs.redaction`](/redaction/python-net/groupdocs.redaction/) | Main GroupDocs.Redaction namespace with top-level API classes. |
 | [`groupdocs.redaction.configuration`](/redaction/python-net/groupdocs.redaction.configuration/) | Types under `groupdocs.redaction.configuration`. |
+| [`groupdocs.redaction.exceptions`](/redaction/python-net/groupdocs.redaction.exceptions/) | Product-specific exception types raised by the API. |
 | [`groupdocs.redaction.integration`](/redaction/python-net/groupdocs.redaction.integration/) | Types under `groupdocs.redaction.integration`. |
 | [`groupdocs.redaction.integration.ocr`](/redaction/python-net/groupdocs.redaction.integration.ocr/) | Types under `groupdocs.redaction.integration.ocr`. |
-| [`groupdocs.redaction.options`](/redaction/python-net/groupdocs.redaction.options/) | Option classes for configuring conversions and operations. |
+| [`groupdocs.redaction.options`](/redaction/python-net/groupdocs.redaction.options/) | Option classes that configure the API's operations. |
+| [`groupdocs.redaction.options.drawing`](/redaction/python-net/groupdocs.redaction.options.drawing/) | Types under `groupdocs.redaction.options.drawing`. |
 | [`groupdocs.redaction.redactions`](/redaction/python-net/groupdocs.redaction.redactions/) | Types under `groupdocs.redaction.redactions`. |
 
 ### Developer Guide

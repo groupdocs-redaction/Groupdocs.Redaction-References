@@ -5,7 +5,7 @@ description: "Maps file extension to file type."
 type: docs
 url: /python-net/groupdocs.redaction/filetype/from_extension/
 is_root: false
-weight: 1040
+weight: 1020
 ---
 
 
@@ -26,7 +26,7 @@ def from_extension(cls, extension):
 
 | Raises | Description |
 | :- | :- |
-| `ValueError` | When `extension` is null or empty string. |
+| `ValueError` | Raised when `extension` is null or empty string. |
 
 ### See Also
 * class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/)

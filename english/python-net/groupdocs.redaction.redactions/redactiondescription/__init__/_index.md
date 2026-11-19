@@ -26,7 +26,7 @@ def __init__(self, redaction_type, action_type, original_text):
 
 ## __init__ {#redaction_type-action_type-original_text-replacement}
 
-Initializes a new instance of RedactionDescription class with replacement information.
+Initializes a new RedactionDescription with replacement information.
 
 ```python
 def __init__(self, redaction_type, action_type, original_text, replacement):
@@ -54,7 +54,7 @@ def __init__(self, redaction_type, action_type, image_area_replacement, image_de
 | redaction_type | `RedactionType` | Type of data being redacted. |
 | action_type | `RedactionActionType` | Action to be performed on these data. |
 | image_area_replacement | `RegionReplacementOptions` | Image area replacement information. |
-| image_details | `str` | Image textual description, by default it is an empty string. |
+| image_details | `str` | Image textual description, by default it is `""`. |
 
 ### See Also
 * class [`RedactionDescription`](/redaction/python-net/groupdocs.redaction.redactions/redactiondescription/)

@@ -22,24 +22,21 @@ def apply(self, redaction):
 | :- | :- | :- |
 | redaction | `Redaction` | An instance of `Redaction` to apply. |
 
-**Returns:** RedactorChangeLog: Indicates success or failure and includes an error message when the operation fails.
+**Returns:** RedactorChangeLog: Success or failure and error message in this case.
 
 ### Example
 
 ```python
 from groupdocs.redaction import Redactor, RedactionStatus
-from groupdocs.redaction.redactions import RegexRedaction, ReplacementOptions
+from groupdocs.redaction.redactions import ExactPhraseRedaction, ReplacementOptions
 
-def apply_redaction():
-    # Define the redaction to replace SSN patterns
-    ssn_redaction = RegexRedaction(r"\b\d{3}-\d{2}-\d{4}\b", ReplacementOptions("[ssn]"))
+with Redactor("./sample.docx") as redactor:
+    repl_opt = ReplacementOptions("[personal]")
+    redaction = ExactPhraseRedaction("Emily Johnson", repl_opt)
+    result = redactor.apply(redaction)
 
-    # Load the document and apply the redaction
-    with Redactor("./test.docx") as redactor:
-        result = redactor.apply(ssn_redaction)
-
-        if result.status != RedactionStatus.FAILED:
-            redactor.save()
+    if result.status != RedactionStatus.FAILED:
+        redactor.save()
 ```
 
 ## apply {#redactions}
@@ -61,28 +58,11 @@ def apply(self, redactions):
 
 ```python
 from groupdocs.redaction import Redactor, RedactionStatus
-from groupdocs.redaction.redactions import (
-    ExactPhraseRedaction,
-    RegexRedaction,
-    DeleteAnnotationRedaction,
-    EraseMetadataRedaction,
-    MetadataSearchRedaction,
-    ReplacementOptions,
-)
-from groupdocs.redaction.metadata import MetadataFilter
+from groupdocs.redaction.redactions import ExactPhraseRedaction, ReplacementOptions
 
-redaction_list = [
-    ExactPhraseRedaction("ClientName", ReplacementOptions("[client]")),
-    ExactPhraseRedaction("ClientAddress", ReplacementOptions("[address]")),
-    RegexRedaction(r"\d{3}-\d{2}-\d{4}", ReplacementOptions("[ssn]")),
-    RegexRedaction(r"\d{16}", ReplacementOptions("[card]")),
-    DeleteAnnotationRedaction(r"(?im:(use|show|describe))"),
-    EraseMetadataRedaction(MetadataFilter.Author),
-    MetadataSearchRedaction("CompanyName", "--company--"),
-]
-
-with Redactor("./test.docx") as redactor:
-    result = redactor.apply(redaction_list)
+with Redactor("document.docx") as redactor:
+    redaction = ExactPhraseRedaction("confidential", ReplacementOptions("[REDACTED]"))
+    result = redactor.apply([redaction])
     if result.status != RedactionStatus.FAILED:
         redactor.save()
 ```
@@ -98,31 +78,37 @@ def apply(self, policy):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| policy | `RedactionPolicy` | Redaction policy. |
+| policy | `RedactionPolicy` | Redaction policy to apply. |
 
-**Returns:** `RedactorChangeLog`: Indicates success or failure and contains an error message if the operation failed.
+**Returns:** RedactorChangeLog: Contains the status of the operation and an error message if the operation failed.
 
 ### Example
 
 ```python
 import os
 from groupdocs.redaction import Redactor, RedactionPolicy, RedactionStatus
-from groupdocs.redaction.options import RasterizationOptions
+from groupdocs.redaction.options import SaveOptions
 
 policy = RedactionPolicy.load("RedactionPolicy.xml")
-for file_name in os.listdir(r"C:\Inbound"):
-    file_path = os.path.join(r"C:\Inbound", file_name)
-    with Redactor(file_path) as redactor:
+for folder in ("outbound/done", "outbound/failed"):
+    os.makedirs(folder, exist_ok=True)
+
+for file_name in os.listdir("inbound"):
+    with Redactor(os.path.join("inbound", file_name)) as redactor:
         result = redactor.apply(policy)
-        out_folder = (
-            r"C:\Outbound\Done"
-            if result.status != RedactionStatus.FAILED
-            else r"C:\Outbound\Failed"
-        )
-        out_path = os.path.join(out_folder, file_name)
-        with open(out_path, "r+b") as stream:
-            redactor.save(stream, RasterizationOptions(enabled=False))
+        target_dir = "outbound/done" if result.status != RedactionStatus.FAILED else "outbound/failed"
+        with open(os.path.join(target_dir, file_name), "wb") as output:
+            redactor.save(output, SaveOptions(rasterize_to_pdf=False))  # keep the format
 ```
+
+### Aliases
+
+These names call `apply` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `apply_redaction` | `apply_redaction(redaction)`<br>`apply_redaction(redactions)` |
+| `apply_redaction_policy` | `apply_redaction_policy(policy)` |
 
 ### See Also
 * class [`Redactor`](/redaction/python-net/groupdocs.redaction/redactor/)

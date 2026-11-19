@@ -20,21 +20,23 @@ def __init__(self, fill_color, size):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| fill_color | `System.Drawing.Color` | Color to fill the area. |
-| size | `System.Drawing.Size` | Filled area size. |
+| fill_color | `Color` | Color to fill the area. |
+| size | `Size` | Filled area size. |
 
 ### Example
 
 ```python
+from groupdocs.redaction.options.drawing import Color, Size
 from groupdocs.redaction.redactions import RegionReplacementOptions
-from groupdocs.pydrawing import Color, Size
 
-options = RegionReplacementOptions(Color.BLACK, Size(200, 80))
+color = Color.from_argb(255, 220, 20, 60)
+size = Size(1793, 2069)
+repl_opt = RegionReplacementOptions(color, size)
 ```
 
 ## __init__ {#fill_color-font-expected_text}
 
-Initializes a new instance of RegionReplacementOptions class which size matches given text.
+Initializes a new RegionReplacementOptions instance whose size matches the given text.
 
 ```python
 def __init__(self, fill_color, font, expected_text):
@@ -43,8 +45,8 @@ def __init__(self, fill_color, font, expected_text):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| fill_color | `System.Drawing.Color` | Color to fill the area. |
-| font | `System.Drawing.Font` | Expected text font. |
+| fill_color | `Color` | Color to fill the area. |
+| font | `Font` | Expected text font. |
 | expected_text | `str` | Expected text. |
 
 ### See Also

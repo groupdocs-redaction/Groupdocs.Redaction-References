@@ -13,8 +13,8 @@ weight: 140
 
 Represents a metadata redaction that searches and redacts metadata using regular expressions, matching keys and/or values.
 
-- More details about applying redactions: <https://docs.groupdocs.com/redaction/net/redaction-basics/>
-- More details about document metadata redactions: <https://docs.groupdocs.com/redaction/net/metadata-redactions/>
+- More details about applying redactions: <https://docs.groupdocs.com/redaction/python-net/redaction-basics/>
+- More details about document metadata redactions: <https://docs.groupdocs.com/redaction/python-net/metadata-redactions/>
 
 The MetadataSearchRedaction type exposes the following members:
 
@@ -22,20 +22,19 @@ The MetadataSearchRedaction type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/redaction/python-net/groupdocs.redaction.redactions/metadatasearchredaction/__init__/#value_pattern-replacement) | Initializes a new instance of MetadataSearchRedaction class, using value to match redacted items. |
-| [__init__](/redaction/python-net/groupdocs.redaction.redactions/metadatasearchredaction/__init__/#value_pattern-replacement-key_pattern) | Initializes a new instance of MetadataSearchRedaction, using item name and value to match redacted items. |
-| [__init__](/redaction/python-net/groupdocs.redaction.redactions/metadatasearchredaction/__init__/#value_regex-replacement) | Initializes a new instance of MetadataSearchRedaction class, using value to match redacted items. |
-| [__init__](/redaction/python-net/groupdocs.redaction.redactions/metadatasearchredaction/__init__/#value_regex-replacement-key_regex) | Initializes a new instance of MetadataSearchRedaction using item name and value to match redacted items. |
+| [__init__](/redaction/python-net/groupdocs.redaction.redactions/metadatasearchredaction/__init__/#value_pattern-replacement-key_pattern) | Initializes a new instance of MetadataSearchRedaction class, using item name and value to match redacted items. |
+| [__init__](/redaction/python-net/groupdocs.redaction.redactions/metadatasearchredaction/__init__/#value_regex-replacement) | Initializes a new MetadataSearchRedaction that redacts document metadata matching a regular expression. |
+| [__init__](/redaction/python-net/groupdocs.redaction.redactions/metadatasearchredaction/__init__/#value_regex-replacement-key_regex) | Initializes a new instance of MetadataSearchRedaction class, using item name and value to match redacted items. |
 
 ### Methods
 | Method | Description |
 | :- | :- |
 | [apply_to](/redaction/python-net/groupdocs.redaction.redactions/metadataredaction/apply_to/) | Applies the redaction to a given format instance. (inherited from [`MetadataRedaction`](/redaction/python-net/groupdocs.redaction.redactions/metadataredaction/)) |
-| [apply_to_document_format_instance](/redaction/python-net/groupdocs.redaction.redactions/metadataredaction/apply_to_document_format_instance/) |  (inherited from [`MetadataRedaction`](/redaction/python-net/groupdocs.redaction.redactions/metadataredaction/)) |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [description](/redaction/python-net/groupdocs.redaction.redactions/metadatasearchredaction/description/) | The description of the redaction, containing its name and parameters. |
+| [description](/redaction/python-net/groupdocs.redaction.redactions/metadatasearchredaction/description/) | The description of the redaction, describing the redaction and its parameters. |
 | [key_expression](/redaction/python-net/groupdocs.redaction.redactions/metadatasearchredaction/key_expression/) | The regular expression to match the name (key) of a metadata item. |
 | [replacement](/redaction/python-net/groupdocs.redaction.redactions/metadatasearchredaction/replacement/) | The textual replacement value. |
 | [value_expression](/redaction/python-net/groupdocs.redaction.redactions/metadatasearchredaction/value_expression/) | The regular expression to match the value text of a metadata item. |
@@ -47,10 +46,12 @@ The MetadataSearchRedaction type exposes the following members:
 from groupdocs.redaction import Redactor
 from groupdocs.redaction.redactions import MetadataSearchRedaction, MetadataFilters
 
-with Redactor("document.docx") as redactor:
-    # Redact any metadata value matching the pattern
-    redaction = MetadataSearchRedaction("Company Ltd.", "--company--")
-    redaction.filter = MetadataFilters.COMPANY
+# Search for "Company Ltd." in metadata and replace it with "--company--"
+redaction = MetadataSearchRedaction("Company Ltd.", "--company--")
+# Apply to a specific metadata field (optional); omit to apply to all fields
+redaction.filter = MetadataFilters.COMPANY
+
+with Redactor("./sample.docx") as redactor:
     redactor.apply(redaction)
     redactor.save()
 ```

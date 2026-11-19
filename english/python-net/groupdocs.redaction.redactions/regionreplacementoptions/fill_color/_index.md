@@ -5,7 +5,7 @@ description: "The color used to fill the redacted area."
 type: docs
 url: /python-net/groupdocs.redaction.redactions/regionreplacementoptions/fill_color/
 is_root: false
-weight: 2010
+weight: 2030
 ---
 
 

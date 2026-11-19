@@ -5,7 +5,7 @@ description: "Represents a base abstract class for all redaction types."
 type: docs
 url: /python-net/groupdocs.redaction/redaction/
 is_root: false
-weight: 110
+weight: 80
 ---
 
 
@@ -15,8 +15,8 @@ Represents a base abstract class for all redaction types.
 
 Learn more
 
-- More details about redaction types: Redaction basics (https://docs.groupdocs.com/redaction/net/redaction-basics/)
-- More advanced redaction topics: Advanced usage (https://docs.groupdocs.com/redaction/net/advanced-usage/)
+- More details about redaction types: https://docs.groupdocs.com/redaction/python-net/redaction-basics/
+- More advanced redaction topics: https://docs.groupdocs.com/redaction/python-net/advanced-usage/
 
 The Redaction type exposes the following members:
 
@@ -24,12 +24,11 @@ The Redaction type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [apply_to](/redaction/python-net/groupdocs.redaction/redaction/apply_to/#format_instance) | Applies the redaction to a given format instance. |
-| [apply_to_document_format_instance](/redaction/python-net/groupdocs.redaction/redaction/apply_to_document_format_instance/) |  |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [description](/redaction/python-net/groupdocs.redaction/redaction/description/) | The description of the redaction, containing its name and parameters. |
+| [description](/redaction/python-net/groupdocs.redaction/redaction/description/) | The description of the redaction, describing the redaction and its parameters. |
 
 ### Guides
 Task guides that use `Redaction`:

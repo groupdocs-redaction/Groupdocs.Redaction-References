@@ -24,7 +24,7 @@ The CustomRedactionResult type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [apply](/redaction/python-net/groupdocs.redaction.redactions/customredactionresult/apply/) | The flag indicating whether the redaction should be applied. If True, the redacted content will replace the original content. |
-| [text](/redaction/python-net/groupdocs.redaction.redactions/customredactionresult/text/) | The redacted version of the text that replaces the original content if Apply is true. |
+| [text](/redaction/python-net/groupdocs.redaction.redactions/customredactionresult/text/) | The redacted version of the text. |
 
 ### See Also
 * module [`groupdocs.redaction.redactions`](/redaction/python-net/groupdocs.redaction.redactions/)

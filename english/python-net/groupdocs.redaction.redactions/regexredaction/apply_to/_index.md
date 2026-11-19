@@ -24,5 +24,13 @@ def apply_to(self, format_instance):
 
 **Returns:** Status of the redaction: success/failure and error message if any.
 
+### Aliases
+
+These names call `apply_to` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `apply_to_document_format_instance` | `apply_to_document_format_instance(format_instance)` |
+
 ### See Also
 * class [`RegexRedaction`](/redaction/python-net/groupdocs.redaction.redactions/regexredaction/)

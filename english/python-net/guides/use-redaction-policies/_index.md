@@ -6,7 +6,7 @@ description: "Learn how to deal.If you have a corporate sensitive data removal p
 type: docs
 url: /python-net/guides/use-redaction-policies/
 is_root: false
-weight: 110
+weight: 130
 ---
 
 
@@ -36,7 +36,8 @@ You can use RedactionPolicy.save() method to create XML documents of this struct
 
 The following example demonstrates how to save a [RedactionPolicy](https://reference.groupdocs.com/redaction/python-net/groupdocs.redaction/redactionpolicy/) to an XML file.
  
-
+{{< tabs "code-example-create-redaction-policy" >}}
+{{< tab "create_redaction_policy.py" >}}
 ```python
 from groupdocs.redaction import RedactionPolicy
 from groupdocs.redaction.redactions import (
@@ -47,7 +48,7 @@ from groupdocs.redaction.redactions import (
     EraseMetadataRedaction,
     MetadataFilters,
 )
-from groupdocs.pydrawing import Color
+from groupdocs.redaction.options.drawing import Color
 
 def create_redaction_policy():
     # Define the color of redaction
@@ -71,8 +72,8 @@ def create_redaction_policy():
 if __name__ == "__main__":
     create_redaction_policy()
 ```
-
-  
+{{< /tab >}}
+{{< tab "sample_policy.xml" >}}  
 ```text
 <?xml version="1.0"?>
 <redactionPolicy>
@@ -83,11 +84,17 @@ if __name__ == "__main__":
 </redactionPolicy>
 ```
 [Download full output](https://docs.groupdocs.com/redaction/python-net/_output_files/developer-guide/advanced-usage/use-redaction-policies/create_redaction_policy/sample_policy.xml)
+{{< /tab >}}
+{{< /tabs >}}
+
+GroupDocs.Redaction 26.10 saves a case-insensitive [`ExactPhraseRedaction`](/redaction/python-net/groupdocs.redaction.redactions/exactphraseredaction/) without a `caseSensitive` attribute, as in `sample_policy.xml` above, and `RedactionPolicy.load()` rejects such a file with `String '' was not recognized as a valid Boolean`. Add `caseSensitive="false"` to its `<exactPhraseRedaction>` elements before loading it.
 
 You can have as many policies as you need, loading them to redact your documents.
 
 The example below loads a redaction policy from an XML file and applies every rule it contains to a document in a single `apply` call:
 
+{{< tabs "code-example-use-redaction-policy" >}}
+{{< tab "use_redaction_policy.py" >}}
 ```python
 from groupdocs.redaction import Redactor, RedactionPolicy
 from groupdocs.redaction.options import SaveOptions
@@ -112,13 +119,21 @@ def use_redaction_policy():
 if __name__ == "__main__":
     use_redaction_policy()
 ```
+{{< /tab >}}
+{{< tab "redaction_policy.xml" >}}
 
 `redaction_policy.xml` is the policy file used in this example. Click [here](https://docs.groupdocs.com/redaction/python-net/_sample_files/developer-guide/advanced-usage/use-redaction-policies/redaction_policy.xml) to download it.
 
+{{< /tab >}}
+{{< tab "sample.docx" >}}
+
 `sample.docx` is the document redacted in this example. Click [here](https://docs.groupdocs.com/redaction/python-net/_sample_files/developer-guide/advanced-usage/use-redaction-policies/sample.docx) to download it.
 
-  
+{{< /tab >}}
+{{< tab "sample_redacted.docx" >}}  
 ```text
-Binary file (DOCX, 16 KB)
+Binary file (DOCX, 39 KB)
 ```
 [Download full output](https://docs.groupdocs.com/redaction/python-net/_output_files/developer-guide/advanced-usage/use-redaction-policies/use_redaction_policy/sample_redacted.docx)
+{{< /tab >}}
+{{< /tabs >}}

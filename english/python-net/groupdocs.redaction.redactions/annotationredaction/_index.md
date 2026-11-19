@@ -15,28 +15,27 @@ Represents a redaction that replaces annotation text (comments, etc.) matching a
 
 Learn more
 
-- More details about applying redactions: https://docs.groupdocs.com/redaction/net/redaction-basics/
-- More details about document annotation redactions: https://docs.groupdocs.com/redaction/net/annotation-redactions/
+- More details about applying redactions: [Redaction basics](https://docs.groupdocs.com/redaction/python-net/redaction-basics/)
+- More details about document annotation redactions: [Annotation redactions](https://docs.groupdocs.com/redaction/python-net/annotation-redactions/)
 
 The AnnotationRedaction type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.redactions/annotationredaction/__init__/#pattern-replacement) | Initializes a new AnnotationRedaction with a regex pattern and replacement text. |
-| [__init__](/redaction/python-net/groupdocs.redaction.redactions/annotationredaction/__init__/#regex-replacement) | Initializes a new instance of [`AnnotationRedaction`](/redaction/python-net/groupdocs.redaction.redactions/annotationredaction/). |
+| [__init__](/redaction/python-net/groupdocs.redaction.redactions/annotationredaction/__init__/#pattern-replacement) | Initializes a new instance of [`AnnotationRedaction`](/redaction/python-net/groupdocs.redaction.redactions/annotationredaction/). |
+| [__init__](/redaction/python-net/groupdocs.redaction.redactions/annotationredaction/__init__/#regex-replacement) | Initializes a new AnnotationRedaction instance. |
 
 ### Methods
 | Method | Description |
 | :- | :- |
 | [apply_to](/redaction/python-net/groupdocs.redaction.redactions/annotationredaction/apply_to/#format_instance) | Applies the redaction to a given format instance. |
-| [apply_to_document_format_instance](/redaction/python-net/groupdocs.redaction.redactions/annotationredaction/apply_to_document_format_instance/) |  |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [description](/redaction/python-net/groupdocs.redaction.redactions/annotationredaction/description/) | The description of the redaction, describing the redaction and its parameters. |
-| [expression](/redaction/python-net/groupdocs.redaction.redactions/annotationredaction/expression/) | The regular expression to match. |
+| [description](/redaction/python-net/groupdocs.redaction.redactions/annotationredaction/description/) | The description of the redaction, containing the redaction name and parameters. |
+| [expression](/redaction/python-net/groupdocs.redaction.redactions/annotationredaction/expression/) | The regular expression to match as a string. |
 | [replacement](/redaction/python-net/groupdocs.redaction.redactions/annotationredaction/replacement/) | The textual replacement for matched text. |
 
 ### Example

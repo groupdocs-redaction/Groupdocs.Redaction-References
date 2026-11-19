@@ -5,7 +5,7 @@ description: "Tab Separated Values File (.tsv)"
 type: docs
 url: /python-net/groupdocs.redaction/filetype/tsv/
 is_root: false
-weight: 3210
+weight: 3330
 ---
 
 

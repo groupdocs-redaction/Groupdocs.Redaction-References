@@ -1,7 +1,7 @@
 ---
 title: RedactionFilter class
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: "Represents redaction filter, setting scope inside a document to apply redactions."
+description: "Represents a redaction filter that defines the scope inside a document where redactions are applied."
 type: docs
 url: /python-net/groupdocs.redaction.redactions/redactionfilter/
 is_root: false
@@ -11,12 +11,12 @@ weight: 210
 
 ## RedactionFilter class
 
-Represents redaction filter, setting scope inside a document to apply redactions.
+Represents a redaction filter that defines the scope inside a document where redactions are applied.
 
-Learn more
+Learn more:
 
-- More details about applying redactions: [Redaction basics](https://docs.groupdocs.com/redaction/net/redaction-basics/)
-- More details about redaction filters: [Use PDF redaction filters](https://docs.groupdocs.com/redaction/net/use-pdf-redaction-filters/)
+- More details about applying redactions: https://docs.groupdocs.com/redaction/python-net/redaction-basics/
+- More details about redaction filters: https://docs.groupdocs.com/redaction/python-net/use-pdf-redaction-filters/
 
 The RedactionFilter type exposes the following members:
 

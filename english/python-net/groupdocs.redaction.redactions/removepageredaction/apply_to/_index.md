@@ -22,7 +22,15 @@ def apply_to(self, format_instance):
 | :- | :- | :- |
 | format_instance | `DocumentFormatInstance` | An instance of a document to apply redaction. |
 
-**Returns:** Status of the redaction: success/failure and error message if any.
+**Returns:** Any: Status of the redaction: success/failure and error message if any.
+
+### Aliases
+
+These names call `apply_to` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `apply_to_document_format_instance` | `apply_to_document_format_instance(format_instance)` |
 
 ### See Also
 * class [`RemovePageRedaction`](/redaction/python-net/groupdocs.redaction.redactions/removepageredaction/)

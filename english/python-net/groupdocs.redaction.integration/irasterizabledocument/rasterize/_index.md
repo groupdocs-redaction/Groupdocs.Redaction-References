@@ -36,5 +36,14 @@ def rasterize(self, output, options):
 | output | `io.RawIOBase` | Target stream. |
 | options | `RasterizationOptions` | PDF conversion options. |
 
+### Aliases
+
+These names call `rasterize` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `rasterize_stream` | `rasterize_stream(output, options)`<br>`rasterize_stream(output)` |
+| `rasterize_streams` | `rasterize_streams(output, options)`<br>`rasterize_streams(output)` |
+
 ### See Also
 * class [`IRasterizableDocument`](/redaction/python-net/groupdocs.redaction.integration/irasterizabledocument/)

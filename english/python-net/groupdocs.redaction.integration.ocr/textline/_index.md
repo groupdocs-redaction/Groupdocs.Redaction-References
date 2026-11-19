@@ -1,7 +1,7 @@
 ---
 title: TextLine class
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: "Represents a line of text, extracted by OCR engine from an image."
+description: "Represents a line of text extracted by an OCR engine from an image."
 type: docs
 url: /python-net/groupdocs.redaction.integration.ocr/textline/
 is_root: false
@@ -11,11 +11,11 @@ weight: 40
 
 ## TextLine class
 
-Represents a line of text, extracted by OCR engine from an image.
+Represents a line of text extracted by an OCR engine from an image.
 
 Learn more
 
-- More details about using OCR in GroupDocs.Redaction: https://docs.groupdocs.com/redaction/net/ocr-usage-basics/
+- More details about using OCR in GroupDocs.Redaction: OCR Usage Basics (https://docs.groupdocs.com/redaction/python-net/ocr-usage-basics/)
 
 The TextLine type exposes the following members:
 
@@ -33,6 +33,12 @@ The TextLine type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [fragments](/redaction/python-net/groupdocs.redaction.integration.ocr/textline/fragments/) | The array of text fragments, such as symbols and words, recognized in the line. |
+
+### Guides
+Task guides that use `TextLine`:
+
+* [OCR usage basics](/redaction/python-net/guides/ocr-usage-basics/)
+* [Use Tesseract OCR](/redaction/python-net/guides/use-tesseract-ocr/)
 
 ### See Also
 * module [`groupdocs.redaction.integration.ocr`](/redaction/python-net/groupdocs.redaction.integration.ocr/)

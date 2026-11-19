@@ -11,7 +11,7 @@ weight: 2040
 
 ## redacted_file_suffix property
 
-The custom suffix for the output file name. If not specified, the [`SaveOptions.SaveSuffix`](/redaction/python-net/groupdocs.redaction.options/saveoptions/save_suffix/) constant is used.
+The custom suffix for the output file name. If not specified, the [`SaveOptions.save_suffix`](/redaction/python-net/groupdocs.redaction.options/saveoptions/save_suffix/) constant is used.
 
 ### Definition:
 ```python

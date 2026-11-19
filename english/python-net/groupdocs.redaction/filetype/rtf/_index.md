@@ -5,7 +5,7 @@ description: "Rich Text Format File (.rtf)"
 type: docs
 url: /python-net/groupdocs.redaction/filetype/rtf/
 is_root: false
-weight: 3320
+weight: 3450
 ---
 
 

@@ -11,7 +11,7 @@ weight: 1010
 
 ## equals {#other}
 
-Determines whether the current FileType is the same as the specified FileType object.
+Determines whether the current [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/) is the same as the specified [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/) object.
 
 ```python
 def equals(self, other):
@@ -20,9 +20,9 @@ def equals(self, other):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| other | `FileType` | The object to compare with the current FileType object. |
+| other | `FileType` | The object to compare with the current `FileType` object. |
 
-**Returns:** bool: True if both FileType objects are the same; otherwise, False.
+**Returns:** bool: `True` if both `FileType` objects are the same; otherwise, `False`.
 
 ## equals {#obj}
 
@@ -37,7 +37,16 @@ def equals(self, obj):
 | :- | :- | :- |
 | obj | `Any` | The object to compare with the current `FileType` object. |
 
-**Returns:** True if `obj` is a `FileType` and equals the current `FileType`; otherwise, False.
+**Returns:** `True` if `obj` is a `FileType` and is the same as the current `FileType` object; otherwise, `False`.
+
+### Aliases
+
+These names call `equals` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `equals_file_type` | `equals_file_type(other)` |
+| `equals_object` | `equals_object(obj)` |
 
 ### See Also
 * class [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/)

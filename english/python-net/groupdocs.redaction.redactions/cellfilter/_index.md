@@ -15,19 +15,19 @@ Provides an option to limit the scope of a [`CellColumnRedaction`](/redaction/py
 
 Learn more
 
-- More details about spreadsheet redactions: https://docs.groupdocs.com/redaction/net/spreadsheet-redactions/
+- More details about spreadsheet redactions: https://docs.groupdocs.com/redaction/python-net/spreadsheet-redactions/
 
 The CellFilter type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/redaction/python-net/groupdocs.redaction.redactions/cellfilter/__init__/) | Initializes a new CellFilter instance. |
+| [__init__](/redaction/python-net/groupdocs.redaction.redactions/cellfilter/__init__/) | Initializes a new instance. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [column_index](/redaction/python-net/groupdocs.redaction.redactions/cellfilter/column_index/) | The zero-based column index. |
+| [column_index](/redaction/python-net/groupdocs.redaction.redactions/cellfilter/column_index/) | The column index (zero-based). |
 | [has_work_sheet_index](/redaction/python-net/groupdocs.redaction.redactions/cellfilter/has_work_sheet_index/) | The property indicates whether the WorkSheetIndex is set. |
 | [work_sheet_index](/redaction/python-net/groupdocs.redaction.redactions/cellfilter/work_sheet_index/) | The worksheet index (zero-based). |
 | [work_sheet_name](/redaction/python-net/groupdocs.redaction.redactions/cellfilter/work_sheet_name/) | The worksheet name, if applicable. |

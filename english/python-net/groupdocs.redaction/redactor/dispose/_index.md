@@ -5,7 +5,7 @@ description: "Releases resources."
 type: docs
 url: /python-net/groupdocs.redaction/redactor/dispose/
 is_root: false
-weight: 1040
+weight: 1020
 ---
 
 

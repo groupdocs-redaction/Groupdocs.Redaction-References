@@ -5,7 +5,7 @@ description: "Represents results of applying redaction."
 type: docs
 url: /python-net/groupdocs.redaction/redactorlogentry/
 is_root: false
-weight: 170
+weight: 140
 ---
 
 
@@ -13,9 +13,9 @@ weight: 170
 
 Represents results of applying redaction.
 
-Learn more
+Learn more.
 
-- More details about redaction log entries: https://docs.groupdocs.com/redaction/net/redaction-basics/
+- More details about redaction log entries: Redaction basics (https://docs.groupdocs.com/redaction/python-net/redaction-basics/)
 
 The RedactorLogEntry type exposes the following members:
 

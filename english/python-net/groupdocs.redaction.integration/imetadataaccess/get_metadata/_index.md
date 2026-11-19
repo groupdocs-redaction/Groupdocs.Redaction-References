@@ -5,7 +5,7 @@ description: "Retrieves a dictionary with the document's metadata."
 type: docs
 url: /python-net/groupdocs.redaction.integration/imetadataaccess/get_metadata/
 is_root: false
-weight: 1030
+weight: 1020
 ---
 
 

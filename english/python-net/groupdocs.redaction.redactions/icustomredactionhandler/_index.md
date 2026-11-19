@@ -19,7 +19,6 @@ The ICustomRedactionHandler type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [redact](/redaction/python-net/groupdocs.redaction.redactions/icustomredactionhandler/redact/#context) | Applies custom redaction to specific document content. |
-| [redact_custom_redaction_context](/redaction/python-net/groupdocs.redaction.redactions/icustomredactionhandler/redact_custom_redaction_context/) |  |
 
 ### See Also
 * module [`groupdocs.redaction.redactions`](/redaction/python-net/groupdocs.redaction.redactions/)

@@ -5,7 +5,7 @@ description: "The password for password-protected documents."
 type: docs
 url: /python-net/groupdocs.redaction.options/loadoptions/password/
 is_root: false
-weight: 2010
+weight: 2020
 ---
 
 

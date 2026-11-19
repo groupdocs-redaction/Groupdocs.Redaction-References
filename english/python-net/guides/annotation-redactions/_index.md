@@ -6,11 +6,11 @@ description: "This article shows the implementation of annotation redaction for 
 type: docs
 url: /python-net/guides/annotation-redactions/
 is_root: false
-weight: 80
+weight: 90
 ---
 
 
-With GroupDocs.Redaction API you can apply annotation redactions for documents of different formats like PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX and others. See full list at [supported document formats]() article.
+With GroupDocs.Redaction API you can apply annotation redactions for documents of different formats like PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX and others. See full list at [supported document formats](https://docs.groupdocs.com/redaction/python-net/supported-document-formats/) article.
 
 GroupDocs.Redactions provides a flexible API that allows to remove sensitive data from annotation text, or completely remove annotations by a regular expression.
 
@@ -18,6 +18,8 @@ GroupDocs.Redactions provides a flexible API that allows to remove sensitive dat
 
 You can use GroupDocs.Redaction to remove all or specific comments and other annotations from the document. For example, we can remove all comments from the document, containing texts like "use", "show" or "describe" in its body:
 
+{{< tabs "code-example-remove-all-annotations" >}}
+{{< tab "remove_all_annotations.py" >}}
 ```python
 from groupdocs.redaction import Redactor
 from groupdocs.redaction.options import SaveOptions
@@ -42,21 +44,28 @@ def remove_all_annotations():
 if __name__ == "__main__":
     remove_all_annotations()
 ```
+{{< /tab >}}
+{{< tab "annotated.xlsx" >}}
 
 `annotated.xlsx` is the sample file used in this example. Click [here](https://docs.groupdocs.com/redaction/python-net/_sample_files/developer-guide/basic-usage/annotation-redactions/annotated.xlsx) to download it.
 
-  
+{{< /tab >}}
+{{< tab "annotated_redacted.xlsx" >}}  
 ```text
-Binary file (XLSX, 12 KB)
+Binary file (XLSX, 10 KB)
 ```
 [Download full output](https://docs.groupdocs.com/redaction/python-net/_output_files/developer-guide/basic-usage/annotation-redactions/remove_all_annotations/annotated_redacted.xlsx)
+{{< /tab >}}
+{{< /tabs >}}
 
 You can use constructor without arguments to remove all annotations within the document.
 
 ## Redact annotations
 
-Instead of removing all or specific annotations, you can remove sensitive data from the annotation text. For instance, we can remove all mentions of "John" in the given document, e.g.:
+Instead of removing all or specific annotations, you can remove sensitive data from the annotation text. For instance, we can remove all mentions of "Emily" in the given document, e.g.:
 
+{{< tabs "code-example-redact-annotations" >}}
+{{< tab "redact_annotations.py" >}}
 ```python
 from groupdocs.redaction import Redactor
 from groupdocs.redaction.options import SaveOptions
@@ -64,7 +73,7 @@ from groupdocs.redaction.redactions import AnnotationRedaction
 
 def redact_annotations():
     # Specify the redaction options: search pattern and replacement string
-    a_red = AnnotationRedaction("(?im:john)", "[redacted]")
+    a_red = AnnotationRedaction("(?im:emily)", "[redacted]")
 
     # Load the document to be redacted
     with Redactor("./annotated.xlsx") as redactor:
@@ -81,11 +90,16 @@ def redact_annotations():
 if __name__ == "__main__":
     redact_annotations()
 ```
+{{< /tab >}}
+{{< tab "annotated.xlsx" >}}
 
 `annotated.xlsx` is the sample file used in this example. Click [here](https://docs.groupdocs.com/redaction/python-net/_sample_files/developer-guide/basic-usage/annotation-redactions/annotated.xlsx) to download it.
 
-  
+{{< /tab >}}
+{{< tab "annotated_redacted.xlsx" >}}  
 ```text
-Binary file (XLSX, 12 KB)
+Binary file (XLSX, 10 KB)
 ```
 [Download full output](https://docs.groupdocs.com/redaction/python-net/_output_files/developer-guide/basic-usage/annotation-redactions/redact_annotations/annotated_redacted.xlsx)
+{{< /tab >}}
+{{< /tabs >}}

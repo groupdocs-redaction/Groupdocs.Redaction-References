@@ -5,7 +5,7 @@ description: "Plain Text File (.txt)"
 type: docs
 url: /python-net/groupdocs.redaction/filetype/txt/
 is_root: false
-weight: 3330
+weight: 3460
 ---
 
 

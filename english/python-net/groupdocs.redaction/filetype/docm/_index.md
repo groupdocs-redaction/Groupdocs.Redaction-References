@@ -5,7 +5,7 @@ description: "Word Open XML Macro-Enabled Document (.docm)"
 type: docs
 url: /python-net/groupdocs.redaction/filetype/docm/
 is_root: false
-weight: 3280
+weight: 3410
 ---
 
 

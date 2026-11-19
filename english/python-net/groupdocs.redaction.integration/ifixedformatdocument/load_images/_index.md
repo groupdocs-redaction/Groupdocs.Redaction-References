@@ -11,7 +11,7 @@ weight: 1010
 
 ## load_images {#filters}
 
-Loads an array of raster image instances contained within the document that match the specified [`RedactionFilter`](/redaction/python-net/groupdocs.redaction.redactions/redactionfilter/) set.
+Loads an array of raster image instances contained within the document that match the specified RedactionFilter set.
 
 ```python
 def load_images(self, filters):
@@ -20,9 +20,17 @@ def load_images(self, filters):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| filters | `list[RedactionFilter]` | A list of `RedactionFilter` instances to apply. |
+| filters | `list[RedactionFilter]` | An array of RedactionFilter instances to apply. |
 
-**Returns:** list: A list of raster image instances.
+**Returns:** list: An array of raster image instances.
+
+### Aliases
+
+These names call `load_images` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `load_images_redaction_filter` | `load_images_redaction_filter(filters)` |
 
 ### See Also
 * class [`IFixedFormatDocument`](/redaction/python-net/groupdocs.redaction.integration/ifixedformatdocument/)

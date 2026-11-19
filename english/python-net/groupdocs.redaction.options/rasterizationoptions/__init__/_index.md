@@ -18,14 +18,5 @@ def __init__(self):
     ...
 ```
 
-### Example
-
-```python
-from groupdocs.redaction.options import RasterizationOptions
-
-# Create default rasterization options
-ro = RasterizationOptions()
-```
-
 ### See Also
 * class [`RasterizationOptions`](/redaction/python-net/groupdocs.redaction.options/rasterizationoptions/)

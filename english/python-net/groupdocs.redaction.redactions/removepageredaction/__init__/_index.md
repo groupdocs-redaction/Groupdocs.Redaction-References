@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: "Initializes a new RemovePageRedaction."
+description: "Initializes a new instance of RemovePageRedaction."
 type: docs
 url: /python-net/groupdocs.redaction.redactions/removepageredaction/__init__/
 is_root: false
@@ -11,7 +11,7 @@ weight: 10
 
 ## __init__ {#origin-index-count}
 
-Initializes a new RemovePageRedaction.
+Initializes a new instance of RemovePageRedaction.
 
 ```python
 def __init__(self, origin, index, count):
@@ -29,8 +29,8 @@ def __init__(self, origin, index, count):
 ```python
 from groupdocs.redaction.redactions import RemovePageRedaction, PageSeekOrigin
 
-# Remove 3 pages starting from the second page (zero‑based index 1)
-redaction = RemovePageRedaction(PageSeekOrigin.BEGIN, 1, 3)
+# Remove 3 pages starting from the 2nd page (zero‑based index 1)
+rem_opt = RemovePageRedaction(PageSeekOrigin.BEGIN, 1, 3)
 ```
 
 ### See Also

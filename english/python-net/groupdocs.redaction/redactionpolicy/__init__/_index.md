@@ -18,18 +18,6 @@ def __init__(self):
     ...
 ```
 
-### Example
-
-```python
-from groupdocs.redaction import RedactionPolicy
-from groupdocs.redaction.redactions import ExactPhraseRedaction, RegexRedaction, ReplacementOptions
-
-policy = RedactionPolicy([
-    ExactPhraseRedaction("ACME", ReplacementOptions("[CO]")),
-    RegexRedaction(r"\d{2,}", ReplacementOptions("[NUM]")),
-])
-```
-
 ## __init__ {#redactions}
 
 Initializes a new RedactionPolicy with a specific list of redactions.

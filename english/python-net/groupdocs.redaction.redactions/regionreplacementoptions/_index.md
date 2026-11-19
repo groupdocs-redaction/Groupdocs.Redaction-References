@@ -14,7 +14,8 @@ weight: 240
 Represents color and area parameters for image region replacement.
 
 Learn more:
-- More details about image redactions: https://docs.groupdocs.com/redaction/net/image-redactions/
+
+- More details about image redactions: https://docs.groupdocs.com/redaction/python-net/image-redactions/
 
 The RegionReplacementOptions type exposes the following members:
 
@@ -22,39 +23,40 @@ The RegionReplacementOptions type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/redaction/python-net/groupdocs.redaction.redactions/regionreplacementoptions/__init__/#fill_color-size) | Initializes a new RegionReplacementOptions instance. |
-| [__init__](/redaction/python-net/groupdocs.redaction.redactions/regionreplacementoptions/__init__/#fill_color-font-expected_text) | Initializes a new instance of RegionReplacementOptions class which size matches given text. |
+| [__init__](/redaction/python-net/groupdocs.redaction.redactions/regionreplacementoptions/__init__/#fill_color-font-expected_text) | Initializes a new RegionReplacementOptions instance whose size matches the given text. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
+| [area_fill_color](/redaction/python-net/groupdocs.redaction.redactions/regionreplacementoptions/area_fill_color/) | The color used to fill the redacted area. This property is obsolete; use [`RegionReplacementOptions.FillColor`](/redaction/python-net/groupdocs.redaction.redactions/regionreplacementoptions/fill_color/) instead. |
+| [area_size](/redaction/python-net/groupdocs.redaction.redactions/regionreplacementoptions/area_size/) | The rectangle width and height; this property is obsolete—use [`RegionReplacementOptions.size`](/redaction/python-net/groupdocs.redaction.redactions/regionreplacementoptions/size/) instead. |
 | [fill_color](/redaction/python-net/groupdocs.redaction.redactions/regionreplacementoptions/fill_color/) | The color used to fill the redacted area. |
 | [size](/redaction/python-net/groupdocs.redaction.redactions/regionreplacementoptions/size/) | The rectangle width and height. |
 
 ### Example
 
 ```python
-from groupdocs.redaction import Redactor
 from groupdocs.redaction.redactions import ImageAreaRedaction, RegionReplacementOptions
-from groupdocs.pydrawing import Color, Point, Size
+from groupdocs.redaction.options.drawing import Color, Point, Size
+from groupdocs.redaction import Redactor, RedactionStatus
 
-with Redactor("test.jpg") as redactor:
-    # Define the top‑left position of the area to replace
+def redact_image_area():
     point = Point(516, 311)
-    # Define the size of the area to replace
     size = Size(170, 35)
-    # Use a solid black rectangle as the replacement
-    repl_opt = RegionReplacementOptions(Color.BLACK, size)
-    redaction = ImageAreaRedaction(point, repl_opt)
+    repl_opt = RegionReplacementOptions(Color.Blue, size)
+    img_red = ImageAreaRedaction(point, repl_opt)
 
-    result = redactor.apply(redaction)
-    if result.status != redactor.RedactionStatus.FAILED:
-        redactor.save()
+    with Redactor("D:\\test.jpg") as redactor:
+        result = redactor.apply(img_red)
+        if result.status != RedactionStatus.FAILED:
+            redactor.save()
 ```
 
 ### Guides
 Task guides that use `RegionReplacementOptions`:
 
 * [Image redactions](/redaction/python-net/guides/image-redactions/)
+* [Use PageAreaRedaction](/redaction/python-net/guides/use-page-area-redaction/)
 
 ### See Also
 * module [`groupdocs.redaction.redactions`](/redaction/python-net/groupdocs.redaction.redactions/)

@@ -5,7 +5,7 @@ description: "Apple Numbers Spreadsheet (.numbers)"
 type: docs
 url: /python-net/groupdocs.redaction/filetype/numbers/
 is_root: false
-weight: 3240
+weight: 3370
 ---
 
 

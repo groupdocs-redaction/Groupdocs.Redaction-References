@@ -5,7 +5,7 @@ description: "Portable Document Format File (.pdf)"
 type: docs
 url: /python-net/groupdocs.redaction/filetype/pdf/
 is_root: false
-weight: 3120
+weight: 3140
 ---
 
 

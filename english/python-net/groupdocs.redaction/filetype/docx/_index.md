@@ -5,7 +5,7 @@ description: "Microsoft Word Open XML Document (.docx)"
 type: docs
 url: /python-net/groupdocs.redaction/filetype/docx/
 is_root: false
-weight: 3270
+weight: 3400
 ---
 
 

@@ -5,7 +5,7 @@ description: "Hypertext Markup Language File (.html)"
 type: docs
 url: /python-net/groupdocs.redaction/filetype/html/
 is_root: false
-weight: 3110
+weight: 3130
 ---
 
 

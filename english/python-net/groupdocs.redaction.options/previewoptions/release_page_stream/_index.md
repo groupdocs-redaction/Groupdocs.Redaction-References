@@ -13,6 +13,8 @@ weight: 2050
 
 The page preview completion delegate.
 
+The delegate is invoked after a page preview has been rendered. It receives the page number (`int`) and the stream (`io.RawIOBase`) that was returned by the `create_page_stream` delegate, allowing the caller to close, inspect, or otherwise process the image data.
+
 ### Definition:
 ```python
 @property

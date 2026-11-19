@@ -5,7 +5,7 @@ description: "Word Document Template (.dot)"
 type: docs
 url: /python-net/groupdocs.redaction/filetype/dot/
 is_root: false
-weight: 3290
+weight: 3420
 ---
 
 

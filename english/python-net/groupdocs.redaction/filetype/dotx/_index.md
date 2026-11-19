@@ -5,7 +5,7 @@ description: "Word Open XML Document Template (.dotx)"
 type: docs
 url: /python-net/groupdocs.redaction/filetype/dotx/
 is_root: false
-weight: 3300
+weight: 3430
 ---
 
 

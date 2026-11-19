@@ -20,11 +20,19 @@ def remove_pages(self, origin, index, count):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| origin | `PageSeekOrigin` | Search origin position, the beginning or the end of the document. |
-| index | `int` | Start position index (0-based). |
-| count | `int` | Count of pages to remove. |
+| origin | `PageSeekOrigin` | Search origin position, the beginning or the end of the document |
+| index | `int` | Start position index (0-based) |
+| count | `int` | Count of pages to remove |
 
-**Returns:** Pages removal redaction result.
+**Returns:** Pages removal redaction result
+
+### Aliases
+
+These names call `remove_pages` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `remove_pages_page_seek_origin` | `remove_pages_page_seek_origin(origin, index, count)` |
 
 ### See Also
 * class [`IPaginatedDocument`](/redaction/python-net/groupdocs.redaction.integration/ipaginateddocument/)

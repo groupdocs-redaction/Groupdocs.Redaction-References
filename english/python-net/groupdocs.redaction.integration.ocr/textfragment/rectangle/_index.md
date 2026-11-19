@@ -5,7 +5,7 @@ description: "The bounding rectangle of the recognized text fragment."
 type: docs
 url: /python-net/groupdocs.redaction.integration.ocr/textfragment/rectangle/
 is_root: false
-weight: 2010
+weight: 2020
 ---
 
 

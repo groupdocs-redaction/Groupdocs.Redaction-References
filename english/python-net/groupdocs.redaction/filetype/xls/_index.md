@@ -5,7 +5,7 @@ description: "Excel Spreadsheet (.xls)"
 type: docs
 url: /python-net/groupdocs.redaction/filetype/xls/
 is_root: false
-weight: 3160
+weight: 3250
 ---
 
 

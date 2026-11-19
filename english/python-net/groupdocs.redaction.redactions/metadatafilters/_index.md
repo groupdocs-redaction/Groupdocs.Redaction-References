@@ -43,6 +43,7 @@ The MetadataFilters type exposes the following members:
 ### Guides
 Task guides that use `MetadataFilters`:
 
+* [Quick Start Guide](/redaction/python-net/guides/quick-start-guide/)
 * [Redaction basics](/redaction/python-net/guides/redaction-basics/)
 * [Image redactions](/redaction/python-net/guides/image-redactions/)
 * [Metadata redactions](/redaction/python-net/guides/metadata-redactions/)

@@ -5,7 +5,7 @@ description: "The textual content of the recognized text fragment."
 type: docs
 url: /python-net/groupdocs.redaction.integration.ocr/textfragment/text/
 is_root: false
-weight: 2020
+weight: 2030
 ---
 
 

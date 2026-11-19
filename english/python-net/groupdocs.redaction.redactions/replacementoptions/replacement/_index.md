@@ -5,7 +5,7 @@ description: "The textual replacement value."
 type: docs
 url: /python-net/groupdocs.redaction.redactions/replacementoptions/replacement/
 is_root: false
-weight: 2050
+weight: 2060
 ---
 
 

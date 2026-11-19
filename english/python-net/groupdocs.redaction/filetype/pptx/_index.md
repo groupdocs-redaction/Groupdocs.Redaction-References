@@ -5,7 +5,7 @@ description: "PowerPoint Open XML Presentation (.pptx)"
 type: docs
 url: /python-net/groupdocs.redaction/filetype/pptx/
 is_root: false
-weight: 3140
+weight: 3160
 ---
 
 

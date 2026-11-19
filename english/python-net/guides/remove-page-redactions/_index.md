@@ -6,7 +6,7 @@ description: "This article shows that how to remove pages with sensitive data fr
 type: docs
 url: /python-net/guides/remove-page-redactions/
 is_root: false
-weight: 100
+weight: 110
 ---
 
 
@@ -18,6 +18,8 @@ With GroupDocs.Redaction API you can remove pages by specifying the page range b
 
 In the example below, we remove 2nd, 3rd and 4th pages from the document, if the document has enough pages:
 
+{{< tabs "code-example-remove-page-range" >}}
+{{< tab "remove_page_range.py" >}}
 ```python
 from groupdocs.redaction import Redactor
 from groupdocs.redaction.options import SaveOptions
@@ -47,8 +49,19 @@ def remove_page_range():
 if __name__ == "__main__":
     remove_page_range()
 ```
+{{< /tab >}}
+{{< tab "multipage_sample.pdf" >}}
 
 `multipage_sample.pdf` is the sample file used in this example. Click [here](https://docs.groupdocs.com/redaction/python-net/_sample_files/developer-guide/basic-usage/remove-page-redactions/multipage_sample.pdf) to download it.
+
+{{< /tab >}}
+{{< tab "multipage_sample_redacted.pdf" >}}  
+```text
+Binary file (PDF, 83 KB)
+```
+[Download full output](https://docs.groupdocs.com/redaction/python-net/_output_files/developer-guide/basic-usage/remove-page-redactions/remove_page_range/multipage_sample_redacted.pdf)
+{{< /tab >}}
+{{< /tabs >}}
 
 ## Remove last page
 
@@ -56,6 +69,8 @@ In some cases you might need to delete the last page or a number of pages, no ma
 
 The following example demonstrates how to remove the last page from a document:
 
+{{< tabs "code-example-remove-last-page" >}}
+{{< tab "remove_last_page.py" >}}
 ```python
 from groupdocs.redaction import Redactor
 from groupdocs.redaction.options import SaveOptions
@@ -85,14 +100,19 @@ def remove_last_page():
 if __name__ == "__main__":
     remove_last_page()
 ```
+{{< /tab >}}
+{{< tab "multipage_sample.pdf" >}}
 
 `multipage_sample.pdf` is the sample file used in this example. Click [here](https://docs.groupdocs.com/redaction/python-net/_sample_files/developer-guide/basic-usage/remove-page-redactions/multipage_sample.pdf) to download it.
 
-  
+{{< /tab >}}
+{{< tab "multipage_sample_redacted.pdf" >}}  
 ```text
-Binary file (PDF, 190 KB)
+Binary file (PDF, 83 KB)
 ```
 [Download full output](https://docs.groupdocs.com/redaction/python-net/_output_files/developer-guide/basic-usage/remove-page-redactions/remove_last_page/multipage_sample_redacted.pdf)
+{{< /tab >}}
+{{< /tabs >}}
 
 ## Remove frame from image
 
@@ -100,6 +120,8 @@ In case of a multi-frame image you might need to delete a number of frames (trea
 
 The following example demonstrates how to remove 3 frames from an animated GIF image:
 
+{{< tabs "code-example-remove-frame-from-image" >}}
+{{< tab "remove_frame_from_image.py" >}}
 ```python
 from groupdocs.redaction import Redactor
 from groupdocs.redaction.options import SaveOptions
@@ -129,11 +151,16 @@ def remove_frame_from_image():
 if __name__ == "__main__":
     remove_frame_from_image()
 ```
+{{< /tab >}}
+{{< tab "sample.gif" >}}
 
 `sample.gif` is the sample file used in this example. Click [here](https://docs.groupdocs.com/redaction/python-net/_sample_files/developer-guide/basic-usage/remove-page-redactions/sample.gif) to download it.
 
-  
+{{< /tab >}}
+{{< tab "sample_redacted.gif" >}}  
 ```text
-Binary file (GIF, 704 KB)
+Binary file (GIF, 15 KB)
 ```
 [Download full output](https://docs.groupdocs.com/redaction/python-net/_output_files/developer-guide/basic-usage/remove-page-redactions/remove_frame_from_image/sample_redacted.gif)
+{{< /tab >}}
+{{< /tabs >}}

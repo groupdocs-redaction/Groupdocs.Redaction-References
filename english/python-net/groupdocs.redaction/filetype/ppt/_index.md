@@ -5,7 +5,7 @@ description: "PowerPoint Presentation (.ppt)"
 type: docs
 url: /python-net/groupdocs.redaction/filetype/ppt/
 is_root: false
-weight: 3130
+weight: 3150
 ---
 
 

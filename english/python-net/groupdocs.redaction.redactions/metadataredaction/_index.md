@@ -13,9 +13,9 @@ weight: 130
 
 Represents a base abstract class for document metadata redactions.
 
-Learn more
+Base functionality for all redactions, derived from [`MetadataRedaction`](/redaction/python-net/groupdocs.redaction.redactions/metadataredaction/) base class is metadata filtering and it is mandatory for metadata redactions. It uses the flagged enumeration `MetadataFilters`, containing items for the most frequent metadata entries. You can set the filter to `All`, or any combination of metadata.
 
-- More details about document metadata redactions: https://docs.groupdocs.com/redaction/net/metadata-redactions/
+- More details about document metadata redactions: https://docs.groupdocs.com/redaction/python-net/metadata-redactions/
 
 The MetadataRedaction type exposes the following members:
 
@@ -23,13 +23,12 @@ The MetadataRedaction type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [apply_to](/redaction/python-net/groupdocs.redaction.redactions/metadataredaction/apply_to/#format_instance) | Applies the redaction to a given format instance. |
-| [apply_to_document_format_instance](/redaction/python-net/groupdocs.redaction.redactions/metadataredaction/apply_to_document_format_instance/) |  |
 
 ### Properties
 | Property | Description |
 | :- | :- |
 | [filter](/redaction/python-net/groupdocs.redaction.redactions/metadataredaction/filter/) | The filter used to select all or specific metadata, such as Author or Company. |
-| [description](/redaction/python-net/groupdocs.redaction/redaction/description/) | The description of the redaction, containing its name and parameters. (inherited from [`Redaction`](/redaction/python-net/groupdocs.redaction/redaction/)) |
+| [description](/redaction/python-net/groupdocs.redaction/redaction/description/) | The description of the redaction, describing the redaction and its parameters. (inherited from [`Redaction`](/redaction/python-net/groupdocs.redaction/redaction/)) |
 
 ### Guides
 Task guides that use `MetadataRedaction`:

@@ -5,15 +5,13 @@ description: "Generates preview images of specific pages in a given image format
 type: docs
 url: /python-net/groupdocs.redaction/redactor/generate_preview/
 is_root: false
-weight: 1050
+weight: 1030
 ---
 
 
 ## generate_preview {#preview_options}
 
 Generates preview images of specific pages in a given image format.
-
-The preview is produced according to the settings defined in `preview_options`, which include image format, dimensions, page range, and callbacks for creating and releasing page streams.
 
 ```python
 def generate_preview(self, preview_options):
@@ -27,29 +25,28 @@ def generate_preview(self, preview_options):
 ### Example
 
 ```python
-from groupdocs.redaction import Redactor, PreviewOptions, PreviewFormats
+from groupdocs.redaction import Redactor
+from groupdocs.redaction.options import PreviewOptions
 
 def create_page_stream(page_number):
-    # Returns a writable file stream for the preview image of the given page.
-    path = f"C:/Temp/page_{page_number}.png"
-    return open(path, "wb")
+    return open(f"preview_page_{page_number}.png", "wb")
 
-def release_page_stream(page_number, page_stream):
-    # Called after the preview image has been written.
-    page_stream.close()
-
-preview_options = PreviewOptions(
-    create_page_stream=create_page_stream,
-    release_page_stream=release_page_stream,
-)
-preview_options.preview_format = PreviewFormats.PNG
-preview_options.height = 640
-preview_options.width = 480
-preview_options.page_numbers = [1]
-
-with Redactor("C:/Temp/SourceFile.pdf") as redactor:
-    redactor.generate_preview(preview_options)
+with Redactor("./multipage_sample.docx") as redactor:
+    options = PreviewOptions(create_page_stream)
+    options.width = 480
+    options.height = 640
+    options.page_numbers = [1]
+    options.preview_format = PreviewOptions.PreviewFormats.PNG
+    redactor.generate_preview(options)
 ```
+
+### Aliases
+
+These names call `generate_preview` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `generate_preview_preview_options` | `generate_preview_preview_options(preview_options)` |
 
 ### See Also
 * class [`Redactor`](/redaction/python-net/groupdocs.redaction/redactor/)

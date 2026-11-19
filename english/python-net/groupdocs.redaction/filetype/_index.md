@@ -5,7 +5,7 @@ description: "Represents a file type."
 type: docs
 url: /python-net/groupdocs.redaction/filetype/
 is_root: false
-weight: 30
+weight: 20
 ---
 
 
@@ -13,20 +13,19 @@ weight: 30
 
 Represents a file type.
 
-Learn more:
-- https://docs.groupdocs.com/redaction/net/supported-document-formats/
-- https://docs.groupdocs.com/redaction/net/get-supported-file-formats/
-- https://docs.groupdocs.com/redaction/net/get-file-info/
+Learn more
+
+- https://docs.groupdocs.com/redaction/python-net/supported-document-formats/
+- https://docs.groupdocs.com/redaction/python-net/get-supported-file-formats/
+- https://docs.groupdocs.com/redaction/python-net/get-file-info/
 
 The FileType type exposes the following members:
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [equals](/redaction/python-net/groupdocs.redaction/filetype/equals/#other) | Determines whether the current FileType is the same as the specified FileType object. |
+| [equals](/redaction/python-net/groupdocs.redaction/filetype/equals/#other) | Determines whether the current [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/) is the same as the specified [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/) object. |
 | [equals](/redaction/python-net/groupdocs.redaction/filetype/equals/#obj) | Determines whether the current [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/) is the same as the specified object. |
-| [equals_file_type](/redaction/python-net/groupdocs.redaction/filetype/equals_file_type/) |  |
-| [equals_object](/redaction/python-net/groupdocs.redaction/filetype/equals_object/) |  |
 | [from_extension](/redaction/python-net/groupdocs.redaction/filetype/from_extension/#extension) | Maps file extension to file type. |
 | [get_hash_code](/redaction/python-net/groupdocs.redaction/filetype/get_hash_code/) | Returns the hash code for the current [`FileType`](/redaction/python-net/groupdocs.redaction/filetype/) object. |
 | [get_supported_file_types](/redaction/python-net/groupdocs.redaction/filetype/get_supported_file_types/) | Retrieves supported file types. |
@@ -35,8 +34,8 @@ The FileType type exposes the following members:
 ### Properties
 | Property | Description |
 | :- | :- |
-| [extension](/redaction/python-net/groupdocs.redaction/filetype/extension/) | The filename suffix, including the leading period, e.g., ".doc". |
-| [file_format](/redaction/python-net/groupdocs.redaction/filetype/file_format/) | The file format name, for example "Microsoft Word Document". |
+| [extension](/redaction/python-net/groupdocs.redaction/filetype/extension/) | The filename suffix (including the period "."), for instance ".doc". |
+| [file_format](/redaction/python-net/groupdocs.redaction/filetype/file_format/) | The file type name, e.g., "Microsoft Word Document". |
 
 ### Fields
 | Field | Description |
@@ -50,18 +49,31 @@ The FileType type exposes the following members:
 | [GIF](/redaction/python-net/groupdocs.redaction/filetype/gif/) | Graphical Interchange Format File (.gif) |
 | [BMP](/redaction/python-net/groupdocs.redaction/filetype/bmp/) | Bitmap Image File (.bmp) |
 | [JP2](/redaction/python-net/groupdocs.redaction/filetype/jp2/) | JPEG 2000 Core Image File (.jp2) |
+| [WEBP](/redaction/python-net/groupdocs.redaction/filetype/webp/) | WebP Image (.webp) |
+| [DJVU](/redaction/python-net/groupdocs.redaction/filetype/djvu/) | DjVu Image (.djvu) |
 | [HTM](/redaction/python-net/groupdocs.redaction/filetype/htm/) | Hypertext Markup Language File (.htm) |
 | [HTML](/redaction/python-net/groupdocs.redaction/filetype/html/) | Hypertext Markup Language File (.html) |
 | [PDF](/redaction/python-net/groupdocs.redaction/filetype/pdf/) | Portable Document Format File (.pdf) |
 | [PPT](/redaction/python-net/groupdocs.redaction/filetype/ppt/) | PowerPoint Presentation (.ppt) |
 | [PPTX](/redaction/python-net/groupdocs.redaction/filetype/pptx/) | PowerPoint Open XML Presentation (.pptx) |
 | [ODP](/redaction/python-net/groupdocs.redaction/filetype/odp/) | OpenDocument Presentation (.odp) |
+| [PPS](/redaction/python-net/groupdocs.redaction/filetype/pps/) | PowerPoint Slide Show (.pps) |
+| [PPSX](/redaction/python-net/groupdocs.redaction/filetype/ppsx/) | PowerPoint Open XML Slide Show (.ppsx) |
+| [PPTM](/redaction/python-net/groupdocs.redaction/filetype/pptm/) | PowerPoint Open XML Macro-Enabled Presentation |
+| [POTX](/redaction/python-net/groupdocs.redaction/filetype/potx/) | PowerPoint Open XML Presentation Template (.potx) |
+| [POTM](/redaction/python-net/groupdocs.redaction/filetype/potm/) | PowerPoint Open XML Macro-Enabled Presentation Template (.potm) |
+| [PPSM](/redaction/python-net/groupdocs.redaction/filetype/ppsm/) | PowerPoint Open XML Macro-Enabled Slide (.ppsm) |
+| [OTP](/redaction/python-net/groupdocs.redaction/filetype/otp/) | OpenDocument Presentation Template (.otp) |
 | [XLS](/redaction/python-net/groupdocs.redaction/filetype/xls/) | Excel Spreadsheet (.xls) |
 | [XLSX](/redaction/python-net/groupdocs.redaction/filetype/xlsx/) | Microsoft Excel Open XML Spreadsheet (.xlsx) |
 | [XLSM](/redaction/python-net/groupdocs.redaction/filetype/xlsm/) | Excel Open XML Macro-Enabled Spreadsheet (.xlsm) |
 | [XLSB](/redaction/python-net/groupdocs.redaction/filetype/xlsb/) | Excel Binary Spreadsheet (.xlsb) |
+| [XLTX](/redaction/python-net/groupdocs.redaction/filetype/xltx/) | Excel Open XML Spreadsheet Template (.xltx) |
+| [XLTM](/redaction/python-net/groupdocs.redaction/filetype/xltm/) | Excel Open XML Macro-Enabled Spreadsheet Template (.xltm) |
+| [XLT](/redaction/python-net/groupdocs.redaction/filetype/xlt/) | Excel Template (.xlt) |
 | [CSV](/redaction/python-net/groupdocs.redaction/filetype/csv/) | Comma Separated Values File (.csv) |
 | [TSV](/redaction/python-net/groupdocs.redaction/filetype/tsv/) | Tab Separated Values File (.tsv) |
+| [TAB](/redaction/python-net/groupdocs.redaction/filetype/tab/) | Tab Separated Values File (.tab) |
 | [ODS](/redaction/python-net/groupdocs.redaction/filetype/ods/) | OpenDocument Spreadsheet (.ods) |
 | [OTS](/redaction/python-net/groupdocs.redaction/filetype/ots/) | OpenDocument Spreadsheet Template (.ots) |
 | [NUMBERS](/redaction/python-net/groupdocs.redaction/filetype/numbers/) | Apple Numbers Spreadsheet (.numbers) |
@@ -74,12 +86,14 @@ The FileType type exposes the following members:
 | [DOTM](/redaction/python-net/groupdocs.redaction/filetype/dotm/) | Word Open XML Macro-Enabled Document Template (.dotm) |
 | [RTF](/redaction/python-net/groupdocs.redaction/filetype/rtf/) | Rich Text Format File (.rtf) |
 | [TXT](/redaction/python-net/groupdocs.redaction/filetype/txt/) | Plain Text File (.txt) |
+| [LOG](/redaction/python-net/groupdocs.redaction/filetype/log/) | Log File (.log) |
 | [ODT](/redaction/python-net/groupdocs.redaction/filetype/odt/) | OpenDocument Text Document (.odt) |
 | [OTT](/redaction/python-net/groupdocs.redaction/filetype/ott/) | OpenDocument Document Template (.ott) |
 
 ### Guides
 Task guides that use `FileType`:
 
+* [Load with file type](/redaction/python-net/guides/load-with-file-type/)
 * [Get supported file formats](/redaction/python-net/guides/get-supported-file-formats/)
 
 ### See Also

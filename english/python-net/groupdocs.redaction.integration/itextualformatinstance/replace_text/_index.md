@@ -21,9 +21,17 @@ def replace_text(self, regular_expression, options):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | regular_expression | `System.Text.RegularExpressions.Regex` | Regular expression to search and replace. |
-| options | `ReplacementOptions` | allow to set textual replacement or color for redaction block. |
+| options | `ReplacementOptions` | Allows setting textual replacement or color for the redaction block. |
 
 **Returns:** Text replacement result.
+
+### Aliases
+
+These names call `replace_text` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `replace_text_regex` | `replace_text_regex(regular_expression, options)` |
 
 ### See Also
 * class [`ITextualFormatInstance`](/redaction/python-net/groupdocs.redaction.integration/itextualformatinstance/)

@@ -26,18 +26,20 @@ The following steps demonstrate how to redact sensitive information from a docum
 5. Save the result.
 
 ## Complete example
-The example below replaces every occurrence of the phrase "John Doe" with a semi-transparent red box and saves the redacted document:
+The example below replaces every occurrence of the phrase "Emily Johnson" with a semi-transparent red box and saves the redacted document:
 
+{{< tabs "code-example-hello-world" >}}
+{{< tab "hello_world.py" >}}
 ```python
 from groupdocs.redaction import Redactor
 from groupdocs.redaction.options import SaveOptions
 from groupdocs.redaction.redactions import ExactPhraseRedaction, ReplacementOptions
-from groupdocs.pydrawing import Color
+from groupdocs.redaction.options.drawing import Color
 
 def hello_world():
-    # Draw a semi-transparent red box over every occurrence of "John Doe"
+    # Draw a semi-transparent red box over every occurrence of "Emily Johnson"
     options = ReplacementOptions(Color.from_argb(128, 255, 0, 0))
-    redaction = ExactPhraseRedaction("John Doe", options)
+    redaction = ExactPhraseRedaction("Emily Johnson", options)
 
     # Load the document, apply the redaction, and save the result
     with Redactor("./sample.docx") as redactor:
@@ -53,14 +55,19 @@ def hello_world():
 if __name__ == "__main__":
     hello_world()
 ```
+{{< /tab >}}
+{{< tab "sample.docx" >}}
 
 `sample.docx` is the sample file used in this example. Click [here](https://docs.groupdocs.com/redaction/python-net/_sample_files/getting-started/hello-world/sample.docx) to download it.
 
-  
+{{< /tab >}}
+{{< tab "sample_redacted.pdf" >}}  
 ```text
-Binary file (PDF, 1.0 MB)
+Binary file (PDF, 937 KB)
 ```
 [Download full output](https://docs.groupdocs.com/redaction/python-net/_output_files/getting-started/hello-world/hello_world/sample_redacted.pdf)
+{{< /tab >}}
+{{< /tabs >}}
 
 This example rasterizes the result to a PDF named `sample_redacted.pdf`, so the redacted content cannot be recovered (`save()` rasterizes to PDF by default; the `redacted_file_suffix` option just controls the output name). To keep the original format instead, set `rasterize_to_pdf = False`.
 

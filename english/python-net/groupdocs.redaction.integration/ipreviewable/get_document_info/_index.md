@@ -5,7 +5,7 @@ description: "Retrieves general information about the document, such as size and
 type: docs
 url: /python-net/groupdocs.redaction.integration/ipreviewable/get_document_info/
 is_root: false
-weight: 1030
+weight: 1020
 ---
 
 
@@ -18,7 +18,7 @@ def get_document_info(self):
     ...
 ```
 
-**Returns:** IDocumentInfo: An object containing file type, page count, size, and pages.
+**Returns:** IDocumentInfo: General document information.
 
 ### Example
 

@@ -13,6 +13,8 @@ weight: 10
 
 Initializes a new RedactorLogEntry for redaction.
 
+All metadata redactions apply to each metadata item separately, and even if a metadata item redaction fails, the rest of the metadata items will be updated. A list of failed, skipped (rejected) metadata items and reasons can be found in the `ErrorMessage` property of [`RedactorLogEntry.Result`](/redaction/python-net/groupdocs.redaction/redactorlogentry/result/).
+
 ```python
 def __init__(self, redaction, result):
     ...
@@ -20,8 +22,8 @@ def __init__(self, redaction, result):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| redaction | `Redaction` | Reference to redaction. |
-| result | `RedactionResult` | Redaction result, reported by format handler. |
+| redaction | `Redaction` | Reference to the redaction. |
+| result | `RedactionResult` | Redaction result reported by the format handler. |
 
 ### See Also
 * class [`RedactorLogEntry`](/redaction/python-net/groupdocs.redaction/redactorlogentry/)

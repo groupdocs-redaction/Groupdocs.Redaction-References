@@ -1,7 +1,7 @@
 ---
 title: accept_redaction method
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: "Triggers right before applying any redaction to the document, allowing logging or forbidding it."
+description: "Triggered right before applying any redaction to the document, allowing logging or forbidding it."
 type: docs
 url: /python-net/groupdocs.redaction.redactions/iredactioncallback/accept_redaction/
 is_root: false
@@ -11,7 +11,7 @@ weight: 1010
 
 ## accept_redaction {#description}
 
-Triggers right before applying any redaction to the document, allowing logging or forbidding it.
+Triggered right before applying any redaction to the document, allowing logging or forbidding it.
 
 ```python
 def accept_redaction(self, description):
@@ -20,7 +20,7 @@ def accept_redaction(self, description):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| description | `RedactionDescription` | Contains information about particular match type, criteria, text and position. |
+| description | `RedactionDescription` | Contains information about the particular match type, criteria, text and position. |
 
 **Returns:** bool: True to accept the redaction, False to decline it.
 
@@ -28,17 +28,27 @@ def accept_redaction(self, description):
 
 ```python
 from groupdocs.redaction import Redactor
-from groupdocs.redaction.redactions import ExactPhraseRedaction, ReplacementOptions
 from groupdocs.redaction.options import LoadOptions, RedactorSettings
+from groupdocs.redaction.redactions import ExactPhraseRedaction, ReplacementOptions
 
-def accept(description):
-    # description.original_text, .redaction_type, .action_type
-    return "keep-me" not in (description.original_text or "")
+class RedactionLogger:
+    def accept_redaction(self, description):
+        print(f"{description.redaction_type.name} redaction, original text: {description.original_text}")
+        return True
 
-with Redactor("document.docx", LoadOptions(), RedactorSettings(callback=accept)) as redactor:
-    redactor.apply(ExactPhraseRedaction("secret", ReplacementOptions("[X]")))
+settings = RedactorSettings(RedactionLogger())
+with Redactor("sample.docx", LoadOptions(), settings) as redactor:
+    redactor.apply(ExactPhraseRedaction("Emily Johnson", ReplacementOptions("[personal]")))
     redactor.save()
 ```
+
+### Aliases
+
+These names call `accept_redaction` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `accept_redaction_redaction_description` | `accept_redaction_redaction_description(description)` |
 
 ### See Also
 * class [`IRedactionCallback`](/redaction/python-net/groupdocs.redaction.redactions/iredactioncallback/)

@@ -5,7 +5,7 @@ description: "Checks for IRedactionCallback implementation and invokes it, if sp
 type: docs
 url: /python-net/groupdocs.redaction.integration/documentformatinstance/is_redaction_accepted/
 is_root: false
-weight: 1030
+weight: 1020
 ---
 
 
@@ -20,9 +20,17 @@ def is_redaction_accepted(self, description):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| description | `RedactionDescription` | Redaction description |
+| description | `RedactionDescription` | Redaction description. |
 
 **Returns:** bool: True (by default) if redaction is accepted.
+
+### Aliases
+
+These names call `is_redaction_accepted` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `is_redaction_accepted_redaction_description` | `is_redaction_accepted_redaction_description(description)` |
 
 ### See Also
 * class [`DocumentFormatInstance`](/redaction/python-net/groupdocs.redaction.integration/documentformatinstance/)

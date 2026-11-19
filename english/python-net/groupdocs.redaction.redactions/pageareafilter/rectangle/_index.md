@@ -5,7 +5,7 @@ description: "The rectangle (top-left position and size of the area) on a page."
 type: docs
 url: /python-net/groupdocs.redaction.redactions/pageareafilter/rectangle/
 is_root: false
-weight: 2010
+weight: 2020
 ---
 
 

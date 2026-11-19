@@ -34,7 +34,7 @@ with Redactor("./sample.docx") as redactor:
 
 ## __init__ {#document}
 
-Initializes a new instance of [`Redactor`](/redaction/python-net/groupdocs.redaction/redactor/) using a stream.
+Initializes a new Redactor instance using a document stream.
 
 ```python
 def __init__(self, document):
@@ -50,18 +50,16 @@ def __init__(self, document):
 ```python
 from groupdocs.redaction import Redactor
 
-def open_from_stream():
-    # Open the document as a binary stream
-    with open("./sample.pdf", "rb") as stream:
-        # Load the document from the stream
-        with Redactor(stream) as redactor:
-            # Perform redactions here
-            pass
+with open("./sample.docx", "rb") as stream:
+    # Load the document from the stream
+    with Redactor(stream) as redactor:
+        # Perform redaction operations here
+        pass
 ```
 
 ## __init__ {#file_path-load_options}
 
-Initializes a new instance of [`Redactor`](/redaction/python-net/groupdocs.redaction/redactor/) for a password‑protected document using its path.
+Initializes a new Redactor instance for a password-protected document using its path.
 
 ```python
 def __init__(self, file_path, load_options):
@@ -70,23 +68,12 @@ def __init__(self, file_path, load_options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | `str` | Path to the file. |
+| file_path | `str` | Path to file. |
 | load_options | `LoadOptions` | Options, including password. |
-
-### Example
-
-```python
-from groupdocs.redaction import Redactor
-
-# Load a password‑protected document from a file path
-with Redactor("protected.docx") as redactor:
-    # Perform redaction operations here
-    pass
-```
 
 ## __init__ {#file_path-load_options-settings}
 
-Initializes a new Redactor instance for a password‑protected document using its path and settings.
+Initializes a new instance of [`Redactor`](/redaction/python-net/groupdocs.redaction/redactor/) for a password‑protected document using its path and settings.
 
 ```python
 def __init__(self, file_path, load_options, settings):
@@ -96,20 +83,8 @@ def __init__(self, file_path, load_options, settings):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | file_path | `str` | Path to file. |
-| load_options | `LoadOptions` | File‑dependent options, including password. |
+| load_options | `LoadOptions` | File-dependent options, including password. |
 | settings | `RedactorSettings` | Default settings for redaction process. |
-
-### Example
-
-```python
-from groupdocs.redaction import Redactor
-
-with Redactor("./sample.docx") as redactor:
-    info = redactor.get_document_info()
-    print(f"File type: {info.file_type}")
-    print(f"Number of pages: {info.page_count}")
-    print(f"Document size: {info.size} bytes")
-```
 
 ## __init__ {#document-load_options}
 
@@ -128,22 +103,20 @@ def __init__(self, document, load_options):
 ### Example
 
 ```python
-from groupdocs.redaction import Redactor, LoadOptions
+from groupdocs.redaction import Redactor
+from groupdocs.redaction.options import LoadOptions
 
-def open_protected_doc():
-    # Open the protected PDF as a binary stream
-    with open(r"C:\sample.pdf", "rb") as stream:
-        # Provide the password via LoadOptions
-        load_options = LoadOptions("mypassword")
-        # Initialize Redactor with the stream and load options
+def open_protected():
+    load_options = LoadOptions("mypassword")
+    with open("./sample.pdf", "rb") as stream:
         with Redactor(stream, load_options) as redactor:
-            # Perform redaction operations here
+            # Perform redactions here
             pass
 ```
 
 ## __init__ {#document-load_options-settings}
 
-Initializes a new instance of [`Redactor`](/redaction/python-net/groupdocs.redaction/redactor/) for a password‑protected document using a stream and settings.
+Initializes a new instance of [`Redactor`](/redaction/python-net/groupdocs.redaction/redactor/) for a password‑protected document using a stream and optional settings.
 
 ```python
 def __init__(self, document, load_options, settings):

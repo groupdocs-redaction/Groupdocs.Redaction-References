@@ -11,7 +11,7 @@ weight: 2010
 
 ## logger property
 
-The logger used for logging events and errors. Must be an instance of a class implementing [`ILogger`](/redaction/python-net/groupdocs.redaction.options/ilogger/).
+The logger used for logging events and errors. It must implement [`ILogger`](/redaction/python-net/groupdocs.redaction.options/ilogger/).
 
 ### Definition:
 ```python

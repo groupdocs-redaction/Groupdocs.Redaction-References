@@ -1,7 +1,7 @@
 ---
 title: skipped method
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: "Initializes a new instance of RedactionResult class with Skipped status."
+description: "Creates a new RedactionResult instance with a skipped status."
 type: docs
 url: /python-net/groupdocs.redaction/redactionresult/skipped/
 is_root: false
@@ -11,7 +11,7 @@ weight: 1030
 
 ## skipped {#description}
 
-Initializes a new instance of RedactionResult class with Skipped status.
+Creates a new [`RedactionResult`](/redaction/python-net/groupdocs.redaction/redactionresult/) instance with a skipped status.
 
 ```python
 def skipped(cls, description):

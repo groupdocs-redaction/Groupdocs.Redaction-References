@@ -15,8 +15,8 @@ Represents redaction filter, setting an area within a page of a document to appl
 
 Learn more
 
-- More details about applying redactions: https://docs.groupdocs.com/redaction/net/redaction-basics/
-- More details about redaction filters: https://docs.groupdocs.com/redaction/net/use-pdf-redaction-filters/
+- More details about applying redactions: https://docs.groupdocs.com/redaction/python-net/redaction-basics/
+- More details about redaction filters: https://docs.groupdocs.com/redaction/python-net/use-pdf-redaction-filters/
 
 The PageAreaFilter type exposes the following members:
 
@@ -28,22 +28,29 @@ The PageAreaFilter type exposes the following members:
 ### Properties
 | Property | Description |
 | :- | :- |
+| [area_rectangle](/redaction/python-net/groupdocs.redaction.redactions/pageareafilter/area_rectangle/) | The rectangle (top-left position and size of the area) on a page. |
 | [rectangle](/redaction/python-net/groupdocs.redaction.redactions/pageareafilter/rectangle/) | The rectangle (top-left position and size of the area) on a page. |
 
 ### Example
 
 ```python
-from groupdocs.redaction import Redactor
 from groupdocs.redaction.redactions import PageAreaFilter
-from groupdocs.pydrawing import Point, Size
+from groupdocs.redaction.options.drawing import Point, Size
 
-with Redactor("doc.pdf") as redactor:
-    page = redactor.get_document_info().pages[0]
-    area_filter = PageAreaFilter(
-        Point(0, int(page.height / 2)),
-        Size(page.width, int(page.height / 2))
-    )
+# Define the top‑left corner of the area
+origin = Point(0, 100)
+
+# Define the size of the area
+area_size = Size(200, 300)
+
+# Create a filter that limits redaction to the specified rectangle
+filter = PageAreaFilter(origin, area_size)
 ```
+
+### Guides
+Task guides that use `PageAreaFilter`:
+
+* [Use PageAreaRedaction](/redaction/python-net/guides/use-page-area-redaction/)
 
 ### See Also
 * module [`groupdocs.redaction.redactions`](/redaction/python-net/groupdocs.redaction.redactions/)

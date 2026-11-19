@@ -15,19 +15,16 @@ Defines methods that are required for access formats of fixed structure, such as
 
 Learn more
 
-- More details about applying redactions: https://docs.groupdocs.com/redaction/net/redaction-basics/
-- More details about PageAreaRedaction: https://docs.groupdocs.com/redaction/net/use-page-area-redaction/
-- More details about implementing custom formats: https://docs.groupdocs.com/redaction/net/create-custom-format-handler/
+- More details about applying redactions: [Redaction basics](https://docs.groupdocs.com/redaction/python-net/redaction-basics/)
+- More details about PageAreaRedaction: [Use PageAreaRedaction](https://docs.groupdocs.com/redaction/python-net/use-page-area-redaction/)
 
 The IFixedFormatDocument type exposes the following members:
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [load_images](/redaction/python-net/groupdocs.redaction.integration/ifixedformatdocument/load_images/#filters) | Loads an array of raster image instances contained within the document that match the specified [`RedactionFilter`](/redaction/python-net/groupdocs.redaction.redactions/redactionfilter/) set. |
-| [load_images_redaction_filter](/redaction/python-net/groupdocs.redaction.integration/ifixedformatdocument/load_images_redaction_filter/) |  |
+| [load_images](/redaction/python-net/groupdocs.redaction.integration/ifixedformatdocument/load_images/#filters) | Loads an array of raster image instances contained within the document that match the specified RedactionFilter set. |
 | [redact_annotation](/redaction/python-net/groupdocs.redaction.integration/ifixedformatdocument/redact_annotation/#regular_expression-options) | Replaces the matching text in all annotations within the document with given options. |
-| [redact_annotation_regex](/redaction/python-net/groupdocs.redaction.integration/ifixedformatdocument/redact_annotation_regex/) |  |
 
 ### See Also
 * module [`groupdocs.redaction.integration`](/redaction/python-net/groupdocs.redaction.integration/)

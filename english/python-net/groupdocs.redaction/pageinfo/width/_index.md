@@ -1,7 +1,7 @@
 ---
 title: width property
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: "The page width."
+description: "The width of the page."
 type: docs
 url: /python-net/groupdocs.redaction/pageinfo/width/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2030
 
 ## width property
 
-The page width.
+The width of the page.
 
 ### Definition:
 ```python

@@ -5,7 +5,7 @@ description: "Word Open XML Macro-Enabled Document Template (.dotm)"
 type: docs
 url: /python-net/groupdocs.redaction/filetype/dotm/
 is_root: false
-weight: 3310
+weight: 3440
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: expression property
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: "The regular expression to match."
+description: "The regular expression to match as a string."
 type: docs
 url: /python-net/groupdocs.redaction.redactions/annotationredaction/expression/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2020
 
 ## expression property
 
-The regular expression to match.
+The regular expression to match as a string.
 
 ### Definition:
 ```python

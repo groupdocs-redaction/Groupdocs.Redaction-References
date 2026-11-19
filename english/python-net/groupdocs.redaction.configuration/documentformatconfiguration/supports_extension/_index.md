@@ -24,5 +24,14 @@ def supports_extension(self, file_extension):
 
 **Returns:** bool: True if the extension is listed in ExtensionFilter.
 
+### Aliases
+
+These names call `supports_extension` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `supports_extension_file` | `supports_extension_file(file_extension)` |
+| `supports_extension_string` | `supports_extension_string(file_extension)` |
+
 ### See Also
 * class [`DocumentFormatConfiguration`](/redaction/python-net/groupdocs.redaction.configuration/documentformatconfiguration/)

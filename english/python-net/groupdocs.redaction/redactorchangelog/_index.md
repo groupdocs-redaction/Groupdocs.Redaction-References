@@ -1,21 +1,21 @@
 ---
 title: RedactorChangeLog class
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: "Represents results for a list of redactions passed to the Redactor.apply() method."
+description: "Represents results for a list of redactions, passed to Apply() method of Redactor class."
 type: docs
 url: /python-net/groupdocs.redaction/redactorchangelog/
 is_root: false
-weight: 160
+weight: 130
 ---
 
 
 ## RedactorChangeLog class
 
-Represents results for a list of redactions passed to the `Redactor.apply()` method.
+Represents results for a list of redactions, passed to `Apply()` method of [`Redactor`](/redaction/python-net/groupdocs.redaction/redactor/) class.
 
 Learn more
 
-- More details about redaction logs: [Redaction basics](https://docs.groupdocs.com/redaction/net/redaction-basics/)
+- More details about redaction logs: https://docs.groupdocs.com/redaction/python-net/redaction-basics/
 
 The RedactorChangeLog type exposes the following members:
 

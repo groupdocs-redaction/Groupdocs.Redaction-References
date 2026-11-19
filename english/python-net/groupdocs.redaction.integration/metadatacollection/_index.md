@@ -24,7 +24,6 @@ The MetadataCollection type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [add_range](/redaction/python-net/groupdocs.redaction.integration/metadatacollection/add_range/#items) | Adds a specified collection of MetadataItem objects to this instance. |
-| [add_range_metadata_collection](/redaction/python-net/groupdocs.redaction.integration/metadatacollection/add_range_metadata_collection/) |  |
 
 ### See Also
 * module [`groupdocs.redaction.integration`](/redaction/python-net/groupdocs.redaction.integration/)

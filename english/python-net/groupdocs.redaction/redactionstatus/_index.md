@@ -5,7 +5,7 @@ description: "RedactionStatus enum — GroupDocs.Redaction for Python via .NET A
 type: docs
 url: /python-net/groupdocs.redaction/redactionstatus/
 is_root: false
-weight: 140
+weight: 110
 ---
 
 
@@ -26,6 +26,7 @@ Task guides that use `RedactionStatus`:
 
 * [Redaction basics](/redaction/python-net/guides/redaction-basics/)
 * [Image redactions](/redaction/python-net/guides/image-redactions/)
+* [Use PageAreaRedaction](/redaction/python-net/guides/use-page-area-redaction/)
 
 ### See Also
 * module [`groupdocs.redaction`](/redaction/python-net/groupdocs.redaction/)

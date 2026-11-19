@@ -20,18 +20,21 @@ def __init__(self, top_left, size):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| top_left | `System.Drawing.Point` | Top-left area coordinates. |
-| size | `System.Drawing.Size` | Area size and color. |
+| top_left | `Point` | Top-left area coordinates. |
+| size | `Size` | Area size. |
 
 ### Example
 
 ```python
 from groupdocs.redaction.redactions import PageAreaFilter
-from groupdocs.pydrawing import Point, Size
+from groupdocs.redaction.options.drawing import Point, Size
 
-point = Point(0, 100)
-size = Size(200, 150)
-filter = PageAreaFilter(point, size)
+# Define the top-left corner and size of the redaction area
+top_left = Point(0, 100)
+area_size = Size(200, 150)
+
+# Create the filter
+filter = PageAreaFilter(top_left, area_size)
 ```
 
 ### See Also

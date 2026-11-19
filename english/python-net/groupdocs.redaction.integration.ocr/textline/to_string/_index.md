@@ -18,7 +18,7 @@ def to_string(self):
     ...
 ```
 
-**Returns:** str: textual content of the recognized line of text
+**Returns:** str: textual content of the recognized line of text.
 
 ### See Also
 * class [`TextLine`](/redaction/python-net/groupdocs.redaction.integration.ocr/textline/)

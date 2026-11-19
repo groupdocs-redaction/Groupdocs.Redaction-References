@@ -1,17 +1,17 @@
 ---
 title: custom_redaction property
 second_title: GroupDocs.Redaction for Python via .NET API References
-description: "The custom redaction handler that allows users to define their own redaction logic."
+description: "The custom redaction ICustomRedactionHandler handler that allows users to define their own redaction logic."
 type: docs
 url: /python-net/groupdocs.redaction.redactions/replacementoptions/custom_redaction/
 is_root: false
-weight: 2030
+weight: 2040
 ---
 
 
 ## custom_redaction property
 
-The custom redaction handler that allows users to define their own redaction logic.
+The custom redaction [`ICustomRedactionHandler`](/redaction/python-net/groupdocs.redaction.redactions/icustomredactionhandler/) handler that allows users to define their own redaction logic.
 
 ### Definition:
 ```python

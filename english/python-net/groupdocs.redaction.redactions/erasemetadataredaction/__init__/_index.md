@@ -18,20 +18,9 @@ def __init__(self):
     ...
 ```
 
-### Example
-
-```python
-from groupdocs.redaction import Redactor
-from groupdocs.redaction.redactions import EraseMetadataRedaction, MetadataFilters
-
-with Redactor("document.docx") as redactor:
-    redactor.apply(EraseMetadataRedaction(MetadataFilters.ALL))
-    redactor.save()
-```
-
 ## __init__ {#filter}
 
-Initializes a new instance of EraseMetadataRedaction, erasing metadata that matches the specified `MetadataFilters`.
+Initializes a new instance of [`EraseMetadataRedaction`](/redaction/python-net/groupdocs.redaction.redactions/erasemetadataredaction/) that erases metadata matching the specified `MetadataFilters` combination.
 
 ```python
 def __init__(self, filter):
@@ -49,11 +38,7 @@ from groupdocs.redaction import Redactor
 from groupdocs.redaction.redactions import EraseMetadataRedaction, MetadataFilters
 
 with Redactor("document.docx") as redactor:
-    # Erase all metadata
     redactor.apply(EraseMetadataRedaction(MetadataFilters.ALL))
-    # Erase only the author metadata field
-    redactor.apply(EraseMetadataRedaction(MetadataFilters.AUTHOR))
-    redactor.save()
 ```
 
 ### See Also

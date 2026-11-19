@@ -5,7 +5,7 @@ description: "OpenDocument Spreadsheet Template (.ots)"
 type: docs
 url: /python-net/groupdocs.redaction/filetype/ots/
 is_root: false
-weight: 3230
+weight: 3360
 ---
 
 

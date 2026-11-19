@@ -24,5 +24,13 @@ def delete_annotations(self, regular_expression):
 
 **Returns:** Deletion result.
 
+### Aliases
+
+These names call `delete_annotations` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `delete_annotations_regex` | `delete_annotations_regex(regular_expression)` |
+
 ### See Also
 * class [`IAnnotatedDocument`](/redaction/python-net/groupdocs.redaction.integration/iannotateddocument/)

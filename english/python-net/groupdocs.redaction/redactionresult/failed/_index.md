@@ -11,7 +11,7 @@ weight: 1010
 
 ## failed {#description}
 
-Initializes a new RedactionResult instance with a failed status.
+Initializes a new [`RedactionResult`](/redaction/python-net/groupdocs.redaction/redactionresult/) instance with a failed status.
 
 ```python
 def failed(cls, description):
